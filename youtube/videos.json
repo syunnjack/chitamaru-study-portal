@@ -271,6 +271,33 @@
       "thumb": ["y = x² と y = x + 2", "y切片で2つに切る", "答え 3"],
       "hook": "入試の関数の大問は、この1行で終わります。½ ×（y切片）×（xの差）。",
       "point": "交点は x = −1, 2、y切片は 2。OC を底辺に2つに分けて 1 + 2 = 3。座標の公式でも検算できます。"
+    },
+    {
+      "slug": "arithmetic-series",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/arithmetic-series.html",
+      "title": "【高校数学B】等差数列の和は平均 × 項数／初項3・公差5の第20項までの和",
+      "thumb": ["初項 3、公差 5", "平均 × 項数", "答え 1010"],
+      "hook": "和の公式は2つ覚えなくていい。使う方を1つに固定するのが要領です。",
+      "point": "aₙ = 5n − 2 から a₂₀ = 98。S₂₀ = 20(3 + 98)/2 = 1010。範囲つきの和は S₂₀ − S₉ で引き算。"
+    },
+    {
+      "slug": "circle-tangent",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/circle-tangent.html",
+      "title": "【高校数学II】円の接線は置きかえるだけ／x² + y² = 25 上の点(3, 4)",
+      "thumb": ["円 x² + y² = 25", "接点で置きかえる", "答え 3x + 4y = 25"],
+      "hook": "接線は5秒で終わります。x² を x₁x、y² を y₁y に置きかえるだけ。",
+      "point": "根拠は「半径 ⊥ 接線」。中心からの距離 25/5 = 5 が半径と一致することで検算できます。"
+    },
+    {
+      "slug": "salt-water-mix",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/salt-water-mix.html",
+      "title": "【高校入試】食塩水は食塩の重さで式を立てる／5%と12%で8%を350g",
+      "thumb": ["5% と 12% を混ぜる", "食塩の重さで立式", "答え 200g と 150g"],
+      "hook": "パーセントは足せません。混ぜても変わらないのは、食塩水と食塩の重さだけ。",
+      "point": "x + y = 350 と 5x + 12y = 2800 → 200 g と 150 g。てんびん（距離3:4 → 重さ4:3）で見当もつく。"
     }
   ]
 }

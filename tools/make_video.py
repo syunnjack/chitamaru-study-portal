@@ -34,6 +34,9 @@ TAIL_SEC = 0.7
 
 # IPA Pゴシックに無い上付き数字は「^n」に置き換える（豆腐対策）。
 GLYPH_FALLBACK = {"⁰": "^0", "⁴": "^4", "⁵": "^5", "⁶": "^6", "⁷": "^7", "⁸": "^8", "⁹": "^9"}
+# 下付き数字・下付き n は IPA フォントに無いので、普通の文字に落とす（S₂₀ → S20、aₙ → an）。
+GLYPH_FALLBACK.update({c: str(i) for i, c in enumerate("₀₁₂₃₄₅₆₇₈₉")})
+GLYPH_FALLBACK["ₙ"] = "n"
 
 
 def safe(text: str) -> str:

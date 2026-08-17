@@ -320,6 +320,38 @@ sin²θ + cos²θ = 1 を代入して 1 + 2sinθcosθ = 1/4 → sinθcosθ = −
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学B】等差数列の和は平均 × 項数／初項3・公差5の第20項までの和
+
+- ファイル：`videos/arithmetic-series.mp4`
+- サムネイル：`assets/youtube/thumbs/arithmetic-series.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/arithmetic-series.html
+
+```
+和の公式は2つ覚えなくていい。使う方を1つに固定するのが要領です。
+aₙ = 5n − 2 から a₂₀ = 98。S₂₀ = 20(3 + 98)/2 = 1010。範囲つきの和は S₂₀ − S₉ で引き算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/arithmetic-series.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】円の接線は置きかえるだけ／x² + y² = 25 上の点(3, 4)
+
+- ファイル：`videos/circle-tangent.mp4`
+- サムネイル：`assets/youtube/thumbs/circle-tangent.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circle-tangent.html
+
+```
+接線は5秒で終わります。x² を x₁x、y² を y₁y に置きかえるだけ。
+根拠は「半径 ⊥ 接線」。中心からの距離 25/5 = 5 が半径と一致することで検算できます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circle-tangent.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -461,6 +493,22 @@ AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き
 交点は x = −1, 2、y切片は 2。OC を底辺に2つに分けて 1 + 2 = 3。座標の公式でも検算できます。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/parabola-line-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】食塩水は食塩の重さで式を立てる／5%と12%で8%を350g
+
+- ファイル：`videos/salt-water-mix.mp4`
+- サムネイル：`assets/youtube/thumbs/salt-water-mix.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/salt-water-mix.html
+
+```
+パーセントは足せません。混ぜても変わらないのは、食塩水と食塩の重さだけ。
+x + y = 350 と 5x + 12y = 2800 → 200 g と 150 g。てんびん（距離3:4 → 重さ4:3）で見当もつく。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/salt-water-mix.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領

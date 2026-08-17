@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>等差数列の和（初項3・公差5、第20項までの和）｜高校数学 第20回</title>
+<meta name="description" content="等差数列の和は「初項と末項の平均 × 項数」だけ。初項3・公差5の第20項までの和 S₂₀ = 1010 を、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第20回 等差数列の和</div>
+
+<main class="wrap">
+  <h1>第20回　等差数列の和は「初項と末項の平均 × 項数」</h1>
+  <div class="formula">初項 3、公差 5 の等差数列について、初項から第20項までの和 S₂₀ を求めよ。</div>
+  <p>公式を2つ覚えるのではなく、使う方を1つに固定するのが要領です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/arithmetic-series.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/arithmetic-series.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>Sₙ = n（a₁ + aₙ）÷ 2 ＝（初項と末項の平均）×（項数）</strong></p>
+    <p>末項さえ出せば終わりなので、まず一般項を書きます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>一般項</strong><div class="formula">aₙ = a₁ + (n − 1)d = 3 + 5(n − 1) = 5n − 2</div><p>公差にかけるのは n ではなく n − 1。ここが最頻出のミスです。</p></li>
+    <li><strong>末項</strong><div class="formula">a₂₀ = 5(20) − 2 = 98</div><p>3, 8, 13, 18, … と5ずつ増える20番目です。</p></li>
+    <li><strong>和の公式</strong><div class="formula">S₂₀ = 20(3 + 98) / 2 = 10 × 101 = <strong>1010</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>もう一つの公式 Sₙ = n{2a₁ + (n − 1)d} / 2 でも 20(6 + 95) / 2 = 1010。1010 ÷ 20 = 50.5 は 3 と 98 の平均なので、値の大きさも自然です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「第10項から第20項までの和」は範囲を直接扱わず、<strong>S₂₀ − S₉</strong> と引き算します。</li>
+      <li>Sₙ は n の<strong>2次式</strong>。だから「和が最大になる n」は、項が正から負に変わるところ（＝2次関数の頂点付近）で決まります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>等差数列の和 =（初項 + 末項）÷ 2 × 項数</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>初項 2、公差 3 の初項から第15項までの和
+        <details><summary>答え</summary><p>a₁₅ = 2 + 3×14 = 44 → S₁₅ = 15(2 + 44)/2 = 345</p></details>
+      </li>
+      <li>1 から 100 までの整数の和
+        <details><summary>答え</summary><p>100(1 + 100)/2 = 5050</p></details>
+      </li>
+      <li>初項 3、公差 5 の第10項から第20項までの和
+        <details><summary>答え</summary><p>S₂₀ − S₉ = 1010 − 9(3 + 43)/2 = 1010 − 207 = 803</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="linear-diophantine.html">← 第19回 不定方程式の整数解</a>　｜　<a href="circle-tangent.html">第21回 円の接線 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
