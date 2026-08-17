@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>外れ値の判定（四分位範囲の1.5倍）｜高校数学 第55回</title>
+<meta name="description" content="外れ値は Q1 − 1.5IQR、Q3 + 1.5IQR の基準で判定します。四分位数の求め方、外れ値を消してはいけない理由まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第55回 外れ値の判定</div>
+
+<main class="wrap">
+  <h1>第55回　外れ値は「四分位範囲の1.5倍」で決める</h1>
+  <div class="formula">データ 4, 7, 8, 10, 12, 13, 15, 32 について四分位数を求め、外れ値があるかどうかを判定せよ（外れ値の基準は Q1 − 1.5×IQR より小さい値、Q3 + 1.5×IQR より大きい値とする）。</div>
+  <p>外れ値は目で見て決めるのではなく、基準で決めます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/outlier-iqr.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/outlier-iqr.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>Q1 − 1.5×IQR より小さい／Q3 + 1.5×IQR より大きい値が外れ値（IQR = Q3 − Q1）</strong></p>
+    <p>外れ値は「見た目」ではなく基準で判定します。箱ひげ図では外れ値を点で描き、ひげはそこまで伸ばしません。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>Q2 を出す</strong><div class="formula">8個の真ん中2つは 10 と 12 → Q2 = 11</div></li>
+    <li><strong>Q1、Q3 を出す</strong><div class="formula">下半分 4, 7, 8, 10 → Q1 = 7.5　／　上半分 12, 13, 15, 32 → Q3 = 14</div><p>下半分・上半分はそれぞれ4個なので、真ん中2つの平均です。</p></li>
+    <li><strong>IQR と境界を出す</strong><div class="formula">IQR = 14 - 7.5 = 6.5 → 1.5 × 6.5 = 9.75</div><p>下側の境界 7.5 − 9.75 = −2.25、上側 14 + 9.75 = 23.75。</p></li>
+    <li><strong>判定する</strong><div class="formula">32 > 23.75 → 32 が外れ値（他はすべて範囲内）</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>32 を除くと全データが境界の内側に入ります。平均も 12.6 → 9.9 と大きく動き、外れ値の特徴と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>外れ値を勝手に消してはいけません</strong>。測定ミスか、本当に珍しい値かを考えるのが正しい態度です（記述の得点源）。</li>
+      <li>データの個数が奇数のときは<strong>中央値を除いて</strong>下半分・上半分に分けます（高校教科書の流儀）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>外れ値は Q1 - 1.5IQR より小、Q3 + 1.5IQR より大</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>Q1 = 20、Q3 = 30 のときの外れ値の境界
+        <details><summary>答え</summary><p>IQR = 10、1.5×10 = 15 なので下側 5、上側 45</p></details>
+      </li>
+      <li>4, 7, 8, 10, 12, 13, 15, 32 の四分位範囲と範囲
+        <details><summary>答え</summary><p>IQR = 6.5、範囲 = 32 − 4 = 28</p></details>
+      </li>
+      <li>上のデータから 32 を除いたときの Q3
+        <details><summary>答え</summary><p>残り7個の中央値は 10。上半分 12, 13, 15 の中央値で Q3 = 13</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="covariance.html">← 第54回 共分散</a>　｜　<a href="standardization.html">第56回 標準化と偏差値 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

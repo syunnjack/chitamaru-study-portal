@@ -688,6 +688,614 @@ P_A(B) = P(A∩B) ÷ P(A)。2回目が赤も 5/8 で、何回目でも同じと�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学I】2次関数の決定は頂点の形で置くだけ／頂点 (2, −3)、点 (4, 5) を通る
+
+- ファイル：`videos/quadratic-determine.mp4`
+- サムネイル：`assets/youtube/thumbs/quadratic-determine.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-determine.html
+
+```
+条件の書き方で、置く形が決まります。
+頂点が分かれば y = a(x − p)² + q。代入して a を出し、展開形で検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-determine.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】共有点の個数は判別式の符号だけ／y = x² + 3 と y = 2x + k
+
+- ファイル：`videos/quadratic-intersection.mp4`
+- サムネイル：`assets/youtube/thumbs/quadratic-intersection.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-intersection.html
+
+```
+「共有点の個数」「接する」は、すべて判別式の話に翻訳できます。
+連立して y を消し、D/4 = k − 2 の符号で場合分け。境界の k = 2 を代入して検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-intersection.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】異符号の2解は「積 < 0」だけ／判別式を書かなくてよい理由
+
+- ファイル：`videos/quadratic-root-signs.mp4`
+- サムネイル：`assets/youtube/thumbs/quadratic-root-signs.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-root-signs.html
+
+```
+解を求めずに、係数の条件だけで決めます。
+異符号なら積 &lt; 0 の1つだけ。2解とも正なら D ≧ 0・和 &gt; 0・積 &gt; 0 の3点セットです。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-root-signs.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】3辺が分かれば角は余弦定理の逆／7, 8, 5 で ∠A = 60°
+
+- ファイル：`videos/cosine-rule-angle.mp4`
+- サムネイル：`assets/youtube/thumbs/cosine-rule-angle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/cosine-rule-angle.html
+
+```
+3辺が分かって角を聞かれたら、道は1本です。
+cos A = (b² + c² − a²)/(2bc)。向かい側の辺だけマイナス。cos が負なら鈍角です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/cosine-rule-angle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】外接円の半径は「2R =」で書く／a = 6、A = 30° で R = 6
+
+- ファイル：`videos/circumradius.mp4`
+- サムネイル：`assets/youtube/thumbs/circumradius.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circumradius.html
+
+```
+外接円と聞いたら正弦定理。書き方ひとつでミスが消えます。
+2R = a / sin A の形で書けば R と 2R を混同しません。b = 2R sin B も同じ式から。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circumradius.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】3辺だけならヘロンの公式／13, 14, 15 の面積は 84
+
+- ファイル：`videos/heron-area.mp4`
+- サムネイル：`assets/youtube/thumbs/heron-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/heron-area.html
+
+```
+3辺だけ与えられたときの最短ルートです。
+s = 21、S = √(21×8×7×6)。√の中は素因数分解して 49×16×9 にまとめると一瞬です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/heron-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】内接円の半径は S = rs だけ／5, 12, 13 で r = 2、R = 13/2
+
+- ファイル：`videos/incircle-radius.mp4`
+- サムネイル：`assets/youtube/thumbs/incircle-radius.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/incircle-radius.html
+
+```
+内接円は、面積を2通りで表すだけで出ます。
+r = S ÷ s。直角三角形なら r = (a + b − c)/2、斜辺がそのまま外接円の直径です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/incircle-radius.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】鈍角の三角比は符号を先に決める／cos θ = −3/5 で sin θ = 4/5
+
+- ファイル：`videos/trig-values-obtuse.mp4`
+- サムネイル：`assets/youtube/thumbs/trig-values-obtuse.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-values-obtuse.html
+
+```
+符号を先に決めてしまえば、あとは相互関係の計算だけです。
+cos が負 → 鈍角 → sin は正、tan は負。大きさは sin²θ + cos²θ = 1 から。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-values-obtuse.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】度数分布表の平均は階級値×度数／答え 22
+
+- ファイル：`videos/frequency-mean.mp4`
+- サムネイル：`assets/youtube/thumbs/frequency-mean.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/frequency-mean.html
+
+```
+元のデータが分からなくても、平均は出せます。
+階級値（階級の真ん中）× 度数 の合計を、度数の合計で割るだけ。仮平均でも検算できます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/frequency-mean.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】外れ値があるときの代表値は中央値／平均が引っ張られる仕組み
+
+- ファイル：`videos/median-mode.mp4`
+- サムネイル：`assets/youtube/thumbs/median-mode.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/median-mode.html
+
+```
+数値を出すだけでなく、どれが適切かまで答えます。
+平均 ≒ 10.3 は7個中6個より大きく代表値に不適。外れ値があるときは中央値 5 です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/median-mode.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】変量の変換は「平均は同じ式、標準偏差は割った数だけ」
+
+- ファイル：`videos/variable-transformation.mp4`
+- サムネイル：`assets/youtube/thumbs/variable-transformation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/variable-transformation.html
+
+```
+データを全部計算し直す必要はありません。
+平均は同じ式に代入、標準偏差は |h| で割るだけ。分散は h² で割ります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/variable-transformation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】共分散は偏差の積の平均／4組のデータで 6.5
+
+- ファイル：`videos/covariance.mp4`
+- サムネイル：`assets/youtube/thumbs/covariance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/covariance.html
+
+```
+表を作れば、あとは足し算だけです。
+共分散 = Σ(dx・dy) ÷ n。Σdx = 0、Σdy = 0 を確認すれば偏差の計算は正しいです。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/covariance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】外れ値は四分位範囲の1.5倍で決める／32 は外れ値か
+
+- ファイル：`videos/outlier-iqr.mp4`
+- サムネイル：`assets/youtube/thumbs/outlier-iqr.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/outlier-iqr.html
+
+```
+外れ値は、目で見て決めるのではなく基準で決めます。
+IQR = 6.5、上側の境界は 14 + 9.75 = 23.75。これを超える 32 が外れ値です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/outlier-iqr.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】偏差値は「標準偏差いくつ分」／点差15と8でも同じ偏差値60
+
+- ファイル：`videos/standardization.mp4`
+- サムネイル：`assets/youtube/thumbs/standardization.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/standardization.html
+
+```
+平均との差だけでは、科目をまたいで比べられません。
+z = (得点 − 平均) ÷ 標準偏差、偏差値 = 50 + 10z。標準化すると平均0・標準偏差1になります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/standardization.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】反復試行は nCk × p^k／さいころ5回で3の倍数2回は 80/243
+
+- ファイル：`videos/repeated-trials.mp4`
+- サムネイル：`assets/youtube/thumbs/repeated-trials.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/repeated-trials.html
+
+```
+何回目に出るかを全部考える必要はありません。
+5C2 × (1/3)² × (2/3)³ = 80/243。nCk の掛け忘れが最大のミスです。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/repeated-trials.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】円順列は1人を固定するだけ／7人で720通り、隣り合うのは240通り
+
+- ファイル：`videos/circular-permutation.mp4`
+- サムネイル：`assets/youtube/thumbs/circular-permutation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circular-permutation.html
+
+```
+回転して同じ並びを重複して数えない工夫が1つだけあります。
+円順列は (n − 1)!。隣り合う条件は2人をまとめて 5! × 2! = 240 通り。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/circular-permutation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】重複組合せは仕切りを入れるだけ／3種類から6本で28通り
+
+- ファイル：`videos/combination-repetition.mp4`
+- サムネイル：`assets/youtube/thumbs/combination-repetition.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/combination-repetition.html
+
+```
+数え上げようとすると大変ですが、置きかえると一瞬です。
+〇6個と仕切り2本の並べ方 = 8C2 = 28通り。1本以上の条件なら先に配ります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/combination-repetition.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】互除法は割ってあまりに置きかえるだけ／1071 と 1029 の最大公約数 21
+
+- ファイル：`videos/euclid-algorithm.mp4`
+- サムネイル：`assets/youtube/thumbs/euclid-algorithm.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/euclid-algorithm.html
+
+```
+素因数分解で手が止まる数でも、割り算の繰り返しなら確実です。
+あまりを 42 → 21 → 0 と追い、割る数 21 が最大公約数。商が互いに素かで検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/euclid-algorithm.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】加法定理は知っている角に分ける／sin 75° = (√6 + √2)/4
+
+- ファイル：`videos/addition-theorem.mp4`
+- サムネイル：`assets/youtube/thumbs/addition-theorem.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/addition-theorem.html
+
+```
+三角定規に出てこない角も、知っている角に分ければ出せます。
+sin(α + β) = sinα cosβ + cosα sinβ。cos は符号が逆。α = β で2倍角も作れます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/addition-theorem.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】点と直線の距離は代入して割るだけ／4/5 と 6/5
+
+- ファイル：`videos/point-line-distance.mp4`
+- サムネイル：`assets/youtube/thumbs/point-line-distance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/point-line-distance.html
+
+```
+垂線を引いて交点を出す必要はありません。
+d = |ax₀ + by₀ + c| ÷ √(a² + b²)。直線を = 0 の形にそろえてから代入します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/point-line-distance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】対数方程式は真数条件を先に書く／x = 2 だけが答え
+
+- ファイル：`videos/log-equation.mp4`
+- サムネイル：`assets/youtube/thumbs/log-equation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/log-equation.html
+
+```
+出てきた2つの解のうち、1つは答えになりません。
+真数条件 x &gt; 1 を先に書き、和を積にまとめて x² + x − 6 = 0。x = −3 は不適。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/log-equation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】3次方程式は1つの解を代入で見つける／x = 1, 3, −2
+
+- ファイル：`videos/factor-theorem.mp4`
+- サムネイル：`assets/youtube/thumbs/factor-theorem.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/factor-theorem.html
+
+```
+3次方程式に解の公式は使いません。1つ見つけて割るだけです。
+候補は定数項6の約数。f(1) = 0 から (x−1)(x−3)(x+2) = 0。解と係数の関係で検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/factor-theorem.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】相加相乗は積が定数のときだけ／x + 4/x の最小値は 4
+
+- ファイル：`videos/am-gm-inequality.mp4`
+- サムネイル：`assets/youtube/thumbs/am-gm-inequality.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/am-gm-inequality.html
+
+```
+微分を使わなくても1行で終わります。ただし使える条件があります。
+a + b ≧ 2√(ab)。積が定数か確認し、等号成立 x = 2 まで書いて初めて最小値と言えます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/am-gm-inequality.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】Σ はばらして公式／Σk(k+2) = n(n+1)(2n+7)/6
+
+- ファイル：`videos/sigma-calc.mp4`
+- サムネイル：`assets/youtube/thumbs/sigma-calc.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/sigma-calc.html
+
+```
+かっこのままでは計算できません。まず展開します。
+Σk² + 2Σk に分け、n(n+1)/6 でくくって n(n+1)(2n+7)/6。n = 1, 3 で検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/sigma-calc.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】階差数列は a₁ に階差の和／2, 5, 10, 17 の一般項は n² + 1
+
+- ファイル：`videos/difference-sequence.mp4`
+- サムネイル：`assets/youtube/thumbs/difference-sequence.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/difference-sequence.html
+
+```
+等差でも等比でもない数列は、まず差を見ます。
+aₙ = a₁ + Σ(k=1..n−1)bₖ。上端は n−1、最後に n = 1 の確認を書きます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/difference-sequence.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】数学的帰納法は型で覚える／n³ + 2n が3の倍数の証明
+
+- ファイル：`videos/induction.mp4`
+- サムネイル：`assets/youtube/thumbs/induction.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/induction.html
+
+```
+証明問題は、書き方の型を覚えてしまえば怖くありません。
+倍数は 3m と置く。仮定の k³ + 2k が現れるように並べ替えて 3 でくくります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/induction.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】二項分布は np と np(1−p) だけ／さいころ180回で平均30、標準偏差5
+
+- ファイル：`videos/binomial-distribution.mp4`
+- サムネイル：`assets/youtube/thumbs/binomial-distribution.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/binomial-distribution.html
+
+```
+1回ずつ計算する必要はありません。公式2つで終わります。
+n = 180、p = 1/6 で平均 30、分散 25、標準偏差 5。分散は必ず平均以下です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/binomial-distribution.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】信頼区間は標本平均 ± 1.96 × σ/√n／65.6〜70.4 g
+
+- ファイル：`videos/confidence-interval.mp4`
+- サムネイル：`assets/youtube/thumbs/confidence-interval.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/confidence-interval.html
+
+```
+公式の形を1つ覚えるだけです。÷ √n を忘れないこと。
+標準誤差 12/10 = 1.2、1.96×1.2 = 2.352 で 68 ± 2.352。n を4倍にすると幅は半分。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/confidence-interval.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】部分積分は微分して簡単になる方を f に／∫x e^x dx = 1
+
+- ファイル：`videos/integration-by-parts.mp4`
+- サムネイル：`assets/youtube/thumbs/integration-by-parts.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/integration-by-parts.html
+
+```
+かけ算の形の積分は、部分積分の合図です。
+f = x、g′ = e^x。[x e^x] − ∫e^x dx = 1。原始関数 (x−1)e^x を微分して検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/integration-by-parts.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】合成関数の微分は外×中／(2x+1)⁵ の微分は 10(2x+1)⁴
+
+- ファイル：`videos/chain-rule.mp4`
+- サムネイル：`assets/youtube/thumbs/chain-rule.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/chain-rule.html
+
+```
+展開する必要はありません。外から1枚ずつ剥がします。
+外の微分 × 中身の微分。log は中身の微分÷中身、e はそのまま×中身の微分。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/chain-rule.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】∞−∞ は有理化してから割る／√(x²+3x) − x = 3/2
+
+- ファイル：`videos/limit-infinity.mp4`
+- サムネイル：`assets/youtube/thumbs/limit-infinity.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/limit-infinity.html
+
+```
+そのまま代入すると ∞ − ∞。形を変えてから代入します。
+有理化で √ を消し、分母分子を x で割る。x = 100 を入れて 1.489 で検算できます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/limit-infinity.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】囲まれた面積は「上−下」／y = √x と y = x で 1/6
+
+- ファイル：`videos/area-between-curves.mp4`
+- サムネイル：`assets/youtube/thumbs/area-between-curves.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/area-between-curves.html
+
+```
+まず交点、次に上下の判定、最後に積分です。
+交点 0, 1。x = 1/4 の代入で √x が上と判定し、∫(√x − x)dx = 1/6。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/area-between-curves.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】sin² の積分は半角で次数を下げる／答えは π/4
+
+- ファイル：`videos/trig-integral.mp4`
+- サムネイル：`assets/youtube/thumbs/trig-integral.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-integral.html
+
+```
+2乗のままでは積分できません。次数を下げます。
+sin²x = (1 − cos2x)/2。cos2x の積分は sin2x ÷ 2。答えは π/4。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-integral.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】垂直は内積0、平行はたすきがけ0／t = 2/3 と t = −6
+
+- ファイル：`videos/vector-components.mp4`
+- サムネイル：`assets/youtube/thumbs/vector-components.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-components.html
+
+```
+垂直は足す、平行は引く。条件は式1本です。
+垂直 3t − 2 = 0 で t = 2/3、平行 6 + t = 0 で t = −6。実数倍で検算します。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-components.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】三角形の面積はたすきがけの半分／答えは 11/2
+
+- ファイル：`videos/vector-triangle-area.mp4`
+- サムネイル：`assets/youtube/thumbs/vector-triangle-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-triangle-area.html
+
+```
+角度を出す必要はありません。公式1本です。
+S = (1/2)√(|a|²|b|² − (a・b)²) = (1/2)|x₁y₂ − x₂y₁| = 11/2。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-triangle-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】双曲線は c² = a² + b²（足す）／焦点 (±5, 0)、漸近線 y = ±(4/3)x
+
+- ファイル：`videos/hyperbola.mp4`
+- サムネイル：`assets/youtube/thumbs/hyperbola.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/hyperbola.html
+
+```
+楕円と1か所だけ違います。そこだけ押さえます。
+c² = 9 + 16 = 25 で焦点 (±5, 0)。漸近線は右辺を0にして因数分解しても出ます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/hyperbola.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】放物線の焦点は係数を4で割る／y² = 8x で焦点 (2, 0)
+
+- ファイル：`videos/parabola-focus.mp4`
+- サムネイル：`assets/youtube/thumbs/parabola-focus.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/parabola-focus.html
+
+```
+係数を4で割るだけです。定義で確認すれば間違えません。
+4p = 8 で p = 2。焦点 (2, 0)、準線 x = −2。点 (2, 4) でどちらも距離4と確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/parabola-focus.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】複素数の累乗は極形式／(1 + i)⁸ = 16
+
+- ファイル：`videos/de-moivre.mp4`
+- サムネイル：`assets/youtube/thumbs/de-moivre.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/de-moivre.html
+
+```
+展開して8回かけるのは現実的ではありません。
+1 + i = √2(cos45° + i sin45°)。8乗で 16(cos360° + i sin360°) = 16。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/de-moivre.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21
@@ -1055,6 +1663,22 @@ y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに�
 中を小さくする→有理化→同じ√どうしだけ足す。√(9+16) は 5、3+4 ではありません。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/square-root-calc.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】相似は長さ2乗が面積、3乗が体積／表面積54、体積54
+
+- ファイル：`videos/similar-ratio.mp4`
+- サムネイル：`assets/youtube/thumbs/similar-ratio.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/similar-ratio.html
+
+```
+比をそのまま使ってはいけません。2乗と3乗が要点です。
+相似比 2:3 → 面積比 4:9、体積比 8:27。長さの比は相似比のままです。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/similar-ratio.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領

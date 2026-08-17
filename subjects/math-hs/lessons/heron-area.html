@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ヘロンの公式で面積（3辺 13、14、15 → 84）｜高校数学 第48回</title>
+<meta name="description" content="3辺だけなら面積はヘロンの公式が最速。√の中で2乗を作る計算の工夫、余弦定理ルートでの検算まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第48回 ヘロンの公式</div>
+
+<main class="wrap">
+  <h1>第48回　3辺だけならヘロンの公式が最速</h1>
+  <div class="formula">3辺が 13、14、15 の三角形の面積を求めよ。</div>
+  <p>3辺だけ与えられたときの最短ルートです。√の中の工夫まで身につけてください（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/heron-area.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/heron-area.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>s = (a + b + c) ÷ 2　／　S = √{ s(s − a)(s − b)(s − c) }</strong></p>
+    <p>3辺だけ与えられたときの最短ルート。余弦定理 → sin → 面積の3段階が1本で終わります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>s を出す</strong><div class="formula">s = (13 + 14 + 15) / 2 = 42 / 2 = 21</div><p>周の長さの半分。ここを2で割り忘れる人が多いです。</p></li>
+    <li><strong>4つの数を書く</strong><div class="formula">s = 21、s - a = 8、s - b = 7、s - c = 6</div></li>
+    <li><strong>かけ算をまとめる</strong><div class="formula">21 × 8 × 7 × 6 = (21 × 7) × (8 × 6) = 147 × 48</div><p>そのまま掛けずに、2乗が作れる組み合わせを探すのがコツです。</p></li>
+    <li><strong>ルートを外す</strong><div class="formula">√(49 × 16 × 9) = 7 × 4 × 3 = 84</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>余弦定理から 14 と 15 の間の角の cos = 3/5、sin = 4/5。面積 (1/2)×14×15×(4/5) = 84 で一致します。<strong>別ルートで同じ値</strong>になれば確実です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>√ の中は<strong>先に素因数分解して2乗を作る</strong>。21×8×7×6 を 7056 にしてからルートを外すのは遠回りです。</li>
+      <li>ヘロンは<strong>3辺のときだけ</strong>。2辺と間の角なら S = (1/2)ab sin C が速い。条件で使う公式を決めます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>s は周の半分、S = √{s(s - a)(s - b)(s - c)}</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>3辺が 5、6、7 の三角形の面積
+        <details><summary>答え</summary><p>s = 9、S = √(9×4×3×2) = √216 = 6√6</p></details>
+      </li>
+      <li>3辺が 5、12、13 の三角形の面積
+        <details><summary>答え</summary><p>s = 15、S = √(15×10×3×2) = √900 = 30（直角三角形なので (1/2)×5×12 = 30 とも出せる）</p></details>
+      </li>
+      <li>3辺が 13、14、15 の三角形の内接円の半径
+        <details><summary>答え</summary><p>S = rs より 84 = 21r → r = 4</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="circumradius.html">← 第47回 外接円の半径</a>　｜　<a href="incircle-radius.html">第49回 内接円の半径 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Σ の計算（Σk(k + 2)）｜高校数学 第66回</title>
+<meta name="description" content="Σ は展開してばらし、Σk と Σk² の公式を入れて共通因数でくくるだけ。小さい n での検算、上端 n−1 の扱いまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第66回 Σ の計算</div>
+
+<main class="wrap">
+  <h1>第66回　Σ の計算は「ばらして公式3つ」</h1>
+  <div class="formula">Σ（k = 1 から n）k(k + 2) を n の式で表せ。</div>
+  <p>かっこのままでは計算できません。展開してばらす、これが最初の一手です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/sigma-calc.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/sigma-calc.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>展開 → Σk = n(n+1)/2、Σk² = n(n+1)(2n+1)/6 を使う → 共通因数でくくる</strong></p>
+    <p>くくらずに展開したままだと、検算もできず、後の計算でも使えません。必ず因数の形で答えます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>展開する</strong><div class="formula">k(k + 2) = k² + 2k</div></li>
+    <li><strong>Σ をばらす</strong><div class="formula">Σk² + 2Σk</div><p>定数倍は Σ の外に出せます。</p></li>
+    <li><strong>公式を入れる</strong><div class="formula">n(n+1)(2n+1)/6 + 2 × n(n+1)/2 = n(n+1)(2n+1)/6 + n(n+1)</div></li>
+    <li><strong>くくってまとめる</strong><div class="formula">= n(n+1){(2n+1) + 6} / 6 = n(n+1)(2n+7) / 6</div><p>共通因数 n(n+1)/6 でくくるのが一番速いまとめ方です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>n = 3 なら公式は 3×4×13/6 = 26、直接計算も 3 + 8 + 15 = 26。n = 1 でも両方 3 で一致します。<strong>小さい n を2つ代入</strong>するのが数列の検算です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>答えは必ず<strong>因数の形</strong>に。展開したままでは代入検算がしにくく、後の設問でも使えません。</li>
+      <li>上端が n − 1 なら<strong>公式の n を n − 1 に置きかえる</strong>だけ（階差数列で必ず出ます）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>Σk = n(n+1)/2、Σk² = n(n+1)(2n+1)/6、最後にくくる</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>Σ(k = 1 から n) k(k + 1)
+        <details><summary>答え</summary><p>Σk² + Σk = n(n+1)(2n+1)/6 + n(n+1)/2 = n(n+1)(n+2)/3</p></details>
+      </li>
+      <li>Σ(k = 1 から n) (2k − 1)
+        <details><summary>答え</summary><p>2·n(n+1)/2 − n = n²（奇数の和は n²）</p></details>
+      </li>
+      <li>Σ(k = 1 から n−1) k²
+        <details><summary>答え</summary><p>公式の n を n−1 にして (n−1)n(2n−1)/6</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="am-gm-inequality.html">← 第65回 相加平均と相乗平均</a>　｜　<a href="difference-sequence.html">第67回 階差数列 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

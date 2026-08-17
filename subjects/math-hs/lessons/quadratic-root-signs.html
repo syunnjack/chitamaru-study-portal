@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>解の符号の条件（異符号の2解）｜高校数学 第45回</title>
+<meta name="description" content="異符号の2解は「解の積 < 0」だけ。判別式が不要な理由、2解とも正のときの3点セットまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第45回 解の符号の条件</div>
+
+<main class="wrap">
+  <h1>第45回　解の符号は「和と積」で決まる</h1>
+  <div class="formula">2次方程式 x² − (m + 1)x + m − 2 = 0 が異符号の2つの解をもつような定数 m の範囲を求めよ。</div>
+  <p>解を求めずに、係数の条件だけで決めます。異符号なら条件は1つだけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/quadratic-root-signs.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/quadratic-root-signs.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>異符号の2解 ⇔ （2解の積）&lt; 0　＝ c/a &lt; 0</strong></p>
+    <p>積が負なら判別式は自動的に正になるので、D &gt; 0 の条件は不要です。ここを書かずに減点されない形が最短です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>解の積を作る</strong><div class="formula">積 = (m - 2) / 1 = m - 2</div><p>係数がそのまま積になります（a = 1 のとき）。</p></li>
+    <li><strong>異符号の条件</strong><div class="formula">m - 2 < 0</div></li>
+    <li><strong>答えを出す</strong><div class="formula">m < 2</div></li>
+    <li><strong>判別式が不要な理由</strong><div class="formula">積 < 0 なら D = (和)² - 4(積) > 0 が自動で成立</div><p>「積が負 → 判別式は自動で正」は答案に一言書けば十分です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>m = 0 なら x² − x − 2 = 0 で x = 2, −1 の異符号。範囲の外の m = 3 では積が 1 &gt; 0 で同符号になり条件を満たしません。<strong>範囲の内と外の両方</strong>で試すのが確実です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>2解とも正</strong>なら「D ≧ 0 かつ 和 &gt; 0 かつ 積 &gt; 0」の3点セット。異符号のときだけ積1つで済みます。</li>
+      <li>「2解とも 1 より大きい」のように境界がずれたら<strong>グラフで判定</strong>：D の符号、軸の位置、f(1) の符号の3つを見ます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>異符号 ⇔ 解の積 < 0（判別式は不要）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>x² + mx + m − 3 = 0 が異符号の2解をもつ m の範囲
+        <details><summary>答え</summary><p>積 = m − 3 &lt; 0 → m &lt; 3</p></details>
+      </li>
+      <li>x² − 5x + m = 0 が2つとも正の解をもつ m の範囲
+        <details><summary>答え</summary><p>D = 25 − 4m ≧ 0、和 = 5 &gt; 0、積 = m &gt; 0 → 0 &lt; m ≦ 25/4</p></details>
+      </li>
+      <li>x² − (m + 1)x + m − 2 = 0 の2解の和が 4 になる m
+        <details><summary>答え</summary><p>和 = m + 1 = 4 → m = 3</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="quadratic-intersection.html">← 第44回 放物線と直線の共有点</a>　｜　<a href="cosine-rule-angle.html">第46回 余弦定理で角を求める →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

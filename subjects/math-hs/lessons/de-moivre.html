@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ド・モアブルの定理（(1 + i)⁸）｜高校数学 第80回</title>
+<meta name="description" content="複素数の累乗は極形式にして「大きさは n 乗、角度は n 倍」。2乗の繰り返しでの検算、n 乗根への応用まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第80回 ド・モアブルの定理</div>
+
+<main class="wrap">
+  <h1>第80回　複素数の累乗は「極形式にしてから n 乗」</h1>
+  <div class="formula">(1 + i)⁸ を計算せよ。</div>
+  <p>展開して8回かけるのは現実的ではありません。極形式に直します（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/de-moivre.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/de-moivre.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>r(cos θ + i sin θ) の n 乗 = rⁿ(cos nθ + i sin nθ)　（大きさは n 乗、角度は n 倍）</strong></p>
+    <p>展開せずに、大きさと角度に分けてから累乗します。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>大きさを出す</strong><div class="formula">|1 + i| = √(1 + 1) = √2</div></li>
+    <li><strong>角度を出す</strong><div class="formula">1 + i は第1象限で 実部 = 虚部 → θ = 45°（π/4）</div><p>図を描けば一目で分かります。</p></li>
+    <li><strong>ド・モアブル</strong><div class="formula">(√2)⁸ (cos(8 × 45°) + i sin(8 × 45°)) = 16(cos360° + i sin360°)</div><p>(√2)⁸ = 2⁴ = 16。角度は 360°。</p></li>
+    <li><strong>答えを出す</strong><div class="formula">cos360° = 1、sin360° = 0 → 16</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>(1+i)² = 2i、(1+i)⁴ = (2i)² = −4、(1+i)⁸ = (−4)² = 16 で一致します。指数が 2 の累乗なら<strong>2乗を繰り返す</strong>のも速い方法です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>角度が 360° を超えたら <strong>360 で割ったあまり</strong>で考えます。</li>
+      <li><strong>n 乗根</strong>も同じ定理から。角度を n で割り、360°/n ずつ増やした n 個が答えです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>大きさは n 乗、角度は n 倍（ド・モアブル）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>(1 − i)⁴
+        <details><summary>答え</summary><p>大きさ √2、角度 −45°。(√2)⁴ = 4、角度 −180° なので 4×(−1) = −4</p></details>
+      </li>
+      <li>(1 + i)⁶
+        <details><summary>答え</summary><p>(√2)⁶ = 8、角度 270° で cos270° = 0、sin270° = −1 なので −8i</p></details>
+      </li>
+      <li>(cos30° + i sin30°)⁶
+        <details><summary>答え</summary><p>角度 180° なので −1</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="parabola-focus.html">← 第79回 放物線の焦点と準線</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

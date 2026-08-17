@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ユークリッドの互除法（1071 と 1029）｜高校数学 第60回</title>
+<meta name="description" content="互除法は割ってあまりに置きかえるだけ。最大公約数の確認方法、最小公倍数との関係、不定方程式への応用まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第60回 ユークリッドの互除法</div>
+
+<main class="wrap">
+  <h1>第60回　互除法は「割ってあまりに置きかえる」</h1>
+  <div class="formula">1071 と 1029 の最大公約数を、ユークリッドの互除法で求めよ。</div>
+  <p>素因数分解しようとすると手が止まる大きな数でも、割り算の繰り返しで確実に出ます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/euclid-algorithm.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/euclid-algorithm.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>(a, b) → (b, a を b で割ったあまり) を繰り返し、あまり 0 になったときの割る数が最大公約数</strong></p>
+    <p>素因数分解が難しい大きな数でも確実に出ます。仕組みは「a と b の公約数は、b とあまり の公約数と同じ」だからです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>1回目</strong><div class="formula">1071 ÷ 1029 = 1 あまり 42</div></li>
+    <li><strong>2回目</strong><div class="formula">1029 ÷ 42 = 24 あまり 21</div><p>42 × 24 = 1008、1029 − 1008 = 21。</p></li>
+    <li><strong>3回目</strong><div class="formula">42 ÷ 21 = 2 あまり 0</div></li>
+    <li><strong>答える</strong><div class="formula">最大公約数 = 21</div><p>あまりが 0 になった「割る数」が答えです。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>1071 ÷ 21 = 51、1029 ÷ 21 = 49 でどちらも割り切れます。51 = 3×17、49 = 7² に共通因数がないので 21 が最大公約数だと確定します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>最小公倍数 = 2数の積 ÷ 最大公約数</strong>。今回は 1071 × 1029 ÷ 21 = 52479。</li>
+      <li>割り算の式を<strong>下から逆にたどる</strong>と ax + by = 最大公約数 の整数解が作れます（不定方程式の道具）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>割ってあまりに置きかえる。あまり0のときの割る数が最大公約数</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>323 と 187 の最大公約数
+        <details><summary>答え</summary><p>323 ÷ 187 = 1 あまり136、187 ÷ 136 = 1 あまり51、136 ÷ 51 = 2 あまり34、51 ÷ 34 = 1 あまり17、34 ÷ 17 = 2 あまり0 → 17</p></details>
+      </li>
+      <li>1071 と 1029 の最小公倍数
+        <details><summary>答え</summary><p>1071 × 1029 ÷ 21 = 52479</p></details>
+      </li>
+      <li>互いに素かどうか：91 と 48
+        <details><summary>答え</summary><p>91 ÷ 48 = 1 あまり43、48 ÷ 43 = 1 あまり5、43 ÷ 5 = 8 あまり3、5 ÷ 3 = 1 あまり2、3 ÷ 2 = 1 あまり1、2 ÷ 1 = 2 あまり0 → 最大公約数1で互いに素</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="combination-repetition.html">← 第59回 重複組合せ</a>　｜　<a href="addition-theorem.html">第61回 加法定理 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>外接円の半径と正弦定理（a = 6、A = 30°）｜高校数学 第47回</title>
+<meta name="description" content="外接円の半径は正弦定理を「2R =」の形で使うだけ。R と 2R の混同を防ぐ書き方、S = abc/(4R) まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第47回 外接円の半径</div>
+
+<main class="wrap">
+  <h1>第47回　外接円の半径は正弦定理を「2R =」で使う</h1>
+  <div class="formula">△ABC で a = 6、A = 30°、B = 45° のとき、外接円の半径 R と辺 b を求めよ。</div>
+  <p>外接円と聞いたら正弦定理。最初から「2R =」と書けば、2で割り忘れません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/circumradius.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/circumradius.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>a / sin A = b / sin B = c / sin C = 2R</strong></p>
+    <p>半径を出すときは最初から「2R = a / sin A」と書くのがコツ。R と 2R の混同が一番多いミスです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>2R の形で書く</strong><div class="formula">2R = a / sin A = 6 / sin 30°</div></li>
+    <li><strong>R を求める</strong><div class="formula">= 6 ÷ (1/2) = 12 → R = 6</div><p>6 ÷ (1/2) は 6 × 2。分数で割るときは逆数をかけます。</p></li>
+    <li><strong>b を求める</strong><div class="formula">b = 2R sin B = 12 × sin 45° = 12 × (√2/2)</div></li>
+    <li><strong>計算する</strong><div class="formula">b = 6√2</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>b / sin B = 6√2 ÷ (√2/2) = 12 = 2R で一致。さらに ∠B &gt; ∠A なら b &gt; a のはずで、6√2 ≒ 8.5 &gt; 6 と大小関係も合います。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>この単元の最大の失点は <strong>R と 2R の混同</strong>。最初から「2R = a / sin A」と書けば起きません。</li>
+      <li><strong>S = abc ÷ (4R)</strong> を知っていると、3辺が分かっているときに R が一撃で出ます（面積はヘロンの公式や余弦定理から）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>2R = a / sin A（外接円は「2R =」で書く）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>a = 4、A = 45° の三角形の外接円の半径
+        <details><summary>答え</summary><p>2R = 4 ÷ (√2/2) = 4√2 → R = 2√2</p></details>
+      </li>
+      <li>上の △ABC の ∠C と 辺 c
+        <details><summary>答え</summary><p>C = 180° − 30° − 45° = 105°、c = 2R sin105°（sin105° = (√6 + √2)/4 より c = 3√6 + 3√2）</p></details>
+      </li>
+      <li>外接円の半径が 5、a = 8 のときの sin A
+        <details><summary>答え</summary><p>2R = 10 なので sin A = 8/10 = 4/5</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="cosine-rule-angle.html">← 第46回 余弦定理で角を求める</a>　｜　<a href="heron-area.html">第48回 ヘロンの公式 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

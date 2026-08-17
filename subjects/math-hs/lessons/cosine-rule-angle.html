@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>余弦定理で角を求める（3辺 7、8、5 → 60°）｜高校数学 第46回</title>
+<meta name="description" content="3辺から角は余弦定理の逆で一発。辺の対応の書き方、cos の符号で鈍角を見抜く方法、正弦定理との使い分けまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第46回 余弦定理で角を求める</div>
+
+<main class="wrap">
+  <h1>第46回　3辺が分かれば角は余弦定理の逆</h1>
+  <div class="formula">△ABC で BC = 7、CA = 8、AB = 5 のとき、∠A の大きさを求めよ。</div>
+  <p>3辺が分かって角を聞かれたら、道は1本しかありません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/cosine-rule-angle.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/cosine-rule-angle.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>cos A = (b² + c² − a²) ÷ (2bc)　（a は ∠A の<strong>向かい側</strong>の辺）</strong></p>
+    <p>3辺 → 角は余弦定理の逆。「向かい側の辺だけマイナス」と覚えます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>辺の対応を書く</strong><div class="formula">a = BC = 7、b = CA = 8、c = AB = 5</div><p>∠A の向かい側が a。ここを取り違えると全部ずれます。</p></li>
+    <li><strong>公式に代入</strong><div class="formula">cos A = (8² + 5² - 7²) / (2 × 8 × 5)</div></li>
+    <li><strong>計算する</strong><div class="formula">= (64 + 25 - 49) / 80 = 40 / 80 = 1/2</div></li>
+    <li><strong>角度を答える</strong><div class="formula">cos A = 1/2 → ∠A = 60°</div><p>cos が 1/2、√2/2、√3/2 になる角は暗記事項です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>cos A &gt; 0 なので ∠A は鋭角。最大辺 CA = 8 の向かいにある ∠B が最大角になり、つじつまが合います。面積 (1/2)×8×5×sin 60° = 10√3 も出せます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>cos が負なら鈍角</strong>。三角形の鈍角は1つだけで、必ず最大辺の向かい側にあります（答えの妥当性チェックに使えます）。</li>
+      <li>使い分けは3行で覚えます：<strong>3辺→角</strong>は余弦定理の逆、<strong>2辺と間の角→辺</strong>は余弦定理、<strong>角2つ→辺</strong>は正弦定理。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>cos A = (b² + c² - a²) / (2bc)（向かい側の辺だけマイナス）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>3辺が 3、5、7 の三角形で、7 の向かい側の角
+        <details><summary>答え</summary><p>cos = (9 + 25 − 49) / 30 = −1/2 → 120°</p></details>
+      </li>
+      <li>BC = 7、CA = 8、AB = 5 の △ABC の面積
+        <details><summary>答え</summary><p>sin A = √3/2 なので (1/2)×8×5×(√3/2) = 10√3</p></details>
+      </li>
+      <li>3辺が 5、12、13 の三角形で最大の角
+        <details><summary>答え</summary><p>cos = (25 + 144 − 169) / 120 = 0 → 90°（直角三角形）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="quadratic-root-signs.html">← 第45回 解の符号の条件</a>　｜　<a href="circumradius.html">第47回 外接円の半径 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
