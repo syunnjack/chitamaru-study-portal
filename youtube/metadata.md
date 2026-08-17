@@ -512,6 +512,134 @@ cosθ = 5/√50 = 1/√2 → 45°。内積0で垂直、負なら鈍角。
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学B】期待値と分散／さいころの目で V(X) = E(X²) − {E(X)}² = 35/12
+
+- ファイル：`videos/expected-value-variance.mp4`
+- サムネイル：`assets/youtube/thumbs/expected-value-variance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/expected-value-variance.html
+
+```
+分散は定義式で計算すると必ず時間が足りません。使う式は1本だけです。
+V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/expected-value-variance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】群数列は群末 n(n+1)/2 で挟む／100 は第14群の9番目
+
+- ファイル：`videos/grouped-sequence.mp4`
+- サムネイル：`assets/youtube/thumbs/grouped-sequence.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/grouped-sequence.html
+
+```
+群数列でやることは1つだけ。群の終わりが通算で何番目かを出すだけです。
+第n群の最初は n(n−1)/2 + 1。群の和は等差数列の和で出す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/grouped-sequence.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】積の微分と接線／y = x²eˣ の x = 1 で y = 3ex − 2e
+
+- ファイル：`videos/product-rule-tangent.mp4`
+- サムネイル：`assets/youtube/thumbs/product-rule-tangent.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/product-rule-tangent.html
+
+```
+接線は「通る点」と「傾き＝微分係数」だけ。聞かれ方が変わっても同じです。
+商の微分は (f′g − fg′)/g²。曲線外の点からの接線は接点を t と置く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/product-rule-tangent.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】回転体の体積／y = √x を x 軸まわりに回して 8π
+
+- ファイル：`videos/solid-of-revolution.mp4`
+- サムネイル：`assets/youtube/thumbs/solid-of-revolution.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/solid-of-revolution.html
+
+```
+切り口は半径 y の円。その面積 πy² を足し集めるだけです。
+面積は y、体積は y²。y 軸まわりは x を y の式に直す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/solid-of-revolution.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】無限等比級数／1 + 1/3 + 1/9 + … = 3/2
+
+- ファイル：`videos/infinite-geometric-series.mp4`
+- サムネイル：`assets/youtube/thumbs/infinite-geometric-series.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/infinite-geometric-series.html
+
+```
+無限に足しても答えが有限になる理由と、使う式1本を押さえます。
+収束条件を必ず先に書く。循環小数もこの公式そのもの。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/infinite-geometric-series.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】内分点と重心／BC を 2:1 に内分は D(5,6)、重心は G(4,4)
+
+- ファイル：`videos/position-vector-centroid.mp4`
+- サムネイル：`assets/youtube/thumbs/position-vector-centroid.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/position-vector-centroid.html
+
+```
+内分は比をたすきにかけて足す。重心は3点の平均、それだけです。
+外分は n を負にするだけ。重心は中線を 2:1 に内分する点。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/position-vector-centroid.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】空間ベクトルのなす角／(1,1,0) と (0,1,1) で 60°
+
+- ファイル：`videos/space-vector-angle.mp4`
+- サムネイル：`assets/youtube/thumbs/space-vector-angle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/space-vector-angle.html
+
+```
+空間になっても平面と同じ式。成分が1つ増えるだけです。
+垂直は内積0。|a + b|² = |a|² + 2a·b + |b|² で2乗して展開。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/space-vector-angle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】楕円の標準形／x²/9 + y²/4 = 1 は長軸6・焦点 (±√5, 0)
+
+- ファイル：`videos/ellipse-standard-form.mp4`
+- サムネイル：`assets/youtube/thumbs/ellipse-standard-form.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/ellipse-standard-form.html
+
+```
+楕円は分母を見るだけで、長軸・短軸・焦点が全部決まります。
+焦点は差のルート、双曲線は c² = a² + b² で足し算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/ellipse-standard-form.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4

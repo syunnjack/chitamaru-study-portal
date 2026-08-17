@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>内分点と重心の座標｜高校数学C 第37回</title>
+<meta name="description" content="A(1,1)、B(7,4)、C(4,7) の内分点と重心。内分は比をたすきにかけ、重心は3点の平均。音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第37回 位置ベクトルと重心</div>
+
+<main class="wrap">
+  <h1>第37回　内分点は「比をたすきにかけて足す」、重心は3つの平均</h1>
+  <div class="formula">A(1, 1)、B(7, 4)、C(4, 7) のとき、辺 BC を 2 : 1 に内分する点 D と、△ABC の重心 G の座標を求めよ。</div>
+  <p>座標でも位置ベクトルでも、使う式はまったく同じです。比の数字が向かい側にかかる、ここだけ覚えます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/position-vector-centroid.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/position-vector-centroid.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>m : n の内分点 = (nA + mB)/(m + n)、重心 G = (A + B + C)/3</strong></p>
+    <div class="formula">位置ベクトルなら g = (a + b + c)/3</div>
+    <p>比の数字がたすきにかかります。2 : 1 なら遠い側に 2 の重みです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>内分点 D を出す</strong><div class="formula">D = (1·B + 2·C)/3</div><div class="formula">x：(7 + 8)/3 = 5、y：(4 + 14)/3 = 6 → <strong>D(5, 6)</strong></div></li>
+    <li><strong>重心 G を出す</strong><div class="formula">G = ((1 + 7 + 4)/3, (1 + 4 + 7)/3) = <strong>G(4, 4)</strong></div><p>重心は足して3で割るだけです。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>重心は中線を 2 : 1 に内分する点でもあります。BC の中点 M(11/2, 11/2) として A + (2/3)(M − A) = (4, 4) で一致。2通りで出せます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>外分は n を負にするだけ</strong>。BC を 2 : 1 に外分する点は (−B + 2C)/1 = (1, 10)。</li>
+      <li>図形の証明では<strong>位置ベクトルのまま</strong> g = (a + b + c)/3 を使うと計算が短くなります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>内分 = (nA + mB)/(m + n)、重心 = (A + B + C)/3</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>A(0, 0)、B(6, 0)、C(3, 6) の重心
+        <details><summary>答え</summary><p>((0 + 6 + 3)/3, (0 + 0 + 6)/3) = (3, 2)</p></details>
+      </li>
+      <li>B(6, 0)、C(3, 6) について BC を 1 : 2 に内分する点
+        <details><summary>答え</summary><p>(2B + C)/3 = ((12 + 3)/3, (0 + 6)/3) = (5, 2)</p></details>
+      </li>
+      <li>A(2, 3)、B(8, 5) を 3 : 1 に内分する点
+        <details><summary>答え</summary><p>(A + 3B)/4 = ((2 + 24)/4, (3 + 15)/4) = (13/2, 9/2)</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="infinite-geometric-series.html">← 第36回 無限等比級数</a>　｜　<a href="space-vector-angle.html">第38回 空間ベクトルのなす角 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

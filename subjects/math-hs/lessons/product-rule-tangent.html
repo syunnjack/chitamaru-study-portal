@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>積の微分と接線の方程式｜高校数学III 第34回</title>
+<meta name="description" content="y = x²eˣ の x = 1 における接線。積の微分 (fg)′ = f′g + fg′ と「傾き＝微分係数」を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第34回 積の微分と接線</div>
+
+<main class="wrap">
+  <h1>第34回　接線は「通る点と傾き＝微分係数」だけ</h1>
+  <div class="formula">曲線 y = x²eˣ の x = 1 における接線の方程式を求めよ。</div>
+  <p>接線の問題は、聞かれ方が変わってもやることは2つ（点と傾き）だけです。今回は積の微分もセットで身につけます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/product-rule-tangent.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/product-rule-tangent.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>接線：y = f(a) + f′(a)(x − a)</strong></p>
+    <div class="formula">積の微分：(fg)′ = f′g + fg′</div>
+    <div class="formula">(eˣ)′ = eˣ</div>
+    <p>傾きは微分係数 f′(a)。ここを迷わなければ接線の問題は全部同じです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>通る点を出す</strong><div class="formula">f(1) = 1² × e¹ = e → 接点 (1, e)</div></li>
+    <li><strong>微分して傾きを出す</strong><div class="formula">f′(x) = 2x·eˣ + x²·eˣ = (x² + 2x)eˣ</div><div class="formula">f′(1) = 3e</div><p>前を微分 × 後ろ ＋ 前 × 後ろを微分。eˣ は微分しても eˣ です。</p></li>
+    <li><strong>接線の式に入れる</strong><div class="formula">y = e + 3e(x − 1)</div><div class="formula">答え <strong>y = 3ex − 2e</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>x = 1 を代入すると 3e − 2e = e で接点を通り、傾きも 3e で一致。接線は必ず「接点を代入」で確かめます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>分数なら<strong>商の微分</strong>：(f/g)′ = (f′g − fg′)/g²。分子の引き算の順番だけ注意します。</li>
+      <li>曲線<strong>外</strong>の点から引く接線は、<strong>接点を t と置く</strong>。接線が通る条件から t を求めるのが型です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>接線 y = f(a) + f′(a)(x − a)（傾きは微分係数）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>y = xeˣ の x = 0 における接線
+        <details><summary>答え</summary><p>f(0) = 0、f′(x) = (1 + x)eˣ → f′(0) = 1 → y = x</p></details>
+      </li>
+      <li>y = x³ log x の x = 1 における接線
+        <details><summary>答え</summary><p>f(1) = 0、f′(x) = 3x² log x + x² → f′(1) = 1 → y = x − 1</p></details>
+      </li>
+      <li>y = x/(x + 1) の x = 1 における接線
+        <details><summary>答え</summary><p>f(1) = 1/2、f′(x) = 1/(x + 1)² → f′(1) = 1/4 → y = x/4 + 1/4</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="grouped-sequence.html">← 第33回 群数列</a>　｜　<a href="solid-of-revolution.html">第35回 回転体の体積 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>回転体の体積｜高校数学III 第35回</title>
+<meta name="description" content="y = √x（0 ≦ x ≦ 4）を x 軸まわりに回転した体積 8π。V = π∫y²dx の型を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第35回 回転体の体積</div>
+
+<main class="wrap">
+  <h1>第35回　回転体の体積は「2乗を積分して π をかける」</h1>
+  <div class="formula">y = √x（0 ≦ x ≦ 4）と x 軸で囲まれた図形を x 軸のまわりに1回転してできる立体の体積 V を求めよ。</div>
+  <p>切り口が半径 y の円になるので、その面積 πy² を足し集めるだけです。覚える式は1つです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/solid-of-revolution.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/solid-of-revolution.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>x 軸まわり：V = π∫ y² dx ／ y 軸まわり：V = π∫ x² dy</strong></p>
+    <div class="formula">切り口の円の面積 πy² を積分するだけ</div>
+    <p>面積は y、体積は y²。この違いだけで差がつきます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>y² を作る</strong><div class="formula">y = √x → y² = x</div><div class="formula">V = π∫₀⁴ x dx</div><p>ルートは2乗で消えるので、回転体と相性がよい形です。</p></li>
+    <li><strong>積分する</strong><div class="formula">π[x²/2]₀⁴ = π(8 − 0)</div><div class="formula">答え <strong>V = 8π</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>この立体は半径 2・高さ 4 の円柱（体積 16π）に収まり、答えの 8π はちょうど半分。円柱を超えたら必ず計算ミスです。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>いちばん多いミスは<strong>2乗の忘れ</strong>。面積の式のまま積分しないこと。</li>
+      <li><strong>y 軸まわり</strong>なら x を y の式に直します。今回は x = y²（0 ≦ y ≦ 2）→ V = π∫₀² y⁴ dy = 32π/5。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>V = π∫ y² dx（x 軸まわりの回転体）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>y = x（0 ≦ x ≦ 1）を x 軸まわりに回転した体積
+        <details><summary>答え</summary><p>V = π∫₀¹ x² dx = π/3（半径1・高さ1の円錐）</p></details>
+      </li>
+      <li>y = x²（0 ≦ x ≦ 1）を x 軸まわりに回転した体積
+        <details><summary>答え</summary><p>V = π∫₀¹ x⁴ dx = π/5</p></details>
+      </li>
+      <li>y = √x（0 ≦ x ≦ 4）を y 軸まわりに回転した体積
+        <details><summary>答え</summary><p>x = y²、0 ≦ y ≦ 2 → V = π∫₀² y⁴ dy = 32π/5</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="product-rule-tangent.html">← 第34回 積の微分と接線</a>　｜　<a href="infinite-geometric-series.html">第36回 無限等比級数 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

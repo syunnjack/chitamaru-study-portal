@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>空間ベクトルのなす角｜高校数学C 第38回</title>
+<meta name="description" content="(1,1,0) と (0,1,1) のなす角 60°。cosθ = 内積 ÷ 大きさの積 と垂直条件を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第38回 空間ベクトルのなす角</div>
+
+<main class="wrap">
+  <h1>第38回　空間ベクトルも「内積 ÷ 大きさの積」で角が出る</h1>
+  <div class="formula">a = (1, 1, 0)、b = (0, 1, 1) のなす角 θ を求めよ。</div>
+  <p>空間になっても平面とまったく同じ式です。成分が1つ増えるだけなので、新しく覚えることはありません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/space-vector-angle.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/space-vector-angle.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>cosθ = (a·b)/(|a||b|)</strong></p>
+    <div class="formula">a·b = x₁x₂ + y₁y₂ + z₁z₂</div>
+    <div class="formula">|a| = √(x² + y² + z²)</div>
+    <p>内積には「成分でかけて足す」と「大きさの積 × cosθ」の2つの顔があります。それを結ぶだけです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>内積を出す</strong><div class="formula">a·b = 1×0 + 1×1 + 0×1 = 1</div></li>
+    <li><strong>大きさを出す</strong><div class="formula">|a| = √2、|b| = √2 → |a||b| = 2</div></li>
+    <li><strong>角を出す</strong><div class="formula">cosθ = 1/2</div><div class="formula">0° ≦ θ ≦ 180° より 答え <strong>θ = 60°</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>内積が正なので鋭角。60° は条件を満たします。内積 0 なら 90°、負なら鈍角で、符号だけで答えの位置が確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>垂直 ⇔ 内積 0</strong>。(1, 2, 3) と (2, −1, k) が垂直なら 2 − 2 + 3k = 0 → k = 0。</li>
+      <li>和の大きさは<strong>2乗して展開</strong>：|a + b|² = |a|² + 2a·b + |b|²。今回は 2 + 2 + 2 = 6 → |a + b| = √6。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>cosθ = (a·b)/(|a||b|)（空間でも同じ）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>(2, −1, 2) と (1, 2, 2) のなす角の cos
+        <details><summary>答え</summary><p>内積 = 2 − 2 + 4 = 4、|a| = |b| = 3 → cosθ = 4/9</p></details>
+      </li>
+      <li>(1, 2, 3) と (2, −1, k) が垂直となる k
+        <details><summary>答え</summary><p>2 − 2 + 3k = 0 → k = 0</p></details>
+      </li>
+      <li>a = (1, 1, 0)、b = (0, 1, 1) のとき |a − b|
+        <details><summary>答え</summary><p>|a − b|² = 2 − 2×1 + 2 = 2 → |a − b| = √2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="position-vector-centroid.html">← 第37回 位置ベクトルと重心</a>　｜　<a href="ellipse-standard-form.html">第39回 楕円の標準形 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
