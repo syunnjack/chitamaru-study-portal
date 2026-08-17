@@ -217,6 +217,33 @@
       "thumb": ["DE ∥ BC, AD:DB = 2:1", "面積比は辺の比の2乗", "△ADE : 四角形 = 4 : 5"],
       "hook": "平行線を見たら相似。比は「部分どうし」ではなく全体に直してから2乗します。",
       "point": "AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き算。"
+    },
+    {
+      "slug": "complement-probability",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/complement-probability.html",
+      "title": "【高校数学A】「少なくとも1回」は余事象で引き算／さいころ2回で6が出る確率",
+      "thumb": ["少なくとも1回", "余事象で引き算", "答え 11/36"],
+      "hook": "「少なくとも」と書いてあったら、数え上げをやめて引き算に切り替えます。",
+      "point": "1 −（1回も出ない確率）= 1 − (5/6)² = 11/36。場合分けが1本にまとまります。"
+    },
+    {
+      "slug": "trig-identity",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-identity.html",
+      "title": "【高校数学I】sinθ + cosθ が出たら2乗する／sinθcosθ の値",
+      "thumb": ["sinθ + cosθ = 1/2", "2乗して 1 に変える", "答え −3/8"],
+      "hook": "θ を求めようとすると詰まります。和が来たら、迷わず両辺を2乗。",
+      "point": "sin²θ + cos²θ = 1 を代入して 1 + 2sinθcosθ = 1/4 → sinθcosθ = −3/8。3乗の和も同じ型。"
+    },
+    {
+      "slug": "partial-fractions",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/partial-fractions.html",
+      "title": "【高校入試】分数の和は差に直して打ち消す／1/(1·2) + … + 1/(9·10)",
+      "thumb": ["分数9個のたし算", "差に直して打ち消す", "答え 9/10"],
+      "hook": "通分して9個たすのは負けです。差の形に直せば、真ん中が全部消えます。",
+      "point": "1/(n(n+1)) = 1/n − 1/(n+1)。残るのは両端だけで、1 − 1/10 = 9/10。"
     }
   ]
 }

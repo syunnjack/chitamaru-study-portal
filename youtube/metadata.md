@@ -256,6 +256,38 @@ S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学A】「少なくとも1回」は余事象で引き算／さいころ2回で6が出る確率
+
+- ファイル：`videos/complement-probability.mp4`
+- サムネイル：`assets/youtube/thumbs/complement-probability.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/complement-probability.html
+
+```
+「少なくとも」と書いてあったら、数え上げをやめて引き算に切り替えます。
+1 −（1回も出ない確率）= 1 − (5/6)² = 11/36。場合分けが1本にまとまります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/complement-probability.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】sinθ + cosθ が出たら2乗する／sinθcosθ の値
+
+- ファイル：`videos/trig-identity.mp4`
+- サムネイル：`assets/youtube/thumbs/trig-identity.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-identity.html
+
+```
+θ を求めようとすると詰まります。和が来たら、迷わず両辺を2乗。
+sin²θ + cos²θ = 1 を代入して 1 + 2sinθcosθ = 1/4 → sinθcosθ = −3/8。3乗の和も同じ型。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-identity.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -365,6 +397,22 @@ S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答�
 AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き算。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/similar-area-ratio.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】分数の和は差に直して打ち消す／1/(1·2) + … + 1/(9·10)
+
+- ファイル：`videos/partial-fractions.mp4`
+- サムネイル：`assets/youtube/thumbs/partial-fractions.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/partial-fractions.html
+
+```
+通分して9個たすのは負けです。差の形に直せば、真ん中が全部消えます。
+1/(n(n+1)) = 1/n − 1/(n+1)。残るのは両端だけで、1 − 1/10 = 9/10。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/partial-fractions.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領

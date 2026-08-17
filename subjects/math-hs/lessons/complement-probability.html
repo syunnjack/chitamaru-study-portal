@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>「少なくとも1回」は余事象（さいころ2回で6が出る確率）｜高校数学 第16回</title>
+<meta name="description" content="「少なくとも」と書かれた確率は、1 − そうならない確率で処理するのが型。さいころを2回投げて少なくとも1回6が出る確率 11/36 を、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第16回 余事象の確率</div>
+
+<main class="wrap">
+  <h1>第16回　「少なくとも1回」は余事象で引き算</h1>
+  <div class="formula">さいころを2回投げるとき、少なくとも1回は6の目が出る確率を求めよ。</div>
+  <p>「少なくとも」が出てきたら、数え上げに走らず引き算です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/complement-probability.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/complement-probability.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>P(少なくとも1回) = 1 − P(1回も起こらない)</strong></p>
+    <p>直接数えると「1回だけ6」「2回とも6」と場合分けが増えます。反対を数えれば1本で済みます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>1回で6が出ない確率</strong><div class="formula">6以外は 1, 2, 3, 4, 5 の5通り → 5/6</div></li>
+    <li><strong>2回とも6が出ない確率</strong><div class="formula">(5/6) × (5/6) = 25/36</div><p>1回目と2回目は独立なので、かけ算です。</p></li>
+    <li><strong>1から引く</strong><div class="formula">1 − 25/36 = 36/36 − 25/36 = 11/36</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>直接数えると「1回目が6」5通り＋「2回目が6」5通り＋「両方6」1通り = 11通り、全体36通りで 11/36。確率が 0 以上 1 以下であることも毎回チェックします。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>「少なくとも」「〜でない場合がある」</strong>を見たら、まず余事象を書く。</li>
+      <li>回数 n が増えるほど有利になる。n 回で少なくとも1回6は <strong>1 − (5/6)<sup>n</sup></strong>。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>「少なくとも」= 1 − そうならない確率</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>さいころを3回投げて、少なくとも1回6が出る確率
+        <details><summary>答え</summary><p>1 − (5/6)³ = 1 − 125/216 = 91/216</p></details>
+      </li>
+      <li>コインを4回投げて、少なくとも1回は表が出る確率
+        <details><summary>答え</summary><p>1 − (1/2)⁴ = 1 − 1/16 = 15/16</p></details>
+      </li>
+      <li>さいころを2回投げて、少なくとも1回は偶数が出る確率
+        <details><summary>答え</summary><p>1 − (1/2)² = 3/4</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="variance-sd.html">← 第15回 分散と標準偏差</a>　｜　<a href="trig-identity.html">第17回 三角比の相互関係 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

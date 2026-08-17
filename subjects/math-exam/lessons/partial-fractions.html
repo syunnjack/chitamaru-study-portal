@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1/(1·2) + … + 1/(9·10) の和（分数の打ち消し）｜高校受験数学 第8回</title>
+<meta name="description" content="連続する2数の積の逆数は 1/n − 1/(n+1) と差に直すと、真ん中が全部打ち消えて両端だけ残ります。答え 9/10 を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第8回 分数の打ち消し</div>
+
+<main class="wrap">
+  <h1>第8回　分数の和は「差の形」に直して打ち消す</h1>
+  <div class="formula">1/(1·2) + 1/(2·3) + 1/(3·4) + … + 1/(9·10) を計算しなさい。</div>
+  <p>通分して9個たすと大変ですが、差に直せば1行で終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/partial-fractions.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/partial-fractions.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>1/(n(n+1)) = 1/n − 1/(n+1)</strong></p>
+    <p>たし算を差に変えると、隣どうしが打ち消えて両端だけが残ります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>型が成り立つ確認</strong><div class="formula">1/n − 1/(n+1) = ((n+1) − n) / (n(n+1)) = 1 / (n(n+1))</div><p>分子が 1 になるのは、2数の差が 1 だからです。</p></li>
+    <li><strong>全部を差に直す</strong><div class="formula">(1 − 1/2) + (1/2 − 1/3) + (1/3 − 1/4) + … + (1/9 − 1/10)</div></li>
+    <li><strong>真ん中を打ち消す</strong><div class="formula">残るのは、最初の 1 と 最後の −1/10 だけ</div></li>
+    <li><strong>両端を計算</strong><div class="formula">1 − 1/10 = <strong>9/10</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>最初の3項だけ正直に足すと 1/2 + 1/6 + 1/12 = 9/12 = 3/4。型でも 1 − 1/4 = 3/4 で一致します。項を増やしても和は 1 を超えず、1 に近づいていきます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>差が 1 でないときは<strong>差で割る</strong>。1/(n(n+2)) = (1/2){1/n − 1/(n+2)}。</li>
+      <li>打ち消しの後に残るのは<strong>必ず両端</strong>。どこまで足したかを最後の項で確認する。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>1/(n(n+1)) = 1/n − 1/(n+1) → 両端だけ残す</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1/(1·2) + 1/(2·3) + … + 1/(99·100)
+        <details><summary>答え</summary><p>1 − 1/100 = 99/100</p></details>
+      </li>
+      <li>1/(2·3) + 1/(3·4) + … + 1/(9·10)
+        <details><summary>答え</summary><p>1/2 − 1/10 = 2/5</p></details>
+      </li>
+      <li>1/(1·3) + 1/(3·5) + 1/(5·7)
+        <details><summary>答え</summary><p>(1/2)(1 − 1/7) = 3/7</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="similar-area-ratio.html">← 第7回 相似と面積比</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
