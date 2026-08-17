@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>正弦定理で辺の長さを求める（A=45°, C=75°, BC=2）｜高校数学 第4回</title>
+<meta name="description" content="△ABC で A=45°、C=75°、BC=2 のとき CA を正弦定理で求める手順を、ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第4回 正弦定理</div>
+
+<main class="wrap">
+  <h1>第4回　正弦定理で辺の長さを求める</h1>
+  <div class="formula">△ABC で A = 45°、C = 75°、BC = 2 のとき、CA の長さを求めよ。</div>
+  <p>角2つ＋辺1つ → 正弦定理。辺と「向かいの角」の対応をとるのが要点です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/sine-rule.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/sine-rule.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>型の見分け方</h2>
+  <div class="panel accent">
+    <table>
+      <tr><th>与えられたもの</th><th>使う定理</th></tr>
+      <tr><td>角2つ＋辺1つ</td><td>正弦定理</td></tr>
+      <tr><td>辺3つ／辺2つ＋はさむ角</td><td>余弦定理</td></tr>
+    </table>
+  </div>
+
+  <h2>解答の手順</h2>
+  <ol class="steps">
+    <li><strong>辺と向かいの角を対応させる</strong>
+      <div class="formula">BC は A の対辺、CA は B の対辺 → CA には角 B が必要</div>
+    </li>
+    <li><strong>残りの角を出す</strong><div class="formula">B = 180° − 45° − 75° = 60°</div></li>
+    <li><strong>正弦定理に代入</strong>
+      <div class="formula">BC / sin A = CA / sin B　→　2 / sin45° = CA / sin60°</div>
+    </li>
+    <li><strong>計算して有理化</strong>
+      <div class="formula">CA = 2 · (√3/2) / (√2/2) = 2√3 / √2 = √6</div>
+    </li>
+  </ol>
+
+  <h2>検算（大小関係）</h2>
+  <div class="panel">
+    <p>三角形では大きい角の向かいに長い辺が来ます。B = 60° &gt; A = 45° なので CA &gt; BC = 2 のはず。√6 ≒ 2.45 &gt; 2 で矛盾なし。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>「角2つ＋辺1つなら正弦定理。辺を向かいの角の sin で割る」</strong></p>
+    <div class="formula">BC / sin A = CA / sin B = AB / sin C = 2R</div>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>△ABC で A = 30°、B = 105°、BC = 4 のとき CA を求めよ。
+        <details><summary>答え</summary><p>CA は角 B の対辺。CA = BC·sin B / sin A = 4·sin105°/sin30° = 8 sin105° = 2(√6 + √2)</p></details>
+      </li>
+      <li>△ABC で A = 60°、B = 45°、AB = 6 のとき BC を求めよ。
+        <details><summary>答え</summary><p>C = 180° − 60° − 45° = 75°。BC は角 A の対辺、AB は角 C の対辺なので BC = AB·sin A / sin C = 6·(√3/2) / ((√6+√2)/4) = 12√3/(√6+√2) = 9√2 − 3√6（≒ 5.38）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="discriminant-count.html">← 第3回 実数解の個数</a>　｜　<a href="triangle-inequality.html">第5回 三角形の成立条件 →</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

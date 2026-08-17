@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三角形が成立する x の範囲（3辺が 2, x+3, 3）｜高校数学 第5回</title>
+<meta name="description" content="3辺の長さが 2、x+3、3 の三角形が成立する x の範囲を、場合分けなしで求める手順をナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第5回 三角形の成立条件</div>
+
+<main class="wrap">
+  <h1>第5回　三角形が成立するための範囲</h1>
+  <div class="formula">三角形の3辺の長さがそれぞれ 2、x + 3、3 のとき、三角形が成立する x の値の範囲を求めよ。</div>
+  <p>場合分けは不要です。文字の入った辺を<strong>真ん中にはさむ</strong>形を使います（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/triangle-inequality.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/triangle-inequality.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>使う型</h2>
+  <div class="panel accent">
+    <div class="formula">| b − c | &lt; a &lt; b + c　（a に文字の入った辺を置く）</div>
+    <p>「いちばん長い辺 &lt; 他の2辺の和」を、場合分けせずに1本で処理できる形です。</p>
+  </div>
+
+  <h2>解答の手順</h2>
+  <ol class="steps">
+    <li><strong>不等式を作る</strong>
+      <div class="formula">| 3 − 2 | = 1、2 + 3 = 5　→　1 &lt; x + 3 &lt; 5</div>
+    </li>
+    <li><strong>各辺から 3 を引く</strong>
+      <div class="formula">1 − 3 &lt; x &lt; 5 − 3　→　−2 &lt; x &lt; 2</div>
+    </li>
+    <li><strong>辺の長さが正であることを確認</strong>
+      <div class="formula">−2 &lt; x のとき x + 3 &gt; 1 &gt; 0　→　追加条件なし</div>
+    </li>
+  </ol>
+  <div class="panel note">
+    <p><strong>答え：−2 &lt; x &lt; 2</strong>　等号は入りません。x = 2 だと 3辺が 2, 5, 3 となり 2 + 3 = 5 でつぶれてしまいます。</p>
+  </div>
+
+  <h2>検算（境界を代入）</h2>
+  <div class="panel">
+    <ul>
+      <li>x = 0 → 3辺は 2, 3, 3 … 三角形になる ○</li>
+      <li>x = 2 → 3辺は 2, 5, 3 … 2 + 3 = 5 で平らにつぶれる ×</li>
+    </ul>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>「三角形の成立条件は、文字の辺を真ん中に置いて |差| &lt; 文字の辺 &lt; 和」</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>3辺が 4、x、7 のとき x の範囲。
+        <details><summary>答え</summary><p>| 7 − 4 | &lt; x &lt; 7 + 4 より 3 &lt; x &lt; 11</p></details>
+      </li>
+      <li>3辺が 5、x + 1、6 のとき x の範囲。
+        <details><summary>答え</summary><p>1 &lt; x + 1 &lt; 11 より 0 &lt; x &lt; 10</p></details>
+      </li>
+      <li>3辺が x、x + 2、x + 4 のとき x の範囲。
+        <details><summary>答え</summary><p>最長は x + 4。x + 4 &lt; x + (x + 2) より x &gt; 2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sine-rule.html">← 第4回 正弦定理</a>　｜　<a href="assumed-mean.html">第6回 仮平均法 →</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

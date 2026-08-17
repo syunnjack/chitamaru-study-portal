@@ -1,0 +1,95 @@
+{
+  "title": "正弦定理で辺の長さを求める",
+  "subtitle": "高校数学 I ／ 図形と計量 ｜ 知多丸式 効率的学習のすゝめ",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸式、効率的学習のすゝめです。今日の問題は、三角形エービーシーについて。エー イコール 45度、シー イコール 75度、ビーシー イコール 2 のとき、シーエー の長さを求めよ。図をかきながら、いっしょに進めましょう。",
+      "lines": [
+        {"style": "head", "text": "今日の問題", "active": true},
+        {"style": "formula", "text": "△ABC で A = 45° , C = 75° , BC = 2", "active": true},
+        {"style": "formula", "text": "このとき CA の長さを求めよ", "active": true},
+        {"style": "note", "text": "所要時間の目安：3分（慣れたら1分）"}
+      ],
+      "caption": "△ABC：A=45°、C=75°、BC=2 のとき CA は？"
+    },
+    {
+      "narration": "まず、型を思い出します。角が2つ、辺が1つ、そして知りたいのは、別の辺。このパターンは、正弦定理です。角と辺が交ざっている問題は、正弦定理か余弦定理の2択。今回は、角2つと辺1つなので、正弦定理です。",
+      "lines": [
+        {"style": "head", "text": "知多丸式：与えられた形で型が決まる", "active": true},
+        {"style": "text", "text": "角2つ＋辺1つ　→　正弦定理", "active": true},
+        {"style": "text", "text": "辺3つ、または 辺2つ＋はさむ角　→　余弦定理", "active": true},
+        {"style": "note", "text": "この2行を覚えるだけで、図形と計量の半分は終わる。"}
+      ],
+      "caption": "角2つ＋辺1つ → 正弦定理／辺3つ → 余弦定理"
+    },
+    {
+      "narration": "次に、辺と角の対応を確認します。とても大事なところです。ビーシー は、角エー の向かい側にある辺。シーエー は、角ビー の向かい側にある辺。つまり、シーエー を求めるには、角ビー が必要になります。",
+      "lines": [
+        {"style": "head", "text": "手順1：辺と「向かいの角」を対応させる", "active": true},
+        {"style": "formula", "text": "BC は A の対辺 ，  CA は B の対辺", "active": true},
+        {"style": "note", "text": "→ CA を求めるには角B が必要。", "active": true},
+        {"style": "note", "text": "対応を間違えると必ず答えがずれる。図に書き込む。"}
+      ],
+      "caption": "手順1：BC↔角A、CA↔角B の対応をとる"
+    },
+    {
+      "narration": "では、角ビー を出します。三角形の内角の和は、180度。180度 マイナス 45度 マイナス 75度 は、60度。角ビー は、60度 です。ここまでで、準備が終わりました。",
+      "lines": [
+        {"style": "head", "text": "手順2：残りの角を出す", "active": true},
+        {"style": "formula", "text": "B = 180° - 45° - 75° = 60°", "active": true},
+        {"style": "note", "text": "角が2つ分かっていれば、3つ目は必ず出る。"}
+      ],
+      "caption": "手順2：B = 180° - 45° - 75° = 60°"
+    },
+    {
+      "narration": "正弦定理は、これです。ビーシー を サイン エー で割ったものと、シーエー を サイン ビー で割ったものが、等しい。辺を、その向かいの角の サイン で割る。どの組でも同じ値になる、というのが正弦定理です。",
+      "lines": [
+        {"style": "head", "text": "正弦定理（暗記事項）", "active": true},
+        {"style": "formula", "text": "BC / sin A = CA / sin B = AB / sin C", "active": true},
+        {"style": "note", "text": "「辺 ÷ 向かいの角のサイン は、どこも同じ」", "active": true}
+      ],
+      "caption": "正弦定理：辺 ÷ 向かいの角の sin はどこも等しい"
+    },
+    {
+      "narration": "代入します。2 わる サイン45度 イコール、シーエー わる サイン60度。したがって、シーエー イコール、2 かける サイン60度 わる サイン45度。ここで、サイン60度 は、ルート3 わる 2。サイン45度 は、ルート2 わる 2 です。",
+      "lines": [
+        {"style": "head", "text": "手順3：代入して式を立てる", "active": true},
+        {"style": "formula", "text": "2 / sin45° = CA / sin60°", "active": true},
+        {"style": "formula", "text": "CA = 2 · sin60° / sin45°", "active": true},
+        {"style": "note", "text": "sin60° = √3/2 ，  sin45° = √2/2", "active": true}
+      ],
+      "caption": "手順3：CA = 2 · sin60° / sin45°"
+    },
+    {
+      "narration": "計算します。分母と分子の、2分の、が消えて、2 かける ルート3 わる ルート2。分母のルートをはらうと、2 ルート3 かける ルート2 わる 2。2 が消えて、ルート3 かける ルート2、すなわち、ルート6 です。シーエー イコール ルート6。これが答えです。",
+      "lines": [
+        {"style": "head", "text": "手順4：計算して答え", "active": true},
+        {"style": "formula", "text": "CA = 2 · (√3/2) / (√2/2) = 2√3 / √2", "active": false},
+        {"style": "formula", "text": "CA = 2√3·√2 / 2 = √6", "active": true},
+        {"style": "note", "text": "分母に √ を残さない（有理化）。", "active": true}
+      ],
+      "caption": "答え：CA = √6"
+    },
+    {
+      "narration": "答えの確かめ方も覚えましょう。三角形では、大きい角の向かいに、長い辺が来ます。角ビー は 60度 で、角エー の 45度 より大きい。ですから、シーエー は、ビーシー の 2 より長いはず。ルート6 は、およそ 2.45。ちゃんと 2 より大きいので、つじつまが合っています。",
+      "lines": [
+        {"style": "head", "text": "検算：大きい角の向かいは長い辺", "active": true},
+        {"style": "formula", "text": "B = 60° > A = 45°   →   CA > BC = 2", "active": true},
+        {"style": "formula", "text": "√6 ≒ 2.45 > 2   ○", "active": true},
+        {"style": "note", "text": "大小関係の確認だけで、計算ミスの多くを防げる。"}
+      ],
+      "caption": "検算：B>A なので CA>BC。√6≒2.45 で矛盾なし"
+    },
+    {
+      "narration": "おつかれさまでした。在庫に入れる1行は、角2つと辺1つなら正弦定理、辺を向かいの角のサインで割る。翌日、何も見ずに、もう一度解いてみてください。3回転すれば、確実にあなたの武器になります。次の問題でも、お待ちしています。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "角2つ＋辺1つ → 正弦定理（辺 ÷ 対角の sin）", "active": true},
+        {"style": "text", "text": "1回目：書き写す　2回目：翌日に自力で", "active": true},
+        {"style": "text", "text": "3回目：1週間後に方針を30秒で言えるか確認", "active": true},
+        {"style": "note", "text": "図に角と辺の対応を書き込む習慣をつける。"}
+      ],
+      "caption": "在庫に入れる1行：角2つ＋辺1つ → 正弦定理"
+    }
+  ]
+}

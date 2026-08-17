@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>組合せの計算を工夫する（100C98、21C15 + 21C16）｜高校数学 第7回</title>
+<meta name="description" content="nCr = nC(n−r) とパスカルの法則で組合せの計算を軽くする手順を、ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第7回 組合せの計算</div>
+
+<main class="wrap">
+  <h1>第7回　組合せの計算を工夫する</h1>
+  <div class="formula">(1) ₁₀₀C₉₈ の値を求めよ。　(2) ₂₁C₁₅ + ₂₁C₁₆ の値を求めよ。</div>
+  <p>まっすぐ計算すると大変ですが、道具を2つ持っていれば一瞬で終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/combinations.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/combinations.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>使う道具は2つだけ</h2>
+  <div class="panel accent">
+    <div class="formula">道具1　nCr = nC(n − r)　（下の数は小さい方に直す）</div>
+    <div class="formula">道具2　nCr + nC(r+1) = (n+1)C(r+1)　（パスカルの法則）</div>
+    <p>道具1の意味：100個から98個選ぶのは、「選ばずに残す2個」を決めるのと同じ。</p>
+  </div>
+
+  <h2>(1) の解答</h2>
+  <ol class="steps">
+    <li><strong>下を小さい方に直す</strong><div class="formula">₁₀₀C₉₈ = ₁₀₀C₂</div></li>
+    <li><strong>計算する</strong><div class="formula">(100 × 99) / (2 × 1) = 9900 / 2 = 4950</div></li>
+  </ol>
+
+  <h2>(2) の解答</h2>
+  <ol class="steps">
+    <li><strong>パスカルの法則でまとめる</strong>
+      <div class="formula">₂₁C₁₅ + ₂₁C₁₆ = ₂₂C₁₆　（上が同じ、下が1つちがい）</div>
+    </li>
+    <li><strong>下を小さい方に直す</strong><div class="formula">₂₂C₁₆ = ₂₂C₆</div></li>
+    <li><strong>約分しながら計算</strong>
+      <div class="formula">(22·21·20·19·18·17) / 720 = 74613</div>
+      <p>掛けてから割るのではなく、先に約分します。</p>
+    </li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>₂₁C₁₅ = 54264、₂₁C₁₆ = 20349。54264 + 20349 = 74613 で一致します（本番ではこの重い計算を避けるために道具を使います）。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる2行）</h2>
+  <div class="panel accent">
+    <p><strong>① 下の数が大きいときは小さい方に直す　② 下が1つちがいの足し算は、上を1つ増やしてまとめる</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>₅₀C₄₈
+        <details><summary>答え</summary><p>₅₀C₂ = (50×49)/2 = 1225</p></details>
+      </li>
+      <li>₁₀C₇ + ₁₀C₈
+        <details><summary>答え</summary><p>₁₁C₈ = ₁₁C₃ = 165</p></details>
+      </li>
+      <li>₉C₉ + ₉C₈
+        <details><summary>答え</summary><p>₁₀C₉ = 10</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="assumed-mean.html">← 第6回 仮平均法</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

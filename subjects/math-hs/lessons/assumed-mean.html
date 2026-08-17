@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>仮平均法で平均値を求める｜高校数学 第6回</title>
+<meta name="description" content="仮平均法（仮の平均からのズレで計算する方法）で平均値を求める手順を、ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第6回 仮平均法</div>
+
+<main class="wrap">
+  <h1>第6回　仮平均法で平均値を求める</h1>
+  <div class="formula">仮平均法を用いて、次のデータの平均値を求めよ。　58, 62, 65, 61, 64</div>
+  <p>大きい数のたし算をせず、ズレだけを合計します。計算ミスが激減する実戦テクニックです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/assumed-mean.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/assumed-mean.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>使う型</h2>
+  <div class="panel accent">
+    <div class="formula">平均 ＝ 仮平均 ＋ ( ズレの合計 ÷ 個数 )</div>
+    <p>仮平均は自分で決めてよい値です。データの真ん中あたりのキリのよい数（今回は 60）を選びます。</p>
+  </div>
+
+  <h2>解答の手順</h2>
+  <ol class="steps">
+    <li><strong>仮平均 60 からのズレを出す</strong>
+      <table>
+        <tr><th>データ</th><td>58</td><td>62</td><td>65</td><td>61</td><td>64</td></tr>
+        <tr><th>ズレ</th><td>−2</td><td>+2</td><td>+5</td><td>+1</td><td>+4</td></tr>
+      </table>
+    </li>
+    <li><strong>ズレを合計する（打ち消し合うペアから）</strong>
+      <div class="formula">(−2) + (+2) = 0、0 + 5 + 1 + 4 = 10</div>
+    </li>
+    <li><strong>個数で割って仮平均に足す</strong>
+      <div class="formula">10 ÷ 5 = 2　→　平均 = 60 + 2 = 62</div>
+    </li>
+  </ol>
+
+  <h2>検算（ふつうの計算）</h2>
+  <div class="panel">
+    <div class="formula">58 + 62 + 65 + 61 + 64 = 310　→　310 ÷ 5 = 62　○</div>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>「平均 ＝ 仮平均 ＋ ズレの平均」</strong></p>
+  </div>
+  <div class="panel note">
+    <p><strong>最頻出ミス：</strong>ズレの平均（＝2）を出したところで満足して、仮平均を足し戻すのを忘れること。必ず仮平均に戻ります。</p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>103, 98, 101, 106, 97 の平均（仮平均 100）。
+        <details><summary>答え</summary><p>ズレは +3, −2, +1, +6, −3 で合計 +5。5 ÷ 5 = 1 より平均 101</p></details>
+      </li>
+      <li>248, 252, 245, 255 の平均（仮平均 250）。
+        <details><summary>答え</summary><p>ズレは −2, +2, −5, +5 で合計 0。平均 250</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="triangle-inequality.html">← 第5回 三角形の成立条件</a>　｜　<a href="combinations.html">第7回 組合せの計算 →</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
