@@ -8,6 +8,7 @@
 
 import json
 import shutil
+import math
 import subprocess
 import sys
 import tempfile
@@ -29,6 +30,16 @@ VOICE = "ja-JP-NanamiNeural"
 RATE = "-12%"
 PITCH = "+8Hz"
 TAIL_SEC = 0.7
+
+
+# IPA Pゴシックに無い上付き数字は「^n」に置き換える（豆腐対策）。
+GLYPH_FALLBACK = {"⁰": "^0", "⁴": "^4", "⁵": "^5", "⁶": "^6", "⁷": "^7", "⁸": "^8", "⁹": "^9"}
+
+
+def safe(text: str) -> str:
+    for src, dst in GLYPH_FALLBACK.items():
+        text = text.replace(src, dst)
+    return text
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
@@ -67,11 +78,47 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
          "right_angles": [["A", "B", "C"]],
          "lengths": [{"between": ["A", "B"], "text": "3"}],
          "angles": [{"at": "A", "from": "B", "to": "C", "text": "60°"}],
-         "labels": [{"at": "A", "text": "A", "dx": -28, "dy": -34}]}
+         "labels": [{"at": "A", "text": "A", "dx": -28, "dy": -34}],
+         "circles": [{"center": "O", "through": "A"}],
+         "shaded": [{"center": "O", "from": "A", "to": "B", "apex": "H"}]}
+
+    circles は中心と円周上の1点で指定する。shaded は「頂点 apex ＋ 弦の両端 from, to
+    を結び、from から to への短いほうの弧でふたをした領域」を塗る。
     """
     pts = {k: (float(v[0]), float(v[1])) for k, v in fig["points"].items()}
-    to_px, scale = _project(pts, box)
+    circles = [
+        (pts[c["center"]], math.dist(pts[c["center"]], pts[c["through"]]))
+        for c in fig.get("circles", [])
+    ]
+
+    bounds = dict(pts)
+    for i, (o, r) in enumerate(circles):
+        bounds[f"_c{i}min"] = (o[0] - r, o[1] - r)
+        bounds[f"_c{i}max"] = (o[0] + r, o[1] + r)
+    to_px, scale = _project(bounds, box)
     P = {k: to_px(v) for k, v in pts.items()}
+
+    def arc_points(o, r, p, q, n=64):
+        """中心 o の円上で、p から q への短いほうの弧をなぞる点列（数学座標）。"""
+        a0 = math.atan2(p[1] - o[1], p[0] - o[0])
+        a1 = math.atan2(q[1] - o[1], q[0] - o[0])
+        span = (a1 - a0) % (2 * math.pi)
+        if span > math.pi:
+            a0, a1, span = a1, a0, 2 * math.pi - span
+        return [
+            (o[0] + r * math.cos(a0 + span * i / n), o[1] + r * math.sin(a0 + span * i / n))
+            for i in range(n + 1)
+        ]
+
+    for item in fig.get("shaded", []):
+        o, r = circles[item.get("circle", 0)]
+        arc = arc_points(o, r, pts[item["from"]], pts[item["to"]])
+        d.polygon([P[item["apex"]]] + [to_px(p) for p in arc], fill=ACCENT_SOFT)
+
+    for o, r in circles:
+        c = to_px(o)
+        rp = r * scale
+        d.ellipse([c[0] - rp, c[1] - rp, c[0] + rp, c[1] + rp], outline=INK, width=3)
 
     for poly in fig.get("polygons", []):
         d.polygon([P[k] for k in poly], fill=(255, 255, 255), outline=None)
@@ -103,7 +150,7 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
         mid = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)
         dx = item.get("dx", 0)
         dy = item.get("dy", 0)
-        d.text((mid[0] + dx - 10, mid[1] + dy - 14), item["text"], font=f_lab, fill=ACCENT)
+        d.text((mid[0] + dx - 10, mid[1] + dy - 14), safe(item["text"]), font=f_lab, fill=ACCENT)
 
     for item in fig.get("angles", []):
         v = P[item["at"]]
@@ -112,12 +159,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
               start=item.get("start", 0), end=item.get("end", 90),
               fill=ACCENT, width=3)
         d.text((v[0] + item.get("dx", 0), v[1] + item.get("dy", 0)),
-               item["text"], font=font(24), fill=ACCENT)
+               safe(item["text"]), font=font(24), fill=ACCENT)
 
     for item in fig.get("labels", []):
         v = P[item["at"]]
         d.text((v[0] + item.get("dx", -12), v[1] + item.get("dy", -36)),
-               item["text"], font=font(28), fill=INK)
+               safe(item["text"]), font=font(28), fill=INK)
         d.ellipse([v[0] - 4, v[1] - 4, v[0] + 4, v[1] + 4], fill=INK)
 
 
@@ -127,9 +174,9 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
 
     d.rectangle([0, 0, WIDTH, 96], fill=CARD)
     d.rectangle([0, 96, WIDTH, 100], fill=ACCENT)
-    d.text((56, 26), title, font=font(34), fill=INK)
+    d.text((56, 26), safe(title), font=font(34), fill=INK)
     if subtitle:
-        d.text((56, 66), subtitle, font=font(18), fill=SUB)
+        d.text((56, 66), safe(subtitle), font=font(18), fill=SUB)
 
     top = 140
     rounded(d, [48, top, WIDTH - 48, HEIGHT - 132], 18, CARD, LINE, 2)
@@ -142,7 +189,7 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
     y = top + 34
     for item in lines:
         style = item.get("style", "text")
-        text = item["text"]
+        text = safe(item["text"])
         active = item.get("active", False)
         if style == "formula":
             box_h = 62
@@ -169,7 +216,7 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
 
     if caption:
         d.rectangle([0, HEIGHT - 96, WIDTH, HEIGHT], fill=(29, 36, 48))
-        wrapped = caption
+        wrapped = safe(caption)
         d.text((56, HEIGHT - 68), wrapped, font=font(24), fill=(255, 255, 255))
 
     img.save(path)

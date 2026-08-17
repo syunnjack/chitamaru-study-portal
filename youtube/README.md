@@ -46,6 +46,8 @@
 | 1 | `videos/telescoping-fourth-power.mp4` | 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○⁴ |
 | 2 | `videos/pythagoras-altitude.mp4` | 【高校入試】斜辺への垂線は「面積2通り」で一発／AB=6, BC=8 |
 | 3 | `videos/squares-heptagon.mp4` | 【高校入試・図形の証明】正方形2つの七角形の面積／44 + 18√3 cm² |
+| 4 | `videos/circle-chords.mp4` | 【高校入試・円】直交する2弦と網目部分の面積／25π/4 + 5/2 |
+| 5 | `videos/factor-x4.mp4` | 【高校入試・因数分解】1 + x² + x⁴ は平方の差にする／3問まとめ |
 
 ### 説明文の書き方（1本目の例）
 

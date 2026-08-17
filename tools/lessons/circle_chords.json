@@ -1,0 +1,175 @@
+{
+  "title": "直交する2弦と、網目部分の面積",
+  "subtitle": "高校受験数学 ／ 円と方べき ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "figure": {
+    "points": {
+      "A": [-1, 0],
+      "C": [6, 0],
+      "B": [0, 2],
+      "D": [0, -3],
+      "H": [0, 0],
+      "O": [2.5, -0.5]
+    },
+    "circles": [{"center": "O", "through": "A"}],
+    "shaded": [
+      {"from": "A", "to": "B", "apex": "H"},
+      {"from": "C", "to": "D", "apex": "H"}
+    ],
+    "segments": [["A", "C"], ["B", "D"]],
+    "right_angles": [["A", "H", "B"]],
+    "lengths": [
+      {"between": ["A", "H"], "text": "1", "dx": -8, "dy": 22},
+      {"between": ["B", "H"], "text": "2", "dx": -32, "dy": 6},
+      {"between": ["D", "H"], "text": "3", "dx": 14, "dy": 0},
+      {"between": ["H", "C"], "text": "6", "dx": 0, "dy": -32}
+    ],
+    "labels": [
+      {"at": "A", "text": "A", "dx": -40, "dy": -16},
+      {"at": "B", "text": "B", "dx": -10, "dy": -40},
+      {"at": "C", "text": "C", "dx": 10, "dy": -18},
+      {"at": "D", "text": "D", "dx": -8, "dy": 10},
+      {"at": "H", "text": "H", "dx": 6, "dy": 8},
+      {"at": "O", "text": "O", "dx": 10, "dy": -14}
+    ]
+  },
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は円の問題です。円オー の2つの弦 エーシー と ビーディー が、点エイチ で直交しています。エーエイチ が 1、ビーエイチ が 2、ディーエイチ が 3。1番、円オー の面積を求めなさい。2番、網目部分、三角形エービーエイチ 側 と 三角形ディーシーエイチ 側 の面積を求めなさい。",
+      "lines": [
+        {"style": "head", "text": "今日の問題", "active": true},
+        {"style": "formula", "text": "弦 AC ⊥ 弦 BD（交点 H）", "active": true},
+        {"style": "formula", "text": "AH = 1 , BH = 2 , DH = 3", "active": true},
+        {"style": "note", "text": "(1) 円Oの面積　(2) 網目部分の面積", "active": true}
+      ],
+      "caption": "AC ⊥ BD、AH = 1、BH = 2、DH = 3"
+    },
+    {
+      "narration": "型は3つです。1つ目、弦が交わったら、方べきの定理。エーエイチ かける エイチシー イコール ビーエイチ かける エイチディー。2つ目、円の中心は、弦の垂直二等分線上にある。3つ目、面積は、扇形と三角形に切り分ける。この3つで最後まで行けます。",
+      "lines": [
+        {"style": "head", "text": "解法の型（3つだけ）", "active": true},
+        {"style": "formula", "text": "① 弦が交わる → AH·HC = BH·HD", "active": true},
+        {"style": "formula", "text": "② 中心は弦の垂直二等分線上", "active": true},
+        {"style": "formula", "text": "③ 面積は扇形と三角形に切り分け", "active": true}
+      ],
+      "caption": "型：方べき ＋ 垂直二等分線 ＋ 切り分け"
+    },
+    {
+      "narration": "手順1。まず、方べきの定理で エイチシー を出します。1 かける エイチシー が、2 かける 3 で 6。ですから、エイチシー は 6。これで弦 エーシー は、1 足す 6 で 7 と決まります。",
+      "lines": [
+        {"style": "head", "text": "手順1：方べきで HC", "active": true},
+        {"style": "formula", "text": "1 × HC = 2 × 3 = 6", "active": true},
+        {"style": "formula", "text": "HC = 6 , AC = 1 + 6 = 7", "active": true}
+      ],
+      "caption": "手順1：HC = 6、AC = 7"
+    },
+    {
+      "narration": "手順2。中心オー の位置を決めます。エイチ を原点、エーシー を よこ軸、ビーディー を たて軸 にとります。中心から弦におろした垂線は、弦を2等分しますから、オー は エーシー の中点の真上か真下、そして ビーディー の中点の横。エーシー の中点は、エイチ から 2.5 のところ。ビーディー の中点は、ビーエイチ が 2、エイチディー が 3 ですから、エイチ から ディー 側に 0.5 のところ。よって オー は、よこに 2.5、たてに マイナス0.5 の点です。",
+      "lines": [
+        {"style": "head", "text": "手順2：中心の位置", "active": true},
+        {"style": "note", "text": "H を原点、AC を x軸、BD を y軸にとる", "active": true},
+        {"style": "formula", "text": "AC の中点：x = (−1 + 6) ÷ 2 = 2.5", "active": true},
+        {"style": "formula", "text": "BD の中点：y = (2 − 3) ÷ 2 = −0.5", "active": true},
+        {"style": "formula", "text": "O(2.5 , −0.5)", "active": true}
+      ],
+      "caption": "手順2：垂直二等分線から O(2.5, −0.5)"
+    },
+    {
+      "narration": "手順3。半径の2乗を出します。オー から エー までを、三平方の定理で。よこの差は 3.5、たての差は 0.5。ですから 半径の2乗 は、3.5の2乗 足す 0.5の2乗、12.25 足す 0.25 で、12.5。半径そのものは使いません。面積では2乗のまま使うからです。",
+      "lines": [
+        {"style": "head", "text": "手順3：r² を三平方で", "active": true},
+        {"style": "formula", "text": "r² = 3.5² + 0.5² = 12.25 + 0.25", "active": true},
+        {"style": "formula", "text": "r² = 12.5 = 25/2", "active": true},
+        {"style": "note", "text": "√は開かない。面積は r² しか使わない。", "active": true}
+      ],
+      "caption": "手順3：r² = 25/2（√は開かない）"
+    },
+    {
+      "narration": "1番の答えです。円の面積は、パイ かける 半径の2乗。ですから、25 かける パイ を 2 で割って、2分の25パイ。数でいうと、およそ 39.3 です。",
+      "lines": [
+        {"style": "head", "text": "(1) の答え", "active": true},
+        {"style": "formula", "text": "S = π r² = (25/2)π", "active": true},
+        {"style": "note", "text": "およそ 39.3。図の大きさと合う。", "active": true}
+      ],
+      "caption": "(1) の答え：円Oの面積 = 25π/2"
+    },
+    {
+      "narration": "2番です。網目部分は、弦の一部と弧で囲まれた形が2つ。1つずつ、扇形 引く 三角形 足す 三角形、という形に分解します。まず、弧エービー の部分は、扇形オーエービー から 三角形オーエービー を引いた弓形。そこに 三角形エービーエイチ を足す。ディーシー 側も同じです。",
+      "lines": [
+        {"style": "head", "text": "(2) の切り分け", "active": true},
+        {"style": "formula", "text": "網目 = (扇形OAB − △OAB + △ABH)", "active": true},
+        {"style": "formula", "text": "　　 + (扇形OCD − △OCD + △CDH)", "active": true},
+        {"style": "note", "text": "弓形 = 扇形 − 三角形。まず言葉で式を作る。", "active": true}
+      ],
+      "caption": "(2) 網目 = 弓形 ＋ 三角形 を2組"
+    },
+    {
+      "narration": "ここが今日のヤマです。2つの扇形の中心角を、足すと 180度 になります。理由は円周角。三角形エービーエイチ で、角エー と 角ビー を足すと 90度。角エー は弧ビーシー の円周角、角ビー は弧エーディー の円周角ですから、弧ビーシー と 弧エーディー を足すと 180度。残りの 弧エービー と 弧シーディー も、足して 180度 です。",
+      "lines": [
+        {"style": "head", "text": "ヤマ：2つの弧の和は半円", "active": true},
+        {"style": "formula", "text": "∠HAB + ∠HBA = 90°（直角三角形）", "active": true},
+        {"style": "formula", "text": "→ 弧BC + 弧AD = 180°", "active": true},
+        {"style": "formula", "text": "→ 弧AB + 弧CD = 180°", "active": true}
+      ],
+      "caption": "円周角より 弧AB + 弧CD = 180°（半円分）"
+    },
+    {
+      "narration": "だから、2つの扇形の面積の和は、円の半分。円の面積 2分の25パイ の半分で、4分の25パイ です。中心角を1つずつ求める必要はありません。ここが要領です。",
+      "lines": [
+        {"style": "head", "text": "扇形2つの和は「円の半分」", "active": true},
+        {"style": "formula", "text": "扇形OAB + 扇形OCD = (1/2) × (25/2)π", "active": true},
+        {"style": "formula", "text": "= 25π/4", "active": true},
+        {"style": "note", "text": "中心角を個別に出す必要はない。", "active": true}
+      ],
+      "caption": "扇形の和 = 円の半分 = 25π/4"
+    },
+    {
+      "narration": "次に、三角形オーエービー です。座標が分かっているので、囲む長方形から、直角三角形3つを引きます。長方形は よこ 3.5、たて 2.5 で 8.75。引くのは、1 と 3.125 と 0.875、合わせて 5。よって 8.75 引く 5 で、3.75。三角形オーシーディー も、同じ計算で 3.75 になります。",
+      "lines": [
+        {"style": "head", "text": "△OAB と △OCD", "active": true},
+        {"style": "formula", "text": "長方形 3.5 × 2.5 = 8.75", "active": true},
+        {"style": "formula", "text": "− (1 + 3.125 + 0.875) = − 5", "active": true},
+        {"style": "formula", "text": "△OAB = △OCD = 3.75 = 15/4", "active": true}
+      ],
+      "caption": "△OAB = △OCD = 15/4（囲む長方形から引く）"
+    },
+    {
+      "narration": "残りは、直角をはさむ三角形2つ。三角形エービーエイチ は、2分の1 かける 1 かける 2 で、1。三角形シーディーエイチ は、2分の1 かける 6 かける 3 で、9。足して 10 です。",
+      "lines": [
+        {"style": "head", "text": "直角の三角形2つ", "active": true},
+        {"style": "formula", "text": "△ABH = (1/2) × 1 × 2 = 1", "active": true},
+        {"style": "formula", "text": "△CDH = (1/2) × 6 × 3 = 9", "active": true},
+        {"style": "formula", "text": "合計 10", "active": true}
+      ],
+      "caption": "△ABH = 1、△CDH = 9、合計 10"
+    },
+    {
+      "narration": "まとめます。4分の25パイ から、三角形2つ分の 2分の15 を引いて、直角の三角形の 10 を足す。よって、網目部分の面積は、4分の25パイ 足す 2分の5。これが答えです。パイ は そのまま、ルート も 開きません。",
+      "lines": [
+        {"style": "head", "text": "(2) の答え", "active": true},
+        {"style": "formula", "text": "25π/4 − 15/2 + 10", "active": true},
+        {"style": "formula", "text": "= 25π/4 + 5/2", "active": true},
+        {"style": "note", "text": "およそ 22.1。円の面積 約39.3 の6割ほど。", "active": true}
+      ],
+      "caption": "(2) の答え：25π/4 + 5/2"
+    },
+    {
+      "narration": "検算です。網目部分は、円の内側の一部ですから、円の面積 およそ 39.3 より小さいはず。答えは およそ 22.1 で、だいたい6割。図の見た目と合います。もし引き算と足し算を逆にしていれば、けたが合わなくなるので、すぐ気づけます。",
+      "lines": [
+        {"style": "head", "text": "検算：円の面積と比べる", "active": true},
+        {"style": "formula", "text": "22.1 < 39.3（円の面積）　○", "active": true},
+        {"style": "note", "text": "見た目6割くらい。図と数が合っているか必ず見る。", "active": true}
+      ],
+      "caption": "検算：22.1 < 39.3。図の見た目と合う"
+    },
+    {
+      "narration": "在庫に入れる1行です。円の中で弦が直交したら、方べきで長さ、垂直二等分線で中心、そして 直交する弦がつくる向かい合った弧は、足すと半円。この3つを覚えるだけで、この形の入試問題は取れます。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "方べき → 垂直二等分線で中心 → r²", "active": true},
+        {"style": "formula", "text": "直交する弦：向かい合う2つの弧の和は半円", "active": true},
+        {"style": "note", "text": "類題：AH=2, BH=3, DH=4 のとき r² と網目部分。", "active": true}
+      ],
+      "caption": "在庫に入れる1行：方べき → 中心 → 弧の和は半円"
+    }
+  ]
+}
