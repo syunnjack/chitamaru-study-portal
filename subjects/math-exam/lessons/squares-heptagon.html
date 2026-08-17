@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>正方形2つと七角形の面積（合同の証明つき）｜高校受験数学 第3回</title>
+<meta name="description" content="三角形の外側に正方形を2つかいた図で、△FAK ≡ △EKA の証明と、七角形 BCDEKFG の面積（44 + 18√3 cm²）を、図と音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第3回 正方形2つと七角形の面積</div>
+
+<main class="wrap">
+  <h1>第3回　正方形2つと七角形の面積（合同の証明つき）</h1>
+  <div class="formula">
+    三角形 ABC において、四角形 BAFG は辺 AB を1辺とする正方形、四角形 CDEA は辺 AC を1辺とする正方形である。A から辺 BC に垂線をひき、BC との交点を J、線分 JA を A の方向にのばした直線上に AK = BC となる点 K をとる。<br>
+    (1) △FAK ≡ △EKA を証明せよ。<br>
+    (2) AB = 4 cm、BC = 6 cm、∠ABC = 60° のとき、七角形 BCDEKFG の面積を求めよ。
+  </div>
+
+  <p><img src="../../../assets/figures/squares-heptagon.png" alt="三角形ABCの外側に正方形BAFGと正方形CDEAをかき、Aから BC への垂線 AJ をのばして AK = BC となる点 K をとった図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
+
+  <video controls preload="metadata" src="../../../videos/squares-heptagon.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/squares-heptagon.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>正方形つきの図で「合同を示せ」→ 材料は「正方形の等辺」「正方形の90°」「垂線の90°」の3つだけ。90°を足し引きして等しい角を作る。</strong></p>
+    <p><strong>面積は、頂点から切り分けて、合同な三角形を数える。</strong></p>
+  </div>
+
+  <h2>(1) の証明</h2>
+  <ol class="steps">
+    <li><strong>等しい辺を書き込む</strong><div class="formula">FA = AB（正方形 BAFG）　AE = AC（正方形 CDEA）　AK = BC（条件）</div></li>
+    <li><strong>∠FAK = ∠ABC を出す</strong>
+      <div class="formula">∠BAJ = 90° − ∠ABC（△ABJ は直角三角形）<br>∠BAK = 180° − ∠BAJ = 90° + ∠ABC（K は JA の延長上）<br>∠FAK = ∠BAK − ∠BAF = (90° + ∠ABC) − 90° = ∠ABC</div>
+    </li>
+    <li><strong>△FAK ≡ △ABC（2辺とその間の角）</strong><div class="formula">FA = AB、AK = BC、∠FAK = ∠ABC　→　KF = AC</div></li>
+    <li><strong>反対側も同じ</strong><div class="formula">∠EAK = ∠CAK − ∠CAE = (90° + ∠ACB) − 90° = ∠ACB<br>AE = CA、AK = CB　→　△EAK ≡ △CAB　→　EK = AB</div></li>
+    <li><strong>3辺を並べて結論</strong>
+      <div class="formula">△FAK：FA = AB、AK、KF = AC<br>△EKA：EK = AB、KA、AE = AC<br>3辺がそれぞれ等しい　→　△FAK ≡ △EKA　（証明終）</div>
+    </li>
+  </ol>
+
+  <h2>(2) の計算</h2>
+  <ol class="steps">
+    <li><strong>七角形を A から切り分ける</strong>
+      <div class="formula">七角形 = 正方形BAFG + 正方形CDEA + △ABC + △AEK + △AKF</div>
+      <p>(1) より △AEK ≡ △AKF ≡ △ABC なので、面積は △ABC の3つ分になります。</p>
+      <div class="formula">七角形 = AB² + AC² + 3 × △ABC</div>
+    </li>
+    <li><strong>AC² を出す（√は開かない）</strong><div class="formula">∠ABC = 60°、AB = 4 → BJ = 2、AJ = 2√3、JC = 6 − 2 = 4<br>AC² = (2√3)² + 4² = 12 + 16 = 28</div></li>
+    <li><strong>△ABC の面積</strong><div class="formula">S = ½ × 6 × 2√3 = 6√3</div></li>
+    <li><strong>合計する</strong><div class="formula">AB² + AC² = 16 + 28 = 44　　3 × 6√3 = 18√3<br>七角形 BCDEKFG = <strong>44 + 18√3 (cm²)</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>正方形だけで 44、三角形3つ分が約31。合計 約75 で、図の大きさと合います。内訳を声に出すと足し忘れがすぐ見つかります。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>正方形の90°を足し引きして等しい角を作る／面積は頂点から切り分けて合同な三角形を数える</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ図で、△AEF（正方形の間にできる三角形）の面積は △ABC と比べてどうか。
+        <details><summary>答え</summary><p>∠EAF = 360° − 90° − 90° − ∠BAC = 180° − ∠BAC なので sin が等しく、½·AF·AE·sin∠EAF = ½·AB·AC·sin∠BAC。つまり △ABC と等しい。</p></details>
+      </li>
+      <li>AB = 4、BC = 6、∠ABC = 90° のときの七角形の面積。
+        <details><summary>答え</summary><p>AC² = 16 + 36 = 52、△ABC = 12 なので 16 + 52 + 36 = 104 cm²</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pythagoras-altitude.html">← 第2回 三平方の定理と垂線</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
