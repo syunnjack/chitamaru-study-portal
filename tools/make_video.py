@@ -39,7 +39,89 @@ def rounded(draw: ImageDraw.ImageDraw, box, radius, fill, outline=None, width=1)
     draw.rounded_rectangle(box, radius=radius, fill=fill, outline=outline, width=width)
 
 
-def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str) -> None:
+def _project(points, box):
+    """図形の座標（数学の向き）を、描画領域 box にはめこむ変換を返す。"""
+    x0, y0, x1, y1 = box
+    xs = [p[0] for p in points.values()]
+    ys = [p[1] for p in points.values()]
+    w = max(xs) - min(xs) or 1.0
+    h = max(ys) - min(ys) or 1.0
+    pad = 64
+    scale = min((x1 - x0 - 2 * pad) / w, (y1 - y0 - 2 * pad) / h)
+    cx, cy = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
+    mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+
+    def to_px(p):
+        return (mx + (p[0] - cx) * scale, my - (p[1] - cy) * scale)
+
+    return to_px, scale
+
+
+def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
+    """図形（三角形・線分・直角記号・長さ・角度）を描く。
+
+    fig の例:
+        {"points": {"A": [0, 3], "B": [0, 0], "C": [4, 0]},
+         "polygons": [["A", "B", "C"]],
+         "segments": [["B", "M"]],
+         "right_angles": [["A", "B", "C"]],
+         "lengths": [{"between": ["A", "B"], "text": "3"}],
+         "angles": [{"at": "A", "from": "B", "to": "C", "text": "60°"}],
+         "labels": [{"at": "A", "text": "A", "dx": -28, "dy": -34}]}
+    """
+    pts = {k: (float(v[0]), float(v[1])) for k, v in fig["points"].items()}
+    to_px, scale = _project(pts, box)
+    P = {k: to_px(v) for k, v in pts.items()}
+
+    for poly in fig.get("polygons", []):
+        d.polygon([P[k] for k in poly], fill=(255, 255, 255), outline=None)
+        seq = [P[k] for k in poly] + [P[poly[0]]]
+        d.line(seq, fill=INK, width=3, joint="curve")
+
+    for seg in fig.get("segments", []):
+        a, b = P[seg[0]], P[seg[1]]
+        d.line([a, b], fill=ACCENT, width=3)
+
+    for tri in fig.get("right_angles", []):
+        a, v, c = (P[k] for k in tri)
+        size = 22.0
+
+        def unit(p, q):
+            dx, dy = q[0] - p[0], q[1] - p[1]
+            n = (dx * dx + dy * dy) ** 0.5 or 1.0
+            return dx / n, dy / n
+
+        u1, u2 = unit(v, a), unit(v, c)
+        p1 = (v[0] + u1[0] * size, v[1] + u1[1] * size)
+        p2 = (v[0] + u2[0] * size, v[1] + u2[1] * size)
+        p3 = (p1[0] + u2[0] * size, p1[1] + u2[1] * size)
+        d.line([p1, p3, p2], fill=ACCENT, width=3)
+
+    f_lab = font(26)
+    for item in fig.get("lengths", []):
+        a, b = P[item["between"][0]], P[item["between"][1]]
+        mid = ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)
+        dx = item.get("dx", 0)
+        dy = item.get("dy", 0)
+        d.text((mid[0] + dx - 10, mid[1] + dy - 14), item["text"], font=f_lab, fill=ACCENT)
+
+    for item in fig.get("angles", []):
+        v = P[item["at"]]
+        r = item.get("r", 46)
+        d.arc([v[0] - r, v[1] - r, v[0] + r, v[1] + r],
+              start=item.get("start", 0), end=item.get("end", 90),
+              fill=ACCENT, width=3)
+        d.text((v[0] + item.get("dx", 0), v[1] + item.get("dy", 0)),
+               item["text"], font=font(24), fill=ACCENT)
+
+    for item in fig.get("labels", []):
+        v = P[item["at"]]
+        d.text((v[0] + item.get("dx", -12), v[1] + item.get("dy", -36)),
+               item["text"], font=font(28), fill=INK)
+        d.ellipse([v[0] - 4, v[1] - 4, v[0] + 4, v[1] + 4], fill=INK)
+
+
+def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figure=None) -> None:
     img = Image.new("RGB", (WIDTH, HEIGHT), BG)
     d = ImageDraw.Draw(img)
 
@@ -52,6 +134,11 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str) -> No
     top = 140
     rounded(d, [48, top, WIDTH - 48, HEIGHT - 132], 18, CARD, LINE, 2)
 
+    right = WIDTH - 84
+    if figure:
+        right = 660
+        draw_figure(d, (690, top + 20, WIDTH - 72, HEIGHT - 152), figure)
+
     y = top + 34
     for item in lines:
         style = item.get("style", "text")
@@ -61,20 +148,20 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str) -> No
             box_h = 62
             rounded(
                 d,
-                [84, y, WIDTH - 84, y + box_h],
+                [84, y, right, y + box_h],
                 10,
                 ACCENT_SOFT if active else (251, 252, 254),
                 ACCENT if active else LINE,
                 2,
             )
-            d.text((108, y + 14), text, font=font(30), fill=INK)
+            d.text((108, y + 14), text, font=font(26 if figure else 30), fill=INK)
             y += box_h + 18
         elif style == "head":
             d.rectangle([84, y + 6, 90, y + 34], fill=ACCENT)
             d.text((104, y), text, font=font(28), fill=ACCENT if active else INK)
             y += 52
         elif style == "note":
-            d.text((104, y), text, font=font(23), fill=ACCENT if active else SUB)
+            d.text((104, y), text, font=font(21 if figure else 23), fill=ACCENT if active else SUB)
             y += 42
         else:
             d.text((104, y), text, font=font(25), fill=INK if active else SUB)
@@ -124,6 +211,7 @@ def build(spec_path: Path, out_path: Path) -> None:
             scene.get("subtitle", spec.get("subtitle", "")),
             scene.get("lines", []),
             scene.get("caption", ""),
+            scene.get("figure", spec.get("figure")),
         )
         duration = synth(scene["narration"], mp3) + TAIL_SEC
         subprocess.run(

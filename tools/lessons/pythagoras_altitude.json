@@ -1,0 +1,100 @@
+{
+  "title": "三平方の定理と、面積2通りで垂線を出す",
+  "subtitle": "高校受験数学 ／ 三平方の定理 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "figure": {
+    "points": {"A": [0, 6], "B": [0, 0], "C": [8, 0], "H": [2.88, 3.84]},
+    "polygons": [["A", "B", "C"]],
+    "segments": [["B", "H"]],
+    "right_angles": [["A", "B", "C"], ["B", "H", "C"]],
+    "lengths": [
+      {"between": ["A", "B"], "text": "6", "dx": -34, "dy": 0},
+      {"between": ["B", "C"], "text": "8", "dx": 0, "dy": 30},
+      {"between": ["B", "H"], "text": "?", "dx": 18, "dy": 12}
+    ],
+    "labels": [
+      {"at": "A", "text": "A", "dx": -16, "dy": -44},
+      {"at": "B", "text": "B", "dx": -34, "dy": 8},
+      {"at": "C", "text": "C", "dx": 12, "dy": 8},
+      {"at": "H", "text": "H", "dx": 12, "dy": -34}
+    ]
+  },
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は図形です。直角三角形 エービーシー があります。角ビー が 90度、エービー が 6、ビーシー が 8。頂点ビー から、辺 エーシー に垂線をおろし、その足を エイチ とします。ビーエイチ の長さを求めなさい。",
+      "lines": [
+        {"style": "head", "text": "今日の問題", "active": true},
+        {"style": "formula", "text": "∠B = 90° , AB = 6 , BC = 8", "active": true},
+        {"style": "formula", "text": "BH ⊥ AC のとき BH = ?", "active": true},
+        {"style": "note", "text": "所要時間の目安：5分（慣れたら1分）"}
+      ],
+      "caption": "今日の問題：∠B = 90°、AB = 6、BC = 8、BH ⊥ AC のとき BH"
+    },
+    {
+      "narration": "型はこれです。直角三角形の斜辺から垂線がおりている図を見たら、面積を2通りで表す。相似を使って比を立てる方法もありますが、面積2通りのほうが速くて、ミスが少ない。これが要領です。",
+      "lines": [
+        {"style": "head", "text": "解法の型", "active": true},
+        {"style": "formula", "text": "斜辺への垂線 → 面積を2通りで表す", "active": true},
+        {"style": "note", "text": "相似で比を立ててもよいが、面積2通りが最短。", "active": true}
+      ],
+      "caption": "型：斜辺への垂線は「面積を2通り」で出す"
+    },
+    {
+      "narration": "手順1。まず斜辺 エーシー を出します。三平方の定理で、エーシー の2乗 は、6の2乗 プラス 8の2乗、36 プラス 64 で、100。ですから、エーシー は 10。3、4、5 の3倍の形ですから、覚えていれば一瞬です。",
+      "lines": [
+        {"style": "head", "text": "手順1：三平方の定理で斜辺", "active": true},
+        {"style": "formula", "text": "AC² = 6² + 8² = 100", "active": true},
+        {"style": "formula", "text": "AC = 10", "active": true},
+        {"style": "note", "text": "3 : 4 : 5 の3倍。この比は暗記しておく。", "active": true}
+      ],
+      "caption": "手順1：AC² = 36 + 64 = 100、AC = 10"
+    },
+    {
+      "narration": "手順2。面積を、1通り目で表します。角ビー が 直角ですから、エービー と ビーシー が、そのまま底辺と高さです。2分の1 かける 6 かける 8 で、24。",
+      "lines": [
+        {"style": "head", "text": "手順2：面積その1（直角をはさむ2辺）", "active": true},
+        {"style": "formula", "text": "S = (1/2) × 6 × 8 = 24", "active": true},
+        {"style": "note", "text": "∠B = 90° なので、AB と BC が底辺と高さになる。", "active": true}
+      ],
+      "caption": "手順2：S = ½ × 6 × 8 = 24"
+    },
+    {
+      "narration": "手順3。同じ面積を、2通り目で表します。今度は、エーシー を底辺と見ます。すると高さは、ビーエイチ。ですから、2分の1 かける 10 かける ビーエイチ。これが 24 と等しい。",
+      "lines": [
+        {"style": "head", "text": "手順3：面積その2（斜辺を底辺に見る）", "active": true},
+        {"style": "formula", "text": "S = (1/2) × AC × BH = (1/2) × 10 × BH", "active": true},
+        {"style": "formula", "text": "(1/2) × 10 × BH = 24", "active": true},
+        {"style": "note", "text": "同じ三角形の面積だから、等号でつなげる。", "active": true}
+      ],
+      "caption": "手順3：½ × 10 × BH = 24"
+    },
+    {
+      "narration": "手順4。方程式を解きます。5 かける ビーエイチ が 24。ですから、ビーエイチ は、5分の24。小数で書くと、4.8 です。これが答えです。",
+      "lines": [
+        {"style": "head", "text": "手順4：解く", "active": true},
+        {"style": "formula", "text": "5 × BH = 24", "active": true},
+        {"style": "formula", "text": "BH = 24/5 = 4.8", "active": true}
+      ],
+      "caption": "答え：BH = 24/5 = 4.8"
+    },
+    {
+      "narration": "検算です。ビーエイチ は、直角の頂点から斜辺までの、いちばん短い距離。ですから、エービー の 6 や、ビーシー の 8 より短くなければおかしい。4.8 は、両方より短い。だいじょうぶです。さらに、斜辺の半分の 5 より少し短い、という感覚も合っています。",
+      "lines": [
+        {"style": "head", "text": "検算：大きさの感覚で確かめる", "active": true},
+        {"style": "formula", "text": "BH < AB = 6 ,   BH < BC = 8   ○", "active": true},
+        {"style": "note", "text": "垂線は「いちばん短い距離」。他の辺より必ず短い。", "active": true},
+        {"style": "note", "text": "斜辺の半分 5 より少し小さい、という感覚も合う。"}
+      ],
+      "caption": "検算：BH は AB, BC より短い（4.8 < 6, 8）"
+    },
+    {
+      "narration": "おまけです。相似を使うと、エーエイチ と シーエイチ も出せます。ビーエイチ の2乗 イコール、エーエイチ かける シーエイチ、という関係もありますが、まずは面積2通りだけ確実にしてください。1つの型を確実にするほうが、点になります。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "斜辺への垂線 → 面積2通り → 方程式", "active": true},
+        {"style": "note", "text": "類題：∠B = 90°, AB = 5, BC = 12 → AC = 13、BH = 60/13", "active": true},
+        {"style": "note", "text": "余裕があれば BH² = AH × CH も（今は不要）。"}
+      ],
+      "caption": "在庫に入れる1行：斜辺への垂線は面積2通りで"
+    }
+  ]
+}

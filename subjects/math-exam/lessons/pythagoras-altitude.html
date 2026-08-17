@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三平方の定理と面積2通りで垂線を出す（AB = 6, BC = 8）｜高校受験数学 第2回</title>
+<meta name="description" content="直角三角形の斜辺におろした垂線の長さを、三平方の定理と「面積を2通りで表す」型で求める手順を、図と音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第2回 三平方の定理と垂線</div>
+
+<main class="wrap">
+  <h1>第2回　三平方の定理と、面積2通りで垂線を出す</h1>
+  <div class="formula">∠B = 90°、AB = 6、BC = 8 の直角三角形 ABC で、B から AC におろした垂線の足を H とする。BH の長さを求めよ。</div>
+
+  <p><img src="../../../assets/figures/pythagoras-altitude.png" alt="∠B = 90°、AB = 6、BC = 8 の直角三角形 ABC と、B から AC におろした垂線 BH の図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
+
+  <video controls preload="metadata" src="../../../videos/pythagoras-altitude.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pythagoras-altitude.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>斜辺に垂線がおりている図を見たら、面積を2通りで表す。</strong></p>
+    <p>相似で比を立てても解けますが、面積2通りのほうが速く、ミスが少ないです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>三平方の定理で斜辺</strong><div class="formula">AC² = 6² + 8² = 100　→　AC = 10</div><p>3 : 4 : 5 の3倍。この比は暗記しておきます。</p></li>
+    <li><strong>面積その1（直角をはさむ2辺）</strong><div class="formula">S = ½ × 6 × 8 = 24</div></li>
+    <li><strong>面積その2（斜辺を底辺に見る）</strong><div class="formula">S = ½ × AC × BH = ½ × 10 × BH</div></li>
+    <li><strong>等号でつないで解く</strong><div class="formula">½ × 10 × BH = 24　→　BH = 24/5 = 4.8</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>垂線は「いちばん短い距離」なので BH &lt; AB = 6、BH &lt; BC = 8 を満たすはず。4.8 は両方より小さく、斜辺の半分 5 より少し小さいという感覚とも合います。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>斜辺への垂線 → 面積2通り → 方程式</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>∠B = 90°、AB = 5、BC = 12 のとき BH
+        <details><summary>答え</summary><p>AC = 13、S = 30 より ½·13·BH = 30、BH = 60/13</p></details>
+      </li>
+      <li>∠B = 90°、AB = 3、BC = 3 のとき BH
+        <details><summary>答え</summary><p>AC = 3√2、S = 9/2 より BH = 3/√2 = 3√2/2</p></details>
+      </li>
+      <li>3辺が 6, 8, 10 の三角形で、長さ10の辺を底辺としたときの高さ
+        <details><summary>答え</summary><p>直角三角形なので同じく 4.8</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="telescoping-fourth-power.html">← 第1回 和が4乗になる式</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
