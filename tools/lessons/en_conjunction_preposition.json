@@ -1,0 +1,215 @@
+{
+  "title": "接続詞と前置詞の使い分け",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。括弧に入る語を、ビコーズ オブ、ビコーズ、デュアリング、ホワイル から選んでください。1、アイ ステイド ホーム 括弧 ザ ヘビー レイン。2、アイ レッド スリー ブックス 括弧 アイ ワズ ウェイティング フォー ザ リザルツ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) I stayed home ( ) the heavy rain.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) I read three books ( ) I was",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　waiting for the results.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、後ろの形だけを見ることです。後ろが名詞なら前置詞、後ろに主語と動詞がそろっていれば接続詞です。意味は同じでも形が違います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろの形だけを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞 → 前置詞（because of / during）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語+動詞 → 接続詞（because / while）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。括弧の後ろは ザ ヘビー レイン。名詞のかたまりで、動詞がありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 後ろの形を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the heavy rain → 名詞のかたまり",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動詞がない。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 後ろの形を見る"
+    },
+    {
+      "narration": "したがって前置詞の ビコーズ オブ です。ビコーズ だけでは名詞につなげません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 前置詞を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I stayed home because of the heavy rain.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "× because the heavy rain",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 前置詞を選ぶ"
+    },
+    {
+      "narration": "2番です。後ろは アイ ワズ ウェイティング。主語と動詞がそろった完全な文です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 後ろの形を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I was waiting … → 主語 + 動詞",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "完全な文が続く。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 後ろの形を見る"
+    },
+    {
+      "narration": "したがって接続詞の ホワイル です。答えは ビコーズ オブ と ホワイル になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 接続詞を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I read three books while I was waiting for the results.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：because of / while",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 接続詞を選ぶ"
+    },
+    {
+      "narration": "検算です。前置詞のあとに主語と動詞を置けるか試します。デュアリング アイ ワズ ウェイティング とは言えません。逆に ホワイル ザ ヘビー レイン とも言えません。どちらも言えないことを確認できれば判定は確実です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× during I was waiting",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× while the heavy rain",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "形が合うのは1通りだけ",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。デスパイト と イン スパイト オブ は同じ意味の前置詞ですが、デスパイト には オブ を付けません。それから、ホワイル は 〜する間 のほかに、〜する一方で という対比の意味でも使われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "despite に of は付けない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "while は「〜だが」の対比もある",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。後ろが名詞なら前置詞、後ろが主語プラス動詞なら接続詞。意味ではなく形で選ぶ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが名詞なら前置詞、後ろが主語＋動詞なら接続詞。意味ではなく形で選ぶ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：We talked a lot ( during / while ) the flight. を選べ。 → during（後ろが名詞 the flight）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

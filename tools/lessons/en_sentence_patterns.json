@@ -1,0 +1,215 @@
+{
+  "title": "文型の見分け方（SVOC）",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の英文の文型を答えて、和訳してください。ザ ニュー アップ メイド マイ モーニング ルーティン マッチ シンプラー。動詞は made です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The new app made my morning",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "routine much simpler.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "文型を答え、和訳せよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はひとつです。動詞の後ろに来る品詞だけを見ます。名詞のあとに形容詞が続いていたら第5文型、SVOCです。このときの made は「作った」ではなく「OをCにする」と訳します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞の後ろの品詞だけを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞 + 形容詞 → SVOC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "SVOC の made は「OをCにする」",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず主語と動詞を切ります。主語は ザ ニュー アップ、動詞は made です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：動詞を見つける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The new app / made / ...",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主語は The new app、動詞は made。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：動詞を見つける"
+    },
+    {
+      "narration": "動詞の後ろを分けます。マイ モーニング ルーティン が名詞、マッチ シンプラー が形容詞です。マッチ は比較級を強めているだけなので、形容詞のかたまりと考えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：動詞の後ろを分解する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "my morning routine（名詞）＋ much simpler（形容詞）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "much は形容詞 simpler を強めているだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：動詞の後ろを分解する"
+    },
+    {
+      "narration": "名詞のあとに形容詞。よって第5文型、SVOCです。オーが マイ モーニング ルーティン、シーが マッチ シンプラー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：文型を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞 + 形容詞 → 第5文型 SVOC",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "O = my morning routine、C = much simpler。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：文型を決める"
+    },
+    {
+      "narration": "SVOCの訳し方に当てはめます。答えは、その新しいアプリは、私の朝の習慣をずっと簡単にしてくれた、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：SVOC の訳し方で訳す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「OをCにする」",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：その新しいアプリは、私の朝の習慣をずっと簡単にしてくれた。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：SVOC の訳し方で訳す"
+    },
+    {
+      "narration": "検算です。made を「作った」と訳してみると、朝の習慣を作った、となって much simpler が浮いてしまいます。訳が余るときは文型の判定が間違っています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「作った」と訳すと",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "much simpler が余る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ SVOC で確定",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。SVOCを作る動詞は数が少ないので、make、keep、find、leave の4つを先に覚えてしまいます。それから、Cの位置には形容詞か名詞しか来ません。副詞が来ていたらSVOCではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "SVOC の動詞は make / keep / find / leave",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "C の位置は形容詞か名詞のみ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。動詞の後ろが名詞プラス形容詞なら SVOC、訳は オーをシーにする。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞の後ろが「名詞＋形容詞」なら SVOC、訳は「OをCにする」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：They kept the office windows open all day. の文型と和訳。 → 第5文型 SVOC。「彼らは一日中、事務所の窓を開けたままにしておいた。」",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

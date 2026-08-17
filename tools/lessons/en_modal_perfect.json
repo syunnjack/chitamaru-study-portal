@@ -1,0 +1,215 @@
+{
+  "title": "助動詞＋have＋過去分詞",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、彼は電車を乗り間違えたのかもしれない。2、彼が鍵をなくしたはずがない。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 彼は電車を乗り間違えた",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　のかもしれない。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼が鍵をなくしたはずがない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、助動詞が今の判断、ハブ プラス 過去分詞が過去の内容、という役割分担です。過去のことを今推量するときは、助動詞は現在形のままで、後ろだけを完了形にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "助動詞 = 今の判断",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "have + 過去分詞 = 過去の内容",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "判断は現在、内容は過去",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。かもしれない、は確信が低い推量なので メイ を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 推量の強さを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「かもしれない」→ may",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "確信が低い推量は may / might。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 推量の強さを選ぶ"
+    },
+    {
+      "narration": "内容は過去なので、後ろを ハブ テイクン にします。答えは ヒー メイ ハブ テイクン ザ ロング トレイン です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 内容を過去にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "may have taken the wrong train",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：He may have taken the wrong train.",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 内容を過去にする"
+    },
+    {
+      "narration": "2番です。はずがない、は強い否定の推量なので キャノット を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 否定の推量を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「はずがない」→ cannot",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "強い否定の推量は cannot / can't。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 否定の推量を選ぶ"
+    },
+    {
+      "narration": "答えは ヒー キャノット ハブ ロスト ザ キー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 内容を過去にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "cannot have lost the key",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：He cannot have lost the key.",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 内容を過去にする"
+    },
+    {
+      "narration": "検算です。助動詞の後ろは必ず原形なので、ハブ の形が変わることはありません。メイ ハズ テイクン とはなりません。また、× He may lost のように、助動詞の直後に過去形を置くこともできません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "助動詞の後ろは原形 have",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× may has taken",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× He may lost",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。must have done は「〜したに違いない」で、should have done は「〜すべきだったのにしなかった」。should のほうは後悔や非難を表します。それから、否定は cannot have done が「はずがない」、may not have done が「していないかもしれない」で意味が違います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "should have done = すべきだったのに",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "cannot have ≠ may not have",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。過去のことを今推量するときは、助動詞は現在形のまま、後ろを ハブ プラス 過去分詞にする。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去のことを今推量する → 助動詞は現在形のまま、後ろを have + 過去分詞にする。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「もっと早く出発すべきだったのに」を英語に。 → You should have left earlier.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

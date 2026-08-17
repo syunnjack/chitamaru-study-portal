@@ -23,6 +23,12 @@
       "name": "中学数学｜高校数学の土台になる計算の型",
       "badge": "中学数学",
       "hashtags": "#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領"
+    },
+    {
+      "id": "english-hs",
+      "name": "高校英語｜英作文の型で覚える文法",
+      "badge": "高校英語",
+      "hashtags": "#高校英語 #英文法 #英作文 #受験は要領 #大学受験"
     }
   ],
   "videos": [
@@ -1377,6 +1383,136 @@
       ],
       "hook": "比をそのまま使ってはいけません。2乗と3乗が要点です。",
       "point": "相似比 2:3 → 面積比 4:9、体積比 8:27。長さの比は相似比のままです。"
+    },
+    {
+      "slug": "en-sentence-patterns",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-sentence-patterns.html",
+      "title": "【高校英語・基本】文型は動詞の後ろの品詞で決める／SVOCは「OをCにする」",
+      "thumb": [
+        "文型の見分け方",
+        "名詞＋形容詞",
+        "→ SVOC"
+      ],
+      "hook": "訳から文型を当てるのをやめると、英文法は一気に安定します。",
+      "point": "動詞の後ろが名詞＋形容詞ならSVOC。訳は「OをCにする」。"
+    },
+    {
+      "slug": "en-present-perfect",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-present-perfect.html",
+      "title": "【高校英語・基本】現在完了か過去形かは「時の語」で決まる／lost と haven't found",
+      "thumb": [
+        "現在完了と過去形",
+        "時の語で決める",
+        "lost / haven't found"
+      ],
+      "hook": "現在完了を感覚で選んでいる人は、ここで一生迷わなくなります。",
+      "point": "last Friday → 過去形、yet → 現在完了。時の語が判定基準です。"
+    },
+    {
+      "slug": "en-modal-perfect",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-modal-perfect.html",
+      "title": "【高校英語・基本】過去の推量は助動詞を変えない／may have taken・cannot have lost",
+      "thumb": [
+        "助動詞＋完了形",
+        "判断は今・内容は過去",
+        "may / cannot have done"
+      ],
+      "hook": "「〜したかもしれない」を may lost と書いてしまう人へ。",
+      "point": "助動詞は現在形のまま、内容が過去なら have + 過去分詞。"
+    },
+    {
+      "slug": "en-passive-voice",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-passive-voice.html",
+      "title": "【高校英語・基本】SVOOの受動態は2通り作れる／to と for の使い分け",
+      "thumb": [
+        "受動態への書きかえ",
+        "目的語2つ→2通り",
+        "to / for の判別"
+      ],
+      "hook": "受動態が2通り作れる文を、1通りで終わらせていませんか。",
+      "point": "目的語が2つなら受動態は2通り。物を主語にしたら to / for を入れます。"
+    },
+    {
+      "slug": "en-verb-patterns",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-verb-patterns.html",
+      "title": "【高校英語・基本】to do と doing は動詞で決まる／decided to join・avoid speaking",
+      "thumb": [
+        "to不定詞と動名詞",
+        "動詞ごとに決まる",
+        "to join / speaking"
+      ],
+      "hook": "to か ing かを毎回迷う人は、覚え方を間違えています。",
+      "point": "decide は to do、avoid は doing。動詞のグループで決まります。"
+    },
+    {
+      "slug": "en-participle",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-participle.html",
+      "title": "【高校英語・基本】分詞は「する側・される側」で決める／sitting と locked",
+      "thumb": [
+        "分詞の使い分け",
+        "する側／される側",
+        "sitting / locked"
+      ],
+      "hook": "ing か 過去分詞かは、名詞との関係を作れば1秒で決まります。",
+      "point": "名詞が動作をする側なら doing、される側なら done。"
+    },
+    {
+      "slug": "en-relative-clause",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-relative-clause.html",
+      "title": "【高校英語・基本】関係詞は「消して空いた位置」で決まる／目的格は省略できる",
+      "thumb": [
+        "関係詞の使い方",
+        "消して空いた位置",
+        "which は省略可"
+      ],
+      "hook": "who・which・where を暗記でさばくのは、もうやめましょう。",
+      "point": "共通語を消して、空いた位置が主語なら who/which、目的語なら which（省略可）。"
+    },
+    {
+      "slug": "en-comparison",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-comparison.html",
+      "title": "【高校英語・基本】比較は型で書く／not as difficult as・No other student",
+      "thumb": [
+        "比較の書きかえ",
+        "not as ~ as",
+        "No other + 単数"
+      ],
+      "hook": "比較の英作文は、型を2つ持っていれば足ります。",
+      "point": "「〜ほど…ない」は not as 原級 as、「〜より…はいない」は No other + 単数 + 比較級。"
+    },
+    {
+      "slug": "en-subjunctive",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-subjunctive.html",
+      "title": "【高校英語・基本】仮定法は時をひとつずらすだけ／would take part・would not have got wet",
+      "thumb": [
+        "仮定法の作り方",
+        "時をひとつ前へ",
+        "would / would have"
+      ],
+      "hook": "仮定法は暗記ではありません。ずらす方向を覚えるだけです。",
+      "point": "現在の仮定は過去形＋would 原形、過去の仮定は had p.p.＋would have p.p.。"
+    },
+    {
+      "slug": "en-conjunction-preposition",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-conjunction-preposition.html",
+      "title": "【高校英語・基本】because と because of は「後ろの形」で選ぶ／while と during",
+      "thumb": [
+        "接続詞と前置詞",
+        "後ろの形で選ぶ",
+        "because of / while"
+      ],
+      "hook": "because と because of を意味で選んでいると必ず外します。",
+      "point": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。"
     }
   ]
 }

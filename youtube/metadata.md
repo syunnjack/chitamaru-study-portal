@@ -1684,3 +1684,165 @@ y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに�
 #中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
 ```
 
+## 再生リスト：高校英語｜英作文の型で覚える文法
+
+### 【高校英語・基本】文型は動詞の後ろの品詞で決める／SVOCは「OをCにする」
+
+- ファイル：`videos/en-sentence-patterns.mp4`
+- サムネイル：`assets/youtube/thumbs/en-sentence-patterns.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-sentence-patterns.html
+
+```
+訳から文型を当てるのをやめると、英文法は一気に安定します。
+動詞の後ろが名詞＋形容詞ならSVOC。訳は「OをCにする」。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-sentence-patterns.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】現在完了か過去形かは「時の語」で決まる／lost と haven't found
+
+- ファイル：`videos/en-present-perfect.mp4`
+- サムネイル：`assets/youtube/thumbs/en-present-perfect.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-present-perfect.html
+
+```
+現在完了を感覚で選んでいる人は、ここで一生迷わなくなります。
+last Friday → 過去形、yet → 現在完了。時の語が判定基準です。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-present-perfect.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】過去の推量は助動詞を変えない／may have taken・cannot have lost
+
+- ファイル：`videos/en-modal-perfect.mp4`
+- サムネイル：`assets/youtube/thumbs/en-modal-perfect.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-modal-perfect.html
+
+```
+「〜したかもしれない」を may lost と書いてしまう人へ。
+助動詞は現在形のまま、内容が過去なら have + 過去分詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-modal-perfect.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】SVOOの受動態は2通り作れる／to と for の使い分け
+
+- ファイル：`videos/en-passive-voice.mp4`
+- サムネイル：`assets/youtube/thumbs/en-passive-voice.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-passive-voice.html
+
+```
+受動態が2通り作れる文を、1通りで終わらせていませんか。
+目的語が2つなら受動態は2通り。物を主語にしたら to / for を入れます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-passive-voice.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】to do と doing は動詞で決まる／decided to join・avoid speaking
+
+- ファイル：`videos/en-verb-patterns.mp4`
+- サムネイル：`assets/youtube/thumbs/en-verb-patterns.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-verb-patterns.html
+
+```
+to か ing かを毎回迷う人は、覚え方を間違えています。
+decide は to do、avoid は doing。動詞のグループで決まります。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-verb-patterns.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】分詞は「する側・される側」で決める／sitting と locked
+
+- ファイル：`videos/en-participle.mp4`
+- サムネイル：`assets/youtube/thumbs/en-participle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-participle.html
+
+```
+ing か 過去分詞かは、名詞との関係を作れば1秒で決まります。
+名詞が動作をする側なら doing、される側なら done。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-participle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】関係詞は「消して空いた位置」で決まる／目的格は省略できる
+
+- ファイル：`videos/en-relative-clause.mp4`
+- サムネイル：`assets/youtube/thumbs/en-relative-clause.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-relative-clause.html
+
+```
+who・which・where を暗記でさばくのは、もうやめましょう。
+共通語を消して、空いた位置が主語なら who/which、目的語なら which（省略可）。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-relative-clause.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】比較は型で書く／not as difficult as・No other student
+
+- ファイル：`videos/en-comparison.mp4`
+- サムネイル：`assets/youtube/thumbs/en-comparison.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-comparison.html
+
+```
+比較の英作文は、型を2つ持っていれば足ります。
+「〜ほど…ない」は not as 原級 as、「〜より…はいない」は No other + 単数 + 比較級。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-comparison.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】仮定法は時をひとつずらすだけ／would take part・would not have got wet
+
+- ファイル：`videos/en-subjunctive.mp4`
+- サムネイル：`assets/youtube/thumbs/en-subjunctive.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-subjunctive.html
+
+```
+仮定法は暗記ではありません。ずらす方向を覚えるだけです。
+現在の仮定は過去形＋would 原形、過去の仮定は had p.p.＋would have p.p.。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-subjunctive.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・基本】because と because of は「後ろの形」で選ぶ／while と during
+
+- ファイル：`videos/en-conjunction-preposition.mp4`
+- サムネイル：`assets/youtube/thumbs/en-conjunction-preposition.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-conjunction-preposition.html
+
+```
+because と because of を意味で選んでいると必ず外します。
+後ろが名詞なら前置詞、主語＋動詞なら接続詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-conjunction-preposition.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
