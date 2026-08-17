@@ -4,7 +4,13 @@
 サブタイトル：**難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！**
 
 `videos/` の mp4 をそのままアップロードできます（1280×720 / H.264 + AAC / 日本語ナレーション ja-JP-NanamiNeural）。
-以下は各動画のタイトル・説明文のひな形です。共通の説明文（下部）を各動画の末尾に貼り付けてください。
+
+- チャンネル作成・ブランディング・再生リスト・伸ばし方：`youtube/channel-setup.md`
+- 全動画のタイトル／概要欄／タグ（コピペ用・自動生成）：`youtube/metadata.md`
+- 情報の元データ：`youtube/videos.json`（ここを直して `python3 tools/make_youtube_assets.py` を実行すると、サムネイル・metadata.md・`youtube.html` が作り直されます）
+- チャンネルアート：`assets/youtube/banner.png` ／ アイコン：`assets/youtube/icon.png` ／ サムネイル：`assets/youtube/thumbs/`
+
+以下は各動画のタイトル・説明文のひな形です（詳細版は `youtube/metadata.md`）。共通の説明文（下部）を各動画の末尾に貼り付けてください。
 
 ## 共通の説明文（各動画の末尾に貼る）
 
