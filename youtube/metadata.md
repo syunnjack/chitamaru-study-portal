@@ -948,3 +948,51 @@ y の係数を ±6 にそろえて足す → 13x = 39。検算は代入しなか
 #中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
 ```
 
+### 【中学数学】y = ax² の変化の割合は a(p+q) で一撃／y = 2x²、x が 1→4
+
+- ファイル：`videos/quadratic-ax2.mp4`
+- サムネイル：`assets/youtube/thumbs/quadratic-ax2.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/quadratic-ax2.html
+
+```
+変化の割合を毎回ていねいに計算するのは時間の無駄。1行で終わらせます。
+y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに変わるのが落とし穴。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/quadratic-ax2.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】円周角は中心角の半分／∠BOC = 116°、直径なら 90°
+
+- ファイル：`videos/inscribed-angle.mp4`
+- サムネイル：`assets/youtube/thumbs/inscribed-angle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/inscribed-angle.html
+
+```
+角度を見る前に「どの弧に立つ角か」を決めれば、円の角度問題は一瞬です。
+円周角＝中心角÷2／同じ弧の円周角は等しい／直径に立つ円周角は 90°。この3行だけ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/inscribed-angle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】確率は全部の通り数を先に／2つのさいころ、和が5の倍数は 7/36
+
+- ファイル：`videos/dice-multiple-sum.mp4`
+- サムネイル：`assets/youtube/thumbs/dice-multiple-sum.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/dice-multiple-sum.html
+
+```
+確率の失点は数え上げの前の準備を飛ばすこと。順番を決めて書けば落としません。
+2つのさいころは大小を区別して 36通り。和が5で4通り、和が10で3通り。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/dice-multiple-sum.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+

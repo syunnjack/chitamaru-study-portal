@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>確率の数え上げ（2つのさいころ、和が5の倍数）｜中学数学 第8回</title>
+<meta name="description" content="全部の通り数を先に出して 36通り。和が5は4通り、和が10は3通りで 7/36。大小は必ず区別します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">中学数学</a> ／ 第8回 確率の数え上げ</div>
+
+<main class="wrap">
+  <h1>第8回　確率は「全部で何通り」を先に決める</h1>
+  <div class="formula">大小2つのさいころを同時に投げるとき、出た目の和が5の倍数になる確率を求めよ。</div>
+  <p>確率の失点は、数え上げの前の準備を飛ばすことで起きます（動画・音声解説つき）</p>
+
+  <video controls preload="metadata" src="../../../videos/dice-multiple-sum.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/dice-multiple-sum.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>確率 = (当たりの通り数) ÷ (全部の通り数)。2つのさいころは 6 × 6 = 36 通り</strong></p>
+    <p>「同時に投げる」でも大小は区別します。21通りにすると全部くずれます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>条件を具体化する</strong><div class="formula">和の範囲は 2 ～ 12 → 5の倍数は 5 と 10 だけ</div></li>
+    <li><strong>和が5を、大の目の順に書く</strong><div class="formula">(1,4) (2,3) (3,2) (4,1) → <strong>4通り</strong></div><p>(1,4) と (4,1) は別のものとして数えます。</p></li>
+    <li><strong>和が10も同じように書く</strong><div class="formula">(4,6) (5,5) (6,4) → <strong>3通り</strong></div><p>ゾロ目 (5,5) は1通りです。</p></li>
+    <li><strong>確率にする</strong><div class="formula">(4 + 3) ÷ 36 = <strong>7/36</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>和が n になる場合の数は、和2から順に 1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1（合計36）。和5は4、和10は3で一致します。確率が0以上1以下かも最後に確認します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>「少なくとも」が出たら余事象</strong>：求める確率 = 1 −（そうならない確率）。数え上げが激減します。</li>
+      <li>場合の数では同じものを区別しないことがありますが、<strong>確率では必ず区別</strong>します。同色の玉も「玉1・玉2」と名前をつけて数えるのが安全です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>全部の通り数を先に／当たりは順番を決めて書く</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>和が4の倍数になる確率
+        <details><summary>答え</summary><p>和4が3通り、和8が5通り、和12が1通りで 9/36 = 1/4</p></details>
+      </li>
+      <li>2つの目が同じになる確率
+        <details><summary>答え</summary><p>ゾロ目は6通りなので 6/36 = 1/6</p></details>
+      </li>
+      <li>少なくとも一方が6になる確率
+        <details><summary>答え</summary><p>1 −（どちらも6以外）= 1 − 25/36 = 11/36</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="inscribed-angle.html">← 第7回 円周角の定理</a>　｜　<a href="../index.html">中学数学の一覧に戻る</a>　｜　<a href="../../math-exam/index.html">高校受験数学へ進む →</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

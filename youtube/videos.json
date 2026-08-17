@@ -779,6 +779,45 @@
       ],
       "hook": "斜辺は直角の向かい側。どの辺が斜辺かを見るだけです。",
       "point": "覚える組は 3・4・5／5・12・13／8・15・17。垂線は面積を2通りで表して出す。"
+    },
+    {
+      "slug": "quadratic-ax2",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/quadratic-ax2.html",
+      "title": "【中学数学】y = ax² の変化の割合は a(p+q) で一撃／y = 2x²、x が 1→4",
+      "thumb": [
+        "y = ax² の変化の割合",
+        "a(p + q) で一撃",
+        "答え 10"
+      ],
+      "hook": "変化の割合を毎回ていねいに計算するのは時間の無駄。1行で終わらせます。",
+      "point": "y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに変わるのが落とし穴。"
+    },
+    {
+      "slug": "inscribed-angle",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/inscribed-angle.html",
+      "title": "【中学数学】円周角は中心角の半分／∠BOC = 116°、直径なら 90°",
+      "thumb": [
+        "円周角の定理",
+        "中心角の半分",
+        "58° と 90°"
+      ],
+      "hook": "角度を見る前に「どの弧に立つ角か」を決めれば、円の角度問題は一瞬です。",
+      "point": "円周角＝中心角÷2／同じ弧の円周角は等しい／直径に立つ円周角は 90°。この3行だけ。"
+    },
+    {
+      "slug": "dice-multiple-sum",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/dice-multiple-sum.html",
+      "title": "【中学数学】確率は全部の通り数を先に／2つのさいころ、和が5の倍数は 7/36",
+      "thumb": [
+        "確率の数え上げ",
+        "先に 36通り",
+        "答え 7/36"
+      ],
+      "hook": "確率の失点は数え上げの前の準備を飛ばすこと。順番を決めて書けば落としません。",
+      "point": "2つのさいころは大小を区別して 36通り。和が5で4通り、和が10で3通り。"
     }
   ]
 }
