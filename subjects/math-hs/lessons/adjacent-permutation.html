@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6人でAとBが隣り合う並び方（順列）｜高校数学 第18回</title>
+<meta name="description" content="「隣り合う」はひとかたまりにして、中の並びをかけるのが型。6人でAとBが隣り合う並び方 5! × 2! = 240 通りを、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第18回 隣り合う順列</div>
+
+<main class="wrap">
+  <h1>第18回　「隣り合う」はひとかたまりにして縛る</h1>
+  <div class="formula">6人が1列に並ぶとき、A と B が隣り合う並び方は何通りか。</div>
+  <p>順列は条件の言葉ごとに、やることが決まっています（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/adjacent-permutation.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/adjacent-permutation.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>（かたまりを含めた並べ方）×（かたまりの中の並べ方）</strong></p>
+    <p>中の並びを忘れて2倍を落とすのが、この型の最頻出ミスです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>かたまりを含めて並べる</strong><div class="formula">[AB] と 残り4人 → 5個を並べる → 5! = 120</div></li>
+    <li><strong>かたまりの中</strong><div class="formula">AB か BA → 2! = 2</div></li>
+    <li><strong>かけ算</strong><div class="formula">120 × 2 = <strong>240 通り</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>全体は 6! = 720 通り。240 / 720 = 1/3。席の組は 6C2 = 15 組でそのうち隣どうしは 5 組なので 5/15 = 1/3 と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>隣り合わない</strong>は引き算：720 − 240 = 480 通り。</li>
+      <li><strong>3人が隣り合う</strong>なら 4! × 3! = 24 × 6 = 144 通り（かたまりの中が 3! になるだけ）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>隣り合う = かたまり × 中の並び</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5人が1列に並び、A と B が隣り合う並び方
+        <details><summary>答え</summary><p>4! × 2! = 24 × 2 = 48 通り</p></details>
+      </li>
+      <li>5人が1列に並び、A と B が隣り合わない並び方
+        <details><summary>答え</summary><p>5! − 48 = 120 − 48 = 72 通り</p></details>
+      </li>
+      <li>男子3人・女子2人が1列に並び、女子2人が隣り合う並び方
+        <details><summary>答え</summary><p>4! × 2! = 48 通り</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="trig-identity.html">← 第17回 三角比の相互関係</a>　｜　<a href="linear-diophantine.html">第19回 整数解（不定方程式）→</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

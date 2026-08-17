@@ -80,7 +80,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
          "angles": [{"at": "A", "from": "B", "to": "C", "text": "60°"}],
          "labels": [{"at": "A", "text": "A", "dx": -28, "dy": -34}],
          "circles": [{"center": "O", "through": "A"}],
-         "shaded": [{"center": "O", "from": "A", "to": "B", "apex": "H"}]}
+         "shaded": [{"center": "O", "from": "A", "to": "B", "apex": "H"}],
+         "curves": [[[-2, 4], [-1, 1], [0, 0], [1, 1], [2, 4]]],
+         "axes": true}
+
+    curves は数学座標の点列で、そのまま折れ線として描く（放物線などのグラフ用）。
+    axes を true にすると、図の範囲いっぱいに x 軸・y 軸を引く。
 
     circles は中心と円周上の1点で指定する。shaded は「頂点 apex ＋ 弦の両端 from, to
     を結び、from から to への短いほうの弧でふたをした領域」を塗る。
@@ -91,7 +96,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
         for c in fig.get("circles", [])
     ]
 
+    curves = [[(float(p[0]), float(p[1])) for p in c] for c in fig.get("curves", [])]
+
     bounds = dict(pts)
+    for i, curve in enumerate(curves):
+        for j, p in enumerate(curve):
+            bounds[f"_v{i}_{j}"] = p
     for i, (o, r) in enumerate(circles):
         bounds[f"_c{i}min"] = (o[0] - r, o[1] - r)
         bounds[f"_c{i}max"] = (o[0] + r, o[1] + r)
@@ -110,6 +120,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
             for i in range(n + 1)
         ]
 
+    if fig.get("axes"):
+        xs = [p[0] for p in bounds.values()]
+        ys = [p[1] for p in bounds.values()]
+        d.line([to_px((min(xs), 0)), to_px((max(xs), 0))], fill=SUB, width=2)
+        d.line([to_px((0, min(ys))), to_px((0, max(ys)))], fill=SUB, width=2)
+
     for item in fig.get("shaded", []):
         o, r = circles[item.get("circle", 0)]
         arc = arc_points(o, r, pts[item["from"]], pts[item["to"]])
@@ -124,6 +140,9 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
         d.polygon([P[k] for k in poly], fill=(255, 255, 255), outline=None)
         seq = [P[k] for k in poly] + [P[poly[0]]]
         d.line(seq, fill=INK, width=3, joint="curve")
+
+    for curve in curves:
+        d.line([to_px(p) for p in curve], fill=INK, width=3, joint="curve")
 
     for seg in fig.get("segments", []):
         a, b = P[seg[0]], P[seg[1]]

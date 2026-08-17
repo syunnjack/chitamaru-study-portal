@@ -244,6 +244,33 @@
       "thumb": ["分数9個のたし算", "差に直して打ち消す", "答え 9/10"],
       "hook": "通分して9個たすのは負けです。差の形に直せば、真ん中が全部消えます。",
       "point": "1/(n(n+1)) = 1/n − 1/(n+1)。残るのは両端だけで、1 − 1/10 = 9/10。"
+    },
+    {
+      "slug": "adjacent-permutation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/adjacent-permutation.html",
+      "title": "【高校数学A】「隣り合う」はひとかたまり／6人でAとBが隣り合う並び方",
+      "thumb": ["6人が1列に並ぶ", "A と B が隣り合う", "答え 240通り"],
+      "hook": "数え上げようとすると死にます。「隣り合う」は縛ってひとかたまりにするだけ。",
+      "point": "[AB] と残り4人で 5! = 120、かたまりの中が 2! = 2 → 240通り。隣り合わないは 720 − 240 = 480。"
+    },
+    {
+      "slug": "linear-diophantine",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/linear-diophantine.html",
+      "title": "【高校数学A】不定方程式の整数解／3x + 5y = 1 をすべて求める",
+      "thumb": ["3x + 5y = 1", "1組見つけて引く", "x = 5k + 2, y = −3k − 1"],
+      "hook": "答えが無限にある方程式。でも書き方は3手順で1行に決まります。",
+      "point": "(2, −1) を1組見つけて引くと 3(x − 2) = −5(y + 1)。3と5は互いに素なので x − 2 = 5k。"
+    },
+    {
+      "slug": "parabola-line-area",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/parabola-line-area.html",
+      "title": "【高校入試】放物線と直線でできる三角形の面積／y = x² と y = x + 2",
+      "thumb": ["y = x² と y = x + 2", "y切片で2つに切る", "答え 3"],
+      "hook": "入試の関数の大問は、この1行で終わります。½ ×（y切片）×（xの差）。",
+      "point": "交点は x = −1, 2、y切片は 2。OC を底辺に2つに分けて 1 + 2 = 3。座標の公式でも検算できます。"
     }
   ]
 }

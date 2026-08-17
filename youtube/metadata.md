@@ -288,6 +288,38 @@ sin²θ + cos²θ = 1 を代入して 1 + 2sinθcosθ = 1/4 → sinθcosθ = −
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学A】「隣り合う」はひとかたまり／6人でAとBが隣り合う並び方
+
+- ファイル：`videos/adjacent-permutation.mp4`
+- サムネイル：`assets/youtube/thumbs/adjacent-permutation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/adjacent-permutation.html
+
+```
+数え上げようとすると死にます。「隣り合う」は縛ってひとかたまりにするだけ。
+[AB] と残り4人で 5! = 120、かたまりの中が 2! = 2 → 240通り。隣り合わないは 720 − 240 = 480。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/adjacent-permutation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】不定方程式の整数解／3x + 5y = 1 をすべて求める
+
+- ファイル：`videos/linear-diophantine.mp4`
+- サムネイル：`assets/youtube/thumbs/linear-diophantine.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/linear-diophantine.html
+
+```
+答えが無限にある方程式。でも書き方は3手順で1行に決まります。
+(2, −1) を1組見つけて引くと 3(x − 2) = −5(y + 1)。3と5は互いに素なので x − 2 = 5k。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/linear-diophantine.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -413,6 +445,22 @@ AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き
 1/(n(n+1)) = 1/n − 1/(n+1)。残るのは両端だけで、1 − 1/10 = 9/10。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/partial-fractions.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】放物線と直線でできる三角形の面積／y = x² と y = x + 2
+
+- ファイル：`videos/parabola-line-area.mp4`
+- サムネイル：`assets/youtube/thumbs/parabola-line-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/parabola-line-area.html
+
+```
+入試の関数の大問は、この1行で終わります。½ ×（y切片）×（xの差）。
+交点は x = −1, 2、y切片は 2。OC を底辺に2つに分けて 1 + 2 = 3。座標の公式でも検算できます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/parabola-line-area.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領
