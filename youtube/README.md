@@ -42,6 +42,8 @@
 | 11 | `videos/cosine-rule.mp4` | 【高校数学I】余弦定理か正弦定理かの見分け方／b=3, c=5, A=60° |
 | 12 | `videos/triangle-area.mp4` | 【高校数学I】高さが無くても面積は出る／S = ½bc sin A |
 | 13 | `videos/gcd-lcm.mp4` | 【高校数学A】公約数・公倍数は素因数分解の指数で決まる／24 と 36 |
+| 14 | `videos/quadratic-inequality.mp4` | 【高校数学I・2次不等式】x² − 5x + 6 > 0／「＞0は外側、＜0は内側」だけ |
+| 15 | `videos/variance-sd.mp4` | 【高校数学I・データの分析】分散は「2乗の平均 − 平均の2乗」／2,4,6,8,10 の標準偏差 |
 
 ### 高校受験数学（別シリーズ・再生リストを分ける）
 
@@ -55,6 +57,7 @@
 | 4 | `videos/circle-chords.mp4` | 【高校入試・円】直交する2弦と網目部分の面積／25π/4 + 5/2 |
 | 5 | `videos/factor-x4.mp4` | 【高校入試・因数分解】1 + x² + x⁴ は平方の差にする／3問まとめ |
 | 6 | `videos/locus-midpoint.mp4` | 【高校入試・軌跡】中点が動いてできる線は半径1/2の円／2π cm と 2 cm² |
+| 7 | `videos/similar-area-ratio.mp4` | 【高校入試・相似】面積比は辺の比の2乗／△ADE : 四角形DBCE = 4 : 5 |
 
 ### 説明文の書き方（1本目の例）
 

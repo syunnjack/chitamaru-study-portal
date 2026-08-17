@@ -190,6 +190,33 @@
       "thumb": ["中点が動く線", "半径1/2の円になる", "2π cm と 2 cm²"],
       "hook": "動く点と固定点の中点は、固定点から見て1/2に縮んだ図形をえがきます。",
       "point": "面積の最大は「固定される底辺 × 動く高さ」に分ける。中点で切れば面積は半分。"
+    },
+    {
+      "slug": "quadratic-inequality",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-inequality.html",
+      "title": "【高校数学I・2次不等式】x² − 5x + 6 > 0／「＞0は外側、＜0は内側」だけ",
+      "thumb": ["x² − 5x + 6 > 0", "> 0 は外側 / < 0 は内側", "x < 2 , 3 < x"],
+      "hook": "不等号の向きで迷うのは、グラフのどちら側かを決めていないからです。",
+      "point": "因数分解で境目を出す → 型で外側か内側を選ぶ。x²の係数が負なら −1 倍して不等号を反転。"
+    },
+    {
+      "slug": "variance-sd",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/variance-sd.html",
+      "title": "【高校数学I・データの分析】分散は「2乗の平均 − 平均の2乗」／2,4,6,8,10 の標準偏差",
+      "thumb": ["2, 4, 6, 8, 10", "2乗の平均 − 平均の2乗", "分散 8 / 標準偏差 2√2"],
+      "hook": "偏差を1つずつ書き出す前に、公式1本で終わらせます。",
+      "point": "同じ数を足しても分散は不変。k倍すると分散は k² 倍、標準偏差は k 倍。"
+    },
+    {
+      "slug": "similar-area-ratio",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/similar-area-ratio.html",
+      "title": "【高校入試・相似】面積比は辺の比の2乗／△ADE : 四角形DBCE = 4 : 5",
+      "thumb": ["DE ∥ BC, AD:DB = 2:1", "面積比は辺の比の2乗", "△ADE : 四角形 = 4 : 5"],
+      "hook": "平行線を見たら相似。比は「部分どうし」ではなく全体に直してから2乗します。",
+      "point": "AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き算。"
     }
   ]
 }

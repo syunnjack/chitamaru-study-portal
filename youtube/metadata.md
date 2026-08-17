@@ -224,6 +224,38 @@ S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学I・2次不等式】x² − 5x + 6 > 0／「＞0は外側、＜0は内側」だけ
+
+- ファイル：`videos/quadratic-inequality.mp4`
+- サムネイル：`assets/youtube/thumbs/quadratic-inequality.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-inequality.html
+
+```
+不等号の向きで迷うのは、グラフのどちら側かを決めていないからです。
+因数分解で境目を出す → 型で外側か内側を選ぶ。x²の係数が負なら −1 倍して不等号を反転。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-inequality.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I・データの分析】分散は「2乗の平均 − 平均の2乗」／2,4,6,8,10 の標準偏差
+
+- ファイル：`videos/variance-sd.mp4`
+- サムネイル：`assets/youtube/thumbs/variance-sd.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/variance-sd.html
+
+```
+偏差を1つずつ書き出す前に、公式1本で終わらせます。
+同じ数を足しても分散は不変。k倍すると分散は k² 倍、標準偏差は k 倍。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/variance-sd.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -317,6 +349,22 @@ S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答�
 面積の最大は「固定される底辺 × 動く高さ」に分ける。中点で切れば面積は半分。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/locus-midpoint.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試・相似】面積比は辺の比の2乗／△ADE : 四角形DBCE = 4 : 5
+
+- ファイル：`videos/similar-area-ratio.mp4`
+- サムネイル：`assets/youtube/thumbs/similar-area-ratio.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/similar-area-ratio.html
+
+```
+平行線を見たら相似。比は「部分どうし」ではなく全体に直してから2乗します。
+AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/similar-area-ratio.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領
