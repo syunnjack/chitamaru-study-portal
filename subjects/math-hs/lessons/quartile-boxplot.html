@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>四分位数と箱ひげ図（6, 9, 11, 14, 18, 19, 23, 28）｜高校数学 第40回</title>
+<meta name="description" content="四分位数は「まず中央値、次に下半分と上半分の中央値」。四分位範囲と箱ひげ図の読み方まで、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第40回 四分位数と箱ひげ図</div>
+
+<main class="wrap">
+  <h1>第40回　四分位数は「まず中央値、次に半分ずつの中央値」</h1>
+  <div class="formula">6, 9, 11, 14, 18, 19, 23, 28 の第1四分位数 Q<sub>1</sub>、中央値 Q<sub>2</sub>、第3四分位数 Q<sub>3</sub>、四分位範囲を求めよ。</div>
+  <p>データの分析は、手順を固定すれば取りこぼしのない単元です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/quartile-boxplot.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/quartile-boxplot.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>① 小さい順に並べる　② 全体の中央値 Q<sub>2</sub>　③ 下半分・上半分の中央値が Q<sub>1</sub>・Q<sub>3</sub>　④ 四分位範囲 = Q<sub>3</sub> − Q<sub>1</sub></strong></p>
+    <p>データが偶数個なら「まん中2つの平均」。奇数個なら中央値を除いて上下に分けます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>中央値 Q<sub>2</sub></strong><div class="formula">8個 → 4番目と5番目の平均 = (14 + 18) ÷ 2 = 16</div><p>偶数個のときは必ず2つの平均になります。</p></li>
+    <li><strong>第1四分位数 Q<sub>1</sub></strong><div class="formula">下半分 6, 9, 11, 14 → (9 + 11) ÷ 2 = 10</div></li>
+    <li><strong>第3四分位数 Q<sub>3</sub></strong><div class="formula">上半分 18, 19, 23, 28 → (19 + 23) ÷ 2 = 21</div></li>
+    <li><strong>四分位範囲</strong><div class="formula">21 − 10 = 11　（範囲は 28 − 6 = 22）</div><p>四分位範囲は、まん中50%の散らばりを表します。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>Q<sub>1</sub> ≦ Q<sub>2</sub> ≦ Q<sub>3</sub> の順（10 ≦ 16 ≦ 21）になっていること。さらに Q<sub>1</sub> より小さいのが 2個、Q<sub>3</sub> より大きいのが 2個で、全体8個の 1/4 ずつです。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>箱ひげ図は<strong>箱の左端が Q<sub>1</sub>、中の線が中央値、右端が Q<sub>3</sub></strong>、ひげの先が最小値と最大値。箱の横幅がそのまま四分位範囲です。</li>
+      <li><strong>箱ひげ図から平均値は読めません</strong>。また四分位範囲は極端な値の影響を受けにくいので、外れ値がありそうなデータでは範囲より四分位範囲を見ます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>まず中央値、次に下半分と上半分の中央値</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5, 8, 12, 15, 19, 22, 26 の四分位数
+        <details><summary>答え</summary><p>7個なので中央値は4番目の 15。中央値を除いて 5, 8, 12 → Q<sub>1</sub> = 8、19, 22, 26 → Q<sub>3</sub> = 22</p></details>
+      </li>
+      <li>上の8個のデータで、28 が 40 に変わったときの四分位範囲
+        <details><summary>答え</summary><p>上半分の 18, 19, 23, 40 の中央値は (19 + 23) ÷ 2 = 21 で変わらず、四分位範囲も 11。極端な値に強いことが確認できます</p></details>
+      </li>
+      <li>四分位範囲が 0 になるのはどんなデータか
+        <details><summary>答え</summary><p>まん中50%の値がすべて同じとき（例：3, 5, 5, 5, 5, 9）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ellipse-standard-form.html">← 第39回 楕円の標準形</a>　｜　<a href="correlation-coefficient.html">第41回 相関係数 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

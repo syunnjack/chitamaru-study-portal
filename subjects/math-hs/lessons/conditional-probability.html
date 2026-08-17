@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>条件付き確率（赤5個・白3個、もどさずに2個）｜高校数学 第42回</title>
+<meta name="description" content="条件付き確率は分母を取り替えるだけ。乗法定理、場合分け、対称性による検算まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第42回 条件付き確率</div>
+
+<main class="wrap">
+  <h1>第42回　条件付き確率は「分母を取り替える」だけ</h1>
+  <div class="formula">赤玉5個・白玉3個の袋から、もどさずに1個ずつ2個取り出す。(1) 1回目が赤のとき2回目も赤である確率　(2) 2回とも赤である確率　(3) 2回目が赤である確率。</div>
+  <p>「もどさない」と書いてあれば、残りの玉を数え直すだけで終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/conditional-probability.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/conditional-probability.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>P<sub>A</sub>(B) = P(A ∩ B) ÷ P(A)　＝「世界を A の中に狭めて数える」</strong></p>
+    <p>乗法定理 P(A ∩ B) = P(A) × P<sub>A</sub>(B) は、この式を掛け算の形に書き換えただけです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>(1) 残りを数える</strong><div class="formula">1回目が赤 → 残り 赤4個・白3個（計7個）→ 4/7</div><p>公式を使わなくても、残りを数えれば出ます。</p></li>
+    <li><strong>(2) 乗法定理</strong><div class="formula">(5/8) × (4/7) = 20/56 = 5/14</div></li>
+    <li><strong>(3) 1回目で場合分け</strong><div class="formula">赤→赤 : (5/8)(4/7) = 20/56　／　白→赤 : (3/8)(5/7) = 15/56</div></li>
+    <li><strong>(3) 足し合わせる</strong><div class="formula">20/56 + 15/56 = 35/56 = 5/8</div><p>1回目が赤である確率と同じ値になります。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>(3) の答え 5/8 は「1回目が赤である確率」と一致します。玉に番号をつけて考えると、2回目に取り出される玉もどれも同じ可能性なので、何回目でも赤の確率は 5/8。この対称性で妥当性が確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>「もどす」なら独立</strong>で毎回 5/8、<strong>「もどさない」なら条件付き</strong>。問題文のこの1語を最初に丸で囲みます。</li>
+      <li>逆向きの条件も同じ公式で出ます。「2回目が赤のとき1回目も赤」は (5/14) ÷ (5/8) = <strong>4/7</strong>（ベイズの考え方）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>条件付き確率 = (A かつ B の確率) ÷ (条件 A の確率)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>赤4個・白2個の袋から もどさずに2個。1回目が白のとき2回目も白である確率
+        <details><summary>答え</summary><p>残りは 赤4個・白1個（計5個）→ 1/5</p></details>
+      </li>
+      <li>同じ袋（赤5・白3）で、2回とも白である確率
+        <details><summary>答え</summary><p>(3/8) × (2/7) = 6/56 = 3/28</p></details>
+      </li>
+      <li>同じ袋で「少なくとも1個は赤」である確率
+        <details><summary>答え</summary><p>余事象（2回とも白）を引いて 1 − 3/28 = 25/28</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="correlation-coefficient.html">← 第41回 相関係数</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

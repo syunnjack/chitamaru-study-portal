@@ -640,6 +640,54 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学I】四分位数は中央値→半分ずつの中央値／Q1=10、Q3=21、四分位範囲11
+
+- ファイル：`videos/quartile-boxplot.mp4`
+- サムネイル：`assets/youtube/thumbs/quartile-boxplot.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quartile-boxplot.html
+
+```
+データの分析は手順を固定すれば取りこぼしません。
+まず中央値、次に下半分と上半分の中央値。四分位範囲は Q3 − Q1。箱ひげ図から平均値は読めません。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quartile-boxplot.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学I】相関係数は偏差の表で3つの合計だけ／答え r = 0.9
+
+- ファイル：`videos/correlation-coefficient.mp4`
+- サムネイル：`assets/youtube/thumbs/correlation-coefficient.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/correlation-coefficient.html
+
+```
+公式は長いですが、やることは偏差の表を1つ作るだけです。
+r = Σ(dx・dy) ÷ √(Σdx² × Σdy²)。−1 ≦ r ≦ 1 と符号で検算。相関 ≠ 因果。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/correlation-coefficient.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学A】条件付き確率は分母を取り替えるだけ／赤5白3で 4/7、5/14、5/8
+
+- ファイル：`videos/conditional-probability.mp4`
+- サムネイル：`assets/youtube/thumbs/conditional-probability.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/conditional-probability.html
+
+```
+「もどさずに」と書いてあれば、残りの玉を数え直すだけです。
+P_A(B) = P(A∩B) ÷ P(A)。2回目が赤も 5/8 で、何回目でも同じという対称性で検算できます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/conditional-probability.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21
@@ -991,6 +1039,22 @@ y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに�
 2つのさいころは大小を区別して 36通り。和が5で4通り、和が10で3通り。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/dice-multiple-sum.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】平方根は中を小さくしてから足す／√18 + √50 − √8 = 6√2、有理化まで
+
+- ファイル：`videos/square-root-calc.mp4`
+- サムネイル：`assets/youtube/thumbs/square-root-calc.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/square-root-calc.html
+
+```
+高校数学でも毎日使う計算。手順を固定すればミスが消えます。
+中を小さくする→有理化→同じ√どうしだけ足す。√(9+16) は 5、3+4 ではありません。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/square-root-calc.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領

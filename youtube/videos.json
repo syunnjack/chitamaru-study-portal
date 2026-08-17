@@ -818,6 +818,58 @@
       ],
       "hook": "確率の失点は数え上げの前の準備を飛ばすこと。順番を決めて書けば落としません。",
       "point": "2つのさいころは大小を区別して 36通り。和が5で4通り、和が10で3通り。"
+    },
+    {
+      "slug": "quartile-boxplot",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quartile-boxplot.html",
+      "title": "【高校数学I】四分位数は中央値→半分ずつの中央値／Q1=10、Q3=21、四分位範囲11",
+      "thumb": [
+        "四分位数と箱ひげ図",
+        "中央値→半分ずつ",
+        "四分位範囲 11"
+      ],
+      "hook": "データの分析は手順を固定すれば取りこぼしません。",
+      "point": "まず中央値、次に下半分と上半分の中央値。四分位範囲は Q3 − Q1。箱ひげ図から平均値は読めません。"
+    },
+    {
+      "slug": "correlation-coefficient",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/correlation-coefficient.html",
+      "title": "【高校数学I】相関係数は偏差の表で3つの合計だけ／答え r = 0.9",
+      "thumb": [
+        "相関係数",
+        "偏差の表で3つの合計",
+        "答え r = 0.9"
+      ],
+      "hook": "公式は長いですが、やることは偏差の表を1つ作るだけです。",
+      "point": "r = Σ(dx・dy) ÷ √(Σdx² × Σdy²)。−1 ≦ r ≦ 1 と符号で検算。相関 ≠ 因果。"
+    },
+    {
+      "slug": "conditional-probability",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/conditional-probability.html",
+      "title": "【高校数学A】条件付き確率は分母を取り替えるだけ／赤5白3で 4/7、5/14、5/8",
+      "thumb": [
+        "条件付き確率",
+        "分母を取り替える",
+        "4/7、5/14、5/8"
+      ],
+      "hook": "「もどさずに」と書いてあれば、残りの玉を数え直すだけです。",
+      "point": "P_A(B) = P(A∩B) ÷ P(A)。2回目が赤も 5/8 で、何回目でも同じという対称性で検算できます。"
+    },
+    {
+      "slug": "square-root-calc",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/square-root-calc.html",
+      "title": "【中学数学】平方根は中を小さくしてから足す／√18 + √50 − √8 = 6√2、有理化まで",
+      "thumb": [
+        "平方根の計算",
+        "中を小さくして足す",
+        "6√2 と 2√3"
+      ],
+      "hook": "高校数学でも毎日使う計算。手順を固定すればミスが消えます。",
+      "point": "中を小さくする→有理化→同じ√どうしだけ足す。√(9+16) は 5、3+4 ではありません。"
     }
   ]
 }
