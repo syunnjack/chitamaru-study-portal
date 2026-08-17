@@ -34,7 +34,7 @@ TAIL_SEC = 0.7
 
 # IPA ゴシックが持つ上付き文字は ¹²³ だけ。それ以外は豆腐（□）になるので
 # 「^2」「^(n+1)」の形に落とす。下付きは1つも持たないので普通の文字にする。
-SUPERSCRIPTS = dict(zip("⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁺⁻", "0123456789n+-"))
+SUPERSCRIPTS = dict(zip("⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁺⁻ˣᵏᵐ", "0123456789n+-xkm"))
 SUBSCRIPTS = dict(zip("₀₁₂₃₄₅₆₇₈₉ₙ₊₋", "0123456789n+-"))
 FONT_HAS_SUPERSCRIPT = set("¹²³")
 
