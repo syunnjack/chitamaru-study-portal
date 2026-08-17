@@ -1,84 +1,208 @@
 {
   "title": "異なる実数解の個数を求める",
-  "subtitle": "高校数学 I ／ 判別式 ｜ 知多丸式 効率的学習のすゝめ",
+  "subtitle": "高校数学 I ／ 判別式 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
   "scenes": [
     {
-      "narration": "こんにちは。知多丸式、効率的学習のすゝめです。今日の問題は、次の2次方程式の、異なる実数解の個数を求めよ。エックスの2乗 マイナス 6エックス プラス 10 イコール 0。解を求める必要はありません。個数だけです。",
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題は、次の2次方程式の、異なる実数解の個数を求めよ。エックスの2乗 マイナス 6エックス プラス 10 イコール 0。解を求める必要はありません。個数だけです。",
       "lines": [
-        {"style": "head", "text": "今日の問題", "active": true},
-        {"style": "formula", "text": "次の2次方程式の異なる実数解の個数を求めよ", "active": false},
-        {"style": "formula", "text": "x² - 6x + 10 = 0", "active": true},
-        {"style": "note", "text": "所要時間の目安：1分（慣れたら15秒）"}
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "次の2次方程式の異なる実数解の個数を求めよ",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "x² - 6x + 10 = 0",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：1分（慣れたら15秒）"
+        }
       ],
       "caption": "今日の問題：x² - 6x + 10 = 0 の異なる実数解の個数"
     },
     {
       "narration": "まず、大事なことを言います。この問題で、解の公式を最後まで計算するのは、時間のむだです。個数を聞かれたときの型は、ただ一つ。判別式、ディー を計算して、符号を見る。それだけで終わります。",
       "lines": [
-        {"style": "head", "text": "知多丸式：問われ方で型が決まる", "active": true},
-        {"style": "text", "text": "「解を求めよ」　→　解の公式", "active": false},
-        {"style": "text", "text": "「実数解の個数」→　判別式 D の符号だけ", "active": true},
-        {"style": "note", "text": "解かずに答える。これが要領。", "active": true}
+        {
+          "style": "head",
+          "text": "知多丸式：問われ方で型が決まる",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "「解を求めよ」　→　解の公式",
+          "active": false
+        },
+        {
+          "style": "text",
+          "text": "「実数解の個数」→　判別式 D の符号だけ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "解かずに答える。これが要領。",
+          "active": true
+        }
       ],
       "caption": "「個数」を聞かれたら判別式Dの符号を見るだけ"
     },
     {
       "narration": "判別式は、ディー イコール、ビーの2乗 マイナス 4エーシー です。解の公式の、ルートの中身と同じものです。この符号で、3つに分かれます。ディーが プラスなら2個、ディーが 0 なら1個、これは重解です。ディーが マイナスなら0個。表で覚えてください。",
       "lines": [
-        {"style": "head", "text": "覚える表（これだけ）", "active": true},
-        {"style": "formula", "text": "D = b² - 4ac", "active": true},
-        {"style": "text", "text": "D > 0  →  異なる実数解は 2個", "active": true},
-        {"style": "text", "text": "D = 0  →  1個（重解）", "active": true},
-        {"style": "text", "text": "D < 0  →  0個（実数解なし）", "active": true}
+        {
+          "style": "head",
+          "text": "覚える表（これだけ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "D = b² - 4ac",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "D > 0  →  異なる実数解は 2個",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "D = 0  →  1個（重解）",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "D < 0  →  0個（実数解なし）",
+          "active": true
+        }
       ],
       "caption": "D>0 で2個、D=0 で1個、D<0 で0個"
     },
     {
       "narration": "では、係数を書き出します。エーは1、ビーは マイナス6、シーは 10。ここでも、ビーの、マイナス を忘れないでください。ただし、ビーは2乗しますから、答えは同じになります。それでも、書くときは符号ごと書く習慣をつけましょう。",
       "lines": [
-        {"style": "head", "text": "手順1：係数を書き出す", "active": true},
-        {"style": "formula", "text": "a = 1 ,   b = -6 ,   c = 10", "active": true},
-        {"style": "note", "text": "b は2乗するので符号は消えるが、書く習慣は大切。"}
+        {
+          "style": "head",
+          "text": "手順1：係数を書き出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = 1 ,   b = -6 ,   c = 10",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "b は2乗するので符号は消えるが、書く習慣は大切。"
+        }
       ],
       "caption": "手順1：a = 1、b = -6、c = 10"
     },
     {
       "narration": "手順の2つ目。判別式を計算します。ビーの2乗は、マイナス6 の2乗で、36。4エーシー は、4 かける 1 かける 10 で、40。36 マイナス 40 は、マイナス4 です。",
       "lines": [
-        {"style": "head", "text": "手順2：D を計算する", "active": true},
-        {"style": "formula", "text": "D = (-6)² - 4·1·10", "active": false},
-        {"style": "formula", "text": "D = 36 - 40 = -4", "active": true},
-        {"style": "note", "text": "計算はここだけ。あとは符号を見るだけ。"}
+        {
+          "style": "head",
+          "text": "手順2：D を計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "D = (-6)² - 4·1·10",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "D = 36 - 40 = -4",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "計算はここだけ。あとは符号を見るだけ。"
+        }
       ],
       "caption": "手順2：D = 36 - 40 = -4"
     },
     {
       "narration": "手順の3つ目。符号を見ます。ディー は マイナス4 ですから、ディー 小なり 0。表のいちばん下です。したがって、異なる実数解の個数は、0個。これが答えです。",
       "lines": [
-        {"style": "head", "text": "手順3：符号から答える", "active": true},
-        {"style": "formula", "text": "D = -4 < 0", "active": true},
-        {"style": "formula", "text": "異なる実数解の個数 ＝ 0 個", "active": true},
-        {"style": "note", "text": "答案には「D < 0 より」と根拠を1行書く。", "active": true}
+        {
+          "style": "head",
+          "text": "手順3：符号から答える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "D = -4 < 0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "異なる実数解の個数 ＝ 0 個",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答案には「D < 0 より」と根拠を1行書く。",
+          "active": true
+        }
       ],
       "caption": "答え：D < 0 より、異なる実数解は 0個"
     },
     {
       "narration": "グラフでも確認しましょう。平方完成すると、わい イコール かっこ エックス マイナス 3 かっこの2乗 プラス 1。頂点は、3、1 で、下に凸のグラフです。いちばん低い点が、エックス軸より上にありますから、グラフはエックス軸と交わりません。だから、実数解は0個。納得できますね。",
       "lines": [
-        {"style": "head", "text": "グラフで納得しておく", "active": true},
-        {"style": "formula", "text": "y = (x - 3)² + 1   頂点 ( 3 , 1 )", "active": true},
-        {"style": "note", "text": "下に凸で頂点が x 軸より上 → x 軸と交わらない。", "active": true},
-        {"style": "note", "text": "実数解の個数 ＝ グラフと x 軸の交点の個数。"}
+        {
+          "style": "head",
+          "text": "グラフで納得しておく",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = (x - 3)² + 1   頂点 ( 3 , 1 )",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "下に凸で頂点が x 軸より上 → x 軸と交わらない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "実数解の個数 ＝ グラフと x 軸の交点の個数。"
+        }
       ],
       "caption": "頂点(3,1)が x 軸より上 → 交点なし → 0個"
     },
     {
-      "narration": "最後に、在庫に入れる1行です。個数を聞かれたら、ディー イコール ビーの2乗 マイナス 4エーシー、の符号だけ見る。類題を1つ置いておきます。エックスの2乗 マイナス 6エックス プラス 9 イコール 0 なら、ディーは 0 で、1個の重解です。翌日、何も見ずにやってみてください。おつかれさまでした。",
+      "narration": "最後に、在庫に入れる1行です。個数を聞かれたら、ディー イコール ビーの2乗 マイナス 4エーシー、の符号だけ見る。類題を1つ置いておきます。エックスの2乗 マイナス 6エックス プラス 9 イコール 0 なら、ディーは 0 で、1個の重解です。翌日、何も見ずにやってみてください。おつかれさまでした。 チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
       "lines": [
-        {"style": "head", "text": "在庫に入れる1行", "active": true},
-        {"style": "formula", "text": "個数を聞かれたら D = b² - 4ac の符号だけ", "active": true},
-        {"style": "note", "text": "類題：x² - 6x + 9 = 0 → D = 0 → 1個（重解）", "active": true},
-        {"style": "text", "text": "翌日に自力で、1週間後に方針だけ確認。", "active": false}
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "個数を聞かれたら D = b² - 4ac の符号だけ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：x² - 6x + 9 = 0 → D = 0 → 1個（重解）",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "翌日に自力で、1週間後に方針だけ確認。",
+          "active": false
+        }
       ],
       "caption": "在庫に入れる1行：個数はDの符号だけで決まる"
     }

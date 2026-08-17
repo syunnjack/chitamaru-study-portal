@@ -1,96 +1,240 @@
 {
   "title": "放物線の頂点を求める",
-  "subtitle": "高校数学 I ／ 2次関数 ｜ 知多丸式 効率的学習のすゝめ",
+  "subtitle": "高校数学 I ／ 2次関数 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
   "scenes": [
     {
-      "narration": "こんにちは。知多丸式、効率的学習のすゝめです。今日は、放物線の頂点を求める問題を、いっしょに、ゆっくり解いていきましょう。むずかしくありません。手順どおりに進めるだけです。",
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は、放物線の頂点を求める問題を、いっしょに、ゆっくり解いていきましょう。むずかしくありません。手順どおりに進めるだけです。",
       "lines": [
-        {"style": "head", "text": "今日の問題", "active": true},
-        {"style": "formula", "text": "次の式で表される放物線の頂点を求めよ", "active": false},
-        {"style": "formula", "text": "y = x² + 8x + 5", "active": true},
-        {"style": "note", "text": "所要時間の目安：3分（慣れたら30秒）"}
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "次の式で表される放物線の頂点を求めよ",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "y = x² + 8x + 5",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：3分（慣れたら30秒）"
+        }
       ],
       "caption": "今日の問題：y = x² + 8x + 5 の頂点を求める"
     },
     {
       "narration": "まず、ゴールをはっきりさせます。放物線の頂点とは、グラフのいちばん下、または、いちばん上の点のことです。そして、式が、わい イコール エー かっこ エックス マイナス ピー かっこの2乗 プラス キュー、の形になっていれば、頂点は、ピー、キュー と、すぐに読み取れます。",
       "lines": [
-        {"style": "head", "text": "ゴールの形を知る", "active": true},
-        {"style": "formula", "text": "y = a(x - p)² + q   →   頂点 ( p , q )", "active": true},
-        {"style": "note", "text": "つまり「この形に書き直す」ことがゴール。", "active": true},
-        {"style": "note", "text": "頂点＝グラフの折り返し点。下に凸なら最小の点。"}
+        {
+          "style": "head",
+          "text": "ゴールの形を知る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = a(x - p)² + q   →   頂点 ( p , q )",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "つまり「この形に書き直す」ことがゴール。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "頂点＝グラフの折り返し点。下に凸なら最小の点。"
+        }
       ],
       "caption": "ゴール：y = a(x - p)² + q の形に直せば頂点は (p, q)"
     },
     {
       "narration": "ここで、知多丸式の考え方です。和田秀樹先生の、受験は要領、から学んだことは、数学は、ひらめきではなく、解法の型を覚えて使う科目だということ。この問題の型は、ただ一つ。平方完成、です。まず、型の名前を思い出す。これが要領です。",
       "lines": [
-        {"style": "head", "text": "知多丸式：まず「型」を思い出す", "active": true},
-        {"style": "note", "text": "『受験は要領』（和田秀樹）に学ぶ考え方", "active": false},
-        {"style": "text", "text": "ひらめき不要。頂点を聞かれたら型は1つ。", "active": false},
-        {"style": "formula", "text": "型 ＝ 平方完成（へいほうかんせい）", "active": true},
-        {"style": "note", "text": "5分考えて出てこない型は、答えを見て覚えてよい。"}
+        {
+          "style": "head",
+          "text": "知多丸式：まず「型」を思い出す",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "『受験は要領』（和田秀樹）に学ぶ考え方",
+          "active": false
+        },
+        {
+          "style": "text",
+          "text": "ひらめき不要。頂点を聞かれたら型は1つ。",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "型 ＝ 平方完成（へいほうかんせい）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "5分考えて出てこない型は、答えを見て覚えてよい。"
+        }
       ],
       "caption": "頂点を聞かれたら型は1つ ＝ 平方完成"
     },
     {
       "narration": "では手順の1つ目。エックスの2乗と、8エックスの部分だけを見ます。エックスの係数、8に注目してください。この8を、半分にします。8の半分は、4。この4が、かっこの中に入る数になります。",
       "lines": [
-        {"style": "head", "text": "手順1：xの係数を半分にする", "active": true},
-        {"style": "formula", "text": "y = ( x² + 8x ) + 5", "active": false},
-        {"style": "formula", "text": "8 ÷ 2 = 4   ←  かっこの中に入る数", "active": true},
-        {"style": "note", "text": "ここだけは絶対に間違えないポイント。"}
+        {
+          "style": "head",
+          "text": "手順1：xの係数を半分にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = ( x² + 8x ) + 5",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "8 ÷ 2 = 4   ←  かっこの中に入る数",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ここだけは絶対に間違えないポイント。"
+        }
       ],
       "caption": "手順1：xの係数8を半分にして 4 を作る"
     },
     {
       "narration": "手順の2つ目。かっこ エックス プラス 4 かっこの2乗 を作ります。ただし、これを展開すると、エックスの2乗 プラス 8エックス プラス 16 となり、16 が、よぶんに増えてしまいます。ですから、16を引いて、つじつまを合わせます。",
       "lines": [
-        {"style": "head", "text": "手順2：かっこを作って、増えた分を引く", "active": true},
-        {"style": "formula", "text": "(x + 4)² = x² + 8x + 16   ← 16が余分", "active": false},
-        {"style": "formula", "text": "x² + 8x = (x + 4)² - 16", "active": true},
-        {"style": "note", "text": "「半分にして2乗した数を引く」と覚える。"}
+        {
+          "style": "head",
+          "text": "手順2：かっこを作って、増えた分を引く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(x + 4)² = x² + 8x + 16   ← 16が余分",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "x² + 8x = (x + 4)² - 16",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「半分にして2乗した数を引く」と覚える。"
+        }
       ],
       "caption": "x² + 8x = (x + 4)² - 16"
     },
     {
       "narration": "手順の3つ目。もとの式に、もどして代入します。わい イコール かっこ エックス プラス 4 かっこの2乗 マイナス 16 プラス 5。定数の部分を計算すると、マイナス16 プラス 5 は、マイナス11。よって、わい イコール かっこ エックス プラス 4 かっこの2乗 マイナス 11 になりました。",
       "lines": [
-        {"style": "head", "text": "手順3：もとの式に戻して整理", "active": true},
-        {"style": "formula", "text": "y = (x + 4)² - 16 + 5", "active": false},
-        {"style": "formula", "text": "y = (x + 4)² - 11", "active": true},
-        {"style": "note", "text": "ゴールの形 y = a(x - p)² + q になった。"}
+        {
+          "style": "head",
+          "text": "手順3：もとの式に戻して整理",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = (x + 4)² - 16 + 5",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "y = (x + 4)² - 11",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ゴールの形 y = a(x - p)² + q になった。"
+        }
       ],
       "caption": "y = (x + 4)² - 11 まで来たら、あと一歩"
     },
     {
       "narration": "さあ、読み取りましょう。かっこの中は、エックス プラス 4。ゴールの形は、エックス マイナス ピー ですから、プラス4 は、マイナス、マイナス4 と考えて、ピー は、マイナス4。うしろの数、マイナス11 が、キュー です。したがって、頂点は、マイナス4、マイナス11。これが答えです。符号の反転だけ、気をつけてください。",
       "lines": [
-        {"style": "head", "text": "答え", "active": true},
-        {"style": "formula", "text": "y = (x - (-4))² + (-11)", "active": false},
-        {"style": "formula", "text": "頂点 ( -4 , -11 )", "active": true},
-        {"style": "note", "text": "かっこの中の符号は必ず反転！ +4 → x = -4", "active": true}
+        {
+          "style": "head",
+          "text": "答え",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = (x - (-4))² + (-11)",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "頂点 ( -4 , -11 )",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "かっこの中の符号は必ず反転！ +4 → x = -4",
+          "active": true
+        }
       ],
       "caption": "答え：頂点は ( -4 , -11 ) ※かっこの中は符号を反転"
     },
     {
       "narration": "最後に、30秒でできる検算です。頂点のエックス座標は、マイナス ビー わる 2エー でも出せます。ビーは8、エーは1ですから、マイナス8 わる 2 は、マイナス4。これをもとの式に入れると、16 マイナス 32 プラス 5 は、マイナス11。ぴったり一致しました。答えに自信が持てますね。",
       "lines": [
-        {"style": "head", "text": "検算（30秒）", "active": true},
-        {"style": "formula", "text": "x = -b / 2a = -8 / 2 = -4", "active": true},
-        {"style": "formula", "text": "y = (-4)² + 8(-4) + 5 = 16 - 32 + 5 = -11", "active": true},
-        {"style": "note", "text": "2つの方法で同じ答え → 安心して次へ進める。"}
+        {
+          "style": "head",
+          "text": "検算（30秒）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x = -b / 2a = -8 / 2 = -4",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "y = (-4)² + 8(-4) + 5 = 16 - 32 + 5 = -11",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2つの方法で同じ答え → 安心して次へ進める。"
+        }
       ],
       "caption": "検算：x = -b/2a で -4、代入して -11。一致！"
     },
     {
-      "narration": "おつかれさまでした。知多丸式の復習のしかたを、お伝えします。今日は、解けなくても、まったく問題ありません。大事なのは、この動画をもう一度見ながら、自分の手で、いちど書き写すこと。そして、あした、なにも見ずに、もう一度解いてみること。3回くりかえせば、あなたの武器になります。挫折した私でも、これでできるようになりました。次の問題でも、お待ちしています。",
+      "narration": "おつかれさまでした。知多丸式の復習のしかたを、お伝えします。今日は、解けなくても、まったく問題ありません。大事なのは、この動画をもう一度見ながら、自分の手で、いちど書き写すこと。そして、あした、なにも見ずに、もう一度解いてみること。3回くりかえせば、あなたの武器になります。挫折した私でも、これでできるようになりました。次の問題でも、お待ちしています。 チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
       "lines": [
-        {"style": "head", "text": "知多丸式・復習の3回転", "active": true},
-        {"style": "text", "text": "1回目：解答を見ながら、手で書き写す", "active": true},
-        {"style": "text", "text": "2回目：翌日、何も見ずに解く", "active": true},
-        {"style": "text", "text": "3回目：1週間後、30秒で方針を言えるか確認", "active": true},
-        {"style": "note", "text": "解けない問題を眺め続けない。5分で答えを見る。"}
+        {
+          "style": "head",
+          "text": "知多丸式・復習の3回転",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "1回目：解答を見ながら、手で書き写す",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "2回目：翌日、何も見ずに解く",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "3回目：1週間後、30秒で方針を言えるか確認",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "解けない問題を眺め続けない。5分で答えを見る。"
+        }
       ],
       "caption": "復習は3回転。5分考えて出なければ答えを見てよい"
     }

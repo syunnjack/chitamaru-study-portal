@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>余弦定理で辺の長さを求める（b = 3, c = 5, A = 60°）｜高校数学 第11回</title>
+<meta name="description" content="2辺とその間の角から余弦定理で辺を求める手順と、正弦定理との見分け方を、ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第11回 余弦定理</div>
+
+<main class="wrap">
+  <h1>第11回　余弦定理で辺の長さを求める</h1>
+  <div class="formula">三角形 ABC で b = 3、c = 5、A = 60° のとき、a の長さを求めよ。</div>
+  <p>正弦定理か余弦定理かで迷わないための見分け方も一緒に固めます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/cosine-rule.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/cosine-rule.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>見分け方（これで迷わない）</h2>
+  <div class="panel accent">
+    <p><strong>2辺とその間の角 → 余弦定理　／　角と向かいの辺が2組 → 正弦定理</strong></p>
+    <div class="formula">a² = b² + c² − 2bc·cos A</div>
+    <p>左辺の辺 a と、cos の中の角 A は向かい合います（三平方の定理に補正がついた形）。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>代入する</strong><div class="formula">a² = 3² + 5² − 2·3·5·cos 60°　,　cos 60° = 1/2</div></li>
+    <li><strong>計算する</strong><div class="formula">a² = 34 − 15 = 19</div></li>
+    <li><strong>正の平方根をとる</strong><div class="formula">a = √19 ( ≒ 4.36 )</div><p>長さなので負は捨てます。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>5 − 3 &lt; √19 &lt; 5 + 3（2 &lt; 4.36 &lt; 8）で成立。さらに A &lt; 90° なので a &lt; √(9 + 25) = √34 ≒ 5.83 も満たします。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>2辺と間の角 → a² = b² + c² − 2bc·cos A</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>b = 2、c = 3、A = 120° のとき a
+        <details><summary>答え</summary><p>a² = 4 + 9 + 6 = 19、a = √19</p></details>
+      </li>
+      <li>b = 4、c = 5、A = 45° のとき a
+        <details><summary>答え</summary><p>a² = 16 + 25 − 20√2 = 41 − 20√2、a = √(41 − 20√2)</p></details>
+      </li>
+      <li>a = 7、b = 5、c = 3 のとき cos A
+        <details><summary>答え</summary><p>cos A = (25 + 9 − 49)/(2·5·3) = −1/2、A = 120°</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="graph-translation.html">← 第10回 グラフの平行移動</a>　｜　<a href="triangle-area.html">第12回 三角形の面積 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

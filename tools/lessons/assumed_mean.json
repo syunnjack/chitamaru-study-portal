@@ -1,84 +1,206 @@
 {
   "title": "仮平均法で平均値を求める",
-  "subtitle": "高校数学 I ／ データの分析 ｜ 知多丸式 効率的学習のすゝめ",
+  "subtitle": "高校数学 I ／ データの分析 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
   "scenes": [
     {
-      "narration": "こんにちは。知多丸式、効率的学習のすゝめです。今日は、仮平均法を使って、平均値を求めます。データは、58、62、65、61、64。この5個です。ふつうに全部たしてもよいのですが、もっと楽で、ミスの少ない方法があります。",
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は、仮平均法を使って、平均値を求めます。データは、58、62、65、61、64。この5個です。ふつうに全部たしてもよいのですが、もっと楽で、ミスの少ない方法があります。",
       "lines": [
-        {"style": "head", "text": "今日の問題", "active": true},
-        {"style": "formula", "text": "仮平均法を用いて平均値を求めよ", "active": false},
-        {"style": "formula", "text": "58 ,  62 ,  65 ,  61 ,  64", "active": true},
-        {"style": "note", "text": "所要時間の目安：2分（慣れたら30秒）"}
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仮平均法を用いて平均値を求めよ",
+          "active": false
+        },
+        {
+          "style": "formula",
+          "text": "58 ,  62 ,  65 ,  61 ,  64",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：2分（慣れたら30秒）"
+        }
       ],
       "caption": "データ：58, 62, 65, 61, 64 の平均を仮平均法で"
     },
     {
       "narration": "仮平均法の考え方は、とてもシンプルです。データが、ある値の近くに集まっているとき、その値を仮の平均として、そこからのズレだけを計算します。大きい数のたし算をしなくてよいので、計算ミスが激減します。",
       "lines": [
-        {"style": "head", "text": "仮平均法の考え方", "active": true},
-        {"style": "text", "text": "データの近くのキリのよい値を「仮平均」に置く", "active": true},
-        {"style": "text", "text": "そこからのズレ（偏差）だけを合計する", "active": true},
-        {"style": "note", "text": "3桁のたし算を、1桁のたし算に変えるテクニック。"}
+        {
+          "style": "head",
+          "text": "仮平均法の考え方",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "データの近くのキリのよい値を「仮平均」に置く",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "そこからのズレ（偏差）だけを合計する",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3桁のたし算を、1桁のたし算に変えるテクニック。"
+        }
       ],
       "caption": "仮平均法＝ズレだけを合計する時短テクニック"
     },
     {
       "narration": "公式はこれです。平均 イコール、仮平均 プラス、ズレの合計 わる 個数。仮平均は、自分で決めてよい値です。データの真ん中あたりで、キリのよい数を選びます。今回は、60 にしましょう。",
       "lines": [
-        {"style": "head", "text": "公式（暗記事項）", "active": true},
-        {"style": "formula", "text": "平均 ＝ 仮平均 ＋ ( ズレの合計 ÷ 個数 )", "active": true},
-        {"style": "note", "text": "仮平均は自由に決めてよい。キリのよい数にする。", "active": true},
-        {"style": "note", "text": "今回は仮平均を 60 にする。"}
+        {
+          "style": "head",
+          "text": "公式（暗記事項）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "平均 ＝ 仮平均 ＋ ( ズレの合計 ÷ 個数 )",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "仮平均は自由に決めてよい。キリのよい数にする。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "今回は仮平均を 60 にする。"
+        }
       ],
       "caption": "平均 ＝ 仮平均 ＋ ズレの合計 ÷ 個数"
     },
     {
       "narration": "手順の1つ目。それぞれのデータから、60 を引きます。58 引く 60 は、マイナス2。62 引く 60 は、プラス2。65 引く 60 は、プラス5。61 引く 60 は、プラス1。64 引く 60 は、プラス4。符号つきで、ていねいに書き出してください。",
       "lines": [
-        {"style": "head", "text": "手順1：仮平均 60 からのズレを出す", "active": true},
-        {"style": "formula", "text": "58 → -2 ,  62 → +2 ,  65 → +5", "active": true},
-        {"style": "formula", "text": "61 → +1 ,  64 → +4", "active": true},
-        {"style": "note", "text": "符号を必ず書く。ここを略すとミスになる。"}
+        {
+          "style": "head",
+          "text": "手順1：仮平均 60 からのズレを出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "58 → -2 ,  62 → +2 ,  65 → +5",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "61 → +1 ,  64 → +4",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "符号を必ず書く。ここを略すとミスになる。"
+        }
       ],
       "caption": "手順1：ズレは -2, +2, +5, +1, +4"
     },
     {
       "narration": "手順の2つ目。ズレを合計します。マイナス2 と プラス2 は、打ち消し合って 0。残りは、5 プラス 1 プラス 4 で、10。ズレの合計は、10 です。打ち消し合うペアを先に探すのが、速く正確に計算するコツです。",
       "lines": [
-        {"style": "head", "text": "手順2：ズレを合計する", "active": true},
-        {"style": "formula", "text": "(-2) + (+2) = 0", "active": true},
-        {"style": "formula", "text": "0 + 5 + 1 + 4 = 10", "active": true},
-        {"style": "note", "text": "打ち消し合うペアから先に処理する。"}
+        {
+          "style": "head",
+          "text": "手順2：ズレを合計する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(-2) + (+2) = 0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0 + 5 + 1 + 4 = 10",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "打ち消し合うペアから先に処理する。"
+        }
       ],
       "caption": "手順2：ズレの合計は 10"
     },
     {
       "narration": "手順の3つ目。ズレの合計を、個数で割ります。10 わる 5 は、2。これが、仮平均からの、平均のズレです。最後に、仮平均に足します。60 プラス 2 は、62。平均値は、62 です。",
       "lines": [
-        {"style": "head", "text": "手順3：個数で割って、仮平均に足す", "active": true},
-        {"style": "formula", "text": "10 ÷ 5 = 2", "active": true},
-        {"style": "formula", "text": "平均 ＝ 60 + 2 ＝ 62", "active": true},
-        {"style": "note", "text": "個数で割るのは「ズレの合計」だけ。仮平均は割らない。", "active": true}
+        {
+          "style": "head",
+          "text": "手順3：個数で割って、仮平均に足す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "10 ÷ 5 = 2",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "平均 ＝ 60 + 2 ＝ 62",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "個数で割るのは「ズレの合計」だけ。仮平均は割らない。",
+          "active": true
+        }
       ],
       "caption": "答え：平均値は 62"
     },
     {
       "narration": "念のため、ふつうの方法でも確かめましょう。58 プラス 62 プラス 65 プラス 61 プラス 64 は、310。310 わる 5 は、62。ぴったり一致しました。仮平均法でも、まったく同じ答えが出ることが確認できましたね。",
       "lines": [
-        {"style": "head", "text": "検算（ふつうの計算）", "active": true},
-        {"style": "formula", "text": "58+62+65+61+64 = 310", "active": true},
-        {"style": "formula", "text": "310 ÷ 5 = 62   ○", "active": true},
-        {"style": "note", "text": "数が大きいときほど、仮平均法のほうが速くて安全。"}
+        {
+          "style": "head",
+          "text": "検算（ふつうの計算）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "58+62+65+61+64 = 310",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "310 ÷ 5 = 62   ○",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "数が大きいときほど、仮平均法のほうが速くて安全。"
+        }
       ],
       "caption": "検算：310 ÷ 5 = 62 で一致"
     },
     {
-      "narration": "最後に、まちがえやすい点を1つ。仮平均を足し忘れて、2 と答えてしまうミスが、とても多いです。ズレの平均を出したあと、必ず仮平均に戻る。ここだけ気をつけてください。おつかれさまでした。翌日、何も見ずにもう一度どうぞ。",
+      "narration": "最後に、まちがえやすい点を1つ。仮平均を足し忘れて、2 と答えてしまうミスが、とても多いです。ズレの平均を出したあと、必ず仮平均に戻る。ここだけ気をつけてください。おつかれさまでした。翌日、何も見ずにもう一度どうぞ。 チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
       "lines": [
-        {"style": "head", "text": "在庫に入れる1行", "active": true},
-        {"style": "formula", "text": "平均 ＝ 仮平均 ＋ ズレの平均", "active": true},
-        {"style": "note", "text": "最頻出ミス：仮平均を足し戻すのを忘れる。", "active": true},
-        {"style": "text", "text": "翌日に自力で、1週間後に方針だけ確認。", "active": false}
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "平均 ＝ 仮平均 ＋ ズレの平均",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "最頻出ミス：仮平均を足し戻すのを忘れる。",
+          "active": true
+        },
+        {
+          "style": "text",
+          "text": "翌日に自力で、1週間後に方針だけ確認。",
+          "active": false
+        }
       ],
       "caption": "在庫に入れる1行：平均＝仮平均＋ズレの平均"
     }

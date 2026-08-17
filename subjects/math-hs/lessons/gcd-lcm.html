@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>24と36の公約数・公倍数｜高校数学 第13回</title>
+<meta name="description" content="素因数分解から最大公約数・最小公倍数を出し、公約数をすべて書き出す手順を、ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第13回 公約数と公倍数</div>
+
+<main class="wrap">
+  <h1>第13回　公約数と公倍数を書き出す</h1>
+  <div class="formula">24 と 36 の正の公約数をすべて挙げよ。また、2数の公倍数を3つ挙げよ。</div>
+  <p>書き出す順番を決めておけば、抜け落ちがなくなります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/gcd-lcm.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/gcd-lcm.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>公約数 = 最大公約数の約数　／　公倍数 = 最小公倍数の倍数</strong></p>
+    <p>まず素因数分解。共通の素因数を<strong>小さい指数</strong>でとれば最大公約数、<strong>大きい指数</strong>でとれば最小公倍数です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>素因数分解</strong><div class="formula">24 = 2³ × 3　,　36 = 2² × 3²</div></li>
+    <li><strong>最大公約数（小さい指数）</strong><div class="formula">G = 2² × 3 = 12</div></li>
+    <li><strong>G の約数をペアで書き出す</strong><div class="formula">1 × 12、2 × 6、3 × 4</div><div class="formula">公約数：1, 2, 3, 4, 6, 12</div></li>
+    <li><strong>最小公倍数（大きい指数）</strong><div class="formula">L = 2³ × 3² = 72</div></li>
+    <li><strong>L の倍数を挙げる</strong><div class="formula">公倍数：72, 144, 216（無限にあるので3つで十分）</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>G × L = 2数の積。12 × 72 = 864、24 × 36 = 864 で一致します。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>小さい指数 → 最大公約数　／　大きい指数 → 最小公倍数</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>18 と 30 の公約数と最小公倍数
+        <details><summary>答え</summary><p>18 = 2·3²、30 = 2·3·5。G = 6（公約数 1, 2, 3, 6）、L = 90</p></details>
+      </li>
+      <li>60 と 84 の最大公約数と最小公倍数
+        <details><summary>答え</summary><p>60 = 2²·3·5、84 = 2²·3·7。G = 12、L = 420</p></details>
+      </li>
+      <li>互いに素な2数 8 と 15 の公倍数を3つ
+        <details><summary>答え</summary><p>G = 1、L = 120 なので 120, 240, 360</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="triangle-area.html">← 第12回 三角形の面積</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
