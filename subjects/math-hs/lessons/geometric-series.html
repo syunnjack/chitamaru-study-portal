@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>等比数列の和（初項3・公比2、第8項まで）｜高校数学B 第26回</title>
+<meta name="description" content="等比数列の和は「公比をかけて引く」。初項3・公比2の S₈ = 765 を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第26回 等比数列の和</div>
+
+<main class="wrap">
+  <h1>第26回　等比数列の和は「公比をかけて引く」</h1>
+  <div class="formula">初項 3、公比 2 の等比数列の第 8 項までの和 S₈ を求めよ。</div>
+  <p>公式の作り方を1回だけ手で確認すれば、二度と忘れません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/geometric-series.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/geometric-series.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>Sₙ = a (rⁿ − 1) / (r − 1)　（r ≠ 1）</strong></p>
+    <p>公比が 1 のときだけ Sₙ = a n。場合分けの確認を忘れないこと。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>公式に入れる</strong><div class="formula">S₈ = 3 (2⁸ − 1) / (2 − 1)</div><div class="formula">2⁸ = 256</div></li>
+    <li><strong>計算する</strong><div class="formula">3 × 255 = <strong>765</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>S = 3 + 6 + … + 384 に公比 2 をかけた 2S = 6 + … + 768 から S を引くと、S = 768 − 3 = 765。公式はこの操作を式にしただけです。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>|r| &lt; 1 のときは無限に足せて <strong>a / (1 − r)</strong>（初項3・公比1/2 なら 6）。数学IIIの無限級数がこれです。</li>
+      <li>項数の数えまちがいに注意。<strong>第3項から第8項までは 8 − 3 + 1 = 6 項</strong>です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>等比の和は「公比をかけて引く」→ a(rⁿ − 1)/(r − 1)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>初項 2、公比 3、第 5 項までの和
+        <details><summary>答え</summary><p>2(3⁵ − 1)/2 = 242</p></details>
+      </li>
+      <li>初項 1、公比 1/2 の無限級数の和
+        <details><summary>答え</summary><p>1 / (1 − 1/2) = 2</p></details>
+      </li>
+      <li>初項 5、公比 1、第 10 項までの和
+        <details><summary>答え</summary><p>r = 1 なので 5 × 10 = 50（公式は使えない）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="definite-integral-area.html">← 第25回 定積分と面積</a>　｜　<a href="recurrence-relation.html">第27回 漸化式 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -384,6 +384,134 @@ log₂(6×12÷9) = log₂ 8 = 3。底がちがうときは底の変換で log₂
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学II】三角関数の合成は1つの sin にまとめるだけ／最大2・最小−2
+
+- ファイル：`videos/trig-synthesis.mp4`
+- サムネイル：`assets/youtube/thumbs/trig-synthesis.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-synthesis.html
+
+```
+サインとコサインが混ざったら、合成して1つのサインにするだけです。
+振幅は √(a²+b²)、α は点 (a, b) の角。θ = π/6 で最大2、θ = 7π/6 で最小−2。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/trig-synthesis.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】定積分で面積を出すコツは「上 − 下」／y = x² − 2x と x 軸で 4/3
+
+- ファイル：`videos/definite-integral-area.mp4`
+- サムネイル：`assets/youtube/thumbs/definite-integral-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/definite-integral-area.html
+
+```
+面積は公式より前に、どちらが上かを決めるのが先です。
+∫₀²(2x − x²)dx = 4 − 8/3 = 4/3。6分の公式でも 1×2³/6 = 4/3。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/definite-integral-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】等比数列の和は「公比をかけて引く」／初項3・公比2で S₈ = 765
+
+- ファイル：`videos/geometric-series.mp4`
+- サムネイル：`assets/youtube/thumbs/geometric-series.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/geometric-series.html
+
+```
+公式の作り方を1回だけ手で確認すれば、二度と忘れません。
+2S − S で真ん中が全部消えて 768 − 3 = 765。r = 1 のときだけ Sₙ = an。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/geometric-series.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学B】漸化式 aₙ₊₁ = 2aₙ + 3 の一般項／特性方程式で等比にする
+
+- ファイル：`videos/recurrence-relation.mp4`
+- サムネイル：`assets/youtube/thumbs/recurrence-relation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/recurrence-relation.html
+
+```
+漸化式は型が5つだけ。今日はいちばん出る「かける定数＋定数」型です。
+aₙ₊₁ + 3 = 2(aₙ + 3)、初項4・公比2 → aₙ + 3 = 2ⁿ⁺¹。検算は最初の2項で。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/recurrence-relation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】極限の不定形は2択／√(n² + 3n) − n = 3/2
+
+- ファイル：`videos/limit-indeterminate.mp4`
+- サムネイル：`assets/youtube/thumbs/limit-indeterminate.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/limit-indeterminate.html
+
+```
+∞ − ∞ はそのままでは出ません。やることは1つだけです。
+∞/∞ は最高次で割る、ルートの ∞−∞ は有理化。n = 1000 の代入で検算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/limit-indeterminate.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学III】置換積分は「かたまりを t にする」／∫₀¹ x√(x²+1) dx
+
+- ファイル：`videos/substitution-integral.mp4`
+- サムネイル：`assets/youtube/thumbs/substitution-integral.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/substitution-integral.html
+
+```
+どこを t にするかを見抜くだけの作業です。
+中身の微分が外にあれば置換。区間の置きかえ忘れが最頻ミス。x が残ったら選び方が誤り。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/substitution-integral.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】ベクトルのなす角は内積 ÷ 大きさの積／(2,1) と (1,3) で45°
+
+- ファイル：`videos/vector-dot-angle.mp4`
+- サムネイル：`assets/youtube/thumbs/vector-dot-angle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-dot-angle.html
+
+```
+内積の2つの顔（成分と図形）をつなぐだけです。
+cosθ = 5/√50 = 1/√2 → 45°。内積0で垂直、負なら鈍角。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/vector-dot-angle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学C】複素数のかけ算は「大きさはかける、角はたす」／(1 + √3i)⁶ = 64
+
+- ファイル：`videos/complex-polar-form.mp4`
+- サムネイル：`assets/youtube/thumbs/complex-polar-form.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/complex-polar-form.html
+
+```
+大きさと角に分けてしまえば、指数の計算より簡単になります。
+ド・モアブル zⁿ = rⁿ(cos nθ + i sin nθ)。i をかけると90°回転。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/complex-polar-form.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -655,6 +783,38 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 y の係数を ±6 にそろえて足す → 13x = 39。検算は代入しなかった式で行う。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/simultaneous-equations.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】1次関数の式は傾き→切片の順／2点 (1,3) と (4,9) で y = 2x + 1
+
+- ファイル：`videos/linear-function-equation.mp4`
+- サムネイル：`assets/youtube/thumbs/linear-function-equation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/linear-function-equation.html
+
+```
+1次関数の式を出す手順は、いつも同じ2ステップです。
+傾きは変化の割合。平行は傾きが等しい、垂直は傾きの積が −1。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/linear-function-equation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】三平方の定理／AB=5・BC=12 で AC=13、垂線は面積2通りで 60/13
+
+- ファイル：`videos/pythagoras-basic.mp4`
+- サムネイル：`assets/youtube/thumbs/pythagoras-basic.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/pythagoras-basic.html
+
+```
+斜辺は直角の向かい側。どの辺が斜辺かを見るだけです。
+覚える組は 3・4・5／5・12・13／8・15・17。垂線は面積を2通りで表して出す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/pythagoras-basic.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領

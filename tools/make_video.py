@@ -32,17 +32,35 @@ PITCH = "+8Hz"
 TAIL_SEC = 0.7
 
 
-# IPA Pゴシックに無い上付き数字は「^n」に置き換える（豆腐対策）。
-GLYPH_FALLBACK = {"⁰": "^0", "⁴": "^4", "⁵": "^5", "⁶": "^6", "⁷": "^7", "⁸": "^8", "⁹": "^9"}
-# 下付き数字・下付き n は IPA フォントに無いので、普通の文字に落とす（S₂₀ → S20、aₙ → an）。
-GLYPH_FALLBACK.update({c: str(i) for i, c in enumerate("₀₁₂₃₄₅₆₇₈₉")})
-GLYPH_FALLBACK["ₙ"] = "n"
+# IPA ゴシックが持つ上付き文字は ¹²³ だけ。それ以外は豆腐（□）になるので
+# 「^2」「^(n+1)」の形に落とす。下付きは1つも持たないので普通の文字にする。
+SUPERSCRIPTS = dict(zip("⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁺⁻", "0123456789n+-"))
+SUBSCRIPTS = dict(zip("₀₁₂₃₄₅₆₇₈₉ₙ₊₋", "0123456789n+-"))
+FONT_HAS_SUPERSCRIPT = set("¹²³")
 
 
 def safe(text: str) -> str:
-    for src, dst in GLYPH_FALLBACK.items():
-        text = text.replace(src, dst)
-    return text
+    out = []
+    i = 0
+    while i < len(text):
+        for table, marker in ((SUPERSCRIPTS, "^"), (SUBSCRIPTS, "")):
+            if text[i] in table:
+                run = ""
+                while i < len(text) and text[i] in table:
+                    run += text[i]
+                    i += 1
+                plain = "".join(table[c] for c in run)
+                if table is SUPERSCRIPTS and set(run) <= FONT_HAS_SUPERSCRIPT:
+                    out.append(run)  # そのまま表示できる
+                elif "+" in plain or "-" in plain:
+                    out.append(f"{marker}({plain})")
+                else:
+                    out.append(marker + plain)
+                break
+        else:
+            out.append(text[i])
+            i += 1
+    return "".join(out)
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:

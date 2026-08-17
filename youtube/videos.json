@@ -545,6 +545,136 @@
       ],
       "hook": "平方数の条件は、積が定数の形に持ち込むだけです。",
       "point": "2数は同じ偶奇なので両方偶数：2×24、4×12、6×8 → n = 11, 4, 1。49・64・169。"
+    },
+    {
+      "slug": "trig-synthesis",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-synthesis.html",
+      "title": "【高校数学II】三角関数の合成は1つの sin にまとめるだけ／最大2・最小−2",
+      "thumb": [
+        "y = sinθ + √3 cosθ",
+        "= 2 sin(θ + π/3)",
+        "最大 2・最小 −2"
+      ],
+      "hook": "サインとコサインが混ざったら、合成して1つのサインにするだけです。",
+      "point": "振幅は √(a²+b²)、α は点 (a, b) の角。θ = π/6 で最大2、θ = 7π/6 で最小−2。"
+    },
+    {
+      "slug": "definite-integral-area",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/definite-integral-area.html",
+      "title": "【高校数学II】定積分で面積を出すコツは「上 − 下」／y = x² − 2x と x 軸で 4/3",
+      "thumb": [
+        "交点は x = 0, 2",
+        "∫(上 − 下)dx",
+        "面積 4/3"
+      ],
+      "hook": "面積は公式より前に、どちらが上かを決めるのが先です。",
+      "point": "∫₀²(2x − x²)dx = 4 − 8/3 = 4/3。6分の公式でも 1×2³/6 = 4/3。"
+    },
+    {
+      "slug": "geometric-series",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/geometric-series.html",
+      "title": "【高校数学B】等比数列の和は「公比をかけて引く」／初項3・公比2で S₈ = 765",
+      "thumb": [
+        "Sₙ = a(rⁿ−1)/(r−1)",
+        "3(2⁸ − 1)/1",
+        "S₈ = 765"
+      ],
+      "hook": "公式の作り方を1回だけ手で確認すれば、二度と忘れません。",
+      "point": "2S − S で真ん中が全部消えて 768 − 3 = 765。r = 1 のときだけ Sₙ = an。"
+    },
+    {
+      "slug": "recurrence-relation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/recurrence-relation.html",
+      "title": "【高校数学B】漸化式 aₙ₊₁ = 2aₙ + 3 の一般項／特性方程式で等比にする",
+      "thumb": [
+        "x = 2x + 3 → x = −3",
+        "aₙ + 3 は等比",
+        "aₙ = 2ⁿ⁺¹ − 3"
+      ],
+      "hook": "漸化式は型が5つだけ。今日はいちばん出る「かける定数＋定数」型です。",
+      "point": "aₙ₊₁ + 3 = 2(aₙ + 3)、初項4・公比2 → aₙ + 3 = 2ⁿ⁺¹。検算は最初の2項で。"
+    },
+    {
+      "slug": "limit-indeterminate",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/limit-indeterminate.html",
+      "title": "【高校数学III】極限の不定形は2択／√(n² + 3n) − n = 3/2",
+      "thumb": [
+        "∞ − ∞ は有理化",
+        "3n /(√(n²+3n)+n)",
+        "答え 3/2"
+      ],
+      "hook": "∞ − ∞ はそのままでは出ません。やることは1つだけです。",
+      "point": "∞/∞ は最高次で割る、ルートの ∞−∞ は有理化。n = 1000 の代入で検算。"
+    },
+    {
+      "slug": "substitution-integral",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/substitution-integral.html",
+      "title": "【高校数学III】置換積分は「かたまりを t にする」／∫₀¹ x√(x²+1) dx",
+      "thumb": [
+        "t = x² + 1",
+        "区間も 1 → 2 に",
+        "(2√2 − 1)/3"
+      ],
+      "hook": "どこを t にするかを見抜くだけの作業です。",
+      "point": "中身の微分が外にあれば置換。区間の置きかえ忘れが最頻ミス。x が残ったら選び方が誤り。"
+    },
+    {
+      "slug": "vector-dot-angle",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/vector-dot-angle.html",
+      "title": "【高校数学C】ベクトルのなす角は内積 ÷ 大きさの積／(2,1) と (1,3) で45°",
+      "thumb": [
+        "内積 = 5",
+        "|a|=√5、|b|=√10",
+        "θ = 45°"
+      ],
+      "hook": "内積の2つの顔（成分と図形）をつなぐだけです。",
+      "point": "cosθ = 5/√50 = 1/√2 → 45°。内積0で垂直、負なら鈍角。"
+    },
+    {
+      "slug": "complex-polar-form",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/complex-polar-form.html",
+      "title": "【高校数学C】複素数のかけ算は「大きさはかける、角はたす」／(1 + √3i)⁶ = 64",
+      "thumb": [
+        "r = 2、θ = 60°",
+        "角は6倍で360°",
+        "z⁶ = 64"
+      ],
+      "hook": "大きさと角に分けてしまえば、指数の計算より簡単になります。",
+      "point": "ド・モアブル zⁿ = rⁿ(cos nθ + i sin nθ)。i をかけると90°回転。"
+    },
+    {
+      "slug": "linear-function-equation",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/linear-function-equation.html",
+      "title": "【中学数学】1次関数の式は傾き→切片の順／2点 (1,3) と (4,9) で y = 2x + 1",
+      "thumb": [
+        "傾き = 6 ÷ 3 = 2",
+        "3 = 2×1 + b",
+        "y = 2x + 1"
+      ],
+      "hook": "1次関数の式を出す手順は、いつも同じ2ステップです。",
+      "point": "傾きは変化の割合。平行は傾きが等しい、垂直は傾きの積が −1。"
+    },
+    {
+      "slug": "pythagoras-basic",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/pythagoras-basic.html",
+      "title": "【中学数学】三平方の定理／AB=5・BC=12 で AC=13、垂線は面積2通りで 60/13",
+      "thumb": [
+        "5² + 12² = 169",
+        "AC = 13",
+        "BH = 60/13"
+      ],
+      "hook": "斜辺は直角の向かい側。どの辺が斜辺かを見るだけです。",
+      "point": "覚える組は 3・4・5／5・12・13／8・15・17。垂線は面積を2通りで表して出す。"
     }
   ]
 }

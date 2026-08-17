@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>極限の不定形（√(n² + 3n) − n = 3/2）｜高校数学III 第28回</title>
+<meta name="description" content="∞/∞ は最高次で割る、ルートの ∞−∞ は有理化する。√(n²+3n) − n → 3/2 を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第28回 極限の不定形</div>
+
+<main class="wrap">
+  <h1>第28回　極限の不定形は「割るか、有理化するか」の2択</h1>
+  <div class="formula">lim (n → ∞) ( √(n² + 3n) − n ) を求めよ。</div>
+  <p>∞ − ∞ はそのままでは答えが出ません。やることは1つだけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/limit-indeterminate.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/limit-indeterminate.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>∞ / ∞ → 最高次で割る　／　ルートの ∞ − ∞ → 有理化する</strong></p>
+    <p>不定形は「そのまま代入できない形」。まず変形してから代入します。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>有理化する</strong><div class="formula">分子・分母に √(n² + 3n) + n をかける</div><div class="formula">= 3n / ( √(n² + 3n) + n )</div><p>2乗の差でルートが消えます。</p></li>
+    <li><strong>n で割る</strong><div class="formula">= 3 / ( √(1 + 3/n) + 1 )</div><div class="formula">3/n → 0 なので 分母 → 2 → 答え <strong>3/2</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>n = 1000 のとき √1003000 ≒ 1001.5 で、1001.5 − 1000 = 1.5 = 3/2。極限は大きい数を代入して確かめます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>∞/∞ は最高次で割るだけ：<strong>(3n² − n)/(n² + 2) → 3</strong>。</li>
+      <li><strong>ルート内の最高次が同じときだけ</strong>有理化で有限値になります。次数がちがえば極限は ∞ か 0 です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>∞/∞ は最高次で割る、ルートの ∞−∞ は有理化</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>lim (n → ∞) ( √(n² + 4n) − n )
+        <details><summary>答え</summary><p>有理化して 4n / (√(n²+4n) + n) → 4/2 = 2</p></details>
+      </li>
+      <li>lim (n → ∞) (2n² + 3n) / (n² − 1)
+        <details><summary>答え</summary><p>n² で割って 2</p></details>
+      </li>
+      <li>lim (n → ∞) ( √(n + 1) − √n )
+        <details><summary>答え</summary><p>有理化して 1 / (√(n+1) + √n) → 0</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="recurrence-relation.html">← 第27回 漸化式</a>　｜　<a href="substitution-integral.html">第29回 置換積分 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
