@@ -298,6 +298,33 @@
       "thumb": ["5% と 12% を混ぜる", "食塩の重さで立式", "答え 200g と 150g"],
       "hook": "パーセントは足せません。混ぜても変わらないのは、食塩水と食塩の重さだけ。",
       "point": "x + y = 350 と 5x + 12y = 2800 → 200 g と 150 g。てんびん（距離3:4 → 重さ4:3）で見当もつく。"
+    },
+    {
+      "slug": "cubic-extrema",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/cubic-extrema.html",
+      "title": "【高校数学II】3次関数の極値は微分してゼロ／x³ − 3x² − 9x + 5",
+      "thumb": ["f′(x) = 3(x−3)(x+1)", "符号を見て代入", "極大 10・極小 −22"],
+      "hook": "極値でつまずく原因は1つ。値を出すのは f(x)、微分した式ではありません。",
+      "point": "増減表で x = −1 が極大、x = 3 が極小。極大値 × 極小値 < 0 なので f(x) = 0 の実数解は3個。"
+    },
+    {
+      "slug": "logarithm-calc",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/logarithm-calc.html",
+      "title": "【高校数学II】対数は1つのログにまとめるだけ／log₂ 6 + log₂ 12 − log₂ 9",
+      "thumb": ["和は積、差は商", "真数は 8 = 2³", "答え 3"],
+      "hook": "対数は公式を思い出す科目ではありません。真数を1つの数にする作業です。",
+      "point": "log₂(6×12÷9) = log₂ 8 = 3。底がちがうときは底の変換で log₂ 3 × log₃ 8 = 3。"
+    },
+    {
+      "slug": "speed-round-trip",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/speed-round-trip.html",
+      "title": "【高校入試】速さの往復は時間で式を立てる／時速4kmと6kmで合計5時間",
+      "thumb": ["行き 4km/h、帰り 6km/h", "時間で立式", "答え 片道 12km"],
+      "hook": "合計が時間で与えられたら、時間の式1本で終わります。",
+      "point": "x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8 km。"
     }
   ]
 }

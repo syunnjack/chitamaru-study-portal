@@ -352,6 +352,38 @@ aₙ = 5n − 2 から a₂₀ = 98。S₂₀ = 20(3 + 98)/2 = 1010。範囲つ�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
+### 【高校数学II】3次関数の極値は微分してゼロ／x³ − 3x² − 9x + 5
+
+- ファイル：`videos/cubic-extrema.mp4`
+- サムネイル：`assets/youtube/thumbs/cubic-extrema.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/cubic-extrema.html
+
+```
+極値でつまずく原因は1つ。値を出すのは f(x)、微分した式ではありません。
+増減表で x = −1 が極大、x = 3 が極小。極大値 × 極小値 < 0 なので f(x) = 0 の実数解は3個。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/cubic-extrema.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
+### 【高校数学II】対数は1つのログにまとめるだけ／log₂ 6 + log₂ 12 − log₂ 9
+
+- ファイル：`videos/logarithm-calc.mp4`
+- サムネイル：`assets/youtube/thumbs/logarithm-calc.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/logarithm-calc.html
+
+```
+対数は公式を思い出す科目ではありません。真数を1つの数にする作業です。
+log₂(6×12÷9) = log₂ 8 = 3。底がちがうときは底の変換で log₂ 3 × log₃ 8 = 3。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/logarithm-calc.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
 ### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
@@ -509,6 +541,22 @@ AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き
 x + y = 350 と 5x + 12y = 2800 → 200 g と 150 g。てんびん（距離3:4 → 重さ4:3）で見当もつく。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/salt-water-mix.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】速さの往復は時間で式を立てる／時速4kmと6kmで合計5時間
+
+- ファイル：`videos/speed-round-trip.mp4`
+- サムネイル：`assets/youtube/thumbs/speed-round-trip.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/speed-round-trip.html
+
+```
+合計が時間で与えられたら、時間の式1本で終わります。
+x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8 km。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/speed-round-trip.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領

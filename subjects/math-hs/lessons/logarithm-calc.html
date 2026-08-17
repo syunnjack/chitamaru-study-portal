@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>対数の計算（log₂ 6 + log₂ 12 − log₂ 9）｜高校数学 第23回</title>
+<meta name="description" content="対数は「和は積、差は商」で1つのログにまとめるだけ。log₂ 6 + log₂ 12 − log₂ 9 = 3 を、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第23回 対数の計算</div>
+
+<main class="wrap">
+  <h1>第23回　対数の計算は「1つのログにまとめる」</h1>
+  <div class="formula">log₂ 6 + log₂ 12 − log₂ 9 の値を求めよ。</div>
+  <p>公式を思い出す問題ではなく、真数を1つの数にする作業です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/logarithm-calc.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/logarithm-calc.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>① 和は積、差は商で1つのログに　② 真数を「底のべき乗」に　③ その指数が答え</strong></p>
+    <p>log の意味は「底を何乗したら真数になるか」。まとめられるのは底が同じときだけです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>1つにまとめる</strong><div class="formula">log₂ 6 + log₂ 12 − log₂ 9 = log₂ (6 × 12 ÷ 9)</div></li>
+    <li><strong>真数を計算</strong><div class="formula">6 × 12 ÷ 9 = 72 ÷ 9 = 8 = 2³</div></li>
+    <li><strong>指数が答え</strong><div class="formula">log₂ 8 = <strong>3</strong>　（2³ = 8 だから）</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>log₂ 4 = 2、log₂ 8 = 3 ではさんで概算すると、約 2.6 + 3.6 − 3.2 = 3.0。答えの 3 と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>底がちがうときは<strong>底の変換</strong>でそろえます。log₂ 3 × log₃ 8 = log₂ 8 = 3（打ち消し合うイメージ）。</li>
+      <li>真数の前の係数は<strong>指数に上げられます</strong>（2 log₂ 3 = log₂ 9）。方程式では「真数 &gt; 0、底は正で1でない」を必ず確認。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>和は積、差は商、係数は指数</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>log₃ 18 + log₃ 6 − log₃ 4
+        <details><summary>答え</summary><p>log₃ (18 × 6 ÷ 4) = log₃ 27 = 3</p></details>
+      </li>
+      <li>log₂ 3 × log₃ 8
+        <details><summary>答え</summary><p>底の変換で log₂ 8 = 3</p></details>
+      </li>
+      <li>2 log₁₀ 5 + log₁₀ 4
+        <details><summary>答え</summary><p>log₁₀ 25 + log₁₀ 4 = log₁₀ 100 = 2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="cubic-extrema.html">← 第22回 3次関数の極値</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
