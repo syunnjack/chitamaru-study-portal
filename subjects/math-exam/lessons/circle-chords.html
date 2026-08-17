@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>直交する2弦と網目部分の面積（方べきの定理）｜高校受験数学 第4回</title>
-<meta name="description" content="円Oの2つの弦AC、BDが点Hで直交するとき、方べきの定理で HC を出し、円の面積 25π/2 と網目部分 25π/4 + 5/2 を求める手順を、図と音声ナレーション付き解説動画で説明します。">
+<meta name="description" content="円Oの2つの弦AC、BDが点Hで直交するとき、方べきの定理で HC を出し、円の面積 65π/4 と網目部分 65π/8 + 2 を求める手順を、図と音声ナレーション付き解説動画で説明します。">
 <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -29,12 +29,12 @@
 <main class="wrap">
   <h1>第4回　直交する2弦と網目部分の面積（方べきの定理）</h1>
   <div class="formula">
-    円 O の2つの弦 AC、BD が点 H で直交している。AH = 1、BH = 2、DH = 3 のとき、<br>
+    円 O の2つの弦 AC、BD が点 H で直交している。AH = 3、BH = 2、DH = 6 のとき、<br>
     (1) 円 O の面積を求めよ。<br>
     (2) 網目部分 ABHDCH の面積を求めよ。
   </div>
 
-  <p><img src="../../../assets/figures/circle-chords.png" alt="円Oの弦ACと弦BDが点Hで直交し、AH=1、BH=2、DH=3、HC=6 で、網目部分は弧ABとHA・HB、弧CDとHC・HD で囲まれた2か所である図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
+  <p><img src="../../../assets/figures/circle-chords.png" alt="円Oの弦ACと弦BDが点Hで直交し、AH=3、BH=2、DH=6、HC=4 で、網目部分は弧ABとHA・HB、弧CDとHC・HD で囲まれた2か所である図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
 
   <video controls preload="metadata" src="../../../videos/circle-chords.mp4">
     お使いのブラウザは動画再生に対応していません。<a href="../../../videos/circle-chords.mp4">動画ファイルを直接開く</a>
@@ -49,17 +49,17 @@
 
   <h2>(1) 円 O の面積</h2>
   <ol class="steps">
-    <li><strong>方べきの定理で HC</strong><div class="formula">AH × HC = BH × HD<br>1 × HC = 2 × 3　→　HC = 6　（よって AC = 1 + 6 = 7）</div></li>
-    <li><strong>H を原点にとる</strong><div class="formula">A(−1, 0)、C(6, 0)、B(0, 2)、D(0, −3)　（AC を x 軸、BD を y 軸）</div></li>
+    <li><strong>方べきの定理で HC</strong><div class="formula">AH × HC = BH × HD<br>3 × HC = 2 × 6　→　HC = 4　（よって AC = 3 + 4 = 7）</div></li>
+    <li><strong>H を原点にとる</strong><div class="formula">A(−3, 0)、C(4, 0)、B(0, 2)、D(0, −6)　（AC を x 軸、BD を y 軸）</div></li>
     <li><strong>弦の垂直二等分線で中心 O</strong>
-      <div class="formula">弦 AC の中点の x 座標 = (−1 + 6) / 2 = 5/2<br>弦 BD の中点の y 座標 = (2 − 3) / 2 = −1/2<br>O(5/2, −1/2)</div>
+      <div class="formula">弦 AC の中点の x 座標 = (−3 + 4) / 2 = 1/2<br>弦 BD の中点の y 座標 = (2 − 6) / 2 = −2<br>O(1/2, −2)</div>
       <p>中心から弦におろした垂線は弦を2等分する、を x 方向・y 方向で1回ずつ使うだけです。</p>
     </li>
-    <li><strong>r² を出す</strong><div class="formula">r² = OA² = (5/2 + 1)² + (1/2)² = 49/4 + 1/4 = 50/4 = 25/2</div></li>
-    <li><strong>面積</strong><div class="formula">円 O = πr² = <strong>25π/2</strong></div></li>
+    <li><strong>r² を出す</strong><div class="formula">r² = OA² = (1/2 + 3)² + 2² = 49/4 + 4 = 65/4</div></li>
+    <li><strong>面積</strong><div class="formula">円 O = πr² = <strong>65π/4</strong></div></li>
   </ol>
   <div class="panel note">
-    <p><strong>検算：</strong>B(0, 2) でも (5/2)² + (2 + 1/2)² = 25/4 + 25/4 = 25/2。A・B・C・D の4点すべてで r² = 25/2 になります。</p>
+    <p><strong>検算：</strong>B(0, 2) でも (1/2)² + (2 + 2)² = 1/4 + 16 = 65/4。A・B・C・D の4点すべてで r² = 65/4 になります。</p>
   </div>
 
   <h2>(2) 網目部分の面積</h2>
@@ -69,17 +69,17 @@
       <p>弓形 = 扇形 − 中心を頂点とする三角形。それに交点 H 側の直角三角形を足します。</p>
     </li>
     <li><strong>扇形2つの合計は円の半分</strong>
-      <div class="formula">AC ⊥ BD より 弧AB + 弧CD = 半円　→　∠AOB + ∠COD = 180°<br>扇形OAB + 扇形OCD = πr² / 2 = 25π/4</div>
+      <div class="formula">AC ⊥ BD より 弧AB + 弧CD = 半円　→　∠AOB + ∠COD = 180°<br>扇形OAB + 扇形OCD = πr² / 2 = 65π/8</div>
       <p>中心角を個別に出す必要はありません。ここが要領です。</p>
     </li>
     <li><strong>△OAB + △OCD</strong>
-      <div class="formula">A − O = (−7/2, 1/2)、B − O = (−5/2, 5/2)<br>△OAB = ½|(−7/2)(5/2) − (1/2)(−5/2)| = ½ × 15/2 = 15/4<br>C − O = (7/2, 1/2)、D − O = (−5/2, −5/2)<br>△OCD = ½|(7/2)(−5/2) − (1/2)(−5/2)| = 15/4<br>合計 = 15/2</div>
+      <div class="formula">A − O = (−7/2, 2)、B − O = (−1/2, 4)<br>△OAB = ½|(−7/2)(4) − (2)(−1/2)| = ½ × 13 = 13/2<br>C − O = (7/2, 2)、D − O = (−1/2, −4)<br>△OCD = ½|(7/2)(−4) − (2)(−1/2)| = 13/2<br>合計 = 13</div>
     </li>
-    <li><strong>△ABH + △CDH（直角三角形）</strong><div class="formula">△ABH = ½ × 1 × 2 = 1　　△CDH = ½ × 6 × 3 = 9<br>合計 = 10</div></li>
-    <li><strong>足し合わせる</strong><div class="formula">網目 = 25π/4 − 15/2 + 10 = <strong>25π/4 + 5/2</strong></div></li>
+    <li><strong>△ABH + △CDH（直角三角形）</strong><div class="formula">△ABH = ½ × 3 × 2 = 3　　△CDH = ½ × 4 × 6 = 12<br>合計 = 15</div></li>
+    <li><strong>足し合わせる</strong><div class="formula">網目 = 65π/8 − 13 + 15 = <strong>65π/8 + 2</strong></div></li>
   </ol>
   <div class="panel note">
-    <p><strong>検算：</strong>円の面積は約39.3、網目は約22.1。円の半分よりやや大きいくらいで、図の見た目と合います（答えは近似せず 25π/4 + 5/2 のまま書く）。</p>
+    <p><strong>検算：</strong>円の面積は約51.1、網目は約27.5。円の半分より少し大きいくらいで、図の見た目と合います（答えは近似せず 65π/8 + 2 のまま書く）。</p>
   </div>
 
   <h2>覚えるべきこと（在庫に入れる1行）</h2>
@@ -91,10 +91,10 @@
   <div class="panel">
     <ol>
       <li>同じ図で、△ABH と △CDH の相似比と面積比。
-        <details><summary>答え</summary><p>∠AHB = ∠CHD = 90°、AH : BH = 1 : 2、CH : DH = 6 : 3 = 2 : 1 なので相似ではない（∠BAH と ∠DCH は等しくない）。面積比は 1 : 9。</p></details>
+        <details><summary>答え</summary><p>∠AHB = ∠CHD = 90°、AH : BH = 3 : 2、CH : DH = 4 : 6 = 2 : 3 なので相似ではない（∠BAH と ∠DCH は等しくない）。面積比は 3 : 12 = 1 : 4。</p></details>
       </li>
-      <li>AH = 2、BH = 3、DH = 4 のとき、円の面積。
-        <details><summary>答え</summary><p>HC = 6、O(2, −1/2) より r² = 4² + (1/2)² = 65/4、面積 65π/4。</p></details>
+      <li>AH = 1、BH = 2、DH = 4 のとき、円の面積。
+        <details><summary>答え</summary><p>HC = 8、O(7/2, −1) より r² = (7/2 + 1)² + 1² = 81/4 + 1 = 85/4、面積 85π/4。</p></details>
       </li>
     </ol>
   </div>

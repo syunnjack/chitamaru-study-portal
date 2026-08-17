@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>正弦定理で辺の長さを求める（A=45°, C=75°, BC=2）｜高校数学 第4回</title>
-<meta name="description" content="△ABC で A=45°、C=75°、BC=2 のとき CA を正弦定理で求める手順を、ナレーション付き解説動画で説明します。">
+<title>正弦定理で辺の長さを求める（A=30°, C=105°, BC=4）｜高校数学 第4回</title>
+<meta name="description" content="△ABC で A=30°、C=105°、BC=4 のとき CA を正弦定理で求める手順を、ナレーション付き解説動画で説明します。">
 <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -28,7 +28,7 @@
 
 <main class="wrap">
   <h1>第4回　正弦定理で辺の長さを求める</h1>
-  <div class="formula">△ABC で A = 45°、C = 75°、BC = 2 のとき、CA の長さを求めよ。</div>
+  <div class="formula">△ABC で A = 30°、C = 105°、BC = 4 のとき、CA の長さを求めよ。</div>
   <p>角2つ＋辺1つ → 正弦定理。辺と「向かいの角」の対応をとるのが要点です（動画・音声解説つき）。</p>
 
   <video controls preload="metadata" src="../../../videos/sine-rule.mp4">
@@ -49,18 +49,18 @@
     <li><strong>辺と向かいの角を対応させる</strong>
       <div class="formula">BC は A の対辺、CA は B の対辺 → CA には角 B が必要</div>
     </li>
-    <li><strong>残りの角を出す</strong><div class="formula">B = 180° − 45° − 75° = 60°</div></li>
+    <li><strong>残りの角を出す</strong><div class="formula">B = 180° − 30° − 105° = 45°</div></li>
     <li><strong>正弦定理に代入</strong>
-      <div class="formula">BC / sin A = CA / sin B　→　2 / sin45° = CA / sin60°</div>
+      <div class="formula">BC / sin A = CA / sin B　→　4 / sin30° = CA / sin45°</div>
     </li>
-    <li><strong>計算して有理化</strong>
-      <div class="formula">CA = 2 · (√3/2) / (√2/2) = 2√3 / √2 = √6</div>
+    <li><strong>計算する（わり算は逆数のかけ算）</strong>
+      <div class="formula">CA = 4 · (√2/2) ÷ (1/2) = 2√2 × 2 = 4√2</div>
     </li>
   </ol>
 
   <h2>検算（大小関係）</h2>
   <div class="panel">
-    <p>三角形では大きい角の向かいに長い辺が来ます。B = 60° &gt; A = 45° なので CA &gt; BC = 2 のはず。√6 ≒ 2.45 &gt; 2 で矛盾なし。</p>
+    <p>三角形では大きい角の向かいに長い辺が来ます。B = 45° &gt; A = 30° なので CA &gt; BC = 4 のはず。4√2 ≒ 5.66 &gt; 4 で矛盾なし。</p>
   </div>
 
   <h2>覚えるべきこと（在庫に入れる1行）</h2>
@@ -72,8 +72,8 @@
   <h2>類題（翌日、何も見ずに）</h2>
   <div class="panel">
     <ol>
-      <li>△ABC で A = 30°、B = 105°、BC = 4 のとき CA を求めよ。
-        <details><summary>答え</summary><p>CA は角 B の対辺。CA = BC·sin B / sin A = 4·sin105°/sin30° = 8 sin105° = 2(√6 + √2)</p></details>
+      <li>△ABC で A = 30°、B = 105°、BC = 6 のとき CA を求めよ。
+        <details><summary>答え</summary><p>CA は角 B の対辺。CA = BC·sin B / sin A = 6·sin105°/sin30° = 12 sin105° = 3(√6 + √2)</p></details>
       </li>
       <li>△ABC で A = 60°、B = 45°、AB = 6 のとき BC を求めよ。
         <details><summary>答え</summary><p>C = 180° − 60° − 45° = 75°。BC は角 A の対辺、AB は角 C の対辺なので BC = AB·sin A / sin C = 6·(√3/2) / ((√6+√2)/4) = 12√3/(√6+√2) = 9√2 − 3√6（≒ 5.38）</p></details>

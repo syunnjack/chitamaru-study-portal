@@ -16,7 +16,7 @@
 
 ## 再生リスト：高校数学I・A｜暗記数学で解法の型をそろえる
 
-### 【高校数学I】放物線の頂点は平方完成だけ／y = x² + 8x + 5
+### 【高校数学I】放物線の頂点は平方完成だけ／y = x² + 12x + 20
 
 - ファイル：`videos/quadratic-vertex.mp4`
 - サムネイル：`assets/youtube/thumbs/quadratic-vertex.png`
@@ -24,7 +24,7 @@
 
 ```
 「頂点を求めよ」と言われたら平方完成。ほかの方法を探さないのが要領です。
-係数の半分 → 2乗を引く、の3拍子で y = (x + 4)² − 11。検算は頂点のxを代入するだけ。
+係数の半分 → 2乗を引く、の3拍子で y = (x + 6)² − 16。検算は頂点のxを代入するだけ。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-hs/lessons/quadratic-vertex.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
@@ -32,7 +32,7 @@
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 5x + 3 = 0
+### 【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 7x + 5 = 0
 
 - ファイル：`videos/quadratic-formula.mp4`
 - サムネイル：`assets/youtube/thumbs/quadratic-formula.png`
@@ -48,7 +48,7 @@
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学I】実数解の個数は解かずに判別式だけ／x² − 6x + 10 = 0
+### 【高校数学I】実数解の個数は解かずに判別式だけ／x² − 4x + 9 = 0
 
 - ファイル：`videos/discriminant-count.mp4`
 - サムネイル：`assets/youtube/thumbs/discriminant-count.png`
@@ -64,7 +64,7 @@ D > 0 で2個、D = 0 で1個、D < 0 で0個。グラフが軸と交わる回�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学I】正弦定理で辺を出す／A = 45°, C = 75°, BC = 2
+### 【高校数学I】正弦定理で辺を出す／A = 30°, C = 105°, BC = 4
 
 - ファイル：`videos/sine-rule.mp4`
 - サムネイル：`assets/youtube/thumbs/sine-rule.png`
@@ -80,7 +80,7 @@ D > 0 で2個、D = 0 で1個、D < 0 で0個。グラフが軸と交わる回�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学I】三角形の成立条件は場合分け不要／3辺が 2, x+3, 3
+### 【高校数学I】三角形の成立条件は場合分け不要／3辺が 5, x+2, 8
 
 - ファイル：`videos/triangle-inequality.mp4`
 - サムネイル：`assets/youtube/thumbs/triangle-inequality.png`
@@ -112,7 +112,7 @@ D > 0 で2個、D = 0 で1個、D < 0 で0個。グラフが軸と交わる回�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学A】組合せは2つの道具で一瞬／₁₀₀C₉₈ と ₂₁C₁₅ + ₂₁C₁₆
+### 【高校数学A】組合せは2つの道具で一瞬／₈₀C₇₇ と ₁₅C₉ + ₁₅C₁₀
 
 - ファイル：`videos/combinations.mp4`
 - サムネイル：`assets/youtube/thumbs/combinations.png`
@@ -208,7 +208,7 @@ S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答�
 #高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験
 ```
 
-### 【高校数学A】公約数・公倍数は素因数分解の指数で決まる／24 と 36
+### 【高校数学A】公約数・公倍数は素因数分解の指数で決まる／40 と 60
 
 - ファイル：`videos/gcd-lcm.mp4`
 - サムネイル：`assets/youtube/thumbs/gcd-lcm.png`
@@ -642,17 +642,17 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 
 ## 再生リスト：高校受験数学｜入試で差がつく型
 
-### 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4
+### 【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21
 
-- ファイル：`videos/telescoping-fourth-power.mp4`
-- サムネイル：`assets/youtube/thumbs/telescoping-fourth-power.png`
-- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/telescoping-fourth-power.html
+- ファイル：`videos/telescoping-product-sum.mp4`
+- サムネイル：`assets/youtube/thumbs/telescoping-product-sum.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/telescoping-product-sum.html
 
 ```
-答えが4乗の形なら、各項を「4乗の差」に化けさせます。
-(k+1)⁴ − k⁴ = (2k+1){k² + (k+1)²}。打ち消しで 50⁴ − 0⁴ が残る。
+足し算を並べる前に、各項を「差」に化けさせます。
+k(k+1) = {T(k) − T(k−1)} ÷ 3（T(k) = k(k+1)(k+2)）。打ち消して 20·21·22 ÷ 3 = 3080。
 
-解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/telescoping-fourth-power.html
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/telescoping-product-sum.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領
@@ -674,7 +674,7 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試・図形の証明】正方形2つと七角形の面積／44 + 18√3 cm²
+### 【高校入試・図形の証明】正方形2つと七角形の面積／74 + 30√3 cm²
 
 - ファイル：`videos/squares-heptagon.mp4`
 - サムネイル：`assets/youtube/thumbs/squares-heptagon.png`
@@ -690,7 +690,7 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試・円】直交する2弦と網目部分の面積／25π/4 + 5/2
+### 【高校入試・円】直交する2弦と網目部分の面積／65π/8 + 2
 
 - ファイル：`videos/circle-chords.mp4`
 - サムネイル：`assets/youtube/thumbs/circle-chords.png`
@@ -706,7 +706,7 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試・因数分解】1 + x² + x^4 は平方の差にする／3問まとめ
+### 【高校入試・因数分解】x^4 + 4 は平方の差にする／3問まとめ
 
 - ファイル：`videos/factor-x4.mp4`
 - サムネイル：`assets/youtube/thumbs/factor-x4.png`
@@ -714,7 +714,7 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 
 ```
 たすきがけが効かない4乗の式は、（　）² −（　）² を作りにいきます。
-項が多いときは共通因数と2つずつの組。検算は x = 1 の代入で10秒。
+足りない中央の項を足して引く。検算は x = 1 の代入で10秒。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/factor-x4.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
@@ -722,7 +722,7 @@ V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試・軌跡】中点が動いてできる線は半径1/2の円／2π cm と 2 cm²
+### 【高校入試・軌跡】中点が動いてできる線は半径1/2の円／3π cm と 9/2 cm²
 
 - ファイル：`videos/locus-midpoint.mp4`
 - サムネイル：`assets/youtube/thumbs/locus-midpoint.png`
@@ -818,7 +818,7 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試】n/18 と 756/n がともに整数となる n の個数／答え 8個
+### 【高校入試】n/24 と 1080/n がともに整数となる n の個数／答え 6個
 
 - ファイル：`videos/divisor-count-condition.mp4`
 - サムネイル：`assets/youtube/thumbs/divisor-count-condition.png`
@@ -826,7 +826,7 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 
 ```
 分数が整数、という条件は「倍数」「約数」に言いかえるだけです。
-42 = 2 × 3 × 7 で約数は 8 個。n = 18, 36, 54, 108, 126, 252, 378, 756。
+45 = 3² × 5 で約数は 6 個。n = 24, 72, 120, 216, 360, 1080。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/divisor-count-condition.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
@@ -834,7 +834,7 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試】6で割ると3余り、8で割ると5余る自然数／5番目は117
+### 【高校入試】7で割ると4余り、9で割ると6余る自然数／4番目は249
 
 - ファイル：`videos/remainder-conditions.mp4`
 - サムネイル：`assets/youtube/thumbs/remainder-conditions.png`
@@ -842,7 +842,7 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 
 ```
 余りではなく、あといくつで割り切れるかを見ると暗算で終わります。
-不足がどちらも3 → n = 24k − 3 → 21, 45, 69, 93, 117。5番目は117。
+不足がどちらも3 → n = 63k − 3 → 60, 123, 186, 249。4番目は249。
 
 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/remainder-conditions.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
@@ -850,17 +850,17 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
-### 【高校入試】n² + 48 が平方数になる自然数 n をすべて／1・4・11
+### 【高校入試】n² + 60 が平方数になる自然数 n をすべて／2・14
 
-- ファイル：`videos/square-plus-48.mp4`
-- サムネイル：`assets/youtube/thumbs/square-plus-48.png`
-- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-48.html
+- ファイル：`videos/square-plus-60.mp4`
+- サムネイル：`assets/youtube/thumbs/square-plus-60.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-60.html
 
 ```
 平方数の条件は、積が定数の形に持ち込むだけです。
-2数は同じ偶奇なので両方偶数：2×24、4×12、6×8 → n = 11, 4, 1。49・64・169。
+2数は同じ偶奇なので両方偶数：2×30、6×10 → n = 14, 2。64・256。
 
-解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-48.html
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-60.html
 チャンネル登録すると、新しい解説動画がすべて無料で見られます。
 
 #高校受験 #高校入試 #中学数学 #受験は要領

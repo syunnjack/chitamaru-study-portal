@@ -30,24 +30,24 @@
       "slug": "quadratic-vertex",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/quadratic-vertex.html",
-      "title": "【高校数学I】放物線の頂点は平方完成だけ／y = x² + 8x + 5",
+      "title": "【高校数学I】放物線の頂点は平方完成だけ／y = x² + 12x + 20",
       "thumb": [
         "放物線の頂点",
         "平方完成だけ",
-        "答え (−4, −11)"
+        "答え (−6, −16)"
       ],
       "hook": "「頂点を求めよ」と言われたら平方完成。ほかの方法を探さないのが要領です。",
-      "point": "係数の半分 → 2乗を引く、の3拍子で y = (x + 4)² − 11。検算は頂点のxを代入するだけ。"
+      "point": "係数の半分 → 2乗を引く、の3拍子で y = (x + 6)² − 16。検算は頂点のxを代入するだけ。"
     },
     {
       "slug": "quadratic-formula",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/quadratic-formula.html",
-      "title": "【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 5x + 3 = 0",
+      "title": "【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 7x + 5 = 0",
       "thumb": [
         "2次方程式",
         "因数分解は10秒で見切る",
-        "x = (5 ± √13)/2"
+        "x = (7 ± √29)/2"
       ],
       "hook": "因数分解を探す時間は10秒まで。出なければ即、解の公式に切り替えます。",
       "point": "解の公式は「マイナスb、プラスマイナス ルート b²−4ac、割る2a」を声に出して覚える。"
@@ -56,11 +56,11 @@
       "slug": "discriminant-count",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/discriminant-count.html",
-      "title": "【高校数学I】実数解の個数は解かずに判別式だけ／x² − 6x + 10 = 0",
+      "title": "【高校数学I】実数解の個数は解かずに判別式だけ／x² − 4x + 9 = 0",
       "thumb": [
         "実数解の個数",
         "解かずに判別式",
-        "D = −4 → 0個"
+        "D = −20 → 0個"
       ],
       "hook": "「個数を求めよ」は解いてはいけません。判別式の符号だけ見ます。",
       "point": "D > 0 で2個、D = 0 で1個、D < 0 で0個。グラフが軸と交わる回数と同じ。"
@@ -69,11 +69,11 @@
       "slug": "sine-rule",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/sine-rule.html",
-      "title": "【高校数学I】正弦定理で辺を出す／A = 45°, C = 75°, BC = 2",
+      "title": "【高校数学I】正弦定理で辺を出す／A = 30°, C = 105°, BC = 4",
       "thumb": [
         "正弦定理",
         "角2つと辺1つなら即",
-        "CA = √6"
+        "CA = 4√2"
       ],
       "hook": "角が2つ分かれば残り1つは引き算。あとは正弦定理に入れるだけです。",
       "point": "「辺と、その向かい合う角」がセットで2組そろったら正弦定理。"
@@ -82,11 +82,11 @@
       "slug": "triangle-inequality",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/triangle-inequality.html",
-      "title": "【高校数学I】三角形の成立条件は場合分け不要／3辺が 2, x+3, 3",
+      "title": "【高校数学I】三角形の成立条件は場合分け不要／3辺が 5, x+2, 8",
       "thumb": [
         "三角形の成立条件",
         "場合分けは不要",
-        "−2 < x < 2"
+        "1 < x < 11"
       ],
       "hook": "3つの不等式を書く必要はありません。「差 < 残り < 和」の1行で終わります。",
       "point": "|b − c| < a < b + c。最大辺がどれかを気にしなくてよくなる形です。"
@@ -108,11 +108,11 @@
       "slug": "combinations",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/combinations.html",
-      "title": "【高校数学A】組合せは2つの道具で一瞬／₁₀₀C₉₈ と ₂₁C₁₅ + ₂₁C₁₆",
+      "title": "【高校数学A】組合せは2つの道具で一瞬／₈₀C₇₇ と ₁₅C₉ + ₁₅C₁₀",
       "thumb": [
         "組合せ",
         "小さい方に直す＋パスカル",
-        "4950 と 74613"
+        "82160 と 8008"
       ],
       "hook": "Cの下が大きいときは、小さい方に置き換える。これだけで計算量が激減します。",
       "point": "nCr = nC(n−r) と、nCr + nC(r+1) = (n+1)C(r+1)。この2つで入試のCは足ります。"
@@ -186,27 +186,27 @@
       "slug": "gcd-lcm",
       "playlist": "math-hs",
       "page": "subjects/math-hs/lessons/gcd-lcm.html",
-      "title": "【高校数学A】公約数・公倍数は素因数分解の指数で決まる／24 と 36",
+      "title": "【高校数学A】公約数・公倍数は素因数分解の指数で決まる／40 と 60",
       "thumb": [
         "公約数と公倍数",
         "素因数分解の指数で決まる",
-        "GCD 12 ／ LCM 72"
+        "GCD 20 ／ LCM 120"
       ],
       "hook": "書き出しません。素因数分解して、指数の小さい方・大きい方を取るだけです。",
       "point": "公約数は最大公約数の約数、公倍数は最小公倍数の倍数。ここまでセットで覚える。"
     },
     {
-      "slug": "telescoping-fourth-power",
+      "slug": "telescoping-product-sum",
       "playlist": "math-exam",
-      "page": "subjects/math-exam/lessons/telescoping-fourth-power.html",
-      "title": "【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○^4",
+      "page": "subjects/math-exam/lessons/telescoping-product-sum.html",
+      "title": "【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21",
       "thumb": [
-        "50項が1行で消える",
-        "4乗の差を作る",
-        "答え 50"
+        "20項が1行で消える",
+        "3つの積の差を作る",
+        "答え 3080"
       ],
-      "hook": "答えが4乗の形なら、各項を「4乗の差」に化けさせます。",
-      "point": "(k+1)⁴ − k⁴ = (2k+1){k² + (k+1)²}。打ち消しで 50⁴ − 0⁴ が残る。"
+      "hook": "足し算を並べる前に、各項を「差」に化けさせます。",
+      "point": "k(k+1) = {T(k) − T(k−1)} ÷ 3（T(k) = k(k+1)(k+2)）。打ち消して 20·21·22 ÷ 3 = 3080。"
     },
     {
       "slug": "pythagoras-altitude",
@@ -225,11 +225,11 @@
       "slug": "squares-heptagon",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/squares-heptagon.html",
-      "title": "【高校入試・図形の証明】正方形2つと七角形の面積／44 + 18√3 cm²",
+      "title": "【高校入試・図形の証明】正方形2つと七角形の面積／74 + 30√3 cm²",
       "thumb": [
         "正方形2つの図",
         "90°を足し引きして合同",
-        "44 + 18√3 cm²"
+        "74 + 30√3 cm²"
       ],
       "hook": "材料は「正方形の等辺」「正方形の90°」「垂線の90°」だけ。角は足し引きで作ります。",
       "point": "合同を作ったら、面積は頂点から切り分けて、合同な三角形を数える。"
@@ -238,11 +238,11 @@
       "slug": "circle-chords",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/circle-chords.html",
-      "title": "【高校入試・円】直交する2弦と網目部分の面積／25π/4 + 5/2",
+      "title": "【高校入試・円】直交する2弦と網目部分の面積／65π/8 + 2",
       "thumb": [
         "直交する2弦",
         "方べき＋弓形に切る",
-        "25π/2 と 25π/4 + 5/2"
+        "65π/4 と 65π/8 + 2"
       ],
       "hook": "交わる弦は方べきの定理。円の面積は r を出さず r² を出します。",
       "point": "弓形 = 扇形 − 三角形。直交する2弦なら扇形2つの和は円の半分になる。"
@@ -251,24 +251,24 @@
       "slug": "factor-x4",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/factor-x4.html",
-      "title": "【高校入試・因数分解】1 + x² + x^4 は平方の差にする／3問まとめ",
+      "title": "【高校入試・因数分解】x^4 + 4 は平方の差にする／3問まとめ",
       "thumb": [
-        "1 + x² + x^4",
+        "x^4 + 4 型",
         "平方の差を作る",
-        "(x²+x+1)(x²−x+1)"
+        "(x²+2x+2)(x²−2x+2)"
       ],
       "hook": "たすきがけが効かない4乗の式は、（　）² −（　）² を作りにいきます。",
-      "point": "項が多いときは共通因数と2つずつの組。検算は x = 1 の代入で10秒。"
+      "point": "足りない中央の項を足して引く。検算は x = 1 の代入で10秒。"
     },
     {
       "slug": "locus-midpoint",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/locus-midpoint.html",
-      "title": "【高校入試・軌跡】中点が動いてできる線は半径1/2の円／2π cm と 2 cm²",
+      "title": "【高校入試・軌跡】中点が動いてできる線は半径1/2の円／3π cm と 9/2 cm²",
       "thumb": [
         "中点が動く線",
         "半径1/2の円になる",
-        "2π cm と 2 cm²"
+        "3π cm と 9/2 cm²"
       ],
       "hook": "動く点と固定点の中点は、固定点から見て1/2に縮んだ図形をえがきます。",
       "point": "面積の最大は「固定される底辺 × 動く高さ」に分ける。中点で切れば面積は半分。"
@@ -511,40 +511,40 @@
       "slug": "divisor-count-condition",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/divisor-count-condition.html",
-      "title": "【高校入試】n/18 と 756/n がともに整数となる n の個数／答え 8個",
+      "title": "【高校入試】n/24 と 1080/n がともに整数となる n の個数／答え 6個",
       "thumb": [
-        "18の倍数かつ756の約数",
-        "n = 18m → m は 42 の約数",
-        "答え 8 個"
+        "24の倍数かつ1080の約数",
+        "n = 24m → m は 45 の約数",
+        "答え 6 個"
       ],
       "hook": "分数が整数、という条件は「倍数」「約数」に言いかえるだけです。",
-      "point": "42 = 2 × 3 × 7 で約数は 8 個。n = 18, 36, 54, 108, 126, 252, 378, 756。"
+      "point": "45 = 3² × 5 で約数は 6 個。n = 24, 72, 120, 216, 360, 1080。"
     },
     {
       "slug": "remainder-conditions",
       "playlist": "math-exam",
       "page": "subjects/math-exam/lessons/remainder-conditions.html",
-      "title": "【高校入試】6で割ると3余り、8で割ると5余る自然数／5番目は117",
+      "title": "【高校入試】7で割ると4余り、9で割ると6余る自然数／4番目は249",
       "thumb": [
         "余りより「不足」を見る",
-        "n + 3 は 24 の倍数",
-        "答え 117"
+        "n + 3 は 63 の倍数",
+        "答え 249"
       ],
       "hook": "余りではなく、あといくつで割り切れるかを見ると暗算で終わります。",
-      "point": "不足がどちらも3 → n = 24k − 3 → 21, 45, 69, 93, 117。5番目は117。"
+      "point": "不足がどちらも3 → n = 63k − 3 → 60, 123, 186, 249。4番目は249。"
     },
     {
-      "slug": "square-plus-48",
+      "slug": "square-plus-60",
       "playlist": "math-exam",
-      "page": "subjects/math-exam/lessons/square-plus-48.html",
-      "title": "【高校入試】n² + 48 が平方数になる自然数 n をすべて／1・4・11",
+      "page": "subjects/math-exam/lessons/square-plus-60.html",
+      "title": "【高校入試】n² + 60 が平方数になる自然数 n をすべて／2・14",
       "thumb": [
-        "m² と置く",
-        "(m − n)(m + n) = 48",
-        "答え n = 1, 4, 11"
+        "m² とおく",
+        "(m − n)(m + n) = 60",
+        "答え n = 2, 14"
       ],
       "hook": "平方数の条件は、積が定数の形に持ち込むだけです。",
-      "point": "2数は同じ偶奇なので両方偶数：2×24、4×12、6×8 → n = 11, 4, 1。49・64・169。"
+      "point": "2数は同じ偶奇なので両方偶数：2×30、6×10 → n = 14, 2。64・256。"
     },
     {
       "slug": "trig-synthesis",

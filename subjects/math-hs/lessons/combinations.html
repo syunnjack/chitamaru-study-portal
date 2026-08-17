@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>組合せの計算を工夫する（100C98、21C15 + 21C16）｜高校数学 第7回</title>
+<title>組合せの計算を工夫する（80C77、15C9 + 15C10）｜高校数学 第7回</title>
 <meta name="description" content="nCr = nC(n−r) とパスカルの法則で組合せの計算を軽くする手順を、ナレーション付き解説動画で説明します。">
 <link rel="stylesheet" href="../../../assets/style.css">
 </head>
@@ -28,7 +28,7 @@
 
 <main class="wrap">
   <h1>第7回　組合せの計算を工夫する</h1>
-  <div class="formula">(1) ₁₀₀C₉₈ の値を求めよ。　(2) ₂₁C₁₅ + ₂₁C₁₆ の値を求めよ。</div>
+  <div class="formula">(1) ₈₀C₇₇ の値を求めよ。　(2) ₁₅C₉ + ₁₅C₁₀ の値を求めよ。</div>
   <p>まっすぐ計算すると大変ですが、道具を2つ持っていれば一瞬で終わります（動画・音声解説つき）。</p>
 
   <video controls preload="metadata" src="../../../videos/combinations.mp4">
@@ -39,28 +39,28 @@
   <div class="panel accent">
     <div class="formula">道具1　nCr = nC(n − r)　（下の数は小さい方に直す）</div>
     <div class="formula">道具2　nCr + nC(r+1) = (n+1)C(r+1)　（パスカルの法則）</div>
-    <p>道具1の意味：100個から98個選ぶのは、「選ばずに残す2個」を決めるのと同じ。</p>
+    <p>道具1の意味：80個から77個選ぶのは、「選ばずに残す3個」を決めるのと同じ。</p>
   </div>
 
   <h2>(1) の解答</h2>
   <ol class="steps">
-    <li><strong>下を小さい方に直す</strong><div class="formula">₁₀₀C₉₈ = ₁₀₀C₂</div></li>
-    <li><strong>計算する</strong><div class="formula">(100 × 99) / (2 × 1) = 9900 / 2 = 4950</div></li>
+    <li><strong>下を小さい方に直す</strong><div class="formula">₈₀C₇₇ = ₈₀C₃</div></li>
+    <li><strong>計算する</strong><div class="formula">(80 × 79 × 78) / (3 × 2 × 1) = 492960 / 6 = 82160</div></li>
   </ol>
 
   <h2>(2) の解答</h2>
   <ol class="steps">
     <li><strong>パスカルの法則でまとめる</strong>
-      <div class="formula">₂₁C₁₅ + ₂₁C₁₆ = ₂₂C₁₆　（上が同じ、下が1つちがい）</div>
+      <div class="formula">₁₅C₉ + ₁₅C₁₀ = ₁₆C₁₀　（上が同じ、下が1つちがい）</div>
     </li>
-    <li><strong>下を小さい方に直す</strong><div class="formula">₂₂C₁₆ = ₂₂C₆</div></li>
+    <li><strong>下を小さい方に直す</strong><div class="formula">₁₆C₁₀ = ₁₆C₆</div></li>
     <li><strong>約分しながら計算</strong>
-      <div class="formula">(22·21·20·19·18·17) / 720 = 74613</div>
+      <div class="formula">(16·15·14·13·12·11) / 720 = 8008</div>
       <p>掛けてから割るのではなく、先に約分します。</p>
     </li>
   </ol>
   <div class="panel note">
-    <p><strong>検算：</strong>₂₁C₁₅ = 54264、₂₁C₁₆ = 20349。54264 + 20349 = 74613 で一致します（本番ではこの重い計算を避けるために道具を使います）。</p>
+    <p><strong>検算：</strong>₁₅C₉ = 5005、₁₅C₁₀ = 3003。5005 + 3003 = 8008 で一致します（本番ではこの重い計算を避けるために道具を使います）。</p>
   </div>
 
   <h2>覚えるべきこと（在庫に入れる2行）</h2>
