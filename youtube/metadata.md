@@ -562,3 +562,101 @@ x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8
 #高校受験 #高校入試 #中学数学 #受験は要領
 ```
 
+### 【高校入試】n/18 と 756/n がともに整数となる n の個数／答え 8個
+
+- ファイル：`videos/divisor-count-condition.mp4`
+- サムネイル：`assets/youtube/thumbs/divisor-count-condition.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/divisor-count-condition.html
+
+```
+分数が整数、という条件は「倍数」「約数」に言いかえるだけです。
+42 = 2 × 3 × 7 で約数は 8 個。n = 18, 36, 54, 108, 126, 252, 378, 756。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/divisor-count-condition.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】6で割ると3余り、8で割ると5余る自然数／5番目は117
+
+- ファイル：`videos/remainder-conditions.mp4`
+- サムネイル：`assets/youtube/thumbs/remainder-conditions.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/remainder-conditions.html
+
+```
+余りではなく、あといくつで割り切れるかを見ると暗算で終わります。
+不足がどちらも3 → n = 24k − 3 → 21, 45, 69, 93, 117。5番目は117。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/remainder-conditions.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+### 【高校入試】n² + 48 が平方数になる自然数 n をすべて／1・4・11
+
+- ファイル：`videos/square-plus-48.mp4`
+- サムネイル：`assets/youtube/thumbs/square-plus-48.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-48.html
+
+```
+平方数の条件は、積が定数の形に持ち込むだけです。
+2数は同じ偶奇なので両方偶数：2×24、4×12、6×8 → n = 11, 4, 1。49・64・169。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-exam/lessons/square-plus-48.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #高校入試 #中学数学 #受験は要領
+```
+
+## 再生リスト：中学数学｜高校数学の土台になる計算の型
+
+### 【中学数学】正負の数は符号を先に決める／(−3)² × (−2) + (−4)² ÷ (−8)
+
+- ファイル：`videos/signed-numbers.mp4`
+- サムネイル：`assets/youtube/thumbs/signed-numbers.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/signed-numbers.html
+
+```
+高校数学でつまずく原因の多くは、実はこの符号処理です。
+×÷ はマイナスの個数で符号を決める。かっこの有無で (−3)² = 9、−3² = −9 と変わる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/signed-numbers.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】一次方程式の文章題は x の置き方で決まる／12個で840円
+
+- ファイル：`videos/linear-equation-word.mp4`
+- サムネイル：`assets/youtube/thumbs/linear-equation-word.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/linear-equation-word.html
+
+```
+文章題が苦手なのは才能ではなく、置き方の順番を知らないだけです。
+聞かれたものを x、もう一方を (12 − x) で表し、残った条件（代金）で式を1本立てる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/linear-equation-word.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+
+### 【中学数学】連立方程式は消す文字を先に決める／2x + 3y = 12、3x − 2y = 5
+
+- ファイル：`videos/simultaneous-equations.mp4`
+- サムネイル：`assets/youtube/thumbs/simultaneous-equations.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/simultaneous-equations.html
+
+```
+連立方程式は考える問題ではなく、手順を固定すれば必ず解ける計算です。
+y の係数を ±6 にそろえて足す → 13x = 39。検算は代入しなかった式で行う。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/math-jhs/lessons/simultaneous-equations.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領
+```
+

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n/18 と 756/n がともに整数となる n の個数｜高校受験数学 第12回</title>
+<meta name="description" content="分数が整数になる条件を「倍数」「約数」に言いかえ、n = 18m と置いて約数の個数で数える型。答え8個を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第12回 倍数かつ約数の個数</div>
+
+<main class="wrap">
+  <h1>第12回　n/18 と 756/n がともに整数になる n の個数</h1>
+  <div class="formula">n / 18 と 756 / n がともに整数となる自然数 n の個数を求めよ。</div>
+  <p>分数の整数条件は「倍数」「約数」に言いかえるだけで、書き出さずに数えられます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/divisor-count-condition.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/divisor-count-condition.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>n / 18 が整数 → n は 18 の倍数　／　756 / n が整数 → n は 756 の約数</strong></p>
+    <p>分数の条件は、必ず「倍数」「約数」の言葉に置きかえます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>n = 18m と置く</strong><div class="formula">756 ÷ (18m) = 42 / m が整数 → m は 42 の約数</div></li>
+    <li><strong>約数の個数を数える</strong><div class="formula">42 = 2 × 3 × 7 → (1+1)(1+1)(1+1) = <strong>8 個</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>m = 1, 2, 3, 6, 7, 14, 21, 42 より n = 18, 36, 54, 108, 126, 252, 378, 756 の 8 個。最小は 18、最大は 756 です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>約数の個数は<strong>素因数分解して指数に1を足してかける</strong>：756 = 2² × 3³ × 7 → 3 × 4 × 2 = 24 個。</li>
+      <li>この置きかえができるのは<strong>18 が 756 を割り切るから</strong>。割り切らなければ条件を満たす n は 0 個です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>整数条件は「倍数・約数」に言いかえ、n = 18m と置く</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>n / 12 と 360 / n がともに整数となる n の個数
+        <details><summary>答え</summary><p>n = 12m → 30 / m が整数、30 = 2 × 3 × 5 → <strong>8 個</strong></p></details>
+      </li>
+      <li>540 の正の約数の個数
+        <details><summary>答え</summary><p>540 = 2² × 3³ × 5 → 3 × 4 × 2 = <strong>24 個</strong></p></details>
+      </li>
+      <li>n / 15 と 225 / n がともに整数となる n をすべて
+        <details><summary>答え</summary><p>n = 15m → 15 / m が整数 → m = 1, 3, 5, 15 → <strong>n = 15, 45, 75, 225</strong></p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="speed-round-trip.html">← 第11回 速さの往復問題</a>　｜　<a href="remainder-conditions.html">第13回 余りの条件 →</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

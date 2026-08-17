@@ -40,6 +40,10 @@
     </ol>
   </div>
 
+  <div class="panel">
+    <p><strong>科目の並び：</strong>数学I・A（高1）→ 数学II・B（高2）→ 数学III・C（高3・理系）。下の章立てもこの順です。共通テストだけなら I・A・II・B までで十分です。</p>
+  </div>
+
   <h2>数学I：2次関数・2次方程式</h2>
   <div class="cards">
     <a class="card" href="lessons/quadratic-vertex.html">
@@ -108,27 +112,26 @@
     </a>
   </div>
 
-  <h2>数学I：データの分析 ／ 数学A：場合の数・整数の性質</h2>
+  <h2>数学I：データの分析</h2>
   <div class="cards">
     <a class="card" href="lessons/assumed-mean.html">
       <span class="tag">第6回・動画あり</span>
       <h3>仮平均法で平均値を求める</h3>
       <p>ズレだけを合計する時短テクニック。大きい数のたし算を避けてミスを消します。</p>
     </a>
-    <a class="card" href="lessons/combinations.html">
-      <span class="tag">第7回・動画あり</span>
-      <h3>組合せの計算を工夫する</h3>
-      <p>₁₀₀C₉₈ と ₂₁C₁₅ + ₂₁C₁₆。nCr = nC(n−r) とパスカルの法則の2つだけで足ります。</p>
-    </a>
-    <a class="card" href="lessons/gcd-lcm.html">
-      <span class="tag">第13回・動画あり</span>
-      <h3>公約数と公倍数を書き出す</h3>
-      <p>24 と 36。素因数分解して、小さい指数で G、大きい指数で L。</p>
-    </a>
     <a class="card" href="lessons/variance-sd.html">
       <span class="tag">第15回・動画あり</span>
       <h3>分散と標準偏差を求める</h3>
       <p>2, 4, 6, 8, 10。分散は「2乗の平均 − 平均の2乗」で一発。k倍の性質まで。</p>
+    </a>
+  </div>
+
+  <h2>数学A：場合の数と確率・整数の性質</h2>
+  <div class="cards">
+    <a class="card" href="lessons/combinations.html">
+      <span class="tag">第7回・動画あり</span>
+      <h3>組合せの計算を工夫する</h3>
+      <p>₁₀₀C₉₈ と ₂₁C₁₅ + ₂₁C₁₆。nCr = nC(n−r) とパスカルの法則の2つだけで足ります。</p>
     </a>
     <a class="card" href="lessons/complement-probability.html">
       <span class="tag">第16回・動画あり</span>
@@ -140,36 +143,87 @@
       <h3>「隣り合う」並び方の数</h3>
       <p>6人でAとBが隣り合う。かたまりにして中の並びをかけるで5! × 2! = 240。</p>
     </a>
+    <a class="card" href="lessons/gcd-lcm.html">
+      <span class="tag">第13回・動画あり</span>
+      <h3>公約数と公倍数を書き出す</h3>
+      <p>24 と 36。素因数分解して、小さい指数で G、大きい指数で L。</p>
+    </a>
     <a class="card" href="lessons/linear-diophantine.html">
       <span class="tag">第19回・動画あり</span>
       <h3>不定方程式の整数解</h3>
       <p>3x + 5y = 1。1組見つけて引き、互いに素で割って k を置く。</p>
     </a>
-    <a class="card" href="lessons/arithmetic-series.html">
-      <span class="tag">第20回・動画あり</span>
-      <h3>等差数列の和</h3>
-      <p>初項3・公差5、第20項まで。「初項と末項の平均 × 項数」で 1010。</p>
-    </a>
+  </div>
+
+  <h2>数学II：図形と方程式・指数対数・微分積分</h2>
+  <div class="cards">
     <a class="card" href="lessons/circle-tangent.html">
       <span class="tag">第21回・動画あり</span>
       <h3>円の接線</h3>
       <p>x² + y² = 25 上の(3, 4)。置きかえるだけで 3x + 4y = 25。図つき。</p>
-    </a>
-    <a class="card" href="lessons/cubic-extrema.html">
-      <span class="tag">第22回・動画あり</span>
-      <h3>3次関数の極値</h3>
-      <p>x³ − 3x² − 9x + 5。微分してゼロ、符号を見て代入で 10 と −22。</p>
     </a>
     <a class="card" href="lessons/logarithm-calc.html">
       <span class="tag">第23回・動画あり</span>
       <h3>対数の計算</h3>
       <p>log₂ 6 + log₂ 12 − log₂ 9。和は積、差は商でまとめて 3。</p>
     </a>
+    <a class="card" href="lessons/cubic-extrema.html">
+      <span class="tag">第22回・動画あり</span>
+      <h3>3次関数の極値</h3>
+      <p>x³ − 3x² − 9x + 5。微分してゼロ、符号を見て代入で 10 と −22。</p>
+    </a>
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>三角関数の合成・加法定理</h3>
+      <p>a sinθ + b cosθ を1つの sin にまとめる型。</p>
+    </div>
+  </div>
+
+  <h2>数学B：数列・統計的な推測</h2>
+  <div class="cards">
+    <a class="card" href="lessons/arithmetic-series.html">
+      <span class="tag">第20回・動画あり</span>
+      <h3>等差数列の和</h3>
+      <p>初項3・公差5、第20項まで。「初項と末項の平均 × 項数」で 1010。</p>
+    </a>
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>等比数列の和と漸化式</h3>
+      <p>公比をかけて引く型と、a(n+1) = pa(n) + q の埋め方。</p>
+    </div>
+  </div>
+
+  <h2>数学III：極限・微分法・積分法</h2>
+  <div class="cards">
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>数列の極限と不定形</h3>
+      <p>∞/∞ は最高次で割る、∞ − ∞ は有理化する、の2型。</p>
+    </div>
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>置換積分と部分積分</h3>
+      <p>どちらを使うかを式の形で即断する見分け方。</p>
+    </div>
+  </div>
+
+  <h2>数学C：ベクトル・複素数平面・2次曲線</h2>
+  <div class="cards">
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>内積となす角</h3>
+      <p>成分で計算 →|a||b|cosθ に戻す、の往復。</p>
+    </div>
+    <div class="card">
+      <span class="tag soon">準備中</span>
+      <h3>複素数の極形式と回転</h3>
+      <p>かけ算は「大きさはかける、角はたす」だけ。</p>
+    </div>
   </div>
 
   <h2>今後の追加予定</h2>
   <div class="panel">
-    <p>数学I（数と式・2次関数・三角比）→ 数学A（場合の数・確率）→ 数学II（三角関数・微分積分）の順に、頻出パターンから公開していきます。</p>
+    <p>数学I・A（共通テストの土台）を埋めつつ、数学II・B（微分積分・数列）→ 数学III・C（極限・ベクトル・複素数平面）の順に、頻出パターンから公開していきます。</p>
   </div>
 </main>
 
