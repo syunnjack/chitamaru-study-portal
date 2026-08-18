@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>重複組合せ（3種類から6本）｜高校数学 第59回</title>
+<meta name="description" content="重複組合せは「〇と仕切りの並べ方」に置きかえるだけ。1個以上の条件、整数解の個数との関係まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第59回 重複組合せ</div>
+
+<main class="wrap">
+  <h1>第59回　重複組合せは「仕切りを入れる」</h1>
+  <div class="formula">3種類のジュースが並ぶ自販機で、合計6本を買う。同じ種類を何本買ってもよく、0本の種類があってもよいとき、買い方は何通りか。</div>
+  <p>数え上げようとすると大変ですが、置きかえると一瞬で終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/combination-repetition.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/combination-repetition.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>n 種類から重複を許して r 個 = 〇 r 個と仕切り (n − 1) 本の並べ方 = <sub>r + n − 1</sub>C<sub>n − 1</sub></strong></p>
+    <p>〇〇｜〇〇〇｜〇 のように書けば、仕切りで区切られた個数がそのまま各種類の本数になります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>仕切りに置きかえる</strong><div class="formula">〇6個 と 仕切り2本 の並べ方</div><p>3種類なら仕切りは2本。種類の数 − 1 です。</p></li>
+    <li><strong>対応を確認する</strong><div class="formula">〇〇|〇〇〇|〇 → (2, 3, 1) 本</div><p>仕切りが端や隣どうしなら 0 本の種類ができます。</p></li>
+    <li><strong>並べ方を数える</strong><div class="formula">全部で8個の場所から仕切りの2か所を選ぶ → 8C2</div></li>
+    <li><strong>計算する</strong><div class="formula">8C2 = (8 × 7) ÷ 2 = 28（通り）</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>3種類から2本なら公式は 4C2 = 6。書き出すと (2,0,0)(0,2,0)(0,0,2)(1,1,0)(1,0,1)(0,1,1) の6通りで一致します。<strong>小さい数で確かめる</strong>のが最強の検算です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「各種類1本以上」なら<strong>先に1本ずつ配る</strong>。残り3本を自由に配って 5C2 = 10 通り。</li>
+      <li>これは <strong>x + y + z = 6 の 0 以上の整数解の個数</strong>と同じ問題です。式で出てきても同じ道具が使えます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>重複組合せは 〇 r 個と仕切り (n - 1) 本の並べ方</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>4種類から重複を許して5個選ぶ
+        <details><summary>答え</summary><p>8C3 = 56 通り</p></details>
+      </li>
+      <li>3種類のジュースを各1本以上、合計6本買う
+        <details><summary>答え</summary><p>先に1本ずつ配り、残り3本を配って 5C2 = 10 通り</p></details>
+      </li>
+      <li>x + y + z = 6 の 0 以上の整数解の個数
+        <details><summary>答え</summary><p>8C2 = 28 個（本問と同じ）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="circular-permutation.html">← 第58回 円順列</a>　｜　<a href="euclid-algorithm.html">第60回 ユークリッドの互除法 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,220 @@
+{
+  "title": "完了不定詞と完了動名詞",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、彼は若いころ有名な歌手だったようだ。シーム を使います。2、彼は約束を破ったことを否定した。ディナイ を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 彼は若いころ有名な歌手だった",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　ようだ。（seem を使う）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼は約束を破ったことを否定した。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　（deny を使う）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。不定詞や動名詞が表す内容が、主節の動詞より前のことなら完了形にします。トゥー ハブ ダン、または ハビング ダン です。同じ時ならふつうの形で足ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主節より前のこと → 完了形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "to have done / having done",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同時なら単純形で足りる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。シームズ は今の判断ですが、有名だったのは過去です。ずれているので完了不定詞にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 時のずれを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "seems（今）／有名だった（過去）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ずれているので完了不定詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 時のずれを見る"
+    },
+    {
+      "narration": "ヒー シームズ トゥー ハブ ビーン ア フェイマス シンガー ホエン ヒー ワズ ヤング。イット シームズ ザット の文に書きかえられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He seems to have been a famous singer when he was young.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= It seems that he was a famous singer …",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 文を作る"
+    },
+    {
+      "narration": "2番です。ディナイド は過去で、約束を破ったのはそれより前です。ディナイ は動名詞をとる動詞なので、完了動名詞にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 動名詞の時を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "denied（過去）／破った（それより前）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "deny は doing をとる動詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 動名詞の時を見る"
+    },
+    {
+      "narration": "ヒー ディナイド ハビング ブロークン ヒズ プロミス。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He denied having broken his promise.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：to have been … / having broken …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。ザット節の文に書きかえます。イット シームズ ザット ヒー ワズ ア フェイマス シンガー。ヒー ディナイド ザット ヒー ハド ブロークン ヒズ プロミス。両方書ければ時のずれを正しく処理できています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It seems that he was …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He denied that he had broken …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "書きかえられれば正解",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。時が同じなら単純形で足ります。ヒー シームズ トゥー ビー ビジー は今の話です。それから、受け身の完了形は トゥー ハブ ビーン ダン です。ヒー イズ セッド トゥー ハブ ビーン ヘルプト のように使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同時なら to be で足りる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受け身は to have been done",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。主節より前のことは トゥー ハブ ダン、または ハビング ダン。同時なら単純形。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主節より前のことは to have done / having done。同時なら単純形。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼女は前日に鍵をなくしたことを認めた」を having を使って英語に。 → She admitted having lost her key the day before.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

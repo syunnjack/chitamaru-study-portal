@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>度数分布表から平均値（階級値 × 度数）｜高校数学 第51回</title>
+<meta name="description" content="度数分布表の平均は階級値 × 度数の合計を度数の合計で割るだけ。仮平均での検算、中央値の求め方まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第51回 度数分布表から平均</div>
+
+<main class="wrap">
+  <h1>第51回　度数分布表の平均は「階級値 × 度数」</h1>
+  <div class="formula">次の度数分布表から平均値を求めよ。階級 0〜10（度数2）、10〜20（度数5）、20〜30（度数10）、30〜40（度数3）。</div>
+  <p>元のデータが分からなくても平均は出せます。階級値で代表させるのがコツです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/frequency-mean.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/frequency-mean.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>階級値（階級の真ん中）を書く → 平均 = Σ(階級値 × 度数) ÷ 度数の合計</strong></p>
+    <p>元のデータが分からなくても、各階級を「真ん中の値」で代表させれば平均が計算できます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>階級値を書く</strong><div class="formula">5、15、25、35</div><p>階級の両端の平均が階級値です。</p></li>
+    <li><strong>階級値 × 度数</strong><div class="formula">5×2 + 15×5 + 25×10 + 35×3 = 10 + 75 + 250 + 105</div></li>
+    <li><strong>合計を出す</strong><div class="formula">合計 = 440、度数の合計 = 2 + 5 + 10 + 3 = 20</div></li>
+    <li><strong>割る</strong><div class="formula">平均 = 440 ÷ 20 = 22</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>仮平均 25 で計算すると (−20×2 − 10×5 + 0 + 10×3) ÷ 20 = −3 で 25 − 3 = 22。度数が下の階級に偏っているので、平均が 25 より小さいのも自然です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>度数分布表から出した平均は<strong>近似値</strong>です。元データの平均と一致しないのが普通で、これが階級値で代表させる代償です。</li>
+      <li>中央値を聞かれたら<strong>累積度数</strong>。20人なら10番目と11番目が入る階級を探します（今回は 20〜30 の階級）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>平均 = Σ(階級値 × 度数) ÷ 度数の合計</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>階級値 10、20、30 で度数が 2、3、5 のときの平均
+        <details><summary>答え</summary><p>10×2 + 20×3 + 30×5 = 230、度数の合計 10 で割って 23</p></details>
+      </li>
+      <li>本問の表で中央値が入る階級
+        <details><summary>答え</summary><p>累積度数は 2、7、17、20。10番目・11番目は3番目の階級 → 20〜30</p></details>
+      </li>
+      <li>本問の表で 30 以上の階級の相対度数
+        <details><summary>答え</summary><p>3 ÷ 20 = 0.15</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="trig-values-obtuse.html">← 第50回 鈍角の三角比</a>　｜　<a href="median-mode.html">第52回 平均・中央値・最頻値 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

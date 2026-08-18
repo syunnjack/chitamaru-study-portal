@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>平均・中央値・最頻値の使い分け（外れ値があるとき）｜高校数学 第52回</title>
+<meta name="description" content="外れ値があるときの代表値は中央値。平均が引っ張られる仕組み、大小関係で分布の形を読む方法まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第52回 平均・中央値・最頻値</div>
+
+<main class="wrap">
+  <h1>第52回　平均・中央値・最頻値の使い分け</h1>
+  <div class="formula">データ 3, 4, 4, 5, 6, 7, 43 について、平均値・中央値・最頻値を求め、代表値としてどれが適切か答えよ。</div>
+  <p>数値を出すだけでなく「どれが適切か」を答えるところまでが問題です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/median-mode.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/median-mode.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>平均 = 合計 ÷ 個数　／　中央値 = 並べて真ん中　／　最頻値 = 最も多い値</strong></p>
+    <p>外れ値があると平均は大きく引っ張られますが、中央値はほとんど動きません。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>平均を出す</strong><div class="formula">(3 + 4 + 4 + 5 + 6 + 7 + 43) ÷ 7 = 72 ÷ 7 ≒ 10.3</div></li>
+    <li><strong>中央値を出す</strong><div class="formula">7個の真ん中は4番目 → 5</div><p>個数が奇数なら (n + 1)/2 番目が中央値です。</p></li>
+    <li><strong>最頻値を出す</strong><div class="formula">4 が2回、他は1回 → 最頻値 4</div></li>
+    <li><strong>どれが適切か答える</strong><div class="formula">43 が外れ値。平均は7個中6個より大きく、代表値として不適切 → 中央値 5 が適切</div><p>「なぜ」を書くのが記述の得点源です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>43 を 8 に変えると平均は約 5.3 まで下がりますが、中央値は 5 のまま。<strong>平均は外れ値に敏感、中央値は頑丈</strong>だと確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>平均 &gt; 中央値なら右にしっぽが長い分布</strong>（上側に外れ値）。大小関係だけで分布の形が読めます。</li>
+      <li>年収や地価のように外れ値が大きいデータでは実務でも中央値を使います。<strong>「なぜ中央値か」を書けると記述で差がつきます</strong>。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>外れ値があるときの代表値は中央値</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>2, 3, 3, 4, 38 の平均・中央値・最頻値
+        <details><summary>答え</summary><p>平均 = 50 ÷ 5 = 10、中央値 = 3、最頻値 = 3。外れ値 38 があるので中央値が適切</p></details>
+      </li>
+      <li>1, 2, 4, 7 の中央値
+        <details><summary>答え</summary><p>偶数個なので (2 + 4) ÷ 2 = 3</p></details>
+      </li>
+      <li>3, 4, 4, 5, 6, 7, 43 で 43 を除いたときの平均
+        <details><summary>答え</summary><p>29 ÷ 6 ≒ 4.83（外れ値の影響が消える）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="frequency-mean.html">← 第51回 度数分布表から平均</a>　｜　<a href="variable-transformation.html">第53回 変量の変換 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

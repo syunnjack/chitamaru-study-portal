@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>加法定理で sin 75°｜高校数学 第61回</title>
+<meta name="description" content="加法定理は知っている角の和に分けるだけ。sin と cos の符号の覚え方、2倍角の作り方まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第61回 加法定理</div>
+
+<main class="wrap">
+  <h1>第61回　加法定理は「知っている角に分ける」</h1>
+  <div class="formula">sin 75° の値を求めよ。</div>
+  <p>三角定規に出てこない角も、知っている角の和に分ければ出せます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/addition-theorem.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/addition-theorem.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>sin(α + β) = sin α cos β + cos α sin β　（75° = 45° + 30° に分ける）</strong></p>
+    <p>15°、75°、105° は 45° と 30° の和や差で作れます。sin は符号がそのまま、cos は符号が逆になります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>角を分ける</strong><div class="formula">75° = 45° + 30°</div><p>15の倍数は 45° と 30° の組み合わせで作れます。</p></li>
+    <li><strong>加法定理に代入</strong><div class="formula">sin45° cos30° + cos45° sin30°</div></li>
+    <li><strong>値を入れる</strong><div class="formula">(√2/2)(√3/2) + (√2/2)(1/2) = √6/4 + √2/4</div></li>
+    <li><strong>まとめる</strong><div class="formula">sin 75° = (√6 + √2) / 4</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>(√6 + √2)/4 ≒ 0.966 で、sin 90° = 1 に近い値になっています。sin 75° = cos 15° の関係とも一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>cos(α + β) = cos α cos β − sin α sin β</strong>。「サインはそのまま、コサインは逆」と声に出して覚えます。</li>
+      <li>α = β とすれば <strong>2倍角の公式</strong>が作れます（sin 2α = 2 sin α cos α）。公式を忘れても加法定理から復元できます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>sin(α + β) = sinα cosβ + cosα sinβ（サインはそのまま）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>cos 15°
+        <details><summary>答え</summary><p>cos(45° − 30°) = (√2/2)(√3/2) + (√2/2)(1/2) = (√6 + √2)/4</p></details>
+      </li>
+      <li>sin 15°
+        <details><summary>答え</summary><p>sin(45° − 30°) = (√6 − √2)/4</p></details>
+      </li>
+      <li>tan 75°
+        <details><summary>答え</summary><p>tan(45° + 30°) = (1 + 1/√3) ÷ (1 − 1/√3) = 2 + √3</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="euclid-algorithm.html">← 第60回 ユークリッドの互除法</a>　｜　<a href="point-line-distance.html">第62回 点と直線の距離 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>等速円運動（向心力の立式）｜高校物理 第6回</title>
+<meta name="description" content="a=v²/r と F=mv²/r の型で等速円運動を解く。角速度での検算と遠心力の扱いも整理します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第6回 等速円運動（向心力の立式）</div>
+
+<main class="wrap">
+  <h1>第6回　等速円運動（向心力の立式）</h1>
+  <div class="formula">質量0.20 kgの小球が、半径0.50 mの円周上を速さ2.0 m/sで等速円運動している。向心加速度と向心力の大きさを求めよ。</div>
+  <p>円運動は「中心向きに ma を用意する」と考えると、立式が一本化されます。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-circular-motion.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-circular-motion.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>向心加速度 a = v²/r。</strong>向きは常に円の中心向きです。</li>
+      <li><strong>向心力 F = mv²/r。</strong>実際にはたらく力（張力・摩擦・重力）の合力です。</li>
+      <li><strong>周期は T = 2πr/v。</strong>速さと半径から出せます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>向心加速度を出す</strong><div class="formula">a = v²/r = 2.0² / 0.50 = 8.0 m/s²</div><p>向きは中心向き。</p></li>
+    <li><strong>向心力を出す</strong><div class="formula">F = ma = 0.20 × 8.0 = 1.6 N</div><p>F = mv²/r でも同じ。</p></li>
+    <li><strong>周期を確認する</strong><div class="formula">T = 2πr/v = 2π × 0.50 / 2.0 ≒ 1.6 s</div><p>1周の時間。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">a = 8.0 m/s²、F = 1.6 N</div><p>向きはどちらも中心向き。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>ω = v/r = 4.0 rad/s、a = rω² = 8.0 m/s²。2通りで一致すれば正解です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>速さが一定でも向きが変わるので加速度は0ではありません。</li>
+      <li>遠心力は回転する観測者の立場で導入する見かけの力。地上から見る式には書きません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>向心加速度は v²/r（= rω²）、向心力 F = mv²/r は実在する力の合力。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ小球が速さ4.0 m/sで同じ円を回るときの向心力を求めよ。
+        <details><summary>答え</summary><p>F = 0.20 × 4.0²/0.50 = 6.4 N（速さ2倍で4倍）</p></details>
+      </li>
+      <li>半径を2倍の1.0 mにして速さ2.0 m/sのままにしたときの向心力を求めよ。
+        <details><summary>答え</summary><p>F = 0.20 × 4.0/1.0 = 0.80 N</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-momentum-collision.html">← 第5回 運動量保存と非弾性衝突</a>　｜　<a href="ph-shm-spring.html">第7回 ばね振り子の単振動（周期と最大速さ） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

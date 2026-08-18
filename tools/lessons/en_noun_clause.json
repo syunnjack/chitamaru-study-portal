@@ -1,0 +1,220 @@
+{
+  "title": "名詞節と同格のthat",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、彼が本当のことを言っているかどうかは分からない。2、彼が試験に合格したという知らせは、私たちを喜ばせた。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 彼が本当のことを言っているか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　どうかは分からない。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼が試験に合格したという知らせは",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　私たちを喜ばせた。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。節が主語や目的語の位置にあるなら名詞節で、ザット、ホエザー、疑問詞のどれかで始めます。名詞のすぐ後ろに ザット と完全な文が続くときは、同格の ザット です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "節が主語・目的語なら名詞節",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "that / whether / 疑問詞 で始める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞 + that + 完全な文 → 同格",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。〜かどうか、なので ホエザー、または イフ を使います。ノウ の目的語になる名詞節です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 節の種類を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜かどうか」→ whether / if",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "know の目的語になる名詞節。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 節の種類を決める"
+    },
+    {
+      "narration": "アイ ドント ノウ ホエザー ヒー イズ テリング ザ トゥルース。イフ でもかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I don't know whether he is telling the truth.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "if も可。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 文を作る"
+    },
+    {
+      "narration": "2番です。ザ ニュース の中身を説明しているので、同格の ザット を使います。後ろは完全な文になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 同格を見抜く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the news + that + 完全な文",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「知らせ」の中身を説明している。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 同格を見抜く"
+    },
+    {
+      "narration": "ザ ニュース ザット ヒー ハド パスト ジ イグザム メイド アス ハッピー。第1回のSVOCの形になっています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The news that he had passed the exam made us happy.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：whether he is telling … / The news that he had passed …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。ザット の後ろを見ます。完全な文なら同格、名詞が1つ足りないなら関係代名詞です。この1点だけで区別できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "that の後ろが完全な文 → 同格",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞が1つ不足 → 関係代名詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the news that he passed（完全）",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。主語の位置では イフ は使えません。ホエザー ヒー カムズ オア ノット イズ、のように ホエザー を使います。それから、間接疑問は平叙文の語順です。疑問文の語順にはしません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語の位置に if は不可",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "間接疑問は平叙文の語順",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。節が主語や目的語なら名詞節、名詞プラス ザット プラス 完全な文なら同格の ザット。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "節が主語・目的語なら名詞節、名詞＋that＋完全な文なら同格のthat。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼がどこに住んでいるか知っていますか」を英語に。 → Do you know where he lives?",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

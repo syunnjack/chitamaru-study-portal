@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三角関数の合成（y = sinθ + √3 cosθ の最大・最小）｜高校数学II 第24回</title>
+<meta name="description" content="a sinθ + b cosθ は √(a²+b²) sin(θ+α) にまとめるだけ。最大2（θ=π/6）・最小−2（θ=7π/6）を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第24回 三角関数の合成</div>
+
+<main class="wrap">
+  <h1>第24回　三角関数の合成は「1つの sin にまとめる」</h1>
+  <div class="formula">y = sinθ + √3 cosθ（0 ≦ θ &lt; 2π）の最大値・最小値と、そのときの θ を求めよ。</div>
+  <p>サインとコサインが混ざった式は、合成して1つのサインにするだけで終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/trig-synthesis.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/trig-synthesis.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>a sinθ + b cosθ = √(a² + b²) sin(θ + α)</strong></p>
+    <p>振幅は √(a² + b²)、α は cosα = a / 振幅、sinα = b / 振幅 になる角（点 (a, b) の角）です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>合成する</strong><div class="formula">√(1² + (√3)²) = 2</div><div class="formula">cosα = 1/2、sinα = √3/2 → α = π/3</div><div class="formula">y = 2 sin(θ + π/3)</div></li>
+    <li><strong>中身の範囲を調べる</strong><div class="formula">π/3 ≦ θ + π/3 &lt; 7π/3</div><p>この範囲で sin は −1 から 1 まで取れるので、最大 2、最小 −2。</p></li>
+    <li><strong>θ を求める</strong><div class="formula">最大：θ + π/3 = π/2 → θ = π/6</div><div class="formula">最小：θ + π/3 = 3π/2 → θ = 7π/6</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>θ = π/6 を代入すると 1/2 + √3 × √3/2 = 1/2 + 3/2 = 2 で最大値と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>合成の角 α は<strong>点 (a, b) の角</strong>。今回は (1, √3) なので 60°。図で確認すれば符号をまちがえません。</li>
+      <li>cos でまとめる形（cos(θ − α)）もありますが、<strong>入試では sin に統一</strong>するのが標準です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>混ざったら √(a² + b²) sin(θ + α) にまとめる</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>y = √3 sinθ + cosθ の最大値と、そのときの θ
+        <details><summary>答え</summary><p>2 sin(θ + π/6) → 最大 2（θ = π/3）</p></details>
+      </li>
+      <li>y = sinθ − cosθ の最大値
+        <details><summary>答え</summary><p>√2 sin(θ − π/4) → 最大 √2</p></details>
+      </li>
+      <li>y = 3 sinθ + 4 cosθ の最大値
+        <details><summary>答え</summary><p>√(9 + 16) = 5 → 最大 5</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="logarithm-calc.html">← 第23回 対数の計算</a>　｜　<a href="definite-integral-area.html">第25回 定積分と面積 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

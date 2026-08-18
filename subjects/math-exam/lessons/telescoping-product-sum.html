@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1×2 + 2×3 + … + 20×21 の値（連続する2数の積の和）｜高校受験数学 第1回</title>
+<meta name="description" content="連続する2数の積の和を、1つ長い積の差に直して打ち消す計算の工夫を、ナレーション付き解説動画で説明します。答えは 3080。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第1回 連続する2数の積の和</div>
+
+<main class="wrap">
+  <h1>第1回　連続する2数の積の和（差に化ける形を見抜く）</h1>
+  <div class="formula">1×2 + 2×3 + 3×4 + … + 20×21 の値を求めよ。</div>
+  <p>項は20個。まっすぐ足す問題ではありません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/telescoping-product-sum.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/telescoping-product-sum.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>方針の立て方（ここが勝負）</h2>
+  <div class="panel accent">
+    <p><strong>項が多い和は、各項を「差の形」に直して打ち消す。</strong>残るのは両端だけになります。</p>
+    <p>そのために<strong>「1つ長い積」</strong>を用意するのが、この型の要領です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>1つ長い積を用意する</strong>
+      <div class="formula">T(k) = k(k+1)(k+2)　,　T(k−1) = (k−1)k(k+1)</div>
+    </li>
+    <li><strong>差をとる（3倍が出てくる）</strong>
+      <div class="formula">T(k) − T(k−1) = k(k+1){ (k+2) − (k−1) } = 3 · k(k+1)</div>
+    </li>
+    <li><strong>全部書き直して打ち消す</strong>
+      <div class="formula">3S = ( T1 − T0 ) + ( T2 − T1 ) + … + ( T20 − T19 ) = T20 − T0</div>
+    </li>
+    <li><strong>答え</strong>
+      <div class="formula">3S = 20·21·22 = 9240　→　S = <strong>3080</strong></div>
+    </li>
+  </ol>
+  <div class="panel note">
+    <p><strong>式変形の確認：</strong>k = 1 → 1·2·3 − 0 = 6、3·1·2 = 6。k = 2 → 2·3·4 − 1·2·3 = 18、3·2·3 = 18。小さい数で必ず試します。</p>
+    <p><strong>検算：</strong>k(k+1) = k² + k なので、Σk² = 20·21·41/6 = 2870、Σk = 210。2870 + 210 = 3080 で一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>公式化すると <strong>1×2 + … + n(n+1) = n(n+1)(n+2) / 3</strong>。答えは「最後の積」だけで決まります。</li>
+      <li>「1つ長い積を作って差をとる」発想は、<strong>高校の数学B（数列）でもそのまま使う型</strong>です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>積の和は、1つ長い積の差に直して打ち消す。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1×2 + 2×3 + … + 10×11
+        <details><summary>答え</summary><p>10·11·12 / 3 = 440</p></details>
+      </li>
+      <li>1×2×3 + 2×3×4 + … + 8×9×10
+        <details><summary>答え</summary><p>1つ長い積 k(k+1)(k+2)(k+3) の差を使って 8·9·10·11 / 4 = 1980</p></details>
+      </li>
+      <li>1 + 3 + 5 + … + 99
+        <details><summary>答え</summary><p>(1²−0²) + (2²−1²) + … + (50²−49²) = 50² = 2500</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pythagoras-altitude.html">第2回 三平方の定理と垂線 →</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

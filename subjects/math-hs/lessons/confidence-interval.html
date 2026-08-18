@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>母平均の信頼区間（95%、σ = 12、n = 100）｜高校数学 第70回</title>
+<meta name="description" content="信頼区間は標本平均 ± 1.96 × σ/√n だけ。÷√n を忘れない、信頼度95%の正しい意味まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第70回 母平均の信頼区間</div>
+
+<main class="wrap">
+  <h1>第70回　信頼区間は「標本平均 ± 1.96 × 標準誤差」</h1>
+  <div class="formula">ある製品の重さの母標準偏差は 12 g である。100 個を無作為に抽出したところ標本平均は 68 g だった。母平均に対する信頼度 95% の信頼区間を求めよ。</div>
+  <p>公式の形を1つ覚えるだけです。÷ √n を忘れないでください（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/confidence-interval.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/confidence-interval.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>標準誤差 = σ ÷ √n　／　95% 信頼区間 = 標本平均 ± 1.96 × 標準誤差</strong></p>
+    <p>「÷ √n」を忘れるのが最大のミス。標本を増やすと区間が狭くなる、という感覚とセットで覚えます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>標準誤差を出す</strong><div class="formula">12 ÷ √100 = 12 ÷ 10 = 1.2</div><p>√n の n は標本の大きさ。100 なら 10 です。</p></li>
+    <li><strong>1.96 倍する</strong><div class="formula">1.96 × 1.2 = 2.352</div></li>
+    <li><strong>標本平均から前後に取る</strong><div class="formula">68 - 2.352 = 65.648、68 + 2.352 = 70.352</div></li>
+    <li><strong>答える</strong><div class="formula">およそ 65.6 g ≦ 母平均 ≦ 70.4 g</div><p>小数第1位までにまとめるのが一般的です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>区間の幅は 2 × 2.352 ≒ 4.7。n を 4 倍にすると √n が 2 倍になり幅は半分になります（<strong>4倍集めて幅が半分</strong>）。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「母平均がこの区間に入る確率が95%」は厳密には誤り。正しくは<strong>同じ方法で区間を作り直すと95%が母平均を含む</strong>という意味です。</li>
+      <li>母標準偏差が不明なら<strong>標本標準偏差で代用</strong>します（n が大きければ実用上問題ありません）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>信頼区間 = 標本平均 ± 1.96 × (σ ÷ √n)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>母標準偏差 20、標本400個、標本平均50 の95%信頼区間
+        <details><summary>答え</summary><p>標準誤差 = 20/20 = 1、1.96×1 = 1.96 なので 48.04 ≦ m ≦ 51.96</p></details>
+      </li>
+      <li>本問で信頼度を99%（2.58）にしたときの区間
+        <details><summary>答え</summary><p>2.58 × 1.2 = 3.096 なので 約64.9 ≦ m ≦ 約71.1（区間は広くなる）</p></details>
+      </li>
+      <li>本問で標本を400個にしたときの区間の幅
+        <details><summary>答え</summary><p>標準誤差 0.6、幅 = 2×1.96×0.6 ≒ 2.35（半分になる）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="binomial-distribution.html">← 第69回 二項分布</a>　｜　<a href="integration-by-parts.html">第71回 部分積分 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

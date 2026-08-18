@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>群数列は群末の番号で挟む｜高校数学B 第33回</title>
+<meta name="description" content="1 | 2,3 | 4,5,6 | … の群数列で 100 が第何群の何番目か。群末 n(n+1)/2 で挟む型を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第33回 群数列</div>
+
+<main class="wrap">
+  <h1>第33回　群数列は「群の終わりの番号」で挟む</h1>
+  <div class="formula">1 | 2, 3 | 4, 5, 6 | 7, 8, 9, 10 | … と第n群に n 個ずつ並ぶとき、100 は第何群の何番目か。また第14群の最初の数を求めよ。</div>
+  <p>群数列でやることは1つだけ。「第n群の終わりが通算で何番目か」を出して挟むだけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/grouped-sequence.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/grouped-sequence.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>第n群の終わりは通算 1 + 2 + … + n = n(n+1)/2 番目</strong></p>
+    <div class="formula">第n群の最初の数（通算番号）＝ n(n−1)/2 + 1</div>
+    <p>群末の番号で目標を挟めば、群の番号と群の中の位置が同時に決まります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>群末の番号で挟む</strong><div class="formula">n = 13：13×14/2 = 91、n = 14：14×15/2 = 105</div><div class="formula">91 &lt; 100 ≦ 105 → 100 は<strong>第14群</strong></div><p>92 番目から 105 番目までが第14群です。</p></li>
+    <li><strong>群の中の位置を出す</strong><div class="formula">100 − 91 = 9 → <strong>第14群の9番目</strong></div></li>
+    <li><strong>第14群の最初の数を出す</strong><div class="formula">13群末が 91 → 第14群の最初は <strong>92</strong></div><p>この数列は自然数がそのまま並ぶので、通算番号と数の値が一致します。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>第14群は 92〜105 の 14 個（105 − 92 + 1 = 14）で個数が合い、92 から数えて9番目が 100。個数と位置の2通りで確認します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>第n群の<strong>最初の数は n(n−1)/2 + 1</strong>。毎回書き出さず公式で出すと速いです。</li>
+      <li>第n群の<strong>和</strong>は等差数列の和で「個数 ×（最初 + 最後）÷ 2」。第14群なら 14 × (92 + 105)/2 = 1379。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>群数列は群末の通算番号 n(n+1)/2 で挟む</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>200 は第何群の何番目か
+        <details><summary>答え</summary><p>19群末が 190、20群末が 210 → 第20群の10番目</p></details>
+      </li>
+      <li>第10群の最初の数
+        <details><summary>答え</summary><p>9群末が 45 → 46</p></details>
+      </li>
+      <li>第20群の和
+        <details><summary>答え</summary><p>第20群は 191〜210 の 20 個 → 20 × (191 + 210)/2 = 4010</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="expected-value-variance.html">← 第32回 期待値と分散</a>　｜　<a href="product-rule-tangent.html">第34回 積の微分と接線 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

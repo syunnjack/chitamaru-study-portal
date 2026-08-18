@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>相加平均と相乗平均で最小値（x + 4/x）｜高校数学 第65回</title>
+<meta name="description" content="相加相乗は積が定数のときだけ。等号成立を書く理由、定義域の外になる場合の注意点まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第65回 相加平均と相乗平均</div>
+
+<main class="wrap">
+  <h1>第65回　相加相乗は「積が定数」のときに使う</h1>
+  <div class="formula">x > 0 のとき、x + 4/x の最小値と、そのときの x の値を求めよ。</div>
+  <p>微分を使わなくても1行で終わります。ただし使える条件があります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/am-gm-inequality.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/am-gm-inequality.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>a &gt; 0、b &gt; 0 のとき a + b ≧ 2√(ab)　（等号は a = b のとき）</strong></p>
+    <p>使えるのは<strong>積が定数</strong>のときだけ。x と 4/x の積は 4 で定数なので使えます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>積を確かめる</strong><div class="formula">x × (4/x) = 4（定数）</div><p>積が定数だから相加相乗が使えます。</p></li>
+    <li><strong>不等式を書く</strong><div class="formula">x + 4/x ≧ 2√(x × 4/x) = 2√4 = 4</div><p>x > 0 の条件も必ず書きます。</p></li>
+    <li><strong>等号成立を調べる</strong><div class="formula">x = 4/x → x² = 4 → x > 0 より x = 2</div><p>等号成立を書かないと「最小値」と言い切れません。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">x = 2 のとき最小値 4</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>x = 2 で 4、x = 1 と x = 4 では 5。両側で大きくなるので最小値 4 で正しいです。微分 1 − 4/x² = 0 からも x = 2 が出ます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>等号成立を書かないと減点</strong>されます。「4 以上」だけでは、4 になる x があると示せていません。</li>
+      <li>等号成立の値が<strong>定義域の外</strong>なら相加相乗は使えません（増減を調べる）。積が定数でない形も同様です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>積が定数なら a + b ≧ 2√(ab)、等号は a = b</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>x > 0 のとき 3x + 12/x の最小値
+        <details><summary>答え</summary><p>積 = 36 なので 2√36 = 12。等号は 3x = 12/x → x = 2</p></details>
+      </li>
+      <li>x > 0 のとき x + 1/x の最小値
+        <details><summary>答え</summary><p>2√1 = 2、等号は x = 1</p></details>
+      </li>
+      <li>a > 0、b > 0、ab = 9 のときの a + b の最小値
+        <details><summary>答え</summary><p>2√9 = 6、等号は a = b = 3</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="factor-theorem.html">← 第64回 因数定理と3次方程式</a>　｜　<a href="sigma-calc.html">第66回 Σ の計算 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

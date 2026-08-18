@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>運動量保存と非弾性衝突｜高校物理 第5回</title>
+<meta name="description" content="衝突は運動量保存で解き、エネルギーは前後の差で求める型。反発係数と符号の扱いも整理します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第5回 運動量保存と非弾性衝突</div>
+
+<main class="wrap">
+  <h1>第5回　運動量保存と非弾性衝突</h1>
+  <div class="formula">なめらかな水平面上を速さ3.0 m/sで進む質量2.0 kgの台車Aが、静止した質量1.0 kgの台車Bに衝突して一体となった。衝突後の速さと、失われた運動エネルギーを求めよ。</div>
+  <p>衝突問題は「運動量は保存、エネルギーは保存しない」を分けて考えるだけです。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-momentum-collision.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-momentum-collision.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>正の向きを決める。</strong>Aの進む向きを正にします。</li>
+      <li><strong>運動量保存。</strong>m₁v₁ + m₂v₂ = (m₁ + m₂)v（一体化のとき）。</li>
+      <li><strong>エネルギーは前後で計算して差。</strong>保存しないので引き算で求めます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>運動量保存の式</strong><div class="formula">2.0 × 3.0 + 1.0 × 0 = (2.0 + 1.0) v</div><p>Bは静止なので運動量0。</p></li>
+    <li><strong>衝突後の速さ</strong><div class="formula">6.0 = 3.0 v → v = 2.0 m/s</div><p>向きはAと同じ。</p></li>
+    <li><strong>前後の運動エネルギー</strong><div class="formula">前：2.0×3.0²/2 = 9.0 J、後：3.0×2.0²/2 = 6.0 J</div><p>後は一体で計算。</p></li>
+    <li><strong>失われた分</strong><div class="formula">9.0 − 6.0 = 3.0 J</div><p>答え：v = 2.0 m/s、失われた分 3.0 J</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>運動量は6.0のまま保存し、運動エネルギーは9.0 J→6.0 Jに減少。非弾性衝突の特徴です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>e = 0 なら一体化、e = 1 なら弾性衝突で運動エネルギーも保存します。</li>
+      <li>運動量はベクトル。逆向きの速度はマイナスで代入します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>衝突では運動量が保存、一体化ならエネルギーは減る（差が熱になる）。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>速さ3.0 m/sのAが、逆向きに2.0 m/sで進むB（1.0 kg）と衝突して一体化したときの速さを求めよ。
+        <details><summary>答え</summary><p>(6.0 − 2.0)/3.0 ≒ 1.3 m/s（Aの向き）</p></details>
+      </li>
+      <li>上の一体化で失われた運動エネルギーを求めよ。
+        <details><summary>答え</summary><p>前 9.0 + 2.0 = 11.0 J、後 3.0 × 1.33²/2 ≒ 2.7 J、失われた分 ≒ 8.3 J</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-energy-conservation.html">← 第4回 力学的エネルギー保存（なめらかな曲面）</a>　｜　<a href="ph-circular-motion.html">第6回 等速円運動（向心力の立式） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

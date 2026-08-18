@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>二項分布の平均・分散・標準偏差（さいころ180回）｜高校数学 第69回</title>
+<meta name="description" content="二項分布は平均 np、分散 np(1−p) だけ。値の妥当性の確認、正規分布近似、分散と標準偏差の混同を防ぐ方法まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第69回 二項分布</div>
+
+<main class="wrap">
+  <h1>第69回　二項分布は「np と np(1 − p)」だけ</h1>
+  <div class="formula">1個のさいころを180回投げるとき、1の目が出る回数を X とする。X の平均・分散・標準偏差を求めよ。</div>
+  <p>1回ずつ計算する必要はありません。公式2つで終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/binomial-distribution.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/binomial-distribution.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>X ～ B(n, p) のとき　平均 = np、分散 = np(1 − p)、標準偏差 = √{np(1 − p)}</strong></p>
+    <p>「独立な試行を n 回、各回の成功確率が p」なら必ず二項分布です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>n と p を書く</strong><div class="formula">n = 180、p = 1/6（1の目）</div></li>
+    <li><strong>平均を出す</strong><div class="formula">平均 = np = 180 × 1/6 = 30</div></li>
+    <li><strong>分散を出す</strong><div class="formula">分散 = np(1 - p) = 180 × (1/6) × (5/6) = 25</div><p>30 × 5/6 = 25 と計算すると速いです。</p></li>
+    <li><strong>標準偏差</strong><div class="formula">標準偏差 = √25 = 5</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>1 − p &lt; 1 なので分散は必ず平均以下（25 &lt; 30）。平均 ± 2σ = 20〜40 に約95%が入るという見当も、実感と合います。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>n が大きいと<strong>正規分布で近似</strong>できます。標準化 z = (X − 30) ÷ 5 が次のステップです。</li>
+      <li><strong>分散と標準偏差の混同</strong>が非常に多い失点。聞かれたのがどちらかを必ず確認します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>二項分布は 平均 np、分散 np(1 - p)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>コインを100回投げて表が出る回数の平均と標準偏差
+        <details><summary>答え</summary><p>平均 = 50、分散 = 100×(1/2)×(1/2) = 25、標準偏差 = 5</p></details>
+      </li>
+      <li>さいころを180回投げて3の倍数が出る回数の平均と分散
+        <details><summary>答え</summary><p>p = 1/3 なので平均 60、分散 = 180×(1/3)×(2/3) = 40</p></details>
+      </li>
+      <li>上のさいころの問題で、1の目が出る割合 X/180 の平均
+        <details><summary>答え</summary><p>30 ÷ 180 = 1/6（p と一致する）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="induction.html">← 第68回 数学的帰納法</a>　｜　<a href="confidence-interval.html">第70回 母平均の信頼区間 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7で割ると4余り9で割ると6余る自然数（4番目）｜高校受験数学 第13回</title>
+<meta name="description" content="余りより「不足」を見る型。n + 3 が63の倍数となり、4番目は249。音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第13回 余りの条件</div>
+
+<main class="wrap">
+  <h1>第13回　「7で割ると4余り、9で割ると6余る」を一発で処理する</h1>
+  <div class="formula">7 で割ると 4 余り、9 で割ると 6 余る自然数のうち、4 番目に小さいものを求めよ。</div>
+  <p>余りではなく「あといくつで割り切れるか」を見ると、暗算で終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/remainder-conditions.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/remainder-conditions.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>7 で割って 4 余る → あと 3（7 − 4）　／　9 で割って 6 余る → あと 3（9 − 6）</strong></p>
+    <p>不足がそろったら、n + 3 が公倍数になります。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>n + 3 を考える</strong><div class="formula">n + 3 は 7 の倍数かつ 9 の倍数 → 最小公倍数 63 の倍数</div></li>
+    <li><strong>小さい順に並べる</strong><div class="formula">n = 63k − 3 → 60, 123, 186, <strong>249</strong>, …</div><p>63 ずつ増えるので、4 番目は 249 です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>249 ÷ 7 = 35 あまり 4、249 ÷ 9 = 27 あまり 6。両方の割り算で確認します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>不足がそろわないときは<strong>1つ見つけて最小公倍数ずつ増やす</strong>（例：7k + 1 を 9 で割った余りが 3 になる k を探す）。</li>
+      <li>答えは必ず<strong>「最小公倍数で割った余り」で1行に書ける</strong>：今回は「63 で割って 60 余る数」。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>余りより不足。そろったら 最小公倍数 × k − 不足</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5 で割ると 2 余り、7 で割ると 4 余る自然数のうち 3 番目に小さいもの
+        <details><summary>答え</summary><p>不足はどちらも 3 → n + 3 は 35 の倍数 → 32, 67, <strong>102</strong></p></details>
+      </li>
+      <li>4 で割ると 1 余り、6 で割ると 1 余る 2 桁の自然数のうち最小
+        <details><summary>答え</summary><p>n − 1 は 12 の倍数 → 13, 25, … → <strong>13</strong></p></details>
+      </li>
+      <li>3 で割ると 2 余り、5 で割ると 3 余る自然数のうち最小
+        <details><summary>答え</summary><p>不足がそろわないので書き出す → 8（8 ÷ 3 = 2 あまり 2、8 ÷ 5 = 1 あまり 3）→ 以後 15 ずつ</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="divisor-count-condition.html">← 第12回 倍数かつ約数の個数</a>　｜　<a href="square-plus-60.html">第14回 n² + 60 が平方数 →</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

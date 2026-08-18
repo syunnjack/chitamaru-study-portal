@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3次関数の極値（f(x) = x³ − 3x² − 9x + 5）｜高校数学 第22回</title>
+<meta name="description" content="3次関数の極値は「微分してゼロ、符号を見て、もとの式に代入」。f(x) = x³ − 3x² − 9x + 5 の極大値10・極小値−22 を、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第22回 3次関数の極値</div>
+
+<main class="wrap">
+  <h1>第22回　3次関数の極値は「微分してゼロ、符号を見る」</h1>
+  <div class="formula">f(x) = x³ − 3x² − 9x + 5 の極大値と極小値を求めよ。</div>
+  <p>手が止まりやすい単元ですが、手順は3つに固定できます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/cubic-extrema.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/cubic-extrema.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>① f′(x) を因数分解　② f′(x) = 0 と増減表　③ もとの f(x) に代入</strong></p>
+    <p>値を出すのは f(x) です。微分した f′(x) に代入してしまうミスが最頻出です。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>微分して因数分解</strong><div class="formula">f′(x) = 3x² − 6x − 9 = 3(x² − 2x − 3) = 3(x − 3)(x + 1)</div><p>先に 3 でくくると因数分解が軽くなります。</p></li>
+    <li><strong>増減表</strong><div class="formula">f′(x) = 0 → x = −1, 3　／　増 →（x = −1 極大）→ 減 →（x = 3 極小）→ 増</div><p>f′ は下に凸の2次関数なので、2解の外側が正、間が負です。</p></li>
+    <li><strong>もとの式に代入</strong><div class="formula">f(−1) = −1 − 3 + 9 + 5 = 10　／　f(3) = 27 − 27 − 27 + 5 = −22</div><div class="formula"><strong>極大値 10（x = −1）、極小値 −22（x = 3）</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>3次関数は極大が左・極小が右で、極大値 &gt; 極小値。10 &gt; −22 なので整合します。f(0) = 5 も −1 と 3 の間（減少中）の値として自然です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>3次方程式 f(x) = 0 の実数解の個数は<strong>（極大値）×（極小値）の符号</strong>で決まります。10 × (−22) &lt; 0 なので実数解は3個。</li>
+      <li>f′(x) = 0 でも<strong>符号が変わらなければ極値ではありません</strong>（例：y = x³ は x = 0 で f′ = 0 でも増加のまま）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>微分してゼロ → 符号を見る → もとの式に代入</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>y = x³ − 3x の極値
+        <details><summary>答え</summary><p>y′ = 3(x − 1)(x + 1) → 極大値 2（x = −1）、極小値 −2（x = 1）</p></details>
+      </li>
+      <li>y = x³ − 6x² + 9x の極値
+        <details><summary>答え</summary><p>y′ = 3(x − 1)(x − 3) → 極大値 4（x = 1）、極小値 0（x = 3）</p></details>
+      </li>
+      <li>x³ − 3x² − 9x + 5 = 0 の実数解の個数
+        <details><summary>答え</summary><p>10 × (−22) &lt; 0 なので3個</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="circle-tangent.html">← 第21回 円の接線</a>　｜　<a href="logarithm-calc.html">第23回 対数の計算 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

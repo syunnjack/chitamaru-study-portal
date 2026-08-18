@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>斜面上のつり合い｜高校物理 第1回</title>
+<meta name="description" content="力を書き込む順番と斜面に合わせた軸の取り方で、斜面上のつり合いを型にします。tanθでの検算も紹介。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第1回 斜面上のつり合い（力の書き込み順）</div>
+
+<main class="wrap">
+  <h1>第1回　斜面上のつり合い（力の書き込み順）</h1>
+  <div class="formula">傾き30°のあらい斜面上に質量2.0 kgの物体が静止している。垂直抗力Nと静止摩擦力fを求めよ（g = 9.8 m/s²）。</div>
+  <p>物理が苦手な人の9割は、図に力を書き込む順番が決まっていません。まずここを固定します。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-force-balance.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-force-balance.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>力を書く順を固定する。</strong>重力 → 垂直抗力 → 摩擦力 → 張力。書き忘れが消えます。</li>
+      <li><strong>軸を斜面に合わせる。</strong>斜面に平行な方向と垂直な方向でつり合いの式を立てます。</li>
+      <li><strong>分解するのは重力だけ。</strong>斜面方向 mg sinθ、垂直方向 mg cosθ。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>重力を分解する</strong><div class="formula">mg = 2.0 × 9.8 = 19.6 N</div><p>斜面方向と垂直方向に分ける。</p></li>
+    <li><strong>垂直方向のつり合い</strong><div class="formula">N = mg cos30° = 19.6 × 0.866 ≒ 17 N</div><p>cos30° = √3/2</p></li>
+    <li><strong>斜面方向のつり合い</strong><div class="formula">f = mg sin30° = 19.6 × 0.50 = 9.8 N</div><p>静止しているので合力ゼロ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">N ≒ 17 N、f = 9.8 N</div><p>摩擦力は斜面を上向き。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>f / N = tan30° ≒ 0.58。sinとcosを入れ違えるとこの比が1.7になるので、比で検算できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>静止摩擦は f ≦ μN。f = μN と書けるのは滑り出す直前だけです。</li>
+      <li>θが大きくなるほど mg sinθ は増え、N = mg cosθ は減ります。滑りやすくなる理由です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>斜面では軸を斜面に合わせ、重力だけを mg sinθ と mg cosθ に分解する。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>傾き60°の斜面上で質量2.0 kgの物体が静止しているとき、静止摩擦力の大きさを求めよ。
+        <details><summary>答え</summary><p>f = 19.6 × sin60° ≒ 17 N</p></details>
+      </li>
+      <li>同じ斜面（30°）で物体が滑り出す直前、動摩擦係数の値の目安を答えよ。
+        <details><summary>答え</summary><p>μ = tan30° ≒ 0.58</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-newton-two-blocks.html">第2回 運動方程式（2物体と糸の張力） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

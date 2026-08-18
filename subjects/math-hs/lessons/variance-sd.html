@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>分散と標準偏差（2, 4, 6, 8, 10）｜高校数学 第15回</title>
+<meta name="description" content="分散は「2乗の平均 − 平均の2乗」で出すのが最速。標準偏差、平行移動で不変・k倍で k² 倍になる性質まで、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第15回 分散と標準偏差</div>
+
+<main class="wrap">
+  <h1>第15回　分散と標準偏差は「2乗の平均 − 平均の2乗」</h1>
+  <div class="formula">データ 2, 4, 6, 8, 10 の分散と標準偏差を求めよ。</div>
+  <p>定義どおりに偏差を書き出すより、公式1本のほうが速くて正確です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/variance-sd.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/variance-sd.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>分散 =（2乗の平均）−（平均）²　／　標準偏差 = √分散</strong></p>
+    <p>教科書の定義「偏差の2乗の平均」と同じ値です。試験場では速いほうを使います。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>平均</strong><div class="formula">(2 + 4 + 6 + 8 + 10) ÷ 5 = 30 ÷ 5 = 6</div><p>等間隔のデータは、真ん中の値がそのまま平均です。</p></li>
+    <li><strong>2乗の平均</strong><div class="formula">(4 + 16 + 36 + 64 + 100) ÷ 5 = 220 ÷ 5 = 44</div></li>
+    <li><strong>分散</strong><div class="formula">44 − 6² = 44 − 36 = 8</div></li>
+    <li><strong>標準偏差</strong><div class="formula">√8 = 2√2</div><p>ルートの中は、2乗で割れるだけ外に出します。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>偏差は −4, −2, 0, 2, 4。その2乗の平均は (16 + 4 + 0 + 4 + 16) ÷ 5 = 8 で一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>全部に同じ数を足しても<strong>分散は変わらない</strong>（散らばりの幅が変わらない）。</li>
+      <li>全部を k 倍すると<strong>分散は k² 倍、標準偏差は k 倍</strong>（分散は「2乗の世界」の量）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>分散 = 2乗の平均 − 平均の2乗</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1, 3, 5, 7, 9 の分散と標準偏差
+        <details><summary>答え</summary><p>平均 5、2乗の平均 33、分散 33 − 25 = 8、標準偏差 2√2</p></details>
+      </li>
+      <li>3, 3, 3, 3 の分散
+        <details><summary>答え</summary><p>すべて同じ値なので散らばりがなく、分散 0</p></details>
+      </li>
+      <li>2, 4, 6, 8, 10 を全部3倍したデータの分散
+        <details><summary>答え</summary><p>k = 3 なので k² 倍 → 8 × 9 = 72</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="quadratic-inequality.html">← 第14回 2次不等式</a>　｜　<a href="complement-probability.html">第16回 余事象の確率 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

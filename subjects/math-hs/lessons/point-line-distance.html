@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>点と直線の距離（(1, 2) と 4x + 3y − 6 = 0）｜高校数学 第62回</title>
+<meta name="description" content="点と直線の距離は代入して割るだけ。= 0 の形にそろえる理由、平行2直線の距離、円との位置関係への応用まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第62回 点と直線の距離</div>
+
+<main class="wrap">
+  <h1>第62回　点と直線の距離は「代入して割る」</h1>
+  <div class="formula">点 (1, 2) と直線 4x + 3y − 6 = 0 の距離を求めよ。また、原点とこの直線の距離も求めよ。</div>
+  <p>垂線を引いて交点を出す必要はありません。代入して割るだけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/point-line-distance.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/point-line-distance.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>d = |ax₀ + by₀ + c| ÷ √(a² + b²)　（直線は = 0 の形にそろえる）</strong></p>
+    <p>分子は「点を代入した値の絶対値」、分母は「係数の2乗和のルート」。垂線の交点を求める必要はありません。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>分子を計算</strong><div class="formula">|4×1 + 3×2 - 6| = |4 + 6 - 6| = 4</div><p>絶対値を忘れると負の距離が出てしまいます。</p></li>
+    <li><strong>分母を計算</strong><div class="formula">√(4² + 3²) = √25 = 5</div><p>4 と 3 なら 5。三平方の数はここでも出ます。</p></li>
+    <li><strong>距離を出す</strong><div class="formula">d = 4 / 5</div></li>
+    <li><strong>原点の場合</strong><div class="formula">|0 + 0 - 6| ÷ 5 = 6/5</div><p>原点なら分子は |c| だけになります。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>原点から x 切片 (1.5, 0)、y 切片 (0, 2) までが 1.5 と 2 なので、最短距離が 1.2 = 6/5 になるのは自然です。代入値の符号で点が直線のどちら側かも分かります。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>平行2直線の距離</strong>は、片方の上の点を1つ取ってこの公式を使うだけ。</li>
+      <li><strong>円と直線</strong>は「中心との距離と半径の比較」。接する条件は判別式より距離のほうが速いです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>d = |ax₀ + by₀ + c| ÷ √(a² + b²)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>点 (2, −1) と直線 3x − 4y + 5 = 0 の距離
+        <details><summary>答え</summary><p>|6 + 4 + 5| ÷ 5 = 15/5 = 3</p></details>
+      </li>
+      <li>2直線 4x + 3y − 6 = 0 と 4x + 3y + 4 = 0 の距離
+        <details><summary>答え</summary><p>点 (0, 2) を取って |0 + 6 + 4| ÷ 5 = 2</p></details>
+      </li>
+      <li>円 x² + y² = 1 と直線 4x + 3y − 6 = 0 の位置関係
+        <details><summary>答え</summary><p>中心 (0,0) との距離 6/5 &gt; 1 なので交わらない</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="addition-theorem.html">← 第61回 加法定理</a>　｜　<a href="log-equation.html">第63回 対数方程式 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

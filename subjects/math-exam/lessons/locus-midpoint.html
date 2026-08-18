@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中点が動いてできる線と面積の最大｜高校受験数学 第6回</title>
-<meta name="description" content="直径ABの延長上に BC = AB となる点C、円周上を動く点P、PCの中点Q。Qの軌跡の長さ 2π cm と △BPQ の最大 2 cm² を、図と音声ナレーション付き解説動画で説明します。">
+<meta name="description" content="直径ABの延長上に BC = AB となる点C、円周上を動く点P、PCの中点Q。Qの軌跡の長さ 3π cm と △BPQ の最大 9/2 cm² を、図と音声ナレーション付き解説動画で説明します。">
 <link rel="stylesheet" href="../../../assets/style.css">
 </head>
 <body>
@@ -13,6 +13,7 @@
     <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
     <nav class="site">
       <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
       <a href="../../math-hs/index.html">高校数学</a>
       <a href="../index.html">高校受験数学</a>
       <a href="../../math-jhs/index.html">中学数学</a>
@@ -30,10 +31,10 @@
   <div class="formula">
     点 C は直径 AB の延長線上に、AB = BC となるようにとった点で、点 P は円 O の周上を動く点である。PC の中点を Q とするとき、<br>
     (1) 点 Q が動いてできる線の長さを求めなさい。<br>
-    (2) △BPQ の面積が最大となるときの △BPQ の面積を求めなさい。（AB = 4 cm とする）
+    (2) △BPQ の面積が最大となるときの △BPQ の面積を求めなさい。（AB = 6 cm とする）
   </div>
 
-  <p><img src="../../../assets/figures/locus-midpoint.png" alt="半径2の円Oと直径AB、その延長上のBC=4となる点C、円周上の点P、PCの中点Qが中心M(3,0)・半径1の円をえがく図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
+  <p><img src="../../../assets/figures/locus-midpoint.png" alt="半径3の円Oと直径AB、その延長上のBC=6となる点C、円周上の点P、PCの中点Qが中心M(4.5,0)・半径1.5の円をえがく図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
 
   <video controls preload="metadata" src="../../../videos/locus-midpoint.mp4">
     お使いのブラウザは動画再生に対応していません。<a href="../../../videos/locus-midpoint.mp4">動画ファイルを直接開く</a>
@@ -48,24 +49,24 @@
 
   <h2>(1) Q が動いてできる線の長さ</h2>
   <ol class="steps">
-    <li><strong>座標をおく</strong><div class="formula">円Oの中心を原点に：A(−2, 0)、B(2, 0)、C(6, 0)、半径 = 2</div></li>
-    <li><strong>Q を式で書く</strong><div class="formula">P(x, y) のとき Q( (x + 6)/2 , y/2 )</div></li>
-    <li><strong>OC の中点 M(3, 0) からの距離を見る</strong>
-      <div class="formula">MQ = ½ OP = ½ × 2 = 1（P がどこにあっても一定）</div>
+    <li><strong>座標をおく</strong><div class="formula">円Oの中心を原点に：A(−3, 0)、B(3, 0)、C(9, 0)、半径 = 3</div></li>
+    <li><strong>Q を式で書く</strong><div class="formula">P(x, y) のとき Q( (x + 9)/2 , y/2 )</div></li>
+    <li><strong>OC の中点 M(4.5, 0) からの距離を見る</strong>
+      <div class="formula">MQ = ½ OP = ½ × 3 = 1.5（P がどこにあっても一定）</div>
       <p>Q は「C を中心に、円 O を 1/2 に縮めた円」の上を動きます。</p>
     </li>
-    <li><strong>円周の長さ</strong><div class="formula">Q の軌跡：中心 M(3, 0)、半径 1 の円<br>長さ = 2π × 1 = <strong>2π (cm)</strong></div></li>
+    <li><strong>円周の長さ</strong><div class="formula">Q の軌跡：中心 M(4.5, 0)、半径 1.5 の円<br>長さ = 2π × 1.5 = <strong>3π (cm)</strong></div></li>
   </ol>
 
   <h2>(2) △BPQ の最大</h2>
   <ol class="steps">
     <li><strong>大きい三角形に直す</strong><div class="formula">Q は PC の中点 → PQ = QC、高さは共通<br>△BPQ = ½ △BPC</div></li>
-    <li><strong>底辺と高さに分ける</strong><div class="formula">底辺 BC = 4（固定）　高さ = P と直線 AB の距離 ≦ 2（半径）</div></li>
-    <li><strong>最大の位置</strong><div class="formula">P が円の上端（または下端）のとき最大<br>△BPC = ½ × 4 × 2 = 4</div></li>
-    <li><strong>半分にする</strong><div class="formula">△BPQ = ½ × 4 = <strong>2 (cm²)</strong></div></li>
+    <li><strong>底辺と高さに分ける</strong><div class="formula">底辺 BC = 6（固定）　高さ = P と直線 AB の距離 ≦ 3（半径）</div></li>
+    <li><strong>最大の位置</strong><div class="formula">P が円の上端（または下端）のとき最大<br>△BPC = ½ × 6 × 3 = 9</div></li>
+    <li><strong>半分にする</strong><div class="formula">△BPQ = ½ × 9 = <strong>9/2 (cm²)</strong></div></li>
   </ol>
   <div class="panel note">
-    <p><strong>検算：</strong>P(0, 2) のとき Q(3, 1)。B(2, 0) を基準に P → (−2, 2)、Q → (1, 1) として △BPQ = ½|(−2)(1) − (2)(1)| = 2。○</p>
+    <p><strong>検算：</strong>P(0, 3) のとき Q(4.5, 1.5)。B(3, 0) を基準に P → (−3, 3)、Q → (1.5, 1.5) として △BPQ = ½|(−3)(1.5) − (3)(1.5)| = 9/2。○</p>
   </div>
 
   <h2>覚えるべきこと（在庫に入れる1行）</h2>
@@ -77,15 +78,15 @@
   <div class="panel">
     <ol>
       <li>PA の中点 R が動いてできる線の長さ。
-        <details><summary>答え</summary><p>中心 (−1, 0)、半径 1 の円 → 2π cm</p></details>
+        <details><summary>答え</summary><p>中心 (−1.5, 0)、半径 1.5 の円 → 3π cm</p></details>
       </li>
       <li>△OPQ の面積が最大になるときの面積。
-        <details><summary>答え</summary><p>△OPQ = ½△OPC、OC = 6、高さ ≦ 2 なので △OPC ≦ 6、よって最大 3 cm²</p></details>
+        <details><summary>答え</summary><p>△OPQ = ½△OPC、OC = 9、高さ ≦ 3 なので △OPC ≦ 27/2、よって最大 27/4 cm²</p></details>
       </li>
     </ol>
   </div>
 
-  <p style="margin-top:32px"><a href="factor-x4.html">← 第5回 1 + x² + x⁴ の因数分解</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+  <p style="margin-top:32px"><a href="factor-x4.html">← 第5回 x⁴ 型の因数分解</a>　｜　<a href="similar-area-ratio.html">第7回 相似と面積比 →</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
 </main>
 
 <footer class="site">

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>円順列と「隣り合う」条件（7人）｜高校数学 第58回</title>
+<meta name="description" content="円順列は (n−1)!。1人を固定する理由、隣り合う条件のまとめ方、じゅず順列との違いまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第58回 円順列</div>
+
+<main class="wrap">
+  <h1>第58回　円順列は「1人を固定する」だけ</h1>
+  <div class="formula">7人が円形のテーブルに座る方法は何通りか。また、そのうち特定の2人が隣り合う座り方は何通りか。</div>
+  <p>回転して同じ並びを重複して数えないための、たった1つの工夫があります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/circular-permutation.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/circular-permutation.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>円順列 = (n − 1)!　（誰か1人を固定すれば、残りは一列の並べ方）</strong></p>
+    <p>「隣り合う」は2人をひとまとめにして、最後に中の並べ替え 2! を掛けます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>(1) 1人を固定する</strong><div class="formula">残り6人を並べる → 6! = 720（通り）</div><p>回転して重なる並びを重複して数えないための工夫です。</p></li>
+    <li><strong>(2) 2人をまとめる</strong><div class="formula">ひとまとめにすると6人の円順列 → 5! = 120（通り）</div></li>
+    <li><strong>中の入れ替え</strong><div class="formula">まとめた2人の並び方 2! = 2（通り）</div></li>
+    <li><strong>掛ける</strong><div class="formula">120 × 2 = 240（通り）</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>240 ÷ 720 = 1/3。1人を固定すると相手が座れるのは6席で、そのうち隣は2席なので 2/6 = 1/3。<strong>確率で一致</strong>すれば安心です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>裏返しても同じなら<strong>じゅず順列</strong>で、円順列 ÷ 2（ネックレスなど）。</li>
+      <li>席に番号があるなら円順列ではなく <strong>n!</strong>。「回転して同じか」を問題文で必ず確認します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>円順列は (n - 1)!（1人を固定する）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5人の円順列
+        <details><summary>答え</summary><p>(5 − 1)! = 24 通り</p></details>
+      </li>
+      <li>異なる5個の玉でネックレスを作る（じゅず順列）
+        <details><summary>答え</summary><p>24 ÷ 2 = 12 通り</p></details>
+      </li>
+      <li>7人の円順列で特定の2人が隣り合わない座り方
+        <details><summary>答え</summary><p>720 − 240 = 480 通り</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="repeated-trials.html">← 第57回 反復試行の確率</a>　｜　<a href="combination-repetition.html">第59回 重複組合せ →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

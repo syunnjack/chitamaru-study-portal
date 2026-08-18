@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>三角関数の積分（∫sin²x dx）｜高校数学 第75回</title>
+<meta name="description" content="sin² の積分は半角で次数を下げるだけ。cos(ax) の積分で a で割る理由、奇数乗との使い分けまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第75回 三角関数の積分</div>
+
+<main class="wrap">
+  <h1>第75回　sin² の積分は「半角で次数を下げる」</h1>
+  <div class="formula">定積分 ∫（0 から π/2）sin²x dx を求めよ。</div>
+  <p>2乗のままでは積分できません。半角で次数を下げるのが唯一の道です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/trig-integral.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/trig-integral.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>sin²x = (1 − cos 2x)/2　／　cos²x = (1 + cos 2x)/2</strong></p>
+    <p>2乗のままでは積分できません。半角で「1次」に落とすのが唯一の道です（sin はマイナス、cos はプラス）。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>半角で次数を下げる</strong><div class="formula">sin²x = (1 - cos2x) / 2</div></li>
+    <li><strong>積分を分ける</strong><div class="formula">∫(0→π/2) (1/2) dx - ∫(0→π/2) (cos2x)/2 dx</div></li>
+    <li><strong>前半を計算</strong><div class="formula">(1/2) × (π/2) = π/4</div></li>
+    <li><strong>後半を計算</strong><div class="formula">[ sin2x / 4 ] (0→π/2) = (sinπ)/4 - 0 = 0 → 答え π/4</div><p>cos2x の積分は sin2x ÷ 2。中身の 2 で割るのを忘れないこと。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>区間の幅 π/2 に平均 1/2 をかけると π/4。同じ区間の ∫cos²x dx も π/4 で、足すと ∫1 dx = π/2 になり、つじつまが合います。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>cos(ax) の積分は a で割る</strong>。微分の逆だと理解すれば忘れません。</li>
+      <li><strong>偶数乗は半角、奇数乗は置換</strong>。sin³x なら sin²x = 1 − cos²x に直して cos x = t と置きます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>sin²x = (1 - cos2x)/2 で次数を下げる</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>∫(0 から π) sin²x dx
+        <details><summary>答え</summary><p>(1 − cos2x)/2 を積分して π/2</p></details>
+      </li>
+      <li>∫(0 から π/2) cos²x dx
+        <details><summary>答え</summary><p>(1 + cos2x)/2 を積分して π/4</p></details>
+      </li>
+      <li>∫(0 から π/2) sin x cos x dx
+        <details><summary>答え</summary><p>sin x cos x = (sin2x)/2 なので [−cos2x/4] = 1/2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="area-between-curves.html">← 第74回 曲線で囲まれた面積</a>　｜　<a href="vector-components.html">第76回 ベクトルの垂直と平行 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,215 @@
+{
+  "title": "分詞（現在分詞と過去分詞）",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。括弧の中を適する分詞にしてください。1、ザ ガール 括弧 シット バイ ザ ウィンドウ イズ マイ カズン。2、ウィ ファウンド ザ ドア 括弧 ロック。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) The girl ( sit ) by the window",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　is my cousin.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) We found the door ( lock ).",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、修飾される名詞との関係だけを見ることです。その名詞が する側なら現在分詞のイング形、される側なら過去分詞にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "修飾される名詞との関係だけを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "する側 → 現在分詞 doing",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "される側 → 過去分詞 done",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。ザ ガール と シット の関係を作ります。少女が座る、なので する側です。よって現在分詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 名詞と動詞の関係",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the girl ← sit（少女が座る）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "する側なので現在分詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 名詞と動詞の関係"
+    },
+    {
+      "narration": "答えは シッティング。ザ ガール シッティング バイ ザ ウィンドウ イズ マイ カズン。関係代名詞を使った文と同じ意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 形を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The girl sitting by the window is my cousin.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= The girl who is sitting by the window",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 形を決める"
+    },
+    {
+      "narration": "2番です。ザ ドア と ロック の関係は、ドアは鍵をかけられる、です。される側なので過去分詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 名詞と動詞の関係",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the door ← lock（ドアは鍵をかけられる）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "される側なので過去分詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 名詞と動詞の関係"
+    },
+    {
+      "narration": "答えは ロックト。ウィ ファウンド ザ ドア ロックト。これは第1回のSVOCで、シーの位置に過去分詞が入った形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 形を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "We found the door locked.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：sitting / locked（SVOCのC＝過去分詞）",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 形を決める"
+    },
+    {
+      "narration": "検算です。分詞を関係代名詞にもどしてみます。ザ ガール フー イズ シッティング、ザ ドア ウィッチ ワズ ロックト。どちらも自然に戻れば正しい形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the girl who is sitting …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the door which was locked",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "戻せれば正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。分詞が1語だけなら名詞の前、2語以上のかたまりなら名詞の後ろに置きます。それから、感情を表す動詞は要注意です。人が驚くのは サプライズド、物事が驚かせるのは サプライジング です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1語は名詞の前、2語以上は後ろ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "surprised（人）／surprising（物事）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。修飾される名詞が する側なら ドゥーイング、される側なら ダン。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "修飾される名詞が「する側」なら doing、「される側」なら done。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：There were many ( fall ) leaves on the path. を適する分詞に。 → fallen（葉は落ちてしまったもの＝された側）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

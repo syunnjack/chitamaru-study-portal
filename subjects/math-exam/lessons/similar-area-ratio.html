@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>相似と面積比（DE∥BC、AD:DB = 2:1）｜高校受験数学 第7回</title>
+<meta name="description" content="平行線を見たら相似、面積比は辺の比の2乗、四角形は引き算。△ADE と四角形DBCE の面積比 4 : 5 を、図と音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校受験数学</a> ／ 第7回 相似と面積比</div>
+
+<main class="wrap">
+  <h1>第7回　相似の面積比は「辺の比の2乗」</h1>
+  <div class="formula">三角形 ABC の辺 AB 上に点 D、辺 AC 上に点 E をとる。DE ∥ BC、AD : DB = 2 : 1 のとき、△ADE と四角形 DBCE の面積の比を求めよ。</div>
+
+  <p><img src="../../../assets/figures/similar-area-ratio.png" alt="三角形ABCとDE∥BC、AD:DB = 2:1 の図" style="max-width:100%;height:auto;border:1px solid var(--line);border-radius:12px"></p>
+
+  <video controls preload="metadata" src="../../../videos/similar-area-ratio.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/similar-area-ratio.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>辺の比 m : n → 面積の比 m² : n²　／　四角形 = 大きい△ − 小さい△</strong></p>
+    <p>平行線を見たら相似。まず相似な2つの三角形を見つけます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>相似を見つける</strong><div class="formula">DE ∥ BC ＋ ∠A 共通　→　△ADE ∽ △ABC</div><p>同位角が等しく、∠A は共通なので2角相等。</p></li>
+    <li><strong>比を「全体」に直す</strong><div class="formula">AD : DB = 2 : 1　→　AD : AB = 2 : 3</div><p>ここを 2 : 1 のまま使うのが最大のミスです。</p></li>
+    <li><strong>2乗して面積比</strong><div class="formula">△ADE : △ABC = 2² : 3² = 4 : 9</div></li>
+    <li><strong>四角形は引き算</strong><div class="formula">四角形DBCE = 9 − 4 = 5</div><div class="formula">△ADE : 四角形DBCE = <strong>4 : 5</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>BC = 3、高さ 3 とすると △ABC = 4.5、DE = 2・高さ 2 で △ADE = 2。2 : (4.5 − 2) = 2 : 2.5 = 4 : 5 で一致します。</p>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>平行 → 相似 → 比を2乗 → 四角形は引き算</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>AD : DB = 1 : 2 のときの △ADE : 四角形DBCE
+        <details><summary>答え</summary><p>AD : AB = 1 : 3 → 1 : 9、四角形は 9 − 1 = 8 なので 1 : 8</p></details>
+      </li>
+      <li>D, E が中点のときの △ADE : △ABC
+        <details><summary>答え</summary><p>AD : AB = 1 : 2 → 1 : 4</p></details>
+      </li>
+      <li>△ADE : 四角形DBCE = 9 : 16 のときの AD : DB
+        <details><summary>答え</summary><p>△ADE : △ABC = 9 : 25 → AD : AB = 3 : 5 → AD : DB = 3 : 2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="locus-midpoint.html">← 第6回 中点の軌跡と面積最大</a>　｜　<a href="partial-fractions.html">第8回 分数の打ち消し →</a>　｜　<a href="../index.html">高校受験数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

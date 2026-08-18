@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>期待値と分散の求め方｜高校数学B 第32回</title>
+<meta name="description" content="さいころの目の期待値・分散・標準偏差。V(X) = E(X²) − {E(X)}² の1本で出す型を音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第32回 期待値と分散</div>
+
+<main class="wrap">
+  <h1>第32回　分散は「2乗の平均 − 平均の2乗」で出す</h1>
+  <div class="formula">さいころを1回投げて出る目を X とするとき、E(X)、V(X)、σ(X) を求めよ。</div>
+  <p>分散は定義式（偏差の2乗の平均）で計算すると必ず時間が足りません。使う式は1本だけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/expected-value-variance.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/expected-value-variance.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>V(X) = E(X²) − {E(X)}²、σ(X) = √V(X)</strong></p>
+    <div class="formula">E(X) = Σ x p（値 × 確率 を全部たす）</div>
+    <p>「2乗の平均 − 平均の2乗」。定義式より必ず速いので、こちらだけ覚えます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>期待値を出す</strong><div class="formula">E(X) = (1+2+3+4+5+6) × 1/6 = 21/6 = <strong>7/2</strong></div><p>1〜6 の真ん中の値なので、感覚とも一致します。</p></li>
+    <li><strong>2乗の平均を出す</strong><div class="formula">E(X²) = (1+4+9+16+25+36) × 1/6 = <strong>91/6</strong></div><p>「2乗してから平均」の順番を逆にしないこと。</p></li>
+    <li><strong>引き算する</strong><div class="formula">V(X) = 91/6 − (7/2)² = 182/12 − 147/12 = <strong>35/12</strong></div><div class="formula">σ(X) = √(35/12) = <strong>√105/6</strong> ≒ 1.71</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>分散は必ず 0 以上。データが 1〜6 に散らばっているので標準偏差は 1〜2 程度になるのが自然で、1.71 は妥当です。負や 5 超になったら計算ミスです。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>E(aX + b) = aE(X) + b、V(aX + b) = a²V(X)</strong>。平行移動 b は散らばりを変えないので分散に効きません。</li>
+      <li>標準偏差は X と同じ単位、分散は2乗の単位。<strong>どちらを問われているか</strong>を必ず確認して答えます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>V(X) = E(X²) − {E(X)}²（2乗の平均 − 平均の2乗）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>X = 1, 2, 3 を確率 1/2, 1/3, 1/6 でとるとき E(X) と V(X)
+        <details><summary>答え</summary><p>E = 1/2 + 2/3 + 1/2 = 5/3、E(X²) = 1/2 + 4/3 + 3/2 = 10/3 → V = 10/3 − 25/9 = 5/9</p></details>
+      </li>
+      <li>コインを2枚投げて表の出る枚数 X の E(X) と V(X)
+        <details><summary>答え</summary><p>E = 0×1/4 + 1×1/2 + 2×1/4 = 1、E(X²) = 0 + 1/2 + 1 = 3/2 → V = 3/2 − 1 = 1/2</p></details>
+      </li>
+      <li>さいころの目 X について Y = 2X + 3 の V(Y)
+        <details><summary>答え</summary><p>V(Y) = 2²V(X) = 4 × 35/12 = 35/3</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="complex-polar-form.html">← 第31回 複素数の極形式</a>　｜　<a href="grouped-sequence.html">第33回 群数列 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

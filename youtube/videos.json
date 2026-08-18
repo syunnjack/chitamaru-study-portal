@@ -1,0 +1,1920 @@
+{
+  "channel": {
+    "name": "知多丸の落ちこぼれ救済チャンネル",
+    "tagline": "難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+    "site": "https://syunnjack.github.io/chitamaru-study-portal/",
+    "channel_url": ""
+  },
+  "playlists": [
+    {
+      "id": "math-hs",
+      "name": "高校数学I・A｜暗記数学で解法の型をそろえる",
+      "badge": "高校数学",
+      "hashtags": "#高校数学 #数学I #数学A #暗記数学 #受験は要領 #大学受験"
+    },
+    {
+      "id": "math-exam",
+      "name": "高校受験数学｜入試で差がつく型",
+      "badge": "高校入試",
+      "hashtags": "#高校受験 #高校入試 #中学数学 #受験は要領"
+    },
+    {
+      "id": "math-jhs",
+      "name": "中学数学｜高校数学の土台になる計算の型",
+      "badge": "中学数学",
+      "hashtags": "#中学数学 #正負の数 #一次方程式 #連立方程式 #受験は要領"
+    },
+    {
+      "id": "english-hs",
+      "name": "高校英語｜英作文の型で覚える文法",
+      "badge": "高校英語",
+      "hashtags": "#高校英語 #英文法 #英作文 #受験は要領 #大学受験"
+    },
+    {
+      "id": "physics-hs",
+      "name": "高校物理｜図と立式の型で解く",
+      "badge": "高校物理",
+      "hashtags": "#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験"
+    },
+    {
+      "id": "toeic",
+      "name": "TOEIC｜スコアに直結する型",
+      "badge": "TOEIC",
+      "hashtags": "#TOEIC #英語学習 #Part5 #リスニング #受験は要領"
+    }
+  ],
+  "videos": [
+    {
+      "slug": "quadratic-vertex",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-vertex.html",
+      "title": "【高校数学I】放物線の頂点は平方完成だけ／y = x² + 12x + 20",
+      "thumb": [
+        "放物線の頂点",
+        "平方完成だけ",
+        "答え (−6, −16)"
+      ],
+      "hook": "「頂点を求めよ」と言われたら平方完成。ほかの方法を探さないのが要領です。",
+      "point": "係数の半分 → 2乗を引く、の3拍子で y = (x + 6)² − 16。検算は頂点のxを代入するだけ。"
+    },
+    {
+      "slug": "quadratic-formula",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-formula.html",
+      "title": "【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 7x + 5 = 0",
+      "thumb": [
+        "2次方程式",
+        "因数分解は10秒で見切る",
+        "x = (7 ± √29)/2"
+      ],
+      "hook": "因数分解を探す時間は10秒まで。出なければ即、解の公式に切り替えます。",
+      "point": "解の公式は「マイナスb、プラスマイナス ルート b²−4ac、割る2a」を声に出して覚える。"
+    },
+    {
+      "slug": "discriminant-count",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/discriminant-count.html",
+      "title": "【高校数学I】実数解の個数は解かずに判別式だけ／x² − 4x + 9 = 0",
+      "thumb": [
+        "実数解の個数",
+        "解かずに判別式",
+        "D = −20 → 0個"
+      ],
+      "hook": "「個数を求めよ」は解いてはいけません。判別式の符号だけ見ます。",
+      "point": "D > 0 で2個、D = 0 で1個、D < 0 で0個。グラフが軸と交わる回数と同じ。"
+    },
+    {
+      "slug": "sine-rule",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/sine-rule.html",
+      "title": "【高校数学I】正弦定理で辺を出す／A = 30°, C = 105°, BC = 4",
+      "thumb": [
+        "正弦定理",
+        "角2つと辺1つなら即",
+        "CA = 4√2"
+      ],
+      "hook": "角が2つ分かれば残り1つは引き算。あとは正弦定理に入れるだけです。",
+      "point": "「辺と、その向かい合う角」がセットで2組そろったら正弦定理。"
+    },
+    {
+      "slug": "triangle-inequality",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/triangle-inequality.html",
+      "title": "【高校数学I】三角形の成立条件は場合分け不要／3辺が 5, x+2, 8",
+      "thumb": [
+        "三角形の成立条件",
+        "場合分けは不要",
+        "1 < x < 11"
+      ],
+      "hook": "3つの不等式を書く必要はありません。「差 < 残り < 和」の1行で終わります。",
+      "point": "|b − c| < a < b + c。最大辺がどれかを気にしなくてよくなる形です。"
+    },
+    {
+      "slug": "assumed-mean",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/assumed-mean.html",
+      "title": "【高校数学I】仮平均法でズレだけ足す平均の出し方",
+      "thumb": [
+        "仮平均法",
+        "ズレだけ足す",
+        "平均 62"
+      ],
+      "hook": "3桁の足し算はしません。基準からのズレだけを足します。",
+      "point": "平均 = 仮平均 + ズレの平均。計算ミスが激減する、試験場で効く技。"
+    },
+    {
+      "slug": "combinations",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/combinations.html",
+      "title": "【高校数学A】組合せは2つの道具で一瞬／₈₀C₇₇ と ₁₅C₉ + ₁₅C₁₀",
+      "thumb": [
+        "組合せ",
+        "小さい方に直す＋パスカル",
+        "82160 と 8008"
+      ],
+      "hook": "Cの下が大きいときは、小さい方に置き換える。これだけで計算量が激減します。",
+      "point": "nCr = nC(n−r) と、nCr + nC(r+1) = (n+1)C(r+1)。この2つで入試のCは足ります。"
+    },
+    {
+      "slug": "completing-square",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/completing-square.html",
+      "title": "【高校数学I】x²の係数が1でない平方完成は3拍子／y = 2x² − 12x + 5",
+      "thumb": [
+        "係数が1でない",
+        "平方完成は3拍子",
+        "y = 2(x−3)² − 13"
+      ],
+      "hook": "まず係数でくくる。中でだけ平方完成する。最後にくくった数を戻す。",
+      "point": "「くくる → 中で完成 → 分配して戻す」の順を固定すれば符号ミスが消えます。"
+    },
+    {
+      "slug": "domain-max-min",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/domain-max-min.html",
+      "title": "【高校数学I】定義域つき最大・最小は3点だけ調べる／0 ≦ x ≦ 3",
+      "thumb": [
+        "定義域つき最大最小",
+        "調べるのは3点だけ",
+        "頂点と両端"
+      ],
+      "hook": "グラフ全体を考えると迷います。見るのは「頂点・左端・右端」だけです。",
+      "point": "頂点が定義域の中にあるかを最初に判定。外なら端の2点だけで決まります。"
+    },
+    {
+      "slug": "graph-translation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/graph-translation.html",
+      "title": "【高校数学I】平行移動は「符号が逆」だけ覚える／検算は頂点",
+      "thumb": [
+        "平行移動",
+        "符号が逆になる",
+        "検算は頂点で"
+      ],
+      "hook": "xの移動は符号が逆、yの移動はそのまま。迷ったら頂点で検算します。",
+      "point": "y = f(x) を右p・上q → y − q = f(x − p)。頂点の移動先と合うか必ず確認。"
+    },
+    {
+      "slug": "cosine-rule",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/cosine-rule.html",
+      "title": "【高校数学I】余弦定理か正弦定理かの見分け方／b=3, c=5, A=60°",
+      "thumb": [
+        "余弦定理",
+        "2辺とはさむ角なら",
+        "a = √19"
+      ],
+      "hook": "「2辺とその間の角」なら余弦定理、「辺と向かい合う角が2組」なら正弦定理。",
+      "point": "a² = b² + c² − 2bc cos A。三平方の定理に補正がついた形として覚える。"
+    },
+    {
+      "slug": "triangle-area",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/triangle-area.html",
+      "title": "【高校数学I】高さが無くても面積は出る／S = ½bc sin A",
+      "thumb": [
+        "三角形の面積",
+        "高さがなくても出る",
+        "S = ½bc sin A"
+      ],
+      "hook": "高さを探して止まるのが失点の原因。2辺とはさむ角があれば面積は出ます。",
+      "point": "S = ½ bc sin A。はさむ角がカギ。sin の値は30・45・60°を即答できるように。"
+    },
+    {
+      "slug": "gcd-lcm",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/gcd-lcm.html",
+      "title": "【高校数学A】公約数・公倍数は素因数分解の指数で決まる／40 と 60",
+      "thumb": [
+        "公約数と公倍数",
+        "素因数分解の指数で決まる",
+        "GCD 20 ／ LCM 120"
+      ],
+      "hook": "書き出しません。素因数分解して、指数の小さい方・大きい方を取るだけです。",
+      "point": "公約数は最大公約数の約数、公倍数は最小公倍数の倍数。ここまでセットで覚える。"
+    },
+    {
+      "slug": "telescoping-product-sum",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/telescoping-product-sum.html",
+      "title": "【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21",
+      "thumb": [
+        "20項が1行で消える",
+        "3つの積の差を作る",
+        "答え 3080"
+      ],
+      "hook": "足し算を並べる前に、各項を「差」に化けさせます。",
+      "point": "k(k+1) = {T(k) − T(k−1)} ÷ 3（T(k) = k(k+1)(k+2)）。打ち消して 20·21·22 ÷ 3 = 3080。"
+    },
+    {
+      "slug": "pythagoras-altitude",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/pythagoras-altitude.html",
+      "title": "【高校入試】斜辺への垂線は「面積2通り」で一発／AB=6, BC=8",
+      "thumb": [
+        "斜辺への垂線",
+        "面積を2通りで書く",
+        "BH = 24/5"
+      ],
+      "hook": "相似で長々と解く前に、面積を2通りで書けば1行で出ます。",
+      "point": "½·AB·BC = ½·AC·BH。垂線の長さは面積から逆算するのが最速。"
+    },
+    {
+      "slug": "squares-heptagon",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/squares-heptagon.html",
+      "title": "【高校入試・図形の証明】正方形2つと七角形の面積／74 + 30√3 cm²",
+      "thumb": [
+        "正方形2つの図",
+        "90°を足し引きして合同",
+        "74 + 30√3 cm²"
+      ],
+      "hook": "材料は「正方形の等辺」「正方形の90°」「垂線の90°」だけ。角は足し引きで作ります。",
+      "point": "合同を作ったら、面積は頂点から切り分けて、合同な三角形を数える。"
+    },
+    {
+      "slug": "circle-chords",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/circle-chords.html",
+      "title": "【高校入試・円】直交する2弦と網目部分の面積／65π/8 + 2",
+      "thumb": [
+        "直交する2弦",
+        "方べき＋弓形に切る",
+        "65π/4 と 65π/8 + 2"
+      ],
+      "hook": "交わる弦は方べきの定理。円の面積は r を出さず r² を出します。",
+      "point": "弓形 = 扇形 − 三角形。直交する2弦なら扇形2つの和は円の半分になる。"
+    },
+    {
+      "slug": "factor-x4",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/factor-x4.html",
+      "title": "【高校入試・因数分解】x^4 + 4 は平方の差にする／3問まとめ",
+      "thumb": [
+        "x^4 + 4 型",
+        "平方の差を作る",
+        "(x²+2x+2)(x²−2x+2)"
+      ],
+      "hook": "たすきがけが効かない4乗の式は、（　）² −（　）² を作りにいきます。",
+      "point": "足りない中央の項を足して引く。検算は x = 1 の代入で10秒。"
+    },
+    {
+      "slug": "locus-midpoint",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/locus-midpoint.html",
+      "title": "【高校入試・軌跡】中点が動いてできる線は半径1/2の円／3π cm と 9/2 cm²",
+      "thumb": [
+        "中点が動く線",
+        "半径1/2の円になる",
+        "3π cm と 9/2 cm²"
+      ],
+      "hook": "動く点と固定点の中点は、固定点から見て1/2に縮んだ図形をえがきます。",
+      "point": "面積の最大は「固定される底辺 × 動く高さ」に分ける。中点で切れば面積は半分。"
+    },
+    {
+      "slug": "quadratic-inequality",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-inequality.html",
+      "title": "【高校数学I・2次不等式】x² − 5x + 6 > 0／「＞0は外側、＜0は内側」だけ",
+      "thumb": [
+        "x² − 5x + 6 > 0",
+        "> 0 は外側 / < 0 は内側",
+        "x < 2 , 3 < x"
+      ],
+      "hook": "不等号の向きで迷うのは、グラフのどちら側かを決めていないからです。",
+      "point": "因数分解で境目を出す → 型で外側か内側を選ぶ。x²の係数が負なら −1 倍して不等号を反転。"
+    },
+    {
+      "slug": "variance-sd",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/variance-sd.html",
+      "title": "【高校数学I・データの分析】分散は「2乗の平均 − 平均の2乗」／2,4,6,8,10 の標準偏差",
+      "thumb": [
+        "2, 4, 6, 8, 10",
+        "2乗の平均 − 平均の2乗",
+        "分散 8 / 標準偏差 2√2"
+      ],
+      "hook": "偏差を1つずつ書き出す前に、公式1本で終わらせます。",
+      "point": "同じ数を足しても分散は不変。k倍すると分散は k² 倍、標準偏差は k 倍。"
+    },
+    {
+      "slug": "similar-area-ratio",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/similar-area-ratio.html",
+      "title": "【高校入試・相似】面積比は辺の比の2乗／△ADE : 四角形DBCE = 4 : 5",
+      "thumb": [
+        "DE ∥ BC, AD:DB = 2:1",
+        "面積比は辺の比の2乗",
+        "△ADE : 四角形 = 4 : 5"
+      ],
+      "hook": "平行線を見たら相似。比は「部分どうし」ではなく全体に直してから2乗します。",
+      "point": "AD:DB = 2:1 → AD:AB = 2:3 → 4:9。四角形は大きい三角形から引き算。"
+    },
+    {
+      "slug": "complement-probability",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/complement-probability.html",
+      "title": "【高校数学A】「少なくとも1回」は余事象で引き算／さいころ2回で6が出る確率",
+      "thumb": [
+        "少なくとも1回",
+        "余事象で引き算",
+        "答え 11/36"
+      ],
+      "hook": "「少なくとも」と書いてあったら、数え上げをやめて引き算に切り替えます。",
+      "point": "1 −（1回も出ない確率）= 1 − (5/6)² = 11/36。場合分けが1本にまとまります。"
+    },
+    {
+      "slug": "trig-identity",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-identity.html",
+      "title": "【高校数学I】sinθ + cosθ が出たら2乗する／sinθcosθ の値",
+      "thumb": [
+        "sinθ + cosθ = 1/2",
+        "2乗して 1 に変える",
+        "答え −3/8"
+      ],
+      "hook": "θ を求めようとすると詰まります。和が来たら、迷わず両辺を2乗。",
+      "point": "sin²θ + cos²θ = 1 を代入して 1 + 2sinθcosθ = 1/4 → sinθcosθ = −3/8。3乗の和も同じ型。"
+    },
+    {
+      "slug": "partial-fractions",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/partial-fractions.html",
+      "title": "【高校入試】分数の和は差に直して打ち消す／1/(1·2) + … + 1/(9·10)",
+      "thumb": [
+        "分数9個のたし算",
+        "差に直して打ち消す",
+        "答え 9/10"
+      ],
+      "hook": "通分して9個たすのは負けです。差の形に直せば、真ん中が全部消えます。",
+      "point": "1/(n(n+1)) = 1/n − 1/(n+1)。残るのは両端だけで、1 − 1/10 = 9/10。"
+    },
+    {
+      "slug": "adjacent-permutation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/adjacent-permutation.html",
+      "title": "【高校数学A】「隣り合う」はひとかたまり／6人でAとBが隣り合う並び方",
+      "thumb": [
+        "6人が1列に並ぶ",
+        "A と B が隣り合う",
+        "答え 240通り"
+      ],
+      "hook": "数え上げようとすると死にます。「隣り合う」は縛ってひとかたまりにするだけ。",
+      "point": "[AB] と残り4人で 5! = 120、かたまりの中が 2! = 2 → 240通り。隣り合わないは 720 − 240 = 480。"
+    },
+    {
+      "slug": "linear-diophantine",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/linear-diophantine.html",
+      "title": "【高校数学A】不定方程式の整数解／3x + 5y = 1 をすべて求める",
+      "thumb": [
+        "3x + 5y = 1",
+        "1組見つけて引く",
+        "x = 5k + 2, y = −3k − 1"
+      ],
+      "hook": "答えが無限にある方程式。でも書き方は3手順で1行に決まります。",
+      "point": "(2, −1) を1組見つけて引くと 3(x − 2) = −5(y + 1)。3と5は互いに素なので x − 2 = 5k。"
+    },
+    {
+      "slug": "parabola-line-area",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/parabola-line-area.html",
+      "title": "【高校入試】放物線と直線でできる三角形の面積／y = x² と y = x + 2",
+      "thumb": [
+        "y = x² と y = x + 2",
+        "y切片で2つに切る",
+        "答え 3"
+      ],
+      "hook": "入試の関数の大問は、この1行で終わります。½ ×（y切片）×（xの差）。",
+      "point": "交点は x = −1, 2、y切片は 2。OC を底辺に2つに分けて 1 + 2 = 3。座標の公式でも検算できます。"
+    },
+    {
+      "slug": "arithmetic-series",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/arithmetic-series.html",
+      "title": "【高校数学B】等差数列の和は平均 × 項数／初項3・公差5の第20項までの和",
+      "thumb": [
+        "初項 3、公差 5",
+        "平均 × 項数",
+        "答え 1010"
+      ],
+      "hook": "和の公式は2つ覚えなくていい。使う方を1つに固定するのが要領です。",
+      "point": "aₙ = 5n − 2 から a₂₀ = 98。S₂₀ = 20(3 + 98)/2 = 1010。範囲つきの和は S₂₀ − S₉ で引き算。"
+    },
+    {
+      "slug": "circle-tangent",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/circle-tangent.html",
+      "title": "【高校数学II】円の接線は置きかえるだけ／x² + y² = 25 上の点(3, 4)",
+      "thumb": [
+        "円 x² + y² = 25",
+        "接点で置きかえる",
+        "答え 3x + 4y = 25"
+      ],
+      "hook": "接線は5秒で終わります。x² を x₁x、y² を y₁y に置きかえるだけ。",
+      "point": "根拠は「半径 ⊥ 接線」。中心からの距離 25/5 = 5 が半径と一致することで検算できます。"
+    },
+    {
+      "slug": "salt-water-mix",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/salt-water-mix.html",
+      "title": "【高校入試】食塩水は食塩の重さで式を立てる／5%と12%で8%を350g",
+      "thumb": [
+        "5% と 12% を混ぜる",
+        "食塩の重さで立式",
+        "答え 200g と 150g"
+      ],
+      "hook": "パーセントは足せません。混ぜても変わらないのは、食塩水と食塩の重さだけ。",
+      "point": "x + y = 350 と 5x + 12y = 2800 → 200 g と 150 g。てんびん（距離3:4 → 重さ4:3）で見当もつく。"
+    },
+    {
+      "slug": "cubic-extrema",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/cubic-extrema.html",
+      "title": "【高校数学II】3次関数の極値は微分してゼロ／x³ − 3x² − 9x + 5",
+      "thumb": [
+        "f′(x) = 3(x−3)(x+1)",
+        "符号を見て代入",
+        "極大 10・極小 −22"
+      ],
+      "hook": "極値でつまずく原因は1つ。値を出すのは f(x)、微分した式ではありません。",
+      "point": "増減表で x = −1 が極大、x = 3 が極小。極大値 × 極小値 < 0 なので f(x) = 0 の実数解は3個。"
+    },
+    {
+      "slug": "logarithm-calc",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/logarithm-calc.html",
+      "title": "【高校数学II】対数は1つのログにまとめるだけ／log₂ 6 + log₂ 12 − log₂ 9",
+      "thumb": [
+        "和は積、差は商",
+        "真数は 8 = 2³",
+        "答え 3"
+      ],
+      "hook": "対数は公式を思い出す科目ではありません。真数を1つの数にする作業です。",
+      "point": "log₂(6×12÷9) = log₂ 8 = 3。底がちがうときは底の変換で log₂ 3 × log₃ 8 = 3。"
+    },
+    {
+      "slug": "speed-round-trip",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/speed-round-trip.html",
+      "title": "【高校入試】速さの往復は時間で式を立てる／時速4kmと6kmで合計5時間",
+      "thumb": [
+        "行き 4km/h、帰り 6km/h",
+        "時間で立式",
+        "答え 片道 12km"
+      ],
+      "hook": "合計が時間で与えられたら、時間の式1本で終わります。",
+      "point": "x/4 + x/6 = 5 → 12 km。往復の平均は 5 ではなく 24 ÷ 5 = 時速 4.8 km。"
+    },
+    {
+      "slug": "signed-numbers",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/signed-numbers.html",
+      "title": "【中学数学】正負の数は符号を先に決める／(−3)² × (−2) + (−4)² ÷ (−8)",
+      "thumb": [
+        "符号が先、数はあと",
+        "(−3)² = 9、−3² = −9",
+        "答え −20"
+      ],
+      "hook": "高校数学でつまずく原因の多くは、実はこの符号処理です。",
+      "point": "×÷ はマイナスの個数で符号を決める。かっこの有無で (−3)² = 9、−3² = −9 と変わる。"
+    },
+    {
+      "slug": "linear-equation-word",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/linear-equation-word.html",
+      "title": "【中学数学】一次方程式の文章題は x の置き方で決まる／12個で840円",
+      "thumb": [
+        "ペン90円・ノート60円",
+        "90x + 60(12 − x) = 840",
+        "答え ペン 4 本"
+      ],
+      "hook": "文章題が苦手なのは才能ではなく、置き方の順番を知らないだけです。",
+      "point": "聞かれたものを x、もう一方を (12 − x) で表し、残った条件（代金）で式を1本立てる。"
+    },
+    {
+      "slug": "simultaneous-equations",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/simultaneous-equations.html",
+      "title": "【中学数学】連立方程式は消す文字を先に決める／2x + 3y = 12、3x − 2y = 5",
+      "thumb": [
+        "係数を最小公倍数にそろえる",
+        "同符号は引く・異符号は足す",
+        "x = 3、y = 2"
+      ],
+      "hook": "連立方程式は考える問題ではなく、手順を固定すれば必ず解ける計算です。",
+      "point": "y の係数を ±6 にそろえて足す → 13x = 39。検算は代入しなかった式で行う。"
+    },
+    {
+      "slug": "divisor-count-condition",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/divisor-count-condition.html",
+      "title": "【高校入試】n/24 と 1080/n がともに整数となる n の個数／答え 6個",
+      "thumb": [
+        "24の倍数かつ1080の約数",
+        "n = 24m → m は 45 の約数",
+        "答え 6 個"
+      ],
+      "hook": "分数が整数、という条件は「倍数」「約数」に言いかえるだけです。",
+      "point": "45 = 3² × 5 で約数は 6 個。n = 24, 72, 120, 216, 360, 1080。"
+    },
+    {
+      "slug": "remainder-conditions",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/remainder-conditions.html",
+      "title": "【高校入試】7で割ると4余り、9で割ると6余る自然数／4番目は249",
+      "thumb": [
+        "余りより「不足」を見る",
+        "n + 3 は 63 の倍数",
+        "答え 249"
+      ],
+      "hook": "余りではなく、あといくつで割り切れるかを見ると暗算で終わります。",
+      "point": "不足がどちらも3 → n = 63k − 3 → 60, 123, 186, 249。4番目は249。"
+    },
+    {
+      "slug": "square-plus-60",
+      "playlist": "math-exam",
+      "page": "subjects/math-exam/lessons/square-plus-60.html",
+      "title": "【高校入試】n² + 60 が平方数になる自然数 n をすべて／2・14",
+      "thumb": [
+        "m² とおく",
+        "(m − n)(m + n) = 60",
+        "答え n = 2, 14"
+      ],
+      "hook": "平方数の条件は、積が定数の形に持ち込むだけです。",
+      "point": "2数は同じ偶奇なので両方偶数：2×30、6×10 → n = 14, 2。64・256。"
+    },
+    {
+      "slug": "trig-synthesis",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-synthesis.html",
+      "title": "【高校数学II】三角関数の合成は1つの sin にまとめるだけ／最大2・最小−2",
+      "thumb": [
+        "y = sinθ + √3 cosθ",
+        "= 2 sin(θ + π/3)",
+        "最大 2・最小 −2"
+      ],
+      "hook": "サインとコサインが混ざったら、合成して1つのサインにするだけです。",
+      "point": "振幅は √(a²+b²)、α は点 (a, b) の角。θ = π/6 で最大2、θ = 7π/6 で最小−2。"
+    },
+    {
+      "slug": "definite-integral-area",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/definite-integral-area.html",
+      "title": "【高校数学II】定積分で面積を出すコツは「上 − 下」／y = x² − 2x と x 軸で 4/3",
+      "thumb": [
+        "交点は x = 0, 2",
+        "∫(上 − 下)dx",
+        "面積 4/3"
+      ],
+      "hook": "面積は公式より前に、どちらが上かを決めるのが先です。",
+      "point": "∫₀²(2x − x²)dx = 4 − 8/3 = 4/3。6分の公式でも 1×2³/6 = 4/3。"
+    },
+    {
+      "slug": "geometric-series",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/geometric-series.html",
+      "title": "【高校数学B】等比数列の和は「公比をかけて引く」／初項3・公比2で S₈ = 765",
+      "thumb": [
+        "Sₙ = a(rⁿ−1)/(r−1)",
+        "3(2⁸ − 1)/1",
+        "S₈ = 765"
+      ],
+      "hook": "公式の作り方を1回だけ手で確認すれば、二度と忘れません。",
+      "point": "2S − S で真ん中が全部消えて 768 − 3 = 765。r = 1 のときだけ Sₙ = an。"
+    },
+    {
+      "slug": "recurrence-relation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/recurrence-relation.html",
+      "title": "【高校数学B】漸化式 aₙ₊₁ = 2aₙ + 3 の一般項／特性方程式で等比にする",
+      "thumb": [
+        "x = 2x + 3 → x = −3",
+        "aₙ + 3 は等比",
+        "aₙ = 2ⁿ⁺¹ − 3"
+      ],
+      "hook": "漸化式は型が5つだけ。今日はいちばん出る「かける定数＋定数」型です。",
+      "point": "aₙ₊₁ + 3 = 2(aₙ + 3)、初項4・公比2 → aₙ + 3 = 2ⁿ⁺¹。検算は最初の2項で。"
+    },
+    {
+      "slug": "limit-indeterminate",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/limit-indeterminate.html",
+      "title": "【高校数学III】極限の不定形は2択／√(n² + 3n) − n = 3/2",
+      "thumb": [
+        "∞ − ∞ は有理化",
+        "3n /(√(n²+3n)+n)",
+        "答え 3/2"
+      ],
+      "hook": "∞ − ∞ はそのままでは出ません。やることは1つだけです。",
+      "point": "∞/∞ は最高次で割る、ルートの ∞−∞ は有理化。n = 1000 の代入で検算。"
+    },
+    {
+      "slug": "substitution-integral",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/substitution-integral.html",
+      "title": "【高校数学III】置換積分は「かたまりを t にする」／∫₀¹ x√(x²+1) dx",
+      "thumb": [
+        "t = x² + 1",
+        "区間も 1 → 2 に",
+        "(2√2 − 1)/3"
+      ],
+      "hook": "どこを t にするかを見抜くだけの作業です。",
+      "point": "中身の微分が外にあれば置換。区間の置きかえ忘れが最頻ミス。x が残ったら選び方が誤り。"
+    },
+    {
+      "slug": "vector-dot-angle",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/vector-dot-angle.html",
+      "title": "【高校数学C】ベクトルのなす角は内積 ÷ 大きさの積／(2,1) と (1,3) で45°",
+      "thumb": [
+        "内積 = 5",
+        "|a|=√5、|b|=√10",
+        "θ = 45°"
+      ],
+      "hook": "内積の2つの顔（成分と図形）をつなぐだけです。",
+      "point": "cosθ = 5/√50 = 1/√2 → 45°。内積0で垂直、負なら鈍角。"
+    },
+    {
+      "slug": "complex-polar-form",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/complex-polar-form.html",
+      "title": "【高校数学C】複素数のかけ算は「大きさはかける、角はたす」／(1 + √3i)⁶ = 64",
+      "thumb": [
+        "r = 2、θ = 60°",
+        "角は6倍で360°",
+        "z⁶ = 64"
+      ],
+      "hook": "大きさと角に分けてしまえば、指数の計算より簡単になります。",
+      "point": "ド・モアブル zⁿ = rⁿ(cos nθ + i sin nθ)。i をかけると90°回転。"
+    },
+    {
+      "slug": "expected-value-variance",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/expected-value-variance.html",
+      "title": "【高校数学B】期待値と分散／さいころの目で V(X) = E(X²) − {E(X)}² = 35/12",
+      "thumb": [
+        "E(X) = 7/2",
+        "E(X²) = 91/6",
+        "V(X) = 35/12"
+      ],
+      "hook": "分散は定義式で計算すると必ず時間が足りません。使う式は1本だけです。",
+      "point": "V(X) = E(X²) − {E(X)}²。V(aX + b) = a²V(X) で b は効かない。"
+    },
+    {
+      "slug": "grouped-sequence",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/grouped-sequence.html",
+      "title": "【高校数学B】群数列は群末 n(n+1)/2 で挟む／100 は第14群の9番目",
+      "thumb": [
+        "群末 = n(n+1)/2",
+        "91 < 100 ≦ 105",
+        "第14群の9番目"
+      ],
+      "hook": "群数列でやることは1つだけ。群の終わりが通算で何番目かを出すだけです。",
+      "point": "第n群の最初は n(n−1)/2 + 1。群の和は等差数列の和で出す。"
+    },
+    {
+      "slug": "product-rule-tangent",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/product-rule-tangent.html",
+      "title": "【高校数学III】積の微分と接線／y = x²eˣ の x = 1 で y = 3ex − 2e",
+      "thumb": [
+        "(fg)′ = f′g + fg′",
+        "f′(1) = 3e",
+        "y = 3ex − 2e"
+      ],
+      "hook": "接線は「通る点」と「傾き＝微分係数」だけ。聞かれ方が変わっても同じです。",
+      "point": "商の微分は (f′g − fg′)/g²。曲線外の点からの接線は接点を t と置く。"
+    },
+    {
+      "slug": "solid-of-revolution",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/solid-of-revolution.html",
+      "title": "【高校数学III】回転体の体積／y = √x を x 軸まわりに回して 8π",
+      "thumb": [
+        "V = π∫y²dx",
+        "y² = x",
+        "V = 8π"
+      ],
+      "hook": "切り口は半径 y の円。その面積 πy² を足し集めるだけです。",
+      "point": "面積は y、体積は y²。y 軸まわりは x を y の式に直す。"
+    },
+    {
+      "slug": "infinite-geometric-series",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/infinite-geometric-series.html",
+      "title": "【高校数学III】無限等比級数／1 + 1/3 + 1/9 + … = 3/2",
+      "thumb": [
+        "|r| < 1 で収束",
+        "S = a/(1 − r)",
+        "S = 3/2"
+      ],
+      "hook": "無限に足しても答えが有限になる理由と、使う式1本を押さえます。",
+      "point": "収束条件を必ず先に書く。循環小数もこの公式そのもの。"
+    },
+    {
+      "slug": "position-vector-centroid",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/position-vector-centroid.html",
+      "title": "【高校数学C】内分点と重心／BC を 2:1 に内分は D(5,6)、重心は G(4,4)",
+      "thumb": [
+        "(nA + mB)/(m+n)",
+        "D(5, 6)",
+        "G(4, 4)"
+      ],
+      "hook": "内分は比をたすきにかけて足す。重心は3点の平均、それだけです。",
+      "point": "外分は n を負にするだけ。重心は中線を 2:1 に内分する点。"
+    },
+    {
+      "slug": "space-vector-angle",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/space-vector-angle.html",
+      "title": "【高校数学C】空間ベクトルのなす角／(1,1,0) と (0,1,1) で 60°",
+      "thumb": [
+        "a·b = 1",
+        "|a||b| = 2",
+        "θ = 60°"
+      ],
+      "hook": "空間になっても平面と同じ式。成分が1つ増えるだけです。",
+      "point": "垂直は内積0。|a + b|² = |a|² + 2a·b + |b|² で2乗して展開。"
+    },
+    {
+      "slug": "ellipse-standard-form",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/ellipse-standard-form.html",
+      "title": "【高校数学C】楕円の標準形／x²/9 + y²/4 = 1 は長軸6・焦点 (±√5, 0)",
+      "thumb": [
+        "a = 3、b = 2",
+        "c = √(9 − 4)",
+        "焦点 (±√5, 0)"
+      ],
+      "hook": "楕円は分母を見るだけで、長軸・短軸・焦点が全部決まります。",
+      "point": "焦点は差のルート、双曲線は c² = a² + b² で足し算。"
+    },
+    {
+      "slug": "linear-function-equation",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/linear-function-equation.html",
+      "title": "【中学数学】1次関数の式は傾き→切片の順／2点 (1,3) と (4,9) で y = 2x + 1",
+      "thumb": [
+        "傾き = 6 ÷ 3 = 2",
+        "3 = 2×1 + b",
+        "y = 2x + 1"
+      ],
+      "hook": "1次関数の式を出す手順は、いつも同じ2ステップです。",
+      "point": "傾きは変化の割合。平行は傾きが等しい、垂直は傾きの積が −1。"
+    },
+    {
+      "slug": "pythagoras-basic",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/pythagoras-basic.html",
+      "title": "【中学数学】三平方の定理／AB=5・BC=12 で AC=13、垂線は面積2通りで 60/13",
+      "thumb": [
+        "5² + 12² = 169",
+        "AC = 13",
+        "BH = 60/13"
+      ],
+      "hook": "斜辺は直角の向かい側。どの辺が斜辺かを見るだけです。",
+      "point": "覚える組は 3・4・5／5・12・13／8・15・17。垂線は面積を2通りで表して出す。"
+    },
+    {
+      "slug": "quadratic-ax2",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/quadratic-ax2.html",
+      "title": "【中学数学】y = ax² の変化の割合は a(p+q) で一撃／y = 2x²、x が 1→4",
+      "thumb": [
+        "y = ax² の変化の割合",
+        "a(p + q) で一撃",
+        "答え 10"
+      ],
+      "hook": "変化の割合を毎回ていねいに計算するのは時間の無駄。1行で終わらせます。",
+      "point": "y = ax² の変化の割合 = a(p + q)。1次関数と違い、区間ごとに変わるのが落とし穴。"
+    },
+    {
+      "slug": "inscribed-angle",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/inscribed-angle.html",
+      "title": "【中学数学】円周角は中心角の半分／∠BOC = 116°、直径なら 90°",
+      "thumb": [
+        "円周角の定理",
+        "中心角の半分",
+        "58° と 90°"
+      ],
+      "hook": "角度を見る前に「どの弧に立つ角か」を決めれば、円の角度問題は一瞬です。",
+      "point": "円周角＝中心角÷2／同じ弧の円周角は等しい／直径に立つ円周角は 90°。この3行だけ。"
+    },
+    {
+      "slug": "dice-multiple-sum",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/dice-multiple-sum.html",
+      "title": "【中学数学】確率は全部の通り数を先に／2つのさいころ、和が5の倍数は 7/36",
+      "thumb": [
+        "確率の数え上げ",
+        "先に 36通り",
+        "答え 7/36"
+      ],
+      "hook": "確率の失点は数え上げの前の準備を飛ばすこと。順番を決めて書けば落としません。",
+      "point": "2つのさいころは大小を区別して 36通り。和が5で4通り、和が10で3通り。"
+    },
+    {
+      "slug": "quartile-boxplot",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quartile-boxplot.html",
+      "title": "【高校数学I】四分位数は中央値→半分ずつの中央値／Q1=10、Q3=21、四分位範囲11",
+      "thumb": [
+        "四分位数と箱ひげ図",
+        "中央値→半分ずつ",
+        "四分位範囲 11"
+      ],
+      "hook": "データの分析は手順を固定すれば取りこぼしません。",
+      "point": "まず中央値、次に下半分と上半分の中央値。四分位範囲は Q3 − Q1。箱ひげ図から平均値は読めません。"
+    },
+    {
+      "slug": "correlation-coefficient",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/correlation-coefficient.html",
+      "title": "【高校数学I】相関係数は偏差の表で3つの合計だけ／答え r = 0.9",
+      "thumb": [
+        "相関係数",
+        "偏差の表で3つの合計",
+        "答え r = 0.9"
+      ],
+      "hook": "公式は長いですが、やることは偏差の表を1つ作るだけです。",
+      "point": "r = Σ(dx・dy) ÷ √(Σdx² × Σdy²)。−1 ≦ r ≦ 1 と符号で検算。相関 ≠ 因果。"
+    },
+    {
+      "slug": "conditional-probability",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/conditional-probability.html",
+      "title": "【高校数学A】条件付き確率は分母を取り替えるだけ／赤5白3で 4/7、5/14、5/8",
+      "thumb": [
+        "条件付き確率",
+        "分母を取り替える",
+        "4/7、5/14、5/8"
+      ],
+      "hook": "「もどさずに」と書いてあれば、残りの玉を数え直すだけです。",
+      "point": "P_A(B) = P(A∩B) ÷ P(A)。2回目が赤も 5/8 で、何回目でも同じという対称性で検算できます。"
+    },
+    {
+      "slug": "square-root-calc",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/square-root-calc.html",
+      "title": "【中学数学】平方根は中を小さくしてから足す／√18 + √50 − √8 = 6√2、有理化まで",
+      "thumb": [
+        "平方根の計算",
+        "中を小さくして足す",
+        "6√2 と 2√3"
+      ],
+      "hook": "高校数学でも毎日使う計算。手順を固定すればミスが消えます。",
+      "point": "中を小さくする→有理化→同じ√どうしだけ足す。√(9+16) は 5、3+4 ではありません。"
+    },
+    {
+      "slug": "quadratic-determine",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-determine.html",
+      "title": "【高校数学I】2次関数の決定は頂点の形で置くだけ／頂点 (2, −3)、点 (4, 5) を通る",
+      "thumb": [
+        "2次関数の決定",
+        "頂点の形で置く",
+        "y = 2(x−2)² − 3"
+      ],
+      "hook": "条件の書き方で、置く形が決まります。",
+      "point": "頂点が分かれば y = a(x − p)² + q。代入して a を出し、展開形で検算します。"
+    },
+    {
+      "slug": "quadratic-intersection",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-intersection.html",
+      "title": "【高校数学I】共有点の個数は判別式の符号だけ／y = x² + 3 と y = 2x + k",
+      "thumb": [
+        "共有点の個数",
+        "判別式の符号だけ",
+        "D/4 = k − 2"
+      ],
+      "hook": "「共有点の個数」「接する」は、すべて判別式の話に翻訳できます。",
+      "point": "連立して y を消し、D/4 = k − 2 の符号で場合分け。境界の k = 2 を代入して検算します。"
+    },
+    {
+      "slug": "quadratic-root-signs",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/quadratic-root-signs.html",
+      "title": "【高校数学I】異符号の2解は「積 < 0」だけ／判別式を書かなくてよい理由",
+      "thumb": [
+        "解の符号の条件",
+        "異符号 ⇔ 積 < 0",
+        "答え m < 2"
+      ],
+      "hook": "解を求めずに、係数の条件だけで決めます。",
+      "point": "異符号なら積 &lt; 0 の1つだけ。2解とも正なら D ≧ 0・和 &gt; 0・積 &gt; 0 の3点セットです。"
+    },
+    {
+      "slug": "cosine-rule-angle",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/cosine-rule-angle.html",
+      "title": "【高校数学I】3辺が分かれば角は余弦定理の逆／7, 8, 5 で ∠A = 60°",
+      "thumb": [
+        "余弦定理の逆",
+        "3辺 → 角",
+        "答え 60°"
+      ],
+      "hook": "3辺が分かって角を聞かれたら、道は1本です。",
+      "point": "cos A = (b² + c² − a²)/(2bc)。向かい側の辺だけマイナス。cos が負なら鈍角です。"
+    },
+    {
+      "slug": "circumradius",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/circumradius.html",
+      "title": "【高校数学I】外接円の半径は「2R =」で書く／a = 6、A = 30° で R = 6",
+      "thumb": [
+        "外接円の半径",
+        "2R = a / sin A",
+        "R = 6、b = 6√2"
+      ],
+      "hook": "外接円と聞いたら正弦定理。書き方ひとつでミスが消えます。",
+      "point": "2R = a / sin A の形で書けば R と 2R を混同しません。b = 2R sin B も同じ式から。"
+    },
+    {
+      "slug": "heron-area",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/heron-area.html",
+      "title": "【高校数学I】3辺だけならヘロンの公式／13, 14, 15 の面積は 84",
+      "thumb": [
+        "ヘロンの公式",
+        "s は周の半分",
+        "答え 84"
+      ],
+      "hook": "3辺だけ与えられたときの最短ルートです。",
+      "point": "s = 21、S = √(21×8×7×6)。√の中は素因数分解して 49×16×9 にまとめると一瞬です。"
+    },
+    {
+      "slug": "incircle-radius",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/incircle-radius.html",
+      "title": "【高校数学I】内接円の半径は S = rs だけ／5, 12, 13 で r = 2、R = 13/2",
+      "thumb": [
+        "内接円の半径",
+        "S = r × 周の半分",
+        "r = 2、R = 13/2"
+      ],
+      "hook": "内接円は、面積を2通りで表すだけで出ます。",
+      "point": "r = S ÷ s。直角三角形なら r = (a + b − c)/2、斜辺がそのまま外接円の直径です。"
+    },
+    {
+      "slug": "trig-values-obtuse",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-values-obtuse.html",
+      "title": "【高校数学I】鈍角の三角比は符号を先に決める／cos θ = −3/5 で sin θ = 4/5",
+      "thumb": [
+        "鈍角の三角比",
+        "符号を先に決める",
+        "sin 4/5、tan −4/3"
+      ],
+      "hook": "符号を先に決めてしまえば、あとは相互関係の計算だけです。",
+      "point": "cos が負 → 鈍角 → sin は正、tan は負。大きさは sin²θ + cos²θ = 1 から。"
+    },
+    {
+      "slug": "frequency-mean",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/frequency-mean.html",
+      "title": "【高校数学I】度数分布表の平均は階級値×度数／答え 22",
+      "thumb": [
+        "度数分布表の平均",
+        "階級値 × 度数",
+        "答え 22"
+      ],
+      "hook": "元のデータが分からなくても、平均は出せます。",
+      "point": "階級値（階級の真ん中）× 度数 の合計を、度数の合計で割るだけ。仮平均でも検算できます。"
+    },
+    {
+      "slug": "median-mode",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/median-mode.html",
+      "title": "【高校数学I】外れ値があるときの代表値は中央値／平均が引っ張られる仕組み",
+      "thumb": [
+        "平均・中央値・最頻値",
+        "外れ値なら中央値",
+        "10.3 / 5 / 4"
+      ],
+      "hook": "数値を出すだけでなく、どれが適切かまで答えます。",
+      "point": "平均 ≒ 10.3 は7個中6個より大きく代表値に不適。外れ値があるときは中央値 5 です。"
+    },
+    {
+      "slug": "variable-transformation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/variable-transformation.html",
+      "title": "【高校数学I】変量の変換は「平均は同じ式、標準偏差は割った数だけ」",
+      "thumb": [
+        "変量の変換",
+        "引き算は効かない",
+        "平均6、標準偏差4"
+      ],
+      "hook": "データを全部計算し直す必要はありません。",
+      "point": "平均は同じ式に代入、標準偏差は |h| で割るだけ。分散は h² で割ります。"
+    },
+    {
+      "slug": "covariance",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/covariance.html",
+      "title": "【高校数学I】共分散は偏差の積の平均／4組のデータで 6.5",
+      "thumb": [
+        "共分散",
+        "偏差の積の平均",
+        "答え 6.5"
+      ],
+      "hook": "表を作れば、あとは足し算だけです。",
+      "point": "共分散 = Σ(dx・dy) ÷ n。Σdx = 0、Σdy = 0 を確認すれば偏差の計算は正しいです。"
+    },
+    {
+      "slug": "outlier-iqr",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/outlier-iqr.html",
+      "title": "【高校数学I】外れ値は四分位範囲の1.5倍で決める／32 は外れ値か",
+      "thumb": [
+        "外れ値の判定",
+        "1.5 × IQR",
+        "32 が外れ値"
+      ],
+      "hook": "外れ値は、目で見て決めるのではなく基準で決めます。",
+      "point": "IQR = 6.5、上側の境界は 14 + 9.75 = 23.75。これを超える 32 が外れ値です。"
+    },
+    {
+      "slug": "standardization",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/standardization.html",
+      "title": "【高校数学I】偏差値は「標準偏差いくつ分」／点差15と8でも同じ偏差値60",
+      "thumb": [
+        "標準化と偏差値",
+        "50 + 10z",
+        "どちらも 60"
+      ],
+      "hook": "平均との差だけでは、科目をまたいで比べられません。",
+      "point": "z = (得点 − 平均) ÷ 標準偏差、偏差値 = 50 + 10z。標準化すると平均0・標準偏差1になります。"
+    },
+    {
+      "slug": "repeated-trials",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/repeated-trials.html",
+      "title": "【高校数学A】反復試行は nCk × p^k／さいころ5回で3の倍数2回は 80/243",
+      "thumb": [
+        "反復試行の確率",
+        "nCk × p^k",
+        "答え 80/243"
+      ],
+      "hook": "何回目に出るかを全部考える必要はありません。",
+      "point": "5C2 × (1/3)² × (2/3)³ = 80/243。nCk の掛け忘れが最大のミスです。"
+    },
+    {
+      "slug": "circular-permutation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/circular-permutation.html",
+      "title": "【高校数学A】円順列は1人を固定するだけ／7人で720通り、隣り合うのは240通り",
+      "thumb": [
+        "円順列",
+        "1人を固定 → (n−1)!",
+        "720 / 240 通り"
+      ],
+      "hook": "回転して同じ並びを重複して数えない工夫が1つだけあります。",
+      "point": "円順列は (n − 1)!。隣り合う条件は2人をまとめて 5! × 2! = 240 通り。"
+    },
+    {
+      "slug": "combination-repetition",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/combination-repetition.html",
+      "title": "【高校数学A】重複組合せは仕切りを入れるだけ／3種類から6本で28通り",
+      "thumb": [
+        "重複組合せ",
+        "仕切りを入れる",
+        "8C2 = 28"
+      ],
+      "hook": "数え上げようとすると大変ですが、置きかえると一瞬です。",
+      "point": "〇6個と仕切り2本の並べ方 = 8C2 = 28通り。1本以上の条件なら先に配ります。"
+    },
+    {
+      "slug": "euclid-algorithm",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/euclid-algorithm.html",
+      "title": "【高校数学A】互除法は割ってあまりに置きかえるだけ／1071 と 1029 の最大公約数 21",
+      "thumb": [
+        "互除法",
+        "あまりに置きかえる",
+        "答え 21"
+      ],
+      "hook": "素因数分解で手が止まる数でも、割り算の繰り返しなら確実です。",
+      "point": "あまりを 42 → 21 → 0 と追い、割る数 21 が最大公約数。商が互いに素かで検算します。"
+    },
+    {
+      "slug": "addition-theorem",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/addition-theorem.html",
+      "title": "【高校数学II】加法定理は知っている角に分ける／sin 75° = (√6 + √2)/4",
+      "thumb": [
+        "加法定理",
+        "75° = 45° + 30°",
+        "(√6 + √2)/4"
+      ],
+      "hook": "三角定規に出てこない角も、知っている角に分ければ出せます。",
+      "point": "sin(α + β) = sinα cosβ + cosα sinβ。cos は符号が逆。α = β で2倍角も作れます。"
+    },
+    {
+      "slug": "point-line-distance",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/point-line-distance.html",
+      "title": "【高校数学II】点と直線の距離は代入して割るだけ／4/5 と 6/5",
+      "thumb": [
+        "点と直線の距離",
+        "代入して割る",
+        "4/5 と 6/5"
+      ],
+      "hook": "垂線を引いて交点を出す必要はありません。",
+      "point": "d = |ax₀ + by₀ + c| ÷ √(a² + b²)。直線を = 0 の形にそろえてから代入します。"
+    },
+    {
+      "slug": "log-equation",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/log-equation.html",
+      "title": "【高校数学II】対数方程式は真数条件を先に書く／x = 2 だけが答え",
+      "thumb": [
+        "対数方程式",
+        "真数条件を先に",
+        "答え x = 2"
+      ],
+      "hook": "出てきた2つの解のうち、1つは答えになりません。",
+      "point": "真数条件 x &gt; 1 を先に書き、和を積にまとめて x² + x − 6 = 0。x = −3 は不適。"
+    },
+    {
+      "slug": "factor-theorem",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/factor-theorem.html",
+      "title": "【高校数学II】3次方程式は1つの解を代入で見つける／x = 1, 3, −2",
+      "thumb": [
+        "因数定理",
+        "定数項の約数を代入",
+        "x = 1, 3, −2"
+      ],
+      "hook": "3次方程式に解の公式は使いません。1つ見つけて割るだけです。",
+      "point": "候補は定数項6の約数。f(1) = 0 から (x−1)(x−3)(x+2) = 0。解と係数の関係で検算します。"
+    },
+    {
+      "slug": "am-gm-inequality",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/am-gm-inequality.html",
+      "title": "【高校数学II】相加相乗は積が定数のときだけ／x + 4/x の最小値は 4",
+      "thumb": [
+        "相加平均と相乗平均",
+        "積が定数のときだけ",
+        "最小値 4（x = 2）"
+      ],
+      "hook": "微分を使わなくても1行で終わります。ただし使える条件があります。",
+      "point": "a + b ≧ 2√(ab)。積が定数か確認し、等号成立 x = 2 まで書いて初めて最小値と言えます。"
+    },
+    {
+      "slug": "sigma-calc",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/sigma-calc.html",
+      "title": "【高校数学B】Σ はばらして公式／Σk(k+2) = n(n+1)(2n+7)/6",
+      "thumb": [
+        "Σ の計算",
+        "展開してばらす",
+        "n(n+1)(2n+7)/6"
+      ],
+      "hook": "かっこのままでは計算できません。まず展開します。",
+      "point": "Σk² + 2Σk に分け、n(n+1)/6 でくくって n(n+1)(2n+7)/6。n = 1, 3 で検算します。"
+    },
+    {
+      "slug": "difference-sequence",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/difference-sequence.html",
+      "title": "【高校数学B】階差数列は a₁ に階差の和／2, 5, 10, 17 の一般項は n² + 1",
+      "thumb": [
+        "階差数列",
+        "上端は n − 1",
+        "aₙ = n² + 1"
+      ],
+      "hook": "等差でも等比でもない数列は、まず差を見ます。",
+      "point": "aₙ = a₁ + Σ(k=1..n−1)bₖ。上端は n−1、最後に n = 1 の確認を書きます。"
+    },
+    {
+      "slug": "induction",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/induction.html",
+      "title": "【高校数学B】数学的帰納法は型で覚える／n³ + 2n が3の倍数の証明",
+      "thumb": [
+        "数学的帰納法",
+        "仮定を使う形に",
+        "3(m + k² + k + 1)"
+      ],
+      "hook": "証明問題は、書き方の型を覚えてしまえば怖くありません。",
+      "point": "倍数は 3m と置く。仮定の k³ + 2k が現れるように並べ替えて 3 でくくります。"
+    },
+    {
+      "slug": "binomial-distribution",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/binomial-distribution.html",
+      "title": "【高校数学B】二項分布は np と np(1−p) だけ／さいころ180回で平均30、標準偏差5",
+      "thumb": [
+        "二項分布",
+        "平均 np、分散 np(1−p)",
+        "30 / 25 / 5"
+      ],
+      "hook": "1回ずつ計算する必要はありません。公式2つで終わります。",
+      "point": "n = 180、p = 1/6 で平均 30、分散 25、標準偏差 5。分散は必ず平均以下です。"
+    },
+    {
+      "slug": "confidence-interval",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/confidence-interval.html",
+      "title": "【高校数学B】信頼区間は標本平均 ± 1.96 × σ/√n／65.6〜70.4 g",
+      "thumb": [
+        "母平均の信頼区間",
+        "± 1.96 × σ/√n",
+        "65.6 〜 70.4"
+      ],
+      "hook": "公式の形を1つ覚えるだけです。÷ √n を忘れないこと。",
+      "point": "標準誤差 12/10 = 1.2、1.96×1.2 = 2.352 で 68 ± 2.352。n を4倍にすると幅は半分。"
+    },
+    {
+      "slug": "integration-by-parts",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/integration-by-parts.html",
+      "title": "【高校数学III】部分積分は微分して簡単になる方を f に／∫x e^x dx = 1",
+      "thumb": [
+        "部分積分",
+        "微分して簡単な方を f",
+        "答え 1"
+      ],
+      "hook": "かけ算の形の積分は、部分積分の合図です。",
+      "point": "f = x、g′ = e^x。[x e^x] − ∫e^x dx = 1。原始関数 (x−1)e^x を微分して検算します。"
+    },
+    {
+      "slug": "chain-rule",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/chain-rule.html",
+      "title": "【高校数学III】合成関数の微分は外×中／(2x+1)⁵ の微分は 10(2x+1)⁴",
+      "thumb": [
+        "合成関数の微分",
+        "外の微分 × 中の微分",
+        "10(2x+1)⁴"
+      ],
+      "hook": "展開する必要はありません。外から1枚ずつ剥がします。",
+      "point": "外の微分 × 中身の微分。log は中身の微分÷中身、e はそのまま×中身の微分。"
+    },
+    {
+      "slug": "limit-infinity",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/limit-infinity.html",
+      "title": "【高校数学III】∞−∞ は有理化してから割る／√(x²+3x) − x = 3/2",
+      "thumb": [
+        "∞ − ∞ の極限",
+        "有理化 → x で割る",
+        "答え 3/2"
+      ],
+      "hook": "そのまま代入すると ∞ − ∞。形を変えてから代入します。",
+      "point": "有理化で √ を消し、分母分子を x で割る。x = 100 を入れて 1.489 で検算できます。"
+    },
+    {
+      "slug": "area-between-curves",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/area-between-curves.html",
+      "title": "【高校数学III】囲まれた面積は「上−下」／y = √x と y = x で 1/6",
+      "thumb": [
+        "囲まれた面積",
+        "∫(上 − 下) dx",
+        "答え 1/6"
+      ],
+      "hook": "まず交点、次に上下の判定、最後に積分です。",
+      "point": "交点 0, 1。x = 1/4 の代入で √x が上と判定し、∫(√x − x)dx = 1/6。"
+    },
+    {
+      "slug": "trig-integral",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/trig-integral.html",
+      "title": "【高校数学III】sin² の積分は半角で次数を下げる／答えは π/4",
+      "thumb": [
+        "三角関数の積分",
+        "半角で次数を下げる",
+        "答え π/4"
+      ],
+      "hook": "2乗のままでは積分できません。次数を下げます。",
+      "point": "sin²x = (1 − cos2x)/2。cos2x の積分は sin2x ÷ 2。答えは π/4。"
+    },
+    {
+      "slug": "vector-components",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/vector-components.html",
+      "title": "【高校数学C】垂直は内積0、平行はたすきがけ0／t = 2/3 と t = −6",
+      "thumb": [
+        "垂直と平行",
+        "足す / 引く",
+        "t = 2/3、−6"
+      ],
+      "hook": "垂直は足す、平行は引く。条件は式1本です。",
+      "point": "垂直 3t − 2 = 0 で t = 2/3、平行 6 + t = 0 で t = −6。実数倍で検算します。"
+    },
+    {
+      "slug": "vector-triangle-area",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/vector-triangle-area.html",
+      "title": "【高校数学C】三角形の面積はたすきがけの半分／答えは 11/2",
+      "thumb": [
+        "ベクトルと面積",
+        "たすきがけの半分",
+        "答え 11/2"
+      ],
+      "hook": "角度を出す必要はありません。公式1本です。",
+      "point": "S = (1/2)√(|a|²|b|² − (a・b)²) = (1/2)|x₁y₂ − x₂y₁| = 11/2。"
+    },
+    {
+      "slug": "hyperbola",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/hyperbola.html",
+      "title": "【高校数学C】双曲線は c² = a² + b²（足す）／焦点 (±5, 0)、漸近線 y = ±(4/3)x",
+      "thumb": [
+        "双曲線の標準形",
+        "楕円は引く、双曲線は足す",
+        "焦点 (±5, 0)"
+      ],
+      "hook": "楕円と1か所だけ違います。そこだけ押さえます。",
+      "point": "c² = 9 + 16 = 25 で焦点 (±5, 0)。漸近線は右辺を0にして因数分解しても出ます。"
+    },
+    {
+      "slug": "parabola-focus",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/parabola-focus.html",
+      "title": "【高校数学C】放物線の焦点は係数を4で割る／y² = 8x で焦点 (2, 0)",
+      "thumb": [
+        "放物線の焦点",
+        "係数を4で割る",
+        "焦点 (2, 0)"
+      ],
+      "hook": "係数を4で割るだけです。定義で確認すれば間違えません。",
+      "point": "4p = 8 で p = 2。焦点 (2, 0)、準線 x = −2。点 (2, 4) でどちらも距離4と確認。"
+    },
+    {
+      "slug": "de-moivre",
+      "playlist": "math-hs",
+      "page": "subjects/math-hs/lessons/de-moivre.html",
+      "title": "【高校数学C】複素数の累乗は極形式／(1 + i)⁸ = 16",
+      "thumb": [
+        "ド・モアブル",
+        "大きさn乗、角度n倍",
+        "(1+i)⁸ = 16"
+      ],
+      "hook": "展開して8回かけるのは現実的ではありません。",
+      "point": "1 + i = √2(cos45° + i sin45°)。8乗で 16(cos360° + i sin360°) = 16。"
+    },
+    {
+      "slug": "similar-ratio",
+      "playlist": "math-jhs",
+      "page": "subjects/math-jhs/lessons/similar-ratio.html",
+      "title": "【中学数学】相似は長さ2乗が面積、3乗が体積／表面積54、体積54",
+      "thumb": [
+        "相似比と面積・体積",
+        "2乗と3乗",
+        "54 cm² / 54 cm³"
+      ],
+      "hook": "比をそのまま使ってはいけません。2乗と3乗が要点です。",
+      "point": "相似比 2:3 → 面積比 4:9、体積比 8:27。長さの比は相似比のままです。"
+    },
+    {
+      "slug": "en-sentence-patterns",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-sentence-patterns.html",
+      "title": "【高校英語・基本】文型は動詞の後ろの品詞で決める／SVOCは「OをCにする」",
+      "thumb": [
+        "文型の見分け方",
+        "名詞＋形容詞",
+        "→ SVOC"
+      ],
+      "hook": "訳から文型を当てるのをやめると、英文法は一気に安定します。",
+      "point": "動詞の後ろが名詞＋形容詞ならSVOC。訳は「OをCにする」。"
+    },
+    {
+      "slug": "en-present-perfect",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-present-perfect.html",
+      "title": "【高校英語・基本】現在完了か過去形かは「時の語」で決まる／lost と haven't found",
+      "thumb": [
+        "現在完了と過去形",
+        "時の語で決める",
+        "lost / haven't found"
+      ],
+      "hook": "現在完了を感覚で選んでいる人は、ここで一生迷わなくなります。",
+      "point": "last Friday → 過去形、yet → 現在完了。時の語が判定基準です。"
+    },
+    {
+      "slug": "en-modal-perfect",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-modal-perfect.html",
+      "title": "【高校英語・基本】過去の推量は助動詞を変えない／may have taken・cannot have lost",
+      "thumb": [
+        "助動詞＋完了形",
+        "判断は今・内容は過去",
+        "may / cannot have done"
+      ],
+      "hook": "「〜したかもしれない」を may lost と書いてしまう人へ。",
+      "point": "助動詞は現在形のまま、内容が過去なら have + 過去分詞。"
+    },
+    {
+      "slug": "en-passive-voice",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-passive-voice.html",
+      "title": "【高校英語・基本】SVOOの受動態は2通り作れる／to と for の使い分け",
+      "thumb": [
+        "受動態への書きかえ",
+        "目的語2つ→2通り",
+        "to / for の判別"
+      ],
+      "hook": "受動態が2通り作れる文を、1通りで終わらせていませんか。",
+      "point": "目的語が2つなら受動態は2通り。物を主語にしたら to / for を入れます。"
+    },
+    {
+      "slug": "en-verb-patterns",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-verb-patterns.html",
+      "title": "【高校英語・基本】to do と doing は動詞で決まる／decided to join・avoid speaking",
+      "thumb": [
+        "to不定詞と動名詞",
+        "動詞ごとに決まる",
+        "to join / speaking"
+      ],
+      "hook": "to か ing かを毎回迷う人は、覚え方を間違えています。",
+      "point": "decide は to do、avoid は doing。動詞のグループで決まります。"
+    },
+    {
+      "slug": "en-participle",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-participle.html",
+      "title": "【高校英語・基本】分詞は「する側・される側」で決める／sitting と locked",
+      "thumb": [
+        "分詞の使い分け",
+        "する側／される側",
+        "sitting / locked"
+      ],
+      "hook": "ing か 過去分詞かは、名詞との関係を作れば1秒で決まります。",
+      "point": "名詞が動作をする側なら doing、される側なら done。"
+    },
+    {
+      "slug": "en-relative-clause",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-relative-clause.html",
+      "title": "【高校英語・基本】関係詞は「消して空いた位置」で決まる／目的格は省略できる",
+      "thumb": [
+        "関係詞の使い方",
+        "消して空いた位置",
+        "which は省略可"
+      ],
+      "hook": "who・which・where を暗記でさばくのは、もうやめましょう。",
+      "point": "共通語を消して、空いた位置が主語なら who/which、目的語なら which（省略可）。"
+    },
+    {
+      "slug": "en-comparison",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-comparison.html",
+      "title": "【高校英語・基本】比較は型で書く／not as difficult as・No other student",
+      "thumb": [
+        "比較の書きかえ",
+        "not as 〜 as",
+        "No other + 単数"
+      ],
+      "hook": "比較の英作文は、型を2つ持っていれば足ります。",
+      "point": "「〜ほど…ない」は not as 原級 as、「〜より…はいない」は No other + 単数 + 比較級。"
+    },
+    {
+      "slug": "en-subjunctive",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-subjunctive.html",
+      "title": "【高校英語・基本】仮定法は時をひとつずらすだけ／would take part・would not have got wet",
+      "thumb": [
+        "仮定法の作り方",
+        "時をひとつ前へ",
+        "would / would have"
+      ],
+      "hook": "仮定法は暗記ではありません。ずらす方向を覚えるだけです。",
+      "point": "現在の仮定は過去形＋would 原形、過去の仮定は had p.p.＋would have p.p.。"
+    },
+    {
+      "slug": "en-conjunction-preposition",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-conjunction-preposition.html",
+      "title": "【高校英語・基本】because と because of は「後ろの形」で選ぶ／while と during",
+      "thumb": [
+        "接続詞と前置詞",
+        "後ろの形で選ぶ",
+        "because of / while"
+      ],
+      "hook": "because と because of を意味で選んでいると必ず外します。",
+      "point": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。"
+    },
+    {
+      "slug": "en-participle-construction",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-participle-construction.html",
+      "title": "【高校英語・中級】分詞構文は3手順で作れる／Not knowing・Written in simple English",
+      "thumb": [
+        "分詞構文",
+        "接続詞を消す",
+        "doing / done"
+      ],
+      "hook": "分詞構文を「なんとなく訳す」から卒業しましょう。",
+      "point": "接続詞を消し、主語が同じなら消して動詞をdoing。受け身はdoneから。"
+    },
+    {
+      "slug": "en-causative-perception",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-causative-perception.html",
+      "title": "【高校英語・中級】使役と知覚のto問題を終わらせる／made me clean・heard someone calling",
+      "thumb": [
+        "使役と知覚動詞",
+        "原形／doing／done",
+        "受動態は to"
+      ],
+      "hook": "made me to clean と書いてしまう理由が、はっきり分かります。",
+      "point": "使役make/let/haveは原形、知覚は原形・doing・done。受動態ではtoが出ます。"
+    },
+    {
+      "slug": "en-emphasis-inversion",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-emphasis-inversion.html",
+      "title": "【高校英語・中級】強調構文と倒置／It was his sister that・Never had I seen",
+      "thumb": [
+        "強調構文と倒置",
+        "It is ~ that",
+        "Never had I seen"
+      ],
+      "hook": "強調構文と形式主語のitを、後ろの形だけで区別する方法です。",
+      "point": "It is 強調語 that 残り。否定語が文頭に出たら疑問文の語順。"
+    },
+    {
+      "slug": "en-noun-clause",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-noun-clause.html",
+      "title": "【高校英語・中級】thatの正体は後ろの形で決まる／名詞節と同格のthat",
+      "thumb": [
+        "名詞節と同格",
+        "後ろが完全な文",
+        "→ 同格の that"
+      ],
+      "hook": "thatを見たら訳を考える前に、後ろの形を見てください。",
+      "point": "節が主語・目的語なら名詞節、名詞＋that＋完全な文なら同格。"
+    },
+    {
+      "slug": "en-reported-speech",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reported-speech.html",
+      "title": "【高校英語・中級】話法の転換は3操作／would finish the next day・asked me if",
+      "thumb": [
+        "時制の一致と話法",
+        "1つ過去へずらす",
+        "ask + if / tell to do"
+      ],
+      "hook": "話法の問題は、覚える表を3行に減らせます。",
+      "point": "時制を1つ過去へ、疑問文はask+if、命令文はtell O to do。"
+    },
+    {
+      "slug": "en-relative-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-relative-advanced.html",
+      "title": "【高校英語・中級】whatは先行詞を含む／for which に前置詞を前へ出す",
+      "thumb": [
+        "what と前置詞+関係詞",
+        "what = the thing which",
+        "for which"
+      ],
+      "hook": "whatを「何」と訳して詰まる人へ。先行詞を含む使い方を型にします。",
+      "point": "whatは先行詞を含む関係代名詞。前置詞を前に出したらthatは不可。"
+    },
+    {
+      "slug": "en-perfect-infinitive",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-perfect-infinitive.html",
+      "title": "【高校英語・中級】時のずれは完了形で表す／to have been・having broken",
+      "thumb": [
+        "完了不定詞・動名詞",
+        "主節より前のこと",
+        "to have / having done"
+      ],
+      "hook": "「〜したようだ」を to be で書いてしまう人へ。",
+      "point": "主節より前のことはto have done / having done。同時なら単純形。"
+    },
+    {
+      "slug": "en-comparison-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-comparison-advanced.html",
+      "title": "【高校英語・中級】The more you practice, the faster you improve／2者間は of the two",
+      "thumb": [
+        "比較の応用",
+        "The 比較級, the 比較級",
+        "of the two"
+      ],
+      "hook": "「〜すればするほど」を語順の型で書けるようにします。",
+      "point": "The 比較級 …, the 比較級 …。2者間はthe + 比較級 + of the two。"
+    },
+    {
+      "slug": "en-subjunctive-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-subjunctive-advanced.html",
+      "title": "【高校英語・中級】But for your help, I would have failed／as if he knew",
+      "thumb": [
+        "仮定法の応用",
+        "But for / Without",
+        "as if + 過去形"
+      ],
+      "hook": "if節がない仮定法を見抜けるようにします。",
+      "point": "But for = If it were / had not been for。as ifは同時なら過去形。"
+    },
+    {
+      "slug": "en-negation",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-negation.html",
+      "title": "【高校英語・中級】No sooner had I got on the train than…／not until の型",
+      "thumb": [
+        "否定と準否定",
+        "No sooner … than",
+        "not … until"
+      ],
+      "hook": "No sooner の語順を、毎回考えずに書けるようにします。",
+      "point": "No sooner had S p.p. … than S 過去形。not … until は「〜して初めて」。"
+    },
+    {
+      "slug": "ph-force-balance",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-force-balance.html",
+      "title": "【高校物理・第1回】斜面のつり合いは「書く順」で決まる／N≒17N・f=9.8N",
+      "thumb": [
+        "斜面のつり合い",
+        "軸は斜面に合わせる",
+        "N≒17N / f=9.8N"
+      ],
+      "hook": "力を書き込む順番を固定するだけで、物理の失点は激減します。",
+      "point": "重力→垂直抗力→摩擦→張力の順に書き、軸を斜面に合わせて重力だけを分解。"
+    },
+    {
+      "slug": "ph-newton-two-blocks",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-newton-two-blocks.html",
+      "title": "【高校物理・第2回】連結物体は全体→1つの順／a=2.0m/s²・T=4.0N",
+      "thumb": [
+        "運動方程式",
+        "全体 → 1つを切り出す",
+        "a=2.0 / T=4.0"
+      ],
+      "hook": "張力の出し方が毎回同じ手順になります。",
+      "point": "全体で加速度、1物体を切り出して張力。内力は全体の式に出ない。"
+    },
+    {
+      "slug": "ph-projectile-up",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-projectile-up.html",
+      "title": "【高校物理・第3回】投げ上げは2条件で解ける／t=2.0s・h=19.6m",
+      "thumb": [
+        "鉛直投げ上げ",
+        "上向き正 → a = −g",
+        "最高点は v = 0"
+      ],
+      "hook": "投げ上げで迷うのは符号だけ。宣言してから式を書きます。",
+      "point": "上向き正でa=−g、最高点はv=0。3公式は「何を聞かれたか」で選ぶ。"
+    },
+    {
+      "slug": "ph-energy-conservation",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-energy-conservation.html",
+      "title": "【高校物理・第4回】質量が消える理由／v=√(2gh)=4.0m/s",
+      "thumb": [
+        "エネルギー保存",
+        "mgh = mv²/2",
+        "v = √(2gh)"
+      ],
+      "hook": "なぜ質量が答えに出てこないのか、式で確認します。",
+      "point": "なめらかならmgh=mv²/2、質量は消えてv=√(2gh)。"
+    },
+    {
+      "slug": "ph-momentum-collision",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-momentum-collision.html",
+      "title": "【高校物理・第5回】衝突は運動量で解く／v=2.0m/s・失われた3.0J",
+      "thumb": [
+        "運動量保存",
+        "一体化 = e が 0",
+        "9.0J → 6.0J"
+      ],
+      "hook": "衝突でエネルギーが減るのは、式のどこに現れるのでしょうか。",
+      "point": "運動量は保存、一体化ならエネルギーは減る。差が熱になる。"
+    },
+    {
+      "slug": "ph-circular-motion",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-circular-motion.html",
+      "title": "【高校物理・第6回】向心力は新しい力ではない／a=8.0m/s²・F=1.6N",
+      "thumb": [
+        "等速円運動",
+        "a = v²/r",
+        "F = mv²/r"
+      ],
+      "hook": "向心力と遠心力を混ぜてしまう原因を、式で切り分けます。",
+      "point": "a=v²/r、F=mv²/r。向心力は実在する力の合力。"
+    },
+    {
+      "slug": "ph-shm-spring",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-shm-spring.html",
+      "title": "【高校物理・第7回】単振動はωから作る／T≒0.63s・v=1.0m/s",
+      "thumb": [
+        "単振動",
+        "ω = √(k/m)",
+        "T = 2π/ω, v = Aω"
+      ],
+      "hook": "単振動の公式を、1つの量から全部作り直せるようにします。",
+      "point": "ω=√(k/m)を先に出す。T=2π/ω、v=Aω、a=Aω²。"
+    },
+    {
+      "slug": "ph-heat-quantity",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-heat-quantity.html",
+      "title": "【高校物理・第8回】熱量は2本の式で足りる／3.4×10⁴J・67秒",
+      "thumb": [
+        "熱量と比熱",
+        "Q = mcΔT",
+        "Pt = Q → 67 s"
+      ],
+      "hook": "熱の問題で単位ミスを消す手順です。",
+      "point": "Q=mcΔT、電熱器はPt=mcΔT。単位をそろえてから代入。"
+    },
+    {
+      "slug": "ph-dc-circuit",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-dc-circuit.html",
+      "title": "【高校物理・第9回】回路は順番で解く／I=2.0A・並列に4.0V",
+      "thumb": [
+        "直流回路",
+        "並列を先に合成",
+        "I=2.0A / V=4.0V"
+      ],
+      "hook": "回路の計算順を固定して、枝が増えても解けるようにします。",
+      "point": "並列を先に合成、全電流を出してRIで各部分に戻す。"
+    },
+    {
+      "slug": "ph-induction-rod",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-induction-rod.html",
+      "title": "【高校物理・第10回】導体棒の誘導は3手順／0.40V・0.20A・0.020N",
+      "thumb": [
+        "電磁誘導",
+        "V = BLv",
+        "I = V/R, F = BIL"
+      ],
+      "hook": "電磁誘導の計算を、3つの式の順番だけで固定します。",
+      "point": "V=BLv→I=V/R→F=BIL。向きは運動を妨げる向き。"
+    },
+    {
+      "slug": "toeic-part5-word-class",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-word-class.html",
+      "title": "【TOEIC・第1回】Part5の品詞問題は形で解く／submitted directly to",
+      "thumb": [
+        "Part5 品詞問題",
+        "空所を隠す",
+        "骨格が完成 → 副詞"
+      ],
+      "hook": "Part5で時間を溶かさないための、最初の型です。",
+      "point": "語尾がそろえば品詞問題。空所を隠して骨格が完成していれば副詞。"
+    },
+    {
+      "slug": "toeic-part5-verb-form",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-verb-form.html",
+      "title": "【TOEIC・第2回】時のヒントで動詞の形は決まる／since → has worked",
+      "thumb": [
+        "Part5 動詞の形",
+        "時のヒントを探す",
+        "since → 現在完了"
+      ],
+      "hook": "動詞の形の問題を、探す作業に変えます。",
+      "point": "選択肢が同じ動詞なら時のヒントを探す。since / forなら現在完了。"
+    },
+    {
+      "slug": "toeic-part5-prep-conj",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-prep-conj.html",
+      "title": "【TOEIC・第3回】Despite と Although の見分け／後ろの形だけ見る",
+      "thumb": [
+        "前置詞と接続詞",
+        "後ろが名詞 → 前置詞",
+        "S+V → 接続詞"
+      ],
+      "hook": "DespiteとAlthoughで止まらないようにします。",
+      "point": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。副詞は文をつなげない。"
+    },
+    {
+      "slug": "toeic-part5-relative",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-relative.html",
+      "title": "【TOEIC・第4回】whose を一瞬で選ぶ／空所の後ろ2語だけ見る",
+      "thumb": [
+        "Part5 関係詞",
+        "直後を2語見る",
+        "名詞+動詞 → whose"
+      ],
+      "hook": "関係詞は訳さずに、後ろの形だけで選べます。",
+      "point": "直後が名詞＋動詞ならwhose、動詞だけなら主格、目的語不足なら目的格。"
+    },
+    {
+      "slug": "toeic-part5-collocation",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-collocation.html",
+      "title": "【TOEIC・第5回】place an order を知っているかだけ／語彙は相性で覚える",
+      "thumb": [
+        "Part5 語彙問題",
+        "動詞+名詞のセット",
+        "place an order"
+      ],
+      "hook": "語彙問題は覚え方を変えるだけで正答率が上がります。",
+      "point": "語彙問題は意味ではなく相性。動詞＋名詞をセットで覚える。"
+    },
+    {
+      "slug": "toeic-part6-transition",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part6-transition.html",
+      "title": "【TOEIC・第6回】Part6のつなぎ語は前後2文だけ／Therefore と However",
+      "thumb": [
+        "Part6 つなぎ語",
+        "前後を要約する",
+        "順接 → Therefore"
+      ],
+      "hook": "Part6を全文精読しないための型です。",
+      "point": "つなぎ語は前後の関係だけで決まる。順接か逆接かを日本語で確認。"
+    },
+    {
+      "slug": "toeic-part7-purpose",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part7-purpose.html",
+      "title": "【TOEIC・第7回】Part7は設問タイプで読む場所が決まる／purposeは冒頭2文",
+      "thumb": [
+        "Part7 目的の設問",
+        "冒頭2文で決まる",
+        "正解は言いかえ"
+      ],
+      "hook": "Part7で時間切れになる人の読み方を変えます。",
+      "point": "目的の設問は冒頭2文＋言いかえ。細部は別の設問の根拠。"
+    },
+    {
+      "slug": "toeic-part2-wh",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part2-wh.html",
+      "title": "【TOEIC・第8回】Part2は冒頭1語で決まる／WH疑問文にYesは来ない",
+      "thumb": [
+        "Part2 WH疑問文",
+        "冒頭1語に集中",
+        "Yes / No は即消し"
+      ],
+      "hook": "Part2で全部聞こうとして崩れる人へ。",
+      "point": "冒頭1語で答えの種類を決め、WH疑問文のYes/Noは即消し。"
+    },
+    {
+      "slug": "toeic-part3-preread",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part3-preread.html",
+      "title": "【TOEIC・第9回】Part3は先読みで聞く場所を決める／Could you の直後",
+      "thumb": [
+        "Part3 先読み",
+        "何を待つか決める",
+        "Could you の直後"
+      ],
+      "hook": "Part3で「全部聞いて全部忘れる」を止めます。",
+      "point": "設問先読み。依頼はCould youの直後、次の行動は最後の発言。"
+    },
+    {
+      "slug": "toeic-part7-double",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part7-double.html",
+      "title": "【TOEIC・第10回】2文書をまたぐ設問の解き方／$2,200で送料無料",
+      "thumb": [
+        "Part7 2文書",
+        "条件と数値を分けて取る",
+        "計算して照合"
+      ],
+      "hook": "ダブルパッセージで落とす1問を、確実に取りにいきます。",
+      "point": "条件は片方、数値はもう片方。計算してから照合する。"
+    }
+  ]
+}

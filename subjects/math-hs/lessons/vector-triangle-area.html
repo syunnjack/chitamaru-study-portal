@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ベクトルで三角形の面積（OA = (3,1)、OB = (1,4)）｜高校数学 第77回</title>
+<meta name="description" content="三角形の面積はベクトルなら公式1本。たすきがけの絶対値の半分、原点が頂点でない場合、符号の意味まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第77回 ベクトルで三角形の面積</div>
+
+<main class="wrap">
+  <h1>第77回　面積はベクトルなら「公式1本」</h1>
+  <div class="formula">OA = (3, 1)、OB = (1, 4) のとき、△OAB の面積を求めよ。</div>
+  <p>角度を出す必要はありません。公式1本で終わります（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/vector-triangle-area.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/vector-triangle-area.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>S = (1/2)√(|a|²|b|² − (a・b)²)　／　成分なら S = (1/2)|x₁y₂ − x₂y₁|</strong></p>
+    <p>成分が分かっているなら「たすきがけの絶対値の半分」が最速。上の公式は大きさと内積しか分からないときに使います。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>必要な値を出す</strong><div class="formula">|a|² = 9 + 1 = 10、|b|² = 1 + 16 = 17、a・b = 3 + 4 = 7</div></li>
+    <li><strong>公式に入れる</strong><div class="formula">S = (1/2)√(10 × 17 - 7²) = (1/2)√(170 - 49)</div></li>
+    <li><strong>ルートを外す</strong><div class="formula">= (1/2)√121 = (1/2) × 11 = 11/2</div><p>121 = 11²。きれいな数になるよう作られています。</p></li>
+    <li><strong>成分の公式で確認</strong><div class="formula">(1/2)|3×4 - 1×1| = (1/2)|11| = 11/2</div><p>こちらのほうが速いので、実戦ではこれを使います。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>11/2 = 5.5 で、3点を囲む大きさとして妥当。内積が正なので鋭角、面積は (1/2)|a||b| ≒ 6.5 より小さいという条件も満たします。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>原点が頂点でなくても同じ。<strong>AB と AC の成分</strong>を作ってたすきがけするだけです。</li>
+      <li>たすきがけの<strong>符号は3点の回り方</strong>（反時計回りなら正）。面積では絶対値をつけます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>S = (1/2)|x₁y₂ - x₂y₁|（たすきがけの半分）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>OA = (2, 5)、OB = (4, 1) のときの △OAB の面積
+        <details><summary>答え</summary><p>(1/2)|2×1 − 4×5| = (1/2)×18 = 9</p></details>
+      </li>
+      <li>A(1, 1)、B(4, 2)、C(2, 5) の △ABC の面積
+        <details><summary>答え</summary><p>AB = (3, 1)、AC = (1, 4) なので (1/2)|12 − 1| = 11/2</p></details>
+      </li>
+      <li>|a| = 2、|b| = 3、a・b = 3 のときの三角形の面積
+        <details><summary>答え</summary><p>(1/2)√(4×9 − 9) = (1/2)√27 = (3√3)/2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="vector-components.html">← 第76回 ベクトルの垂直と平行</a>　｜　<a href="hyperbola.html">第78回 双曲線の標準形 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

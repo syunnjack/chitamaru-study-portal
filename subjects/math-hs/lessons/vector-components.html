@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ベクトルの垂直と平行（成分条件）｜高校数学 第76回</title>
+<meta name="description" content="垂直は内積0、平行はたすきがけ0。実数倍での検算、内積の2つの表し方まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第76回 ベクトルの垂直と平行</div>
+
+<main class="wrap">
+  <h1>第76回　垂直と平行は「内積0」と「たすきがけ0」</h1>
+  <div class="formula">a = (3, −1)、b = (t, 2) について、(1) 垂直になる t　(2) 平行になる t を求めよ。</div>
+  <p>条件はそれぞれ式1本で書けます。「垂直は足す、平行は引く」です（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/vector-components.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/vector-components.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>垂直 ⇔ 内積 x₁x₂ + y₁y₂ = 0　／　平行 ⇔ x₁y₂ − x₂y₁ = 0</strong></p>
+    <p>「垂直は足す、平行は引く」。平行は「一方が他方の実数倍」からも導けます。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>(1) 内積を作る</strong><div class="formula">3 × t + (-1) × 2 = 3t - 2</div></li>
+    <li><strong>(1) の答え</strong><div class="formula">3t - 2 = 0 → t = 2/3</div></li>
+    <li><strong>(2) たすきがけ</strong><div class="formula">3 × 2 - t × (-1) = 6 + t</div><p>斜めにかけて引く。順番を固定して覚えます。</p></li>
+    <li><strong>(2) の答え</strong><div class="formula">6 + t = 0 → t = -6</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>t = 2/3 なら内積は 2 − 2 = 0 で垂直。t = −6 なら b = (−6, 2) = −2a となり、<strong>実数倍</strong>なので平行です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>内積には「成分の積の和」と「<strong>|a||b|cos θ</strong>」の2つの顔があります。与えられた情報で使い分けます。</li>
+      <li>平行は <strong>b = ka</strong> と置いて成分を比べても解けます。たすきがけを忘れても導けます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>垂直は内積0（足す）、平行はたすきがけ0（引く）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>a = (2, 3)、b = (t, −4) が垂直になる t
+        <details><summary>答え</summary><p>2t − 12 = 0 → t = 6</p></details>
+      </li>
+      <li>a = (2, 3)、b = (t, −4) が平行になる t
+        <details><summary>答え</summary><p>2×(−4) − 3t = 0 → t = −8/3</p></details>
+      </li>
+      <li>a = (3, −1) の大きさと、a に垂直な単位ベクトル
+        <details><summary>答え</summary><p>|a| = √10。垂直なベクトルは (1, 3) なので (1/√10, 3/√10) と その逆向き</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="trig-integral.html">← 第75回 三角関数の積分</a>　｜　<a href="vector-triangle-area.html">第77回 ベクトルで三角形の面積 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

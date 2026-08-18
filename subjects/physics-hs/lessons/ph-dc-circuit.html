@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直流回路（合成抵抗と電圧の分配）｜高校物理 第9回</title>
+<meta name="description" content="並列を先に合成し、全電流を出してRIで戻す3手順。電圧と電流の両方で検算する型を示します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第9回 直流回路（合成抵抗と電圧の分配）</div>
+
+<main class="wrap">
+  <h1>第9回　直流回路（合成抵抗と電圧の分配）</h1>
+  <div class="formula">起電力12 Vの電池に4.0 Ωの抵抗を直列につなぎ、その先に6.0 Ωと3.0 Ωを並列につないだ。回路を流れる電流と、並列部分にかかる電圧を求めよ（内部抵抗は無視）。</div>
+  <p>回路は計算の順番を固定すれば、枝の数が増えても崩れません。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-dc-circuit.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-dc-circuit.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>並列を先にまとめる。</strong>1/R = 1/R₁ + 1/R₂。積/和でも計算できます。</li>
+      <li><strong>全電流 I = V / R全。</strong></li>
+      <li><strong>各部分に戻す。</strong>直列部分は同じ電流、並列部分は同じ電圧。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>並列を合成する</strong><div class="formula">1/R = 1/6.0 + 1/3.0 = 1/2.0 → R = 2.0 Ω</div><p>積/和 = 18/9 = 2.0</p></li>
+    <li><strong>全体の合成抵抗</strong><div class="formula">R全 = 4.0 + 2.0 = 6.0 Ω</div><p>直列は足すだけ。</p></li>
+    <li><strong>全電流を出す</strong><div class="formula">I = 12 / 6.0 = 2.0 A</div><p>オームの法則。</p></li>
+    <li><strong>並列部分の電圧</strong><div class="formula">V = 2.0 × 2.0 = 4.0 V</div><p>答え：I = 2.0 A、V = 4.0 V</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>直列部分8.0 V＋並列部分4.0 V＝12 V、枝の電流0.67 A＋1.33 A＝2.0 Aで一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>並列では電流が抵抗の逆比（6.0 Ω と 3.0 Ω なら 1 : 2）。</li>
+      <li>消費電力は P = VI = I²R = V²/R。どれを使うかは与えられた量で決めます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>並列を先にまとめ、全体の合成抵抗で全電流、あとは RI で各部分に戻す。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>6.0 Ωの枝と3.0 Ωの枝に流れる電流をそれぞれ求めよ。
+        <details><summary>答え</summary><p>6.0 Ω：0.67 A、3.0 Ω：1.3 A</p></details>
+      </li>
+      <li>4.0 Ωの抵抗で消費される電力を求めよ。
+        <details><summary>答え</summary><p>P = I²R = 2.0² × 4.0 = 16 W</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-heat-quantity.html">← 第8回 熱量の計算（比熱と電力）</a>　｜　<a href="ph-induction-rod.html">第10回 電磁誘導（導体棒に生じる起電力） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鉛直投げ上げ（等加速度の3公式）｜高校物理 第3回</title>
+<meta name="description" content="上向きを正にしてa=−g、最高点はv=0。等加速度の3公式の使い分けと時間を使わない検算を示します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第3回 鉛直投げ上げ（等加速度の3公式）</div>
+
+<main class="wrap">
+  <h1>第3回　鉛直投げ上げ（等加速度の3公式）</h1>
+  <div class="formula">地面から初速度19.6 m/sで真上に投げ上げた小球について、最高点に達する時間と最高点の高さを求めよ（g = 9.8 m/s²、空気抵抗は無視）。</div>
+  <p>等加速度は公式が3つだけ。使い分けの基準を持てば計算ミスも減ります。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-projectile-up.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-projectile-up.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>正の向きを宣言する。</strong>上向きを正にとると a = −g。</li>
+      <li><strong>3公式を使い分ける。</strong>v = v₀ + at ／ y = v₀t + at²/2 ／ v² − v₀² = 2ay。</li>
+      <li><strong>最高点は v = 0。</strong>「頂点＝速度ゼロ」を条件式にします。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>正の向きと条件</strong><div class="formula">上向き正、a = −9.8、最高点で v = 0</div><p>v₀ = 19.6</p></li>
+    <li><strong>時間を求める</strong><div class="formula">0 = 19.6 − 9.8t → t = 2.0 s</div><p>v = v₀ + at を使う。</p></li>
+    <li><strong>高さを求める</strong><div class="formula">h = 19.6 × 2.0 − 4.9 × 2.0² = 39.2 − 19.6 = 19.6 m</div><p>y = v₀t + at²/2</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">t = 2.0 s、h = 19.6 m</div><p>落下して戻るまでは4.0 s。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>v² − v₀² = 2ay で検算すると h = 384.16 / 19.6 = 19.6 m。一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>上りと下りは対称。同じ高さでは速さが等しく、時間も等しくなります。</li>
+      <li>最高点で速度は0でも加速度は −9.8 m/s²。ここを混同すると全問ずれます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>上向き正で a = −g、最高点は v = 0。この2つで投げ上げは全部解ける。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ小球が地面に戻るまでの時間を求めよ。
+        <details><summary>答え</summary><p>4.0 s（上りの2倍）</p></details>
+      </li>
+      <li>初速度29.4 m/sで投げ上げたときの最高点の高さを求めよ。
+        <details><summary>答え</summary><p>h = 29.4² / (2 × 9.8) = 44.1 m</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-newton-two-blocks.html">← 第2回 運動方程式（2物体と糸の張力）</a>　｜　<a href="ph-energy-conservation.html">第4回 力学的エネルギー保存（なめらかな曲面） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

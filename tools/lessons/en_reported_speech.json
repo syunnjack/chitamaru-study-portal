@@ -1,0 +1,215 @@
+{
+  "title": "時制の一致と話法の転換",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を間接話法にしてください。1、ヒー セッド、アイ ウィル フィニッシュ ジス リポート トゥモロー。2、シー セッド トゥー ミー、アー ユー フリー ナウ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) He said, \"I will finish this",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　report tomorrow.\"",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) She said to me, \"Are you free now?\"",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。伝達動詞が過去なら、中の時制をひとつ過去にずらす。疑問文なら アスク プラス イフ、または疑問詞にして、後ろは平叙文の語順にする。トゥモロー や ナウ のような語も置きかえる。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "伝達動詞が過去 → 中の時制も1つ過去へ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "疑問文は ask + if / 疑問詞 + 平叙語順",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時と場所の語も置きかえる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。伝達動詞が セッド なので、ウィル フィニッシュ を ウッド フィニッシュ にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 時制をずらす",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "will finish → would finish",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "said が過去なので1つ過去へ。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 時制をずらす"
+    },
+    {
+      "narration": "ジス を ザット、トゥモロー を ザ ネクスト デイ に置きかえます。ヒー セッド ヒー ウッド フィニッシュ ザット リポート ザ ネクスト デイ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 語を置きかえる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He said (that) he would finish that report the next day.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "this → that、tomorrow → the next day。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 語を置きかえる"
+    },
+    {
+      "narration": "2番です。イエス ノー で答える疑問文なので、アスクト ミー イフ の形にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 疑問文の形にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "said to me → asked me + if",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Yes / No 疑問文は if または whether。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 疑問文の形にする"
+    },
+    {
+      "narration": "後ろは平叙文の語順にして、アー を ワズ、ナウ を ゼン にします。シー アスクト ミー イフ アイ ワズ フリー ゼン。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 語順と時制を直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "She asked me if I was free then.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：he would finish … the next day / asked me if I was free then",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 語順と時制を直す"
+    },
+    {
+      "narration": "検算です。間接話法から直接話法に戻して、もとの引用符の中の文が復元できるかを確かめます。時の語も一緒に戻せば、置きかえの対応表を確認できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "直接話法に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the next day → tomorrow",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "then → now",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。命令文の話法転換は テル オー トゥー ドゥー です。それから、今も変わらない事実や不変の真理は、時制を一致させないこともあります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "命令文 → tell O to do",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "不変の真理は時制一致しない",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。伝達動詞が過去なら中の時制を1つ過去へ、疑問文は アスク プラス イフ、命令文は テル オー トゥー ドゥー。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "伝達動詞が過去なら中の時制を1つ過去へ、疑問文は ask + if、命令文は tell O to do。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：\"Close the window,\" she said to him. を間接話法に。 → She told him to close the window.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

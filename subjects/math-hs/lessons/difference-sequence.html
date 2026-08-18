@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>階差数列の一般項（2, 5, 10, 17, 26）｜高校数学 第67回</title>
+<meta name="description" content="階差数列は a₁ に階差の和を足すだけ。上端が n−1 になる理由、n = 1 の確認の書き方まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第67回 階差数列</div>
+
+<main class="wrap">
+  <h1>第67回　階差数列は「a₁ に階差の和を足す」</h1>
+  <div class="formula">数列 2, 5, 10, 17, 26, … の一般項を求めよ。</div>
+  <p>等差でも等比でもない数列は、まず差を見ます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/difference-sequence.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/difference-sequence.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>aₙ = a₁ + Σ(k = 1 から n − 1) bₖ　（n ≧ 2、bₖ は階差）</strong></p>
+    <p>上端が n − 1 になる理由：a₁ から aₙ に行くまでに階差を (n − 1) 回足すからです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>階差を書く</strong><div class="formula">3, 5, 7, 9, … → bₖ = 2k + 1</div><p>階差が等差数列になっていれば、この型です。</p></li>
+    <li><strong>公式に入れる</strong><div class="formula">aₙ = 2 + Σ(k = 1 から n - 1)(2k + 1)</div><p>上端は n − 1。ここを n にするのが最大のミスです。</p></li>
+    <li><strong>Σ を計算</strong><div class="formula">= 2 + 2 × (n-1)n/2 + (n - 1) = 2 + n² - n + n - 1</div><p>項数が n − 1 個なので、定数1の和は (n − 1) です。</p></li>
+    <li><strong>整理して確認</strong><div class="formula">aₙ = n² + 1（n = 1 のとき 2 で成立）</div><p>n = 1 の確認を書くのが答案の作法です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>n = 1 から順に代入すると 2, 5, 10, 17, 26 で元の数列と完全に一致します。<strong>元の数列に戻す</strong>だけで確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>上端が n − 1 になるのは、<strong>a₁ から aₙ まで階差を (n − 1) 回足す</strong>から。理由が分かれば暗記より確実です。</li>
+      <li><strong>n = 1 の確認</strong>を書かないと減点。公式は n ≧ 2 でしか使えません（成り立たない問題では場合分け）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>aₙ = a₁ + Σ(k=1 から n-1) bₖ（上端は n - 1）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1, 3, 7, 13, 21, … の一般項
+        <details><summary>答え</summary><p>階差 2, 4, 6, 8 = 2k なので aₙ = 1 + (n−1)n = n² − n + 1</p></details>
+      </li>
+      <li>2, 5, 10, 17, 26, … の第10項
+        <details><summary>答え</summary><p>n² + 1 に n = 10 を入れて 101</p></details>
+      </li>
+      <li>3, 4, 7, 16, 43, … の一般項
+        <details><summary>答え</summary><p>階差 1, 3, 9, 27 = 3^(k−1) なので aₙ = 3 + (3^(n−1) − 1)/2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sigma-calc.html">← 第66回 Σ の計算</a>　｜　<a href="induction.html">第68回 数学的帰納法 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

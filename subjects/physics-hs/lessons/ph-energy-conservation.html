@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>力学的エネルギー保存｜高校物理 第4回</title>
+<meta name="description" content="なめらかな面ならmgh=mv²/2で質量が消えます。次元での検算、摩擦がある場合の扱いも整理します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第4回 力学的エネルギー保存（なめらかな曲面）</div>
+
+<main class="wrap">
+  <h1>第4回　力学的エネルギー保存（なめらかな曲面）</h1>
+  <div class="formula">なめらかな曲面上、高さ0.80 mの点から質量0.50 kgの小球を静かに離す。最下点での速さを求めよ（g = 9.8 m/s²）。</div>
+  <p>エネルギー保存は「摩擦があるか」を先に判定するだけで、使うか使わないかが決まります。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-energy-conservation.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-energy-conservation.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>摩擦の有無を確認する。</strong>なめらか＝力学的エネルギー保存が使えます。</li>
+      <li><strong>基準の高さを決める。</strong>最下点を高さ0にすると計算が最短です。</li>
+      <li><strong>mgh = mv²/2 → v = √(2gh)。</strong>質量が消えるのが特徴です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>保存則が使えるか確認</strong><div class="formula">なめらか → 力学的エネルギー保存</div><p>経路の形は関係ない。</p></li>
+    <li><strong>式を立てる</strong><div class="formula">mgh = mv²/2</div><p>最下点を基準にとる。</p></li>
+    <li><strong>質量を消す</strong><div class="formula">v = √(2gh) = √(2 × 9.8 × 0.80)</div><p>= √15.68</p></li>
+    <li><strong>答えを出す</strong><div class="formula">v ≒ 4.0 m/s</div><p>質量0.50 kgは答えに影響しない。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>ghの単位は m²/s²。平方根をとると m/s になり、速さの次元と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>摩擦があるときは mgh − f·d = mv²/2。失った分が摩擦の仕事です。</li>
+      <li>なめらかなら経路の形によらず、高さの差だけで速さが決まります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>なめらかなら mgh = mv²/2、質量は消えて v = √(2gh)。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>高さ1.8 mから静かに離したときの最下点の速さを求めよ。
+        <details><summary>答え</summary><p>v = √(2 × 9.8 × 1.8) ≒ 5.9 m/s</p></details>
+      </li>
+      <li>最下点で速さ7.0 m/sにするには、何mの高さから離せばよいか。
+        <details><summary>答え</summary><p>h = 7.0² / (2 × 9.8) = 2.5 m</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-projectile-up.html">← 第3回 鉛直投げ上げ（等加速度の3公式）</a>　｜　<a href="ph-momentum-collision.html">第5回 運動量保存と非弾性衝突 →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

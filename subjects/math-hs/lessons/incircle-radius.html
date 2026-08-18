@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>内接円と外接円の半径（3辺 5、12、13）｜高校数学 第49回</title>
+<meta name="description" content="内接円の半径は S = rs から r = S/s で一発。直角三角形の r = (a + b − c)/2、斜辺が直径になる性質まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第49回 内接円の半径</div>
+
+<main class="wrap">
+  <h1>第49回　内接円の半径は「面積 = r × 周の半分」</h1>
+  <div class="formula">3辺が 5、12、13 の三角形の内接円の半径 r と外接円の半径 R を求めよ。</div>
+  <p>内接円は、面積を2通りで表すだけで出ます。仕組みまで覚えれば忘れません（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/incircle-radius.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/incircle-radius.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>S = r・s　→　r = S ÷ s　（s は周の半分）</strong></p>
+    <p>内心から各辺へ半径を引くと三角形が3つに分かれ、面積の合計が (1/2)r(a + b + c) = rs になる、という仕組みです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>直角三角形と気づく</strong><div class="formula">5² + 12² = 25 + 144 = 169 = 13²</div><p>3辺が与えられたら、まず三平方の定理を疑うのが要領です。</p></li>
+    <li><strong>面積を出す</strong><div class="formula">S = (1/2) × 5 × 12 = 30</div></li>
+    <li><strong>r を求める</strong><div class="formula">s = (5 + 12 + 13)/2 = 15 → r = 30 / 15 = 2</div></li>
+    <li><strong>R を求める</strong><div class="formula">直角三角形 → 斜辺が直径 → R = 13 / 2</div><p>斜辺に立つ円周角が90°だから、斜辺が直径になります。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>直角三角形では r = (a + b − c) ÷ 2 も使えます。(5 + 12 − 13) ÷ 2 = 2 で一致。R も正弦定理 2R = 13 / sin 90° = 13 から 13/2 で一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>S = rs はどんな三角形でも成立</strong>します。内接円をもつ多角形にも拡張できます（S = r × 周の半分）。</li>
+      <li><strong>頂点から接点までの長さ = s − 向かい側の辺</strong>。今回は直角の頂点から 15 − 13 = 2 で、r と等しくなります（正方形ができる）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>S = r × s（周の半分）→ r = S / s</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>3辺が 6、8、10 の三角形の内接円の半径
+        <details><summary>答え</summary><p>直角三角形で S = 24、s = 12 → r = 2</p></details>
+      </li>
+      <li>3辺が 13、14、15 の三角形の内接円の半径
+        <details><summary>答え</summary><p>S = 84、s = 21 → r = 4</p></details>
+      </li>
+      <li>3辺が 5、12、13 の三角形で、内接円と外接円の面積の比
+        <details><summary>答え</summary><p>r = 2、R = 13/2 なので 4π : (169/4)π = 16 : 169</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="heron-area.html">← 第48回 ヘロンの公式</a>　｜　<a href="trig-values-obtuse.html">第50回 鈍角の三角比 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

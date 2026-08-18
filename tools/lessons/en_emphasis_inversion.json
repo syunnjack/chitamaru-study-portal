@@ -1,0 +1,220 @@
+{
+  "title": "強調構文と否定の倒置",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、私が図書館で会ったのは彼の妹だった。強調構文を使います。2、私はそんなに長い行列を見たことがなかった。ネバー で始めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 私が図書館で会ったのは",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　彼の妹だった。（強調構文）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) そんなに長い行列を見たことが",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　なかった。（Never で始める）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は2つです。強調構文は イット イズ、または イット ワズ、強調する語、ザット、残りの文。否定語を文頭に出したら、後ろは疑問文の語順に倒置します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調構文：It is/was ~ that …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調した語を抜いた残りを that の後ろへ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "否定語が文頭 → 疑問文の語順",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。強調するのは ヒズ シスター。残りは アイ メット 空所 イン ザ ライブラリー になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 強調する語を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "his sister を強調",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "残りは I met ___ in the library。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 強調する語を決める"
+    },
+    {
+      "narration": "型に入れます。イット ワズ ヒズ シスター ザット アイ メット イン ザ ライブラリー。人なので フー でもかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 型に入れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It was his sister that I met in the library.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "who も可。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 型に入れる"
+    },
+    {
+      "narration": "2番です。ネバー を文頭に出すと、後ろは疑問文の語順になります。ハド アイ シーン の順です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 否定語を文頭に出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Never + 疑問文の語順",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "had I seen の順になる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 否定語を文頭に出す"
+    },
+    {
+      "narration": "ネバー ハド アイ シーン サッチ ア ロング ライン。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Never had I seen such a long line.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：It was his sister that … / Never had I seen …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。強調構文は、イット イズ と ザット を外して元の文に戻せます。戻して普通の文になれば正しく、戻せないなら形式主語の イット と混同しています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It was … that を外す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ I met his sister in the library.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "戻れば強調構文",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ノット オンリー を文頭に出したときも倒置します。ノット オンリー ディド ヒー の形です。それから、強調構文の ザット の後ろは名詞が1つ足りない形になります。ここが形式主語との見分け方です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Not only did he …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調構文の that の後ろは名詞不足",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。強調構文は イット イズ 強調語 ザット 残り、否定語が文頭に出たら疑問文の語順。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調構文は「It is 強調語 that 残り」、否定語が文頭に出たら疑問文の語順。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼が私に電話をくれたのは昨日だった」を強調構文で英語に。 → It was yesterday that he called me.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

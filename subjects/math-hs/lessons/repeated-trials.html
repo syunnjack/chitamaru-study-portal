@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>反復試行の確率（さいころ5回で3の倍数が2回）｜高校数学 第57回</title>
+<meta name="description" content="反復試行は nCk × p^k × (1−p)^(n−k) だけ。nCk を掛ける理由、「少なくとも」との読み分けまで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第57回 反復試行の確率</div>
+
+<main class="wrap">
+  <h1>第57回　反復試行は「何回分の並べ方 × 確率のかけ算」</h1>
+  <div class="formula">1個のさいころを5回投げるとき、3の倍数の目がちょうど2回出る確率を求めよ。</div>
+  <p>何回目に出るかを全部考える必要はありません。選び方の個数を掛けるだけです（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/repeated-trials.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/repeated-trials.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>n 回中 k 回成功する確率 = nCk × p<sup>k</sup> × (1 − p)<sup>n − k</sup></strong></p>
+    <p>nCk は「どの回で成功するか」の選び方。確率のかけ算に、並べ方の個数を掛けるだけです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>1回の確率を出す</strong><div class="formula">3の倍数は 3、6 の2通り → p = 2/6 = 1/3</div></li>
+    <li><strong>どの回で成功するか</strong><div class="formula">5回のうち2回を選ぶ → 5C2 = 10（通り）</div></li>
+    <li><strong>確率のかけ算</strong><div class="formula">(1/3)² × (2/3)³ = (1/9) × (8/27) = 8/243</div><p>成功2回、失敗3回。指数の合計が 5 になるか必ず確認します。</p></li>
+    <li><strong>掛け合わせる</strong><div class="formula">10 × 8/243 = 80/243</div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>80/243 ≒ 0.33 で 1 以下。0回〜5回の確率をすべて足すと 1 になります。期待値は 5 × 1/3 ≒ 1.7 回なので、2回の確率が大きめになるのも自然です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「少なくとも1回」は<strong>余事象</strong>：1 − 32/243 = 211/243。「ちょうど」と「少なくとも」を読み分けます。</li>
+      <li>最大のミスは <strong>nCk の掛け忘れ</strong>。確率のかけ算だけでは「最初の2回に出る場合」しか数えていません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>n 回中 k 回 = nCk × p^k × (1 - p)^(n - k)</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>コインを4回投げて表が3回出る確率
+        <details><summary>答え</summary><p>4C3 × (1/2)³ × (1/2) = 4 × 1/16 = 1/4</p></details>
+      </li>
+      <li>さいころを5回投げて3の倍数が1回も出ない確率
+        <details><summary>答え</summary><p>(2/3)⁵ = 32/243</p></details>
+      </li>
+      <li>さいころを5回投げて3の倍数が少なくとも1回出る確率
+        <details><summary>答え</summary><p>1 − 32/243 = 211/243</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="standardization.html">← 第56回 標準化と偏差値</a>　｜　<a href="circular-permutation.html">第58回 円順列 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
