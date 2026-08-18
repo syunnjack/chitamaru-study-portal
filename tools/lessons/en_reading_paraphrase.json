@@ -1,0 +1,225 @@
+{
+  "title": "長文：下線部の言いかえを選ぶ",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。下線部 ターンド ダウン に最も近い意味を選ぶ問題です。彼女はより大きな会社の職を提示されたが、始めたプロジェクトを終えたかったので、その申し出を ターンド ダウン した。選択肢は、エー アクセプテッド、ビー リジェクテッド、シー ディレイド。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "She was offered a position at a larger",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "company, but she turned down the offer",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "because she wanted to finish the",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "project she had started.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) accepted (B) rejected (C) delayed",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。言いかえの設問は、単語を知っているかではなく、前後の論理で決めます。バット は方向が変わる合図、ビコーズ は理由の合図です。この2つを押さえれば、知らない語でも意味が絞れます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "語の意味は前後の論理で決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "but / because が方向を教える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "知らない語でも文脈で決まる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "文中に バット と ビコーズ があります。逆接と理由の両方が示されています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：接続語を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "but … because …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "逆接と理由の両方がある。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：接続語を確認"
+    },
+    {
+      "narration": "前半は、より大きな会社の職を提示された、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：前半を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "She was offered a position",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "職を提示された。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：前半を確認"
+    },
+    {
+      "narration": "理由は、始めたプロジェクトを終えたかった、です。つまり今の仕事を続けたいのです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：理由を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "wanted to finish the project",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "残りたい理由。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：理由を確認"
+    },
+    {
+      "narration": "したがって ターンド ダウン は断った、という意味です。答えはビー、リジェクテッド。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "turned down = rejected",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：(B) rejected",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。選択肢を代入して、ビコーズ 以下の理由と矛盾しないかを見ます。アクセプテッド を入れると、プロジェクトを終えたかったのに転職した、となって矛盾します。ディレイド では理由と結びつきません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "accepted → 理由と矛盾",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "delayed → 理由と無関係",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "rejected → 理由と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。句動詞は前置詞の向きでおおよその意味が決まります。ダウン は下向きで、断る、減らす。アップ は完成や増加です。それから、コロン や ダッシュ の後ろは言いかえなので、意味を取る手がかりになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "turn down / cut down は「下げる・断る」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "コロンやダッシュの後ろは言いかえ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。下線部の意味は バット や ビコーズ の論理で決める。語の知識より文脈。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "下線部の意味は but / because の論理で決める。語の知識より文脈。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The plan looked good on paper, but it fell through at the last minute. の fell through の意味を選べ。（succeeded / failed） → failed（but が方向を変えている）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

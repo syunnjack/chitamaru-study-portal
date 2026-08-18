@@ -1,0 +1,220 @@
+{
+  "title": "和文英訳：名詞構文と無生物主語",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語に直してください。1、この薬を飲めば、すぐに眠くなります。2、気温の急な上昇が、収穫量の減少を引き起こした。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) この薬を飲めば、すぐに",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　眠くなります。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 気温の急な上昇が、収穫量の",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　減少を引き起こした。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。原因を表す日本語は、無生物主語プラス メイク、コーズ、アラウ で書けます。それから、上昇や減少のような日本語の名詞は、ア ライズ イン、ア ディクリース イン のように、前置詞まで含めて覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "無生物主語＋make / cause / allow",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜の上昇」は a rise in 〜",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語の名詞を英語の動詞に戻す",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。この薬、を主語にします。飲めば、を条件節にしなくても書けます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 原因を主語にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "この薬 → This medicine",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「飲めば」を主語に変換。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 原因を主語にする"
+    },
+    {
+      "narration": "ジス メディシン ウィル メイク ユー スリーピー スーン。メイク プラス 目的語 プラス 形容詞の形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) make を使う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This medicine will make you sleepy soon.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "make + O + 形容詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) make を使う"
+    },
+    {
+      "narration": "2番です。気温の急な上昇は、ア シャープ ライズ イン テンパラチャー。ライズ イン を固定で覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 名詞構文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "気温の急な上昇 → a sharp rise in temperature",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "rise in を固定で覚える。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 名詞構文を作る"
+    },
+    {
+      "narration": "ア シャープ ライズ イン テンパラチャー コーズド ア ディクリース イン ザ ハーベスト。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) cause で結ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A sharp rise in temperature caused a decrease in the harvest.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：上の2文",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) cause で結ぶ"
+    },
+    {
+      "narration": "検算です。無生物主語の文は、人を主語にした文に言いかえられます。イフ ユー テイク ジス メディシン、ユー ウィル ソーン フィール スリーピー。両方書ければ、どちらでも答えられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "人を主語にした文にも直せるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If you take this medicine, …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "両方書けると強い",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。増加と減少は、イン を使います。ア ライズ イン プライシズ。それから、アラウ ユー トゥー ドゥー は、可能にする、という意味で、日本語の、できるようになる、に対応します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a rise / an increase / a decrease in 〜",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "allow you to do =「できるようになる」",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。原因は無生物主語プラス メイク、コーズ、アラウ。増減は ア ライズ イン。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "原因は無生物主語＋make / cause / allow、増減は a rise in 〜。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「この地図があれば、道に迷わずに行けます」を英語に。 → This map will allow you to get there without getting lost.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

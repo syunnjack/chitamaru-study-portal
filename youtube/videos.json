@@ -1915,6 +1915,136 @@
       ],
       "hook": "ダブルパッセージで落とす1問を、確実に取りにいきます。",
       "point": "条件は片方、数値はもう片方。計算してから照合する。"
+    },
+    {
+      "slug": "en-reading-main-idea",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reading-main-idea.html",
+      "title": "【高校英語・上級】長文の主題は逆接の直後にある／In fact の後を読む",
+      "thumb": [
+        "長文｜主題の設問",
+        "一般論 → 逆接",
+        "主張は逆接の直後"
+      ],
+      "hook": "長文を全部訳さずに主題を当てる型です。",
+      "point": "主題は「一般論→逆接→筆者の主張」。選択肢は広すぎ・狭すぎで切る。"
+    },
+    {
+      "slug": "en-reading-reference",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reading-reference.html",
+      "title": "【高校英語・上級】this の内容は直前にある／代入して確かめる",
+      "thumb": [
+        "長文｜指示語",
+        "直前を探す",
+        "代入して確認"
+      ],
+      "hook": "指示語の設問は、探す場所が決まっています。",
+      "point": "指示語は直前を探し、代入して成り立つか確認。答えは「〜こと」で終える。"
+    },
+    {
+      "slug": "en-reading-paraphrase",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reading-paraphrase.html",
+      "title": "【高校英語・上級】知らない単語は文脈で決める／turned down = rejected",
+      "thumb": [
+        "長文｜言いかえ",
+        "but / because を見る",
+        "論理で意味が決まる"
+      ],
+      "hook": "知らない単語で止まる読み方を終わりにします。",
+      "point": "下線部の意味はbut / becauseの論理で決める。語の知識より文脈。"
+    },
+    {
+      "slug": "en-reading-agreement",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reading-agreement.html",
+      "title": "【高校英語・上級】内容一致は限定語で決まる／根拠の1文を指で示す",
+      "thumb": [
+        "長文｜内容一致",
+        "限定語に線を引く",
+        "根拠の1文を示す"
+      ],
+      "hook": "内容一致で「なんとなく正しそう」を選ばないための型です。",
+      "point": "限定語に線を引き、根拠の1文と1対1で照合する。"
+    },
+    {
+      "slug": "en-reading-blank",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reading-blank.html",
+      "title": "【高校英語・上級】空所補充は符号で解く／プラス→マイナスなら逆接",
+      "thumb": [
+        "長文｜空所補充",
+        "前後を＋−で判定",
+        "符号が変われば逆接"
+      ],
+      "hook": "空所補充を訳さずに解く方法です。",
+      "point": "前後をプラス・マイナスで判定し、符号が変われば逆接。"
+    },
+    {
+      "slug": "en-translation-subject",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-translation-subject.html",
+      "title": "【高校英語・上級】和文英訳は主語を立てるだけ／If you read this book …",
+      "thumb": [
+        "和文英訳｜主語",
+        "まず主語を立てる",
+        "行為者不明は受動態"
+      ],
+      "hook": "和文英訳の手が止まるのは、主語を決めていないからです。",
+      "point": "第一手は主語。一般論はyou、行為者不明は受動態。"
+    },
+    {
+      "slug": "en-translation-noun",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-translation-noun.html",
+      "title": "【高校英語・上級】無生物主語で短く書く／This medicine will make you sleepy",
+      "thumb": [
+        "和文英訳｜名詞構文",
+        "原因を主語にする",
+        "a rise in 〜"
+      ],
+      "hook": "日本語を直訳せず、英語らしく短く書く型です。",
+      "point": "原因は無生物主語＋make / cause / allow、増減はa rise in 〜。"
+    },
+    {
+      "slug": "en-translation-tense",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-translation-tense.html",
+      "title": "【高校英語・上級】時制は線を引けば決まる／the train had already left",
+      "thumb": [
+        "和文英訳｜時制",
+        "時間の線を引く",
+        "had done / have done"
+      ],
+      "hook": "時制で減点されない書き方を作ります。",
+      "point": "過去より前はhad done、今まで続くならhave done。forは期間、sinceは起点。"
+    },
+    {
+      "slug": "en-essay-structure",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-essay-structure.html",
+      "title": "【高校英語・上級】自由英作文は5文で書く／主張→理由2→例→結論",
+      "thumb": [
+        "自由英作文｜構成",
+        "5文で約80語",
+        "主張→理由2→例→結論"
+      ],
+      "hook": "自由英作文で手が止まらない型を作ります。",
+      "point": "主張1・理由2・具体例1・結論1の5文で約80語。"
+    },
+    {
+      "slug": "en-essay-concession",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-essay-concession.html",
+      "title": "【高校英語・上級】譲歩を入れると説得力が上がる／It is true that … However, …",
+      "thumb": [
+        "自由英作文｜譲歩",
+        "It is true that …",
+        "However で反論"
+      ],
+      "hook": "答案の説得力を一段上げる型です。",
+      "point": "譲歩→Howeverで反論→理由→条件つき結論。"
     }
   ]
 }

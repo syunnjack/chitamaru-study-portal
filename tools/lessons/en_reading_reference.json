@@ -1,0 +1,225 @@
+{
+  "title": "長文：指示語の内容を答える",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。下線部 ジス が指す内容を答える問題です。市は大通りに沿って木を植え、歩道を広げた。ジス は、その地域を通勤で歩く人にとってはるかに快適にした。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The city planted trees along the main",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "street and widened the sidewalks.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This has made the area far more",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "comfortable for people walking to work.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q: this の内容を答えよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。指示語の内容は、原則として直前にあります。イット は名詞を指しますが、ジス や ザット は前の文全体の内容を指すことができます。見つけたら代入して、文として成り立つかを確認します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指示語は「直前」を探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "this / that は文や内容全体を指せる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "代入して文が成り立つか確認",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "直前の文には、木を植えた、歩道を広げた、という2つの動作があります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：直前の文を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "planted trees … and widened the sidewalks",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動作が2つ書かれている。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：直前の文を見る"
+    },
+    {
+      "narration": "ジス は、地域を快適にした、の主語です。つまり快適にした原因を指します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：何が主語かを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This has made the area comfortable",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「快適にした」原因は何か。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：何が主語かを見る"
+    },
+    {
+      "narration": "したがって、市が大通りに木を植え、歩道を広げたこと、が答えです。片方だけでは足りません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：内容をまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ 市が木を植え、歩道を広げたこと",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2つとも入れる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：内容をまとめる"
+    },
+    {
+      "narration": "代入すると、木を植えて歩道を広げたことが地域を快適にした、と自然につながります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：代入して確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「木を植え歩道を広げたこと」が地域を快適にした",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：上記の2つの整備",
+          "active": true
+        }
+      ],
+      "caption": "手順4：代入して確認"
+    },
+    {
+      "narration": "検算です。答えを英語のまま指示語の位置に入れて読み直します。プランティング トゥリーズ アンド ワイドニング ザ サイドウォークス ハズ メイド ジ エリア モア コンフォタブル。主語として成り立つので正しい答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "答えを代入して読む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語として成り立つか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "片方だけなら不十分",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。設問が日本語で答えるものなら、指示語の内容は名詞のかたまりで終わらせます。こと、や、という点、で終わる形です。それから、ザット と ジス が並ぶときは、ザット が前、ジス が後ろを指すのが原則です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語の答えは「〜こと」で終える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "that は前、this は後ろを指す",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。指示語は直前を探し、代入して主語や目的語として成り立つか確認する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指示語は直前を探し、代入して主語や目的語として成り立つか確認する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The train was delayed by heavy snow. That is why we missed the meeting. の That の内容を答えよ。 → 大雪で電車が遅れたこと",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

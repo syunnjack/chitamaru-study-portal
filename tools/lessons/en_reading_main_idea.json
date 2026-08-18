@@ -1,0 +1,225 @@
+{
+  "title": "長文：主題を問う設問",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の段落の主題を選ぶ問題です。多くの学生は、速く読むことが常により良く読むことだと信じている。実際には、速さが役立つのは読者がすでにその話題を知っている場合だけである。話題が新しいときは、速度を落として重要な文を読み返すことが、より深い理解につながる。選択肢は、エー 速読の練習法、ビー 速さが有効な条件、シー 学生の読書量。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Many students believe that reading",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "faster always means reading better.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "In fact, speed helps only when the",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "reader already knows the topic. …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q: 主題として最も適切なものを選べ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。主題は最初の1文と、イン ファクト や ハウエバー のような逆接の直後に出ます。一般論を示してから、筆者の主張をひっくり返すのが英語の段落の基本形です。選択肢は、広すぎるものと狭すぎるものを切って選びます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主題は「1文目の主張＋In fact の後」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "逆接の後に筆者の主張が来る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢は「広すぎ・狭すぎ」で切る",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1文目は、多くの学生は速く読むほど良いと信じている。これは一般論です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：1文目を読む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Many students believe … reading faster = better",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「多くの人はこう思う」＝一般論",
+          "active": true
+        }
+      ],
+      "caption": "手順1：1文目を読む"
+    },
+    {
+      "narration": "続いて イン ファクト。ここが筆者の主張です。速さが役立つのは、すでに話題を知っているときだけ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：逆接を探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "In fact, speed helps only when …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ここが筆者の主張。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：逆接を探す"
+    },
+    {
+      "narration": "3文目も、話題が新しいときは速度を落とすほうがよい、と同じ方向で補強しています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：主張をまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "速さが有効なのは条件つき",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3文目も同じ方向の補強。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：主張をまとめる"
+    },
+    {
+      "narration": "エーの練習法は本文にありません。シーの読書量も話題が違います。答えはビー、速さが有効な条件です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：選択肢を切る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) 練習法＝本文になし／(C) 読書量＝話題ちがい",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：(B) 速さが有効な条件",
+          "active": true
+        }
+      ],
+      "caption": "手順4：選択肢を切る"
+    },
+    {
+      "narration": "検算です。選んだ主題で、段落の3文すべてを説明できるかを確かめます。速さが有効な条件、という主題なら、一般論、条件、例外の3文がすべて収まります。1文でも余るときは選び直します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3文すべてを説明できるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "余る文があれば選び直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1文だけの内容は主題ではない",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。設問が主題なら、具体例の段落は読み飛ばしてかまいません。それから、複数段落の主題を問われたときは、各段落の1文目だけを並べて読むと構成が見えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "具体例（For example〜）は主題の根拠にしない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "各段落の1文目だけを並べて読む",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。主題は、一般論、逆接、筆者の主張の3点で決まる。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主題は「一般論 → 逆接 → 筆者の主張」の3点で決まる。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：段落が However で始まる場合、筆者の主張はどこにあるか答えよ。 → However の直後（前文は一般論）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -2006,6 +2006,166 @@ No sooner had S p.p. … than S 過去形。not … until は「〜して初め�
 #高校英語 #英文法 #英作文 #受験は要領 #大学受験
 ```
 
+### 【高校英語・上級】長文の主題は逆接の直後にある／In fact の後を読む
+
+- ファイル：`videos/en-reading-main-idea.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reading-main-idea.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-main-idea.html
+
+```
+長文を全部訳さずに主題を当てる型です。
+主題は「一般論→逆接→筆者の主張」。選択肢は広すぎ・狭すぎで切る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-main-idea.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】this の内容は直前にある／代入して確かめる
+
+- ファイル：`videos/en-reading-reference.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reading-reference.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-reference.html
+
+```
+指示語の設問は、探す場所が決まっています。
+指示語は直前を探し、代入して成り立つか確認。答えは「〜こと」で終える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-reference.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】知らない単語は文脈で決める／turned down = rejected
+
+- ファイル：`videos/en-reading-paraphrase.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reading-paraphrase.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-paraphrase.html
+
+```
+知らない単語で止まる読み方を終わりにします。
+下線部の意味はbut / becauseの論理で決める。語の知識より文脈。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-paraphrase.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】内容一致は限定語で決まる／根拠の1文を指で示す
+
+- ファイル：`videos/en-reading-agreement.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reading-agreement.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-agreement.html
+
+```
+内容一致で「なんとなく正しそう」を選ばないための型です。
+限定語に線を引き、根拠の1文と1対1で照合する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-agreement.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】空所補充は符号で解く／プラス→マイナスなら逆接
+
+- ファイル：`videos/en-reading-blank.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reading-blank.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-blank.html
+
+```
+空所補充を訳さずに解く方法です。
+前後をプラス・マイナスで判定し、符号が変われば逆接。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reading-blank.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】和文英訳は主語を立てるだけ／If you read this book …
+
+- ファイル：`videos/en-translation-subject.mp4`
+- サムネイル：`assets/youtube/thumbs/en-translation-subject.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-subject.html
+
+```
+和文英訳の手が止まるのは、主語を決めていないからです。
+第一手は主語。一般論はyou、行為者不明は受動態。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-subject.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】無生物主語で短く書く／This medicine will make you sleepy
+
+- ファイル：`videos/en-translation-noun.mp4`
+- サムネイル：`assets/youtube/thumbs/en-translation-noun.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-noun.html
+
+```
+日本語を直訳せず、英語らしく短く書く型です。
+原因は無生物主語＋make / cause / allow、増減はa rise in 〜。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-noun.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】時制は線を引けば決まる／the train had already left
+
+- ファイル：`videos/en-translation-tense.mp4`
+- サムネイル：`assets/youtube/thumbs/en-translation-tense.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-tense.html
+
+```
+時制で減点されない書き方を作ります。
+過去より前はhad done、今まで続くならhave done。forは期間、sinceは起点。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-translation-tense.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】自由英作文は5文で書く／主張→理由2→例→結論
+
+- ファイル：`videos/en-essay-structure.mp4`
+- サムネイル：`assets/youtube/thumbs/en-essay-structure.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-essay-structure.html
+
+```
+自由英作文で手が止まらない型を作ります。
+主張1・理由2・具体例1・結論1の5文で約80語。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-essay-structure.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・上級】譲歩を入れると説得力が上がる／It is true that … However, …
+
+- ファイル：`videos/en-essay-concession.mp4`
+- サムネイル：`assets/youtube/thumbs/en-essay-concession.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-essay-concession.html
+
+```
+答案の説得力を一段上げる型です。
+譲歩→Howeverで反論→理由→条件つき結論。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-essay-concession.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
 ## 再生リスト：高校物理｜図と立式の型で解く
 
 ### 【高校物理・第1回】斜面のつり合いは「書く順」で決まる／N≒17N・f=9.8N
