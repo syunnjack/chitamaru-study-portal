@@ -1,0 +1,225 @@
+{
+  "title": "Part3 設問の先読み（聞く場所を絞る）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part3の問題です。女性、クライアントがプレゼンを木曜の朝に変更しました。男性、では配布資料を刷り直す必要があります。女性、まず最新のスケジュールを送ってもらえますか。設問は、女性は男性に何をするよう頼んでいますか。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "W: The client moved our presentation",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　to Thursday morning.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "M: Then I need to reprint the handouts.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "W: Could you send me the updated",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　schedule first?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。会話が流れる前に設問を読み、何を待つかを決めます。頼んでいる内容を問う設問なら、クッド ユー、ウッド ユー、プリーズ という依頼表現の直後だけを聞き取ればよいのです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問を先読みして「聞く場所」を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ask to do → 依頼表現の直後",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Could you / Would you / Please を待つ",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "設問は、女性が男性に何を頼んだか。したがって依頼表現を待ちます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：設問タイプを確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ask the man to do → 依頼",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "依頼表現を待つ。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：設問タイプを確認"
+    },
+    {
+      "narration": "クッド ユー センド ミー ジ アップデーテッド スケジュール。この直後が答えの中身です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：依頼表現を拾う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Could you send me the updated schedule …?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Could you の直後が答え。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：依頼表現を拾う"
+    },
+    {
+      "narration": "言いかえると、最新のスケジュールを彼女に送る、です。配布資料の印刷は男性自身の予定なので答えではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：言いかえに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ Send her the updated schedule",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "handouts は男性側の予定。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：言いかえに直す"
+    },
+    {
+      "narration": "答えは、最新のスケジュールを送ること、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Send her the updated schedule.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：スケジュールを送る",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。誰が誰に何を頼んだかを確認します。頼んだのは女性、頼まれたのは男性、内容はスケジュールの送付です。主語がずれていれば、それは別の設問の答えになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "誰が頼んだか（女性）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "誰がするか（男性）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語がずれたら別設問の答え",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。設問に、次に何をするか、とあれば、会話の最後の発言を待ちます。それから、問題が起きている、という設問なら、バット や アンフォーチュネットリー の後ろに答えがあります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "What will … do next → 最後の発言",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "問題点 → But / Unfortunately の後",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。Part3は設問先読み。依頼は クッド ユー の直後、次の行動は最後の発言。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Part3は設問先読み。依頼は Could you の直後、次の行動は最後の発言。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ会話で「男性は何をする必要があると言っているか」の答えを答えよ。 → 配布資料を刷り直す（reprint the handouts）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

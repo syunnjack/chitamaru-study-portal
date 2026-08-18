@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ばね振り子の単振動｜高校物理 第7回</title>
+<meta name="description" content="ω=√(k/m)を先に出す型で、周期・最大速さ・最大加速度を一気に求めます。エネルギーでの検算つき。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第7回 ばね振り子の単振動（周期と最大速さ）</div>
+
+<main class="wrap">
+  <h1>第7回　ばね振り子の単振動（周期と最大速さ）</h1>
+  <div class="formula">ばね定数50 N/mのばねに質量0.50 kgのおもりをつけ、振幅0.10 mで水平に単振動させる。周期と最大の速さを求めよ（摩擦なし）。</div>
+  <p>単振動は公式が多く見えますが、ωを出せば全部そこから作れます。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-shm-spring.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-shm-spring.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>ω = √(k/m) を先に出す。</strong>周期も速さも加速度もωで書けます。</li>
+      <li><strong>T = 2π/ω。</strong>周期は振幅によりません（等時性）。</li>
+      <li><strong>最大の速さ v = Aω、最大の加速度 a = Aω²。</strong></li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>角振動数を出す</strong><div class="formula">ω = √(50 / 0.50) = √100 = 10 rad/s</div><p>先にωを出すのが要領。</p></li>
+    <li><strong>周期を出す</strong><div class="formula">T = 2π/10 = 0.2π ≒ 0.63 s</div><p>振幅には無関係。</p></li>
+    <li><strong>最大の速さ</strong><div class="formula">v = Aω = 0.10 × 10 = 1.0 m/s</div><p>中心を通るときが最大。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">T ≒ 0.63 s、v = 1.0 m/s</div><p>最大加速度は Aω² = 10 m/s²。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>kA²/2 = mv²/2 で検算すると v = 1.0 m/s。ωを使った結果と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>振幅を変えても周期は変わりません（等時性）。速さと加速度だけが変わります。</li>
+      <li>鉛直につるしても T = 2π√(m/k)。つり合いの位置が mg/k だけ下がるだけです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>ω = √(k/m) を先に出す。T = 2π/ω、最大速さ v = Aω、最大加速度 a = Aω²。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>質量を2.0 kgに変えたときの周期を求めよ（k = 50 N/m）。
+        <details><summary>答え</summary><p>ω = 5.0 rad/s、T = 2π/5.0 ≒ 1.3 s</p></details>
+      </li>
+      <li>振幅を0.20 mにしたときの最大の速さを求めよ（ω = 10 rad/s）。
+        <details><summary>答え</summary><p>v = 0.20 × 10 = 2.0 m/s</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-circular-motion.html">← 第6回 等速円運動（向心力の立式）</a>　｜　<a href="ph-heat-quantity.html">第8回 熱量の計算（比熱と電力） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

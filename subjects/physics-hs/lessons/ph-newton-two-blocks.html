@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>運動方程式（2物体と糸の張力）｜高校物理 第2回</title>
+<meta name="description" content="全体で加速度、1物体を切り出して張力。連結物体の運動方程式を2手順の型で解きます。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第2回 運動方程式（2物体と糸の張力）</div>
+
+<main class="wrap">
+  <h1>第2回　運動方程式（2物体と糸の張力）</h1>
+  <div class="formula">なめらかな水平面上で、質量3.0 kgの物体Aと質量2.0 kgの物体Bを糸でつなぎ、Aを10 Nの力で水平に引く。加速度aと糸の張力Tを求めよ。</div>
+  <p>連結物体は「全体→1つ」の順で式を立てると、張力が必ず出ます。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-newton-two-blocks.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-newton-two-blocks.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>全体で加速度。</strong>(m₁ + m₂)a = F。糸の張力は内力なので式に出てきません。</li>
+      <li><strong>1物体を切り出して張力。</strong>引かれる側のBについて m₂a = T。</li>
+      <li><strong>正の向きを決めてから式を書く。</strong>加速する向きを正にそろえます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>全体で運動方程式</strong><div class="formula">(3.0 + 2.0) a = 10</div><p>2物体は同じ加速度で動く。</p></li>
+    <li><strong>加速度を求める</strong><div class="formula">a = 10 / 5.0 = 2.0 m/s²</div><p>向きは引く向き。</p></li>
+    <li><strong>Bだけを切り出す</strong><div class="formula">2.0 × 2.0 = T</div><p>Bにはたらく水平方向の力は張力だけ。</p></li>
+    <li><strong>張力を求める</strong><div class="formula">T = 4.0 N</div><p>答え：a = 2.0 m/s²、T = 4.0 N</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>Aを切り出して 10 − 4.0 = 3.0 × 2.0 が成り立つか確認します。一致すれば正解です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>T = F × m₂/(m₁ + m₂)。後ろの物体の質量比で決まります。</li>
+      <li>Bの側を引くと T = F × 3.0/5.0 = 6.0 N。前後を入れかえたら計算し直します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>全体で加速度、1物体を切り出して張力。内力は全体の式に出てこない。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ2物体をBの側から10 Nで引いたときの張力を求めよ。
+        <details><summary>答え</summary><p>T = 10 × 3.0/5.0 = 6.0 N</p></details>
+      </li>
+      <li>Aを20 Nで引いたときの加速度と張力を求めよ。
+        <details><summary>答え</summary><p>a = 4.0 m/s²、T = 8.0 N</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-force-balance.html">← 第1回 斜面上のつり合い（力の書き込み順）</a>　｜　<a href="ph-projectile-up.html">第3回 鉛直投げ上げ（等加速度の3公式） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

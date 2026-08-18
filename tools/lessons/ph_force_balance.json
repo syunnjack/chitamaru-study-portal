@@ -1,0 +1,220 @@
+{
+  "title": "斜面上のつり合い（力の書き込み順）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。傾き30度のあらい斜面上に、質量2.0キログラムの物体が静止しています。垂直抗力エヌと、静止摩擦力エフを求めてください。重力加速度は9.8メートル毎秒毎秒とします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "傾き30°のあらい斜面上に",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量2.0 kg の物体が静止。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "垂直抗力 N と静止摩擦力 f を",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "求めよ（g = 9.8 m/s²）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。力を書き込む順番は、重力、垂直抗力、摩擦力、張力の順に固定します。軸は水平垂直ではなく、斜面に平行な方向と垂直な方向にとります。そして重力だけを分解します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "力を書く順は 重力 → 垂直抗力 → 摩擦 → 張力",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "軸は斜面に平行・垂直にとる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "重力を mg sinθ と mg cosθ に分解",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず重力の大きさを出します。2.0かける9.8で、19.6ニュートンです。これを斜面方向と垂直方向に分解します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：重力を分解する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mg = 2.0 × 9.8 = 19.6 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "斜面方向と垂直方向に分ける。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：重力を分解する"
+    },
+    {
+      "narration": "斜面に垂直な方向のつり合いから、エヌ は エムジー コサイン30度。19.6かける0.866で、およそ17ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：垂直方向のつり合い",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "N = mg cos30° = 19.6 × 0.866 ≒ 17 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "cos30° = √3/2",
+          "active": true
+        }
+      ],
+      "caption": "手順2：垂直方向のつり合い"
+    },
+    {
+      "narration": "斜面方向のつり合いから、エフ は エムジー サイン30度。19.6かける0.5で、9.8ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：斜面方向のつり合い",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f = mg sin30° = 19.6 × 0.50 = 9.8 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "静止しているので合力ゼロ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：斜面方向のつり合い"
+    },
+    {
+      "narration": "答えは、垂直抗力がおよそ17ニュートン、静止摩擦力が9.8ニュートンで、向きは斜面を上向きです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "N ≒ 17 N、f = 9.8 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "摩擦力は斜面を上向き。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。垂直抗力と摩擦力の比を見ます。エフ 割る エヌ は タンジェント30度で、およそ0.58です。サイン と コサイン を入れ違えていれば、この比が1.7になってしまうので、すぐ気づけます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f / N = tan30° ≒ 0.58",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "入れ違いなら 1.7 になる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比で確認する",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。この問題では静止しているので、摩擦力は最大摩擦力とは限りません。ミュー エヌ を使えるのは、滑り出す直前か、滑っているときだけです。それから、角度が大きいほど斜面方向の成分が増え、垂直抗力は減ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "静止なら f ≦ μN（f = μN とは限らない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "θ が大きいほど N は小さい",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。斜面では軸を斜面に合わせ、重力だけを エムジー サイン シータ と エムジー コサイン シータ に分解する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "斜面では軸を斜面に合わせ、重力だけを mg sinθ と mg cosθ に分解する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：傾き60°の斜面上で質量2.0 kgの物体が静止しているとき、静止摩擦力の大きさを求めよ。 → f = 19.6 × sin60° ≒ 17 N",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

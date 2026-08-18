@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>熱量の計算（比熱と電力）｜高校物理 第8回</title>
+<meta name="description" content="Q=mcΔTとPt=mcΔTの型で、熱量と加熱時間を求めます。単位のそろえ方と効率の扱いも整理。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第8回 熱量の計算（比熱と電力）</div>
+
+<main class="wrap">
+  <h1>第8回　熱量の計算（比熱と電力）</h1>
+  <div class="formula">20℃の水200 gを60℃まで温める。必要な熱量と、500 Wの電熱器で熱が全部水に伝わる場合の時間を求めよ（水の比熱4.2 J/(g·K)）。</div>
+  <p>熱の計算は式が2本だけ。単位をそろえる作業のほうが失点原因です。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-heat-quantity.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-heat-quantity.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>Q = mcΔT。</strong>ΔTは温度の「変化量」。セ氏でもケルビンでも差は同じです。</li>
+      <li><strong>W = Pt。</strong>1 W = 1 J/s。電力×時間がエネルギーです。</li>
+      <li><strong>Pt = mcΔT。</strong>効率100%ならこの式で時間が出ます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>温度変化を出す</strong><div class="formula">ΔT = 60 − 20 = 40 K</div><p>差なので単位はKでもよい。</p></li>
+    <li><strong>熱量を計算する</strong><div class="formula">Q = 200 × 4.2 × 40 = 33600 J</div><p>= 3.4 × 10⁴ J</p></li>
+    <li><strong>時間の式を立てる</strong><div class="formula">500 × t = 33600</div><p>500 W = 500 J/s</p></li>
+    <li><strong>時間を求める</strong><div class="formula">t = 67.2 ≒ 67 s</div><p>答え：Q ≒ 3.4 × 10⁴ J、t ≒ 67 s</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>500 × 67 ≒ 33500 J を mc = 840 J/K で割ると約40 K。ΔTと一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>比熱が J/(kg·K) なら質量もkgに。単位をそろえてから代入します。</li>
+      <li>効率ηなら ηPt = mcΔT。80%なら時間は1/0.8倍になります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>Q = mcΔT、電熱器は Pt = mcΔT。単位をそろえてから代入する。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ水200 gを20℃から100℃にするのに必要な熱量を求めよ。
+        <details><summary>答え</summary><p>Q = 200 × 4.2 × 80 = 6.7 × 10⁴ J</p></details>
+      </li>
+      <li>効率80%の電熱器（500 W）で同じ40 K上昇に必要な時間を求めよ。
+        <details><summary>答え</summary><p>t = 33600 / (500 × 0.80) = 84 s</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-shm-spring.html">← 第7回 ばね振り子の単振動（周期と最大速さ）</a>　｜　<a href="ph-dc-circuit.html">第9回 直流回路（合成抵抗と電圧の分配） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

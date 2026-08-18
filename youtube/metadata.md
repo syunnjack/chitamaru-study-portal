@@ -2006,3 +2006,327 @@ No sooner had S p.p. … than S 過去形。not … until は「〜して初め�
 #高校英語 #英文法 #英作文 #受験は要領 #大学受験
 ```
 
+## 再生リスト：高校物理｜図と立式の型で解く
+
+### 【高校物理・第1回】斜面のつり合いは「書く順」で決まる／N≒17N・f=9.8N
+
+- ファイル：`videos/ph-force-balance.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-force-balance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-force-balance.html
+
+```
+力を書き込む順番を固定するだけで、物理の失点は激減します。
+重力→垂直抗力→摩擦→張力の順に書き、軸を斜面に合わせて重力だけを分解。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-force-balance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第2回】連結物体は全体→1つの順／a=2.0m/s²・T=4.0N
+
+- ファイル：`videos/ph-newton-two-blocks.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-newton-two-blocks.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-newton-two-blocks.html
+
+```
+張力の出し方が毎回同じ手順になります。
+全体で加速度、1物体を切り出して張力。内力は全体の式に出ない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-newton-two-blocks.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第3回】投げ上げは2条件で解ける／t=2.0s・h=19.6m
+
+- ファイル：`videos/ph-projectile-up.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-projectile-up.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-projectile-up.html
+
+```
+投げ上げで迷うのは符号だけ。宣言してから式を書きます。
+上向き正でa=−g、最高点はv=0。3公式は「何を聞かれたか」で選ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-projectile-up.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第4回】質量が消える理由／v=√(2gh)=4.0m/s
+
+- ファイル：`videos/ph-energy-conservation.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-energy-conservation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-energy-conservation.html
+
+```
+なぜ質量が答えに出てこないのか、式で確認します。
+なめらかならmgh=mv²/2、質量は消えてv=√(2gh)。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-energy-conservation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第5回】衝突は運動量で解く／v=2.0m/s・失われた3.0J
+
+- ファイル：`videos/ph-momentum-collision.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-momentum-collision.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-momentum-collision.html
+
+```
+衝突でエネルギーが減るのは、式のどこに現れるのでしょうか。
+運動量は保存、一体化ならエネルギーは減る。差が熱になる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-momentum-collision.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第6回】向心力は新しい力ではない／a=8.0m/s²・F=1.6N
+
+- ファイル：`videos/ph-circular-motion.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-circular-motion.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-circular-motion.html
+
+```
+向心力と遠心力を混ぜてしまう原因を、式で切り分けます。
+a=v²/r、F=mv²/r。向心力は実在する力の合力。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-circular-motion.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第7回】単振動はωから作る／T≒0.63s・v=1.0m/s
+
+- ファイル：`videos/ph-shm-spring.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-shm-spring.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-shm-spring.html
+
+```
+単振動の公式を、1つの量から全部作り直せるようにします。
+ω=√(k/m)を先に出す。T=2π/ω、v=Aω、a=Aω²。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-shm-spring.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第8回】熱量は2本の式で足りる／3.4×10⁴J・67秒
+
+- ファイル：`videos/ph-heat-quantity.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-heat-quantity.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-heat-quantity.html
+
+```
+熱の問題で単位ミスを消す手順です。
+Q=mcΔT、電熱器はPt=mcΔT。単位をそろえてから代入。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-heat-quantity.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第9回】回路は順番で解く／I=2.0A・並列に4.0V
+
+- ファイル：`videos/ph-dc-circuit.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-dc-circuit.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-dc-circuit.html
+
+```
+回路の計算順を固定して、枝が増えても解けるようにします。
+並列を先に合成、全電流を出してRIで各部分に戻す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-dc-circuit.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第10回】導体棒の誘導は3手順／0.40V・0.20A・0.020N
+
+- ファイル：`videos/ph-induction-rod.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-induction-rod.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-induction-rod.html
+
+```
+電磁誘導の計算を、3つの式の順番だけで固定します。
+V=BLv→I=V/R→F=BIL。向きは運動を妨げる向き。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-induction-rod.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+## 再生リスト：TOEIC｜スコアに直結する型
+
+### 【TOEIC・第1回】Part5の品詞問題は形で解く／submitted directly to
+
+- ファイル：`videos/toeic-part5-word-class.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part5-word-class.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-word-class.html
+
+```
+Part5で時間を溶かさないための、最初の型です。
+語尾がそろえば品詞問題。空所を隠して骨格が完成していれば副詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-word-class.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第2回】時のヒントで動詞の形は決まる／since → has worked
+
+- ファイル：`videos/toeic-part5-verb-form.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part5-verb-form.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-verb-form.html
+
+```
+動詞の形の問題を、探す作業に変えます。
+選択肢が同じ動詞なら時のヒントを探す。since / forなら現在完了。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-verb-form.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第3回】Despite と Although の見分け／後ろの形だけ見る
+
+- ファイル：`videos/toeic-part5-prep-conj.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part5-prep-conj.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-prep-conj.html
+
+```
+DespiteとAlthoughで止まらないようにします。
+後ろが名詞なら前置詞、主語＋動詞なら接続詞。副詞は文をつなげない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-prep-conj.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第4回】whose を一瞬で選ぶ／空所の後ろ2語だけ見る
+
+- ファイル：`videos/toeic-part5-relative.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part5-relative.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-relative.html
+
+```
+関係詞は訳さずに、後ろの形だけで選べます。
+直後が名詞＋動詞ならwhose、動詞だけなら主格、目的語不足なら目的格。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-relative.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第5回】place an order を知っているかだけ／語彙は相性で覚える
+
+- ファイル：`videos/toeic-part5-collocation.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part5-collocation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-collocation.html
+
+```
+語彙問題は覚え方を変えるだけで正答率が上がります。
+語彙問題は意味ではなく相性。動詞＋名詞をセットで覚える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part5-collocation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第6回】Part6のつなぎ語は前後2文だけ／Therefore と However
+
+- ファイル：`videos/toeic-part6-transition.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part6-transition.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part6-transition.html
+
+```
+Part6を全文精読しないための型です。
+つなぎ語は前後の関係だけで決まる。順接か逆接かを日本語で確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part6-transition.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第7回】Part7は設問タイプで読む場所が決まる／purposeは冒頭2文
+
+- ファイル：`videos/toeic-part7-purpose.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part7-purpose.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part7-purpose.html
+
+```
+Part7で時間切れになる人の読み方を変えます。
+目的の設問は冒頭2文＋言いかえ。細部は別の設問の根拠。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part7-purpose.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第8回】Part2は冒頭1語で決まる／WH疑問文にYesは来ない
+
+- ファイル：`videos/toeic-part2-wh.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part2-wh.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part2-wh.html
+
+```
+Part2で全部聞こうとして崩れる人へ。
+冒頭1語で答えの種類を決め、WH疑問文のYes/Noは即消し。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part2-wh.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第9回】Part3は先読みで聞く場所を決める／Could you の直後
+
+- ファイル：`videos/toeic-part3-preread.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part3-preread.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part3-preread.html
+
+```
+Part3で「全部聞いて全部忘れる」を止めます。
+設問先読み。依頼はCould youの直後、次の行動は最後の発言。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part3-preread.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+
+### 【TOEIC・第10回】2文書をまたぐ設問の解き方／$2,200で送料無料
+
+- ファイル：`videos/toeic-part7-double.mp4`
+- サムネイル：`assets/youtube/thumbs/toeic-part7-double.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part7-double.html
+
+```
+ダブルパッセージで落とす1問を、確実に取りにいきます。
+条件は片方、数値はもう片方。計算してから照合する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/toeic/lessons/toeic-part7-double.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#TOEIC #英語学習 #Part5 #リスニング #受験は要領
+```
+

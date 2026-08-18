@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>電磁誘導（導体棒に生じる起電力）｜高校物理 第10回</title>
+<meta name="description" content="V=BLv→I=V/R→F=BILの3手順で導体棒の電磁誘導を解き、エネルギーで検算する型を示します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第10回 電磁誘導（導体棒に生じる起電力）</div>
+
+<main class="wrap">
+  <h1>第10回　電磁誘導（導体棒に生じる起電力）</h1>
+  <div class="formula">磁束密度0.50 Tの一様な磁場に垂直なレール上で、長さ0.20 mの導体棒を4.0 m/sで動かす。回路の全抵抗が2.0 Ωのとき、起電力・電流・棒にはたらく力の大きさを求めよ。</div>
+  <p>電磁誘導は3つの式を順に使うだけ。向きはレンツの法則で決まります。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-induction-rod.mp4">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-induction-rod.mp4">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>V = BLv。</strong>B、L、vが互いに垂直なときの形です。</li>
+      <li><strong>I = V/R。</strong>回路の全抵抗で割ります。</li>
+      <li><strong>F = BIL。</strong>向きはレンツの法則から「運動を妨げる向き」。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>起電力を出す</strong><div class="formula">V = BLv = 0.50 × 0.20 × 4.0 = 0.40 V</div><p>3つの量が垂直。</p></li>
+    <li><strong>電流を出す</strong><div class="formula">I = V/R = 0.40 / 2.0 = 0.20 A</div><p>オームの法則。</p></li>
+    <li><strong>力を出す</strong><div class="formula">F = BIL = 0.50 × 0.20 × 0.20 = 0.020 N</div><p>向きは運動を妨げる向き。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">V = 0.40 V、I = 0.20 A、F = 0.020 N</div><p>等速なら外力もこの大きさ。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>Fv = 0.020 × 4.0 = 0.080 W、I²R = 0.20² × 2.0 = 0.080 W。一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>誘導電流の向きは、磁束の変化を妨げる向き（レンツの法則）。</li>
+      <li>vを2倍にするとV、Iは2倍、F = BILは4倍、消費電力Fvは8倍になります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>V = BLv → I = V/R → F = BIL。向きは必ず「運動を妨げる向き」。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>速さを8.0 m/sにしたときの起電力と電流を求めよ。
+        <details><summary>答え</summary><p>V = 0.80 V、I = 0.40 A</p></details>
+      </li>
+      <li>速さ8.0 m/sのときに棒にはたらく力と消費電力を求めよ。
+        <details><summary>答え</summary><p>F = 0.080 N、P = Fv = 0.64 W</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-dc-circuit.html">← 第9回 直流回路（合成抵抗と電圧の分配）</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

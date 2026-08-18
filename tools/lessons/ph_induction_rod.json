@@ -1,0 +1,220 @@
+{
+  "title": "電磁誘導（導体棒に生じる起電力）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。磁束密度0.50テスラの一様な磁場に垂直なレール上で、長さ0.20メートルの導体棒を、4.0メートル毎秒で動かします。回路の全抵抗が2.0オームのとき、起電力、電流、棒にはたらく力の大きさを求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "B = 0.50 T、L = 0.20 m、v = 4.0 m/s、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "回路の全抵抗 R = 2.0 Ω。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "起電力 V、電流 I、棒にはたらく",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "力 F の大きさを求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。起電力は ビーエルブイ。電流は起電力を抵抗で割る。棒にはたらく力は ビーアイエル で、向きは運動を妨げる向きです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "V = BLv",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I = V/R",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "F = BIL（運動を妨げる向き）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "起電力は ビーエルブイ。0.50かける0.20かける4.0で、0.40ボルトです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：起電力を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "V = BLv = 0.50 × 0.20 × 4.0 = 0.40 V",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3つの量が垂直。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：起電力を出す"
+    },
+    {
+      "narration": "電流は 0.40割る2.0 で0.20アンペアです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：電流を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I = V/R = 0.40 / 2.0 = 0.20 A",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "オームの法則。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：電流を出す"
+    },
+    {
+      "narration": "棒にはたらく力は ビーアイエル。0.50かける0.20かける0.20で、0.020ニュートン。向きは棒の運動を妨げる向きです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：力を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "F = BIL = 0.50 × 0.20 × 0.20 = 0.020 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "向きは運動を妨げる向き。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：力を出す"
+    },
+    {
+      "narration": "答えは、起電力0.40ボルト、電流0.20アンペア、力0.020ニュートンです。等速で動かすなら、外から加える力もこの大きさになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "V = 0.40 V、I = 0.20 A、F = 0.020 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "等速なら外力もこの大きさ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。エネルギーで確かめます。外力の仕事率は エフブイ で、0.020かける4.0の0.08ワット。抵抗の消費電力は アイ2乗アール で、0.04かける2.0の0.08ワット。一致するので、計算が正しいと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "外力の仕事率 Fv = 0.080 W",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "消費電力 I²R = 0.080 W",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "一致すれば正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。誘導起電力の向きは、レンツの法則から、磁束の変化を妨げる向きになります。それから、速さを2倍にすると起電力も電流も2倍になり、力は4倍、消費電力は8倍になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "向きは磁束の変化を妨げる（レンツ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v が2倍 → F は4倍、電力は8倍",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ブイ イコール ビーエルブイ、次に アイ イコール ブイ割るアール、そして エフ イコール ビーアイエル。向きは必ず運動を妨げる向き。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "V = BLv → I = V/R → F = BIL。向きは必ず「運動を妨げる向き」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：速さを8.0 m/sにしたときの起電力と電流を求めよ。 → V = 0.80 V、I = 0.40 A",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

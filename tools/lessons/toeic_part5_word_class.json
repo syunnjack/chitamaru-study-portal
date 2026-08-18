@@ -1,0 +1,220 @@
+{
+  "title": "Part5 品詞問題（選択肢を見る前に骨格）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part5の問題です。オール リファンド リクエスツ マスト ビー サブミッテッド、空所、トゥー ザ アカウンティング チーム。選択肢は、エー ダイレクト、ビー ダイレクトリー、シー ダイレクション、ディー ダイレクツ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "All refund requests must be submitted",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "------- to the accounting team.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) direct  (B) directly",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(C) direction  (D) directs",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。選択肢の語尾がそろっていたら品詞問題です。次に空所を隠して文の骨格を見ます。主語と動詞がそろっていて意味も完成していれば、入るのは副詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢の語尾を見て品詞問題と判定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所を隠して文の骨格を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "S と V がそろっていれば副詞",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "選択肢は語尾だけが違います。したがって意味ではなく品詞で解く問題です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：問題の種類を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "direct / directly / direction / directs",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "語尾が違うだけ → 品詞問題",
+          "active": true
+        }
+      ],
+      "caption": "手順1：問題の種類を決める"
+    },
+    {
+      "narration": "空所を隠すと、オール リファンド リクエスツ マスト ビー サブミッテッド トゥー ザ アカウンティング チーム。これだけで文が完成しています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：空所を隠す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "All refund requests must be submitted to the accounting team.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "これで文が完成している。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：空所を隠す"
+    },
+    {
+      "narration": "完成した文に足せるのは修飾語、つまり副詞です。サブミッテッド を修飾します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：入るのは修飾語",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "完成した文に足すのは副詞",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動詞 submitted を修飾する。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：入るのは修飾語"
+    },
+    {
+      "narration": "答えはビー、ダイレクトリー。直接、経理チームに提出する、という意味になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) directly",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「直接提出する」の意味。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。ほかの選択肢を入れて確かめます。ダイレクト は形容詞なので後ろに名詞が必要です。ダイレクション は名詞で、動詞の目的語の位置ではないので入りません。ダイレクツ は動詞で、すでに動詞があるので不可です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "direct（形容詞）→ 名詞が必要",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "direction（名詞）→ 置き場がない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "directs（動詞）→ 動詞が二重",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。前置詞の直後は名詞が入ります。それから、be動詞と過去分詞の間や、ハブ と過去分詞の間に入るのも副詞です。この2つは頻出です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "前置詞の直後は名詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "be / have と過去分詞の間は副詞",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。選択肢の語尾がそろっていたら品詞問題。空所を隠して骨格が完成していれば副詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢の語尾がそろっていたら品詞問題。空所を隠して骨格が完成していれば副詞。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The manager reviewed the proposal ( careful / carefully ) before the meeting. を選べ。 → carefully（文が完成しているので副詞）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

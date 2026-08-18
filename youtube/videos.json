@@ -29,6 +29,18 @@
       "name": "高校英語｜英作文の型で覚える文法",
       "badge": "高校英語",
       "hashtags": "#高校英語 #英文法 #英作文 #受験は要領 #大学受験"
+    },
+    {
+      "id": "physics-hs",
+      "name": "高校物理｜図と立式の型で解く",
+      "badge": "高校物理",
+      "hashtags": "#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験"
+    },
+    {
+      "id": "toeic",
+      "name": "TOEIC｜スコアに直結する型",
+      "badge": "TOEIC",
+      "hashtags": "#TOEIC #英語学習 #Part5 #リスニング #受験は要領"
     }
   ],
   "videos": [
@@ -1643,6 +1655,266 @@
       ],
       "hook": "No sooner の語順を、毎回考えずに書けるようにします。",
       "point": "No sooner had S p.p. … than S 過去形。not … until は「〜して初めて」。"
+    },
+    {
+      "slug": "ph-force-balance",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-force-balance.html",
+      "title": "【高校物理・第1回】斜面のつり合いは「書く順」で決まる／N≒17N・f=9.8N",
+      "thumb": [
+        "斜面のつり合い",
+        "軸は斜面に合わせる",
+        "N≒17N / f=9.8N"
+      ],
+      "hook": "力を書き込む順番を固定するだけで、物理の失点は激減します。",
+      "point": "重力→垂直抗力→摩擦→張力の順に書き、軸を斜面に合わせて重力だけを分解。"
+    },
+    {
+      "slug": "ph-newton-two-blocks",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-newton-two-blocks.html",
+      "title": "【高校物理・第2回】連結物体は全体→1つの順／a=2.0m/s²・T=4.0N",
+      "thumb": [
+        "運動方程式",
+        "全体 → 1つを切り出す",
+        "a=2.0 / T=4.0"
+      ],
+      "hook": "張力の出し方が毎回同じ手順になります。",
+      "point": "全体で加速度、1物体を切り出して張力。内力は全体の式に出ない。"
+    },
+    {
+      "slug": "ph-projectile-up",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-projectile-up.html",
+      "title": "【高校物理・第3回】投げ上げは2条件で解ける／t=2.0s・h=19.6m",
+      "thumb": [
+        "鉛直投げ上げ",
+        "上向き正 → a = −g",
+        "最高点は v = 0"
+      ],
+      "hook": "投げ上げで迷うのは符号だけ。宣言してから式を書きます。",
+      "point": "上向き正でa=−g、最高点はv=0。3公式は「何を聞かれたか」で選ぶ。"
+    },
+    {
+      "slug": "ph-energy-conservation",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-energy-conservation.html",
+      "title": "【高校物理・第4回】質量が消える理由／v=√(2gh)=4.0m/s",
+      "thumb": [
+        "エネルギー保存",
+        "mgh = mv²/2",
+        "v = √(2gh)"
+      ],
+      "hook": "なぜ質量が答えに出てこないのか、式で確認します。",
+      "point": "なめらかならmgh=mv²/2、質量は消えてv=√(2gh)。"
+    },
+    {
+      "slug": "ph-momentum-collision",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-momentum-collision.html",
+      "title": "【高校物理・第5回】衝突は運動量で解く／v=2.0m/s・失われた3.0J",
+      "thumb": [
+        "運動量保存",
+        "一体化 = e が 0",
+        "9.0J → 6.0J"
+      ],
+      "hook": "衝突でエネルギーが減るのは、式のどこに現れるのでしょうか。",
+      "point": "運動量は保存、一体化ならエネルギーは減る。差が熱になる。"
+    },
+    {
+      "slug": "ph-circular-motion",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-circular-motion.html",
+      "title": "【高校物理・第6回】向心力は新しい力ではない／a=8.0m/s²・F=1.6N",
+      "thumb": [
+        "等速円運動",
+        "a = v²/r",
+        "F = mv²/r"
+      ],
+      "hook": "向心力と遠心力を混ぜてしまう原因を、式で切り分けます。",
+      "point": "a=v²/r、F=mv²/r。向心力は実在する力の合力。"
+    },
+    {
+      "slug": "ph-shm-spring",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-shm-spring.html",
+      "title": "【高校物理・第7回】単振動はωから作る／T≒0.63s・v=1.0m/s",
+      "thumb": [
+        "単振動",
+        "ω = √(k/m)",
+        "T = 2π/ω, v = Aω"
+      ],
+      "hook": "単振動の公式を、1つの量から全部作り直せるようにします。",
+      "point": "ω=√(k/m)を先に出す。T=2π/ω、v=Aω、a=Aω²。"
+    },
+    {
+      "slug": "ph-heat-quantity",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-heat-quantity.html",
+      "title": "【高校物理・第8回】熱量は2本の式で足りる／3.4×10⁴J・67秒",
+      "thumb": [
+        "熱量と比熱",
+        "Q = mcΔT",
+        "Pt = Q → 67 s"
+      ],
+      "hook": "熱の問題で単位ミスを消す手順です。",
+      "point": "Q=mcΔT、電熱器はPt=mcΔT。単位をそろえてから代入。"
+    },
+    {
+      "slug": "ph-dc-circuit",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-dc-circuit.html",
+      "title": "【高校物理・第9回】回路は順番で解く／I=2.0A・並列に4.0V",
+      "thumb": [
+        "直流回路",
+        "並列を先に合成",
+        "I=2.0A / V=4.0V"
+      ],
+      "hook": "回路の計算順を固定して、枝が増えても解けるようにします。",
+      "point": "並列を先に合成、全電流を出してRIで各部分に戻す。"
+    },
+    {
+      "slug": "ph-induction-rod",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-induction-rod.html",
+      "title": "【高校物理・第10回】導体棒の誘導は3手順／0.40V・0.20A・0.020N",
+      "thumb": [
+        "電磁誘導",
+        "V = BLv",
+        "I = V/R, F = BIL"
+      ],
+      "hook": "電磁誘導の計算を、3つの式の順番だけで固定します。",
+      "point": "V=BLv→I=V/R→F=BIL。向きは運動を妨げる向き。"
+    },
+    {
+      "slug": "toeic-part5-word-class",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-word-class.html",
+      "title": "【TOEIC・第1回】Part5の品詞問題は形で解く／submitted directly to",
+      "thumb": [
+        "Part5 品詞問題",
+        "空所を隠す",
+        "骨格が完成 → 副詞"
+      ],
+      "hook": "Part5で時間を溶かさないための、最初の型です。",
+      "point": "語尾がそろえば品詞問題。空所を隠して骨格が完成していれば副詞。"
+    },
+    {
+      "slug": "toeic-part5-verb-form",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-verb-form.html",
+      "title": "【TOEIC・第2回】時のヒントで動詞の形は決まる／since → has worked",
+      "thumb": [
+        "Part5 動詞の形",
+        "時のヒントを探す",
+        "since → 現在完了"
+      ],
+      "hook": "動詞の形の問題を、探す作業に変えます。",
+      "point": "選択肢が同じ動詞なら時のヒントを探す。since / forなら現在完了。"
+    },
+    {
+      "slug": "toeic-part5-prep-conj",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-prep-conj.html",
+      "title": "【TOEIC・第3回】Despite と Although の見分け／後ろの形だけ見る",
+      "thumb": [
+        "前置詞と接続詞",
+        "後ろが名詞 → 前置詞",
+        "S+V → 接続詞"
+      ],
+      "hook": "DespiteとAlthoughで止まらないようにします。",
+      "point": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。副詞は文をつなげない。"
+    },
+    {
+      "slug": "toeic-part5-relative",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-relative.html",
+      "title": "【TOEIC・第4回】whose を一瞬で選ぶ／空所の後ろ2語だけ見る",
+      "thumb": [
+        "Part5 関係詞",
+        "直後を2語見る",
+        "名詞+動詞 → whose"
+      ],
+      "hook": "関係詞は訳さずに、後ろの形だけで選べます。",
+      "point": "直後が名詞＋動詞ならwhose、動詞だけなら主格、目的語不足なら目的格。"
+    },
+    {
+      "slug": "toeic-part5-collocation",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part5-collocation.html",
+      "title": "【TOEIC・第5回】place an order を知っているかだけ／語彙は相性で覚える",
+      "thumb": [
+        "Part5 語彙問題",
+        "動詞+名詞のセット",
+        "place an order"
+      ],
+      "hook": "語彙問題は覚え方を変えるだけで正答率が上がります。",
+      "point": "語彙問題は意味ではなく相性。動詞＋名詞をセットで覚える。"
+    },
+    {
+      "slug": "toeic-part6-transition",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part6-transition.html",
+      "title": "【TOEIC・第6回】Part6のつなぎ語は前後2文だけ／Therefore と However",
+      "thumb": [
+        "Part6 つなぎ語",
+        "前後を要約する",
+        "順接 → Therefore"
+      ],
+      "hook": "Part6を全文精読しないための型です。",
+      "point": "つなぎ語は前後の関係だけで決まる。順接か逆接かを日本語で確認。"
+    },
+    {
+      "slug": "toeic-part7-purpose",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part7-purpose.html",
+      "title": "【TOEIC・第7回】Part7は設問タイプで読む場所が決まる／purposeは冒頭2文",
+      "thumb": [
+        "Part7 目的の設問",
+        "冒頭2文で決まる",
+        "正解は言いかえ"
+      ],
+      "hook": "Part7で時間切れになる人の読み方を変えます。",
+      "point": "目的の設問は冒頭2文＋言いかえ。細部は別の設問の根拠。"
+    },
+    {
+      "slug": "toeic-part2-wh",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part2-wh.html",
+      "title": "【TOEIC・第8回】Part2は冒頭1語で決まる／WH疑問文にYesは来ない",
+      "thumb": [
+        "Part2 WH疑問文",
+        "冒頭1語に集中",
+        "Yes / No は即消し"
+      ],
+      "hook": "Part2で全部聞こうとして崩れる人へ。",
+      "point": "冒頭1語で答えの種類を決め、WH疑問文のYes/Noは即消し。"
+    },
+    {
+      "slug": "toeic-part3-preread",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part3-preread.html",
+      "title": "【TOEIC・第9回】Part3は先読みで聞く場所を決める／Could you の直後",
+      "thumb": [
+        "Part3 先読み",
+        "何を待つか決める",
+        "Could you の直後"
+      ],
+      "hook": "Part3で「全部聞いて全部忘れる」を止めます。",
+      "point": "設問先読み。依頼はCould youの直後、次の行動は最後の発言。"
+    },
+    {
+      "slug": "toeic-part7-double",
+      "playlist": "toeic",
+      "page": "subjects/toeic/lessons/toeic-part7-double.html",
+      "title": "【TOEIC・第10回】2文書をまたぐ設問の解き方／$2,200で送料無料",
+      "thumb": [
+        "Part7 2文書",
+        "条件と数値を分けて取る",
+        "計算して照合"
+      ],
+      "hook": "ダブルパッセージで落とす1問を、確実に取りにいきます。",
+      "point": "条件は片方、数値はもう片方。計算してから照合する。"
     }
   ]
 }

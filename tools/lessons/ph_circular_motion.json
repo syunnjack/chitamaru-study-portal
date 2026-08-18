@@ -1,0 +1,220 @@
+{
+  "title": "等速円運動（向心力の立式）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。質量0.20キログラムの小球が、半径0.50メートルの円周上を、速さ2.0メートル毎秒で等速円運動しています。向心加速度と向心力の大きさを求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量 0.20 kg の小球が半径 0.50 m の",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "円周上を速さ 2.0 m/s で等速円運動。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "向心加速度 a と向心力 F の",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "大きさを求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。向心加速度は ブイの2乗 割る アール で、向きは中心向き。向心力はそれに質量をかけた エムブイ2乗割るアール です。向心力は新しい種類の力ではなく、張力や重力などの合力の呼び名です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = v²/r（中心向き）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "F = ma = mv²/r",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "向心力は「新しい力」ではない",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "向心加速度は ブイの2乗 割る アール。2.0の2乗の4.0を0.5で割って、8.0メートル毎秒毎秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：向心加速度を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = v²/r = 2.0² / 0.50 = 8.0 m/s²",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "向きは中心向き。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：向心加速度を出す"
+    },
+    {
+      "narration": "向心力は 質量かける加速度で、0.20かける8.0の1.6ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：向心力を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "F = ma = 0.20 × 8.0 = 1.6 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "F = mv²/r でも同じ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：向心力を出す"
+    },
+    {
+      "narration": "周期は 2パイアール 割る ブイ。2パイかける0.5を2.0で割って、およそ1.6秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：周期を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 2πr/v = 2π × 0.50 / 2.0 ≒ 1.6 s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1周の時間。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：周期を確認する"
+    },
+    {
+      "narration": "答えは、向心加速度8.0メートル毎秒毎秒、向心力1.6ニュートン。どちらも中心向きです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = 8.0 m/s²、F = 1.6 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "向きはどちらも中心向き。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。角速度を使った式で確かめます。オメガ は ブイ割るアール で4.0ラジアン毎秒。向心加速度は アールオメガの2乗 で、0.5かける16の8.0メートル毎秒毎秒。一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ω = v/r = 4.0 rad/s",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = rω² = 0.50 × 16 = 8.0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "一致すれば正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。等速円運動では速さは一定ですが、速度の向きが変わるので加速度はゼロではありません。それから、向心力は必ず実在の力の合力です。遠心力を混ぜて書かないようにします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "速さ一定でも加速度はある",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "遠心力は回転する立場でだけ使う",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。向心加速度は ブイ2乗割るアール、または アールオメガ2乗。向心力 エフ イコール エムブイ2乗割るアール は実在する力の合力。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "向心加速度は v²/r（= rω²）、向心力 F = mv²/r は実在する力の合力。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ小球が速さ4.0 m/sで同じ円を回るときの向心力を求めよ。 → F = 0.20 × 4.0²/0.50 = 6.4 N（速さ2倍で4倍）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

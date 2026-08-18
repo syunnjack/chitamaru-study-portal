@@ -1,0 +1,225 @@
+{
+  "title": "Part2 WH疑問文（答えの種類を先に決める）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part2の問題です。ホエン ウィル ザ ニュー プロダクト カタログ ビー レディー。選択肢は、エー イエス イット イズ レディー。ビー バイ ジ エンド オブ ジス マンス。シー イン ザ ミーティング ルーム。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q: When will the new product",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "catalog be ready?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) Yes, it is ready.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) By the end of this month.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(C) In the meeting room.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。Part2は最初の1語が勝負です。ホエン なら時、ホエア なら場所、フー なら人。そしてWH疑問文に イエス や ノー で答える選択肢は、聞かなくても消せます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最初の1語で答えの種類を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When → 時、Where → 場所、Who → 人",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "WH疑問文に Yes / No は不可",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "疑問詞は ホエン。したがって時を答える選択肢を選びます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：疑問詞を取る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When → 時を答える",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1語目だけで方針が決まる。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：疑問詞を取る"
+    },
+    {
+      "narration": "エーは イエス で始まっています。WH疑問文には イエス や ノー では答えられないので消します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(A) を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Yes, it is ready. → Yes/No は不可",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "WH疑問文には答えられない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(A) を消す"
+    },
+    {
+      "narration": "シーは場所を答えています。これは ホエア に対する答えなので消します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(C) を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "In the meeting room → 場所",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Where への答え。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(C) を消す"
+    },
+    {
+      "narration": "答えはビー、バイ ジ エンド オブ ジス マンス。今月末までに、と時を答えています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) By the end of this month.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "時を答えている。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。もし問いが ホエア ウィル ザ ミーティング ビー ヘルド なら、答えはシーになります。疑問詞と答えの種類が対応していることを確認すれば、この型は完成です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When → (B) 時",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Where → (C) 場所",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "疑問詞と答えが対応",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ハウ ロング は期間、ハウ スーン は今からどれくらい先か、ハウ オフン は頻度です。それから、質問と同じ単語が入っている選択肢は、多くの場合ひっかけです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "How long（期間）／How soon（あとどれくらい）／How often（頻度）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問と同じ単語はひっかけが多い",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。Part2は冒頭1語で答えの種類を決め、WH疑問文の イエス ノー は即消し。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Part2は冒頭1語で答えの種類を決め、WH疑問文の Yes / No は即消し。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：Who is in charge of the training program? に対する応答として適切なものを選べ。（Yes, he is. / Ms. Sato is.） → Ms. Sato is.（人を答える）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}
