@@ -1,0 +1,220 @@
+{
+  "title": "仮定法の応用（But for と as if）",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、君の助けがなかったら、私は失敗していただろう。バット フォー を使います。2、彼はまるで全部知っているかのように話す。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 君の助けがなかったら、私は",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　失敗していただろう。（But for）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼はまるで全部知っているかの",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　ように話す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。バット フォー と ウィズアウト は、イフ イット ワー ノット フォー、または イフ イット ハド ノット ビーン フォー の言いかえです。アズ イフ は、同時のことなら過去形、それより前のことなら過去完了を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "But for / Without = If it were / had not been for",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "as if + 過去形（同時）／過去完了（それ以前）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主節の形でいつの話かが決まる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。失敗していただろう、なので過去の仮定です。主節は ウッド ハブ プラス 過去分詞になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) いつの話かを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「失敗していただろう」→ 過去の仮定",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主節は would have + 過去分詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) いつの話かを決める"
+    },
+    {
+      "narration": "バット フォー ユア ヘルプ、アイ ウッド ハブ フェイルド。イフ イット ハド ノット ビーン フォー ユア ヘルプ と同じ意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) But for で書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "But for your help, I would have failed.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= If it had not been for your help, …",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) But for で書く"
+    },
+    {
+      "narration": "2番です。話すのも今、知っているのも今なので、同時です。したがって過去形を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) as if の時を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "話すのは今／知っているのも今",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "同時なので過去形。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) as if の時を決める"
+    },
+    {
+      "narration": "ヒー トークス アズ イフ ヒー ニュー エブリシング。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He talks as if he knew everything.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：But for your help, I would have failed. / as if he knew everything",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。バット フォー を イフ節に戻して、主節と時が合っているかを見ます。過去の話なら イフ イット ハド ノット ビーン フォー、現在の話なら イフ イット ワー ノット フォー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去 → If it had not been for",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在 → If it were not for",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主節と時をそろえる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。イフ を省略すると倒置になります。ワー イット ノット フォー、ハド アイ ノウン、の形です。それから、イット イズ タイム の後ろは過去形を使います。イット イズ タイム ユー ウェント トゥー ベッド です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Were it not for … / Had I known …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It is time + 過去形",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。バット フォー と ウィズアウト は イフ イット ワー、または ハド ノット ビーン フォー。アズ イフ は同時なら過去形、前なら過去完了。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "But for / Without = If it were / had not been for。as if は同時なら過去形、前なら過去完了。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「もっと早くそれを知っていればなあ」を I wish を使って英語に。 → I wish I had known it earlier.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

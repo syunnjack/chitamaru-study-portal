@@ -1513,6 +1513,136 @@
       ],
       "hook": "because と because of を意味で選んでいると必ず外します。",
       "point": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。"
+    },
+    {
+      "slug": "en-participle-construction",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-participle-construction.html",
+      "title": "【高校英語・中級】分詞構文は3手順で作れる／Not knowing・Written in simple English",
+      "thumb": [
+        "分詞構文",
+        "接続詞を消す",
+        "doing / done"
+      ],
+      "hook": "分詞構文を「なんとなく訳す」から卒業しましょう。",
+      "point": "接続詞を消し、主語が同じなら消して動詞をdoing。受け身はdoneから。"
+    },
+    {
+      "slug": "en-causative-perception",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-causative-perception.html",
+      "title": "【高校英語・中級】使役と知覚のto問題を終わらせる／made me clean・heard someone calling",
+      "thumb": [
+        "使役と知覚動詞",
+        "原形／doing／done",
+        "受動態は to"
+      ],
+      "hook": "made me to clean と書いてしまう理由が、はっきり分かります。",
+      "point": "使役make/let/haveは原形、知覚は原形・doing・done。受動態ではtoが出ます。"
+    },
+    {
+      "slug": "en-emphasis-inversion",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-emphasis-inversion.html",
+      "title": "【高校英語・中級】強調構文と倒置／It was his sister that・Never had I seen",
+      "thumb": [
+        "強調構文と倒置",
+        "It is ~ that",
+        "Never had I seen"
+      ],
+      "hook": "強調構文と形式主語のitを、後ろの形だけで区別する方法です。",
+      "point": "It is 強調語 that 残り。否定語が文頭に出たら疑問文の語順。"
+    },
+    {
+      "slug": "en-noun-clause",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-noun-clause.html",
+      "title": "【高校英語・中級】thatの正体は後ろの形で決まる／名詞節と同格のthat",
+      "thumb": [
+        "名詞節と同格",
+        "後ろが完全な文",
+        "→ 同格の that"
+      ],
+      "hook": "thatを見たら訳を考える前に、後ろの形を見てください。",
+      "point": "節が主語・目的語なら名詞節、名詞＋that＋完全な文なら同格。"
+    },
+    {
+      "slug": "en-reported-speech",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-reported-speech.html",
+      "title": "【高校英語・中級】話法の転換は3操作／would finish the next day・asked me if",
+      "thumb": [
+        "時制の一致と話法",
+        "1つ過去へずらす",
+        "ask + if / tell to do"
+      ],
+      "hook": "話法の問題は、覚える表を3行に減らせます。",
+      "point": "時制を1つ過去へ、疑問文はask+if、命令文はtell O to do。"
+    },
+    {
+      "slug": "en-relative-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-relative-advanced.html",
+      "title": "【高校英語・中級】whatは先行詞を含む／for which に前置詞を前へ出す",
+      "thumb": [
+        "what と前置詞+関係詞",
+        "what = the thing which",
+        "for which"
+      ],
+      "hook": "whatを「何」と訳して詰まる人へ。先行詞を含む使い方を型にします。",
+      "point": "whatは先行詞を含む関係代名詞。前置詞を前に出したらthatは不可。"
+    },
+    {
+      "slug": "en-perfect-infinitive",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-perfect-infinitive.html",
+      "title": "【高校英語・中級】時のずれは完了形で表す／to have been・having broken",
+      "thumb": [
+        "完了不定詞・動名詞",
+        "主節より前のこと",
+        "to have / having done"
+      ],
+      "hook": "「〜したようだ」を to be で書いてしまう人へ。",
+      "point": "主節より前のことはto have done / having done。同時なら単純形。"
+    },
+    {
+      "slug": "en-comparison-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-comparison-advanced.html",
+      "title": "【高校英語・中級】The more you practice, the faster you improve／2者間は of the two",
+      "thumb": [
+        "比較の応用",
+        "The 比較級, the 比較級",
+        "of the two"
+      ],
+      "hook": "「〜すればするほど」を語順の型で書けるようにします。",
+      "point": "The 比較級 …, the 比較級 …。2者間はthe + 比較級 + of the two。"
+    },
+    {
+      "slug": "en-subjunctive-advanced",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-subjunctive-advanced.html",
+      "title": "【高校英語・中級】But for your help, I would have failed／as if he knew",
+      "thumb": [
+        "仮定法の応用",
+        "But for / Without",
+        "as if + 過去形"
+      ],
+      "hook": "if節がない仮定法を見抜けるようにします。",
+      "point": "But for = If it were / had not been for。as ifは同時なら過去形。"
+    },
+    {
+      "slug": "en-negation",
+      "playlist": "english-hs",
+      "page": "subjects/english-hs/lessons/en-negation.html",
+      "title": "【高校英語・中級】No sooner had I got on the train than…／not until の型",
+      "thumb": [
+        "否定と準否定",
+        "No sooner … than",
+        "not … until"
+      ],
+      "hook": "No sooner の語順を、毎回考えずに書けるようにします。",
+      "point": "No sooner had S p.p. … than S 過去形。not … until は「〜して初めて」。"
     }
   ]
 }

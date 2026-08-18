@@ -1846,3 +1846,163 @@ because と because of を意味で選んでいると必ず外します。
 #高校英語 #英文法 #英作文 #受験は要領 #大学受験
 ```
 
+### 【高校英語・中級】分詞構文は3手順で作れる／Not knowing・Written in simple English
+
+- ファイル：`videos/en-participle-construction.mp4`
+- サムネイル：`assets/youtube/thumbs/en-participle-construction.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-participle-construction.html
+
+```
+分詞構文を「なんとなく訳す」から卒業しましょう。
+接続詞を消し、主語が同じなら消して動詞をdoing。受け身はdoneから。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-participle-construction.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】使役と知覚のto問題を終わらせる／made me clean・heard someone calling
+
+- ファイル：`videos/en-causative-perception.mp4`
+- サムネイル：`assets/youtube/thumbs/en-causative-perception.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-causative-perception.html
+
+```
+made me to clean と書いてしまう理由が、はっきり分かります。
+使役make/let/haveは原形、知覚は原形・doing・done。受動態ではtoが出ます。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-causative-perception.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】強調構文と倒置／It was his sister that・Never had I seen
+
+- ファイル：`videos/en-emphasis-inversion.mp4`
+- サムネイル：`assets/youtube/thumbs/en-emphasis-inversion.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-emphasis-inversion.html
+
+```
+強調構文と形式主語のitを、後ろの形だけで区別する方法です。
+It is 強調語 that 残り。否定語が文頭に出たら疑問文の語順。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-emphasis-inversion.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】thatの正体は後ろの形で決まる／名詞節と同格のthat
+
+- ファイル：`videos/en-noun-clause.mp4`
+- サムネイル：`assets/youtube/thumbs/en-noun-clause.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-noun-clause.html
+
+```
+thatを見たら訳を考える前に、後ろの形を見てください。
+節が主語・目的語なら名詞節、名詞＋that＋完全な文なら同格。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-noun-clause.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】話法の転換は3操作／would finish the next day・asked me if
+
+- ファイル：`videos/en-reported-speech.mp4`
+- サムネイル：`assets/youtube/thumbs/en-reported-speech.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reported-speech.html
+
+```
+話法の問題は、覚える表を3行に減らせます。
+時制を1つ過去へ、疑問文はask+if、命令文はtell O to do。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-reported-speech.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】whatは先行詞を含む／for which に前置詞を前へ出す
+
+- ファイル：`videos/en-relative-advanced.mp4`
+- サムネイル：`assets/youtube/thumbs/en-relative-advanced.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-relative-advanced.html
+
+```
+whatを「何」と訳して詰まる人へ。先行詞を含む使い方を型にします。
+whatは先行詞を含む関係代名詞。前置詞を前に出したらthatは不可。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-relative-advanced.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】時のずれは完了形で表す／to have been・having broken
+
+- ファイル：`videos/en-perfect-infinitive.mp4`
+- サムネイル：`assets/youtube/thumbs/en-perfect-infinitive.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-perfect-infinitive.html
+
+```
+「〜したようだ」を to be で書いてしまう人へ。
+主節より前のことはto have done / having done。同時なら単純形。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-perfect-infinitive.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】The more you practice, the faster you improve／2者間は of the two
+
+- ファイル：`videos/en-comparison-advanced.mp4`
+- サムネイル：`assets/youtube/thumbs/en-comparison-advanced.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-comparison-advanced.html
+
+```
+「〜すればするほど」を語順の型で書けるようにします。
+The 比較級 …, the 比較級 …。2者間はthe + 比較級 + of the two。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-comparison-advanced.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】But for your help, I would have failed／as if he knew
+
+- ファイル：`videos/en-subjunctive-advanced.mp4`
+- サムネイル：`assets/youtube/thumbs/en-subjunctive-advanced.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-subjunctive-advanced.html
+
+```
+if節がない仮定法を見抜けるようにします。
+But for = If it were / had not been for。as ifは同時なら過去形。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-subjunctive-advanced.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
+### 【高校英語・中級】No sooner had I got on the train than…／not until の型
+
+- ファイル：`videos/en-negation.mp4`
+- サムネイル：`assets/youtube/thumbs/en-negation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-negation.html
+
+```
+No sooner の語順を、毎回考えずに書けるようにします。
+No sooner had S p.p. … than S 過去形。not … until は「〜して初めて」。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/english-hs/lessons/en-negation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校英語 #英文法 #英作文 #受験は要領 #大学受験
+```
+
