@@ -1,10 +1,10 @@
-name: Generate lesson videos
+name: Generate English lesson videos
 
 on:
   push:
     branches: [main]
     paths:
-      - 'tools/lessons/*.json'
+      - 'tools/lessons/english_*.json'
       - 'tools/make_video.py'
       - '.github/workflows/generate-lesson-videos.yml'
   workflow_dispatch:
@@ -12,10 +12,15 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: english-lesson-videos
+  cancel-in-progress: true
+
 jobs:
   build-videos:
     if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,19 +42,21 @@ jobs:
           python -m pip install --upgrade pip
           pip install pillow edge-tts
 
-      - name: Build missing or updated videos
+      - name: Build English videos
         shell: bash
         run: |
           set -euo pipefail
           mkdir -p videos
           built=0
-          for spec in tools/lessons/*.json; do
+          for spec in tools/lessons/english_*.json; do
             base="$(basename "$spec" .json)"
             out="videos/${base//_/-}.mp4"
-            if [[ ! -f "$out" || "$spec" -nt "$out" || tools/make_video.py -nt "$out" ]]; then
+            if [[ ! -f "$out" ]]; then
               echo "Generating $out from $spec"
               python tools/make_video.py "$spec" "$out"
               built=1
+            else
+              echo "Already exists: $out"
             fi
           done
           echo "built=$built" >> "$GITHUB_ENV"
@@ -59,10 +66,10 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add videos/*.mp4
+          git add videos/english-*.mp4
           if git diff --cached --quiet; then
             echo 'No generated changes to commit.'
             exit 0
           fi
-          git commit -m '動画を自動生成 [skip ci]'
+          git commit -m '高校英語の解説動画を自動生成 [skip ci]'
           git push
