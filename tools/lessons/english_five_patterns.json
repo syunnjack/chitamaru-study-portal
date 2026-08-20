@@ -1,0 +1,117 @@
+{
+  "title": "高校英語 第1回：5文型を見抜く",
+  "subtitle": "高校英語 ／ 文法・英文解釈 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 英語は『動詞の後ろの形』で読む",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。高校英語の第1回は、5文型です。文型は、難しい名前を覚えるためのものではありません。英文を見た瞬間に、動詞の後ろに何が必要かを判断するための道具です。今日は、5つを一気に整理します。",
+      "lines": [
+        {"style": "head", "text": "今日のテーマ：5文型", "active": true},
+        {"style": "formula", "text": "SV / SVC / SVO / SVOO / SVOC", "active": true},
+        {"style": "note", "text": "ポイント：主語より先に『動詞の後ろ』を見る"}
+      ],
+      "caption": "5文型は、英文の骨格を一瞬でつかむための道具"
+    },
+    {
+      "narration": "最初に、記号を確認します。エスは主語、ブイは動詞、オーは目的語、シーは補語です。目的語は、動作の相手。補語は、主語や目的語が何者か、どんな状態かを説明する語です。まず、この4文字だけ覚えてください。",
+      "lines": [
+        {"style": "head", "text": "4つの記号だけ覚える", "active": true},
+        {"style": "formula", "text": "S = Subject  主語", "active": true},
+        {"style": "formula", "text": "V = Verb     動詞", "active": true},
+        {"style": "formula", "text": "O = Object   目的語", "active": true},
+        {"style": "formula", "text": "C = Complement 補語", "active": true}
+      ],
+      "caption": "S 主語 / V 動詞 / O 目的語 / C 補語"
+    },
+    {
+      "narration": "第1文型、エスブイ。主語と動詞だけで文の骨格が完成します。たとえば、Birds fly. 鳥は飛ぶ。I smiled. 私はほほえんだ。後ろに場所や時を表す語があっても、それは修飾語です。文型の骨格には入りません。",
+      "lines": [
+        {"style": "head", "text": "第1文型：SV", "active": true},
+        {"style": "formula", "text": "Birds fly.  = S + V", "active": true},
+        {"style": "formula", "text": "I smiled.   = S + V", "active": false},
+        {"style": "note", "text": "場所・時などの修飾語 M は文型に数えない"}
+      ],
+      "caption": "SV：動詞だけで骨格が完成する"
+    },
+    {
+      "narration": "第2文型、エスブイシー。主語と補語がイコールになるのが特徴です。She is a teacher. なら、She イコール a teacher。The soup tastes good. なら、The soup は good な状態です。ビー動詞だけでなく、become、look、feel、seem、taste などもよく出ます。",
+      "lines": [
+        {"style": "head", "text": "第2文型：SVC", "active": true},
+        {"style": "formula", "text": "She is a teacher.  → She = a teacher", "active": true},
+        {"style": "formula", "text": "The soup tastes good. → soup = good", "active": true},
+        {"style": "note", "text": "判定法：S = C が成り立つ"}
+      ],
+      "caption": "SVC：S と C がイコールになる"
+    },
+    {
+      "narration": "第3文型、エスブイオー。動詞の後ろに、動作の相手である目的語が1つ来ます。I like music. 私は音楽が好き。She opened the door. 彼女はドアを開けた。S と O はイコールではありません。ここが第2文型との大きな違いです。",
+      "lines": [
+        {"style": "head", "text": "第3文型：SVO", "active": true},
+        {"style": "formula", "text": "I like music. = S + V + O", "active": true},
+        {"style": "formula", "text": "She opened the door. = S + V + O", "active": false},
+        {"style": "note", "text": "O は動作の相手。S = O ではない"}
+      ],
+      "caption": "SVO：動詞の後ろに目的語が1つ"
+    },
+    {
+      "narration": "第4文型、エスブイオーオー。目的語が2つ並びます。基本は、人に、物を、です。He gave me a book. 彼は、私に、本をくれた。me が人、a book が物。この順番をそのまま覚えると、英作文でも使えます。",
+      "lines": [
+        {"style": "head", "text": "第4文型：SVOO", "active": true},
+        {"style": "formula", "text": "He gave me a book.", "active": true},
+        {"style": "formula", "text": "S   V    O人   O物", "active": true},
+        {"style": "note", "text": "基本の意味：『人に・物を』"}
+      ],
+      "caption": "SVOO：人に・物を、の順番"
+    },
+    {
+      "narration": "第5文型、エスブイオーシー。目的語と補語がイコール、または主語と述語の関係になります。They call him Ken. なら、him イコール Ken。The news made me happy. なら、me は happy な状態になった。第5文型は、オーとシーの関係を見るのがコツです。",
+      "lines": [
+        {"style": "head", "text": "第5文型：SVOC", "active": true},
+        {"style": "formula", "text": "They call him Ken. → him = Ken", "active": true},
+        {"style": "formula", "text": "The news made me happy. → me = happy", "active": true},
+        {"style": "note", "text": "判定法：O = C、または O が C する関係"}
+      ],
+      "caption": "SVOC：O と C の関係を確認する"
+    },
+    {
+      "narration": "文型を見抜く順番を固定しましょう。まず動詞を探す。次に、動詞の後ろに名詞が何個あるかを見る。名詞がなければエスブイかエスブイシー。1個ならエスブイオーかエスブイシー。2個ならエスブイオーオーかエスブイオーシー。最後に、イコール関係を確認します。",
+      "lines": [
+        {"style": "head", "text": "知多丸式：文型判定の4手順", "active": true},
+        {"style": "text", "text": "① まず V（動詞）を囲む", "active": true},
+        {"style": "text", "text": "② V の後ろの名詞・形容詞を見る", "active": true},
+        {"style": "text", "text": "③ O が何個あるかを見る", "active": true},
+        {"style": "text", "text": "④ S=C または O=C を確認", "active": true}
+      ],
+      "caption": "動詞 → 後ろの要素 → 個数 → イコール関係、の順で判定"
+    },
+    {
+      "narration": "では練習です。My father bought me a bike. 動詞は bought。その後ろに me と a bike、名詞が2つあります。意味は、父が、私に、自転車を買ってくれた。人に、物を、ですから第4文型、エスブイオーオーです。",
+      "lines": [
+        {"style": "head", "text": "練習1", "active": true},
+        {"style": "formula", "text": "My father bought me a bike.", "active": true},
+        {"style": "formula", "text": "S          V      O人  O物", "active": true},
+        {"style": "note", "text": "答え：第4文型 SVOO"}
+      ],
+      "caption": "bought の後ろに『人 + 物』→ SVOO"
+    },
+    {
+      "narration": "練習2。The story made him sad. 動詞は made。その後ろに him と sad。him イコール sad、つまり彼が悲しい状態になったという関係です。したがって、第5文型、エスブイオーシーです。make は第5文型で非常によく出るので、まとめて覚えてください。",
+      "lines": [
+        {"style": "head", "text": "練習2", "active": true},
+        {"style": "formula", "text": "The story made him sad.", "active": true},
+        {"style": "formula", "text": "S         V    O   C", "active": true},
+        {"style": "note", "text": "him = sad → 第5文型 SVOC"}
+      ],
+      "caption": "O = C が成立する → SVOC"
+    },
+    {
+      "narration": "最後に、今日の在庫を1行にします。文型は、動詞の後ろを見て、エスイコールシー、またはオーイコールシーを確認する。英文を読むたびに、主語、動詞、目的語、補語を鉛筆で振ってください。10文、20文と繰り返すと、長文でも英文の骨格が自動的に見えるようになります。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "V の後ろを見る → S=C / O=C を確認", "active": true},
+        {"style": "text", "text": "SV / SVC / SVO / SVOO / SVOC", "active": true},
+        {"style": "note", "text": "翌日、例文5つを何も見ずに文型判定する"}
+      ],
+      "caption": "5文型は暗記で終わらせず、英文に S/V/O/C を振って定着"
+    }
+  ]
+}
