@@ -68,6 +68,15 @@ def font(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(FONT_PATH, size)
 
 
+def fit_font(text: str, size: int, max_w: int) -> ImageFont.FreeTypeFont:
+    """枠幅に収まる最大のフォントを返す（下限14pt）。"""
+    f = font(size)
+    while size > 14 and f.getlength(text) > max_w:
+        size -= 1
+        f = font(size)
+    return f
+
+
 def rounded(draw: ImageDraw.ImageDraw, box, radius, fill, outline=None, width=1) -> None:
     draw.rounded_rectangle(box, radius=radius, fill=fill, outline=outline, width=width)
 
@@ -215,9 +224,10 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
 
     d.rectangle([0, 0, WIDTH, 96], fill=CARD)
     d.rectangle([0, 96, WIDTH, 100], fill=ACCENT)
-    d.text((56, 26), safe(title), font=font(34), fill=INK)
+    head_w = WIDTH - 112
+    d.text((56, 26), safe(title), font=fit_font(safe(title), 34, head_w), fill=INK)
     if subtitle:
-        d.text((56, 66), safe(subtitle), font=font(18), fill=SUB)
+        d.text((56, 66), safe(subtitle), font=fit_font(safe(subtitle), 18, head_w), fill=SUB)
 
     top = 140
     rounded(d, [48, top, WIDTH - 48, HEIGHT - 132], 18, CARD, LINE, 2)
@@ -242,23 +252,28 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
                 ACCENT if active else LINE,
                 2,
             )
-            d.text((108, y + 14), text, font=font(26 if figure else 30), fill=INK)
+            d.text((108, y + 14), text,
+                   font=fit_font(text, 26 if figure else 30, right - 132), fill=INK)
             y += box_h + 18
         elif style == "head":
             d.rectangle([84, y + 6, 90, y + 34], fill=ACCENT)
-            d.text((104, y), text, font=font(28), fill=ACCENT if active else INK)
+            d.text((104, y), text, font=fit_font(text, 28, right - 124),
+                   fill=ACCENT if active else INK)
             y += 52
         elif style == "note":
-            d.text((104, y), text, font=font(21 if figure else 23), fill=ACCENT if active else SUB)
+            d.text((104, y), text, font=fit_font(text, 21 if figure else 23, right - 124),
+                   fill=ACCENT if active else SUB)
             y += 42
         else:
-            d.text((104, y), text, font=font(25), fill=INK if active else SUB)
+            d.text((104, y), text, font=fit_font(text, 25, right - 124),
+                   fill=INK if active else SUB)
             y += 44
 
     if caption:
         d.rectangle([0, HEIGHT - 96, WIDTH, HEIGHT], fill=(29, 36, 48))
         wrapped = safe(caption)
-        d.text((56, HEIGHT - 68), wrapped, font=font(24), fill=(255, 255, 255))
+        d.text((56, HEIGHT - 68), wrapped, font=fit_font(wrapped, 24, WIDTH - 112),
+               fill=(255, 255, 255))
 
     img.save(path)
 
