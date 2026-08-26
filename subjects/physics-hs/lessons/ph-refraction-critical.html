@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>屈折の法則と全反射｜高校物理 第14回</title>
+<meta name="description" content="n₁sinθ₁ = n₂sinθ₂ の1本と「密な側は角が小さい」で屈折を型にし、臨界角の条件も整理します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第14回 屈折の法則と全反射（臨界角）</div>
+
+<main class="wrap">
+  <h1>第14回　屈折の法則と全反射（臨界角）</h1>
+  <div class="formula">屈折率1.5のガラスに、空気中から45°で光を入射させる。ガラス中の屈折角を求めよ。また、ガラスから空気へ出るときの臨界角を求めよ。</div>
+  <p>屈折で迷うのは、どちらで割るかだけ。「密な側は角が小さい」で毎回確認します。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-refraction-critical.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-refraction-critical.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>式は1本。</strong>n₁ sinθ₁ = n₂ sinθ₂。空気は n = 1.0 とします。</li>
+      <li><strong>向きを確認。</strong>屈折率が大きい媒質の中では角度が小さい。答えの妥当性はこれで判定します。</li>
+      <li><strong>全反射は密→疎だけ。</strong>sinθ<sub>c</sub> = n₂ / n₁。疎から密では起こりません。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>屈折の式を立てる</strong><div class="formula">1.0 × sin45° = 1.5 × sinθ₂</div><p>空気は n = 1.0。</p></li>
+    <li><strong>屈折角を求める</strong><div class="formula">sinθ₂ = 0.71 / 1.5 ≒ 0.47 → θ₂ ≒ 28°</div><p>ガラス中では角が小さい。</p></li>
+    <li><strong>臨界角の式</strong><div class="formula">sinθc = n₂ / n₁ = 1.0 / 1.5 ≒ 0.67</div><p>ガラス→空気なので密→疎。</p></li>
+    <li><strong>臨界角を求める</strong><div class="formula">θc ≒ 42°</div><p>42°より大きい入射角では全反射。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>ガラス中の28°は入射角45°より小さい。密な媒質ほど角が小さいので向きは正しいです。逆にすると sinθ > 1 になり計算できません。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>屈折しても振動数は変わりません。媒質中では λ と v が 1/n 倍になります。</li>
+      <li>全反射は密から疎へ進むときだけ。空気→ガラスでは絶対に起こりません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>屈折は n₁sinθ₁ = n₂sinθ₂、全反射は sinθc = n₂/n₁（密→疎のみ）。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>屈折率1.5のガラス中での光の速さを求めよ（真空中は3.0 × 10⁸ m/s）。
+        <details><summary>答え</summary><p>v = 3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s</p></details>
+      </li>
+      <li>屈折率1.33の水から空気へ出るときの臨界角のsinの値を求めよ。
+        <details><summary>答え</summary><p>sinθc = 1.0 / 1.33 ≒ 0.75（θc ≒ 49°）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-doppler-source.html">← 第13回 ドップラー効果（音源が近づく場合）</a>　｜　<a href="ph-young-interference.html">第15回 ヤングの実験（明線の間隔） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

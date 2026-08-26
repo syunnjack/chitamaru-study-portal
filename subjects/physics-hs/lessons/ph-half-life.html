@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>放射性崩壊と半減期｜高校物理 第20回</title>
+<meta name="description" content="半減期は指数関数の式より「何回分か」を数えるのが早い。逆問題の指数の読み方と表による検算も解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第20回 放射性崩壊と半減期（回数で数える）</div>
+
+<main class="wrap">
+  <h1>第20回　放射性崩壊と半減期（回数で数える）</h1>
+  <div class="formula">半減期8.0日の放射性核種がある。24日後に残っている原子核の割合を求めよ。また、はじめの1/16になるのは何日後か求めよ。</div>
+  <p>半減期の問題は指数関数の式を書く前に、半減期の何回分かを数えれば終わります。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-half-life.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-half-life.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>回数を数える。</strong>n = 経過時間 ÷ 半減期。ここだけで9割決まります。</li>
+      <li><strong>割合は (1/2)ⁿ。</strong>指数関数の式を暗記する必要はありません。</li>
+      <li><strong>逆問題は指数を読む。</strong>1/16 = (1/2)⁴ → 4回分 → 半減期×4。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>回数を数える</strong><div class="formula">n = 24 / 8.0 = 3 回</div><p>まず回数。</p></li>
+    <li><strong>残る割合</strong><div class="formula">(1/2)³ = 1/8 = 0.125</div><p>12.5 %。</p></li>
+    <li><strong>逆問題の指数</strong><div class="formula">1/16 = (1/2)⁴ → n = 4</div><p>指数を読むだけ。</p></li>
+    <li><strong>日数に戻す</strong><div class="formula">8.0 × 4 = 32 日後</div><p>回数×半減期。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>8日で1/2、16日で1/4、24日で1/8、32日で1/16。順に半分にする表で確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>半減期は核種ごとに決まった定数。温度や圧力、化学的な状態では変わりません。</li>
+      <li>何回半分にしてもゼロにはなりません。「2倍待てば全部なくなる」は誤りです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>半減期は式より回数。n = 時間 ÷ 半減期、残る割合は (1/2)ⁿ。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>半減期5.0日の核種が20日後に残る割合を求めよ。
+        <details><summary>答え</summary><p>n = 4 なので (1/2)⁴ = 1/16</p></details>
+      </li>
+      <li>半減期3.0日の核種がはじめの1/8になるのは何日後か。
+        <details><summary>答え</summary><p>n = 3 なので 9.0日後</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-photoelectric.html">← 第19回 光電効果（限界波長とエネルギー）</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

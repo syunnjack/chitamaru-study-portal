@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>クーロンの法則と電場｜高校物理 第16回</title>
+<meta name="description" content="F = kq₁q₂/r² と E = kq/r² を F = qE でつなぐ型。r²を先に計算して桁ミスを防ぐ手順も解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第16回 クーロンの法則と電場（力と電場の橋渡し）</div>
+
+<main class="wrap">
+  <h1>第16回　クーロンの法則と電場（力と電場の橋渡し）</h1>
+  <div class="formula">真空中で2.0 × 10⁻⁶ Cと3.0 × 10⁻⁶ Cの点電荷が0.30 m離れている。両者にはたらく力の大きさを求めよ。また、2.0 × 10⁻⁶ Cの電荷が0.30 m離れた点につくる電場の大きさを求めよ（k = 9.0 × 10⁹ N·m²/C²）。</div>
+  <p>似た2つの式を別々に覚えると混ざります。F = qE でつないで1組にします。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-coulomb-field.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-coulomb-field.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>2本を並べて覚える。</strong>F = k q₁q₂ / r²（2電荷の積）、E = k q / r²（1電荷だけ）。</li>
+      <li><strong>F = qE でつなぐ。</strong>電場は「1 Cあたりの力」。だから力は電場×電荷です。</li>
+      <li><strong>r² を先に。</strong>0.30² = 0.090。ここを後回しにすると桁がずれます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>r² を先に出す</strong><div class="formula">r² = 0.30² = 0.090 m²</div><p>先に済ませる。</p></li>
+    <li><strong>分子を計算する</strong><div class="formula">k q₁q₂ = 9.0 × 10⁹ × 2.0 × 10⁻⁶ × 3.0 × 10⁻⁶ = 5.4 × 10⁻²</div><p>指数の足し算に注意。</p></li>
+    <li><strong>力を求める</strong><div class="formula">F = 5.4 × 10⁻² / 0.090 = 0.60 N</div><p>反発力（同符号なら）。</p></li>
+    <li><strong>電場を求める</strong><div class="formula">E = 9.0 × 10⁹ × 2.0 × 10⁻⁶ / 0.090 = 2.0 × 10⁵ N/C</div><p>電荷1つだけを使う。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>F = qE = 2.0 × 10⁵ × 3.0 × 10⁻⁶ = 0.60 N。クーロンの法則の答えと一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>距離を2倍にすると力は1/4。逆2乗の効き方は大きいです。</li>
+      <li>電場は電荷を置く前から空間に決まっています。置いた電荷の大小では変わりません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>F = kq₁q₂/r²、E = kq/r²、そして F = qE でつなぐ。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ2つの電荷を0.60 m離したときの力の大きさを求めよ。
+        <details><summary>答え</summary><p>F = 0.60 / 4 = 0.15 N</p></details>
+      </li>
+      <li>電場2.0 × 10⁵ N/Cの点に5.0 × 10⁻⁶ Cを置いたときの力を求めよ。
+        <details><summary>答え</summary><p>F = qE = 1.0 N</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-young-interference.html">← 第15回 ヤングの実験（明線の間隔）</a>　｜　<a href="ph-capacitor-series.html">第17回 コンデンサーの直列接続（電気量が共通） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

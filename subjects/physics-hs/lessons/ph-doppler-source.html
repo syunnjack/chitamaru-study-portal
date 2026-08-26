@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ドップラー効果｜高校物理 第13回</title>
+<meta name="description" content="ドップラー効果は式1本と符号ルールの固定で解けます。近づけば高くなるという常識での検算も型にします。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第13回 ドップラー効果（音源が近づく場合）</div>
+
+<main class="wrap">
+  <h1>第13回　ドップラー効果（音源が近づく場合）</h1>
+  <div class="formula">振動数800 Hzの音を出す音源が、静止している観測者に向かって20 m/sで近づいている。観測される音の振動数を求めよ（音速340 m/s）。</div>
+  <p>ドップラー効果で落とす原因は符号です。自分のルールを1つ決めれば迷いません。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-doppler-source.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-doppler-source.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>式は1本。</strong>f' = f × (V − v<sub>観</sub>) / (V − v<sub>源</sub>)。分子が観測者、分母が音源です。</li>
+      <li><strong>符号のルールを固定。</strong>音が進む向き（音源→観測者）を正にとります。今回は観測者が静止なので v<sub>観</sub> = 0。</li>
+      <li><strong>常識で検算。</strong>近づくなら高く、遠ざかるなら低く。式より先に結論の向きを決めます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>値を式に入れる</strong><div class="formula">f' = 800 × (340 − 0) / (340 − 20)</div><p>観測者は静止なので分子はV。</p></li>
+    <li><strong>分母を計算</strong><div class="formula">340 − 20 = 320</div><p>近づくと分母が小さくなる。</p></li>
+    <li><strong>約分して求める</strong><div class="formula">f' = 800 × 340 / 320 = 850 Hz</div><p>800 / 320 = 2.5 を先に。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">f' = 850 Hz（もとより高い）</div><p>50 Hz 高くなった。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>近づく音源なら高くなるはず。850 > 800 で条件を満たします。分母分子を逆にすると753 Hzと低くなるので、その場で気づけます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>音源が動いても音速は変わりません。前方で波長が詰まるから高く聞こえます。</li>
+      <li>風があるときは音源の速度ではなく音速Vそのものに風速を足し引きします。混ぜないでください。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>ドップラーは f' = f(V − v観)/(V − v源)。最後に「高い／低い」で検算する。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>同じ音源が観測者から20 m/sで遠ざかるとき、観測される振動数を求めよ。
+        <details><summary>答え</summary><p>f' = 800 × 340 / 360 ≒ 756 Hz</p></details>
+      </li>
+      <li>静止した800 Hzの音源に、観測者が20 m/sで近づくときの振動数を求めよ。
+        <details><summary>答え</summary><p>f' = 800 × 360 / 340 ≒ 847 Hz</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-string-vibration.html">← 第12回 弦の固有振動（基本振動から数える）</a>　｜　<a href="ph-refraction-critical.html">第14回 屈折の法則と全反射（臨界角） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

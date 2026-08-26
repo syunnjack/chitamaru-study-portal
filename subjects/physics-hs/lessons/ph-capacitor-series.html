@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>コンデンサーの直列接続｜高校物理 第17回</title>
+<meta name="description" content="直列はQが共通、並列はVが共通。合成容量→Q→各電圧の順で解く型と静電エネルギーの計算を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第17回 コンデンサーの直列接続（電気量が共通）</div>
+
+<main class="wrap">
+  <h1>第17回　コンデンサーの直列接続（電気量が共通）</h1>
+  <div class="formula">2.0 μFと3.0 μFのコンデンサーを直列につなぎ、全体に100 Vを加えた。合成容量、各コンデンサーの電圧、蓄えられる静電エネルギーを求めよ。</div>
+  <p>抵抗とコンデンサーで公式が逆になる混乱は、「共通なものは何か」で消えます。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-capacitor-series.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-capacitor-series.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>共通なものを言う。</strong>直列は電気量Qが共通、並列は電圧Vが共通です。</li>
+      <li><strong>合成→Qの順。</strong>1/C = 1/C₁ + 1/C₂ を出してから Q = CV。</li>
+      <li><strong>各電圧に戻す。</strong>V₁ = Q/C₁、V₂ = Q/C₂。和が全体の電圧になります。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>合成容量を出す</strong><div class="formula">1/C = 1/2.0 + 1/3.0 = 5/6 → C = 1.2 μF</div><p>小さい方より小さくなる。</p></li>
+    <li><strong>共通の電気量</strong><div class="formula">Q = CV = 1.2 × 10⁻⁶ × 100 = 1.2 × 10⁻⁴ C</div><p>両方に同じQ。</p></li>
+    <li><strong>各電圧に戻す</strong><div class="formula">V₁ = Q/C₁ = 60 V、V₂ = Q/C₂ = 40 V</div><p>和は100 Vで合う。</p></li>
+    <li><strong>静電エネルギー</strong><div class="formula">U = ½CV² = ½ × 1.2 × 10⁻⁶ × 100² = 6.0 × 10⁻³ J</div><p>全体の値で計算。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>V₁ + V₂ = 100 Vで全体の電圧に一致。容量が小さい2.0 μF側に大きい60 Vがかかる点も V = Q/C と整合します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>抵抗の直列は R₁ + R₂、コンデンサーの直列は逆数の和。入れ替わるので「共通なものは何か」で判断します。</li>
+      <li>静電エネルギーは各コンデンサーで ½QV を出して足しても同じ値になります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>コンデンサーの直列は Q が共通、並列は V が共通。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>2.0 μFと3.0 μFを並列にして100 Vを加えたときの全電気量を求めよ。
+        <details><summary>答え</summary><p>C = 5.0 μF、Q = 5.0 × 10⁻⁴ C</p></details>
+      </li>
+      <li>直列のとき2.0 μFに蓄えられる静電エネルギーを求めよ。
+        <details><summary>答え</summary><p>U₁ = ½QV₁ = ½ × 1.2 × 10⁻⁴ × 60 = 3.6 × 10⁻³ J</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-coulomb-field.html">← 第16回 クーロンの法則と電場（力と電場の橋渡し）</a>　｜　<a href="ph-transformer-rms.html">第18回 変圧器と実効値（電力が保存する） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

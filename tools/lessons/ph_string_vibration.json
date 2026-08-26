@@ -1,0 +1,220 @@
+{
+  "title": "弦の固有振動（基本振動から数える）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。長さ0.60メートルの弦の両端を固定します。弦を伝わる波の速さが毎秒120メートルであるとき、基本振動の振動数と、3倍振動の振動数を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "長さ 0.60 m の弦の両端を固定。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "弦を伝わる波の速さは 120 m/s。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "基本振動と3倍振動の",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "振動数を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。弦の問題は、いきなり公式を書かずに、まず基本振動の波長を出します。両端が固定なので、基本振動は弦の長さが半波長ぶん。つまり波長は2エルです。次に エフ1 イコール ブイ 割る ラムダ1 で基本振動数を出し、最後に エヌ倍振動は エフ1 の エヌ倍、で終わりです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "まず基本振動の波長 λ₁ = 2L",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f₁ = v / λ₁ を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n 倍振動は fₙ = n f₁",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず基本振動の波長です。ラムダ1 イコール 2エル で、2かける0.60の1.2メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：基本振動の波長",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "λ₁ = 2L = 2 × 0.60 = 1.2 m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "腹1個ぶんの図をかく。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：基本振動の波長"
+    },
+    {
+      "narration": "次に基本振動数です。120割る1.2で、100ヘルツです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：基本振動数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f₁ = v / λ₁ = 120 / 1.2 = 100 Hz",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ここまでで型は終わり。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：基本振動数"
+    },
+    {
+      "narration": "3倍振動は、基本振動数の3倍なので、300ヘルツです。このとき波長は0.40メートルになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：3倍振動",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f₃ = 3 f₁ = 3 × 100 = 300 Hz",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "波長は λ₃ = 1.2 / 3 = 0.40 m",
+          "active": true
+        }
+      ],
+      "caption": "手順3：3倍振動"
+    },
+    {
+      "narration": "答えは、基本振動が100ヘルツ、3倍振動が300ヘルツです。腹の数はそれぞれ1個と3個です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f₁ = 100 Hz、f₃ = 300 Hz",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "腹の数は n 個。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。3倍振動の波長0.40メートルの半分は0.20メートル。弦の長さ0.60メートルは、その3個ぶんになっています。図と数値が合っているので、大丈夫です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "λ₃ / 2 = 0.20 m",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 3 = 0.60 m = L",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半波長の個数で確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。速さ ブイ は張力と線密度で決まる値で、振動のさせ方では変わりません。だから振動数を上げても速さは同じで、波長だけが短くなります。それから、片方だけが自由端の気柱の場合は基本振動の波長が4エルになるので、公式の丸暗記ではなく図から出す習慣をつけてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v は張力と線密度で決まる（振動数では変わらない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "片方自由端なら λ₁ = 4L",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。弦は、まず ラムダ1 イコール 2エル、次に エフ1 イコール ブイ 割る ラムダ1、最後に エヌ倍、の順に出す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "弦は「まず λ₁ = 2L → f₁ = v/λ₁ → n 倍」の順に出す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：長さ0.50 m、波の速さ200 m/sの両端固定の弦の基本振動数を求めよ。 → f₁ = 200 / 1.0 = 200 Hz",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

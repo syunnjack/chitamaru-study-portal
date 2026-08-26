@@ -2328,6 +2328,166 @@ V=BLv→I=V/R→F=BIL。向きは運動を妨げる向き。
 #高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
 ```
 
+### 【高校物理・第11回】波は公式2本で足りる／v=1.0m/s・T=0.50s
+
+- ファイル：`videos/ph-wave-basic.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-wave-basic.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-wave-basic.html
+
+```
+波の公式は2本だけ。増やすほど混乱します。
+v = fλ、T = 1/f。振動数は波源が決め、速さは媒質が決める。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-wave-basic.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第12回】弦は「λ₁=2L」から数える／f₁=100Hz・f₃=300Hz
+
+- ファイル：`videos/ph-string-vibration.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-string-vibration.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-string-vibration.html
+
+```
+弦の公式は覚えなくていい。図から波長を出せば終わりです。
+λ₁ = 2L → f₁ = v/λ₁ → n倍振動は n f₁。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-string-vibration.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第13回】ドップラーは符号ルールを固定／850Hz
+
+- ファイル：`videos/ph-doppler-source.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-doppler-source.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-doppler-source.html
+
+```
+ドップラーの失点はぜんぶ符号。ルールを1つ決めれば消えます。
+f' = f(V − v観)/(V − v源)。近づけば高い、で検算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-doppler-source.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第14回】屈折は「密な側は角が小さい」で確認／θ₂≒28°・θc≒42°
+
+- ファイル：`videos/ph-refraction-critical.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-refraction-critical.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-refraction-critical.html
+
+```
+屈折の失点は割る向きだけ。確認の一言を決めておきます。
+n₁sinθ₁ = n₂sinθ₂。全反射は密→疎で sinθc = n₂/n₁。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-refraction-critical.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第15回】ヤングの実験は単位で落とす／Δx=4.5mm
+
+- ファイル：`videos/ph-young-interference.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-young-interference.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-young-interference.html
+
+```
+ヤングの実験の失点は、式ではなく単位です。
+Δx = Lλ/d。代入前に mm・nm をすべて m に直す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-young-interference.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第16回】クーロンと電場は F = qE でつなぐ／0.60N・2.0×10⁵N/C
+
+- ファイル：`videos/ph-coulomb-field.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-coulomb-field.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-coulomb-field.html
+
+```
+似た式が2つあるときは、つなぐ式を先に覚えます。
+F = kq₁q₂/r²、E = kq/r²、F = qE。r²は先に計算。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-coulomb-field.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第17回】コンデンサー直列は「Qが共通」／60V・40V・6.0mJ
+
+- ファイル：`videos/ph-capacitor-series.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-capacitor-series.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-capacitor-series.html
+
+```
+抵抗と逆になる公式は「共通なものは何か」で覚え直します。
+直列はQ共通、並列はV共通。合成→Q→各電圧の順。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-capacitor-series.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第18回】変圧器は3手で終わる／10V・2.0A・20W・0.20A
+
+- ファイル：`videos/ph-transformer-rms.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-transformer-rms.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-transformer-rms.html
+
+```
+変圧器の電流は、比で書かず電力保存から出します。
+電圧は巻数比 → 電流はオームの法則 → 一次電流は V₁I₁ = V₂I₂。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-transformer-rms.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第19回】光電効果はeVのまま引き算／1.1eV・620nm
+
+- ファイル：`videos/ph-photoelectric.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-photoelectric.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-photoelectric.html
+
+```
+光電効果はeV単位のまま計算すると、引き算1回で終わります。
+E = hc/λ、Kmax = E − W、λ₀ = hc/W。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-photoelectric.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
+### 【高校物理・第20回】半減期は「回数」で数える／1/8・32日後
+
+- ファイル：`videos/ph-half-life.mp4`
+- サムネイル：`assets/youtube/thumbs/ph-half-life.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-half-life.html
+
+```
+半減期は指数関数の式を書かなくても解けます。
+n = 時間 ÷ 半減期、残る割合 (1/2)ⁿ。逆問題は指数を読む。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-hs/lessons/ph-half-life.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校物理 #物理基礎 #力学 #電磁気 #受験は要領 #大学受験
+```
+
 ## 再生リスト：TOEIC｜スコアに直結する型
 
 ### 【TOEIC・第1回】Part5の品詞問題は形で解く／submitted directly to

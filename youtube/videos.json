@@ -2045,6 +2045,136 @@
       ],
       "hook": "答案の説得力を一段上げる型です。",
       "point": "譲歩→Howeverで反論→理由→条件つき結論。"
+    },
+    {
+      "slug": "ph-wave-basic",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-wave-basic.html",
+      "title": "【高校物理・第11回】波は公式2本で足りる／v=1.0m/s・T=0.50s",
+      "thumb": [
+        "波の基本式",
+        "v = fλ と T = 1/f",
+        "v=1.0m/s / T=0.50s"
+      ],
+      "hook": "波の公式は2本だけ。増やすほど混乱します。",
+      "point": "v = fλ、T = 1/f。振動数は波源が決め、速さは媒質が決める。"
+    },
+    {
+      "slug": "ph-string-vibration",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-string-vibration.html",
+      "title": "【高校物理・第12回】弦は「λ₁=2L」から数える／f₁=100Hz・f₃=300Hz",
+      "thumb": [
+        "弦の固有振動",
+        "まず λ₁ = 2L",
+        "f₁=100Hz / f₃=300Hz"
+      ],
+      "hook": "弦の公式は覚えなくていい。図から波長を出せば終わりです。",
+      "point": "λ₁ = 2L → f₁ = v/λ₁ → n倍振動は n f₁。"
+    },
+    {
+      "slug": "ph-doppler-source",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-doppler-source.html",
+      "title": "【高校物理・第13回】ドップラーは符号ルールを固定／850Hz",
+      "thumb": [
+        "ドップラー効果",
+        "分子は観測者・分母は音源",
+        "答え 850 Hz"
+      ],
+      "hook": "ドップラーの失点はぜんぶ符号。ルールを1つ決めれば消えます。",
+      "point": "f' = f(V − v観)/(V − v源)。近づけば高い、で検算。"
+    },
+    {
+      "slug": "ph-refraction-critical",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-refraction-critical.html",
+      "title": "【高校物理・第14回】屈折は「密な側は角が小さい」で確認／θ₂≒28°・θc≒42°",
+      "thumb": [
+        "屈折と全反射",
+        "密な側は角が小さい",
+        "θ₂≒28° / θc≒42°"
+      ],
+      "hook": "屈折の失点は割る向きだけ。確認の一言を決めておきます。",
+      "point": "n₁sinθ₁ = n₂sinθ₂。全反射は密→疎で sinθc = n₂/n₁。"
+    },
+    {
+      "slug": "ph-young-interference",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-young-interference.html",
+      "title": "【高校物理・第15回】ヤングの実験は単位で落とす／Δx=4.5mm",
+      "thumb": [
+        "ヤングの実験",
+        "Δx = Lλ / d",
+        "答え 4.5 mm"
+      ],
+      "hook": "ヤングの実験の失点は、式ではなく単位です。",
+      "point": "Δx = Lλ/d。代入前に mm・nm をすべて m に直す。"
+    },
+    {
+      "slug": "ph-coulomb-field",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-coulomb-field.html",
+      "title": "【高校物理・第16回】クーロンと電場は F = qE でつなぐ／0.60N・2.0×10⁵N/C",
+      "thumb": [
+        "クーロンと電場",
+        "F = qE でつなぐ",
+        "0.60N / 2.0×10⁵N/C"
+      ],
+      "hook": "似た式が2つあるときは、つなぐ式を先に覚えます。",
+      "point": "F = kq₁q₂/r²、E = kq/r²、F = qE。r²は先に計算。"
+    },
+    {
+      "slug": "ph-capacitor-series",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-capacitor-series.html",
+      "title": "【高校物理・第17回】コンデンサー直列は「Qが共通」／60V・40V・6.0mJ",
+      "thumb": [
+        "コンデンサー直列",
+        "Qが共通と唱える",
+        "60V / 40V / 6.0mJ"
+      ],
+      "hook": "抵抗と逆になる公式は「共通なものは何か」で覚え直します。",
+      "point": "直列はQ共通、並列はV共通。合成→Q→各電圧の順。"
+    },
+    {
+      "slug": "ph-transformer-rms",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-transformer-rms.html",
+      "title": "【高校物理・第18回】変圧器は3手で終わる／10V・2.0A・20W・0.20A",
+      "thumb": [
+        "変圧器と実効値",
+        "電力保存で一次電流",
+        "10V / 2.0A / 20W"
+      ],
+      "hook": "変圧器の電流は、比で書かず電力保存から出します。",
+      "point": "電圧は巻数比 → 電流はオームの法則 → 一次電流は V₁I₁ = V₂I₂。"
+    },
+    {
+      "slug": "ph-photoelectric",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-photoelectric.html",
+      "title": "【高校物理・第19回】光電効果はeVのまま引き算／1.1eV・620nm",
+      "thumb": [
+        "光電効果",
+        "E = hc/λ から W を引く",
+        "1.1eV / 620nm"
+      ],
+      "hook": "光電効果はeV単位のまま計算すると、引き算1回で終わります。",
+      "point": "E = hc/λ、Kmax = E − W、λ₀ = hc/W。"
+    },
+    {
+      "slug": "ph-half-life",
+      "playlist": "physics-hs",
+      "page": "subjects/physics-hs/lessons/ph-half-life.html",
+      "title": "【高校物理・第20回】半減期は「回数」で数える／1/8・32日後",
+      "thumb": [
+        "半減期",
+        "式より回数を数える",
+        "1/8 / 32日後"
+      ],
+      "hook": "半減期は指数関数の式を書かなくても解けます。",
+      "point": "n = 時間 ÷ 半減期、残る割合 (1/2)ⁿ。逆問題は指数を読む。"
     }
   ]
 }
