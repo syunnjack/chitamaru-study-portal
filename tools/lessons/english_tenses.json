@@ -1,0 +1,105 @@
+{
+  "title": "高校英語 第2回：時制を時間軸で見抜く",
+  "subtitle": "高校英語 ／ 文法・英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 時制は『いつ』と『状態』で決める",
+  "scenes": [
+    {
+      "narration": "こんにちは。高校英語の第2回は時制です。時制で迷う原因は、現在形、過去形、現在完了を日本語訳だけで選ぼうとすることです。まず、いつの話か。そして、その動作が点なのか、続いている状態なのか。この2つで判断します。",
+      "lines": [
+        {"style":"head","text":"今日のテーマ：時制","active":true},
+        {"style":"formula","text":"① いつ？  ② 点・進行・完了・継続？","active":true},
+        {"style":"note","text":"日本語訳より、時間軸を見る"}
+      ],
+      "caption":"時制は『いつ』と『動作の状態』で決める"
+    },
+    {
+      "narration": "現在形は、今この瞬間だけを表す形ではありません。習慣、事実、変わりにくい状態を表します。I play tennis every Sunday. 私は毎週日曜日にテニスをする。The sun rises in the east. 太陽は東から昇る。every や usually が見えたら現在形をまず疑います。",
+      "lines": [
+        {"style":"head","text":"現在形：習慣・事実・状態","active":true},
+        {"style":"formula","text":"I play tennis every Sunday.","active":true},
+        {"style":"formula","text":"The sun rises in the east.","active":false},
+        {"style":"note","text":"目印：every / usually / often / always"}
+      ],
+      "caption":"現在形 = 今だけではなく、習慣・事実・状態"
+    },
+    {
+      "narration": "現在進行形は、今まさに進行中の動作です。I am studying English now. ビー動詞プラス動詞のアイエヌジー。now、at the moment、look、listen などがヒントになります。ただし、know や like のような状態動詞は普通、進行形にしません。",
+      "lines": [
+        {"style":"head","text":"現在進行形：今まさに進行中","active":true},
+        {"style":"formula","text":"be + V-ing","active":true},
+        {"style":"formula","text":"I am studying English now.","active":true},
+        {"style":"note","text":"know / like / belong など状態動詞に注意"}
+      ],
+      "caption":"現在進行形 = be + V-ing"
+    },
+    {
+      "narration": "過去形は、過去のある時点で完結した出来事です。I visited Kyoto last year. last year と時点が過去に固定されています。yesterday、ago、last、in 2020 のように、過去の時点を示す語があれば過去形が基本です。",
+      "lines": [
+        {"style":"head","text":"過去形：過去で完結した出来事","active":true},
+        {"style":"formula","text":"I visited Kyoto last year.","active":true},
+        {"style":"note","text":"目印：yesterday / ago / last ... / in 2020"}
+      ],
+      "caption":"過去の時点が固定されている → 過去形"
+    },
+    {
+      "narration": "未来は、will だけではありません。今その場で決めたことや予測は will。すでに決めている予定や兆候のある予測は be going to が基本です。I will help you. と、I am going to visit Osaka next week. の違いを例文ごと覚えましょう。",
+      "lines": [
+        {"style":"head","text":"未来：will と be going to","active":true},
+        {"style":"formula","text":"I will help you. → その場の意思","active":true},
+        {"style":"formula","text":"I am going to visit Osaka. → 予定","active":true},
+        {"style":"note","text":"未来表現は『話し手がどう捉えているか』も見る"}
+      ],
+      "caption":"will = 意思・予測 / be going to = 予定・兆候"
+    },
+    {
+      "narration": "現在完了は、過去と現在を一本の線でつなぐ形です。have プラス過去分詞。経験、完了、継続の3つに整理します。I have visited Kyoto twice. は経験。I have just finished my homework. は完了。I have lived here for five years. は継続です。",
+      "lines": [
+        {"style":"head","text":"現在完了：過去と現在をつなぐ","active":true},
+        {"style":"formula","text":"have / has + 過去分詞","active":true},
+        {"style":"text","text":"経験：have visited ... twice","active":true},
+        {"style":"text","text":"完了：have just finished ...","active":true},
+        {"style":"text","text":"継続：have lived ... for five years","active":true}
+      ],
+      "caption":"現在完了 = 過去の出来事が現在につながっている"
+    },
+    {
+      "narration": "過去形と現在完了の違いは最重要です。I lost my key yesterday. は昨日という過去で完結した話。I have lost my key. は鍵をなくして、今も持っていないという現在への影響があります。yesterday のような明確な過去時点と現在完了は原則、一緒に使いません。",
+      "lines": [
+        {"style":"head","text":"最重要：過去形 vs 現在完了","active":true},
+        {"style":"formula","text":"I lost my key yesterday. → 過去で完結","active":true},
+        {"style":"formula","text":"I have lost my key. → 今も影響あり","active":true},
+        {"style":"note","text":"現在完了 + yesterday は原則NG"}
+      ],
+      "caption":"過去形は過去で切れる。現在完了は今につながる"
+    },
+    {
+      "narration": "練習です。I blank this book three times. three times は経験の回数で、過去から今までの経験を表しています。したがって、have read。I have read this book three times. となります。",
+      "lines": [
+        {"style":"head","text":"練習1","active":true},
+        {"style":"formula","text":"I (      ) this book three times.","active":true},
+        {"style":"formula","text":"→ have read","active":true},
+        {"style":"note","text":"three times = 今までの経験回数"}
+      ],
+      "caption":"経験 → have + 過去分詞"
+    },
+    {
+      "narration": "もう一問。She blank to Tokyo two days ago. two days ago は、2日前という過去の時点を固定しています。現在完了ではなく過去形です。答えは went。She went to Tokyo two days ago. となります。",
+      "lines": [
+        {"style":"head","text":"練習2","active":true},
+        {"style":"formula","text":"She (      ) to Tokyo two days ago.","active":true},
+        {"style":"formula","text":"→ went","active":true},
+        {"style":"note","text":"ago があれば過去形を第一候補にする"}
+      ],
+      "caption":"two days ago → 過去形"
+    },
+    {
+      "narration": "今日の在庫を1行にします。時制は、日本語訳ではなく、時間を示す語を探し、過去で切れるのか、今につながるのかを判断する。every なら現在形、now なら進行形、ago なら過去形、since や for で今まで続くなら現在完了。この型をまず自動化してください。",
+      "lines": [
+        {"style":"head","text":"在庫に入れる1行","active":true},
+        {"style":"formula","text":"時間語を探す → 過去で切れる？ 今につながる？","active":true},
+        {"style":"text","text":"every→現在 / now→進行 / ago→過去 / since・for→完了","active":true},
+        {"style":"note","text":"翌日、例文5つを時間軸にして判定する"}
+      ],
+      "caption":"時制は『時間語 + 時間軸』で判断する"
+    }
+  ]
+}
