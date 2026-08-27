@@ -3456,6 +3456,166 @@ mol→係数比→質量。酸素を奪う側が還元剤、電池は化学→�
 #生物基礎 #共通テスト #生物 #受験は要領
 ```
 
+### 【生物基礎・第11回】倍率n倍で目盛りは1/n／細胞は10μm
+
+- ファイル：`videos/bb-micrometer.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-micrometer.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-micrometer.html
+
+```
+倍率を上げると、同じ目盛り数でも表す長さは小さくなります。
+接眼1目盛り＝対物の実長÷接眼の目盛り数 → 倍率で割る → 目盛り数をかける。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-micrometer.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第12回】酸素解離曲線は引いて割る／答えは58%
+
+- ファイル：`videos/bb-oxygen-curve.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-oxygen-curve.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-oxygen-curve.html
+
+```
+酸素解離曲線で差がつくのは計算ではなく、分母をどこに取るかです。
+引いて差 → 問われた分母で割る → CO₂が多いと右下にずれる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-oxygen-curve.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第13回】血液は約1分で一巡／肺静脈は動脈血
+
+- ファイル：`videos/bb-circulation.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-circulation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-circulation.html
+
+```
+血液は約1分で体を一周します。肺静脈に流れるのは動脈血です。
+毎分の量＝心拍数×拍出量 → 全血液量で割って一巡の時間。回路は2本。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-circulation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第14回】肝臓は4本柱／答えはア・イ・エ
+
+- ファイル：`videos/bb-liver.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-liver.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-liver.html
+
+```
+肝臓の役割は4つだけ。それ以外は別の臓器の仕事です。
+貯蔵・合成・解毒・胆汁の4本柱。尿は腎臓、インスリンはすい臓。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-liver.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第15回】交感はアクセル／答えはア・ウ・オ
+
+- ファイル：`videos/bb-autonomic.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-autonomic.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-autonomic.html
+
+```
+交感神経は「逃げる体」。この一言で選択肢が切れます。
+場面で判定 → 消化だけ逆 → 中枢は視床下部。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-autonomic.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第16回】多すぎれば止める／甲状腺刺激ホルモンは減少
+
+- ファイル：`videos/bb-feedback.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-feedback.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-feedback.html
+
+```
+チロキシンを注射すると、体は自分でつくるのをやめます。理由は負のフィードバックです。
+経路を一列に書く → 終点が多すぎれば前を抑制 → 由来は区別されない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-feedback.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第17回】予防接種は抗原・血清療法は抗体
+
+- ファイル：`videos/bb-immunity-applied.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-immunity-applied.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-immunity-applied.html
+
+```
+予防接種と血清療法の違いは、入れるものが抗原か抗体かだけです。
+抗原→自分でつくる（遅い・長い）、抗体→すぐ効く（一時的）。異常は3分類。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-immunity-applied.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第18回】降水量→気温の順／照葉樹林・熱帯多雨林・砂漠
+
+- ファイル：`videos/bb-biome.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-biome.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-biome.html
+
+```
+気温20 ℃でも砂漠になります。先に見るのは降水量です。
+降水量で森林か否か → 気温で森林の種類 → 日本は気温だけ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-biome.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第19回】窒素固定・硝化・脱窒／吸うのはNO₃⁻
+
+- ファイル：`videos/bb-nitrogen-cycle.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-nitrogen-cycle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-nitrogen-cycle.html
+
+```
+植物は空気中の窒素を使えません。だから窒素固定が入口になります。
+N₂→NH₄⁺固定、→NO₃⁻硝化、→N₂脱窒。吸収は主にNO₃⁻。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-nitrogen-cycle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第20回】濃縮率は割り算／5000倍になる理由
+
+- ファイル：`videos/bb-biomagnification.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-biomagnification.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-biomagnification.html
+
+```
+湖水のわずかな濃度が、魚では5000倍になります。理由は2つあります。
+濃縮率＝体内÷環境。理由は分解されにくい＋上位は大量に食べる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-biomagnification.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
 ## 再生リスト：地学基礎｜出る所だけ型で覚える
 
 ### 【地学基礎・第1回】地球内部は2通りの分け方／プレートの正体

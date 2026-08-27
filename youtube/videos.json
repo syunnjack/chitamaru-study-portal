@@ -3523,6 +3523,136 @@
       ],
       "hook": "鉄をつくるとは、酸化鉄から酸素を取ることです。計算は今までと同じ手順です。",
       "point": "mol→係数比→質量。酸素を奪う側が還元剤、電池は化学→電気。"
+    },
+    {
+      "slug": "bb-micrometer",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-micrometer.html",
+      "title": "【生物基礎・第11回】倍率n倍で目盛りは1/n／細胞は10μm",
+      "thumb": [
+        "顕微鏡とミクロメーター",
+        "倍率n倍で1/n",
+        "細胞 10μm"
+      ],
+      "hook": "倍率を上げると、同じ目盛り数でも表す長さは小さくなります。",
+      "point": "接眼1目盛り＝対物の実長÷接眼の目盛り数 → 倍率で割る → 目盛り数をかける。"
+    },
+    {
+      "slug": "bb-oxygen-curve",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-oxygen-curve.html",
+      "title": "【生物基礎・第12回】酸素解離曲線は引いて割る／答えは58%",
+      "thumb": [
+        "酸素解離曲線",
+        "（肺−組織）÷肺",
+        "答え 58%"
+      ],
+      "hook": "酸素解離曲線で差がつくのは計算ではなく、分母をどこに取るかです。",
+      "point": "引いて差 → 問われた分母で割る → CO₂が多いと右下にずれる。"
+    },
+    {
+      "slug": "bb-circulation",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-circulation.html",
+      "title": "【生物基礎・第13回】血液は約1分で一巡／肺静脈は動脈血",
+      "thumb": [
+        "心臓と血液循環",
+        "心拍数×拍出量",
+        "4.9L/分・約1分"
+      ],
+      "hook": "血液は約1分で体を一周します。肺静脈に流れるのは動脈血です。",
+      "point": "毎分の量＝心拍数×拍出量 → 全血液量で割って一巡の時間。回路は2本。"
+    },
+    {
+      "slug": "bb-liver",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-liver.html",
+      "title": "【生物基礎・第14回】肝臓は4本柱／答えはア・イ・エ",
+      "thumb": [
+        "肝臓のはたらき",
+        "貯蔵/合成/解毒/胆汁",
+        "答え ア・イ・エ"
+      ],
+      "hook": "肝臓の役割は4つだけ。それ以外は別の臓器の仕事です。",
+      "point": "貯蔵・合成・解毒・胆汁の4本柱。尿は腎臓、インスリンはすい臓。"
+    },
+    {
+      "slug": "bb-autonomic",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-autonomic.html",
+      "title": "【生物基礎・第15回】交感はアクセル／答えはア・ウ・オ",
+      "thumb": [
+        "自律神経の調節",
+        "交感=逃げる体",
+        "答え ア・ウ・オ"
+      ],
+      "hook": "交感神経は「逃げる体」。この一言で選択肢が切れます。",
+      "point": "場面で判定 → 消化だけ逆 → 中枢は視床下部。"
+    },
+    {
+      "slug": "bb-feedback",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-feedback.html",
+      "title": "【生物基礎・第16回】多すぎれば止める／甲状腺刺激ホルモンは減少",
+      "thumb": [
+        "ホルモンとフィードバック",
+        "終点が前を抑える",
+        "刺激ホルモン↓"
+      ],
+      "hook": "チロキシンを注射すると、体は自分でつくるのをやめます。理由は負のフィードバックです。",
+      "point": "経路を一列に書く → 終点が多すぎれば前を抑制 → 由来は区別されない。"
+    },
+    {
+      "slug": "bb-immunity-applied",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-immunity-applied.html",
+      "title": "【生物基礎・第17回】予防接種は抗原・血清療法は抗体",
+      "thumb": [
+        "免疫の応用",
+        "抗原か抗体か",
+        "予防接種 / 血清療法"
+      ],
+      "hook": "予防接種と血清療法の違いは、入れるものが抗原か抗体かだけです。",
+      "point": "抗原→自分でつくる（遅い・長い）、抗体→すぐ効く（一時的）。異常は3分類。"
+    },
+    {
+      "slug": "bb-biome",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-biome.html",
+      "title": "【生物基礎・第18回】降水量→気温の順／照葉樹林・熱帯多雨林・砂漠",
+      "thumb": [
+        "バイオームと気候",
+        "降水量 → 気温の順",
+        "照葉樹林 / 砂漠"
+      ],
+      "hook": "気温20 ℃でも砂漠になります。先に見るのは降水量です。",
+      "point": "降水量で森林か否か → 気温で森林の種類 → 日本は気温だけ。"
+    },
+    {
+      "slug": "bb-nitrogen-cycle",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-nitrogen-cycle.html",
+      "title": "【生物基礎・第19回】窒素固定・硝化・脱窒／吸うのはNO₃⁻",
+      "thumb": [
+        "窒素の循環",
+        "矢印に名前がつく",
+        "固定 / 硝化 / 脱窒"
+      ],
+      "hook": "植物は空気中の窒素を使えません。だから窒素固定が入口になります。",
+      "point": "N₂→NH₄⁺固定、→NO₃⁻硝化、→N₂脱窒。吸収は主にNO₃⁻。"
+    },
+    {
+      "slug": "bb-biomagnification",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-biomagnification.html",
+      "title": "【生物基礎・第20回】濃縮率は割り算／5000倍になる理由",
+      "thumb": [
+        "生態系と人間活動",
+        "濃縮率＝体内÷環境",
+        "5000倍"
+      ],
+      "hook": "湖水のわずかな濃度が、魚では5000倍になります。理由は2つあります。",
+      "point": "濃縮率＝体内÷環境。理由は分解されにくい＋上位は大量に食べる。"
     }
   ]
 }
