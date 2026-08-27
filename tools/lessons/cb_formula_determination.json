@@ -1,0 +1,215 @@
+{
+  "title": "組成式の決定（質量比をmol比に直す）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。銅の粉末4.0グラムを空気中で完全に酸化させたところ、酸化物が5.0グラム得られました。この酸化物の組成式を求めてください。銅の原子量は64、酸素の原子量は16です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "銅 4.0 g を完全に酸化させると酸化物 5.0 g が得られた。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "この酸化物の組成式を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "原子量は Cu = 64、O = 16。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。組成式は原子の個数比を表しています。だから質量比をそのまま使ってはいけません。まず結びついた酸素の質量を、酸化物の質量から金属の質量を引いて求めます。次に、それぞれの質量を原子量で割って物質量にします。物質量の比が原子の個数比なので、最後に最も簡単な整数比に直せば組成式が出ます。質量比のまま比を取ってしまうのが、この分野で一番多い失点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "結びついた酸素の質量 = 酸化物 − 金属",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "各元素の質量 ÷ 原子量 = mol（原子の個数比）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mol比を最も簡単な整数比にする",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず結びついた酸素の質量です。5.0グラムから4.0グラムを引いて1.0グラムです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：酸素の質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "5.0 − 4.0 = 1.0 g",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "増えた分が酸素。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：酸素の質量"
+    },
+    {
+      "narration": "次に物質量です。銅は4.0を64で割って0.0625モル、酸素は1.0を16で割って0.0625モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：molに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Cu：4.0/64 = 0.0625 mol、O：1.0/16 = 0.0625 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原子量で割るだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：molに直す"
+    },
+    {
+      "narration": "比を取ると、銅と酸素はちょうど1対1です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：比を取る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Cu : O = 0.0625 : 0.0625 = 1 : 1",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "個数比になっている。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：比を取る"
+    },
+    {
+      "narration": "したがって組成式はCuO、酸化銅2です。質量比は4対1でしたが、組成式は1対1になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：組成式を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "CuO（酸化銅(II)）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "質量比4:1ではない。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：組成式を書く"
+    },
+    {
+      "narration": "検算です。CuOの式量は64たす16で80。この中で銅の占める割合は64割る80で0.80、つまり80パーセント。5.0グラムの80パーセントは4.0グラムで、はじめの銅の質量と一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "CuO の式量 = 80",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Cu の割合 = 64/80 = 80 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "5.0 × 0.80 = 4.0 g で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、質量比のまま比を取ってはいけません。4対1で Cu₄O としてしまう誤りが最頻出です。ふたつ目、割り切れない比が出たときは、全部を最小の値で割ってから、必要なら2倍3倍します。たとえば1対1.5なら2対3にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量比 ≠ 原子数比（必ず原子量で割る）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1 : 1.5 のような比は2倍して整数にする",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。組成式は、質量を原子量で割った値の比。質量比のまま比を取らない。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "組成式は質量 ÷ 原子量 の比。質量比のまま比を取らない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：マグネシウム 4.8 g が完全に酸化して 8.0 g になった。組成式を求めよ（Mg = 24、O = 16）。 → Mg 0.20 : O 0.20 = 1:1 → MgO",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

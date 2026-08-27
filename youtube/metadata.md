@@ -3134,6 +3134,166 @@ H⁺ = OH⁻ より a c V = a' c' V'。硫酸は2価、NaOHは1価。
 #化学基礎 #共通テスト #化学 #mol計算 #受験は要領
 ```
 
+### 【化学基礎・第11回】分離は使う差で選ぶ／蒸留・ろ過・再結晶
+
+- ファイル：`videos/cb-separation.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-separation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-separation.html
+
+```
+分離操作は暗記ではありません。使う性質の差から選べます。
+沸点＝蒸留、粒＝ろ過、溶解度＝再結晶、昇華性＝昇華法、溶媒＝抽出。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-separation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第12回】周期律は矢印2本／半径最大Na・イオン化エネ最大Cl
+
+- ファイル：`videos/cb-periodic-law.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-periodic-law.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-periodic-law.html
+
+```
+周期表は矢印2本で読めます。左下は陽イオン、右上は陰イオンです。
+右へ行くほど半径は小、右上ほどイオン化エネルギーは大。左下＝陽イオン。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-periodic-law.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第13回】形は電子対の数／CO₂は極性結合でも無極性
+
+- ファイル：`videos/cb-molecule-shape.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-molecule-shape.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-molecule-shape.html
+
+```
+二酸化炭素は極性結合をもつのに無極性分子です。理由は形です。
+形は電子対の数、極性は矢印の足し算。対称なら打ち消して無極性。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-molecule-shape.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第14回】結晶は4種類／融点最低はドライアイス・通電は銅
+
+- ファイル：`videos/cb-crystal-types.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-crystal-types.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-crystal-types.html
+
+```
+融点も硬さも電気伝導も、粒子のつなぎ方1つで説明できます。
+4種類に分類 → 融点は結合の強さ順 → 通電は動ける荷電粒子の有無。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-crystal-types.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第15回】組成式は質量÷原子量／答えはCuO
+
+- ファイル：`videos/cb-formula-determination.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-formula-determination.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-formula-determination.html
+
+```
+質量比4:1でも、組成式は1:1のCuO。理由は原子1個の重さの違いです。
+酸素は引き算 → 質量÷原子量 → 最も簡単な整数比。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-formula-determination.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第16回】過不足はmol÷係数／H₂=0.20mol・4.5L
+
+- ファイル：`videos/cb-limiting-reagent.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-limiting-reagent.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-limiting-reagent.html
+
+```
+molが多い方が余るとは限りません。係数で割って比べます。
+mol÷係数で判定 → 足りない側で生成物 → 多い側は引き算で残量。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-limiting-reagent.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第17回】強い酸と濃い酸は別／pH=2とpH=3
+
+- ファイル：`videos/cb-ph-degree.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-ph-degree.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-ph-degree.html
+
+```
+濃度が10倍の酢酸より、薄い塩酸の方が酸性が強い。理由は電離度です。
+[H⁺] = 濃度 × 電離度 × 価数 → 10のべきに直して pH。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-ph-degree.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第18回】中和点は弱い側に寄る／10mL・フェノールフタレイン
+
+- ファイル：`videos/cb-titration-curve.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-titration-curve.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-titration-curve.html
+
+```
+中和点はpH7とは限りません。弱い側の性質が残ります。
+体積は価数×濃度×体積、中和点は弱い側、指示薬は変色域で選ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-titration-curve.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第19回】電子の総数で等式／H₂O₂は0.050mol/L
+
+- ファイル：`videos/cb-redox-titration.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-redox-titration.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-redox-titration.html
+
+```
+酸化還元滴定は、電子の数を書ければ中和滴定と同じ形になります。
+半反応式の電子数 → 5n(MnO₄⁻) = 2n(H₂O₂) → 濃度。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-redox-titration.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第20回】製錬は還元／鉄112g・COは還元剤
+
+- ファイル：`videos/cb-metallurgy.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-metallurgy.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-metallurgy.html
+
+```
+鉄をつくるとは、酸化鉄から酸素を取ることです。計算は今までと同じ手順です。
+mol→係数比→質量。酸素を奪う側が還元剤、電池は化学→電気。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-metallurgy.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
 ## 再生リスト：生物基礎｜暗記を仕組みで減らす
 
 ### 【生物基礎・第1回】原核と真核の違いは1本／DNAは原核にもある

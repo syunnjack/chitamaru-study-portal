@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>酸化還元滴定｜化学基礎 第19回</title>
+<meta name="description" content="酸化還元滴定は「受け取った電子＝失った電子」の1本。半反応式の電子の数から mol 比を作る型を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">化学基礎</a> ／ 第19回 酸化還元滴定（電子の総数）</div>
+
+<main class="wrap">
+  <h1>第19回　酸化還元滴定（電子の数で比をつくる）</h1>
+  <div class="formula">濃度不明の過酸化水素水10.0 mLに硫酸を加え、0.020 mol/Lの過マンガン酸カリウム水溶液で滴定したところ、10.0 mLで赤紫色が消えなくなった。過酸化水素水の濃度を求めよ。</div>
+  <p>覚えるのは電子の数だけ。あとは中和滴定と同じ形の等式です。</p>
+
+  <video controls preload="metadata" src="../../../videos/cb-redox-titration.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/cb-redox-titration.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>電子の数を書く。</strong>MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O（5個）、H₂O₂ → O₂ + 2H⁺ + 2e⁻（2個）。</li>
+      <li><strong>電子の総数で等式。</strong>5 × n(MnO₄⁻) = 2 × n(H₂O₂)。</li>
+      <li><strong>終点は色で判断。</strong>過マンガン酸カリウムは自身が指示薬になり、赤紫色が消えなくなった点が終点です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>KMnO₄の物質量</strong><div class="formula">0.020 × 10.0/1000 = 2.0×10⁻⁴ mol</div><p>mLはLに直す。</p></li>
+    <li><strong>電子の総数で等式</strong><div class="formula">5 × 2.0×10⁻⁴ = 2 × n(H₂O₂)</div><p>5個と2個の関係。</p></li>
+    <li><strong>H₂O₂の物質量</strong><div class="formula">n(H₂O₂) = 5.0×10⁻⁴ mol</div><p>比は2:5。</p></li>
+    <li><strong>濃度に直す</strong><div class="formula">5.0×10⁻⁴ / 0.0100 = 0.050 mol/L</div><p>体積で割るだけ。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>体積が等しいので濃度比も 2 : 5。0.020 × 5/2 = 0.050 mol/L で答えと一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>H₂O₂ は KMnO₄ には還元剤、KI には酸化剤としてはたらきます。役割は相手で決まります。</li>
+      <li>塩酸を使うと Cl⁻ が酸化されて Cl₂ になり、KMnO₄ を余分に消費します。硝酸も酸化剤なので不適です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>酸化還元滴定は電子の総数が等しい。mol比は電子数の逆比。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>0.010 mol/LのKMnO₄ 20 mLと反応するH₂O₂の物質量を求めよ。
+        <details><summary>答え</summary><p>5×2.0×10⁻⁴ = 2×n → n = 5.0×10⁻⁴ mol</p></details>
+      </li>
+      <li>この滴定で終点がわかる理由を答えよ。
+        <details><summary>答え</summary><p>KMnO₄自身が指示薬になり、赤紫色が消えなくなる点が終点</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="cb-titration-curve.html">← 第18回 滴定曲線と指示薬（弱い側に寄る）</a>　｜　<a href="cb-metallurgy.html">第20回 金属の製錬と電池の利用（還元で取り出す） →</a>　｜　<a href="../index.html">化学基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

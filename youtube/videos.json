@@ -3393,6 +3393,136 @@
       ],
       "hook": "半減期は「半分になる時間」。何回分たったかを数えるだけです。",
       "point": "n = 経過時間÷半減期、N = N₀(1/2)ⁿ。α＝He核、β＝電子、γ＝電磁波。"
+    },
+    {
+      "slug": "cb-separation",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-separation.html",
+      "title": "【化学基礎・第11回】分離は使う差で選ぶ／蒸留・ろ過・再結晶",
+      "thumb": [
+        "物質の分離操作",
+        "使う差で選ぶ",
+        "蒸留 / ろ過 / 再結晶"
+      ],
+      "hook": "分離操作は暗記ではありません。使う性質の差から選べます。",
+      "point": "沸点＝蒸留、粒＝ろ過、溶解度＝再結晶、昇華性＝昇華法、溶媒＝抽出。"
+    },
+    {
+      "slug": "cb-periodic-law",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-periodic-law.html",
+      "title": "【化学基礎・第12回】周期律は矢印2本／半径最大Na・イオン化エネ最大Cl",
+      "thumb": [
+        "周期表と周期律",
+        "右へ小さく / 右上で大きく",
+        "Na / Cl"
+      ],
+      "hook": "周期表は矢印2本で読めます。左下は陽イオン、右上は陰イオンです。",
+      "point": "右へ行くほど半径は小、右上ほどイオン化エネルギーは大。左下＝陽イオン。"
+    },
+    {
+      "slug": "cb-molecule-shape",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-molecule-shape.html",
+      "title": "【化学基礎・第13回】形は電子対の数／CO₂は極性結合でも無極性",
+      "thumb": [
+        "分子の形と極性",
+        "電子対の数で決まる",
+        "CO₂は無極性"
+      ],
+      "hook": "二酸化炭素は極性結合をもつのに無極性分子です。理由は形です。",
+      "point": "形は電子対の数、極性は矢印の足し算。対称なら打ち消して無極性。"
+    },
+    {
+      "slug": "cb-crystal-types",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-crystal-types.html",
+      "title": "【化学基礎・第14回】結晶は4種類／融点最低はドライアイス・通電は銅",
+      "thumb": [
+        "結晶の種類と性質",
+        "融点はつなぐ力の順",
+        "ドライアイス / 銅"
+      ],
+      "hook": "融点も硬さも電気伝導も、粒子のつなぎ方1つで説明できます。",
+      "point": "4種類に分類 → 融点は結合の強さ順 → 通電は動ける荷電粒子の有無。"
+    },
+    {
+      "slug": "cb-formula-determination",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-formula-determination.html",
+      "title": "【化学基礎・第15回】組成式は質量÷原子量／答えはCuO",
+      "thumb": [
+        "組成式の決定",
+        "質量 ÷ 原子量 の比",
+        "答えは CuO"
+      ],
+      "hook": "質量比4:1でも、組成式は1:1のCuO。理由は原子1個の重さの違いです。",
+      "point": "酸素は引き算 → 質量÷原子量 → 最も簡単な整数比。"
+    },
+    {
+      "slug": "cb-limiting-reagent",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-limiting-reagent.html",
+      "title": "【化学基礎・第16回】過不足はmol÷係数／H₂=0.20mol・4.5L",
+      "thumb": [
+        "過不足のある反応",
+        "mol ÷ 係数 で判定",
+        "H₂=0.20mol / 4.5L"
+      ],
+      "hook": "molが多い方が余るとは限りません。係数で割って比べます。",
+      "point": "mol÷係数で判定 → 足りない側で生成物 → 多い側は引き算で残量。"
+    },
+    {
+      "slug": "cb-ph-degree",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-ph-degree.html",
+      "title": "【化学基礎・第17回】強い酸と濃い酸は別／pH=2とpH=3",
+      "thumb": [
+        "pHと電離度",
+        "[H⁺]=濃度×電離度×価数",
+        "pH2 / pH3"
+      ],
+      "hook": "濃度が10倍の酢酸より、薄い塩酸の方が酸性が強い。理由は電離度です。",
+      "point": "[H⁺] = 濃度 × 電離度 × 価数 → 10のべきに直して pH。"
+    },
+    {
+      "slug": "cb-titration-curve",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-titration-curve.html",
+      "title": "【化学基礎・第18回】中和点は弱い側に寄る／10mL・フェノールフタレイン",
+      "thumb": [
+        "滴定曲線と指示薬",
+        "中和点は弱い側に寄る",
+        "10mL / PP"
+      ],
+      "hook": "中和点はpH7とは限りません。弱い側の性質が残ります。",
+      "point": "体積は価数×濃度×体積、中和点は弱い側、指示薬は変色域で選ぶ。"
+    },
+    {
+      "slug": "cb-redox-titration",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-redox-titration.html",
+      "title": "【化学基礎・第19回】電子の総数で等式／H₂O₂は0.050mol/L",
+      "thumb": [
+        "酸化還元滴定",
+        "電子の総数が等しい",
+        "0.050mol/L"
+      ],
+      "hook": "酸化還元滴定は、電子の数を書ければ中和滴定と同じ形になります。",
+      "point": "半反応式の電子数 → 5n(MnO₄⁻) = 2n(H₂O₂) → 濃度。"
+    },
+    {
+      "slug": "cb-metallurgy",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-metallurgy.html",
+      "title": "【化学基礎・第20回】製錬は還元／鉄112g・COは還元剤",
+      "thumb": [
+        "金属の製錬と電池",
+        "酸素を奪う側が還元剤",
+        "Fe 112g"
+      ],
+      "hook": "鉄をつくるとは、酸化鉄から酸素を取ることです。計算は今までと同じ手順です。",
+      "point": "mol→係数比→質量。酸素を奪う側が還元剤、電池は化学→電気。"
     }
   ]
 }
