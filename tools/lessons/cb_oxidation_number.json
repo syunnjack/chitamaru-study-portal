@@ -1,0 +1,215 @@
+{
+  "title": "酸化数と酸化還元（数字で判定する）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の原子の酸化数を求めてください。ひとつ目、硫化水素の硫黄。ふたつ目、硝酸の窒素。みっつ目、過マンガン酸カリウムのマンガン。また、酸化数が増えた原子は酸化されたのか還元されたのかも答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "①H₂S の S ②HNO₃ の N ③KMnO₄ の Mn の酸化数を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "規則：Hは+1、Oは−2、化合物の合計は0。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸化数が増えた原子はどちらか答えよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。酸化数は決め方が固定されています。単体はゼロ、水素はプラス1、酸素はマイナス2。化合物なら合計がゼロ、イオンなら合計がその電荷と同じ。この規則で、残ったひとつを方程式で出すだけです。そして酸化数が増えたら酸化された、減ったら還元された。電子を失うと酸化数が増える、と結びつけて覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単体は0、H は +1、O は −2（例外は過酸化物）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "化合物全体の合計は0、イオンは電荷と同じ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸化数が増えた = 酸化された（電子を失った）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "ひとつ目、硫化水素です。水素がプラス1で2個あるので、プラス2たすエックスがゼロ。硫黄の酸化数はマイナス2です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：H₂S の S",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(+1)×2 + x = 0 → x = −2",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Hは+1が2個。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：H₂S の S"
+    },
+    {
+      "narration": "ふたつ目、硝酸です。水素のプラス1、酸素マイナス2が3個で合計マイナス6。全体がゼロになるので、窒素はプラス5です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：HNO₃ の N",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(+1) + x + (−2)×3 = 0 → x = +5",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Oは−2が3個。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：HNO₃ の N"
+    },
+    {
+      "narration": "みっつ目、過マンガン酸カリウムです。カリウムがプラス1、酸素マイナス2が4個でマイナス8。マンガンはプラス7になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：KMnO₄ の Mn",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(+1) + x + (−2)×4 = 0 → x = +7",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Kは+1。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：KMnO₄ の Mn"
+    },
+    {
+      "narration": "そして酸化数が増えた原子は、電子を失ったので酸化されたことになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：酸化か還元か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸化数が増えた原子は「酸化された」",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "電子を失った側。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：酸化か還元か"
+    },
+    {
+      "narration": "検算です。マンガンのプラス7は、マンガンが取りうる最大の酸化数です。だから過マンガン酸カリウムはこれ以上酸化されず、強い酸化剤としてはたらきます。実際の性質と一致するので、計算が合っていると確認できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mn の +7 は最大の酸化数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "これ以上酸化されない → 強い酸化剤",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実際の性質と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、酸化剤と還元剤の見分けは、相手を酸化するのが酸化剤で、そのとき自分は還元されます。自分がどちらになるかで混乱するので、名前は相手への作用だと覚えます。ふたつ目、過酸化水素の酸素はマイナス1です。マイナス2の例外はこれだけ押さえれば十分です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸化剤は相手を酸化し、自分は還元される",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "H₂O₂ の O は −1（−2の例外）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。単体ゼロ、水素プラス1、酸素マイナス2で埋めて合計ゼロ。増えたら酸化、減ったら還元。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単体0・H+1・O−2で埋めて合計0。増えたら酸化、減ったら還元。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：SO₂ の S の酸化数を求めよ。 → x + (−2)×2 = 0 より +4",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

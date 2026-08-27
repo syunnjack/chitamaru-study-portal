@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>エネルギーの変換と効率｜物理基礎 第10回</title>
+<meta name="description" content="効率＝出÷入、捨てられる熱＝入−出。エネルギー保存で発電の計算を型にします。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第10回 エネルギーの変換と効率（発電の計算）</div>
+
+<main class="wrap">
+  <h1>第10回　エネルギーの変換と効率（発電の計算）</h1>
+  <div class="formula">ある火力発電所は、燃料の化学エネルギー1.0 × 10^10 Jから4.0 × 10^9 Jの電気エネルギーを取り出す。発電効率を求めよ。また捨てられる熱エネルギーを求めよ。</div>
+  <p>効率の問題は割り算1回と引き算1回で終わります。エネルギーは消えません。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-energy-efficiency.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-energy-efficiency.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>効率 = 出 ÷ 入。</strong>百分率にするときは100を掛けるのを忘れないこと。</li>
+      <li><strong>エネルギーは保存する。</strong>「消えた」ではなく「熱として出ていった」。捨てられる熱 = 入 − 出。</li>
+      <li><strong>指数の割り算は指数を引く。</strong>10^10 と 10^9 の比は10倍差、と暗算できる形にします。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>効率の式を書く</strong><div class="formula">効率 = 4.0 × 10^9 ÷ (1.0 × 10^10)</div><p>出÷入。</p></li>
+    <li><strong>指数を処理する</strong><div class="formula">= 4.0 × 10^(9−10) = 0.40</div><p>指数は引く。</p></li>
+    <li><strong>百分率にする</strong><div class="formula">0.40 × 100 = 40 %</div><p>%は100倍。</p></li>
+    <li><strong>捨てられる熱を出す</strong><div class="formula">1.0 × 10^10 − 4.0 × 10^9 = 6.0 × 10^9 J</div><p>入 − 出。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>捨てた割合は60 %。効率40 %と足して100 %になり、エネルギー保存を満たします。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>効率が100 %にならないのは、必ず一部が熱として捨てられるからです（熱は完全には仕事に変えられません）。</li>
+      <li>「化学 → 熱 → 運動 → 電気」のように、変換の道筋を矢印で書けるようにしておきます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>効率 = 出 ÷ 入。捨てられる熱 = 入 − 出（エネルギーは消えない）。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>入力2.0×10^6 Jのモーターが1.4×10^6 Jの仕事をした。効率を求めよ。
+        <details><summary>答え</summary><p>70 %</p></details>
+      </li>
+      <li>効率20 %の照明が100 Jの電気を使うとき、熱になる分を求めよ。
+        <details><summary>答え</summary><p>80 J</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-electric-power.html">← 第9回 電力と電力量（W と kWh の変換）</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

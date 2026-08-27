@@ -1,0 +1,215 @@
+{
+  "title": "電力と電力量（W と kWh の変換）",
+  "subtitle": "物理基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。消費電力1200ワットの電気ケトルを、100ボルトの電源で6.0分間使いました。流れる電流と、消費した電力量をキロワット時で求めてください。また1キロワット時が30円のときの電気代も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1200 W の電気ケトルを 100 V で 6.0 分使う。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "流れる電流 I と、電力量を kWh で求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1 kWh 30 円のときの電気代も求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。電力は ピー イコール ブイ アイ。抵抗が絡むときは アイ2乗 アール や ブイ2乗 割る アール にも書けます。電力量は電力かける時間で、ジュールで出すなら秒、キロワット時で出すなら時間を使います。単位変換を最初にまとめて済ませるのが失点しないコツです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電力 P = VI = I²R = V²/R",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電力量 W = Pt（J は W × s、kWh は kW × h）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単位変換：分 → 時間、W → kW を先に済ませる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず電流です。ピー イコール ブイ アイ を アイ について解いて、1200割る100で12アンペアです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：電流を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I = P/V = 1200/100 = 12 A",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "P = VI を I について解く。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：電流を出す"
+    },
+    {
+      "narration": "次に単位をそろえます。1200ワットは1.2キロワット、6.0分は0.10時間です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：単位をそろえる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1200 W = 1.2 kW、6.0 分 = 0.10 h",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "kWhは「kW × 時間」。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：単位をそろえる"
+    },
+    {
+      "narration": "電力量は1.2かける0.10で0.12キロワット時です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：電力量を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "W = 1.2 × 0.10 = 0.12 kWh",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "掛けるだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：電力量を出す"
+    },
+    {
+      "narration": "電気代は0.12かける30で3.6円です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：電気代を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.12 × 30 = 3.6 円",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "単価×電力量。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：電気代を出す"
+    },
+    {
+      "narration": "検算です。ジュールでも出してみます。1200ワットかける360秒で432000ジュール。1キロワット時は3600000ジュールなので、432000割る3600000は0.12。キロワット時の答えと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1200 × 360 s = 432000 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1 kWh = 3.6 × 10^6 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "432000 ÷ 3.6×10^6 = 0.12 kWh",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、直列につないだとき、抵抗が大きい方がよく発熱します。電流が共通なので ピー イコール アイ2乗 アール で決まるからです。ふたつ目、並列につないだときは逆で、抵抗が小さい方がよく発熱します。電圧が共通で ピー イコール ブイ2乗 割る アール になるからです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "直列：P = I²R → 抵抗大が高発熱",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "並列：P = V²/R → 抵抗小が高発熱",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ピー イコール ブイ アイ、電力量は ピー ティー。キロワット時は、キロワットと時間に直してから掛ける。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P = VI、W = Pt。kWh は「kW × 時間」に直してから掛ける。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：500 Wの電球を4.0時間使ったときの電力量をkWhで求めよ。 → 0.5 × 4.0 = 2.0 kWh",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

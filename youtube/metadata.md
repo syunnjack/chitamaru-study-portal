@@ -2650,3 +2650,1299 @@ Part3で「全部聞いて全部忘れる」を止めます。
 #TOEIC #英語学習 #Part5 #リスニング #受験は要領
 ```
 
+## 再生リスト：物理基礎｜共通テストの計算を型にする
+
+### 【物理基礎・第1回】等加速度は式3本で足りる／a=1.5m/s²・x=12m
+
+- ファイル：`videos/pb-uniform-accel.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-uniform-accel.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-uniform-accel.html
+
+```
+等加速度で使う式は3本だけ。役割で覚えれば迷いません。
+速さは v = v₀ + at、距離は x = v₀t + (1/2)at²、時間がなければ v² − v₀² = 2ax。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-uniform-accel.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第2回】斜面は座標を斜面に合わせる／T=9.8N・N≒17N
+
+- ファイル：`videos/pb-incline-balance.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-incline-balance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-incline-balance.html
+
+```
+斜面が苦手な原因は座標の取り方。斜面に合わせれば分解は重力だけです。
+斜面方向 mg sinθ、垂直方向 mg cosθ。各方向で合計0を書く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-incline-balance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第3回】2物体は全体→片方の順／a=2.0m/s²・T=4.0N
+
+- ファイル：`videos/pb-newton-two-bodies.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-newton-two-bodies.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-newton-two-bodies.html
+
+```
+2物体の問題は、式を書く順番を固定すれば終わります。
+全体で F = (m₁+m₂)a、次に後ろの物体で T = m₂a。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-newton-two-bodies.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第4回】摩擦は判定が先／15Nでは動かない・25Nならa=3.0m/s²
+
+- ファイル：`videos/pb-friction.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-friction.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-friction.html
+
+```
+静止摩擦は μN ではありません。まず判定してから計算します。
+f_max = μN と加えた力を比べ、動いたら動摩擦 μ'N に切り替える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-friction.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第5回】速さは高さの差だけで決まる／5.9m/s・4.4m/s
+
+- ファイル：`videos/pb-energy-conservation.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-energy-conservation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-energy-conservation.html
+
+```
+なめらかな面なら、速さは重さによらず高さの差だけで決まります。
+(1/2)mv² + mgh が一定。はじめ＝あとの1本、質量は消える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-energy-conservation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第6回】混合温度は加重平均／20℃と80℃を混ぜて40℃
+
+- ファイル：`videos/pb-heat-balance.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-heat-balance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-heat-balance.html
+
+```
+混合後の温度は平均の50℃ではありません。質量で重みがつきます。
+Q = mcΔt。混合は「もらった熱 = 失った熱」で1本にする。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-heat-balance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第7回】やまびこは往復を2で割る／408m・波長0.80m
+
+- ファイル：`videos/pb-sound-speed.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-sound-speed.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-sound-speed.html
+
+```
+やまびこの計算は「往復」。2で割り忘れが一番多い失点です。
+距離は v t ÷ 2、波長は λ = v/f。音速は媒質と気温で決まる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-sound-speed.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第8回】並列を先にまとめる／I=1.5A・並列部分3.0V
+
+- ファイル：`videos/pb-ohm-circuit.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-ohm-circuit.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-ohm-circuit.html
+
+```
+回路は順番だけ。並列を先にまとめると一直線になります。
+1/R = 1/R₁ + 1/R₂ → 全体で I = V/R → 部分は V = RI。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-ohm-circuit.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第9回】kWhは単位変換が先／I=12A・0.12kWh・3.6円
+
+- ファイル：`videos/pb-electric-power.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-electric-power.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-electric-power.html
+
+```
+電力の失点はほぼ単位。分を時間に直すのを最初にやります。
+P = VI、W = Pt。直列はP=I²R、並列はP=V²/Rで発熱が決まる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-electric-power.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第10回】効率は出÷入／40%・捨てる熱6.0×10^9J
+
+- ファイル：`videos/pb-energy-efficiency.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-energy-efficiency.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-energy-efficiency.html
+
+```
+効率は割り算1回。使えなかった分は熱として必ず出ていきます。
+効率 = 出 ÷ 入、捨てられる熱 = 入 − 出。エネルギーは保存する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-energy-efficiency.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+## 再生リスト：化学基礎｜molの計算を型にする
+
+### 【化学基礎・第1回】原子は3つの関係だけ／陽子17・中性子20・電子18
+
+- ファイル：`videos/cb-atom-isotope.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-atom-isotope.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-atom-isotope.html
+
+```
+原子の問題は3つの関係だけ。中性子は引き算で出ます。
+原子番号=陽子数、質量数=陽子+中性子、イオン化で変わるのは電子だけ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-atom-isotope.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第2回】価数は希ガスで決まる／Mg²⁺はNeと同じ配置
+
+- ファイル：`videos/cb-electron-ion.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-electron-ion.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-electron-ion.html
+
+```
+価数の暗記は不要。最も近い希ガスに合わせるだけです。
+K2・L8・M8に詰め、希ガスの配置になるよう電子をやりとりする。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-electron-ion.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第3回】結合は元素で決まる／CaCl₂・CO₂・Cuを判定
+
+- ファイル：`videos/cb-chemical-bond.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-chemical-bond.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-chemical-bond.html
+
+```
+結合の種類は表の暗記ではなく、元素の種類だけで決まります。
+金属+非金属=イオン、非金属どうし=共有、金属どうし=金属結合。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-chemical-bond.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第4回】molは中継点／8.8g=0.20mol=4.5L
+
+- ファイル：`videos/cb-mol-basic.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-mol-basic.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-mol-basic.html
+
+```
+molを飛ばして計算すると必ず迷います。中継点にします。
+mol = 質量÷モル質量。個数は×6.0×10²³、気体の体積は×22.4 L。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-mol-basic.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第5回】気体の密度はモル質量÷22.4／5.6Lは7.0g
+
+- ファイル：`videos/cb-gas-volume.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-gas-volume.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-gas-volume.html
+
+```
+気体の密度はモル質量を22.4で割るだけです。
+体積÷22.4=mol、mol×モル質量=質量、密度=モル質量÷22.4。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-gas-volume.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第6回】濃度は溶液1L分で決め打ち／20%は6.0mol/L
+
+- ファイル：`videos/cb-concentration.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-concentration.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-concentration.html
+
+```
+濃度の変換は、溶液1リットル分に決め打ちすれば毎回同じ計算です。
+1000×密度で溶液の質量→％で溶質の質量→モル質量で割る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-concentration.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第7回】係数はmol比／O₂=1.0mol・CO₂=13L
+
+- ファイル：`videos/cb-reaction-ratio.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-reaction-ratio.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-reaction-ratio.html
+
+```
+係数の比はmolの比。質量の比ではありません。
+molに直す→係数比で相手のmol→単位を戻す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-reaction-ratio.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第8回】中和は価数が命／c=0.10mol/L
+
+- ファイル：`videos/cb-neutralization.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-neutralization.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-neutralization.html
+
+```
+中和の失点はほぼ価数の入れ忘れ。価数を先に書きます。
+H⁺ = OH⁻ より a c V = a' c' V'。硫酸は2価、NaOHは1価。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-neutralization.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第9回】酸化数は方程式で出す／S=−2・N=+5・Mn=+7
+
+- ファイル：`videos/cb-oxidation-number.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-oxidation-number.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-oxidation-number.html
+
+```
+酸化還元は感覚で判断しません。酸化数の数字で決めます。
+単体0・H+1・O−2で埋めて合計0。増えたら酸化、減ったら還元。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-oxidation-number.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+### 【化学基礎・第10回】イオン化傾向で全部決まる／負極は亜鉛
+
+- ファイル：`videos/cb-ionization-battery.mp4`
+- サムネイル：`assets/youtube/thumbs/cb-ionization-battery.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-ionization-battery.html
+
+```
+金属の反応も電池の極も、イオン化傾向の順番だけで決まります。
+イオン化傾向が大きい金属が電子を出し、負極になって溶ける。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/chemistry-basic/lessons/cb-ionization-battery.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#化学基礎 #共通テスト #化学 #mol計算 #受験は要領
+```
+
+## 再生リスト：生物基礎｜暗記を仕組みで減らす
+
+### 【生物基礎・第1回】原核と真核の違いは1本／DNAは原核にもある
+
+- ファイル：`videos/bb-cell-structure.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-cell-structure.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-cell-structure.html
+
+```
+原核細胞にDNAがない、は誤りです。線引きは核膜だけ。
+原核／真核の違いは核膜で包まれた核の有無。原核にもDNA・リボソームはある。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-cell-structure.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第2回】酵素はタンパク質だから変性する／回復しない理由
+
+- ファイル：`videos/bb-enzyme.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-enzyme.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-enzyme.html
+
+```
+酵素の記述は「タンパク質だから」で全部説明できます。
+低温側は衝突増加、高温側は変性で失活。変性は不可逆。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-enzyme.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第3回】光合成と呼吸は逆向き1本／ATPが通貨
+
+- ファイル：`videos/bb-photosynthesis-respiration.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-photosynthesis-respiration.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-photosynthesis-respiration.html
+
+```
+光合成と呼吸は逆向きの矢印1本で覚えます。
+呼吸＝ミトコンドリア、光合成＝葉緑体。ATPが共通のエネルギー通貨。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-photosynthesis-respiration.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第4回】塩基の割合は2条件だけ／A28%ならG22%
+
+- ファイル：`videos/bb-dna-base-ratio.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-dna-base-ratio.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-dna-base-ratio.html
+
+```
+塩基の計算は2条件だけ。1本鎖か2本鎖かで答えが変わります。
+2本鎖なら A = T、G = C、合計100 %。1本鎖では成り立たない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-dna-base-ratio.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第5回】細胞数の割合＝時間の割合／分裂期1.0時間
+
+- ファイル：`videos/bb-cell-cycle.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-cell-cycle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-cell-cycle.html
+
+```
+細胞周期は計算問題。数の割合がそのまま時間の割合です。
+時期の長さ = 周期 × (その時期の細胞数 / 全細胞数)。DNA倍加はS期。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-cell-cycle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第6回】転写は写す、翻訳は÷3／AUGCCU・アミノ酸2個
+
+- ファイル：`videos/bb-gene-expression.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-gene-expression.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-gene-expression.html
+
+```
+転写は写すだけ、翻訳は3で割るだけです。
+転写はA↔U・T↔A・G↔C。アミノ酸の数＝塩基÷3。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-gene-expression.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第7回】腎臓はイヌリン基準／濃縮率120倍・原尿180L
+
+- ファイル：`videos/bb-kidney.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-kidney.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-kidney.html
+
+```
+腎臓の計算はイヌリン基準。割り算と掛け算だけです。
+濃縮率＝尿÷血しょう、原尿量＝尿量×イヌリンの濃縮率。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-kidney.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第8回】下げるのはインスリンだけ／上げるのは複数
+
+- ファイル：`videos/bb-blood-sugar.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-blood-sugar.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-blood-sugar.html
+
+```
+血糖値を下げるホルモンは1つだけ。上げる側は複数あります。
+インスリン（B細胞）が下げ、グルカゴン・アドレナリンが上げる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-blood-sugar.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第9回】二次応答は記憶細胞／ワクチンの仕組み
+
+- ファイル：`videos/bb-immunity.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-immunity.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-immunity.html
+
+```
+免疫の骨組みは2段構えと記憶細胞だけです。
+自然免疫は速く相手を選ばず、適応免疫は遅いが強い。記憶細胞で二次応答。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-immunity.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+### 【生物基礎・第10回】遷移は明るさで決まる／極相は陰樹林
+
+- ファイル：`videos/bb-succession-ecosystem.mp4`
+- サムネイル：`assets/youtube/thumbs/bb-succession-ecosystem.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-succession-ecosystem.html
+
+```
+遷移の順序は暗記しません。明るさの変化から導けます。
+土壌は厚く林床は暗くなる。暗さに強い陰樹が極相になる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/biology-basic/lessons/bb-succession-ecosystem.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#生物基礎 #共通テスト #生物 #受験は要領
+```
+
+## 再生リスト：地学基礎｜出る所だけ型で覚える
+
+### 【地学基礎・第1回】地球内部は2通りの分け方／プレートの正体
+
+- ファイル：`videos/eb-earth-interior.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-earth-interior.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earth-interior.html
+
+```
+プレート＝地殻ではありません。分け方が2通りあります。
+物質で地殻・マントル・外核・内核、かたさでリソスフェア・アセノスフェア。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earth-interior.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第2回】プレート速度は単位変換／8cm/年
+
+- ファイル：`videos/eb-plate-motion.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-plate-motion.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-plate-motion.html
+
+```
+プレートの速度は年に数cm。桁が違えば単位変換ミスです。
+km→cmは×10⁵、万年→年は×10⁴。境界は海嶺・海溝・断層の3種類。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-plate-motion.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第3回】震源距離は時間差の式1本／128km
+
+- ファイル：`videos/eb-earthquake-distance.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-earthquake-distance.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earthquake-distance.html
+
+```
+大森公式は暗記しなくても、時間差の式から作れます。
+d/v_S − d/v_P = t を解くだけ。震源距離 ≒ 時間差×8。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earthquake-distance.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第4回】火成岩はSiO₂の量だけ／玄武岩と流紋岩
+
+- ファイル：`videos/eb-volcano-rock.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-volcano-rock.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-volcano-rock.html
+
+```
+火成岩の表は暗記不要。SiO₂の量1本で全部決まります。
+SiO₂少：黒・粘りけ小・平たい・玄武岩／多：白・粘りけ大・盛り上がる・流紋岩。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-volcano-rock.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第5回】新旧判定は3規則／岩脈と不整合の読み方
+
+- ファイル：`videos/eb-strata-fossil.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-strata-fossil.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-strata-fossil.html
+
+```
+地層の新旧は3つの規則を順に当てるだけです。
+下が古い、貫くものは新しい、不整合は隆起・侵食の時間。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-strata-fossil.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第6回】大気は交互に上下／成層圏はオゾンで上昇
+
+- ファイル：`videos/eb-atmosphere-radiation.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-atmosphere-radiation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-atmosphere-radiation.html
+
+```
+大気4層の気温は交互に上下します。リズムで覚えます。
+対流圏・成層圏・中間圏・熱圏。成層圏の上昇はオゾンの紫外線吸収。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-atmosphere-radiation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第7回】前線は押し方で決まる／寒冷前線は積乱雲
+
+- ファイル：`videos/eb-weather-front.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-weather-front.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-weather-front.html
+
+```
+前線は暗記ではなく、押し方の図から導けます。
+寒冷前線＝急な上昇＝積乱雲・強い雨・通過後は気温低下。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-weather-front.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第8回】海は3層＋熱の運搬／黒潮と親潮
+
+- ファイル：`videos/eb-ocean.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-ocean.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-ocean.html
+
+```
+海は3層と「熱を運ぶ」という1つの役割で整理できます。
+表層混合層・水温躍層・深層。海流は低緯度の熱を高緯度へ運ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-ocean.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第9回】黒点が黒い理由／核融合と恒星の進化
+
+- ファイル：`videos/eb-sun-stars.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-sun-stars.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-sun-stars.html
+
+```
+黒点は「暗い」のではなく「周囲より低温」なだけです。
+エネルギー源は水素の核融合。色は温度で決まり、進化は質量で決まる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-sun-stars.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第10回】災害は原因・時間・範囲／緊急地震速報の仕組み
+
+- ファイル：`videos/eb-disaster.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-disaster.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-disaster.html
+
+```
+災害の問題は、原因と時間と範囲の3点で整理できます。
+津波は海水全体が動く。火砕流は高温高速、火山灰は広範囲・長期間。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-disaster.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+## 再生リスト：日本史｜因果で覚える共通テスト対策
+
+### 【日本史・第1回】古代は「土地と人を誰が握るか」の一本道
+
+- ファイル：`videos/jh-ritsuryo.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-ritsuryo.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-ritsuryo.html
+
+```
+古代の制度は、土地と人の支配権という軸1本で読めます。
+公地公民を実現する手段が戸籍・班田収授・租庸調。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-ritsuryo.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第2回】墾田永年私財法が原則を壊した／荘園の広がり
+
+- ファイル：`videos/jh-shoen.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-shoen.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-shoen.html
+
+```
+墾田永年私財法は、国が自分の原則を壊した政策です。
+口分田不足→私有容認→公地公民の崩壊→寄進で荘園拡大。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-shoen.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第3回】御恩と奉公は契約／土地が尽きれば壊れる
+
+- ファイル：`videos/jh-kamakura.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-kamakura.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-kamakura.html
+
+```
+御恩と奉公は契約です。だから土地が尽きると壊れます。
+御恩＝土地の保障・給与、奉公＝軍役。守護は国、地頭は荘園。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-kamakura.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第4回】防衛戦は御恩を生まない／徳政令の逆効果
+
+- ファイル：`videos/jh-mongol.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-mongol.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-mongol.html
+
+```
+幕府が倒れた理由は「報酬が払えなくなった」ことです。
+防衛戦は新たな所領を生まず、徳政令は信用を失わせた。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-mongol.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第5回】勘合は身分証明／朝貢は利益大・体面小
+
+- ファイル：`videos/jh-muromachi.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-muromachi.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-muromachi.html
+
+```
+勘合は身分証明書です。目的から覚えると忘れません。
+倭寇と使節の区別が勘合の目的。朝貢は利益大だが臣従の形。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-muromachi.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第6回】検地は土地、刀狩は身分／兵農分離の完成
+
+- ファイル：`videos/jh-shokuho.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-shokuho.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-shokuho.html
+
+```
+検地と刀狩は、何を確定させたかで区別します。
+検地＝石高で土地と耕作者を確定、刀狩＝武力を武士に独占。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-shokuho.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第7回】江戸の統制は3手／金・規則・地理
+
+- ファイル：`videos/jh-edo-control.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-edo-control.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-edo-control.html
+
+```
+江戸の統制は戦わずに余力を奪う仕組みです。
+参勤交代（出費）・武家諸法度（規則）・配置（地理）の3手段。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-edo-control.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第8回】三大改革は同じ失敗／米か貨幣か
+
+- ファイル：`videos/jh-edo-reform.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-edo-reform.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-edo-reform.html
+
+```
+3つの改革は、同じ目的で同じ失敗をしています。
+目的は財政再建。貨幣経済の時代に米中心へ戻そうとして失敗。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-edo-reform.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第9回】明治の政策は条約改正が動機／不平等の2点
+
+- ファイル：`videos/jh-meiji.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-meiji.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-meiji.html
+
+```
+明治の政策は、条約改正という動機1本で束ねられます。
+領事裁判権と関税自主権。改正のために憲法・法典・殖産興業を進めた。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-meiji.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【日本史・第10回】戦後改革は3つの解体／農村・経済・職場
+
+- ファイル：`videos/jh-postwar.mp4`
+- サムネイル：`assets/youtube/thumbs/jh-postwar.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-postwar.html
+
+```
+戦後改革は「力の集中を崩す」3点セットで読めます。
+農地改革・財閥解体・労働三法。共通の狙いは力の集中の解体。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-jp/lessons/jh-postwar.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#日本史 #共通テスト #歴史総合 #受験は要領
+```
+
+## 再生リスト：世界史｜同時代を横に並べて覚える
+
+### 【世界史・第1回】民主政は軍事で決まる／騎兵から漕ぎ手へ
+
+- ファイル：`videos/wh-greece.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-greece.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-greece.html
+
+```
+民主政が広がった理由は、戦争の担い手が広がったからです。
+軍事の担い手が政治的発言力をもつ。参加は成年男性市民のみ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-greece.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第2回】拡大が共和政を壊した／帝政への道
+
+- ファイル：`videos/wh-rome.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-rome.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-rome.html
+
+```
+ローマは拡大に成功したせいで共和政を失いました。
+安価な穀物と長期従軍で農民没落→兵制崩壊→私兵化→帝政。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-rome.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第3回】封建制か郡県制か／人事を握る者が支配する
+
+- ファイル：`videos/wh-china-unify.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-china-unify.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-china-unify.html
+
+```
+統治の本質は人事です。土地を与えると分裂します。
+封建制は分裂、郡県制は集権。人事を中央が握るのが官僚制の狙い。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-china-unify.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第4回】拡大を支えたのは税制／ジズヤとハラージュ
+
+- ファイル：`videos/wh-islam.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-islam.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-islam.html
+
+```
+拡大の理由を税制で説明できると、正誤問題が強くなります。
+ジズヤを納めれば信仰は保障。抵抗が小さく広域統治が可能に。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-islam.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第5回】封建制は双務契約／教会の力は破門
+
+- ファイル：`videos/wh-medieval-europe.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-medieval-europe.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-medieval-europe.html
+
+```
+ヨーロッパの封建制は双務契約。日本との違いはここです。
+封土と軍役の双務的契約＋破門を握る教会の二重支配。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-medieval-europe.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第6回】銀が世界を変えた／価格革命と商業革命
+
+- ファイル：`videos/wh-age-of-discovery.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-age-of-discovery.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-age-of-discovery.html
+
+```
+大航海時代は「貨幣が増えると何が起こるか」の問題です。
+銀の流入→物価上昇→領主の没落と商人の台頭、交易は大西洋へ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-age-of-discovery.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第7回】革命の焦点は課税／同意なき課税の否定
+
+- ファイル：`videos/wh-revolution.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-revolution.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-revolution.html
+
+```
+市民革命は税の問題として読むと一気に筋が通ります。
+共通点は「法による権力の制限」と「同意なき課税の否定」。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-revolution.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第8回】産業革命の条件は4つ／なぜイギリスか
+
+- ファイル：`videos/wh-industrial.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-industrial.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-industrial.html
+
+```
+産業革命は4条件で判定します。だからイギリスが先でした。
+資本・労働力・資源・市場の4条件。働き方は時間管理の工場労働へ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-industrial.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第9回】総力戦が社会を変えた／女性参政権の背景
+
+- ファイル：`videos/wh-imperialism.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-imperialism.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-imperialism.html
+
+```
+女性参政権が広がった理由は、総力戦の動員にあります。
+植民地は原料・市場・投資先。総力戦→権利拡大と経済統制。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-imperialism.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+### 【世界史・第10回】なぜ直接戦わないのか／冷戦の構造
+
+- ファイル：`videos/wh-cold-war.mp4`
+- サムネイル：`assets/youtube/thumbs/wh-cold-war.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-cold-war.html
+
+```
+冷戦は「なぜ直接戦わなかったのか」で構造がつかめます。
+核による相互抑止→代理戦争・軍拡競争・経済援助による陣営形成。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/history-world/lessons/wh-cold-war.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#世界史 #共通テスト #歴史総合 #受験は要領
+```
+
+## 再生リスト：地理｜資料の読み取りを型にする
+
+### 【地理・第1回】図法は目的で選ぶ／航空路は正距方位
+
+- ファイル：`videos/gg-map-projection.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-map-projection.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-map-projection.html
+
+```
+地図はすべてを同時に正しく描けません。だから選び方が決まります。
+メルカトル＝角度、正距方位＝中心からの距離と方位、正積＝面積。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-map-projection.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第2回】時差は経度差÷15／飛行時間つき計算の手順
+
+- ファイル：`videos/gg-time-difference.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-time-difference.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-time-difference.html
+
+```
+時差は割り算1回。向きだけ気をつければ確実に取れます。
+時差＝経度差÷15。①飛行時間を足す ②時差で現地時刻に直す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-time-difference.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第3回】地形は侵食と堆積／扇状地と三角州の違い
+
+- ファイル：`videos/gg-landform.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-landform.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-landform.html
+
+```
+地形は削る力と積む力の勝負で決まります。
+上流は侵食（V字谷）、下流は堆積。粒の大きさが土地利用を決める。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-landform.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第4回】雨温図は3手順／最寒月→乾燥→雨の降り方
+
+- ファイル：`videos/gg-climate.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-climate.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-climate.html
+
+```
+雨温図は3手順で機械的に判定できます。
+①最寒月の気温で大区分 ②乾燥判定 ③雨の降り方で小区分。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-climate.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第5回】農業は自然条件＋市場距離／地中海式と近郊農業
+
+- ファイル：`videos/gg-agriculture.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-agriculture.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-agriculture.html
+
+```
+農業の立地は自然条件と市場距離の2軸で説明できます。
+夏の乾燥→樹木作物、冬の雨→小麦。傷みやすいものは市場の近く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-agriculture.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第6回】立地は輸送費で決まる／原料指向と市場指向
+
+- ファイル：`videos/gg-industry-location.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-industry-location.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-industry-location.html
+
+```
+工業の立地は輸送費の比較だけで判定できます。
+原料が重い→原料指向、製品が重い→市場指向。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-industry-location.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第7回】ピラミッドの形で段階を読む／人口転換の順序
+
+- ファイル：`videos/gg-population.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-population.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-population.html
+
+```
+人口爆発が起きる理由は、死亡率が先に下がるからです。
+富士山型→つりがね型→つぼ型。死亡率が先、出生率が後に下がる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-population.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第8回】都市は地価で決まる／ドーナツ化とスプロール
+
+- ファイル：`videos/gg-city.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-city.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-city.html
+
+```
+都市の問題は地価という軸1本で説明できます。
+地価が用途を決める→昼間人口が都心に集中。2語は場所で区別。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-city.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第9回】発電構成で国を当てる／自然条件と政策
+
+- ファイル：`videos/gg-energy.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-energy.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-energy.html
+
+```
+発電構成の統計は、自然条件と政策の2視点で読めます。
+水力＝地形と降水、火力＝資源と輸入、原子力＝政策の選択。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-energy.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+### 【地理・第10回】輸出構成で国を読む／モノカルチャーの弱点
+
+- ファイル：`videos/gg-trade-statistics.mp4`
+- サムネイル：`assets/youtube/thumbs/gg-trade-statistics.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-trade-statistics.html
+
+```
+輸出品の構成を見れば、その国の弱点まで読めます。
+1品目偏重＝モノカルチャー（価格変動に弱い）、工業製品中心＝加工貿易。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/geography/lessons/gg-trade-statistics.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地理 #共通テスト #地理総合 #受験は要領
+```
+
+## 再生リスト：政治・経済｜仕組みで解く共通テスト
+
+### 【政治・経済・第1回】憲法は権力を縛る法／改正が難しい理由
+
+- ファイル：`videos/cv-constitution.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-constitution.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-constitution.html
+
+```
+憲法は国民を縛る法ではありません。権力を縛る法です。
+三大原理＋改正は3分の2で発議・国民投票で過半数（硬性憲法）。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-constitution.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第2回】自由権と社会権／方向で一瞬で分かる
+
+- ファイル：`videos/cv-human-rights.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-human-rights.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-human-rights.html
+
+```
+自由権と社会権は、国家に求める方向が正反対です。
+自由権＝不介入、社会権＝積極的保障。新しい人権は13条が根拠。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-human-rights.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第3回】議院内閣制と大統領制／関係図で比較
+
+- ファイル：`videos/cv-separation-powers.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-separation-powers.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-separation-powers.html
+
+```
+制度の違いは「誰が誰を選ぶか」で全部説明できます。
+国会が首相を指名→不信任と解散が対。大統領は国民が選ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-separation-powers.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第4回】衆議院の優越／理由は任期と解散
+
+- ファイル：`videos/cv-diet.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-diet.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-diet.html
+
+```
+衆議院が強い理由は、任期が短く解散があるからです。
+法律案は3分の2で再可決。予算30日・指名10日で衆議院優先。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-diet.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第5回】司法権の独立／多数決で決めないために
+
+- ファイル：`videos/cv-judiciary.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-judiciary.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-judiciary.html
+
+```
+裁判所は、多数決で決めてはいけないことを守る機関です。
+職権の独立＋身分の保障→違憲審査で少数者の人権を守る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-judiciary.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第6回】民主主義の学校／自主財源が自治を決める
+
+- ファイル：`videos/cv-local-government.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-local-government.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-local-government.html
+
+```
+自治の強さは、実はお金の構成で決まります。
+二元代表制＋直接請求。自主財源が少なければ国に依存する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-local-government.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第7回】需給は3手順／豊作で価格が下がる理由
+
+- ファイル：`videos/cv-market.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-market.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-market.html
+
+```
+需給の問題は、曲線を1回動かすだけで終わります。
+①どちらが動くか②向き③交点。市場の失敗は公共財・外部不経済・独占。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-market.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第8回】実質GDPの計算／名目8%増でも成長0%
+
+- ファイル：`videos/cv-gdp.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-gdp.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-gdp.html
+
+```
+名目で8%増えても、実質では0%成長ということがあります。
+実質GDP＝名目÷GDPデフレーター×100。成長率は増加分÷前年。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-gdp.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第9回】金融政策は2択／資金量から物価まで4段で
+
+- ファイル：`videos/cv-monetary-policy.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-monetary-policy.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-monetary-policy.html
+
+```
+金融政策は2択。向きを間違えなければ必ず取れます。
+過熱→売りオペで引き締め、デフレ→買いオペで緩和。4段で説明。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-monetary-policy.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+
+### 【政治・経済・第10回】累進課税と少子高齢化／負担と受給の図
+
+- ファイル：`videos/cv-fiscal-welfare.mp4`
+- サムネイル：`assets/youtube/thumbs/cv-fiscal-welfare.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-fiscal-welfare.html
+
+```
+財政と社会保障は、負担と受給の図1枚で読めます。
+財政3機能＋累進課税の再分配。少子高齢化は負担側を減らす。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/civics/lessons/cv-fiscal-welfare.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#政治経済 #公共 #共通テスト #受験は要領
+```
+

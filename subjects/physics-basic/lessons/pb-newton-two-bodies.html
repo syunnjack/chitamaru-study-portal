@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2物体の運動方程式｜物理基礎 第3回</title>
+<meta name="description" content="糸でつないだ2物体は「全体で加速度、片方で張力」の順で解きます。共通テストの物理基礎で頻出の型を解説。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第3回 2物体の運動方程式（全体→片方）</div>
+
+<main class="wrap">
+  <h1>第3回　2物体の運動方程式（全体で加速度、1つで張力）</h1>
+  <div class="formula">なめらかな水平面上で、質量3.0 kgの物体Aと質量2.0 kgの物体Bを軽い糸でつなぎ、Aを水平に10 Nの力で引く。加速度と糸の張力を求めよ。</div>
+  <p>2物体は難しくありません。式を書く順番が決まっているだけです。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-newton-two-bodies.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-newton-two-bodies.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>まず全体。</strong>糸でつながれていれば加速度は共通。F = (m₁ + m₂)a で加速度だけを先に出します。</li>
+      <li><strong>次に片方。</strong>張力は内力なので全体の式には出ません。引かれる側（後ろの物体）に注目すると式が一番短くなります。</li>
+      <li><strong>力の書き出しは注目物体に働く力だけ。</strong>相手に働く力を混ぜないのが最大のコツです。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>全体で加速度を出す</strong><div class="formula">10 = (3.0 + 2.0)a より a = 2.0 m/s²</div><p>内力の張力は消える。</p></li>
+    <li><strong>Bだけに注目する</strong><div class="formula">B に働く水平の力は T のみ：T = m_B a</div><p>Bを引いているのは糸だけ。</p></li>
+    <li><strong>張力を計算する</strong><div class="formula">T = 2.0 × 2.0 = 4.0 N</div><p>小さい方の質量で計算すると速い。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">a = 2.0 m/s²、T = 4.0 N</div><p>加速度→張力の順は固定。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>Aに注目すると 10 − T = 3.0 × 2.0 なので T = 4.0 N。Bから求めた値と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>張力は引く力と同じではありません。後ろの物体を加速させるのに必要な分だけになります。</li>
+      <li>T = F × m₂/(m₁ + m₂)。後ろの物体が軽いほど張力は小さくなります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>2物体は「全体で加速度、片方で張力」。この順番だけ。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>なめらかな面で1.0 kgと4.0 kgを糸でつなぎ、1.0 kg側を15 Nで引くときの加速度と張力を求めよ。
+        <details><summary>答え</summary><p>a = 3.0 m/s²、T = 4.0×3.0 = 12 N</p></details>
+      </li>
+      <li>上の問題で、引く力を2倍にすると張力は何倍になるか。
+        <details><summary>答え</summary><p>加速度が2倍になるので張力も2倍</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-incline-balance.html">← 第2回 斜面上の力のつり合い（分解は2方向だけ）</a>　｜　<a href="pb-friction.html">第4回 摩擦力（静止と動摩擦の切り替え） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

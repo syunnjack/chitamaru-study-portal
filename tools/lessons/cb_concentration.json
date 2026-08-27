@@ -1,0 +1,215 @@
+{
+  "title": "濃度の変換（質量パーセントとモル濃度）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。質量パーセント濃度20パーセントの水酸化ナトリウム水溶液の、モル濃度を求めてください。密度は1立方センチメートルあたり1.2グラム、水酸化ナトリウムの式量は40とします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量パーセント濃度 20 % の NaOH 水溶液。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度は 1.2 g/cm³（NaOH = 40）。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "モル濃度を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。濃度の変換は、溶液1リットル分だけを考えます。まず1000立方センチメートルに密度をかけて溶液の質量を出す。次にパーセントをかけて溶質の質量にする。最後にモル質量で割ればモル数で、1リットルあたりなのでそれがそのままモル濃度です。1リットル分に決め打ちするのがコツです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "溶液1 L（1000 cm³）分を考えるのが最短",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "溶液の質量 = 1000 × 密度",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "溶質の質量 = 溶液の質量 × パーセント ÷ 100 → ÷ モル質量",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず溶液1リットル分の質量です。1000立方センチメートルかける1.2で1200グラムです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：溶液1 Lの質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1000 × 1.2 = 1200 g",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "密度で質量に直す。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：溶液1 Lの質量"
+    },
+    {
+      "narration": "次に溶質の質量です。1200グラムの20パーセントなので240グラムです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：溶質の質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1200 × 20/100 = 240 g",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "パーセントは溶液全体にかける。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：溶質の質量"
+    },
+    {
+      "narration": "モルに直すと、240を40で割って6.0モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：molに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "240 ÷ 40 = 6.0 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "モル質量で割る。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：molに直す"
+    },
+    {
+      "narration": "1リットル分で計算したので、モル濃度はそのまま6.0モル毎リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：モル濃度を答える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "6.0 mol/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1 L分で計算したのでそのまま。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：モル濃度を答える"
+    },
+    {
+      "narration": "検算です。逆向きに戻します。6.0モル毎リットルなら1リットルに240グラムの溶質。溶液の質量は1200グラムなので、240割る1200は0.20、つまり20パーセント。もとの条件に戻りました。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "6.0 mol/L → 1 Lに240 g",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "240 / 1200 = 0.20 = 20 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "条件に戻る",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、パーセント濃度は溶液全体の質量が分母です。水の質量で割るのが最も多いミスです。ふたつ目、モル濃度の分母は溶液の体積で、水の体積ではありません。溶かすと体積が変わるので、水1リットルに溶かしても溶液1リットルにはなりません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量パーセントの分母は「溶液」全体",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "モル濃度の分母は「溶液の体積」（水の体積ではない）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。濃度の変換は溶液1リットル分で考える。1000かける密度かけるパーセント割るモル質量。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "濃度の変換は溶液1 L分で考える。1000×密度×％÷モル質量。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：2.0 mol/Lの塩酸500 mLに含まれるHClの物質量を求めよ。 → 2.0 × 0.50 = 1.0 mol",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

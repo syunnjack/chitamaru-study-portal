@@ -1,0 +1,215 @@
+{
+  "title": "中和滴定の計算（価数を必ず入れる）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。0.10モル毎リットルの硫酸10ミリリットルを中和するのに、水酸化ナトリウム水溶液20ミリリットルが必要でした。この水酸化ナトリウム水溶液のモル濃度を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.10 mol/L の H₂SO₄ 10 mL を中和。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "NaOH 水溶液 20 mL が必要だった。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "NaOH のモル濃度を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。中和は、水素イオンのモル数と水酸化物イオンのモル数が等しくなる点です。式にすると、価数かける濃度かける体積 イコール 価数かける濃度かける体積。硫酸は2価、水酸化ナトリウムは1価。この価数を入れ忘れるのが失点の9割です。体積の単位はリットルでもミリリットルでも、両辺でそろっていれば大丈夫です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中和の条件：H⁺のmol = OH⁻のmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "式は a c V = a' c' V'（a は価数）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "硫酸は2価、水酸化ナトリウムは1価",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず価数です。硫酸は水素イオンを2個出すので2価、水酸化ナトリウムは1価です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：価数を書き出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "H₂SO₄：2価、NaOH：1価",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "先にメモする。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：価数を書き出す"
+    },
+    {
+      "narration": "式を立てます。左辺が2かける0.10かける10、右辺が1かけるシーかける20です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：式を立てる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2 × 0.10 × 10 = 1 × c × 20",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "両辺mLでそろえる。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：式を立てる"
+    },
+    {
+      "narration": "左辺は2.0。20シーが2.0なので、シーは0.10モル毎リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2.0 = 20c → c = 0.10 mol/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "左辺を先に計算。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：計算する"
+    },
+    {
+      "narration": "答えは0.10モル毎リットルです。最後に価数を入れたかどうか、必ず見直します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "NaOH水溶液は 0.10 mol/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "価数を入れたか最後に確認。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。水素イオンの量で確かめます。硫酸は2価で0.10モル毎リットルの10ミリリットルなので、水素イオンは2.0ミリモル。水酸化ナトリウムは1価で0.10モル毎リットルの20ミリリットルなので、水酸化物イオンも2.0ミリモル。ぴったり等しく、中和の条件を満たします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "H⁺ = 2 × 0.10 × 10 = 2.0 mmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "OH⁻ = 1 × 0.10 × 20 = 2.0 mmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "等しいので中和",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、中和点は必ずピーエイチ7ではありません。塩の性質で決まり、弱酸と強塩基の中和なら中和点は7より大きくなります。ふたつ目、指示薬は中和点の側に合わせて選びます。塩基性側ならフェノールフタレイン、酸性側ならメチルオレンジ。この対応まで聞かれます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中和点はpH7とは限らない（塩で決まる）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指示薬：塩基性側はフェノールフタレイン、酸性側はメチルオレンジ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。中和は、エー シー ブイ イコール エープライム シープライム ブイプライム。価数を先に書く。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中和は a c V = a' c' V'。価数を先に書く。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：0.20 mol/LのHCl 25 mLを中和するのに必要な0.10 mol/L NaOHの体積を求めよ。 → 1×0.20×25 = 1×0.10×V より V = 50 mL",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

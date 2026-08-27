@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>斜面上の力のつり合い｜物理基礎 第2回</title>
+<meta name="description" content="斜面の問題は座標を斜面に合わせ、重力だけを mg sinθ と mg cosθ に分解する型で解きます。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第2回 斜面上の力のつり合い（分解は2方向だけ）</div>
+
+<main class="wrap">
+  <h1>第2回　斜面上の力のつり合い（分解は2方向だけ）</h1>
+  <div class="formula">質量2.0 kgの物体が、水平面と30°をなすなめらかな斜面上で、斜面に平行な糸で静止している。糸の張力と、斜面が物体を押す垂直抗力を求めよ（g = 9.8 m/s²）。</div>
+  <p>斜面がこわいのは、座標を水平・鉛直でとっているからです。座標を斜面に合わせます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-incline-balance.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-incline-balance.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>座標は斜面に合わせる。</strong>「斜面に平行」と「斜面に垂直」の2方向にとると、分解するのは重力だけになります。</li>
+      <li><strong>sin と cos の判別。</strong>斜面に平行な成分は mg sinθ、垂直な成分は mg cosθ。θが小さいほど滑りにくい＝sin側が小さいと確認します。</li>
+      <li><strong>各方向で合計 = 0。</strong>静止＝つり合い。方向ごとに1本ずつ式を書きます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>重力を分解する</strong><div class="formula">斜面方向：mg sin30° ／ 垂直方向：mg cos30°</div><p>mg = 2.0 × 9.8 = 19.6 N。</p></li>
+    <li><strong>斜面方向のつり合い</strong><div class="formula">T = mg sin30° = 19.6 × 0.50 = 9.8 N</div><p>糸は斜面方向のみを支える。</p></li>
+    <li><strong>垂直方向のつり合い</strong><div class="formula">N = mg cos30° = 19.6 × 0.87 ≒ 17 N</div><p>cos30° = √3/2 ≒ 0.87。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">T = 9.8 N、N ≒ 17 N</div><p>2方向で1本ずつ、計2本。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>sin30° = 1/2 なので T は mg の半分の 9.8 N。また N は必ず mg より小さくなり、17 N < 19.6 N を満たします。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>垂直抗力は「重力と同じ」ではありません。斜面では N = mg cosθ で、必ず mg より小さくなります。</li>
+      <li>sinかcosか迷ったら θ = 0（平ら）を代入。斜面方向の力は0になるはずなので、そちらがsinです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>斜面は斜面方向 mg sinθ、垂直方向 mg cosθ。座標を斜面に合わせる。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>質量3.0 kgの物体を60°のなめらかな斜面で斜面に平行な糸で支えるとき、張力を求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>T = 3.0×9.8×sin60° ≒ 25 N</p></details>
+      </li>
+      <li>30°の斜面上で質量2.0 kgの物体を静止させるのに必要な水平方向の力を求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>F = mg tan30° ≒ 11 N</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-uniform-accel.html">← 第1回 等加速度直線運動（式は3本で足りる）</a>　｜　<a href="pb-newton-two-bodies.html">第3回 2物体の運動方程式（全体→片方） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

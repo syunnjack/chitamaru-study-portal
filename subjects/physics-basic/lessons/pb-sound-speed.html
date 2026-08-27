@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>音の速さと反射｜物理基礎 第7回</title>
+<meta name="description" content="反射音は往復で v t ÷ 2、波長は λ = v/f。共通テストの物理基礎で出る音の計算を型にします。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第7回 音の速さと反射（やまびこの型）</div>
+
+<main class="wrap">
+  <h1>第7回　音の速さと反射（やまびこと共鳴の型）</h1>
+  <div class="formula">崖に向かって声を出したところ、2.4 s後に反射音が返ってきた。音の速さを340 m/sとして崖までの距離を求めよ。また振動数425 Hzの音の波長を求めよ。</div>
+  <p>音の失点は「往復を2で割らない」が最多です。図に矢印を2本描きます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-sound-speed.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-sound-speed.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>反射は往復。</strong>「返ってくるまでの時間」なので、距離は v t ÷ 2 です。ここを2で割らないのが最頻ミスです。</li>
+      <li><strong>波長は v = fλ。</strong>λ = v/f で出します。</li>
+      <li><strong>音の速さを決めるのは媒質。</strong>気温が上がると速くなる（V = 331.5 + 0.6t）。振動数や大きさでは変わりません。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>往復に気づく</strong><div class="formula">音が進んだ距離 = 340 × 2.4 = 816 m（往復）</div><p>片道ではない。</p></li>
+    <li><strong>崖までの距離</strong><div class="formula">816 ÷ 2 = 408 m</div><p>2で割るのを忘れない。</p></li>
+    <li><strong>波長を出す</strong><div class="formula">λ = v/f = 340/425 = 0.80 m</div><p>v = fλ を λ について解く。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">距離 408 m、波長 0.80 m</div><p>単位をつける。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>408 ÷ 340 = 1.2 s、往復で2.4 s。また 0.80 × 425 = 340 m/s と v に戻り、両方一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>振動数が変わっても音速は変わりません。変わるのは波長だけです（λ = v/f）。</li>
+      <li>音速は気温で決まります。V = 331.5 + 0.6t（℃）。15 ℃で約340 m/sを基準に覚えます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>反射音は往復で v t ÷ 2。波長は λ = v/f。音速は媒質と気温で決まる。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>船から海底に向けて音波を出すと1.5 s後に反射波が戻った。水中の音速1500 m/sとして深さを求めよ。
+        <details><summary>答え</summary><p>1500×1.5÷2 = 1125 m</p></details>
+      </li>
+      <li>波長1.7 mの音の振動数を求めよ（音速340 m/s）。
+        <details><summary>答え</summary><p>f = 340/1.7 = 200 Hz</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-heat-balance.html">← 第6回 熱量の保存（比熱と熱平衡の1本）</a>　｜　<a href="pb-ohm-circuit.html">第8回 オームの法則と合成抵抗（直列と並列） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

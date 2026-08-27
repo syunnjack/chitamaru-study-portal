@@ -1,0 +1,215 @@
+{
+  "title": "イオン化傾向と電池（負極はイオンになりたい側）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。硫酸亜鉛水溶液に銅板を入れる場合と、硫酸銅水溶液に亜鉛板を入れる場合、反応が起こるのはどちらでしょうか。また亜鉛と銅で電池をつくったとき、負極になるのはどちらか答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "①硫酸亜鉛水溶液 + 銅板　②硫酸銅水溶液 + 亜鉛板",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "反応が起こるのはどちらか。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "亜鉛と銅の電池で負極になるのはどちらか。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。金属の反応は、イオン化傾向の順番だけで決まります。カリウム、カルシウム、ナトリウム、マグネシウム、アルミニウム、亜鉛、鉄、銅、銀。左にあるほどイオンになりたい金属です。イオン化傾向の大きい金属が電子を出して、小さい金属のイオンを金属に戻します。電池では、電子を出す側が負極です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イオン化傾向：K > Ca > Na > Mg > Al > Zn > Fe > Cu > Ag",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イオンになりたい側が電子を出す（酸化される）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電池の負極 = イオン化傾向が大きい金属",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず順番です。亜鉛は銅よりイオン化傾向が大きく、イオンになりたい金属です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：順番を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Zn > Cu（亜鉛の方がイオンになりたい）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ここが判定の全部。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：順番を確認する"
+    },
+    {
+      "narration": "ひとつ目、硫酸亜鉛水溶液に銅板です。銅は亜鉛よりイオンになりたくないので、亜鉛イオンを追い出せません。反応は起こりません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：①を判定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Zn²⁺ + Cu → 起こらない",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "小さい金属は大きい金属のイオンを追い出せない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：①を判定する"
+    },
+    {
+      "narration": "ふたつ目、硫酸銅水溶液に亜鉛板です。亜鉛が電子を出して溶け、銅イオンが銅になって析出します。こちらは反応が起こります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：②を判定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Cu²⁺ + Zn → Zn²⁺ + Cu（銅が析出）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "亜鉛が溶け、銅が付く。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：②を判定する"
+    },
+    {
+      "narration": "電池にすると、電子を出す亜鉛が負極です。正極の銅では、外から来た電子で銅イオンが銅になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：電池の負極",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "負極は亜鉛（電子を出して溶ける）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "正極では銅が析出。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：電池の負極"
+    },
+    {
+      "narration": "検算です。電子の流れで確かめます。亜鉛が電子を出すので、電子は亜鉛から導線を通って銅へ流れます。電流の向きは電子と逆なので、銅から亜鉛へ。つまり銅が正極です。負極が亜鉛だという答えと矛盾しません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電子：Zn → 導線 → Cu",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電流の向きは電子の逆",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "よって Cu が正極、Zn が負極",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、電池では負極が溶けて減ります。イオン化傾向が大きい金属が減る、と結びつけて覚えます。ふたつ目、電子の流れと電流の向きは逆です。負極から出た電子が導線を通って正極に入り、電流は正極から負極へ流れると表します。ここを混ぜると図の問題で必ず落とします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "負極が溶けて減る（イオン化傾向が大きい側）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電子の流れと電流の向きは逆",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。イオン化傾向が大きい金属が電子を出す。つまり負極になって溶ける。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イオン化傾向が大きい金属が電子を出す＝負極になって溶ける。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：硫酸銅水溶液に銀板を入れると反応するか。 → Ag < Cu なので反応しない",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

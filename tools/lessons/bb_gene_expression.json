@@ -1,0 +1,215 @@
+{
+  "title": "遺伝子の発現（転写と翻訳を1本の線にする）",
+  "subtitle": "生物基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ディーエヌエーの塩基配列がティー エー シー ジー ジー エー のとき、転写されるエムアールエヌエーの塩基配列を答えてください。また指定されるアミノ酸の数と、エムアールエヌエーの塩基が90個のときのアミノ酸の数も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "DNA：TACGGA から転写される mRNA を答えよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指定されるアミノ酸の数を答えよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mRNA の塩基が 90 個のときのアミノ酸の数も求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。遺伝子の発現は、転写と翻訳の2段階を1本の線でつなぎます。転写ではディーエヌエーの塩基に相補的なエムアールエヌエーができます。このときチミンではなくウラシルが使われます。翻訳では、塩基3個の組み合わせであるコドンが1つのアミノ酸を指定します。だからアミノ酸の数は塩基の数を3で割るだけです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "転写：DNA → mRNA（A↔U、T↔A、G↔C）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "翻訳：mRNAの塩基3個（コドン）で1つのアミノ酸",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "アミノ酸の数 = 塩基の数 ÷ 3",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず1塩基ずつ写します。ディーエヌエーのティーにはエー、エーにはウラシル、シーにはジー、ジーにはシーが対応します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：1塩基ずつ写す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T→A、A→U、C→G、G→C、G→C、A→U",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "TはAではなくUに注意（DNAのAがU）。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：1塩基ずつ写す"
+    },
+    {
+      "narration": "できるエムアールエヌエーは、エー ユー ジー シー シー ユー です。アールエヌエーにはチミンがなく、ウラシルが入ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：mRNAを書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mRNA：AUGCCU",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "RNAにTはない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：mRNAを書く"
+    },
+    {
+      "narration": "塩基が6個なのでコドンは2個。指定されるアミノ酸は2個です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：アミノ酸の数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "6 ÷ 3 = 2 個",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "コドン2個分。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：アミノ酸の数"
+    },
+    {
+      "narration": "塩基が90個の場合も同じで、90割る3で30個のアミノ酸が指定されます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：90塩基の場合",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "90 ÷ 3 = 30 個",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "同じ計算。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：90塩基の場合"
+    },
+    {
+      "narration": "検算です。できたエムアールエヌエーの最初のコドンはエー ユー ジー。これは翻訳の開始を示す開始コドンで、メチオニンを指定します。転写が正しくできていれば自然に出てくる並びなので、写し間違いがないと確認できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最初のコドンは AUG（開始コドン）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "メチオニンを指定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "転写ミスがない証拠",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、アールエヌエーにはチミンがなく、代わりにウラシルが入ります。またアールエヌエーは1本鎖で、糖はリボースです。ふたつ目、コドンは4の3乗で64通りあり、アミノ酸は20種類。だから同じアミノ酸を指定するコドンが複数あります。この余りが問われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "RNAはT→U、1本鎖、糖はリボース",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "コドンは64通りでアミノ酸は20種類（重複がある）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。転写は相補性でウラシルを使う。アミノ酸の数は、塩基の数割る3。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "転写はA↔U・T↔A・G↔C。アミノ酸の数＝塩基の数÷3。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：mRNAの塩基が120個のとき指定されるアミノ酸の数を求めよ。 → 40個",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

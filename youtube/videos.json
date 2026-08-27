@@ -41,6 +41,54 @@
       "name": "TOEIC｜スコアに直結する型",
       "badge": "TOEIC",
       "hashtags": "#TOEIC #英語学習 #Part5 #リスニング #受験は要領"
+    },
+    {
+      "id": "physics-basic",
+      "name": "物理基礎｜共通テストの計算を型にする",
+      "badge": "物理基礎",
+      "hashtags": "#物理基礎 #共通テスト #物理 #受験は要領"
+    },
+    {
+      "id": "chemistry-basic",
+      "name": "化学基礎｜molの計算を型にする",
+      "badge": "化学基礎",
+      "hashtags": "#化学基礎 #共通テスト #化学 #mol計算 #受験は要領"
+    },
+    {
+      "id": "biology-basic",
+      "name": "生物基礎｜暗記を仕組みで減らす",
+      "badge": "生物基礎",
+      "hashtags": "#生物基礎 #共通テスト #生物 #受験は要領"
+    },
+    {
+      "id": "earth-basic",
+      "name": "地学基礎｜出る所だけ型で覚える",
+      "badge": "地学基礎",
+      "hashtags": "#地学基礎 #共通テスト #地学 #受験は要領"
+    },
+    {
+      "id": "history-jp",
+      "name": "日本史｜因果で覚える共通テスト対策",
+      "badge": "日本史",
+      "hashtags": "#日本史 #共通テスト #歴史総合 #受験は要領"
+    },
+    {
+      "id": "history-world",
+      "name": "世界史｜同時代を横に並べて覚える",
+      "badge": "世界史",
+      "hashtags": "#世界史 #共通テスト #歴史総合 #受験は要領"
+    },
+    {
+      "id": "geography",
+      "name": "地理｜資料の読み取りを型にする",
+      "badge": "地理",
+      "hashtags": "#地理 #共通テスト #地理総合 #受験は要領"
+    },
+    {
+      "id": "civics",
+      "name": "政治・経済｜仕組みで解く共通テスト",
+      "badge": "政治経済",
+      "hashtags": "#政治経済 #公共 #共通テスト #受験は要領"
     }
   ],
   "videos": [
@@ -2175,6 +2223,1046 @@
       ],
       "hook": "半減期は指数関数の式を書かなくても解けます。",
       "point": "n = 時間 ÷ 半減期、残る割合 (1/2)ⁿ。逆問題は指数を読む。"
+    },
+    {
+      "slug": "pb-uniform-accel",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-uniform-accel.html",
+      "title": "【物理基礎・第1回】等加速度は式3本で足りる／a=1.5m/s²・x=12m",
+      "thumb": [
+        "等加速度直線運動",
+        "式は3本だけ",
+        "a=1.5m/s² / x=12m"
+      ],
+      "hook": "等加速度で使う式は3本だけ。役割で覚えれば迷いません。",
+      "point": "速さは v = v₀ + at、距離は x = v₀t + (1/2)at²、時間がなければ v² − v₀² = 2ax。"
+    },
+    {
+      "slug": "pb-incline-balance",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-incline-balance.html",
+      "title": "【物理基礎・第2回】斜面は座標を斜面に合わせる／T=9.8N・N≒17N",
+      "thumb": [
+        "斜面のつり合い",
+        "mg sinθ と mg cosθ",
+        "T=9.8N / N≒17N"
+      ],
+      "hook": "斜面が苦手な原因は座標の取り方。斜面に合わせれば分解は重力だけです。",
+      "point": "斜面方向 mg sinθ、垂直方向 mg cosθ。各方向で合計0を書く。"
+    },
+    {
+      "slug": "pb-newton-two-bodies",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-newton-two-bodies.html",
+      "title": "【物理基礎・第3回】2物体は全体→片方の順／a=2.0m/s²・T=4.0N",
+      "thumb": [
+        "2物体の運動方程式",
+        "全体で a、片方で T",
+        "a=2.0m/s² / T=4.0N"
+      ],
+      "hook": "2物体の問題は、式を書く順番を固定すれば終わります。",
+      "point": "全体で F = (m₁+m₂)a、次に後ろの物体で T = m₂a。"
+    },
+    {
+      "slug": "pb-friction",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-friction.html",
+      "title": "【物理基礎・第4回】摩擦は判定が先／15Nでは動かない・25Nならa=3.0m/s²",
+      "thumb": [
+        "摩擦力",
+        "判定 → 切り替え",
+        "f_max=19.6N"
+      ],
+      "hook": "静止摩擦は μN ではありません。まず判定してから計算します。",
+      "point": "f_max = μN と加えた力を比べ、動いたら動摩擦 μ'N に切り替える。"
+    },
+    {
+      "slug": "pb-energy-conservation",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-energy-conservation.html",
+      "title": "【物理基礎・第5回】速さは高さの差だけで決まる／5.9m/s・4.4m/s",
+      "thumb": [
+        "力学的エネルギー保存",
+        "v = √(2gΔh)",
+        "5.9m/s / 4.4m/s"
+      ],
+      "hook": "なめらかな面なら、速さは重さによらず高さの差だけで決まります。",
+      "point": "(1/2)mv² + mgh が一定。はじめ＝あとの1本、質量は消える。"
+    },
+    {
+      "slug": "pb-heat-balance",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-heat-balance.html",
+      "title": "【物理基礎・第6回】混合温度は加重平均／20℃と80℃を混ぜて40℃",
+      "thumb": [
+        "熱量の保存",
+        "もらった熱 = 失った熱",
+        "t = 40℃"
+      ],
+      "hook": "混合後の温度は平均の50℃ではありません。質量で重みがつきます。",
+      "point": "Q = mcΔt。混合は「もらった熱 = 失った熱」で1本にする。"
+    },
+    {
+      "slug": "pb-sound-speed",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-sound-speed.html",
+      "title": "【物理基礎・第7回】やまびこは往復を2で割る／408m・波長0.80m",
+      "thumb": [
+        "音の速さと反射",
+        "距離 = v t ÷ 2",
+        "408m / 0.80m"
+      ],
+      "hook": "やまびこの計算は「往復」。2で割り忘れが一番多い失点です。",
+      "point": "距離は v t ÷ 2、波長は λ = v/f。音速は媒質と気温で決まる。"
+    },
+    {
+      "slug": "pb-ohm-circuit",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-ohm-circuit.html",
+      "title": "【物理基礎・第8回】並列を先にまとめる／I=1.5A・並列部分3.0V",
+      "thumb": [
+        "合成抵抗",
+        "並列を先にまとめる",
+        "I=1.5A / 3.0V"
+      ],
+      "hook": "回路は順番だけ。並列を先にまとめると一直線になります。",
+      "point": "1/R = 1/R₁ + 1/R₂ → 全体で I = V/R → 部分は V = RI。"
+    },
+    {
+      "slug": "pb-electric-power",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-electric-power.html",
+      "title": "【物理基礎・第9回】kWhは単位変換が先／I=12A・0.12kWh・3.6円",
+      "thumb": [
+        "電力と電力量",
+        "P = VI、W = Pt",
+        "0.12kWh / 3.6円"
+      ],
+      "hook": "電力の失点はほぼ単位。分を時間に直すのを最初にやります。",
+      "point": "P = VI、W = Pt。直列はP=I²R、並列はP=V²/Rで発熱が決まる。"
+    },
+    {
+      "slug": "pb-energy-efficiency",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-energy-efficiency.html",
+      "title": "【物理基礎・第10回】効率は出÷入／40%・捨てる熱6.0×10^9J",
+      "thumb": [
+        "変換と効率",
+        "効率 = 出 ÷ 入",
+        "40% / 6.0×10^9J"
+      ],
+      "hook": "効率は割り算1回。使えなかった分は熱として必ず出ていきます。",
+      "point": "効率 = 出 ÷ 入、捨てられる熱 = 入 − 出。エネルギーは保存する。"
+    },
+    {
+      "slug": "cb-atom-isotope",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-atom-isotope.html",
+      "title": "【化学基礎・第1回】原子は3つの関係だけ／陽子17・中性子20・電子18",
+      "thumb": [
+        "原子の構造",
+        "質量数 = 陽子 + 中性子",
+        "中性子 = 37 − 17"
+      ],
+      "hook": "原子の問題は3つの関係だけ。中性子は引き算で出ます。",
+      "point": "原子番号=陽子数、質量数=陽子+中性子、イオン化で変わるのは電子だけ。"
+    },
+    {
+      "slug": "cb-electron-ion",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-electron-ion.html",
+      "title": "【化学基礎・第2回】価数は希ガスで決まる／Mg²⁺はNeと同じ配置",
+      "thumb": [
+        "電子配置とイオン",
+        "希ガスに合わせる",
+        "Mg²⁺ = Ne 型"
+      ],
+      "hook": "価数の暗記は不要。最も近い希ガスに合わせるだけです。",
+      "point": "K2・L8・M8に詰め、希ガスの配置になるよう電子をやりとりする。"
+    },
+    {
+      "slug": "cb-chemical-bond",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-chemical-bond.html",
+      "title": "【化学基礎・第3回】結合は元素で決まる／CaCl₂・CO₂・Cuを判定",
+      "thumb": [
+        "化学結合の見分け",
+        "金属か非金属か",
+        "イオン/共有/金属"
+      ],
+      "hook": "結合の種類は表の暗記ではなく、元素の種類だけで決まります。",
+      "point": "金属+非金属=イオン、非金属どうし=共有、金属どうし=金属結合。"
+    },
+    {
+      "slug": "cb-mol-basic",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-mol-basic.html",
+      "title": "【化学基礎・第4回】molは中継点／8.8g=0.20mol=4.5L",
+      "thumb": [
+        "物質量 mol",
+        "質量 ⇄ mol ⇄ 個数・体積",
+        "8.8g → 0.20mol"
+      ],
+      "hook": "molを飛ばして計算すると必ず迷います。中継点にします。",
+      "point": "mol = 質量÷モル質量。個数は×6.0×10²³、気体の体積は×22.4 L。"
+    },
+    {
+      "slug": "cb-gas-volume",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-gas-volume.html",
+      "title": "【化学基礎・第5回】気体の密度はモル質量÷22.4／5.6Lは7.0g",
+      "thumb": [
+        "気体の体積と密度",
+        "密度 = M ÷ 22.4",
+        "5.6L → 7.0g"
+      ],
+      "hook": "気体の密度はモル質量を22.4で割るだけです。",
+      "point": "体積÷22.4=mol、mol×モル質量=質量、密度=モル質量÷22.4。"
+    },
+    {
+      "slug": "cb-concentration",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-concentration.html",
+      "title": "【化学基礎・第6回】濃度は溶液1L分で決め打ち／20%は6.0mol/L",
+      "thumb": [
+        "濃度の変換",
+        "溶液1L分で考える",
+        "20% → 6.0mol/L"
+      ],
+      "hook": "濃度の変換は、溶液1リットル分に決め打ちすれば毎回同じ計算です。",
+      "point": "1000×密度で溶液の質量→％で溶質の質量→モル質量で割る。"
+    },
+    {
+      "slug": "cb-reaction-ratio",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-reaction-ratio.html",
+      "title": "【化学基礎・第7回】係数はmol比／O₂=1.0mol・CO₂=13L",
+      "thumb": [
+        "量的関係",
+        "係数比 = mol比",
+        "O₂=1.0mol / CO₂=13L"
+      ],
+      "hook": "係数の比はmolの比。質量の比ではありません。",
+      "point": "molに直す→係数比で相手のmol→単位を戻す。"
+    },
+    {
+      "slug": "cb-neutralization",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-neutralization.html",
+      "title": "【化学基礎・第8回】中和は価数が命／c=0.10mol/L",
+      "thumb": [
+        "中和滴定",
+        "a c V = a' c' V'",
+        "c = 0.10mol/L"
+      ],
+      "hook": "中和の失点はほぼ価数の入れ忘れ。価数を先に書きます。",
+      "point": "H⁺ = OH⁻ より a c V = a' c' V'。硫酸は2価、NaOHは1価。"
+    },
+    {
+      "slug": "cb-oxidation-number",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-oxidation-number.html",
+      "title": "【化学基礎・第9回】酸化数は方程式で出す／S=−2・N=+5・Mn=+7",
+      "thumb": [
+        "酸化数",
+        "合計 = 0 で方程式",
+        "S−2 / N+5 / Mn+7"
+      ],
+      "hook": "酸化還元は感覚で判断しません。酸化数の数字で決めます。",
+      "point": "単体0・H+1・O−2で埋めて合計0。増えたら酸化、減ったら還元。"
+    },
+    {
+      "slug": "cb-ionization-battery",
+      "playlist": "chemistry-basic",
+      "page": "subjects/chemistry-basic/lessons/cb-ionization-battery.html",
+      "title": "【化学基礎・第10回】イオン化傾向で全部決まる／負極は亜鉛",
+      "thumb": [
+        "イオン化傾向と電池",
+        "大きい方が電子を出す",
+        "負極 = Zn"
+      ],
+      "hook": "金属の反応も電池の極も、イオン化傾向の順番だけで決まります。",
+      "point": "イオン化傾向が大きい金属が電子を出し、負極になって溶ける。"
+    },
+    {
+      "slug": "bb-cell-structure",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-cell-structure.html",
+      "title": "【生物基礎・第1回】原核と真核の違いは1本／DNAは原核にもある",
+      "thumb": [
+        "細胞の構造",
+        "核膜のある核があるか",
+        "原核にもDNAあり"
+      ],
+      "hook": "原核細胞にDNAがない、は誤りです。線引きは核膜だけ。",
+      "point": "原核／真核の違いは核膜で包まれた核の有無。原核にもDNA・リボソームはある。"
+    },
+    {
+      "slug": "bb-enzyme",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-enzyme.html",
+      "title": "【生物基礎・第2回】酵素はタンパク質だから変性する／回復しない理由",
+      "thumb": [
+        "酵素のはたらき",
+        "変性は不可逆",
+        "最適温度・pH"
+      ],
+      "hook": "酵素の記述は「タンパク質だから」で全部説明できます。",
+      "point": "低温側は衝突増加、高温側は変性で失活。変性は不可逆。"
+    },
+    {
+      "slug": "bb-photosynthesis-respiration",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-photosynthesis-respiration.html",
+      "title": "【生物基礎・第3回】光合成と呼吸は逆向き1本／ATPが通貨",
+      "thumb": [
+        "光合成と呼吸",
+        "逆向きの矢印1本",
+        "ATP = 通貨"
+      ],
+      "hook": "光合成と呼吸は逆向きの矢印1本で覚えます。",
+      "point": "呼吸＝ミトコンドリア、光合成＝葉緑体。ATPが共通のエネルギー通貨。"
+    },
+    {
+      "slug": "bb-dna-base-ratio",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-dna-base-ratio.html",
+      "title": "【生物基礎・第4回】塩基の割合は2条件だけ／A28%ならG22%",
+      "thumb": [
+        "DNAの塩基の割合",
+        "A = T、G = C",
+        "A28% → G22%"
+      ],
+      "hook": "塩基の計算は2条件だけ。1本鎖か2本鎖かで答えが変わります。",
+      "point": "2本鎖なら A = T、G = C、合計100 %。1本鎖では成り立たない。"
+    },
+    {
+      "slug": "bb-cell-cycle",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-cell-cycle.html",
+      "title": "【生物基礎・第5回】細胞数の割合＝時間の割合／分裂期1.0時間",
+      "thumb": [
+        "細胞周期の計算",
+        "数の割合 = 時間の割合",
+        "分裂期 = 1.0時間"
+      ],
+      "hook": "細胞周期は計算問題。数の割合がそのまま時間の割合です。",
+      "point": "時期の長さ = 周期 × (その時期の細胞数 / 全細胞数)。DNA倍加はS期。"
+    },
+    {
+      "slug": "bb-gene-expression",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-gene-expression.html",
+      "title": "【生物基礎・第6回】転写は写す、翻訳は÷3／AUGCCU・アミノ酸2個",
+      "thumb": [
+        "遺伝子の発現",
+        "塩基3個で1アミノ酸",
+        "90塩基 → 30個"
+      ],
+      "hook": "転写は写すだけ、翻訳は3で割るだけです。",
+      "point": "転写はA↔U・T↔A・G↔C。アミノ酸の数＝塩基÷3。"
+    },
+    {
+      "slug": "bb-kidney",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-kidney.html",
+      "title": "【生物基礎・第7回】腎臓はイヌリン基準／濃縮率120倍・原尿180L",
+      "thumb": [
+        "腎臓の濃縮率",
+        "原尿 = 尿量 × 濃縮率",
+        "120倍 / 180L"
+      ],
+      "hook": "腎臓の計算はイヌリン基準。割り算と掛け算だけです。",
+      "point": "濃縮率＝尿÷血しょう、原尿量＝尿量×イヌリンの濃縮率。"
+    },
+    {
+      "slug": "bb-blood-sugar",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-blood-sugar.html",
+      "title": "【生物基礎・第8回】下げるのはインスリンだけ／上げるのは複数",
+      "thumb": [
+        "血糖値の調節",
+        "下げるのは1つだけ",
+        "インスリン / グルカゴン"
+      ],
+      "hook": "血糖値を下げるホルモンは1つだけ。上げる側は複数あります。",
+      "point": "インスリン（B細胞）が下げ、グルカゴン・アドレナリンが上げる。"
+    },
+    {
+      "slug": "bb-immunity",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-immunity.html",
+      "title": "【生物基礎・第9回】二次応答は記憶細胞／ワクチンの仕組み",
+      "thumb": [
+        "免疫",
+        "記憶細胞が残る",
+        "二次応答"
+      ],
+      "hook": "免疫の骨組みは2段構えと記憶細胞だけです。",
+      "point": "自然免疫は速く相手を選ばず、適応免疫は遅いが強い。記憶細胞で二次応答。"
+    },
+    {
+      "slug": "bb-succession-ecosystem",
+      "playlist": "biology-basic",
+      "page": "subjects/biology-basic/lessons/bb-succession-ecosystem.html",
+      "title": "【生物基礎・第10回】遷移は明るさで決まる／極相は陰樹林",
+      "thumb": [
+        "植生の遷移",
+        "林床が暗くなる",
+        "極相 = 陰樹林"
+      ],
+      "hook": "遷移の順序は暗記しません。明るさの変化から導けます。",
+      "point": "土壌は厚く林床は暗くなる。暗さに強い陰樹が極相になる。"
+    },
+    {
+      "slug": "eb-earth-interior",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-earth-interior.html",
+      "title": "【地学基礎・第1回】地球内部は2通りの分け方／プレートの正体",
+      "thumb": [
+        "地球の内部構造",
+        "物質 と かたさ",
+        "モホ面 / リソスフェア"
+      ],
+      "hook": "プレート＝地殻ではありません。分け方が2通りあります。",
+      "point": "物質で地殻・マントル・外核・内核、かたさでリソスフェア・アセノスフェア。"
+    },
+    {
+      "slug": "eb-plate-motion",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-plate-motion.html",
+      "title": "【地学基礎・第2回】プレート速度は単位変換／8cm/年",
+      "thumb": [
+        "プレートの動き",
+        "速度 = 距離 ÷ 時間",
+        "8 cm/年"
+      ],
+      "hook": "プレートの速度は年に数cm。桁が違えば単位変換ミスです。",
+      "point": "km→cmは×10⁵、万年→年は×10⁴。境界は海嶺・海溝・断層の3種類。"
+    },
+    {
+      "slug": "eb-earthquake-distance",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-earthquake-distance.html",
+      "title": "【地学基礎・第3回】震源距離は時間差の式1本／128km",
+      "thumb": [
+        "地震の震源距離",
+        "d/v_S − d/v_P = t",
+        "128 km"
+      ],
+      "hook": "大森公式は暗記しなくても、時間差の式から作れます。",
+      "point": "d/v_S − d/v_P = t を解くだけ。震源距離 ≒ 時間差×8。"
+    },
+    {
+      "slug": "eb-volcano-rock",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-volcano-rock.html",
+      "title": "【地学基礎・第4回】火成岩はSiO₂の量だけ／玄武岩と流紋岩",
+      "thumb": [
+        "火山と火成岩",
+        "軸は SiO₂ の量",
+        "玄武岩 ⇄ 流紋岩"
+      ],
+      "hook": "火成岩の表は暗記不要。SiO₂の量1本で全部決まります。",
+      "point": "SiO₂少：黒・粘りけ小・平たい・玄武岩／多：白・粘りけ大・盛り上がる・流紋岩。"
+    },
+    {
+      "slug": "eb-strata-fossil",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-strata-fossil.html",
+      "title": "【地学基礎・第5回】新旧判定は3規則／岩脈と不整合の読み方",
+      "thumb": [
+        "地層と化石",
+        "下が古い / 切るものは新しい",
+        "不整合 = 時間の空白"
+      ],
+      "hook": "地層の新旧は3つの規則を順に当てるだけです。",
+      "point": "下が古い、貫くものは新しい、不整合は隆起・侵食の時間。"
+    },
+    {
+      "slug": "eb-atmosphere-radiation",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-atmosphere-radiation.html",
+      "title": "【地学基礎・第6回】大気は交互に上下／成層圏はオゾンで上昇",
+      "thumb": [
+        "大気の構造",
+        "下降 → 上昇 → 下降 → 上昇",
+        "成層圏 = オゾン"
+      ],
+      "hook": "大気4層の気温は交互に上下します。リズムで覚えます。",
+      "point": "対流圏・成層圏・中間圏・熱圏。成層圏の上昇はオゾンの紫外線吸収。"
+    },
+    {
+      "slug": "eb-weather-front",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-weather-front.html",
+      "title": "【地学基礎・第7回】前線は押し方で決まる／寒冷前線は積乱雲",
+      "thumb": [
+        "前線と天気",
+        "どちらが押すか",
+        "積乱雲 / 乱層雲"
+      ],
+      "hook": "前線は暗記ではなく、押し方の図から導けます。",
+      "point": "寒冷前線＝急な上昇＝積乱雲・強い雨・通過後は気温低下。"
+    },
+    {
+      "slug": "eb-ocean",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-ocean.html",
+      "title": "【地学基礎・第8回】海は3層＋熱の運搬／黒潮と親潮",
+      "thumb": [
+        "海水と海流",
+        "3層 + 熱の運搬",
+        "黒潮 / 親潮"
+      ],
+      "hook": "海は3層と「熱を運ぶ」という1つの役割で整理できます。",
+      "point": "表層混合層・水温躍層・深層。海流は低緯度の熱を高緯度へ運ぶ。"
+    },
+    {
+      "slug": "eb-sun-stars",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-sun-stars.html",
+      "title": "【地学基礎・第9回】黒点が黒い理由／核融合と恒星の進化",
+      "thumb": [
+        "太陽と恒星",
+        "水素の核融合",
+        "黒点 = 低温"
+      ],
+      "hook": "黒点は「暗い」のではなく「周囲より低温」なだけです。",
+      "point": "エネルギー源は水素の核融合。色は温度で決まり、進化は質量で決まる。"
+    },
+    {
+      "slug": "eb-disaster",
+      "playlist": "earth-basic",
+      "page": "subjects/earth-basic/lessons/eb-disaster.html",
+      "title": "【地学基礎・第10回】災害は原因・時間・範囲／緊急地震速報の仕組み",
+      "thumb": [
+        "自然災害",
+        "原因・時間・範囲",
+        "津波 / 火砕流"
+      ],
+      "hook": "災害の問題は、原因と時間と範囲の3点で整理できます。",
+      "point": "津波は海水全体が動く。火砕流は高温高速、火山灰は広範囲・長期間。"
+    },
+    {
+      "slug": "jh-ritsuryo",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-ritsuryo.html",
+      "title": "【日本史・第1回】古代は「土地と人を誰が握るか」の一本道",
+      "thumb": [
+        "律令国家の成立",
+        "土地と人を握る",
+        "戸籍 → 口分田 → 税"
+      ],
+      "hook": "古代の制度は、土地と人の支配権という軸1本で読めます。",
+      "point": "公地公民を実現する手段が戸籍・班田収授・租庸調。"
+    },
+    {
+      "slug": "jh-shoen",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-shoen.html",
+      "title": "【日本史・第2回】墾田永年私財法が原則を壊した／荘園の広がり",
+      "thumb": [
+        "荘園の成立",
+        "私有を認める",
+        "公地公民の崩壊"
+      ],
+      "hook": "墾田永年私財法は、国が自分の原則を壊した政策です。",
+      "point": "口分田不足→私有容認→公地公民の崩壊→寄進で荘園拡大。"
+    },
+    {
+      "slug": "jh-kamakura",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-kamakura.html",
+      "title": "【日本史・第3回】御恩と奉公は契約／土地が尽きれば壊れる",
+      "thumb": [
+        "鎌倉幕府",
+        "御恩 ⇄ 奉公",
+        "土地を介した契約"
+      ],
+      "hook": "御恩と奉公は契約です。だから土地が尽きると壊れます。",
+      "point": "御恩＝土地の保障・給与、奉公＝軍役。守護は国、地頭は荘園。"
+    },
+    {
+      "slug": "jh-mongol",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-mongol.html",
+      "title": "【日本史・第4回】防衛戦は御恩を生まない／徳政令の逆効果",
+      "thumb": [
+        "元寇と幕府の衰退",
+        "御恩が出せない",
+        "徳政令は逆効果"
+      ],
+      "hook": "幕府が倒れた理由は「報酬が払えなくなった」ことです。",
+      "point": "防衛戦は新たな所領を生まず、徳政令は信用を失わせた。"
+    },
+    {
+      "slug": "jh-muromachi",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-muromachi.html",
+      "title": "【日本史・第5回】勘合は身分証明／朝貢は利益大・体面小",
+      "thumb": [
+        "日明貿易",
+        "勘合 = 合札",
+        "朝貢の利点と代償"
+      ],
+      "hook": "勘合は身分証明書です。目的から覚えると忘れません。",
+      "point": "倭寇と使節の区別が勘合の目的。朝貢は利益大だが臣従の形。"
+    },
+    {
+      "slug": "jh-shokuho",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-shokuho.html",
+      "title": "【日本史・第6回】検地は土地、刀狩は身分／兵農分離の完成",
+      "thumb": [
+        "検地と刀狩",
+        "土地と身分を確定",
+        "兵農分離"
+      ],
+      "hook": "検地と刀狩は、何を確定させたかで区別します。",
+      "point": "検地＝石高で土地と耕作者を確定、刀狩＝武力を武士に独占。"
+    },
+    {
+      "slug": "jh-edo-control",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-edo-control.html",
+      "title": "【日本史・第7回】江戸の統制は3手／金・規則・地理",
+      "thumb": [
+        "江戸の大名統制",
+        "金・規則・地理",
+        "参勤交代の目的"
+      ],
+      "hook": "江戸の統制は戦わずに余力を奪う仕組みです。",
+      "point": "参勤交代（出費）・武家諸法度（規則）・配置（地理）の3手段。"
+    },
+    {
+      "slug": "jh-edo-reform",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-edo-reform.html",
+      "title": "【日本史・第8回】三大改革は同じ失敗／米か貨幣か",
+      "thumb": [
+        "江戸の三大改革",
+        "目的は財政再建",
+        "米中心 ⇄ 貨幣経済"
+      ],
+      "hook": "3つの改革は、同じ目的で同じ失敗をしています。",
+      "point": "目的は財政再建。貨幣経済の時代に米中心へ戻そうとして失敗。"
+    },
+    {
+      "slug": "jh-meiji",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-meiji.html",
+      "title": "【日本史・第9回】明治の政策は条約改正が動機／不平等の2点",
+      "thumb": [
+        "開国と明治維新",
+        "不平等は2点",
+        "条約改正が動機"
+      ],
+      "hook": "明治の政策は、条約改正という動機1本で束ねられます。",
+      "point": "領事裁判権と関税自主権。改正のために憲法・法典・殖産興業を進めた。"
+    },
+    {
+      "slug": "jh-postwar",
+      "playlist": "history-jp",
+      "page": "subjects/history-jp/lessons/jh-postwar.html",
+      "title": "【日本史・第10回】戦後改革は3つの解体／農村・経済・職場",
+      "thumb": [
+        "戦後改革",
+        "力の集中を解く",
+        "農村・経済・職場"
+      ],
+      "hook": "戦後改革は「力の集中を崩す」3点セットで読めます。",
+      "point": "農地改革・財閥解体・労働三法。共通の狙いは力の集中の解体。"
+    },
+    {
+      "slug": "wh-greece",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-greece.html",
+      "title": "【世界史・第1回】民主政は軍事で決まる／騎兵から漕ぎ手へ",
+      "thumb": [
+        "ギリシアの民主政",
+        "誰が戦うか",
+        "騎兵 → 歩兵 → 漕ぎ手"
+      ],
+      "hook": "民主政が広がった理由は、戦争の担い手が広がったからです。",
+      "point": "軍事の担い手が政治的発言力をもつ。参加は成年男性市民のみ。"
+    },
+    {
+      "slug": "wh-rome",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-rome.html",
+      "title": "【世界史・第2回】拡大が共和政を壊した／帝政への道",
+      "thumb": [
+        "ローマの拡大と帝政",
+        "拡大の副作用",
+        "農民没落 → 帝政"
+      ],
+      "hook": "ローマは拡大に成功したせいで共和政を失いました。",
+      "point": "安価な穀物と長期従軍で農民没落→兵制崩壊→私兵化→帝政。"
+    },
+    {
+      "slug": "wh-china-unify",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-china-unify.html",
+      "title": "【世界史・第3回】封建制か郡県制か／人事を握る者が支配する",
+      "thumb": [
+        "秦・漢の統治",
+        "土地か人か",
+        "郡県制 = 中央集権"
+      ],
+      "hook": "統治の本質は人事です。土地を与えると分裂します。",
+      "point": "封建制は分裂、郡県制は集権。人事を中央が握るのが官僚制の狙い。"
+    },
+    {
+      "slug": "wh-islam",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-islam.html",
+      "title": "【世界史・第4回】拡大を支えたのは税制／ジズヤとハラージュ",
+      "thumb": [
+        "イスラーム世界の拡大",
+        "税制で説明する",
+        "ジズヤ / ハラージュ"
+      ],
+      "hook": "拡大の理由を税制で説明できると、正誤問題が強くなります。",
+      "point": "ジズヤを納めれば信仰は保障。抵抗が小さく広域統治が可能に。"
+    },
+    {
+      "slug": "wh-medieval-europe",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-medieval-europe.html",
+      "title": "【世界史・第5回】封建制は双務契約／教会の力は破門",
+      "thumb": [
+        "中世ヨーロッパ",
+        "土地 と 信仰",
+        "双務契約 / 破門"
+      ],
+      "hook": "ヨーロッパの封建制は双務契約。日本との違いはここです。",
+      "point": "封土と軍役の双務的契約＋破門を握る教会の二重支配。"
+    },
+    {
+      "slug": "wh-age-of-discovery",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-age-of-discovery.html",
+      "title": "【世界史・第6回】銀が世界を変えた／価格革命と商業革命",
+      "thumb": [
+        "大航海時代",
+        "銀 → 物価上昇",
+        "領主没落 / 商人台頭"
+      ],
+      "hook": "大航海時代は「貨幣が増えると何が起こるか」の問題です。",
+      "point": "銀の流入→物価上昇→領主の没落と商人の台頭、交易は大西洋へ。"
+    },
+    {
+      "slug": "wh-revolution",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-revolution.html",
+      "title": "【世界史・第7回】革命の焦点は課税／同意なき課税の否定",
+      "thumb": [
+        "市民革命",
+        "焦点は課税",
+        "主権が王 → 国民"
+      ],
+      "hook": "市民革命は税の問題として読むと一気に筋が通ります。",
+      "point": "共通点は「法による権力の制限」と「同意なき課税の否定」。"
+    },
+    {
+      "slug": "wh-industrial",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-industrial.html",
+      "title": "【世界史・第8回】産業革命の条件は4つ／なぜイギリスか",
+      "thumb": [
+        "産業革命",
+        "資本・労働力・資源・市場",
+        "なぜイギリスか"
+      ],
+      "hook": "産業革命は4条件で判定します。だからイギリスが先でした。",
+      "point": "資本・労働力・資源・市場の4条件。働き方は時間管理の工場労働へ。"
+    },
+    {
+      "slug": "wh-imperialism",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-imperialism.html",
+      "title": "【世界史・第9回】総力戦が社会を変えた／女性参政権の背景",
+      "thumb": [
+        "帝国主義と大戦",
+        "総力戦 = 全部動員",
+        "権利拡大 / 国家統制"
+      ],
+      "hook": "女性参政権が広がった理由は、総力戦の動員にあります。",
+      "point": "植民地は原料・市場・投資先。総力戦→権利拡大と経済統制。"
+    },
+    {
+      "slug": "wh-cold-war",
+      "playlist": "history-world",
+      "page": "subjects/history-world/lessons/wh-cold-war.html",
+      "title": "【世界史・第10回】なぜ直接戦わないのか／冷戦の構造",
+      "thumb": [
+        "冷戦",
+        "核による相互抑止",
+        "代理戦争 / 軍拡"
+      ],
+      "hook": "冷戦は「なぜ直接戦わなかったのか」で構造がつかめます。",
+      "point": "核による相互抑止→代理戦争・軍拡競争・経済援助による陣営形成。"
+    },
+    {
+      "slug": "gg-map-projection",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-map-projection.html",
+      "title": "【地理・第1回】図法は目的で選ぶ／航空路は正距方位",
+      "thumb": [
+        "地図の図法",
+        "何が正しいか",
+        "航海 / 航空 / 分布"
+      ],
+      "hook": "地図はすべてを同時に正しく描けません。だから選び方が決まります。",
+      "point": "メルカトル＝角度、正距方位＝中心からの距離と方位、正積＝面積。"
+    },
+    {
+      "slug": "gg-time-difference",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-time-difference.html",
+      "title": "【地理・第2回】時差は経度差÷15／飛行時間つき計算の手順",
+      "thumb": [
+        "時差の計算",
+        "経度差 ÷ 15",
+        "東は進む / 西は遅れる"
+      ],
+      "hook": "時差は割り算1回。向きだけ気をつければ確実に取れます。",
+      "point": "時差＝経度差÷15。①飛行時間を足す ②時差で現地時刻に直す。"
+    },
+    {
+      "slug": "gg-landform",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-landform.html",
+      "title": "【地理・第3回】地形は侵食と堆積／扇状地と三角州の違い",
+      "thumb": [
+        "地形の形成",
+        "削る力 と 積む力",
+        "扇状地 ⇄ 三角州"
+      ],
+      "hook": "地形は削る力と積む力の勝負で決まります。",
+      "point": "上流は侵食（V字谷）、下流は堆積。粒の大きさが土地利用を決める。"
+    },
+    {
+      "slug": "gg-climate",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-climate.html",
+      "title": "【地理・第4回】雨温図は3手順／最寒月→乾燥→雨の降り方",
+      "thumb": [
+        "雨温図の判定",
+        "3手順で決める",
+        "最寒月 → 乾燥 → 雨"
+      ],
+      "hook": "雨温図は3手順で機械的に判定できます。",
+      "point": "①最寒月の気温で大区分 ②乾燥判定 ③雨の降り方で小区分。"
+    },
+    {
+      "slug": "gg-agriculture",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-agriculture.html",
+      "title": "【地理・第5回】農業は自然条件＋市場距離／地中海式と近郊農業",
+      "thumb": [
+        "農業の立地",
+        "自然条件 + 市場距離",
+        "オリーブ / 近郊野菜"
+      ],
+      "hook": "農業の立地は自然条件と市場距離の2軸で説明できます。",
+      "point": "夏の乾燥→樹木作物、冬の雨→小麦。傷みやすいものは市場の近く。"
+    },
+    {
+      "slug": "gg-industry-location",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-industry-location.html",
+      "title": "【地理・第6回】立地は輸送費で決まる／原料指向と市場指向",
+      "thumb": [
+        "工業の立地",
+        "輸送費を比べる",
+        "原料指向 / 市場指向"
+      ],
+      "hook": "工業の立地は輸送費の比較だけで判定できます。",
+      "point": "原料が重い→原料指向、製品が重い→市場指向。"
+    },
+    {
+      "slug": "gg-population",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-population.html",
+      "title": "【地理・第7回】ピラミッドの形で段階を読む／人口転換の順序",
+      "thumb": [
+        "人口ピラミッド",
+        "形で段階を読む",
+        "死亡率が先に下がる"
+      ],
+      "hook": "人口爆発が起きる理由は、死亡率が先に下がるからです。",
+      "point": "富士山型→つりがね型→つぼ型。死亡率が先、出生率が後に下がる。"
+    },
+    {
+      "slug": "gg-city",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-city.html",
+      "title": "【地理・第8回】都市は地価で決まる／ドーナツ化とスプロール",
+      "thumb": [
+        "都市の構造",
+        "軸は地価",
+        "ドーナツ化 / スプロール"
+      ],
+      "hook": "都市の問題は地価という軸1本で説明できます。",
+      "point": "地価が用途を決める→昼間人口が都心に集中。2語は場所で区別。"
+    },
+    {
+      "slug": "gg-energy",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-energy.html",
+      "title": "【地理・第9回】発電構成で国を当てる／自然条件と政策",
+      "thumb": [
+        "資源とエネルギー",
+        "自然条件 + 政策",
+        "水力 / 火力 / 原子力"
+      ],
+      "hook": "発電構成の統計は、自然条件と政策の2視点で読めます。",
+      "point": "水力＝地形と降水、火力＝資源と輸入、原子力＝政策の選択。"
+    },
+    {
+      "slug": "gg-trade-statistics",
+      "playlist": "geography",
+      "page": "subjects/geography/lessons/gg-trade-statistics.html",
+      "title": "【地理・第10回】輸出構成で国を読む／モノカルチャーの弱点",
+      "thumb": [
+        "貿易統計の読み取り",
+        "偏りを見る",
+        "モノカルチャー / 加工貿易"
+      ],
+      "hook": "輸出品の構成を見れば、その国の弱点まで読めます。",
+      "point": "1品目偏重＝モノカルチャー（価格変動に弱い）、工業製品中心＝加工貿易。"
+    },
+    {
+      "slug": "cv-constitution",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-constitution.html",
+      "title": "【政治・経済・第1回】憲法は権力を縛る法／改正が難しい理由",
+      "thumb": [
+        "日本国憲法の基本",
+        "権力を縛る法",
+        "3分の2 → 国民投票"
+      ],
+      "hook": "憲法は国民を縛る法ではありません。権力を縛る法です。",
+      "point": "三大原理＋改正は3分の2で発議・国民投票で過半数（硬性憲法）。"
+    },
+    {
+      "slug": "cv-human-rights",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-human-rights.html",
+      "title": "【政治・経済・第2回】自由権と社会権／方向で一瞬で分かる",
+      "thumb": [
+        "基本的人権",
+        "するな / せよ",
+        "自由権 ⇄ 社会権"
+      ],
+      "hook": "自由権と社会権は、国家に求める方向が正反対です。",
+      "point": "自由権＝不介入、社会権＝積極的保障。新しい人権は13条が根拠。"
+    },
+    {
+      "slug": "cv-separation-powers",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-separation-powers.html",
+      "title": "【政治・経済・第3回】議院内閣制と大統領制／関係図で比較",
+      "thumb": [
+        "議院内閣制",
+        "誰が誰を選ぶか",
+        "指名 ⇄ 不信任"
+      ],
+      "hook": "制度の違いは「誰が誰を選ぶか」で全部説明できます。",
+      "point": "国会が首相を指名→不信任と解散が対。大統領は国民が選ぶ。"
+    },
+    {
+      "slug": "cv-diet",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-diet.html",
+      "title": "【政治・経済・第4回】衆議院の優越／理由は任期と解散",
+      "thumb": [
+        "衆議院の優越",
+        "任期 と 解散",
+        "3分の2 で再可決"
+      ],
+      "hook": "衆議院が強い理由は、任期が短く解散があるからです。",
+      "point": "法律案は3分の2で再可決。予算30日・指名10日で衆議院優先。"
+    },
+    {
+      "slug": "cv-judiciary",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-judiciary.html",
+      "title": "【政治・経済・第5回】司法権の独立／多数決で決めないために",
+      "thumb": [
+        "司法権の独立",
+        "多数決で決めない",
+        "違憲審査 = 憲法の番人"
+      ],
+      "hook": "裁判所は、多数決で決めてはいけないことを守る機関です。",
+      "point": "職権の独立＋身分の保障→違憲審査で少数者の人権を守る。"
+    },
+    {
+      "slug": "cv-local-government",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-local-government.html",
+      "title": "【政治・経済・第6回】民主主義の学校／自主財源が自治を決める",
+      "thumb": [
+        "地方自治",
+        "制度 と お金",
+        "自主財源 = 自立"
+      ],
+      "hook": "自治の強さは、実はお金の構成で決まります。",
+      "point": "二元代表制＋直接請求。自主財源が少なければ国に依存する。"
+    },
+    {
+      "slug": "cv-market",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-market.html",
+      "title": "【政治・経済・第7回】需給は3手順／豊作で価格が下がる理由",
+      "thumb": [
+        "需要と供給",
+        "3手順で解く",
+        "供給が右 → 価格下落"
+      ],
+      "hook": "需給の問題は、曲線を1回動かすだけで終わります。",
+      "point": "①どちらが動くか②向き③交点。市場の失敗は公共財・外部不経済・独占。"
+    },
+    {
+      "slug": "cv-gdp",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-gdp.html",
+      "title": "【政治・経済・第8回】実質GDPの計算／名目8%増でも成長0%",
+      "thumb": [
+        "名目 と 実質 GDP",
+        "名目 ÷ デフレーター × 100",
+        "実質成長率 0 %"
+      ],
+      "hook": "名目で8%増えても、実質では0%成長ということがあります。",
+      "point": "実質GDP＝名目÷GDPデフレーター×100。成長率は増加分÷前年。"
+    },
+    {
+      "slug": "cv-monetary-policy",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-monetary-policy.html",
+      "title": "【政治・経済・第9回】金融政策は2択／資金量から物価まで4段で",
+      "thumb": [
+        "金融政策",
+        "増やす / 減らす",
+        "資金 → 金利 → 物価"
+      ],
+      "hook": "金融政策は2択。向きを間違えなければ必ず取れます。",
+      "point": "過熱→売りオペで引き締め、デフレ→買いオペで緩和。4段で説明。"
+    },
+    {
+      "slug": "cv-fiscal-welfare",
+      "playlist": "civics",
+      "page": "subjects/civics/lessons/cv-fiscal-welfare.html",
+      "title": "【政治・経済・第10回】累進課税と少子高齢化／負担と受給の図",
+      "thumb": [
+        "財政と社会保障",
+        "誰が負担し誰が受ける",
+        "累進課税 / 賦課方式"
+      ],
+      "hook": "財政と社会保障は、負担と受給の図1枚で読めます。",
+      "point": "財政3機能＋累進課税の再分配。少子高齢化は負担側を減らす。"
     }
   ]
 }
