@@ -3778,6 +3778,166 @@ SiO₂少：黒・粘りけ小・平たい・玄武岩／多：白・粘りけ�
 #地学基礎 #共通テスト #地学 #受験は要領
 ```
 
+### 【地学基礎・第11回】化石2種は重なりをとる／地質年代4区分
+
+- ファイル：`videos/eb-geologic-time.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-geologic-time.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-geologic-time.html
+
+```
+化石が2種類出たら、時代の重なりをとるだけです。
+先カンブリア・古生代・中生代・新生代。2種類なら共通部分が答え。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-geologic-time.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第12回】半減期は回数を数える／2億1000万年
+
+- ファイル：`videos/eb-radiometric-dating.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-radiometric-dating.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-radiometric-dating.html
+
+```
+半減期の計算は「何回半分になったか」を数えるだけです。
+残る割合 = (1/2)^n、年数 = 半減期 × n。減少分は残りに直す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-radiometric-dating.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第13回】堆積岩は材料で3分類／石灰岩とチャート
+
+- ファイル：`videos/eb-sedimentary-rock.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-sedimentary-rock.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-sedimentary-rock.html
+
+```
+堆積岩の名前は「材料はどこから来たか」で決まります。
+砕屑岩・生物岩・化学岩。石灰岩は塩酸で泡、チャートは無反応。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-sedimentary-rock.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第14回】断層は力の向きで決まる／正断層と逆断層
+
+- ファイル：`videos/eb-fault-types.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-fault-types.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-fault-types.html
+
+```
+断層の名前は、力の矢印を描けば自動的に決まります。
+引っ張り＝正断層、押し＝逆断層、水平のずれ＝横ずれ断層。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-fault-types.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第15回】地球の全周は比の式1本／約4万km
+
+- ファイル：`videos/eb-earth-size.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-earth-size.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earth-size.html
+
+```
+地球の全周は、比の式1本と検算「約4万km」で出せます。
+全周 = 距離 × 360 ÷ 角度差。緯度1度は約111 km。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-earth-size.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第16回】上昇は雨・下降は砂漠／偏西風と貿易風
+
+- ファイル：`videos/eb-global-circulation.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-global-circulation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-global-circulation.html
+
+```
+世界の砂漠が緯度30°に並ぶ理由は、下降気流ひとつです。
+上昇→雨、下降→乾燥。赤道は上昇、緯度30°は下降、日本上空は偏西風。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-global-circulation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第17回】湿度は割り算1回／露点と雲のでき方
+
+- ファイル：`videos/eb-humidity.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-humidity.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-humidity.html
+
+```
+湿度は割り算1回。分母が気温で決まるのが要点です。
+湿度 = 水蒸気量 ÷ 飽和水蒸気量 × 100。100 %になる温度が露点。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-humidity.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第18回】惑星は材料で2分類／土星は水より軽い
+
+- ファイル：`videos/eb-solar-system.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-solar-system.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-solar-system.html
+
+```
+土星は水より軽い。理由は材料がガスだからです。
+地球型＝岩石・小・密度大・衛星少／木星型＝ガス・大・密度小・衛星多。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-solar-system.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第19回】5等差で100倍／距離は逆2乗
+
+- ファイル：`videos/eb-star-magnitude.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-star-magnitude.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-star-magnitude.html
+
+```
+等級は差、距離は2乗。混ぜないだけで確実に解けます。
+5等差で100倍、1等差で約2.5倍。距離n倍で明るさ1/n^2。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-star-magnitude.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
+### 【地学基礎・第20回】オゾン層と温暖化は別問題／3点で区別
+
+- ファイル：`videos/eb-environment-issues.mp4`
+- サムネイル：`assets/youtube/thumbs/eb-environment-issues.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-environment-issues.html
+
+```
+オゾン層破壊と温暖化は、原因も場所も違う別の問題です。
+フロン→成層圏→紫外線増、CO2→対流圏→気温・海面上昇。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/earth-basic/lessons/eb-environment-issues.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#地学基礎 #共通テスト #地学 #受験は要領
+```
+
 ## 再生リスト：日本史｜因果で覚える共通テスト対策
 
 ### 【日本史・第1回】古代は「土地と人を誰が握るか」の一本道
