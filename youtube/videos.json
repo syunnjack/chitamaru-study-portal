@@ -3263,6 +3263,136 @@
       ],
       "hook": "財政と社会保障は、負担と受給の図1枚で読めます。",
       "point": "財政3機能＋累進課税の再分配。少子高齢化は負担側を減らす。"
+    },
+    {
+      "slug": "pb-free-fall-graph",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-free-fall-graph.html",
+      "title": "【物理基礎・第11回】投げ上げは最高点でv=0／t=2.5s・h≒31m",
+      "thumb": [
+        "投げ上げとv-tグラフ",
+        "最高点は v = 0",
+        "t=2.5s / h≒31m"
+      ],
+      "hook": "最高点で加速度もゼロにしてしまうミスを、今日でなくします。",
+      "point": "a = −g で固定、最高点は v = 0、グラフは傾き＝加速度・面積＝変位。"
+    },
+    {
+      "slug": "pb-apparent-weight",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-apparent-weight.html",
+      "title": "【物理基礎・第12回】体重計は垂直抗力を示す／550N・430N",
+      "thumb": [
+        "見かけの重さ",
+        "N − mg = ma",
+        "550N / 430N"
+      ],
+      "hook": "エレベーターで体重が変わる理由は、速度ではなく加速度です。",
+      "point": "体重計の値は N。N − mg = ma に a の符号を入れるだけ。"
+    },
+    {
+      "slug": "pb-work-power",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-work-power.html",
+      "title": "【物理基礎・第13回】仕事は移動方向の成分だけ／W=100J・P=25W",
+      "thumb": [
+        "仕事と仕事率",
+        "W = Fx cosθ",
+        "100J / 25W"
+      ],
+      "hook": "斜めに引くと仕事は減ります。効くのは移動方向の成分だけです。",
+      "point": "W = Fx cosθ、P = W/t。垂直な力の仕事は0、逆向きなら負。"
+    },
+    {
+      "slug": "pb-spring",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-spring.html",
+      "title": "【物理基礎・第14回】F=kxのxは伸び／k=98N/m・並列で3.0cm",
+      "thumb": [
+        "ばねのつり合い",
+        "F = kx（x は伸び）",
+        "k=98N/m / 3.0cm"
+      ],
+      "hook": "ばねの式に入れるのは全長ではなく伸びです。ここだけで点が変わります。",
+      "point": "kx = mg。並列は伸び半分（k が2倍）、直列は伸び2倍。"
+    },
+    {
+      "slug": "pb-pressure-buoyancy",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-pressure-buoyancy.html",
+      "title": "【物理基礎・第15回】圧力は深さ・浮力は体積／1.2×10⁵Pa・4.9N",
+      "thumb": [
+        "圧力と浮力",
+        "p=p₀+ρgh / F=ρVg",
+        "1.2×10⁵Pa / 4.9N"
+      ],
+      "hook": "浮力は重さで決まりません。押しのけた水の重さで決まります。",
+      "point": "p = p₀ + ρgh（深さのみ）、F = ρVg（水中部分の体積）。"
+    },
+    {
+      "slug": "pb-latent-heat",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-latent-heat.html",
+      "title": "【物理基礎・第16回】潜熱は温度が上がらない／合計2.1×10⁴J",
+      "thumb": [
+        "状態変化と潜熱",
+        "mcΔt と mL を足す",
+        "合計2.1×10⁴J"
+      ],
+      "hook": "氷が溶けている間、熱を入れても温度は上がりません。式が変わります。",
+      "point": "温度変化は Q = mcΔt、状態変化は Q = mL。区間ごとに足す。"
+    },
+    {
+      "slug": "pb-series-parallel",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-series-parallel.html",
+      "title": "【物理基礎・第17回】並列は積÷和／合成6.0Ω・電流2.0A",
+      "thumb": [
+        "合成抵抗",
+        "直列は足す / 並列は積÷和",
+        "6.0Ω / 2.0A"
+      ],
+      "hook": "回路はまとめる順番だけ。内側の並列から1本にします。",
+      "point": "並列は R₁R₂/(R₁+R₂)、直列は足す。並列は電圧共通、直列は電流共通。"
+    },
+    {
+      "slug": "pb-air-column",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-air-column.html",
+      "title": "【物理基礎・第18回】開管λ=2L・閉管λ=4L／340Hz・170Hz",
+      "thumb": [
+        "気柱の共鳴",
+        "開管 λ=2L / 閉管 λ=4L",
+        "340Hz / 170Hz"
+      ],
+      "hook": "同じ長さでも、閉管は開管の半分の振動数。理由は端の条件です。",
+      "point": "開管 λ = 2L、閉管 λ = 4L。閉じた端は節、開いた端は腹。"
+    },
+    {
+      "slug": "pb-transmission",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-transmission.html",
+      "title": "【物理基礎・第19回】高圧送電の理由／損失20kW→0.20kW",
+      "thumb": [
+        "送電と変圧",
+        "損失 = I²R",
+        "20kW → 0.20kW"
+      ],
+      "hook": "電圧を10倍にすると、送電の損失は100分の1になります。",
+      "point": "I = P/V を出してから P' = I²R。電圧 n 倍で損失 1/n²。"
+    },
+    {
+      "slug": "pb-radiation",
+      "playlist": "physics-basic",
+      "page": "subjects/physics-basic/lessons/pb-radiation.html",
+      "title": "【物理基礎・第20回】半減期は半分を何回／24日で1/8・32日で1/16",
+      "thumb": [
+        "放射線と半減期",
+        "N = N₀(1/2)ⁿ",
+        "1/8 / 32日後"
+      ],
+      "hook": "半減期は「半分になる時間」。何回分たったかを数えるだけです。",
+      "point": "n = 経過時間÷半減期、N = N₀(1/2)ⁿ。α＝He核、β＝電子、γ＝電磁波。"
     }
   ]
 }

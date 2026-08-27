@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>直列と並列の合成抵抗｜物理基礎 第17回</title>
+<meta name="description" content="直列は足す、並列は積÷和。内側の並列からまとめる順番で回路を1本にする型を解説。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第17回 直列と並列の合成抵抗（まとめる順番）</div>
+
+<main class="wrap">
+  <h1>第17回　直列と並列の合成抵抗（電流の分かれ方）</h1>
+  <div class="formula">6.0 Ωと3.0 Ωの抵抗を並列につなぎ、その組み合わせに4.0 Ωの抵抗を直列につないで12 Vの電池につないだ。全体の合成抵抗と、電池を流れる電流を求めよ。</div>
+  <p>複雑な回路も、内側の並列からまとめれば3行で終わります。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-series-parallel.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-series-parallel.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>内側の並列から。</strong>並列部分を1本の抵抗にまとめて回路を書き直します。</li>
+      <li><strong>2本の並列は積÷和。</strong>R = R₁R₂/(R₁+R₂) で、必ず小さい方の抵抗より小さくなります。</li>
+      <li><strong>最後に直列を足して V = RI。</strong>全体の電流はここで1回だけ求めます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>並列部分をまとめる</strong><div class="formula">R₁₂ = (6.0 × 3.0)/(6.0 + 3.0) = 18/9 = 2.0 Ω</div><p>積÷和が速い。</p></li>
+    <li><strong>直列で足す</strong><div class="formula">R = 2.0 + 4.0 = 6.0 Ω</div><p>並列をまとめてから足す。</p></li>
+    <li><strong>電流を出す</strong><div class="formula">I = V/R = 12/6.0 = 2.0 A</div><p>全体でオームの法則。</p></li>
+    <li><strong>分かれた電流も見る</strong><div class="formula">並列部分の電圧 = 2.0 × 2.0 = 4.0 V → 6.0 Ω に0.67 A、3.0 Ω に1.33 A</div><p>抵抗が小さい方に多く流れる。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>分かれた電流の和が2.0 A、電圧の和が8.0 + 4.0 = 12 V。どちらも電池の値と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>並列の答えが最小の抵抗より大きくなったら計算違いです。逆数の足し算を見直します。</li>
+      <li>並列は電圧が共通、直列は電流が共通。これを言えるようになれば、回路の設問は半分終わりです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>直列は足す、並列は積÷和。並列は電圧共通、直列は電流共通。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>4.0 Ωと4.0 Ωを並列にしたときの合成抵抗を求めよ。
+        <details><summary>答え</summary><p>R = 16/8 = 2.0 Ω</p></details>
+      </li>
+      <li>2.0 Ωと3.0 Ωを直列にして10 Vをかけたときの電流と2.0 Ωの電圧を求めよ。
+        <details><summary>答え</summary><p>I = 2.0 A、V = 4.0 V</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-latent-heat.html">← 第16回 状態変化と潜熱（区間で分ける）</a>　｜　<a href="pb-air-column.html">第18回 気柱の共鳴（開管と閉管） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

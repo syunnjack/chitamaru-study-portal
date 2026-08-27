@@ -2812,6 +2812,166 @@ P = VI、W = Pt。直列はP=I²R、並列はP=V²/Rで発熱が決まる。
 #物理基礎 #共通テスト #物理 #受験は要領
 ```
 
+### 【物理基礎・第11回】投げ上げは最高点でv=0／t=2.5s・h≒31m
+
+- ファイル：`videos/pb-free-fall-graph.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-free-fall-graph.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-free-fall-graph.html
+
+```
+最高点で加速度もゼロにしてしまうミスを、今日でなくします。
+a = −g で固定、最高点は v = 0、グラフは傾き＝加速度・面積＝変位。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-free-fall-graph.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第12回】体重計は垂直抗力を示す／550N・430N
+
+- ファイル：`videos/pb-apparent-weight.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-apparent-weight.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-apparent-weight.html
+
+```
+エレベーターで体重が変わる理由は、速度ではなく加速度です。
+体重計の値は N。N − mg = ma に a の符号を入れるだけ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-apparent-weight.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第13回】仕事は移動方向の成分だけ／W=100J・P=25W
+
+- ファイル：`videos/pb-work-power.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-work-power.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-work-power.html
+
+```
+斜めに引くと仕事は減ります。効くのは移動方向の成分だけです。
+W = Fx cosθ、P = W/t。垂直な力の仕事は0、逆向きなら負。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-work-power.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第14回】F=kxのxは伸び／k=98N/m・並列で3.0cm
+
+- ファイル：`videos/pb-spring.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-spring.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-spring.html
+
+```
+ばねの式に入れるのは全長ではなく伸びです。ここだけで点が変わります。
+kx = mg。並列は伸び半分（k が2倍）、直列は伸び2倍。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-spring.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第15回】圧力は深さ・浮力は体積／1.2×10⁵Pa・4.9N
+
+- ファイル：`videos/pb-pressure-buoyancy.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-pressure-buoyancy.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-pressure-buoyancy.html
+
+```
+浮力は重さで決まりません。押しのけた水の重さで決まります。
+p = p₀ + ρgh（深さのみ）、F = ρVg（水中部分の体積）。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-pressure-buoyancy.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第16回】潜熱は温度が上がらない／合計2.1×10⁴J
+
+- ファイル：`videos/pb-latent-heat.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-latent-heat.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-latent-heat.html
+
+```
+氷が溶けている間、熱を入れても温度は上がりません。式が変わります。
+温度変化は Q = mcΔt、状態変化は Q = mL。区間ごとに足す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-latent-heat.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第17回】並列は積÷和／合成6.0Ω・電流2.0A
+
+- ファイル：`videos/pb-series-parallel.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-series-parallel.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-series-parallel.html
+
+```
+回路はまとめる順番だけ。内側の並列から1本にします。
+並列は R₁R₂/(R₁+R₂)、直列は足す。並列は電圧共通、直列は電流共通。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-series-parallel.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第18回】開管λ=2L・閉管λ=4L／340Hz・170Hz
+
+- ファイル：`videos/pb-air-column.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-air-column.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-air-column.html
+
+```
+同じ長さでも、閉管は開管の半分の振動数。理由は端の条件です。
+開管 λ = 2L、閉管 λ = 4L。閉じた端は節、開いた端は腹。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-air-column.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第19回】高圧送電の理由／損失20kW→0.20kW
+
+- ファイル：`videos/pb-transmission.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-transmission.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-transmission.html
+
+```
+電圧を10倍にすると、送電の損失は100分の1になります。
+I = P/V を出してから P' = I²R。電圧 n 倍で損失 1/n²。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-transmission.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
+### 【物理基礎・第20回】半減期は半分を何回／24日で1/8・32日で1/16
+
+- ファイル：`videos/pb-radiation.mp4`
+- サムネイル：`assets/youtube/thumbs/pb-radiation.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-radiation.html
+
+```
+半減期は「半分になる時間」。何回分たったかを数えるだけです。
+n = 経過時間÷半減期、N = N₀(1/2)ⁿ。α＝He核、β＝電子、γ＝電磁波。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/physics-basic/lessons/pb-radiation.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#物理基礎 #共通テスト #物理 #受験は要領
+```
+
 ## 再生リスト：化学基礎｜molの計算を型にする
 
 ### 【化学基礎・第1回】原子は3つの関係だけ／陽子17・中性子20・電子18

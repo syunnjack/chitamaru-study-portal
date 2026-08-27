@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>状態変化と潜熱｜物理基礎 第16回</title>
+<meta name="description" content="加熱の問題は温度変化 mcΔt と状態変化 mL に区間を分けて足すだけ。加熱曲線の水平部分を読む型を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第16回 状態変化と潜熱（区間で分ける）</div>
+
+<main class="wrap">
+  <h1>第16回　状態変化と潜熱（温度が上がらない区間）</h1>
+  <div class="formula">0 ℃の氷50 gをすべて0 ℃の水にするのに必要な熱量を求めよ。さらにその水を20 ℃まで上げるのに必要な熱量を求め、合計を答えよ（氷の融解熱336 J/g、水の比熱4.2 J/(g·K)）。</div>
+  <p>加熱曲線の水平な部分だけ、式が違います。区間で分けて足します。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-latent-heat.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-latent-heat.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>区間で分ける。</strong>温度変化の区間と状態変化の区間を分け、それぞれの熱量を足します。</li>
+      <li><strong>状態変化中は温度一定。</strong>グラフの水平部分では Q = mL を使い、Δt は使いません。</li>
+      <li><strong>単位をそろえる。</strong>融解熱は J/g、比熱は J/(g·K)。質量はgのままでよいか確認します。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>融解の熱量</strong><div class="formula">Q₁ = mL = 50 × 336 = 16800 J</div><p>温度は0 ℃のまま。</p></li>
+    <li><strong>加熱の熱量</strong><div class="formula">Q₂ = mcΔt = 50 × 4.2 × 20 = 4200 J</div><p>水になってから温度が上がる。</p></li>
+    <li><strong>合計を出す</strong><div class="formula">Q = 16800 + 4200 = 21000 J = 2.1×10⁴ J</div><p>区間ごとに足すだけ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">Q₁ = 1.68×10⁴ J、Q₂ = 4.2×10³ J、合計 2.1×10⁴ J</div><p>潜熱の方が大きい。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>融解熱336 J/g は水を80 ℃上げる分に相当。今回は20 ℃なので融解が4倍大きく、16800 = 4200 × 4 と整合します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>−10 ℃の氷からなら、氷の比熱で0 ℃まで上げる区間が最初に加わります。区間の数を先に数えます。</li>
+      <li>潜熱の区間で温度が上がらないのは、熱が結合を切る仕事に使われるためです。エネルギーは保存しています。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>温度変化は mcΔt、状態変化は mL。区間で分けて足す。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>100 ℃の水30 gをすべて水蒸気にする熱量を求めよ（蒸発熱2260 J/g）。
+        <details><summary>答え</summary><p>Q = 30×2260 = 67800 J</p></details>
+      </li>
+      <li>氷の比熱2.1 J/(g·K)のとき、−20 ℃の氷100 gを0 ℃にする熱量を求めよ。
+        <details><summary>答え</summary><p>Q = 100×2.1×20 = 4200 J</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-pressure-buoyancy.html">← 第15回 圧力と浮力（深さと体積）</a>　｜　<a href="pb-series-parallel.html">第17回 直列と並列の合成抵抗（まとめる順番） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

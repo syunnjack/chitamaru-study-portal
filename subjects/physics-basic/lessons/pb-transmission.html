@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>送電と変圧｜物理基礎 第19回</title>
+<meta name="description" content="送電の損失は P' = I²R。電圧を上げて電流を下げれば損失は2乗で減る、という型を解説します。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../math-exam/index.html">高校受験数学</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第19回 送電と変圧（損失は電流の2乗）</div>
+
+<main class="wrap">
+  <h1>第19回　送電と変圧（電圧を上げると損失が減る）</h1>
+  <div class="formula">発電所から100 kWの電力を送電する。送電線の抵抗が2.0 Ωのとき、送電電圧が1.0×10³ Vの場合と1.0×10⁴ Vの場合で、送電線で失われる電力を比べよ。</div>
+  <p>高圧で送電する理由は、この2行で説明できます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-transmission.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-transmission.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>まず電流。</strong>I = P/V。送る電力が同じなら、電圧を上げるほど電流は小さくなります。</li>
+      <li><strong>損失は I²R。</strong>使う電圧は「送電線での電圧降下」で、送電電圧そのものではありません。</li>
+      <li><strong>比で考える。</strong>電圧 n 倍 → 電流 1/n → 損失 1/n²。計算前に結論を予想できます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>低い電圧のときの電流</strong><div class="formula">I = P/V = 1.0×10⁵ / 1.0×10³ = 100 A</div><p>kWをWに直す。</p></li>
+    <li><strong>損失を出す</strong><div class="formula">P' = I²R = 100² × 2.0 = 2.0×10⁴ W（20 kW）</div><p>送る電力の20 %。</p></li>
+    <li><strong>高い電圧のときの電流</strong><div class="formula">I = 1.0×10⁵ / 1.0×10⁴ = 10 A</div><p>電圧10倍で電流1/10。</p></li>
+    <li><strong>損失を比べる</strong><div class="formula">P' = 10² × 2.0 = 2.0×10² W（0.20 kW）＝1/100</div><p>損失は1/100に減る。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>損失は I² に比例。電流1/10なら損失1/100で、20 kW → 0.20 kW と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>損失の計算に送電電圧 V を使うのは誤りです。P' = I²R、あるいは電圧降下 IR を使います。</li>
+      <li>変圧器では V₁I₁ ≒ V₂I₂。電圧を上げれば電流が下がり、その分だけ損失が減ります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>送電は I = P/V → 損失 I²R。電圧 n 倍で損失 1/n²。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>50 kWを500 Vで送るとき、抵抗1.0 Ωの送電線での損失を求めよ。
+        <details><summary>答え</summary><p>I = 100 A、P' = 1.0×10⁴ W</p></details>
+      </li>
+      <li>送電電圧を5倍にしたとき、損失は何倍になるか。
+        <details><summary>答え</summary><p>1/25倍</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-air-column.html">← 第18回 気柱の共鳴（開管と閉管）</a>　｜　<a href="pb-radiation.html">第20回 放射線と半減期（半分を何回） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
