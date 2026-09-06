@@ -1,0 +1,215 @@
+{
+  "title": "自由英作文（型に流し込む）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次のテーマについて、五十語程度の英語で書きます。テーマは、ウィッチ ドゥ ユー プリファー、スタディング アローン オア スタディング ウィズ フレンズ。1人で勉強するのと友達と勉強するの、どちらが好きですか。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "テーマ：Which do you prefer, studying alone or studying with friends?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "五十語程度で書く。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "型に流し込む。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。自由英作文は内容の勝負ではありません。型に流し込む作業です。4文で組みます。1文目で主張、2文目で理由、3文目で具体例、4文目でまとめ。書き出しも固定します。アイ プリファー 何々 ビコーズ。そして難しいことは書かない。正確な易しい英語が最も点になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "型：主張 → 理由1 → 具体例 → まとめ（4文）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "書き出しを固定する：I prefer ... because ...",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "難しいことを書かない。書ける英語で正確に",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1文目、主張です。アイ プリファー スタディング アローン。テーマの語をそのまま使えば、文法ミスの危険が減ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：① 主張",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I prefer studying alone.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "テーマの語をそのまま使う。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：① 主張"
+    },
+    {
+      "narration": "2文目、理由です。アイ キャン ディサイド ホワット トゥ スタディ アンド ホエン トゥ テイク ア ブレイク。理由は1つに絞ります。2つ書くと字数が足りません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：② 理由",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I can decide what to study and when to take a break.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "理由は1つに絞る。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：② 理由"
+    },
+    {
+      "narration": "3文目、具体例です。フォー イグザンプル、ラスト マンス アイ スタディド マス フォー トゥー アワーズ エブリ モーニング。数字を入れると具体的になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：③ 具体例",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "For example, last month I studied math for two hours every morning.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "具体例で厚みを出す。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：③ 具体例"
+    },
+    {
+      "narration": "4文目、まとめです。ソー スタディング アローン ワークス ベター フォー ミー。主張に戻って閉じます。全体で45から50語になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：④ まとめ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "So studying alone works better for me.（合計約45〜50語）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主張に戻る。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：④ まとめ"
+    },
+    {
+      "narration": "検算です。語数を数えます。五十語程度なら45から55語。次に、3単現のエス、時制、冠詞を確認します。この3つが自由英作文の減点の大半です。最後に、主張と結論が同じ側になっているかを見ます。途中で立場が変わっていたら大きな減点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "語数（50語程度なら45〜55語）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3単現のs・時制・冠詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主張と結論が同じ側か",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、使い回せる表現を5つ用意しておくこと。フォー イグザンプル、ジス イズ ビコーズ、イン マイ オピニオン、オン ジ アザー ハンド、ソー アイ シンク。これで文と文がつながります。ふたつ目、内容の良さで点は上がりません。文法の正確さと構成で決まります。安全な英語で書き切ることが最短の得点法です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "つなぎ表現5つ：for example / this is because / in my opinion / on the other hand / so I think",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "内容より文法の正確さと構成で点が決まる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。自由英作文は4文、主張、理由、具体例、まとめ。書ける英語で正確に。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "自由英作文は4文（主張・理由・具体例・まとめ）。書ける英語で正確に。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：自由英作文の4文構成を答えよ。 → 主張・理由・具体例・まとめ",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

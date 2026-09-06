@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>群数列の規則性｜私立難関 数学 第10回</title>
+<meta name="description" content="同じ数のまとまりを群と見て、累積k(k+1)/2で第100項と和を出す型。2乗の和の公式まで。東海・滝・南山女子など私立難関高校入試対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">私立難関 数学</a> ／ 第10回 規則性（群と累積）</div>
+
+<main class="wrap">
+  <h1>第10回　規則性（群に分けて累積で当てる）</h1>
+  <div class="formula">次のように数が並んでいる。1, 2, 2, 3, 3, 3, 4, 4, 4, 4, 5, … (1) 第100項の数を求めよ。(2) 第1項から第100項までの和を求めよ。</div>
+  <p>規則性は、群に分けて累積を作れば必ず解けます。</p>
+
+  <video controls preload="metadata" src="../../../videos/sm-sequence-group.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/sm-sequence-group.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>群に分ける。</strong>第 k 群には k が k 個並びます。</li>
+      <li><strong>累積の式を作る。</strong>第 k 群の最後は k(k+1)/2 番目。</li>
+      <li><strong>またぐ群を探す。</strong>累積が 100 を初めて超える k を見つけます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>累積を計算する</strong><div class="formula">k=13：13·14/2 = 91、k=14：14·15/2 = 105</div><p>100 は14群の中。</p></li>
+    <li><strong>(1) 第100項</strong><div class="formula">第14群には14が並ぶ → 第100項は 14</div><p>答え14。</p></li>
+    <li><strong>(2) 13群までの和</strong><div class="formula">Σk·k = Σk² = 13·14·27/6 = 819</div><p>2乗の和の公式。</p></li>
+    <li><strong>(2) 残りを足す</strong><div class="formula">100 − 91 = 9 個の14 → 126、合計 819 + 126 = 945</div><p>答え945。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>100 項の平均は 9〜10 程度なので和は 900〜1000。945 は妥当な範囲です。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>2 乗の和は k(k+1)(2k+1)/6。群数列で速さが変わります。</li>
+      <li>規則性の問題は、式を立てる前に最初の数項を必ず書き出します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>第k群にはkがk個。第k群の最後はk(k+1)/2番目。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1+2+…+20 を求めよ。
+        <details><summary>答え</summary><p>210</p></details>
+      </li>
+      <li>1²+2²+…+10² を求めよ。
+        <details><summary>答え</summary><p>385</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sm-max-area.html">← 第9回 面積最大の点（平行な接線）</a>　｜　<a href="../index.html">私立難関 数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

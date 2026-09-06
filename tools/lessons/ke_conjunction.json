@@ -1,0 +1,220 @@
+{
+  "title": "接続詞と間接疑問（文をつなぐと語順が戻る）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の空所に適する語または語順を入れます。1、かっこ、イットレインズトゥモロウ、ウィーウィルステイホウム。2、アイシンク、かっこ、ジスムービーイズインタレスティング。3、ドゥーユーノウ、かっこ、ヒーリブズ。どこに住んでいるか、という意味です。4、アイドントノウ、かっこ、シーウィルカム。来るかどうか、という意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) (   ) it rains tomorrow, we will stay home.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) I think (   ) this movie is interesting.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) Do you know (   ) he lives?（どこに住んでいるか）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(4) I don't know (   ) she will come.（来るかどうか）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。ホウェンやイフで始まるかたまりの中は、未来のことでも現在形にします。イフイットレインズトゥモロウ、ウィルは入れません。ザットはということ、省略できます。そして間接疑問。文の中に疑問文が入ると語順が戻り、疑問詞、主語、動詞の順になります。かどうかならイフまたはホウェザーです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "when / if の中は未来のことでも現在形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "that は「〜ということ」。省略できる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "間接疑問は「疑問詞 + 主語 + 動詞」に戻る／〜かどうかは if / whether",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。もし明日雨が降ったらなのでイフ。トゥモロウがあってもイフの中は現在形レインズです。主節のウィルステイは未来のままでよい、ここが対比になっています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 条件のif",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If it rains tomorrow, we will stay home.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "中は現在形。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 条件のif"
+    },
+    {
+      "narration": "2です。思うという動詞の後ろなのでザット。ということ、という意味で、会話では省略されることが多いです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) that節",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I think (that) this movie is interesting.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "省略可。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) that節"
+    },
+    {
+      "narration": "3です。どこにという疑問詞ホウェアのあとが、主語ヒー、動詞リブズの順に戻ります。ホウェアダズヒーリブとは書きません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) 間接疑問",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Do you know where he lives?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "疑問詞＋主語＋動詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) 間接疑問"
+    },
+    {
+      "narration": "4です。かどうかはイフまたはホウェザー。ここは条件ではなく名詞のはたらきなので、中にウィルを入れてかまいません。アイドントノウイフシーウィルカム。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(4) 〜かどうか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I don't know if (whether) she will come.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "if＝かどうか。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(4) 〜かどうか"
+    },
+    {
+      "narration": "検算です。イフの使い分けを確認します。もし〜ならの条件なら中は現在形、〜かどうかの意味なら中にウィルを入れてよい。イフが2つの意味を持つことを知っていれば、この違いで迷いません。そして間接疑問は疑問詞の後ろがダズやディドになっていないかを見ます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "条件のif → 中は現在形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜かどうか」のif → will も可",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "間接疑問に does/did が残っていないか",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、時と条件を表す接続詞の仲間です。ホウェン、イフ、ビフォー、アフター、アンティル、アズスーンアズ。どれも中は現在形です。アズスーンアズアイアライブ、アイウィルコールユー。ふたつ目、ソーとビコーズの向きです。ビコーズのあとは理由、ソーのあとは結果。イットワズコールド、ソーアイステイドホウム。順番を逆にしないことです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "when / if / before / after / until / as soon as の中は現在形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "because のあとは理由、so のあとは結果",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ホウェンやイフの中は現在形。間接疑問は疑問詞、主語、動詞の順に戻る。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "when/ifの中は現在形。間接疑問は疑問詞＋主語＋動詞に戻る。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「明日晴れたら、私たちはテニスをします」を英語にせよ。 → If it is sunny tomorrow, we will play tennis.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

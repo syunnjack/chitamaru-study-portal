@@ -4345,6 +4345,396 @@
       ],
       "hook": "英作文で満点を取るのは、難しいことを書かない人です。",
       "point": "結論→becauseで理由の2文型。見直しは主語・動詞・s・時制。"
+    },
+    {
+      "slug": "sm-symmetric",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-symmetric.html",
+      "title": "【私立難関・数学 第1回】対称式は解かない／和と積の3公式で押し切る",
+      "thumb": [
+        "対称式の値",
+        "解を求めない",
+        "和と積だけ"
+      ],
+      "hook": "対称式で x と y を求め始めた時点で、時間が足りなくなります。",
+      "point": "(x+y)²−2xy、(x+y)³−3xy(x+y)、(x+y)²−4xy の3本。"
+    },
+    {
+      "slug": "sm-parabola-line",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-parabola-line.html",
+      "title": "【私立難関・数学 第2回】面積は y 切片で切る／(1/2)×切片×xの差",
+      "thumb": [
+        "放物線と直線",
+        "y軸で切る",
+        "面積15"
+      ],
+      "hook": "原点を含む三角形の面積は、y 軸で切れば1行で出ます。",
+      "point": "交点を連立で出す→y切片で切る→(1/2)×切片×(xの差)。"
+    },
+    {
+      "slug": "sm-ratio-area",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-ratio-area.html",
+      "title": "【私立難関・数学 第3回】面積比は2段階／相似比→線分比→面積比",
+      "thumb": [
+        "平行四辺形の面積比",
+        "相似で線分比",
+        "S/24"
+      ],
+      "hook": "面積比の問題は、線分比をかけ算でつなぐだけです。",
+      "point": "平行線→相似で線分比→高さ共通で面積比→2段階で降りる。"
+    },
+    {
+      "slug": "sm-circle-angle",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-circle-angle.html",
+      "title": "【私立難関・数学 第4回】円の角度は3定理だけ／どの弧かを口に出す",
+      "thumb": [
+        "円と角の3定理",
+        "同じ弧＝同じ角",
+        "対角の和180°"
+      ],
+      "hook": "円の角度問題で迷うのは、どの弧に対する角かを言っていないからです。",
+      "point": "同じ弧の円周角は等しい／内接四角形の対角の和180°／中心角は2倍。"
+    },
+    {
+      "slug": "sm-cube-cut",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-cube-cut.html",
+      "title": "【私立難関・数学 第5回】立方体の切断は平面に直す／正三角形の面積公式",
+      "thumb": [
+        "立方体の切断",
+        "対角線＝辺×√2",
+        "18√3 と 36"
+      ],
+      "hook": "空間図形が苦手なのは、立体のまま考えているからです。",
+      "point": "面を1枚取り出す→対角線は辺×√2→体積は(1/3)Sh。"
+    },
+    {
+      "slug": "sm-probability",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-probability.html",
+      "title": "【私立難関・数学 第6回】4の倍数は素因数で数える／余事象の使いどころ",
+      "thumb": [
+        "さいころの確率",
+        "素因数で数える",
+        "5/12"
+      ],
+      "hook": "確率で差がつくのは公式ではなく、数え方の設計です。",
+      "point": "全体36通り→条件を素因数に言いかえ→表で数える→余事象。"
+    },
+    {
+      "slug": "sm-integer-sqrt",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-integer-sqrt.html",
+      "title": "【私立難関・数学 第7回】整数は積の形にする／√(n²+45)が整数になるn",
+      "thumb": [
+        "平方数になる整数",
+        "積の形にする",
+        "n=2, 6, 22"
+      ],
+      "hook": "整数問題は、積の形にできた時点でほぼ終わっています。",
+      "point": "= m² とおく→積の形→約数の組を全部書く→偶奇を確認。"
+    },
+    {
+      "slug": "sm-salt-exchange",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-salt-exchange.html",
+      "title": "【私立難関・数学 第8回】食塩水は濃度を追わない／食塩の量だけ追う",
+      "thumb": [
+        "食塩水の移しかえ",
+        "食塩だけ追う",
+        "x = 60 g"
+      ],
+      "hook": "食塩水で混乱する原因は、濃度を追いかけていることです。",
+      "point": "食塩の量だけ追う→移す液の濃度×量→最終状態で方程式。"
+    },
+    {
+      "slug": "sm-max-area",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-max-area.html",
+      "title": "【私立難関・数学 第9回】面積最大は平行な接線の接点／切片の差で出す",
+      "thumb": [
+        "面積最大の点",
+        "平行な接線",
+        "27/2"
+      ],
+      "hook": "面積の最大値は、平行線をずらして接する位置を探すだけです。",
+      "point": "直線ABを出す→平行な接線を探す→切片の差で面積。"
+    },
+    {
+      "slug": "sm-sequence-group",
+      "playlist": "shiritsu-math",
+      "page": "subjects/shiritsu-math/lessons/sm-sequence-group.html",
+      "title": "【私立難関・数学 第10回】群数列は累積で当てる／第100項と和",
+      "thumb": [
+        "群数列の規則性",
+        "累積k(k+1)/2",
+        "14 と 945"
+      ],
+      "hook": "規則性の問題は、群に分けた瞬間に見通しがつきます。",
+      "point": "第k群にk個→累積k(k+1)/2→またぐ群を探す。"
+    },
+    {
+      "slug": "sj-kijutsu-sekkei",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-kijutsu-sekkei.html",
+      "title": "【私立難関・国語 第1回】記述は設計してから書く／字数÷25が要素数",
+      "thumb": [
+        "記述の設計",
+        "字数÷25",
+        "文末を固定"
+      ],
+      "hook": "記述で崩れる原因は、設計せずに書き始めることです。",
+      "point": "字数÷25で要素数→文末を固定→箇条書きにしてから書く。"
+    },
+    {
+      "slug": "sj-iikae",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-iikae.html",
+      "title": "【私立難関・国語 第2回】比喩は答案に残さない／具体語への置きかえ方",
+      "thumb": [
+        "傍線部の言いかえ",
+        "比喩を消す",
+        "「ということ」"
+      ],
+      "hook": "比喩をそのまま答案に書くと、0点になります。",
+      "point": "たとえの語を消す→本文の具体語に置きかえ→「ということ」で結ぶ。"
+    },
+    {
+      "slug": "sj-taihi",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-taihi.html",
+      "title": "【私立難関・国語 第3回】対比は表にする／「ただ」の後ろが筆者の立場",
+      "thumb": [
+        "対比の整理",
+        "2列の表",
+        "「ただ」の後ろ"
+      ],
+      "hook": "対比を頭の中で整理しようとすると、必ず取り違えます。",
+      "point": "2列の表にする→観点をそろえる→「ただ」の後ろで立場を判定。"
+    },
+    {
+      "slug": "sj-jouho",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-jouho.html",
+      "title": "【私立難関・国語 第4回】「もちろん」は主張ではない／譲歩の見抜き方",
+      "thumb": [
+        "譲歩と主張",
+        "もちろん＝譲歩",
+        "しかしで戻る"
+      ],
+      "hook": "「もちろん」を筆者の主張だと思って読むと、全部逆になります。",
+      "point": "譲歩の合図を探す→「しかし」の後ろが主張→最後の一文が結論。"
+    },
+    {
+      "slug": "sj-shinjou-henka",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-shinjou-henka.html",
+      "title": "【私立難関・国語 第5回】変化は前後を両方書く／文型に入れるだけ",
+      "thumb": [
+        "心情の変化",
+        "前・きっかけ・後",
+        "逆接を入れる"
+      ],
+      "hook": "変化の記述で後だけ書くと、半分しか点が来ません。",
+      "point": "前・きっかけ・後の3要素を、逆接でつないで書く。"
+    },
+    {
+      "slug": "sj-zuihitsu",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-zuihitsu.html",
+      "title": "【私立難関・国語 第6回】随筆は事実と感想を分ける／主題は感想の最後",
+      "thumb": [
+        "随筆の読み方",
+        "事実と感想",
+        "文末で分ける"
+      ],
+      "hook": "随筆で事実を要約しても、それは要旨ではありません。",
+      "point": "文末で事実と感想に分ける→感想の最後に主題がある。"
+    },
+    {
+      "slug": "sj-goi-suisoku",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-goi-suisoku.html",
+      "title": "【私立難関・国語 第7回】知らない語は推測できる／漢字と方向で決める",
+      "thumb": [
+        "難語の推測",
+        "漢字に分解",
+        "良い/悪いの方向"
+      ],
+      "hook": "知らない語に出会ったとき、止まるか推測するかで差がつきます。",
+      "point": "漢字に分解→良い悪いの方向→具体例で確定→文に戻して確認。"
+    },
+    {
+      "slug": "sj-kobun-shugo",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-kobun-shugo.html",
+      "title": "【私立難関・国語 第8回】古文の主語は敬語で決まる／「て」は主語が変わらない",
+      "thumb": [
+        "古文の主語判定",
+        "敬語で決める",
+        "「て」は継続"
+      ],
+      "hook": "古文が読めない原因は、単語ではなく主語の省略です。",
+      "point": "尊敬語→高い人、謙譲語→低い人。「て」は継続、「を・に・ば」で交替。"
+    },
+    {
+      "slug": "sj-shi-tanka",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-shi-tanka.html",
+      "title": "【私立難関・国語 第9回】技法は6つ覚えれば足りる／効果まで書けると差がつく",
+      "thumb": [
+        "詩と短歌の技法",
+        "技法は6つ",
+        "効果まで書く"
+      ],
+      "hook": "詩と短歌は、技法に名前をつけられるかどうかの問題です。",
+      "point": "技法6つを覚える→句切れは意味の切れ目→心情は風景の選び方。"
+    },
+    {
+      "slug": "sj-hyaku-ji",
+      "playlist": "shiritsu-japanese",
+      "page": "subjects/shiritsu-japanese/lessons/sj-hyaku-ji.html",
+      "title": "【私立難関・国語 第10回】百字記述は4要素／順序を固定して書き切る",
+      "thumb": [
+        "百字記述",
+        "4要素で組む",
+        "順序を固定"
+      ],
+      "hook": "百字記述は、要素を4つ並べる作業に落とせます。",
+      "point": "100字＝4要素。前提→変化→失われるもの→評価の順。"
+    },
+    {
+      "slug": "se-scan",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-scan.html",
+      "title": "【私立難関・英語 第1回】長文は全部訳さない／設問を先に読む",
+      "thumb": [
+        "長文の設問処理",
+        "設問を先に読む",
+        "探す語を決める"
+      ],
+      "hook": "長文を全部訳す読み方では、最後の設問まで届きません。",
+      "point": "設問を先に読む→探す語を決める→合図の近くを精読→設問の形で答える。"
+    },
+    {
+      "slug": "se-shiji",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-shiji.html",
+      "title": "【私立難関・英語 第2回】指示語は代入で決める／範囲は2種類だけ",
+      "thumb": [
+        "指示語の内容",
+        "直前を探す",
+        "代入で確認"
+      ],
+      "hook": "指示語の設問で迷うのは、代入して確認していないからです。",
+      "point": "直前を見る→名詞のかたまりか文内容か→代入して確認。"
+    },
+    {
+      "slug": "se-seiretsu",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-seiretsu.html",
+      "title": "【私立難関・英語 第3回】整序は動詞から／形式主語と間接疑問が頻出",
+      "thumb": [
+        "整序英作文",
+        "動詞から組む",
+        "頻出5形"
+      ],
+      "hook": "整序を左から並べていくと、必ず途中で詰まります。",
+      "point": "動詞を探す→形式主語と間接疑問を疑う→語の数を指で確認。"
+    },
+    {
+      "slug": "se-wabun",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-wabun.html",
+      "title": "【私立難関・英語 第4回】和文英訳は主語を補うところから／since と for",
+      "thumb": [
+        "和文英訳",
+        "主語を補う",
+        "構文を決める"
+      ],
+      "hook": "和文英訳で崩れるのは、日本語のまま訳そうとするからです。",
+      "point": "主語を補う→構文を決める→易しい語で書き切る→訳し戻して確認。"
+    },
+    {
+      "slug": "se-free-writing",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-free-writing.html",
+      "title": "【私立難関・英語 第5回】自由英作文は4文の型／内容より正確さ",
+      "thumb": [
+        "自由英作文",
+        "4文で組む",
+        "書ける英語で"
+      ],
+      "hook": "自由英作文は発想力の勝負ではありません。型の勝負です。",
+      "point": "主張→理由→具体例→まとめの4文。易しく正確に書き切る。"
+    },
+    {
+      "slug": "se-dialogue",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-dialogue.html",
+      "title": "【私立難関・英語 第6回】会話の空所は直後から逆算／定型応答を覚える",
+      "thumb": [
+        "会話文の空所補充",
+        "直後から逆算",
+        "定型応答"
+      ],
+      "hook": "会話文の空所を直前だけで決めると、必ず引っかかります。",
+      "point": "直前と直後の両方を見る→直後から逆算→定型応答を暗記。"
+    },
+    {
+      "slug": "se-kankei",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-kankei.html",
+      "title": "【私立難関・英語 第7回】名詞は後ろから説明する／省略の見抜き方",
+      "thumb": [
+        "関係詞と分詞",
+        "後ろから足す",
+        "省略を見抜く"
+      ],
+      "hook": "長い英文が読めない原因は、名詞のかたまりが見えていないことです。",
+      "point": "名詞の後ろから足す→主格か目的格か→分詞はing/過去分詞。"
+    },
+    {
+      "slug": "se-kateiho",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-kateiho.html",
+      "title": "【私立難関・英語 第8回】仮定法は形で覚える／too...to に not は使わない",
+      "thumb": [
+        "仮定法と重要構文",
+        "If＋過去形",
+        "too...to"
+      ],
+      "hook": "too ... to に not を入れてしまう人は、形で覚えていません。",
+      "point": "If＋過去形, would＋原形／so...that／too...to。書きかえもできるように。"
+    },
+    {
+      "slug": "se-graph",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-graph.html",
+      "title": "【私立難関・英語 第9回】図表は計算で確認／数量表現の必修語",
+      "thumb": [
+        "図表つき長文",
+        "数値を先に",
+        "計算で確認"
+      ],
+      "hook": "図表問題を印象で選ぶと、確実に1問落とします。",
+      "point": "数値を先に押さえる→数量表現に注目→計算で検証。"
+    },
+    {
+      "slug": "se-summary",
+      "playlist": "shiritsu-english",
+      "page": "subjects/shiritsu-english/lessons/se-summary.html",
+      "title": "【私立難関・英語 第10回】内容一致は言いすぎを切る／段落1文目に主題",
+      "thumb": [
+        "要約と内容一致",
+        "段落1行メモ",
+        "言いすぎを切る"
+      ],
+      "hook": "内容一致を外す原因は、根拠を指させないまま選ぶことです。",
+      "point": "段落ごとに1行メモ→本文にあるか→言いすぎを切る。"
     }
   ]
 }

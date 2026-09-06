@@ -1,0 +1,215 @@
+{
+  "title": "会話文の空所補充（直前と直後をつなぐ）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。空所に入る最も適切な文を選びます。エー、アイム ソーリー バット アイ キャント カム トゥ ザ ミーティング トゥモロー。ビー、空所。エー、アイ ハブ トゥ テイク マイ ブラザー トゥ ザ ホスピタル。選択肢は、ア、ホワイ ノット。イ、ザッツ トゥー バッド。ウ、ユアー ウェルカム。エ、ヒア ユー アー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A: I'm sorry, but I can't come to the meeting tomorrow.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "B: (　　)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A: I have to take my brother to the hospital.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。会話文の空所は、直前だけを見ると引っかかります。直後まで見ることが決定的です。この問題では、直後にエーが理由を答えています。だから空所は理由を聞く文でなければならない。ザッツ トゥー バッドは残念だという同情で、理由を聞いていません。ホワイ ノットが正解です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所の直前と直後、両方に合うものを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "直後が理由なら、空所は理由を聞く文",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "定型表現を暗記しておく（謝罪・依頼・勧め・提案への応答）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず直後を見ます。エーは、弟を病院に連れて行かなければならない、と理由を述べています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：直後を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A の次の発言は「弟を病院に連れて行かなければならない」＝理由",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "理由を述べている。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：直後を見る"
+    },
+    {
+      "narration": "理由が返ってきているのだから、空所には理由を聞く発言が入ります。ここを逆算で決めるのが型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：空所の役割を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "理由を引き出す発言が入る",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "逆算する。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：空所の役割を決める"
+    },
+    {
+      "narration": "選択肢を切ります。イは残念だという同情だけで理由を聞いていません。ウはありがとうへの返答。エは物を渡すときの表現。3つとも合いません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：選択肢を切る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イ 同情のみ／ウ 礼への返答／エ 物を渡すとき → すべて不適",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3つ消える。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：選択肢を切る"
+    },
+    {
+      "narration": "残るのはア、ホワイ ノット。なぜ来られないの、という意味で理由を尋ねる表現です。よって正解はアです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ア Why not?（なぜ来られないの？）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "正解ア。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。選んだ文を入れて、3つの発言を続けて読みます。明日の会議に行けなくてごめん。なぜ行けないの。弟を病院に連れて行かなければならないんだ。自然な会話になっています。会話文は必ず通し読みで確認します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選んだ文を入れて通し読みする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3つの発言が自然につながるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "つながらなければ選び直す",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、覚えるべき定型応答です。シャル アイ ヘルプ ユーにはイエス プリーズかノー サンク ユー。ハウ アバウトにはザット サウンズ グッド。アイム ソーリーにはザッツ オーケイ。ふたつ目、ホワイ ノットには2つの意味があります。なぜだめなの、と理由を聞く用法と、いいねという賛成の用法。前後で判断します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "定型応答：Shall I help you? → Yes, please. / How about ...? → That sounds good.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Why not? は「なぜ？」と「いいね（賛成）」の2用法",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。会話の空所は直前と直後の両方を見る。直後が理由なら、理由を聞く文が入る。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "会話の空所は直前と直後の両方。直後が理由なら理由を聞く文。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：Shall I open the window? への承諾の返答を答えよ。 → Yes, please.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

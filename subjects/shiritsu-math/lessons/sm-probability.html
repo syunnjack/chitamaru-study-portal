@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>さいころの確率｜私立難関 数学 第6回</title>
+<meta name="description" content="積が4の倍数・和が素数になる確率を素因数と表で数える型。余事象と大小の区別まで。東海・滝・南山女子など私立難関高校入試対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">私立難関 数学</a> ／ 第6回 確率（素因数と表で数える）</div>
+
+<main class="wrap">
+  <h1>第6回　確率（数え上げは表で、条件は素因数で）</h1>
+  <div class="formula">大小2個のさいころを同時に投げる。(1) 出た目の積が4の倍数になる確率を求めよ。(2) 出た目の和が素数になる確率を求めよ。</div>
+  <p>確率は「数える力」です。条件を素因数に言いかえます。</p>
+
+  <video controls preload="metadata" src="../../../videos/sm-probability.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/sm-probability.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>全体を確定する。</strong>大小を区別して 36 通り。</li>
+      <li><strong>素因数で条件を言いかえる。</strong>4 の倍数＝2 を 2 個以上含む。</li>
+      <li><strong>表で数える。</strong>6 × 6 の表を書くのがいちばん速く確実です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>2の個数を書き出す</strong><div class="formula">1:0個, 2:1個, 3:0個, 4:2個, 5:0個, 6:1個</div><p>素因数の準備。</p></li>
+    <li><strong>(1) 4を含む場合</strong><div class="formula">どちらかが4：6 + 6 − 1 = 11 通り</div><p>重なりを引く。</p></li>
+    <li><strong>(1) 2と6の組</strong><div class="formula">両方が {2, 6} から：2 × 2 = 4 通り → 合計 15 通り</div><p>確率 15/36 = 5/12。</p></li>
+    <li><strong>(2) 和が素数</strong><div class="formula">和が 2, 3, 5, 7, 11 → 1 + 2 + 4 + 6 + 2 = 15 通り、確率 5/12</div><p>和の表で数える。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>素数にならない和（4, 6, 8, 9, 10, 12）は 21 通り。36 − 21 = 15 で一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「少なくとも1つ」は余事象で。少なくとも1個6が出る確率は 1 − 25/36 = 11/36。</li>
+      <li>同じ形のさいころでも、確率では必ず大小を区別します。区別しないと同様に確からしくなくなります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>倍数条件は素因数で言いかえる。数えにくければ余事象。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>2個のさいころで積が奇数になる確率を求めよ。
+        <details><summary>答え</summary><p>1/4</p></details>
+      </li>
+      <li>2個のさいころで和が7になる確率を求めよ。
+        <details><summary>答え</summary><p>1/6</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sm-cube-cut.html">← 第5回 立方体の切断（面を取り出す）</a>　｜　<a href="sm-integer-sqrt.html">第7回 整数（積の形にする） →</a>　｜　<a href="../index.html">私立難関 数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

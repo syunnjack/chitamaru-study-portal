@@ -5236,7 +5236,487 @@ when/ifの中は現在形。間接疑問は疑問詞＋主語＋動詞。
 
 ## 再生リスト：私立難関（東海・滝・南山女子）数学｜差がつく型
 
+### 【私立難関・数学 第1回】対称式は解かない／和と積の3公式で押し切る
+
+- ファイル：`videos/sm-symmetric.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-symmetric.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-symmetric.html
+
+```
+対称式で x と y を求め始めた時点で、時間が足りなくなります。
+(x+y)²−2xy、(x+y)³−3xy(x+y)、(x+y)²−4xy の3本。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-symmetric.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第2回】面積は y 切片で切る／(1/2)×切片×xの差
+
+- ファイル：`videos/sm-parabola-line.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-parabola-line.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-parabola-line.html
+
+```
+原点を含む三角形の面積は、y 軸で切れば1行で出ます。
+交点を連立で出す→y切片で切る→(1/2)×切片×(xの差)。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-parabola-line.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第3回】面積比は2段階／相似比→線分比→面積比
+
+- ファイル：`videos/sm-ratio-area.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-ratio-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-ratio-area.html
+
+```
+面積比の問題は、線分比をかけ算でつなぐだけです。
+平行線→相似で線分比→高さ共通で面積比→2段階で降りる。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-ratio-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第4回】円の角度は3定理だけ／どの弧かを口に出す
+
+- ファイル：`videos/sm-circle-angle.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-circle-angle.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-circle-angle.html
+
+```
+円の角度問題で迷うのは、どの弧に対する角かを言っていないからです。
+同じ弧の円周角は等しい／内接四角形の対角の和180°／中心角は2倍。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-circle-angle.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第5回】立方体の切断は平面に直す／正三角形の面積公式
+
+- ファイル：`videos/sm-cube-cut.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-cube-cut.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-cube-cut.html
+
+```
+空間図形が苦手なのは、立体のまま考えているからです。
+面を1枚取り出す→対角線は辺×√2→体積は(1/3)Sh。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-cube-cut.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第6回】4の倍数は素因数で数える／余事象の使いどころ
+
+- ファイル：`videos/sm-probability.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-probability.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-probability.html
+
+```
+確率で差がつくのは公式ではなく、数え方の設計です。
+全体36通り→条件を素因数に言いかえ→表で数える→余事象。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-probability.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第7回】整数は積の形にする／√(n²+45)が整数になるn
+
+- ファイル：`videos/sm-integer-sqrt.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-integer-sqrt.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-integer-sqrt.html
+
+```
+整数問題は、積の形にできた時点でほぼ終わっています。
+= m² とおく→積の形→約数の組を全部書く→偶奇を確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-integer-sqrt.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第8回】食塩水は濃度を追わない／食塩の量だけ追う
+
+- ファイル：`videos/sm-salt-exchange.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-salt-exchange.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-salt-exchange.html
+
+```
+食塩水で混乱する原因は、濃度を追いかけていることです。
+食塩の量だけ追う→移す液の濃度×量→最終状態で方程式。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-salt-exchange.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第9回】面積最大は平行な接線の接点／切片の差で出す
+
+- ファイル：`videos/sm-max-area.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-max-area.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-max-area.html
+
+```
+面積の最大値は、平行線をずらして接する位置を探すだけです。
+直線ABを出す→平行な接線を探す→切片の差で面積。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-max-area.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・数学 第10回】群数列は累積で当てる／第100項と和
+
+- ファイル：`videos/sm-sequence-group.mp4`
+- サムネイル：`assets/youtube/thumbs/sm-sequence-group.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-sequence-group.html
+
+```
+規則性の問題は、群に分けた瞬間に見通しがつきます。
+第k群にk個→累積k(k+1)/2→またぐ群を探す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-math/lessons/sm-sequence-group.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
 ## 再生リスト：私立難関（東海・滝・南山女子）国語｜記述の型
 
+### 【私立難関・国語 第1回】記述は設計してから書く／字数÷25が要素数
+
+- ファイル：`videos/sj-kijutsu-sekkei.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-kijutsu-sekkei.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-kijutsu-sekkei.html
+
+```
+記述で崩れる原因は、設計せずに書き始めることです。
+字数÷25で要素数→文末を固定→箇条書きにしてから書く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-kijutsu-sekkei.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第2回】比喩は答案に残さない／具体語への置きかえ方
+
+- ファイル：`videos/sj-iikae.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-iikae.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-iikae.html
+
+```
+比喩をそのまま答案に書くと、0点になります。
+たとえの語を消す→本文の具体語に置きかえ→「ということ」で結ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-iikae.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第3回】対比は表にする／「ただ」の後ろが筆者の立場
+
+- ファイル：`videos/sj-taihi.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-taihi.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-taihi.html
+
+```
+対比を頭の中で整理しようとすると、必ず取り違えます。
+2列の表にする→観点をそろえる→「ただ」の後ろで立場を判定。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-taihi.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第4回】「もちろん」は主張ではない／譲歩の見抜き方
+
+- ファイル：`videos/sj-jouho.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-jouho.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-jouho.html
+
+```
+「もちろん」を筆者の主張だと思って読むと、全部逆になります。
+譲歩の合図を探す→「しかし」の後ろが主張→最後の一文が結論。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-jouho.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第5回】変化は前後を両方書く／文型に入れるだけ
+
+- ファイル：`videos/sj-shinjou-henka.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-shinjou-henka.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-shinjou-henka.html
+
+```
+変化の記述で後だけ書くと、半分しか点が来ません。
+前・きっかけ・後の3要素を、逆接でつないで書く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-shinjou-henka.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第6回】随筆は事実と感想を分ける／主題は感想の最後
+
+- ファイル：`videos/sj-zuihitsu.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-zuihitsu.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-zuihitsu.html
+
+```
+随筆で事実を要約しても、それは要旨ではありません。
+文末で事実と感想に分ける→感想の最後に主題がある。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-zuihitsu.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第7回】知らない語は推測できる／漢字と方向で決める
+
+- ファイル：`videos/sj-goi-suisoku.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-goi-suisoku.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-goi-suisoku.html
+
+```
+知らない語に出会ったとき、止まるか推測するかで差がつきます。
+漢字に分解→良い悪いの方向→具体例で確定→文に戻して確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-goi-suisoku.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第8回】古文の主語は敬語で決まる／「て」は主語が変わらない
+
+- ファイル：`videos/sj-kobun-shugo.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-kobun-shugo.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-kobun-shugo.html
+
+```
+古文が読めない原因は、単語ではなく主語の省略です。
+尊敬語→高い人、謙譲語→低い人。「て」は継続、「を・に・ば」で交替。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-kobun-shugo.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第9回】技法は6つ覚えれば足りる／効果まで書けると差がつく
+
+- ファイル：`videos/sj-shi-tanka.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-shi-tanka.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-shi-tanka.html
+
+```
+詩と短歌は、技法に名前をつけられるかどうかの問題です。
+技法6つを覚える→句切れは意味の切れ目→心情は風景の選び方。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-shi-tanka.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・国語 第10回】百字記述は4要素／順序を固定して書き切る
+
+- ファイル：`videos/sj-hyaku-ji.mp4`
+- サムネイル：`assets/youtube/thumbs/sj-hyaku-ji.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-hyaku-ji.html
+
+```
+百字記述は、要素を4つ並べる作業に落とせます。
+100字＝4要素。前提→変化→失われるもの→評価の順。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-japanese/lessons/sj-hyaku-ji.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
 ## 再生リスト：私立難関（東海・滝・南山女子）英語｜長文と英作文
+
+### 【私立難関・英語 第1回】長文は全部訳さない／設問を先に読む
+
+- ファイル：`videos/se-scan.mp4`
+- サムネイル：`assets/youtube/thumbs/se-scan.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-scan.html
+
+```
+長文を全部訳す読み方では、最後の設問まで届きません。
+設問を先に読む→探す語を決める→合図の近くを精読→設問の形で答える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-scan.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第2回】指示語は代入で決める／範囲は2種類だけ
+
+- ファイル：`videos/se-shiji.mp4`
+- サムネイル：`assets/youtube/thumbs/se-shiji.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-shiji.html
+
+```
+指示語の設問で迷うのは、代入して確認していないからです。
+直前を見る→名詞のかたまりか文内容か→代入して確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-shiji.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第3回】整序は動詞から／形式主語と間接疑問が頻出
+
+- ファイル：`videos/se-seiretsu.mp4`
+- サムネイル：`assets/youtube/thumbs/se-seiretsu.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-seiretsu.html
+
+```
+整序を左から並べていくと、必ず途中で詰まります。
+動詞を探す→形式主語と間接疑問を疑う→語の数を指で確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-seiretsu.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第4回】和文英訳は主語を補うところから／since と for
+
+- ファイル：`videos/se-wabun.mp4`
+- サムネイル：`assets/youtube/thumbs/se-wabun.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-wabun.html
+
+```
+和文英訳で崩れるのは、日本語のまま訳そうとするからです。
+主語を補う→構文を決める→易しい語で書き切る→訳し戻して確認。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-wabun.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第5回】自由英作文は4文の型／内容より正確さ
+
+- ファイル：`videos/se-free-writing.mp4`
+- サムネイル：`assets/youtube/thumbs/se-free-writing.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-free-writing.html
+
+```
+自由英作文は発想力の勝負ではありません。型の勝負です。
+主張→理由→具体例→まとめの4文。易しく正確に書き切る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-free-writing.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第6回】会話の空所は直後から逆算／定型応答を覚える
+
+- ファイル：`videos/se-dialogue.mp4`
+- サムネイル：`assets/youtube/thumbs/se-dialogue.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-dialogue.html
+
+```
+会話文の空所を直前だけで決めると、必ず引っかかります。
+直前と直後の両方を見る→直後から逆算→定型応答を暗記。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-dialogue.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第7回】名詞は後ろから説明する／省略の見抜き方
+
+- ファイル：`videos/se-kankei.mp4`
+- サムネイル：`assets/youtube/thumbs/se-kankei.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-kankei.html
+
+```
+長い英文が読めない原因は、名詞のかたまりが見えていないことです。
+名詞の後ろから足す→主格か目的格か→分詞はing/過去分詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-kankei.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第8回】仮定法は形で覚える／too...to に not は使わない
+
+- ファイル：`videos/se-kateiho.mp4`
+- サムネイル：`assets/youtube/thumbs/se-kateiho.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-kateiho.html
+
+```
+too ... to に not を入れてしまう人は、形で覚えていません。
+If＋過去形, would＋原形／so...that／too...to。書きかえもできるように。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-kateiho.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第9回】図表は計算で確認／数量表現の必修語
+
+- ファイル：`videos/se-graph.mp4`
+- サムネイル：`assets/youtube/thumbs/se-graph.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-graph.html
+
+```
+図表問題を印象で選ぶと、確実に1問落とします。
+数値を先に押さえる→数量表現に注目→計算で検証。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-graph.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
+
+### 【私立難関・英語 第10回】内容一致は言いすぎを切る／段落1文目に主題
+
+- ファイル：`videos/se-summary.mp4`
+- サムネイル：`assets/youtube/thumbs/se-summary.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-summary.html
+
+```
+内容一致を外す原因は、根拠を指させないまま選ぶことです。
+段落ごとに1行メモ→本文にあるか→言いすぎを切る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/shiritsu-english/lessons/se-summary.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領
+```
 

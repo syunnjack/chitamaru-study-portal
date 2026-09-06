@@ -1,0 +1,215 @@
+{
+  "title": "関係詞と分詞（名詞のかたまりを長くする）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を1文にします。1、アイ ハブ ア フレンド。ヒー キャン スピーク スリー ラングウィジズ。2、ルック アット ザ ガール。シー イズ プレイング ザ バイオリン オーバー ゼア。3、これは私が去年買った自転車です、を英語にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) I have a friend. He can speak three languages.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) Look at the girl. She is playing the violin over there.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) これは私が去年買った自転車です。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。英語は名詞のうしろから説明を足します。日本語と逆なので、ここが最大の壁です。説明する文の中で、その名詞が主語のはたらきをしていればフーやウィッチ。目的語のはたらきなら省略できます。そして、している、なら現在分詞、された、なら過去分詞。名詞のかたまりを長くする、これが読解でも英作文でも中心の技術です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞のうしろから説明を足す（後置修飾）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "説明が主語のはたらき → who / which、目的語 → whom / which（省略可）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜している」は現在分詞、「〜された」は過去分詞",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。ヒーはア フレンドを指し、文の中で主語です。だから主格の関係代名詞フーを使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 役割を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He = a friend で主語のはたらき → who",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主格。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 役割を見る"
+    },
+    {
+      "narration": "アイ ハブ ア フレンド フー キャン スピーク スリー ラングウィジズ。主格のフーは省略できません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 1文にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I have a friend who can speak three languages.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "省略できない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 1文にする"
+    },
+    {
+      "narration": "2です。している、なので現在分詞。ルック アット ザ ガール プレイング ザ バイオリン オーバー ゼア。フー イズを消して分詞にした形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 分詞で書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Look at the girl playing the violin over there.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "現在分詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 分詞で書く"
+    },
+    {
+      "narration": "3です。ジス イズ ザ バイク アイ ボート ラスト イヤー。自転車は買ったの目的語なので、関係代名詞は省略できます。省略された形が読めるかどうかが読解の分かれ目です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(3) 目的格は省略",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This is the bike (which) I bought last year.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "目的格は省略可。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(3) 目的格は省略"
+    },
+    {
+      "narration": "検算です。関係詞のうしろを見て、主語が欠けているか目的語が欠けているかを確認します。フーやウィッチのあとに動詞が続いていれば主格。主語たす動詞が続いていて目的語が欠けていれば目的格で、省略できます。この判定ができれば、長い英文の構造が見えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "関係詞の後ろで主語が欠けていれば主格",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語＋動詞が続き目的語が欠けていれば目的格",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的格は省略できる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、名詞のうしろに、主語たす動詞が直接続いていたら関係代名詞の省略だということ。ザ バイク アイ ボート。これが読めれば長文の速度が変わります。ふたつ目、ウェアとホエンは場所と時を説明する関係副詞。ジス イズ ザ ハウス ウェア アイ ワズ ボーン。前置詞つきの関係代名詞に言いかえられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞＋主語＋動詞は関係代名詞の省略",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "where / when は場所・時を説明する関係副詞",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。名詞は後ろから説明する。主格は省略できず、目的格は省略できる。分詞はイングと過去分詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞は後ろから説明。主格は省略不可、目的格は省略可。分詞はing/過去分詞。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「向こうで走っている犬」を英語にせよ。 → the dog running over there",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}
