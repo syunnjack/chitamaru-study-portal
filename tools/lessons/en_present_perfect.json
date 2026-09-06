@@ -1,0 +1,210 @@
+{
+  "title": "現在完了と過去形の使い分け",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。括弧の中を適する形にしてください。アイ 括弧 ルーズ マイ スチューデント アイディー ラスト フライデー、アンド アイ 括弧 ノット ファインド イット イェット。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I ( lose ) my student ID last Friday,",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "and I ( not find ) it yet.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "( )内を適する形にせよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、時を表す語を先に探すことです。ラスト、イエスタデイ、アゴー のように過去の一点を指す語があれば過去形。イェット、オールレディ、シンス、フォー があれば現在完了です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時を表す語を先に探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "last / yesterday / ago → 過去形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "yet / already / since / for → 現在完了",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "前半には ラスト フライデー があります。過去の一点なので過去形です。現在完了と一緒には使えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：前半の時の語",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "last Friday → 過去の一点",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "現在完了とは一緒に使えない。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：前半の時の語"
+    },
+    {
+      "narration": "前半は アイ ロスト マイ スチューデント アイディー ラスト フライデー、となります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：前半を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I lost my student ID last Friday.",
+          "active": true
+        }
+      ],
+      "caption": "手順2：前半を決める"
+    },
+    {
+      "narration": "後半には イェット があります。今の時点の話なので現在完了です。まだ見つかっていない、という今の状態を表します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：後半の時の語",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "yet → 今の時点の話",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「まだ見つかっていない」＝今も継続中の結果。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：後半の時の語"
+    },
+    {
+      "narration": "後半は アイ ハブント ファウンド イット イェット。答えは ロスト と ハブント ファウンド です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：後半を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I haven't found it yet.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：lost / haven't found",
+          "active": true
+        }
+      ],
+      "caption": "手順4：後半を決める"
+    },
+    {
+      "narration": "検算です。逆にして I have lost it last Friday と書くと、今の話を表す現在完了に、過去の一点を指す ラスト フライデー が混ざって成り立ちません。この一文を作って違和感を確かめるのが検算です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× I have lost it last Friday.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在完了 + 過去の一点は不可",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ 前半は過去形で確定",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。現在完了は「過去形＋今の状態」を1つで言う形なので、和訳では「〜してしまっている」と補います。それから、When で始まる疑問文は必ず過去形です。時の一点をたずねているからです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在完了は「過去 + 今の状態」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When 〜? は必ず過去形",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ラスト や アゴー があれば過去形、イェット、シンス、フォー があれば ハブ プラス 過去分詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "last / ago があれば過去形、yet / since / for があれば have + 過去分詞。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：She ( live ) in Osaka since 2021. を適する形に。 → has lived（since があるので現在完了）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

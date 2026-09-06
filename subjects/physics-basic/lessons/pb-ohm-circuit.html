@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>オームの法則と合成抵抗｜物理基礎 第8回</title>
+<meta name="description" content="並列を先にまとめる→全体の電流→部分の電圧の順で解く回路の型。共通テストの物理基礎の電気分野を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第8回 オームの法則と合成抵抗（直列と並列）</div>
+
+<main class="wrap">
+  <h1>第8回　オームの法則と合成抵抗（直列と並列の見分け）</h1>
+  <div class="formula">12 Vの電池に、6.0 Ωの抵抗と、3.0 Ωと6.0 Ωを並列にしたものを直列につないだ。回路全体を流れる電流と、並列部分にかかる電圧を求めよ。</div>
+  <p>回路は「並列を先にまとめる」だけで、ほとんどの問題が一直線になります。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-ohm-circuit.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-ohm-circuit.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>並列を先にまとめる。</strong>1/R = 1/R₁ + 1/R₂。2本なら R = R₁R₂/(R₁+R₂) が速いです。</li>
+      <li><strong>全体を直列にして電流。</strong>合成抵抗を足し、I = V/R で全体の電流を出します。</li>
+      <li><strong>部分の電圧は V = RI。</strong>直列は電流が共通、並列は電圧が共通、を使い分けます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>並列部分をまとめる</strong><div class="formula">R = (3.0 × 6.0)/(3.0 + 6.0) = 18/9.0 = 2.0 Ω</div><p>積÷和が速い。</p></li>
+    <li><strong>全体の合成抵抗</strong><div class="formula">R_all = 6.0 + 2.0 = 8.0 Ω</div><p>まとめたあとは直列で足すだけ。</p></li>
+    <li><strong>全体の電流を出す</strong><div class="formula">I = V/R = 12/8.0 = 1.5 A</div><p>オームの法則。</p></li>
+    <li><strong>並列部分の電圧</strong><div class="formula">V = 2.0 × 1.5 = 3.0 V</div><p>直列部分の電圧は6.0×1.5 = 9.0 V。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>電圧の和 9.0 + 3.0 = 12 V で電池に戻り、並列の電流 1.0 + 0.50 = 1.5 A も全体と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>並列の合成抵抗は必ず最小の抵抗より小さくなります。大きくなったら計算ミスです。</li>
+      <li>直列は電流が共通、並列は電圧が共通。どちらが共通かを先に確認します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>並列を先にまとめる。並列の合成抵抗は最小の抵抗より小さい。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>4.0 Ωと4.0 Ωを並列にした合成抵抗を求めよ。
+        <details><summary>答え</summary><p>2.0 Ω（同じ値の並列は半分）</p></details>
+      </li>
+      <li>9.0 Vの電池に3.0 Ωと6.0 Ωを直列につないだとき、6.0 Ωにかかる電圧を求めよ。
+        <details><summary>答え</summary><p>I = 1.0 A、V = 6.0 V</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-sound-speed.html">← 第7回 音の速さと反射（やまびこの型）</a>　｜　<a href="pb-electric-power.html">第9回 電力と電力量（W と kWh の変換） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

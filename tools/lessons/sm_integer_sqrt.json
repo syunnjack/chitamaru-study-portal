@@ -1,0 +1,215 @@
+{
+  "title": "整数（積の形にして約数を当てる）",
+  "subtitle": "私立難関 数学 ／ 差がつく型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ルートエヌの2乗たす45が整数となる自然数エヌをすべて求めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "√(n² + 45) が整数となる自然数 n をすべて求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n² + 45 = m² とおく",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "積の形に変形して約数を考える",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。整数問題の9割は、積の形にして約数を当てる作業です。整数になるという条件をエムの2乗とおき、移項するとエムの2乗ひくエヌの2乗イコール45。左辺は因数分解できてエムひくエヌかけるエムたすエヌ。積が45なので、約数の組を全部書き出す。ここまでが型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "平方数の条件は m² とおく",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "移項して積の形にする：(m−n)(m+n) = 45",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "積が定数なら、約数の組を全部書き出す",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "ルートの中が平方数になればよいので、エヌの2乗たす45イコールエムの2乗とおきます。移項してエムの2乗ひくエヌの2乗イコール45です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：式にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n² + 45 = m²（m は自然数）→ m² − n² = 45",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "移項する。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：式にする"
+    },
+    {
+      "narration": "左辺は2乗の差なので、エムひくエヌかけるエムたすエヌ。これが45です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：積の形にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(m − n)(m + n) = 45",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2乗の差の因数分解。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：積の形にする"
+    },
+    {
+      "narration": "45の約数の組は、1と45、3と15、5と9。エムひくエヌの方が小さいので、この3組です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：約数の組を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(m−n, m+n) = (1,45), (3,15), (5,9)",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "m−n < m+n。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：約数の組を書く"
+    },
+    {
+      "narration": "エヌは2つの数の差の半分です。45ひく1の半分で22、15ひく3の半分で6、9ひく5の半分で2。よってエヌは2、6、22の3つです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：n を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n = (差)/2 → 22, 6, 2",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え n = 2, 6, 22。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：n を求める"
+    },
+    {
+      "narration": "検算です。それぞれ代入します。2の2乗たす45は49で7の2乗。6の2乗たす45は81で9の2乗。22の2乗たす45は484たす45で529、これは23の2乗です。3つとも整数になりました。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n=2 → 49 = 7²",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n=6 → 81 = 9²",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n=22 → 529 = 23²",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、偶奇の確認です。エムひくエヌとエムたすエヌは必ず偶奇が一致します。だから積が45のように奇数なら両方奇数、積が偶数なら両方偶数の組しか使えません。ここを見落とすと、存在しない解を書いてしまいます。ふたつ目、整数問題のもう1つの型は範囲の絞り込み。エックスワイイコール定数の形にできないときは、不等式で候補を数個に絞ってから調べます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "m−n と m+n は偶奇が一致する（奇数×奇数か偶数×偶数）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "積の形にできないときは不等式で候補を絞る",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。整数問題は積の形にして約数を当てる。エムひくエヌとエムたすエヌの偶奇の一致を確認する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "整数問題は積の形にして約数を当てる。偶奇の一致を確認する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：√(n² + 16) が整数となる自然数 n を求めよ。 → n = 3（25 = 5²）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

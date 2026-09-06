@@ -1,0 +1,215 @@
+{
+  "title": "受動態への書きかえ（SVOO）",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の文を受動態に書きかえてください。2通りの答えを出します。アワ ティーチャー ゲイブ エブリ ファーストイヤー スチューデント ア ショート リーディング リスト。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Our teacher gave every first-year",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "student a short reading list.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受動態に書きかえよ（2通り）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、目的語の数を数えることです。目的語が2つあるSVOOは、どちらを主語にするかで受動態が2通りできます。物を主語にした場合だけ、残った人の前に トゥー や フォー が必要になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的語の数を数える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的語2つ → 受動態は2通り",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "人以外を主語にしたら to / for が必要",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず文型です。ゲイブ の後ろに人と物が並んでいます。目的語が2つあるSVOOです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：文型を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "gave + 人（every first-year student）+ 物（a short reading list）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "目的語が2つ＝SVOO。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：文型を確認する"
+    },
+    {
+      "narration": "人を主語にします。エブリ ファーストイヤー スチューデント ワズ ギブン ア ショート リーディング リスト。物はそのまま後ろに残ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：人を主語にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Every first-year student was given a short reading list (by our teacher).",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "物はそのまま残る。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：人を主語にする"
+    },
+    {
+      "narration": "物を主語にします。ア ショート リーディング リスト ワズ ギブン トゥー エブリ ファーストイヤー スチューデント。ギブ は トゥー を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：物を主語にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A short reading list was given to every first-year student (by our teacher).",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "give は to を使う。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：物を主語にする"
+    },
+    {
+      "narration": "バイ アワ ティーチャー は、誰がしたかが重要でなければ省略できます。これで2通りの答えが出ました。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：by 〜 の扱いを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "by our teacher は省略可",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：上の2文（by 〜 は省略してもよい）",
+          "active": true
+        }
+      ],
+      "caption": "手順4：by 〜 の扱いを決める"
+    },
+    {
+      "narration": "検算です。受動態に直したら、be動詞の時制がもとの文と同じかを見ます。もとが ゲイブ なので ワズ です。それから、動詞は必ず過去分詞。ギブ の過去分詞は ギブン で、過去形の ゲイブ ではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時制：gave → was",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞は過去分詞 given",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× was gave",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。物を主語にしたときの前置詞は動詞で決まります。ギブ、センド、ティーチ は トゥー、バイ、メイク、クック は フォー です。それから、人を主語にする形のほうが英語では自然によく使われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "give / send / teach → to",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "buy / make / cook → for",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。エスブイオーオーの受動態は2通り。物を主語にしたときだけ トゥー や フォー を入れる。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "SVOO の受動態は2通り。物を主語にしたときだけ to / for を入れる。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：They will finish the repairs by Friday. を受動態に。 → The repairs will be finished by Friday.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

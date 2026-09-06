@@ -1,0 +1,82 @@
+{
+  "title": "sinθ + cosθ が出たら「2乗する」",
+  "subtitle": "高校数学 I ／ 三角比の相互関係 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題は、こちら。サイン シータ たす コサイン シータ が 2分の1 のとき、サイン シータ かける コサイン シータ の値を求めよ。角シータそのものを求めようとすると詰まります。やることは1つだけです。",
+      "lines": [
+        {"style": "head", "text": "今日の問題", "active": true},
+        {"style": "formula", "text": "sinθ + cosθ = 1/2 のとき", "active": true},
+        {"style": "formula", "text": "sinθ cosθ の値を求めよ", "active": true},
+        {"style": "note", "text": "所要時間の目安：4分（慣れたら1分）"}
+      ],
+      "caption": "今日の問題：sinθ + cosθ = 1/2 のとき sinθcosθ"
+    },
+    {
+      "narration": "型はこれです。サインとコサインの和が与えられたら、両辺を2乗する。そして、サインの2乗 たす コサインの2乗 は 1、という相互関係を使う。この2行がセットです。角シータを求める必要は、まったくありません。",
+      "lines": [
+        {"style": "head", "text": "解法の型", "active": true},
+        {"style": "formula", "text": "和が与えられたら → 両辺を2乗する", "active": true},
+        {"style": "formula", "text": "sin²θ + cos²θ = 1 を使う", "active": true},
+        {"style": "note", "text": "θ そのものは求めない。式だけで処理する。", "active": true}
+      ],
+      "caption": "型：2乗して sin²θ + cos²θ = 1 を使う"
+    },
+    {
+      "narration": "手順1。両辺を2乗します。左辺は、和の2乗の展開です。サインの2乗 たす 2 サイン コサイン たす コサインの2乗。右辺は、2分の1の2乗で 4分の1。",
+      "lines": [
+        {"style": "head", "text": "手順1：両辺を2乗", "active": true},
+        {"style": "formula", "text": "(sinθ + cosθ)² = (1/2)²", "active": true},
+        {"style": "formula", "text": "sin²θ + 2 sinθcosθ + cos²θ = 1/4", "active": true}
+      ],
+      "caption": "手順1：2乗して展開する"
+    },
+    {
+      "narration": "手順2。相互関係を代入します。サインの2乗 たす コサインの2乗 は 1。だから左辺は、1 たす 2 サイン コサイン。式は、1 たす 2 サイン コサイン は 4分の1 になります。",
+      "lines": [
+        {"style": "head", "text": "手順2：sin²θ + cos²θ = 1 を代入", "active": true},
+        {"style": "formula", "text": "1 + 2 sinθcosθ = 1/4", "active": true},
+        {"style": "note", "text": "ここで「1」に変わるのが、この型の気持ちよさ。", "active": true}
+      ],
+      "caption": "手順2：左辺が 1 + 2sinθcosθ になる"
+    },
+    {
+      "narration": "手順3。方程式として解きます。2 サイン コサイン は、4分の1 ひく 1 で、マイナス4分の3。両辺を2で割って、サイン コサイン は マイナス8分の3。これが答えです。",
+      "lines": [
+        {"style": "head", "text": "手順3：解く", "active": true},
+        {"style": "formula", "text": "2 sinθcosθ = 1/4 − 1 = −3/4", "active": true},
+        {"style": "formula", "text": "sinθ cosθ = −3/8", "active": true}
+      ],
+      "caption": "答え：sinθcosθ = −3/8"
+    },
+    {
+      "narration": "検算です。マイナスになりましたが、これはおかしくありません。積が負ということは、サインとコサインの符号が逆、つまりシータは90度より大きい、鈍角だということです。和が 2分の1 と小さいことと、つじつまが合っています。実際、サインとコサインは、2次方程式 tの2乗 ひく 2分の1 t マイナス 8分の3 は 0 の2つの解で、判別式は正なので、ちゃんと存在します。",
+      "lines": [
+        {"style": "head", "text": "検算：符号の意味を確認", "active": true},
+        {"style": "formula", "text": "積が負 → sinθ と cosθ の符号が逆 → θ は鈍角", "active": true},
+        {"style": "formula", "text": "sinθ, cosθ は t² − (1/2)t − 3/8 = 0 の解", "active": true},
+        {"style": "note", "text": "D = 1/4 + 3/2 > 0 なので、そんなθは実際に存在する。", "active": true}
+      ],
+      "caption": "検算：積が負 → 鈍角。解も存在する"
+    },
+    {
+      "narration": "この型は、もう1段だけ伸ばせます。3乗の和を聞かれても同じです。サインの3乗 たす コサインの3乗 は、和の3乗 ひく 3 かける積 かける和。代入すると、8分の1 たす 16分の9 で、16分の11。和と積さえ分かれば、あとは公式に入れるだけです。",
+      "lines": [
+        {"style": "head", "text": "そのまま伸ばす（3乗の和）", "active": true},
+        {"style": "formula", "text": "sin³θ + cos³θ = (和)³ − 3(積)(和)", "active": true},
+        {"style": "formula", "text": "= 1/8 − 3(−3/8)(1/2) = 11/16", "active": true},
+        {"style": "note", "text": "和と積が出たら、対称式は全部作れる。", "active": true}
+      ],
+      "caption": "発展：sin³θ + cos³θ = 11/16"
+    },
+    {
+      "narration": "おつかれさまでした。在庫に入れる1行は、これです。サインとコサインの和が来たら、2乗して 1 に変える。明日、何も見ずに、サイン たす コサイン が 5分の1 のときの積をやってみてください。答えは、マイナス25分の12 です。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "和が来たら2乗 → sin²θ + cos²θ = 1", "active": true},
+        {"style": "note", "text": "類題：sinθ + cosθ = 1/5 → sinθcosθ = −12/25", "active": true}
+      ],
+      "caption": "在庫に入れる1行：和が来たら2乗する"
+    }
+  ]
+}

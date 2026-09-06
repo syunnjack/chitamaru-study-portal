@@ -1,0 +1,220 @@
+{
+  "title": "受動態（be動詞＋過去分詞に組み替える）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の文を受動態に書きかえます。1、メニーストゥーデンツユーズジスルーム。2、マイファーザートゥックジーズピクチャーズ。3、ピープルスピークイングリッシュインメニーカントリーズ。そして4、この寺は400年前に建てられました、を英語にしてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) Many students use this room.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) My father took these pictures.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) People speak English in many countries.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(4) この寺は400年前に建てられました。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。受動態はビー動詞プラス過去分詞。手順は3つ。もとの文の目的語を主語にする、ビー動詞を新しい主語と時に合わせる、動詞を過去分詞にする。そしてバイのあとが誰でもよい場合、ピープルやサムワンのときは省略します。ビー動詞の形を主語と時に合わせる、ここだけ気をつければ確実です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受動態 = be動詞 + 過去分詞（+ by 〜）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的語を主語にして、be動詞は新しい主語と時に合わせる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "by 〜 は不要なら省略（people, someone など）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。ジスルームが主語で単数、現在なのでイズ。ユーズドは過去分詞。ジスルームイズユーズドバイメニーストゥーデンツ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 現在の受動態",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This room is used by many students.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "単数なので is。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 現在の受動態"
+    },
+    {
+      "narration": "2です。ジーズピクチャーズは複数で過去なのでワー。テイクの過去分詞はテイクン。ジーズピクチャーズワーテイクンバイマイファーザー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 過去・複数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "These pictures were taken by my father.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "複数＋過去→were。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 過去・複数"
+    },
+    {
+      "narration": "3です。ピープルは誰でもよいのでバイピープルは省略します。イングリッシュイズスポークンインメニーカントリーズ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) by を省略する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "English is spoken in many countries.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "people は省略。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) by を省略する"
+    },
+    {
+      "narration": "4です。寺は単数で400年前という過去なのでワズ。ビルドの過去分詞はビルト。ジステンプルワズビルトフォーハンドレッドイヤーズアゴウ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(4) 過去の受動態を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This temple was built four hundred years ago.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "build-built-built。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(4) 過去の受動態を作る"
+    },
+    {
+      "narration": "検算です。ビー動詞の形だけを確認します。主語が単数で現在ならイズ、複数で現在ならアー、単数で過去ならワズ、複数で過去ならワー。この4つのうちどれを使ったかを言えれば、受動態の失点はなくなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単数・現在→is／複数・現在→are",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単数・過去→was／複数・過去→were",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "どれを使ったか言えるか",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、助動詞のある受動態です。キャンビープラス過去分詞、ウィルビープラス過去分詞。ジスブックキャンビーリードバイチルドレン。助動詞のあとはビーの原形です。ふたつ目、感情を表す受動態です。アイワズサプライズドアットザニュース、アイアムインタレステッドインヒストリー。前置詞まで一緒に覚えるのが得点になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "助動詞つき：can be ~ed, will be ~ed（be は原形）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "感情の受動態：be surprised at, be interested in",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。受動態はビー動詞プラス過去分詞。ビー動詞は新しい主語と時に合わせる。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受動態＝be動詞＋過去分詞。be動詞は新しい主語と時に合わせる。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「この歌は多くの若者に愛されています」を英語にせよ。 → This song is loved by many young people.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

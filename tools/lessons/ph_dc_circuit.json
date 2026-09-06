@@ -1,0 +1,220 @@
+{
+  "title": "直流回路（合成抵抗と電圧の分配）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。起電力12ボルトの電池に、4.0オームの抵抗を直列につなぎ、その先に6.0オームと3.0オームを並列につなぎます。回路を流れる電流と、並列部分にかかる電圧を求めてください。電池の内部抵抗は無視します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "12 V に 4.0 Ω を直列、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "その先に 6.0 Ω と 3.0 Ω を並列。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全電流 I と並列部分の電圧 V を",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "求めよ（内部抵抗なし）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。並列部分を先に1つの抵抗にまとめる。次に全体の合成抵抗から全電流を出す。最後に アールアイ で各部分の電圧に戻します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "並列は先に合成（1/R = 1/R₁ + 1/R₂）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全体の合成抵抗で全電流",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "各部分の電圧は RI で戻す",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "並列部分をまとめます。6分の1たす3分の1は2分の1なので、2.0オーム。積割る和でも、18割る9で2.0オームです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：並列を合成する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1/R = 1/6.0 + 1/3.0 = 1/2.0 → R = 2.0 Ω",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "積/和 = 18/9 = 2.0",
+          "active": true
+        }
+      ],
+      "caption": "手順1：並列を合成する"
+    },
+    {
+      "narration": "全体は直列なので足します。4.0たす2.0で6.0オームです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：全体の合成抵抗",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "R全 = 4.0 + 2.0 = 6.0 Ω",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "直列は足すだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：全体の合成抵抗"
+    },
+    {
+      "narration": "全電流は 12割る6.0 で2.0アンペアです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：全電流を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I = 12 / 6.0 = 2.0 A",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "オームの法則。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：全電流を出す"
+    },
+    {
+      "narration": "並列部分の電圧は、合成抵抗2.0オームかける2.0アンペアで4.0ボルトです。答えは、電流2.0アンペア、電圧4.0ボルトです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：並列部分の電圧",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "V = 2.0 × 2.0 = 4.0 V",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：I = 2.0 A、V = 4.0 V",
+          "active": true
+        }
+      ],
+      "caption": "手順4：並列部分の電圧"
+    },
+    {
+      "narration": "検算です。電圧の合計を見ます。4.0オームにかかる電圧は 4.0かける2.0の8.0ボルト。並列部分は4.0ボルト。合計12ボルトで、起電力と一致します。さらに、並列の枝の電流は 4.0割る6.0 のおよそ0.67アンペアと、4.0割る3.0 のおよそ1.3アンペアで、合計2.0アンペアです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "8.0 V + 4.0 V = 12 V",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.67 A + 1.33 A = 2.0 A",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電圧と電流の両方で確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。並列部分では、抵抗が小さい枝に大きい電流が流れます。電流は抵抗の逆比になります。それから、消費電力は ピー イコール ブイアイ、または アイ2乗アール で計算できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "並列の電流は抵抗の逆比",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P = VI = I²R = V²/R",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。並列を先にまとめ、全体の合成抵抗で全電流、あとは アールアイ で各部分に戻す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "並列を先にまとめ、全体の合成抵抗で全電流、あとは RI で各部分に戻す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：6.0 Ωの枝と3.0 Ωの枝に流れる電流をそれぞれ求めよ。 → 6.0 Ω：0.67 A、3.0 Ω：1.3 A",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

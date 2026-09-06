@@ -32,18 +32,49 @@ PITCH = "+8Hz"
 TAIL_SEC = 0.7
 
 
-# IPA Pゴシックに無い上付き数字は「^n」に置き換える（豆腐対策）。
-GLYPH_FALLBACK = {"⁰": "^0", "⁴": "^4", "⁵": "^5", "⁶": "^6", "⁷": "^7", "⁸": "^8", "⁹": "^9"}
+# IPA ゴシックが持つ上付き文字は ¹²³ だけ。それ以外は豆腐（□）になるので
+# 「^2」「^(n+1)」の形に落とす。下付きは1つも持たないので普通の文字にする。
+SUPERSCRIPTS = dict(zip("⁰¹²³⁴⁵⁶⁷⁸⁹ⁿ⁺⁻ˣᵏᵐ", "0123456789n+-xkm"))
+SUBSCRIPTS = dict(zip("₀₁₂₃₄₅₆₇₈₉ₙ₊₋", "0123456789n+-"))
+SUBSCRIPTS.update(zip("ₐₑₕᵢⱼₖₗₘₒₚᵣₛₜᵤᵥₓ", "aehijklmoprstuvx"))
+FONT_HAS_SUPERSCRIPT = set("¹²³")
 
 
 def safe(text: str) -> str:
-    for src, dst in GLYPH_FALLBACK.items():
-        text = text.replace(src, dst)
-    return text
+    out = []
+    i = 0
+    while i < len(text):
+        for table, marker in ((SUPERSCRIPTS, "^"), (SUBSCRIPTS, "")):
+            if text[i] in table:
+                run = ""
+                while i < len(text) and text[i] in table:
+                    run += text[i]
+                    i += 1
+                plain = "".join(table[c] for c in run)
+                if table is SUPERSCRIPTS and set(run) <= FONT_HAS_SUPERSCRIPT:
+                    out.append(run)  # そのまま表示できる
+                elif "+" in plain or "-" in plain:
+                    out.append(f"{marker}({plain})")
+                else:
+                    out.append(marker + plain)
+                break
+        else:
+            out.append(text[i])
+            i += 1
+    return "".join(out)
 
 
 def font(size: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(FONT_PATH, size)
+
+
+def fit_font(text: str, size: int, max_w: int) -> ImageFont.FreeTypeFont:
+    """枠幅に収まる最大のフォントを返す（下限14pt）。"""
+    f = font(size)
+    while size > 14 and f.getlength(text) > max_w:
+        size -= 1
+        f = font(size)
+    return f
 
 
 def rounded(draw: ImageDraw.ImageDraw, box, radius, fill, outline=None, width=1) -> None:
@@ -80,7 +111,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
          "angles": [{"at": "A", "from": "B", "to": "C", "text": "60°"}],
          "labels": [{"at": "A", "text": "A", "dx": -28, "dy": -34}],
          "circles": [{"center": "O", "through": "A"}],
-         "shaded": [{"center": "O", "from": "A", "to": "B", "apex": "H"}]}
+         "shaded": [{"center": "O", "from": "A", "to": "B", "apex": "H"}],
+         "curves": [[[-2, 4], [-1, 1], [0, 0], [1, 1], [2, 4]]],
+         "axes": true}
+
+    curves は数学座標の点列で、そのまま折れ線として描く（放物線などのグラフ用）。
+    axes を true にすると、図の範囲いっぱいに x 軸・y 軸を引く。
 
     circles は中心と円周上の1点で指定する。shaded は「頂点 apex ＋ 弦の両端 from, to
     を結び、from から to への短いほうの弧でふたをした領域」を塗る。
@@ -91,7 +127,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
         for c in fig.get("circles", [])
     ]
 
+    curves = [[(float(p[0]), float(p[1])) for p in c] for c in fig.get("curves", [])]
+
     bounds = dict(pts)
+    for i, curve in enumerate(curves):
+        for j, p in enumerate(curve):
+            bounds[f"_v{i}_{j}"] = p
     for i, (o, r) in enumerate(circles):
         bounds[f"_c{i}min"] = (o[0] - r, o[1] - r)
         bounds[f"_c{i}max"] = (o[0] + r, o[1] + r)
@@ -110,6 +151,12 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
             for i in range(n + 1)
         ]
 
+    if fig.get("axes"):
+        xs = [p[0] for p in bounds.values()]
+        ys = [p[1] for p in bounds.values()]
+        d.line([to_px((min(xs), 0)), to_px((max(xs), 0))], fill=SUB, width=2)
+        d.line([to_px((0, min(ys))), to_px((0, max(ys)))], fill=SUB, width=2)
+
     for item in fig.get("shaded", []):
         o, r = circles[item.get("circle", 0)]
         arc = arc_points(o, r, pts[item["from"]], pts[item["to"]])
@@ -124,6 +171,9 @@ def draw_figure(d: ImageDraw.ImageDraw, box, fig) -> None:
         d.polygon([P[k] for k in poly], fill=(255, 255, 255), outline=None)
         seq = [P[k] for k in poly] + [P[poly[0]]]
         d.line(seq, fill=INK, width=3, joint="curve")
+
+    for curve in curves:
+        d.line([to_px(p) for p in curve], fill=INK, width=3, joint="curve")
 
     for seg in fig.get("segments", []):
         a, b = P[seg[0]], P[seg[1]]
@@ -174,9 +224,10 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
 
     d.rectangle([0, 0, WIDTH, 96], fill=CARD)
     d.rectangle([0, 96, WIDTH, 100], fill=ACCENT)
-    d.text((56, 26), safe(title), font=font(34), fill=INK)
+    head_w = WIDTH - 112
+    d.text((56, 26), safe(title), font=fit_font(safe(title), 34, head_w), fill=INK)
     if subtitle:
-        d.text((56, 66), safe(subtitle), font=font(18), fill=SUB)
+        d.text((56, 66), safe(subtitle), font=fit_font(safe(subtitle), 18, head_w), fill=SUB)
 
     top = 140
     rounded(d, [48, top, WIDTH - 48, HEIGHT - 132], 18, CARD, LINE, 2)
@@ -201,23 +252,28 @@ def draw_slide(path: Path, title: str, subtitle: str, lines, caption: str, figur
                 ACCENT if active else LINE,
                 2,
             )
-            d.text((108, y + 14), text, font=font(26 if figure else 30), fill=INK)
+            d.text((108, y + 14), text,
+                   font=fit_font(text, 26 if figure else 30, right - 132), fill=INK)
             y += box_h + 18
         elif style == "head":
             d.rectangle([84, y + 6, 90, y + 34], fill=ACCENT)
-            d.text((104, y), text, font=font(28), fill=ACCENT if active else INK)
+            d.text((104, y), text, font=fit_font(text, 28, right - 124),
+                   fill=ACCENT if active else INK)
             y += 52
         elif style == "note":
-            d.text((104, y), text, font=font(21 if figure else 23), fill=ACCENT if active else SUB)
+            d.text((104, y), text, font=fit_font(text, 21 if figure else 23, right - 124),
+                   fill=ACCENT if active else SUB)
             y += 42
         else:
-            d.text((104, y), text, font=font(25), fill=INK if active else SUB)
+            d.text((104, y), text, font=fit_font(text, 25, right - 124),
+                   fill=INK if active else SUB)
             y += 44
 
     if caption:
         d.rectangle([0, HEIGHT - 96, WIDTH, HEIGHT], fill=(29, 36, 48))
         wrapped = safe(caption)
-        d.text((56, HEIGHT - 68), wrapped, font=font(24), fill=(255, 255, 255))
+        d.text((56, HEIGHT - 68), wrapped, font=fit_font(wrapped, 24, WIDTH - 112),
+               fill=(255, 255, 255))
 
     img.save(path)
 

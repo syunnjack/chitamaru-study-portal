@@ -1,0 +1,215 @@
+{
+  "title": "電子配置とイオン（希ガスに合わせる）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。原子番号12のマグネシウム原子の電子配置を書き、生じるイオンの化学式を答えてください。また、そのイオンと同じ電子配置をもつ希ガスの元素記号も答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "原子番号 12 のマグネシウム原子。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電子配置とイオンの化学式を答えよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同じ電子配置の希ガスも答えよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。電子は内側から、ケー殻に2個、エル殻に8個、エム殻に8個の順に入ります。イオンになるときは、いちばん近い希ガスと同じ電子配置になるように電子をやりとりします。金属は電子を出して陽イオン、非金属は受け取って陰イオン。この方針だけで価数が決まります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電子は K殻2、L殻8、M殻8（最大18）の順に入る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イオンは「最も近い希ガスの電子配置」を目指す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "金属は電子を出して陽イオン、非金属は受け取って陰イオン",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず電子配置です。電子は12個なので、ケー殻に2個、エル殻に8個、残りの2個がエム殻に入ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：電子配置を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg：K2、L8、M2（電子12個）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "内側から順に詰める。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：電子配置を書く"
+    },
+    {
+      "narration": "エム殻の2個を出せば、ネオンと同じ、ケー2、エル8の配置になります。8個受け取るより2個出す方が近いので、電子を出します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：どちらが近いか判断する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "M殻の2個を出せば Ne(K2, L8) と同じ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "出す方が近い。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：どちらが近いか判断する"
+    },
+    {
+      "narration": "したがってマグネシウムは電子2個を出して、2価の陽イオン、エムジー2プラスになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：イオンの化学式",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg²⁺（2価の陽イオン）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "金属は陽イオン。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：イオンの化学式"
+    },
+    {
+      "narration": "このイオンの電子は10個で、ネオンと同じ電子配置です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：同じ配置の希ガス",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Ne（ネオン）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "電子10個で一致。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：同じ配置の希ガス"
+    },
+    {
+      "narration": "検算です。マグネシウムのイオンは電子10個。ネオンの原子番号も10なので電子配置が一致します。また周期表で2族の金属は2価の陽イオンになるという規則にも合っています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg²⁺ の電子 = 12 − 2 = 10",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Ne の電子 = 10 で一致",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2族の金属は2価の陽イオン",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、イオン半径は陽イオンになると小さく、陰イオンになると大きくなります。電子が減ると引き寄せが強くなるからです。ふたつ目、価数は族番号から出せます。1族は1価、2族は2価の陽イオン、16族は2価、17族は1価の陰イオン。表を作らず族で覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "陽イオンは小さく、陰イオンは大きくなる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "価数は族番号で決まる（1族+1、17族−1）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。電子はケー2、エル8、エム8。イオンは、いちばん近い希ガスの配置を目指す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電子はK2・L8・M8。イオンは最も近い希ガスの配置を目指す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：原子番号17の塩素が生じるイオンの化学式と、同じ電子配置の希ガスを答えよ。 → Cl⁻、Ar",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

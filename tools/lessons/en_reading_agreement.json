@@ -1,0 +1,225 @@
+{
+  "title": "長文：内容一致問題（限定語に注意）",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。内容一致問題です。図書館は昨年4月に3階に自習室を開いた。すべての学生が利用できるが、席は少なくとも1日前までにオンラインで予約しなければならない。選択肢は、エー 誰でも予約なしで使える、ビー 前日までにネット予約が必要、シー 3年生だけが使える。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The library opened a study room on",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the third floor last April. It is open to",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "all students, but seats must be reserved",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "online at least one day in advance.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) 予約不要 (B) 前日までに予約 (C) 3年生のみ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。内容一致問題は、選択肢の限定語で決まります。オール、オンリー、マスト、ネバー のような語に線を引き、本文の該当箇所と1対1で照合します。言いすぎている選択肢は誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢の「限定語」に線を引く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "all / only / must / never を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文の1か所と1対1で照合する",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "本文には2点あります。すべての学生が使える、そして1日前までにオンライン予約が必要、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：本文の条件を整理",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "open to all students / reserve online 1 day in advance",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "利用資格と手続きの2点。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：本文の条件を整理"
+    },
+    {
+      "narration": "エーは予約なし、とありますが、本文には マスト ビー リザーブド と書かれているので矛盾します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(A) を照合",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「予約なし」は本文と矛盾",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "must be reserved がある。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(A) を照合"
+    },
+    {
+      "narration": "シーは3年生だけ、ですが、本文は オール ステューデンツ です。矛盾します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(C) を照合",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「3年生だけ」は本文になし",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "all students と矛盾。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(C) を照合"
+    },
+    {
+      "narration": "答えはビー。アット リースト ワン デイ イン アドバンス の言いかえになっています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) 前日までにネット予約が必要",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "at least one day in advance の言いかえ",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。正解の根拠となる本文の1文を指で示せるかを確認します。ビーの根拠は最後の1文です。根拠の文を示せない選択肢は、たとえ内容が正しそうでも選びません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "根拠の1文を示せるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "示せなければ選ばない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "正解は必ず本文に根拠がある",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。数字は必ず本文と照合します。アット リースト は以上、アット モスト は以下です。それから、ノット 問題では、正しい選択肢を3つ消す作業になるので、最後に回します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "at least（以上）／at most（以下）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "NOT問題は3つ消す作業",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。内容一致は選択肢の限定語に線を引き、根拠の1文と1対1で照合する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "内容一致は選択肢の限定語に線を引き、根拠の1文と1対1で照合する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：選択肢に only が入っているとき、まず何を確認すべきか答えよ。 → 本文が「〜だけ」と限定しているか（言いすぎでないか）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

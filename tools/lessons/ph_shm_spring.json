@@ -1,0 +1,220 @@
+{
+  "title": "ばね振り子の単振動（周期と最大速さ）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ばね定数50ニュートン毎メートルのばねに、質量0.50キログラムのおもりをつけ、振幅0.10メートルで水平に単振動させます。周期と最大の速さを求めてください。摩擦はありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ばね定数 50 N/m、質量 0.50 kg、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "振幅 0.10 m で水平に単振動。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "周期 T と最大の速さ v を",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "求めよ（摩擦なし）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。まず角振動数 オメガ イコール ルート ケー割るエム を出す。周期は 2パイ割るオメガ。最大の速さは 振幅かけるオメガ です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ω = √(k/m)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 2π/ω",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最大の速さ v = Aω",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "オメガ は ルート 50割る0.5 で、ルート100の10ラジアン毎秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：角振動数を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ω = √(50 / 0.50) = √100 = 10 rad/s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "先にωを出すのが要領。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：角振動数を出す"
+    },
+    {
+      "narration": "周期は 2パイ割る10 で、0.2パイ。およそ0.63秒です。振幅には関係しません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：周期を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 2π/10 = 0.2π ≒ 0.63 s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "振幅には無関係。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：周期を出す"
+    },
+    {
+      "narration": "最大の速さは 振幅かけるオメガ で、0.10かける10の1.0メートル毎秒。ばねの自然長の位置、つまり中心を通るときです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：最大の速さ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = Aω = 0.10 × 10 = 1.0 m/s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "中心を通るときが最大。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：最大の速さ"
+    },
+    {
+      "narration": "答えは、周期およそ0.63秒、最大の速さ1.0メートル毎秒です。ついでに最大加速度は10メートル毎秒毎秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T ≒ 0.63 s、v = 1.0 m/s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "最大加速度は Aω² = 10 m/s²。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。エネルギー保存で確かめます。ばねの弾性エネルギー ケーエー2乗割る2 は、50かける0.01割る2で0.25ジュール。これが運動エネルギー エムブイ2乗割る2 になるので、ブイ は ルート 2かける0.25割る0.5 で1.0メートル毎秒。一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "kA²/2 = 0.25 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mv²/2 = 0.25 J → v = 1.0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "エネルギーで一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。周期は振幅を変えても変わりません。これが単振動の等時性です。それから、鉛直につるした場合も周期は同じで、つり合いの位置が下にずれるだけです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "周期は振幅によらない（等時性）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "鉛直でも T は同じ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。オメガ イコール ルート ケー割るエム を先に出す。周期は 2パイ割るオメガ、最大速さは エーオメガ、最大加速度は エーオメガ2乗。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ω = √(k/m) を先に出す。T = 2π/ω、最大速さ v = Aω、最大加速度 a = Aω²。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：質量を2.0 kgに変えたときの周期を求めよ（k = 50 N/m）。 → ω = 5.0 rad/s、T = 2π/5.0 ≒ 1.3 s",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

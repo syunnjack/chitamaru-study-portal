@@ -1,0 +1,215 @@
+{
+  "title": "波の基本式（v = fλ の使い分け）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。振動数2.0ヘルツ、波長0.50メートルの波が伝わっています。波の速さと周期を求めてください。またこの波が3.0秒間に進む距離も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "振動数 2.0 Hz、波長 0.50 m の波。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "波の速さ v と周期 T を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "また 3.0 s 間に進む距離を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。波の計算は、ブイ イコール エフ ラムダ と、ティー イコール 1 割る エフ の2本だけで足ります。振動数は波源が決め、速さは媒質が決める、と役割を分けて覚えます。進む距離は速さの式に戻して、エックス イコール ブイ ティー で求めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = fλ、T = 1/f の2本だけ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f は波源が決め、v は媒質が決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "距離は x = vt（速さの式に戻す）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず速さです。ブイ イコール エフ ラムダ に代入して、2.0かける0.50で、毎秒1.0メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：速さを出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = fλ = 2.0 × 0.50 = 1.0 m/s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "振動数×波長。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：速さを出す"
+    },
+    {
+      "narration": "次に周期です。ティー イコール 1 割る エフ で、1割る2.0は0.50秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：周期を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 1/f = 1/2.0 = 0.50 s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "周期は振動数の逆数。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：周期を出す"
+    },
+    {
+      "narration": "3.0秒間に進む距離は、エックス イコール ブイ ティー で、1.0かける3.0の3.0メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：進む距離を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x = vt = 1.0 × 3.0 = 3.0 m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "速さの式に戻すだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：進む距離を出す"
+    },
+    {
+      "narration": "答えは、速さが毎秒1.0メートル、周期が0.50秒、進む距離が3.0メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = 1.0 m/s、T = 0.50 s、x = 3.0 m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3つとも単位をつける。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。3.0秒は周期0.50秒のちょうど6個分なので、波は波長6個分だけ進むはずです。0.50メートルかける6で3.0メートル。さきほどの答えと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3.0 s ÷ 0.50 s = 6 周期",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "6 × 0.50 m = 3.0 m",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "波長の個数で確認する",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。まず、媒質が変わって速さが変わっても、振動数は変わらず波長だけが変わります。それから、波の速さは媒質の中を進む速さで、媒質そのものが動く速さではありません。ここを混ぜると干渉や屈折で必ず間違えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "媒質が変わると λ が変わる（f は不変）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "波の速さ ≠ 媒質の動く速さ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。波は ブイ イコール エフ ラムダ と ティー イコール 1 割る エフ の2本。振動数は波源、速さは媒質が決める。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "波は v = fλ と T = 1/f の2本。f は波源、v は媒質が決める。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：波長2.5 m、速さ5.0 m/sの波の振動数と周期を求めよ。 → f = 2.0 Hz、T = 0.50 s",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

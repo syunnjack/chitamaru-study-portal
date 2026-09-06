@@ -1,0 +1,215 @@
+{
+  "title": "自由英作文：譲歩と反論の型",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。自由英作文です。テーマは、生徒は授業中にスマートフォンを使うことを許されるべきか。譲歩を入れた構成で、80語程度で書いてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Should students be allowed to use",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "smartphones during class?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "（譲歩を入れて80語程度で書け）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。まず反対意見を認め、次にひっくり返します。イット イズ トゥルー ザット、ハウエバー の形です。反対意見を先に認めると、主張の説得力が上がります。上級の答案はこの形が多いです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "譲歩 → 反論 → 理由 → 結論",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It is true that … However, …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "反対意見を先に認めると説得力が上がる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "イット イズ トゥルー ザット スマートフォンズ キャン ヘルプ ステューデンツ ルック アップ インフォメーション クイックリー。まず相手の言い分を認めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：譲歩を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It is true that smartphones can help students look up information quickly.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "反対意見を認める。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：譲歩を書く"
+    },
+    {
+      "narration": "ハウエバー、アイ ビリーブ ゼイ シュッド ノット ビー ユーズド フリーリー デューリング クラス。ここが主張です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：反論して主張を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "However, I believe they should not be used freely during class.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "However の後が自分の主張。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：反論して主張を出す"
+    },
+    {
+      "narration": "ジス イズ ビコーズ モースト ステューデンツ キャンノット レジスト チェッキング メッセージズ。理由は1つで十分です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：理由を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This is because most students cannot resist checking messages.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "理由は1つで十分。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：理由を書く"
+    },
+    {
+      "narration": "ゼアフォー、フォンズ シュッド ビー ユーズド オンリー ホエン ザ ティーチャー アスクス ステューデンツ トゥー ユーズ ゼム。条件つきの結論は高評価になりやすいです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：条件つきの結論で閉じる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Therefore, phones should be used only when the teacher asks students to use them.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：譲歩＋反論＋理由＋条件つき結論",
+          "active": true
+        }
+      ],
+      "caption": "手順4：条件つきの結論で閉じる"
+    },
+    {
+      "narration": "検算です。譲歩と主張が矛盾していないかを見ます。便利だと認めた上で、自由な使用には反対、と条件をずらしているので矛盾しません。譲歩をそのまま否定すると、論理が崩れます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "譲歩と主張が矛盾しないか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "条件をずらして両立させる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全否定は論理が崩れる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。譲歩の表現は、イット イズ トゥルー ザット、アドミッテッドリー、オブ コース の3つを持っておきます。それから、結論に、オンリー ホエン のような条件を入れると、答案が具体的になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "譲歩：It is true that / Admittedly / Of course",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "結論に only when 〜 の条件を入れる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。上級の答案は、譲歩、ハウエバー で反論、理由、条件つき結論。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "上級の答案は「譲歩 → However で反論 → 理由 → 条件つき結論」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：譲歩を表す表現を3つ挙げよ。 → It is true that … / Admittedly, … / Of course, …",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

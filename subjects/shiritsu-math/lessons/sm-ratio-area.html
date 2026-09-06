@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>平行四辺形の面積比｜私立難関 数学 第3回</title>
+<meta name="description" content="平行線の相似で線分比を出し、高さ共通の面積比で降りる型。座標に置いた検算まで。東海・滝・南山女子など私立難関高校入試対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">私立難関 数学</a> ／ 第3回 平行四辺形と面積比（2段階で降りる）</div>
+
+<main class="wrap">
+  <h1>第3回　平行四辺形と面積比（線分比を面積比に変える）</h1>
+  <div class="formula">平行四辺形 ABCD で、辺 BC 上に BE : EC = 1 : 2 となる点 E をとる。線分 AE と対角線 BD の交点を P とする。平行四辺形 ABCD の面積を S とするとき、三角形 BPE の面積を S を用いて表せ。</div>
+  <p>面積比は、線分比を2段階でかけ算するだけの問題です。</p>
+
+  <video controls preload="metadata" src="../../../videos/sm-ratio-area.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/sm-ratio-area.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>相似で線分比を出す。</strong>AD ∥ BC より △PBE ∽ △PDA。</li>
+      <li><strong>面積比＝底辺の比。</strong>高さが共通なら比がそのまま使えます。</li>
+      <li><strong>2段階で降りる。</strong>S → △ABE → △BPE。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>△ABE を S で表す</strong><div class="formula">BE : BC = 1 : 3、△ABE = (1/2)·(1/3)·S = S/6</div><p>底辺の比。</p></li>
+    <li><strong>相似から比を出す</strong><div class="formula">AD ∥ BC より △PBE ∽ △PDA、相似比 BE : DA = 1 : 3</div><p>AP : PE = 3 : 1。</p></li>
+    <li><strong>△BPE を出す</strong><div class="formula">△BPE : △ABE = PE : AE = 1 : 4</div><p>共通の頂点 B。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">△BPE = (1/4)·(S/6) = S/24</div><p>答え S/24。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>座標に置いて検算します。B(0,0), C(3,0), A(0,1) とすると P(3/4, 1/4)、△BPE = 1/8、S = 3 で S/24 と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>比の問題は自分で座標を置いて検算できます。原点と単位は都合よく決めてかまいません。</li>
+      <li>相似比が 1:3 なら面積比は 1:9、体積比は 1:27。指数の違いに注意します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>平行線→相似で線分比。高さ共通なら面積比＝底辺比。2段階で降りる。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>相似比が 2 : 5 のとき面積比を答えよ。
+        <details><summary>答え</summary><p>4 : 25</p></details>
+      </li>
+      <li>△ABC で BD : DC = 2 : 3 のとき △ABD : △ADC を答えよ。
+        <details><summary>答え</summary><p>2 : 3</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sm-parabola-line.html">← 第2回 放物線と直線（y 軸で切る）</a>　｜　<a href="sm-circle-angle.html">第4回 円と角（3定理で追う） →</a>　｜　<a href="../index.html">私立難関 数学の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>見かけの重さ｜物理基礎 第12回</title>
+<meta name="description" content="体重計が示すのは垂直抗力。N − mg = ma の1本でエレベーター内の見かけの重さを出す型を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第12回 エレベーターの中の体重計（見かけの重さ）</div>
+
+<main class="wrap">
+  <h1>第12回　エレベーターの中の体重計（見かけの重さ）</h1>
+  <div class="formula">質量50 kgの人が体重計に乗ってエレベーターに乗っている。エレベーターが上向きに1.2 m/s²で加速しているとき、体重計の示す力を求めよ。また下向きに1.2 m/s²で加速しているときはどうなるか（g = 9.8 m/s²）。</div>
+  <p>体重計は重力を測っていません。押し返す力を測っています。ここを直すだけで解けます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-apparent-weight.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-apparent-weight.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>体重計は垂直抗力を表示する。</strong>「重さ」ではなく N を求める問題だと読み替えます。</li>
+      <li><strong>注目するのは人だけ。</strong>人に働く力は重力 mg（下）と垂直抗力 N（上）の2つです。</li>
+      <li><strong>N − mg = ma を1本。</strong>a の符号を入れれば、加速・減速・等速すべてこの1本で足ります。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>静止時の値を出す</strong><div class="formula">mg = 50 × 9.8 = 490 N</div><p>基準の値を先に持つ。</p></li>
+    <li><strong>上向き加速のとき</strong><div class="formula">N − 490 = 50 × 1.2 → N = 550 N</div><p>重力より大きくなる。</p></li>
+    <li><strong>下向き加速のとき</strong><div class="formula">N − 490 = 50 × (−1.2) → N = 430 N</div><p>a に負の符号を入れるだけ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">上向き加速：550 N、下向き加速：430 N</div><p>差はどちらも 60 N。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>ずれは ma = 60 N。490 ± 60 で 550 N と 430 N。上下で対称にずれることを確認します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>上昇中はずっと重い、ではありません。等速で上がっている間は静止時と同じ 490 N です。</li>
+      <li>a = −g のとき N = 0。宇宙ステーションの無重力も、同じ「自由落下している」状態です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>体重計は N を示す。N − mg = ma の1本で、上向き加速なら重く、下向き加速なら軽い。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>質量40 kgの人が上向きに2.0 m/s²で加速するエレベーターに乗るときの体重計の値を求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>N = 40×(9.8 + 2.0) = 472 N</p></details>
+      </li>
+      <li>等速で下降するエレベーターの中で体重計の値はどうなるか。
+        <details><summary>答え</summary><p>a = 0 なので N = mg（静止時と同じ）</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-free-fall-graph.html">← 第11回 投げ上げとv-tグラフ（面積と傾き）</a>　｜　<a href="pb-work-power.html">第13回 仕事と仕事率（角度と時間） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

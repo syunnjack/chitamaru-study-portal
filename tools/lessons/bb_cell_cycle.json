@@ -1,0 +1,215 @@
+{
+  "title": "細胞周期の計算（数の割合＝時間の割合）",
+  "subtitle": "生物基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。細胞周期が20時間の細胞集団を観察したところ、1000個の細胞のうち分裂期の細胞が50個でした。分裂期の長さを求めてください。またディーエヌエー量が2倍になる時期の名前も答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "細胞周期 20 時間、観察した 1000 個のうち分裂期が 50 個。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "分裂期の長さを求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "DNA量が2倍になる時期の名前を答えよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。細胞周期の計算は、観察した細胞数の割合が、そのままその時期にかかる時間の割合になる、という考え方だけです。長い時期には多くの細胞がいる、と考えれば当たり前です。だからその時期の長さは、周期全体に細胞数の割合をかけるだけ。順序はジーワン、エス期、ジーツー、エム期です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "細胞数の割合 = その時期にかかる時間の割合",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "その時期の長さ = 周期 × (その時期の細胞数 ÷ 全細胞数)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "順序：G₁ → S（DNA合成）→ G₂ → M（分裂期）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず割合です。1000個のうち50個なので、0.050、つまり5パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：割合を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "50 ÷ 1000 = 0.050",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "分裂期の細胞の割合。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：割合を出す"
+    },
+    {
+      "narration": "これに周期の20時間をかけて、分裂期の長さは1.0時間です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：時間に直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "20 × 0.050 = 1.0 時間",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "周期×割合。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：時間に直す"
+    },
+    {
+      "narration": "ディーエヌエー量が2倍になるのはエス期です。分裂期ではないので注意します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：DNA量が2倍になる時期",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "S期（DNA合成期）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "分裂期ではない。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：DNA量が2倍になる時期"
+    },
+    {
+      "narration": "答えは、分裂期の長さが1.0時間、ディーエヌエー量が2倍になるのはエス期です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "分裂期 = 1.0 時間、DNA倍加は S 期",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "式1本と用語1つ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。分裂期が1.0時間ということは、周期20時間のうち5パーセント。観察された細胞の割合5パーセントと一致します。また分裂期は細胞周期の中でふつう最も短い時期なので、20時間のうち1時間という値も妥当です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1.0 / 20 = 5 %（観察割合と一致）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "分裂期は最も短い時期",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "値として妥当",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、ディーエヌエー量が2倍になるのはエス期で、細胞の数が2倍になるのはエム期の終わりです。何が2倍になるかを区別して読みます。ふたつ目、体細胞分裂ではディーエヌエー量は2倍になってから半分に戻り、もとに戻ります。減数分裂だけが半分になったまま終わります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "DNA量が2倍＝S期、細胞数が2倍＝M期の終わり",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "体細胞分裂は元に戻る／減数分裂は半分になる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。細胞数の割合は時間の割合。時期の長さは、周期かける割合。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "細胞数の割合＝時間の割合。時期の長さ＝周期×割合。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：周期24時間で、800個中200個がS期の細胞だった。S期の長さを求めよ。 → 24 × 0.25 = 6.0 時間",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

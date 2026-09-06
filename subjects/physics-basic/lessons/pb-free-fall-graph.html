@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>投げ上げとv-tグラフ｜物理基礎 第11回</title>
+<meta name="description" content="投げ上げは a = −g の等加速度。最高点は v = 0、v-tグラフは傾きが加速度・面積が変位。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第11回 投げ上げとv-tグラフ（面積と傾き）</div>
+
+<main class="wrap">
+  <h1>第11回　投げ上げとv-tグラフ（面積と傾きで読む）</h1>
+  <div class="formula">小球を地面から真上に24.5 m/sで投げ上げた。最高点に達するまでの時間と最高点の高さを求めよ。また投げ上げてから3.0 s後の速度を求めよ（g = 9.8 m/s²、上向きを正）。</div>
+  <p>投げ上げに新しい式はありません。符号を最初に決めて、最高点の合図を覚えるだけです。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-free-fall-graph.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-free-fall-graph.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>上向きを正と決めたら a = −9.8 m/s² で固定。</strong>途中で符号を変えないのが最大のコツです。</li>
+      <li><strong>「最高点」は v = 0 の言い換え。</strong>0 = v₀ − gt から時間が出ます。</li>
+      <li><strong>グラフは傾きと面積。</strong>傾きが加速度、横軸と囲む面積が変位（軸より下は負の変位）です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>最高点までの時間</strong><div class="formula">0 = 24.5 − 9.8t より t = 2.5 s</div><p>最高点は v = 0。</p></li>
+    <li><strong>最高点の高さ</strong><div class="formula">0 − 24.5² = 2(−9.8)h より h = 30.625 ≒ 31 m</div><p>時間を使わない式が速い。</p></li>
+    <li><strong>3.0 s後の速度</strong><div class="formula">v = 24.5 − 9.8 × 3.0 = −4.9 m/s</div><p>負＝下向き。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">t = 2.5 s、h ≒ 31 m、v = −4.9 m/s（下向き）</div><p>符号は向きを表す。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>等加速度なら平均の速さは (v₀ + 0)/2 = 12.25 m/s。h = 12.25 × 2.5 = 30.625 m で答えと一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>最高点で「加速度もゼロ」とするのが最頻出のミスです。速度だけがゼロで、重力はかかり続けています。</li>
+      <li>投げ上げは対称です。地面に戻るのは 5.0 s後、そのときの速さは 24.5 m/s（向きは下）になります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>投げ上げは a = −g の等加速度。最高点は v = 0、グラフは傾き＝a・面積＝変位。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>真上に14.7 m/sで投げ上げたときの最高点の高さを求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>h = 14.7²/(2×9.8) = 11.025 ≒ 11 m</p></details>
+      </li>
+      <li>自由落下で2.0 s落ちた物体の速さと落下距離を求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>v = 19.6 m/s、x = 0.5×9.8×4.0 = 19.6 m</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-energy-efficiency.html">← 第10回 エネルギーの変換と効率（発電の計算）</a>　｜　<a href="pb-apparent-weight.html">第12回 エレベーターの中の体重計（見かけの重さ） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

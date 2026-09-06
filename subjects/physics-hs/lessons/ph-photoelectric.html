@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>光電効果｜高校物理 第19回</title>
+<meta name="description" content="E = hc/λ から仕事関数を引くだけ。eV単位のまま計算する型と限界波長の意味を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第19回 光電効果（限界波長とエネルギー）</div>
+
+<main class="wrap">
+  <h1>第19回　光電効果（限界波長とエネルギー）</h1>
+  <div class="formula">仕事関数2.0 eVの金属に波長4.0 × 10⁻⁷ mの光を当てる。飛び出す電子の運動エネルギーの最大値を求めよ。また、この金属の限界波長を求めよ（hc = 1.24 × 10⁻⁶ eV·m）。</div>
+  <p>光電効果は計算が重そうに見えますが、eVのまま扱えば引き算1回で終わります。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-photoelectric.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-photoelectric.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>まず光子のエネルギー。</strong>E = hc/λ。hc = 1.24 × 10⁻⁶ eV·m を使えばそのままeVで出ます。</li>
+      <li><strong>引き算だけ。</strong>K<sub>max</sub> = E − W。負になれば電子は飛び出しません。</li>
+      <li><strong>限界波長は境目。</strong>K = 0 のときで λ₀ = hc / W。波長が長いほどエネルギーは小さい。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>光子のエネルギー</strong><div class="formula">E = 1.24 × 10⁻⁶ / (4.0 × 10⁻⁷) = 3.1 eV</div><p>eVのまま計算する。</p></li>
+    <li><strong>運動エネルギー</strong><div class="formula">Kmax = E − W = 3.1 − 2.0 = 1.1 eV</div><p>引き算だけ。</p></li>
+    <li><strong>限界波長の式</strong><div class="formula">λ₀ = hc / W = 1.24 × 10⁻⁶ / 2.0</div><p>K = 0 の境目。</p></li>
+    <li><strong>限界波長を求める</strong><div class="formula">λ₀ = 6.2 × 10⁻⁷ m（620 nm）</div><p>これより長い光では飛び出さない。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>当てた光400 nmは限界波長620 nmより短いので飛び出すはず。Kmax = 1.1 eV > 0 と整合します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>光を強くしても電子1個の運動エネルギーは変わりません。増えるのは電子の個数です。</li>
+      <li>波長が長いほど光子のエネルギーは小さい。だから限界波長より長い光では飛び出しません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>光電効果は E = hc/λ から W を引くだけ。限界波長は λ₀ = hc/W。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>波長6.2 × 10⁻⁷ mの光を同じ金属に当てたときの最大運動エネルギーを求めよ。
+        <details><summary>答え</summary><p>E = 2.0 eV なので Kmax = 0（ちょうど限界）</p></details>
+      </li>
+      <li>仕事関数4.0 eVの金属の限界波長を求めよ。
+        <details><summary>答え</summary><p>λ₀ = 1.24 × 10⁻⁶ / 4.0 = 3.1 × 10⁻⁷ m</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-transformer-rms.html">← 第18回 変圧器と実効値（電力が保存する）</a>　｜　<a href="ph-half-life.html">第20回 放射性崩壊と半減期（回数で数える） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>圧力と浮力｜物理基礎 第15回</title>
+<meta name="description" content="圧力は p = p₀ + ρgh で深さだけ、浮力は F = ρVg で押しのけた液体の重さ。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第15回 圧力と浮力（深さと体積）</div>
+
+<main class="wrap">
+  <h1>第15回　圧力と浮力（深さと押しのけた体積）</h1>
+  <div class="formula">水の密度を1.0×10³ kg/m³、g = 9.8 m/s²、大気圧を1.0×10⁵ Paとする。水面から2.0 mの深さでの圧力を求めよ。また体積5.0×10⁻⁴ m³の物体を完全に水に沈めたときの浮力を求めよ。</div>
+  <p>圧力は深さだけ、浮力は体積だけ。見るところを1つに絞ります。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-pressure-buoyancy.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-pressure-buoyancy.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>圧力は深さだけ。</strong>p = p₀ + ρgh。同じ深さなら、細い管でも広い池でも同じ圧力です。</li>
+      <li><strong>浮力は押しのけた液体の重さ。</strong>F = ρVg の V は「水中にある部分の体積」です。</li>
+      <li><strong>単位をmとkgに直す。</strong>cmやgのままだと桁が必ず狂います。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>水柱の圧力を出す</strong><div class="formula">ρgh = 1.0×10³ × 9.8 × 2.0 = 1.96×10⁴ Pa</div><p>深さ2.0 m分の圧力。</p></li>
+    <li><strong>大気圧を足す</strong><div class="formula">p = 1.0×10⁵ + 1.96×10⁴ ≒ 1.2×10⁵ Pa</div><p>水面でも大気圧がかかる。</p></li>
+    <li><strong>浮力を出す</strong><div class="formula">F = ρVg = 1.0×10³ × 5.0×10⁻⁴ × 9.8 = 4.9 N</div><p>押しのけた水の重さ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">p ≒ 1.2×10⁵ Pa、F = 4.9 N</div><p>圧力はPa、浮力はN。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>押しのけた水は0.50 kg、その重さは4.9 N。浮力と一致します（アルキメデスの原理）。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>浮力は物体の重さによりません。同じ体積の鉄と木は同じ浮力を受け、沈むかどうかは重力との比較で決まります。</li>
+      <li>圧力 p = p₀ + ρgh に体積は入りません。深さが同じなら容器の形や水量に関係なく同じ値です。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>圧力 p = p₀ + ρgh（深さのみ）、浮力 F = ρVg（水中部分の体積）。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>水面から5.0 mの深さでの水による圧力を求めよ（ρ = 1.0×10³、g = 9.8）。
+        <details><summary>答え</summary><p>4.9×10⁴ Pa（大気圧を除く）</p></details>
+      </li>
+      <li>体積2.0×10⁻³ m³の物体を半分だけ水に沈めたときの浮力を求めよ。
+        <details><summary>答え</summary><p>F = 1.0×10³ × 1.0×10⁻³ × 9.8 = 9.8 N</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-spring.html">← 第14回 ばねのつり合い（フックの法則）</a>　｜　<a href="pb-latent-heat.html">第16回 状態変化と潜熱（区間で分ける） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

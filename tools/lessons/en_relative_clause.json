@@ -1,0 +1,215 @@
+{
+  "title": "関係詞で2文を1文にする",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を関係詞を使って1文にしてください。アイ スティル ユーズ ア ディクショナリー。マイ アント ゲイブ イット トゥー ミー テン イヤーズ アゴー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I still use a dictionary.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My aunt gave it to me ten years ago.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "関係詞で1文にせよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。共通の名詞を探す、2文目でその語を消す、消した位置が主語か目的語かで関係詞を決める。以上です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "共通の名詞を探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2文目でその語を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "消した位置が主語なら who/which、目的語なら which（省略可）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "共通の名詞を探します。ア ディクショナリー と イット が同じものです。先行詞は ア ディクショナリー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：共通の名詞を見つける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a dictionary = it",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "先行詞は a dictionary。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：共通の名詞を見つける"
+    },
+    {
+      "narration": "2文目から イット を消します。ゲイブ の目的語の位置が空きました。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：2文目から it を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My aunt gave ___ to me ten years ago.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "gave の目的語が空いた。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：2文目から it を消す"
+    },
+    {
+      "narration": "空いたのは目的語の位置で、先行詞は物です。よって ウィッチ、または ザット。目的格なので省略もできます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：関係詞を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的語 + 物 → which（that も可）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "目的格なので省略できる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：関係詞を決める"
+    },
+    {
+      "narration": "1文にまとめます。アイ スティル ユーズ ア ディクショナリー ウィッチ マイ アント ゲイブ トゥー ミー テン イヤーズ アゴー。ウィッチ は省略してもかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：1文にまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I still use a dictionary (which) my aunt gave to me ten years ago.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：which / that は省略可。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：1文にまとめる"
+    },
+    {
+      "narration": "検算です。関係詞の後ろを見て、名詞がひとつ足りない状態になっているかを確認します。足りていれば関係代名詞で正しく、完全な文になっているなら ウェア や ウェン のような関係副詞が必要です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "関係代名詞 → 後ろは名詞が1つ不足",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "関係副詞 → 後ろは完全な文",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "gave ___ to me → 不足あり",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。関係代名詞は、目的格のときだけ省略できます。主格は省略できません。それから、コンマのあとに置く用法は、先行詞の説明を付け足す形で、ザット は使えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "省略できるのは目的格だけ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "コンマの後ろに that は不可",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。2文目で共通語を消し、空いた位置が主語なら フー や ウィッチ、目的語なら ウィッチ で省略可。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2文目で共通語を消し、空いた位置が主語なら who/which、目的語なら which（省略可）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「これは彼女が生まれた町です」を関係詞で英語に。 → This is the town where she was born.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

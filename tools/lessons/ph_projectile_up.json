@@ -1,0 +1,220 @@
+{
+  "title": "鉛直投げ上げ（等加速度の3公式）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。地面から初速度19.6メートル毎秒で真上に投げ上げた小球について、最高点に達する時間と、最高点の高さを求めてください。重力加速度は9.8メートル毎秒毎秒、空気抵抗は無視します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "初速度 19.6 m/s で真上に投げ上げる。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最高点に達する時間 t と",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最高点の高さ h を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "（g = 9.8 m/s²、空気抵抗なし）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。上向きを正にとると、加速度はマイナス ジー になります。最高点の条件は、速度がゼロ。この2つだけで解けます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "上向きを正にとる → a = −g",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = v₀ + at",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最高点は v = 0",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "上向きを正にとります。加速度はマイナス9.8。最高点では速度がゼロです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：正の向きと条件",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "上向き正、a = −9.8、最高点で v = 0",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "v₀ = 19.6",
+          "active": true
+        }
+      ],
+      "caption": "手順1：正の向きと条件"
+    },
+    {
+      "narration": "ブイ イコール ブイゼロ たす エーティー に入れます。ゼロ イコール 19.6ひく9.8ティー。ティー は2.0秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：時間を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0 = 19.6 − 9.8t → t = 2.0 s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "v = v₀ + at を使う。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：時間を求める"
+    },
+    {
+      "narration": "高さは、19.6かける2.0ひく4.9かける2.0の2乗で、39.2ひく19.6の19.6メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：高さを求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "h = 19.6 × 2.0 − 4.9 × 2.0² = 39.2 − 19.6 = 19.6 m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "y = v₀t + at²/2",
+          "active": true
+        }
+      ],
+      "caption": "手順3：高さを求める"
+    },
+    {
+      "narration": "答えは、最高点までの時間が2.0秒、高さが19.6メートルです。地面に戻るまでは、その倍の4.0秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "t = 2.0 s、h = 19.6 m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "落下して戻るまでは4.0 s。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。時間を使わない公式で確かめます。ブイの2乗ひく ブイゼロの2乗 イコール 2エーワイ。ゼロひく19.6の2乗は384.16。これをマイナス2かける9.8で割ると19.6メートル。一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v² − v₀² = 2ay",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0 − 384.16 = −19.6 × h",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "h = 19.6 m で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。投げ上げでは、上りと下りの時間が等しく、同じ高さでの速さも等しくなります。それから、加速度は上りでも下りでも下向きで一定です。最高点でも加速度はゼロになりません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "上りと下りは対称（時間も速さも同じ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最高点でも a = −g（0 ではない）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。上向き正で エー イコール マイナス ジー、最高点は ブイ イコール ゼロ。この2つで投げ上げは全部解ける。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "上向き正で a = −g、最高点は v = 0。この2つで投げ上げは全部解ける。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ小球が地面に戻るまでの時間を求めよ。 → 4.0 s（上りの2倍）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

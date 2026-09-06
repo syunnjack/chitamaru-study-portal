@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>力学的エネルギー保存｜物理基礎 第5回</title>
+<meta name="description" content="なめらかな面での速さは v = √(2gΔh)。力学的エネルギー保存を「はじめ＝あと」の1本で書く型を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第5回 力学的エネルギー保存（高さと速さの交換）</div>
+
+<main class="wrap">
+  <h1>第5回　力学的エネルギー保存（高さと速さの交換）</h1>
+  <div class="formula">なめらかな曲面の高さ1.8 mの点から、質量0.50 kgの小球を静かに離した。曲面の最下点での速さを求めよ。また高さ0.80 mの点での速さを求めよ（g = 9.8 m/s²）。</div>
+  <p>経路が複雑でも関係ありません。使うのは高さの差だけです。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-energy-conservation.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-energy-conservation.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>「なめらか」を合図にする。</strong>摩擦や空気抵抗がなければ (1/2)mv² + mgh は一定です。</li>
+      <li><strong>基準の高さを決めて2状態を並べる。</strong>「はじめ = あと」の1本だけを書きます。途中の経路は一切関係ありません。</li>
+      <li><strong>質量は消える。</strong>v = √(2gΔh)。答えに質量が残ったら式を立て間違えています。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>基準と2状態を決める</strong><div class="formula">最下点を高さの基準：はじめ h = 1.8 m, v₀ = 0</div><p>静かに離す＝初速0。</p></li>
+    <li><strong>保存の式を書く</strong><div class="formula">mgh = (1/2)mv² → v = √(2gh)</div><p>質量は両辺で消える。</p></li>
+    <li><strong>最下点の速さを出す</strong><div class="formula">v = √(2 × 9.8 × 1.8) = √35.28 ≒ 5.9 m/s</div><p>√の中を先に計算する。</p></li>
+    <li><strong>高さ0.80 mでの速さ</strong><div class="formula">v = √(2 × 9.8 × (1.8 − 0.80)) = √19.6 ≒ 4.4 m/s</div><p>使うのは高さの差だけ。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>速さは √Δh に比例するので 5.9 × √(1.0/1.8) ≒ 4.4 m/s。2つ目の答えと一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>なめらかな面なら速さは質量に無関係です。答えに m が残っていたら式の立て方が誤りです。</li>
+      <li>摩擦があるときは保存しません。減った力学的エネルギー = 動摩擦力 × 移動距離、で処理します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>なめらかなら (1/2)mv² + mgh 一定。v = √(2gΔh) で質量は消える。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>高さ5.0 mから静かに落とした物体の地面での速さを求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>v = √(2×9.8×5.0) = 9.9 m/s</p></details>
+      </li>
+      <li>速さ7.0 m/sで真上に投げた小球が達する最高点の高さを求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>h = v²/(2g) = 49/19.6 = 2.5 m</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-friction.html">← 第4回 摩擦力（静止と動摩擦の切り替え）</a>　｜　<a href="pb-heat-balance.html">第6回 熱量の保存（比熱と熱平衡の1本） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,210 @@
+{
+  "title": "to不定詞と動名詞（動詞の型）",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。括弧の中を適する形にしてください。アイ ファイナリー ディサイデッド 括弧 ジョイン ザ ディベート クラブ、バット アイ スティル アボイド 括弧 スピーク ファースト。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I finally decided ( join ) the debate",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "club, but I still avoid ( speak ) first.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "( )内を適する形にせよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、後ろの形は動詞ごとに決まっている、ということです。意味で選ぶのではなく、動詞をグループで覚えます。これからのことを表す動詞は トゥー ドゥー、すでにあることを表す動詞は ドゥーイング です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろの形は動詞ごとに決まっている",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "これから → to do",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "すでに / 頭の中の映像 → doing",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "前半の動詞は ディサイド。これからのことを決める動詞なので トゥー ドゥー のグループです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：前半の動詞を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "decide → to do",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「これから入ろうと決めた」。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：前半の動詞を確認する"
+    },
+    {
+      "narration": "前半は アイ ファイナリー ディサイデッド トゥー ジョイン ザ ディベート クラブ となります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：前半を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I finally decided to join the debate club.",
+          "active": true
+        }
+      ],
+      "caption": "手順2：前半を決める"
+    },
+    {
+      "narration": "後半の動詞は アボイド。ドゥーイング をとるグループなので、アボイド トゥー スピーク とは書けません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：後半の動詞を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "avoid → doing",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "avoid to speak は不可。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：後半の動詞を確認する"
+    },
+    {
+      "narration": "後半は アイ スティル アボイド スピーキング ファースト。答えは トゥー ジョイン と スピーキング です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：後半を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I still avoid speaking first.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：to join / speaking",
+          "active": true
+        }
+      ],
+      "caption": "手順4：後半を決める"
+    },
+    {
+      "narration": "検算です。動名詞をとる動詞は、頭文字を並べて覚えます。メガフェプス などの語呂で確認してもかまいませんが、確実なのは、その動詞を含む短い例文をひとつ暗記しておくことです。例文が出てくれば形を間違えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "doing をとる動詞は例文で覚える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I enjoy reading.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I gave up smoking.",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。リメンバー トゥー ドゥー は これからすることを覚えている、リメンバー ドゥーイング は したことを覚えている。ストップ トゥー ドゥー は するために立ち止まる、ストップ ドゥーイング は するのをやめる。この2組は必ず出ます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "remember to do ≠ remember doing",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "stop to do ≠ stop doing",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。トゥー ドゥー は これから、ドゥーイング は すでに。動詞ごとに例文で覚える。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "to do は「これから」、doing は「すでに・頭の中の映像」。動詞ごとに例文で覚える。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：He promised ( call ) me back before noon. を適する形に。 → to call（promise は to do）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

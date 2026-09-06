@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>放射線と半減期｜物理基礎 第20回</title>
+<meta name="description" content="半減期は N = N₀(1/2)ⁿ、n は経過時間÷半減期。放射線の種類と用語の区別まで型にします。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第20回 放射線と半減期（半分を何回）</div>
+
+<main class="wrap">
+  <h1>第20回　放射線と半減期（原子力と被ばくの見方）</h1>
+  <div class="formula">ある放射性同位体の半減期は8.0日である。はじめの原子核の数を N₀ とするとき、24日後に残っている原子核の数を求めよ。またはじめの1/16になるのは何日後か。</div>
+  <p>半減期の計算は、割り算1回と「半分を何回」だけです。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-radiation.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-radiation.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>回数を数える。</strong>n = 経過時間 ÷ 半減期。まずこの整数を出します。</li>
+      <li><strong>N = N₀(1/2)ⁿ。</strong>1/2、1/4、1/8、1/16 …と半分ずつ減ります。</li>
+      <li><strong>放射線の正体。</strong>α線＝ヘリウム原子核、β線＝電子、γ線＝電磁波。透過力は α < β < γ。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>回数を数える</strong><div class="formula">n = 24 ÷ 8.0 = 3（回）</div><p>経過時間 ÷ 半減期。</p></li>
+    <li><strong>残る数を出す</strong><div class="formula">N = N₀ × (1/2)³ = N₀/8</div><p>半分を3回。</p></li>
+    <li><strong>1/16になる時間</strong><div class="formula">(1/2)⁴ = 1/16 なので n = 4 → 8.0 × 4 = 32日後</div><p>回数から時間へ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">24日後：N₀/8、1/16になるのは32日後</div><p>半分ずつ減るだけ。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>8日ごとに 1/2 → 1/4 → 1/8 → 1/16。24日で1/8、32日で1/16 と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>半減期を2回過ぎても全部なくなりません。1/4が残り、以後も半分ずつ減っていきます。</li>
+      <li>放射能＝放射線を出す能力（Bq）、放射線＝出てくるもの、被ばくの影響の量はシーベルト（Sv）で表します。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>半減期は N = N₀(1/2)ⁿ、n = 経過時間 ÷ 半減期。α＝He核、β＝電子、γ＝電磁波。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>半減期5.0年の物質が1/8になるのは何年後か。
+        <details><summary>答え</summary><p>n = 3 なので15年後</p></details>
+      </li>
+      <li>半減期2.0時間の物質が6.0時間後に残る割合を求めよ。
+        <details><summary>答え</summary><p>(1/2)³ = 1/8</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-transmission.html">← 第19回 送電と変圧（損失は電流の2乗）</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

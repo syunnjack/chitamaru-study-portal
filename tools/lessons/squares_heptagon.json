@@ -3,172 +3,522 @@
   "subtitle": "高校受験数学 ／ 図形の証明と面積 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
   "figure": {
     "points": {
-      "A": [2.0, 3.46],
-      "B": [0, 0],
-      "C": [6, 0],
-      "D": [9.46, 4.0],
-      "E": [5.46, 7.46],
-      "F": [-1.46, 5.46],
-      "G": [-3.46, 2.0],
-      "J": [2.0, 0],
-      "K": [2.0, 9.46]
+      "A": [
+        2.5,
+        4.33
+      ],
+      "B": [
+        0,
+        0
+      ],
+      "C": [
+        8,
+        0
+      ],
+      "D": [
+        12.33,
+        5.5
+      ],
+      "E": [
+        6.83,
+        9.83
+      ],
+      "F": [
+        -1.83,
+        6.83
+      ],
+      "G": [
+        -4.33,
+        2.5
+      ],
+      "J": [
+        2.5,
+        0
+      ],
+      "K": [
+        2.5,
+        12.33
+      ]
     },
     "polygons": [
-      ["B", "A", "F", "G"],
-      ["C", "D", "E", "A"],
-      ["A", "B", "C"],
-      ["A", "E", "K"],
-      ["A", "K", "F"]
+      [
+        "B",
+        "A",
+        "F",
+        "G"
+      ],
+      [
+        "C",
+        "D",
+        "E",
+        "A"
+      ],
+      [
+        "A",
+        "B",
+        "C"
+      ],
+      [
+        "A",
+        "E",
+        "K"
+      ],
+      [
+        "A",
+        "K",
+        "F"
+      ]
     ],
-    "segments": [["A", "J"], ["A", "K"]],
-    "right_angles": [["A", "J", "C"]],
+    "segments": [
+      [
+        "A",
+        "J"
+      ],
+      [
+        "A",
+        "K"
+      ]
+    ],
+    "right_angles": [
+      [
+        "A",
+        "J",
+        "C"
+      ]
+    ],
     "lengths": [
-      {"between": ["A", "B"], "text": "4", "dx": -30, "dy": 0},
-      {"between": ["B", "C"], "text": "6", "dx": 30, "dy": 30},
-      {"between": ["A", "K"], "text": "= BC", "dx": 12, "dy": 0}
+      {
+        "between": [
+          "A",
+          "B"
+        ],
+        "text": "5",
+        "dx": -30,
+        "dy": 0
+      },
+      {
+        "between": [
+          "B",
+          "C"
+        ],
+        "text": "8",
+        "dx": 30,
+        "dy": 30
+      },
+      {
+        "between": [
+          "A",
+          "K"
+        ],
+        "text": "= BC",
+        "dx": 12,
+        "dy": 0
+      }
     ],
     "angles": [
-      {"at": "B", "text": "60°", "r": 34, "start": 300, "end": 360, "dx": 30, "dy": -46}
+      {
+        "at": "B",
+        "text": "60°",
+        "r": 34,
+        "start": 300,
+        "end": 360,
+        "dx": 30,
+        "dy": -46
+      }
     ],
     "labels": [
-      {"at": "A", "text": "A", "dx": -34, "dy": -14},
-      {"at": "B", "text": "B", "dx": -26, "dy": 6},
-      {"at": "C", "text": "C", "dx": 4, "dy": 10},
-      {"at": "D", "text": "D", "dx": 8, "dy": -6},
-      {"at": "E", "text": "E", "dx": 8, "dy": -22},
-      {"at": "F", "text": "F", "dx": -24, "dy": -26},
-      {"at": "G", "text": "G", "dx": -26, "dy": -8},
-      {"at": "J", "text": "J", "dx": 4, "dy": 6},
-      {"at": "K", "text": "K", "dx": -6, "dy": -34}
+      {
+        "at": "A",
+        "text": "A",
+        "dx": -34,
+        "dy": -14
+      },
+      {
+        "at": "B",
+        "text": "B",
+        "dx": -26,
+        "dy": 6
+      },
+      {
+        "at": "C",
+        "text": "C",
+        "dx": 4,
+        "dy": 10
+      },
+      {
+        "at": "D",
+        "text": "D",
+        "dx": 8,
+        "dy": -6
+      },
+      {
+        "at": "E",
+        "text": "E",
+        "dx": 8,
+        "dy": -22
+      },
+      {
+        "at": "F",
+        "text": "F",
+        "dx": -24,
+        "dy": -26
+      },
+      {
+        "at": "G",
+        "text": "G",
+        "dx": -26,
+        "dy": -8
+      },
+      {
+        "at": "J",
+        "text": "J",
+        "dx": 4,
+        "dy": 6
+      },
+      {
+        "at": "K",
+        "text": "K",
+        "dx": -6,
+        "dy": -34
+      }
     ]
   },
   "scenes": [
     {
       "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は図形の証明と面積、入試の大問そのものです。三角形エービーシー の外側に、辺エービー を1辺とする正方形 ビーエーエフジー と、辺エーシー を1辺とする正方形 シーディーイーエー をかきます。エー から辺ビーシー に垂線をひいて、交点を ジェー。線分 ジェーエー を エー の方向にのばした直線上に、エーケー が ビーシー と等しくなる点 ケー をとります。",
       "lines": [
-        {"style": "head", "text": "今日の問題", "active": true},
-        {"style": "note", "text": "正方形 BAFG（辺AB）、正方形 CDEA（辺AC）", "active": true},
-        {"style": "note", "text": "AJ ⊥ BC、JA の延長上に AK = BC となる K", "active": true},
-        {"style": "formula", "text": "(1) △FAK ≡ △EKA を証明", "active": true},
-        {"style": "formula", "text": "(2) 七角形 BCDEKFG の面積", "active": true}
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "正方形 BAFG（辺AB）、正方形 CDEA（辺AC）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "AJ ⊥ BC、JA の延長上に AK = BC となる K",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) △FAK ≡ △EKA を証明",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 七角形 BCDEKFG の面積",
+          "active": true
+        }
       ],
       "caption": "正方形2つ＋垂線の延長上に AK = BC となる点 K"
     },
     {
       "narration": "証明の型はこれです。合同を示せと言われたら、まず対応する辺と角を、問題の条件から1つずつ集める。今回は、正方形から出る「辺が等しい」と「90度」、それに垂線の90度。この3つしか材料はありません。だから、迷わないんです。",
       "lines": [
-        {"style": "head", "text": "解法の型", "active": true},
-        {"style": "formula", "text": "正方形 → 辺が等しい ＋ 角が90°", "active": true},
-        {"style": "formula", "text": "垂線 → 角が90°", "active": true},
-        {"style": "note", "text": "材料は3つだけ。集めて SAS か SSS に持ちこむ。", "active": true}
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "正方形 → 辺が等しい ＋ 角が90°",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "垂線 → 角が90°",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "材料は3つだけ。集めて SAS か SSS に持ちこむ。",
+          "active": true
+        }
       ],
       "caption": "型：正方形と垂線から「等辺」と「90°」を集める"
     },
     {
       "narration": "手順1。まず、辺の長さを書き込みます。正方形 ビーエーエフジー より、エフエー は エービー と等しい。正方形 シーディーイーエー より、エーイー は エーシー と等しい。そして条件より、エーケー は ビーシー と等しい。この3つが出発点です。",
       "lines": [
-        {"style": "head", "text": "手順1：等しい辺を書き込む", "active": true},
-        {"style": "formula", "text": "FA = AB", "active": true},
-        {"style": "formula", "text": "AE = AC", "active": true},
-        {"style": "formula", "text": "AK = BC（条件）", "active": true}
+        {
+          "style": "head",
+          "text": "手順1：等しい辺を書き込む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "FA = AB",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AE = AC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AK = BC（条件）",
+          "active": true
+        }
       ],
       "caption": "手順1：FA = AB、AE = AC、AK = BC"
     },
     {
       "narration": "手順2。角を出します。直角三角形 エービージェー で、角ビーエージェー は、90度 引く 角ビー。ケー は ジェーエー の延長上ですから、角ビーエーケー は、180度 から それを引いて、90度 足す 角ビー。ここから、角エフエーケー は、角ビーエーケー から 角ビーエーエフ の 90度 を引いて、ちょうど 角ビー、つまり 角エービーシー と等しくなります。",
       "lines": [
-        {"style": "head", "text": "手順2：∠FAK = ∠ABC を出す", "active": true},
-        {"style": "formula", "text": "∠BAJ = 90° − ∠B", "active": true},
-        {"style": "formula", "text": "∠BAK = 180° − ∠BAJ = 90° + ∠B", "active": true},
-        {"style": "formula", "text": "∠FAK = ∠BAK − 90° = ∠B", "active": true}
+        {
+          "style": "head",
+          "text": "手順2：∠FAK = ∠ABC を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "∠BAJ = 90° − ∠B",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "∠BAK = 180° − ∠BAJ = 90° + ∠B",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "∠FAK = ∠BAK − 90° = ∠B",
+          "active": true
+        }
       ],
       "caption": "手順2：∠FAK = ∠ABC（正方形の90°を引くだけ）"
     },
     {
       "narration": "手順3。だから、三角形エフエーケー と 三角形エービーシー は、2辺とその間の角がそれぞれ等しく、合同です。エフエー が エービー、エーケー が ビーシー、はさむ角が 角ビー。したがって、残りの辺 ケーエフ も、エーシー と等しくなります。",
       "lines": [
-        {"style": "head", "text": "手順3：△FAK ≡ △ABC（2辺と間の角）", "active": true},
-        {"style": "formula", "text": "FA = AB , AK = BC , ∠FAK = ∠ABC", "active": true},
-        {"style": "formula", "text": "→ KF = AC", "active": true},
-        {"style": "note", "text": "合同がわかれば、残りの辺も「等しい」と言える。", "active": true}
+        {
+          "style": "head",
+          "text": "手順3：△FAK ≡ △ABC（2辺と間の角）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "FA = AB , AK = BC , ∠FAK = ∠ABC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ KF = AC",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "合同がわかれば、残りの辺も「等しい」と言える。",
+          "active": true
+        }
       ],
       "caption": "手順3：△FAK ≡ △ABC、よって KF = AC"
     },
     {
       "narration": "手順4。まったく同じことを、もう一方の正方形でやります。角エーシービー を シー とすると、角シーエーケー は 90度 足す シー。正方形の 角イーエーシー の 90度 を引いて、角イーエーケー は シー。よって、三角形イーエーケー と 三角形シーエービー が合同で、イーケー は エービー と等しくなります。",
       "lines": [
-        {"style": "head", "text": "手順4：反対側も同じ", "active": true},
-        {"style": "formula", "text": "∠EAK = ∠CAK − 90° = ∠ACB", "active": true},
-        {"style": "formula", "text": "AE = CA , AK = CB → △EAK ≡ △CAB", "active": true},
-        {"style": "formula", "text": "→ EK = AB", "active": true}
+        {
+          "style": "head",
+          "text": "手順4：反対側も同じ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "∠EAK = ∠CAK − 90° = ∠ACB",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AE = CA , AK = CB → △EAK ≡ △CAB",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ EK = AB",
+          "active": true
+        }
       ],
       "caption": "手順4：△EAK ≡ △CAB、よって EK = AB"
     },
     {
       "narration": "手順5。ここで、2つの三角形の3辺を並べます。三角形エフエーケー は、エフエー が エービー、エーケー、ケーエフ が エーシー。三角形イーケーエー は、イーケー が エービー、ケーエー、エーイー が エーシー。3辺がそれぞれ等しいので、三角形エフエーケー と 三角形イーケーエー は合同です。これで、1番は証明できました。",
       "lines": [
-        {"style": "head", "text": "手順5：3辺を並べて結論", "active": true},
-        {"style": "formula", "text": "△FAK：FA = AB , AK , KF = AC", "active": true},
-        {"style": "formula", "text": "△EKA：EK = AB , KA , AE = AC", "active": true},
-        {"style": "formula", "text": "3辺が等しい → △FAK ≡ △EKA", "active": true}
+        {
+          "style": "head",
+          "text": "手順5：3辺を並べて結論",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△FAK：FA = AB , AK , KF = AC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△EKA：EK = AB , KA , AE = AC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3辺が等しい → △FAK ≡ △EKA",
+          "active": true
+        }
       ],
       "caption": "(1) の答え：3辺が等しいので △FAK ≡ △EKA"
     },
     {
       "narration": "2番です。面積の型は、切り分け。七角形を、エー から線をひいて分けます。正方形が2つ、真ん中に 三角形エービーシー、そして 三角形エーイーケー と 三角形エーケーエフ。この2つは、さっき示したとおり 三角形エービーシー と合同ですから、面積も同じ。つまり、三角形エービーシー の面積の3つ分と、正方形2つ分の和になります。",
       "lines": [
-        {"style": "head", "text": "(2) の型：A から切り分ける", "active": true},
-        {"style": "formula", "text": "七角形 = 正方形2つ + △ABC + △AEK + △AKF", "active": true},
-        {"style": "formula", "text": "△AEK = △AKF = △ABC", "active": true},
-        {"style": "formula", "text": "→ 七角形 = AB² + AC² + 3△ABC", "active": true}
+        {
+          "style": "head",
+          "text": "(2) の型：A から切り分ける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "七角形 = 正方形2つ + △ABC + △AEK + △AKF",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△AEK = △AKF = △ABC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ 七角形 = AB² + AC² + 3△ABC",
+          "active": true
+        }
       ],
       "caption": "(2) 七角形 = AB² + AC² + △ABC の3つ分"
     },
     {
-      "narration": "手順1。エーシー の2乗 を、余弦定理でなく、垂線で出します。角ビー が 60度、エービー が 4 ですから、ビージェー は 2、エージェー は 2ルート3。すると ジェーシー は 6 引く 2 で 4。よって エーシー の2乗 は、2ルート3 の2乗 足す 4の2乗、12 足す 16 で、28。エーシー の2乗 のままでよいので、ルートは開きません。",
+      "narration": "手順1。エーシー の2乗 を、余弦定理でなく、垂線で出します。角ビー が 60度、エービー が 5 ですから、ビージェー は 2.5、エージェー は 2.5ルート3。すると ジェーシー は 8 引く 2.5 で 5.5。よって エーシー の2乗 は、2.5ルート3 の2乗 足す 5.5の2乗、18.75 足す 30.25 で、49。エーシー の2乗 のままでよいので、ルートは開きません。",
       "lines": [
-        {"style": "head", "text": "手順1：AC² を出す（30-60-90 を使う）", "active": true},
-        {"style": "formula", "text": "BJ = 2 , AJ = 2√3 , JC = 6 − 2 = 4", "active": true},
-        {"style": "formula", "text": "AC² = (2√3)² + 4² = 12 + 16 = 28", "active": true},
-        {"style": "note", "text": "面積では AC² のまま使う。√は開かない。", "active": true}
+        {
+          "style": "head",
+          "text": "手順1：AC² を出す（30-60-90 を使う）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "BJ = 2.5 ,  AJ = 2.5√3 ,  JC = 5.5",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AC² = (2.5√3)² + 5.5²",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "    = 18.75 + 30.25 = 49",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "面積では AC² のまま使う。√は開かない。",
+          "active": true
+        }
       ],
-      "caption": "手順1：AC² = 12 + 16 = 28"
+      "caption": "手順1：AC² = 18.75 + 30.25 = 49"
     },
     {
-      "narration": "手順2。三角形エービーシー の面積です。底辺 ビーシー が 6、高さ エージェー が 2ルート3。2分の1 かける 6 かける 2ルート3 で、6ルート3。",
+      "narration": "手順2。三角形エービーシー の面積です。底辺 ビーシー が 8、高さ エージェー が 2.5ルート3。2分の1 かける 8 かける 2.5ルート3 で、10ルート3。",
       "lines": [
-        {"style": "head", "text": "手順2：△ABC の面積", "active": true},
-        {"style": "formula", "text": "S = (1/2) × 6 × 2√3 = 6√3", "active": true},
-        {"style": "note", "text": "高さは垂線 AJ。これがそのまま使える。", "active": true}
+        {
+          "style": "head",
+          "text": "手順2：△ABC の面積",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "S = (1/2) × 8 × 2.5√3 = 10√3",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "高さは垂線 AJ。これがそのまま使える。",
+          "active": true
+        }
       ],
-      "caption": "手順2：△ABC = ½ × 6 × 2√3 = 6√3"
+      "caption": "手順2：△ABC = ½ × 8 × 2.5√3 = 10√3"
     },
     {
-      "narration": "手順3。足し合わせます。正方形が 16 と 28 で、44。三角形が 6ルート3 の3つ分で、18ルート3。よって、七角形 ビーシーディーイーケーエフジー の面積は、44 足す 18ルート3 平方センチメートル。これが答えです。",
+      "narration": "手順3。足し合わせます。正方形が 25 と 49 で、74。三角形が 10ルート3 の3つ分で、30ルート3。よって、七角形 ビーシーディーイーケーエフジー の面積は、74 足す 30ルート3 平方センチメートル。これが答えです。",
       "lines": [
-        {"style": "head", "text": "手順3：合計する", "active": true},
-        {"style": "formula", "text": "AB² + AC² = 16 + 28 = 44", "active": true},
-        {"style": "formula", "text": "3 × 6√3 = 18√3", "active": true},
-        {"style": "formula", "text": "面積 = 44 + 18√3 (cm²)", "active": true}
+        {
+          "style": "head",
+          "text": "手順3：合計する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AB² + AC² = 25 + 49 = 74",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3 × 10√3 = 30√3",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "面積 = 74 + 30√3 (cm²)",
+          "active": true
+        }
       ],
-      "caption": "答え：44 + 18√3 cm²"
+      "caption": "答え：74 + 30√3 cm²"
     },
     {
-      "narration": "検算です。正方形2つだけで 44。三角形3つ分は、だいたい 31 くらい。合わせて 75 くらいで、図の大きさと合います。もし正方形の面積を足し忘れていれば、けたが小さすぎるので、すぐ気づけます。",
+      "narration": "検算です。正方形2つだけで 74。三角形3つ分は、だいたい 52 くらい。合わせて 126 くらいで、図の大きさと合います。もし正方形の面積を足し忘れていれば、けたが小さすぎるので、すぐ気づけます。",
       "lines": [
-        {"style": "head", "text": "検算：内訳が図と合うか", "active": true},
-        {"style": "formula", "text": "正方形 44 ＋ 三角形3つ 約31 ＝ 約75", "active": true},
-        {"style": "note", "text": "内訳を声に出すと、足し忘れがすぐ見つかる。", "active": true}
+        {
+          "style": "head",
+          "text": "検算：内訳が図と合うか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "正方形 74 ＋ 三角形3つ 約52 ＝ 約126",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "内訳を声に出すと、足し忘れがすぐ見つかる。",
+          "active": true
+        }
       ],
-      "caption": "検算：44 ＋ 約31 ＝ 約75。図の大きさと合う"
+      "caption": "検算：74 ＋ 約52 ＝ 約126。図の大きさと合う"
     },
     {
       "narration": "在庫に入れる1行です。正方形をつけた図で「合同を示せ」と来たら、正方形の 90度 を足すか引くかで、角を作る。面積は、頂点から切り分けて、合同な三角形を数える。この2行だけで、この形の入試問題はほぼ全部通ります。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
       "lines": [
-        {"style": "head", "text": "在庫に入れる1行", "active": true},
-        {"style": "formula", "text": "正方形の90°を足し引きして、等しい角を作る", "active": true},
-        {"style": "formula", "text": "面積は頂点から切り分け、合同な三角形を数える", "active": true},
-        {"style": "note", "text": "類題：正方形2つの間の三角形の面積は △ABC と等しい。", "active": true}
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "正方形の90°を足し引きして、等しい角を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "面積は頂点から切り分け、合同な三角形を数える",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：正方形2つの間の三角形の面積は △ABC と等しい。",
+          "active": true
+        }
       ],
       "caption": "在庫に入れる1行：90°を足し引き／切り分けて数える"
     }

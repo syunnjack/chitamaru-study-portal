@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>過不足のある反応｜化学基礎 第16回</title>
+<meta name="description" content="両方の量が与えられたら mol ÷ 係数 で過不足を判定し、足りない側だけで生成物を計算する型を解説します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">化学基礎</a> ／ 第16回 過不足のある反応（足りない側で決まる）</div>
+
+<main class="wrap">
+  <h1>第16回　過不足のある反応（足りない側で決まる）</h1>
+  <div class="formula">マグネシウム0.30 molに、塩酸に含まれる塩化水素0.40 molを加えて反応させた。発生する水素の物質量と標準状態での体積を求めよ。また反応せずに残る物質とその物質量を答えよ。</div>
+  <p>量が2つ与えられたら、必ず「どちらが先に無くなるか」から始めます。</p>
+
+  <video controls preload="metadata" src="../../../videos/cb-limiting-reagent.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/cb-limiting-reagent.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>物質量 ÷ 係数 を比べる。</strong>小さい方が先に無くなる＝反応を決める側です。</li>
+      <li><strong>生成物は足りない側から。</strong>係数比を使って比例計算します。</li>
+      <li><strong>残量は引き算。</strong>多い側の初めの量から、実際に使った量を引きます。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>係数で割る</strong><div class="formula">Mg：0.30/1 = 0.30、HCl：0.40/2 = 0.20</div><p>小さいのはHCl側。</p></li>
+    <li><strong>水素の物質量</strong><div class="formula">HCl 2 mol → H₂ 1 mol なので H₂ = 0.40 × 1/2 = 0.20 mol</div><p>足りない側で計算。</p></li>
+    <li><strong>体積に直す</strong><div class="formula">0.20 × 22.4 = 4.48 ≒ 4.5 L</div><p>標準状態は22.4 L/mol。</p></li>
+    <li><strong>残る物質</strong><div class="formula">使ったMg = 0.20 mol → 残り 0.30 − 0.20 = 0.10 mol</div><p>Mgが0.10 mol残る。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>Mg 0.30 mol をすべて反応させるには HCl が 0.60 mol 必要ですが 0.40 mol しかありません。判定と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>0.40 mol > 0.30 mol でも、係数2で割ると0.20 < 0.30。係数で割らずに比べるのが最大の失点原因です。</li>
+      <li>「2.0 mol/Lの塩酸200 mL」のような与え方なら、0.40 molに直してから判定に入ります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>過不足は mol ÷ 係数 で判定。生成物は足りない側だけで計算。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>H₂ 0.30 molとO₂ 0.10 molから生じる水の物質量を求めよ（2H₂ + O₂ → 2H₂O）。
+        <details><summary>答え</summary><p>H₂:0.15、O₂:0.10 → O₂不足、H₂O = 0.20 mol</p></details>
+      </li>
+      <li>上の反応で残る物質とその量を答えよ。
+        <details><summary>答え</summary><p>H₂ が 0.30 − 0.20 = 0.10 mol 残る</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="cb-formula-determination.html">← 第15回 組成式の決定（質量 ÷ 原子量）</a>　｜　<a href="cb-ph-degree.html">第17回 pHと電離度（濃さと強さは別） →</a>　｜　<a href="../index.html">化学基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

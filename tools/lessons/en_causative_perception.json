@@ -1,0 +1,220 @@
+{
+  "title": "使役動詞と知覚動詞",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、母は私に自分の部屋を掃除させた。2、私は誰かが私の名前を呼んでいるのを聞いた。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 母は私に自分の部屋を",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　掃除させた。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 誰かが私の名前を呼んでいるのを",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　聞いた。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。使役の メイク、レット、ハブ は、オーの後ろが原形。知覚動詞は、全部を見たなら原形、途中なら イング、される側なら過去分詞。受動態にしたときだけ トゥー が現れます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "make / let / have + O + 原形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "知覚動詞 + O + 原形 / doing / done",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受動態では be made to do",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。無理にさせたので強制の メイク を使います。レット は許可、ハブ は依頼です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 使役の種類を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強制 → make",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "let は許可、have は依頼。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 使役の種類を選ぶ"
+    },
+    {
+      "narration": "オーの後ろは原形です。マイ マザー メイド ミー クリーン マイ ルーム。メイド ミー トゥー クリーン とは書けません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 後ろを原形にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My mother made me clean my room.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "× made me to clean",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 後ろを原形にする"
+    },
+    {
+      "narration": "2番です。呼んでいる途中を聞いたので イング形を使います。全部を聞いたなら原形の コール でもかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 知覚動詞の形を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「呼んでいるのを」→ 途中 → doing",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "全部聞いたなら call。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 知覚動詞の形を選ぶ"
+    },
+    {
+      "narration": "アイ ハード サムワン コーリング マイ ネーム。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I heard someone calling my name.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：made me clean / heard someone calling",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。受動態にしてみます。アイ ワズ メイド トゥー クリーン マイ ルーム。受動態では トゥー が必ず現れます。逆に能動態で トゥー を書いていたら誤りだと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受動態：I was made to clean …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "能動態に to は不要",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "× made me to clean",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ゲット は使役の意味でも トゥー ドゥー をとります。それから、ハブ プラス オー プラス 過去分詞 は、してもらう、または、されてしまう、の意味になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "get は to do（got him to help）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "have O done = してもらう／される",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。使役の メイク、レット、ハブ は原形。知覚は原形、ドゥーイング、ダン の3択。受動態では トゥー が出る。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "使役 make / let / have は原形、知覚は原形・doing・done の3択、受動態では to が出る。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「私は彼に宿題を手伝ってもらった」を英語に（2通り）。 → I had him help me with my homework. / I got him to help me with my homework.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

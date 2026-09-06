@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>変圧器と実効値｜高校物理 第18回</title>
+<meta name="description" content="変圧器は電圧＝巻数比、電流＝オームの法則、一次電流＝電力保存の3手で解けます。実効値の意味も整理します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校物理</a> ／ 第18回 変圧器と実効値（電力が保存する）</div>
+
+<main class="wrap">
+  <h1>第18回　変圧器と実効値（電力が保存する）</h1>
+  <div class="formula">一次コイル1000回巻き、二次コイル100回巻きの変圧器の一次側に実効値100 Vの交流を加えた。二次側の電圧を求めよ。二次側に5.0 Ωの抵抗をつないだとき、二次電流・消費電力・一次電流を求めよ（損失は無視）。</div>
+  <p>変圧器で電流の比を直接書くと向きを間違えます。電力保存から出すのが安全です。</p>
+
+  <video controls preload="metadata" src="../../../videos/ph-transformer-rms.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/ph-transformer-rms.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>電圧は巻数比。</strong>V₁ : V₂ = N₁ : N₂。巻数が少ない側は電圧も小さい。</li>
+      <li><strong>電流はオームの法則。</strong>負荷がある側で I = V / R を出します。</li>
+      <li><strong>一次電流は電力保存。</strong>V₁I₁ = V₂I₂。電流比は巻数比の逆になります。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>二次電圧を出す</strong><div class="formula">V₂ = 100 × 100/1000 = 10 V</div><p>巻数比 1000 : 100 = 10 : 1。</p></li>
+    <li><strong>二次電流を出す</strong><div class="formula">I₂ = V₂ / R = 10 / 5.0 = 2.0 A</div><p>オームの法則。</p></li>
+    <li><strong>消費電力</strong><div class="formula">P = V₂I₂ = 10 × 2.0 = 20 W</div><p>実効値どうしの積。</p></li>
+    <li><strong>一次電流を出す</strong><div class="formula">V₁I₁ = 20 → I₁ = 20 / 100 = 0.20 A</div><p>電力保存から。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>I₁ : I₂ = 1 : 10 で巻数比10 : 1の逆。電圧を下げた側で電流が増えるという関係と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>実効値は最大値の1/√2。100 Vの交流の最大値は約141 Vです。</li>
+      <li>変圧器が働くのは磁束が変化する交流だけ。直流では二次側に電圧は生じません。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>変圧器は「電圧は巻数比 → 電流はオーム → 一次電流は電力保存」の3手。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>一次200回巻き・二次1000回巻きの変圧器の一次側に20 Vを加えたときの二次電圧を求めよ。
+        <details><summary>答え</summary><p>V₂ = 20 × 1000/200 = 100 V</p></details>
+      </li>
+      <li>実効値100 Vの交流の最大値を求めよ。
+        <details><summary>答え</summary><p>V₀ = 100√2 ≒ 141 V</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="ph-capacitor-series.html">← 第17回 コンデンサーの直列接続（電気量が共通）</a>　｜　<a href="ph-photoelectric.html">第19回 光電効果（限界波長とエネルギー） →</a>　｜　<a href="../index.html">高校物理の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>地震の震源距離｜地学基礎 第3回</title>
+<meta name="description" content="初期微動継続時間から震源距離を出す式の作り方と大森公式の正体。共通テストの地学基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">地学基礎</a> ／ 第3回 地震（初期微動継続時間で震源距離）</div>
+
+<main class="wrap">
+  <h1>第3回　地震（初期微動継続時間で震源距離）</h1>
+  <div class="formula">ある観測点でP波が到達してから16秒後にS波が到達した。P波の速さを8.0 km/s、S波の速さを4.0 km/sとして震源距離を求めよ。</div>
+  <p>公式を覚えるより、時間差の式を作れる方が確実です。</p>
+
+  <video controls preload="metadata" src="../../../videos/eb-earthquake-distance.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/eb-earthquake-distance.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>距離は同じ、速さが違う。</strong>時間 = 距離 ÷ 速さ を2本書き、差をとります。</li>
+      <li><strong>式は1本。</strong>d/v_S − d/v_P = t。ここから d = t / (1/v_S − 1/v_P)。</li>
+      <li><strong>速さの比が2倍なら計算が軽い。</strong>1/4 − 1/8 = 1/8 のようにまとめてから割ります。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>2つの到達時間を書く</strong><div class="formula">t_P = d/8.0、t_S = d/4.0</div><p>距離は同じd。</p></li>
+    <li><strong>差をとる</strong><div class="formula">d/4.0 − d/8.0 = 16</div><p>初期微動継続時間。</p></li>
+    <li><strong>係数をまとめる</strong><div class="formula">d(1/4.0 − 1/8.0) = d × 1/8.0 = 16</div><p>1/4 − 1/8 = 1/8。</p></li>
+    <li><strong>距離を出す</strong><div class="formula">d = 16 × 8.0 = 128 km</div><p>掛けるだけ。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>t_P = 16 s、t_S = 32 s、その差16 sが初期微動継続時間と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>この式が大森公式の正体です。震源距離 ≒ 初期微動継続時間 × 約8 km/s。</li>
+      <li>マグニチュードは地震の規模で1つの地震に1つ。震度は場所ごとに決まる揺れの強さです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>震源距離は d/v_S − d/v_P = t の1本から出す。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>初期微動継続時間が10秒、P波6.0 km/s、S波3.0 km/sのときの震源距離を求めよ。
+        <details><summary>答え</summary><p>d/3 − d/6 = 10 より d = 60 km</p></details>
+      </li>
+      <li>マグニチュードが2大きい地震のエネルギーは約何倍か。
+        <details><summary>答え</summary><p>約1000倍</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="eb-plate-motion.html">← 第2回 プレートの動きと境界（速度の計算）</a>　｜　<a href="eb-volcano-rock.html">第4回 火山と火成岩（SiO₂の量で決まる） →</a>　｜　<a href="../index.html">地学基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

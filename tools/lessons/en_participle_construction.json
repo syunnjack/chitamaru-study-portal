@@ -1,0 +1,220 @@
+{
+  "title": "分詞構文の作り方",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を分詞構文で書きかえてください。1、アズ シー ディド ノット ノウ ヒズ アドレス、シー セント ザ パーセル トゥー ヒズ オフィス。2、ホエン ザ レター イズ リトゥン イン シンプル イングリッシュ、イット イズ イージー トゥー リード。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) As she did not know his address,",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　she sent the parcel to his office.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) When the letter is written in simple",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　English, it is easy to read.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は3手順です。接続詞を消す、主語が同じなら主語も消す、残った動詞をイング形にする。受け身の内容なら過去分詞から始めます。否定は ノット を前に置きます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "手順は3つだけ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "接続詞を消す → 同じ主語を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞を doing（受け身は done）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。接続詞 アズ を消します。主節の主語も シー なので、従属節の主語も消します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 接続詞と主語を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "As she did not know … → did not know …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主節の主語も she。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 接続詞と主語を消す"
+    },
+    {
+      "narration": "動詞をイング形にして、否定の ノット を前に置きます。ノット ノウイング ヒズ アドレス、シー セント ザ パーセル トゥー ヒズ オフィス。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 否定の分詞構文にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Not knowing his address, she sent the parcel to his office.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "否定は Not を分詞の前に置く。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 否定の分詞構文にする"
+    },
+    {
+      "narration": "2番です。ザ レター イズ リトゥン は受け身です。ビーイング リトゥン の ビーイング は省略できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 受け身かどうかを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the letter is written → 受け身",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "being written の being は省略できる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 受け身かどうかを見る"
+    },
+    {
+      "narration": "したがって過去分詞から始めます。リトゥン イン シンプル イングリッシュ、ザ レター イズ イージー トゥー リード。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 過去分詞から始める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Written in simple English, the letter is easy to read.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：Not knowing … / Written in …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 過去分詞から始める"
+    },
+    {
+      "narration": "検算です。分詞構文はもとの接続詞つきの文に戻せます。戻して意味が変わらなければ正しく作れています。戻せないときは、主語がずれている可能性が高いです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "接続詞つきの文に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "As she did not know … に戻る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "戻せなければ主語ずれ",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。主節と主語が違うときは主語を残します。ウェザー パーミッティング のような形です。それから、主節より前に起きたことは ハビング ダン を使って時間差を示します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語が違えば残す（独立分詞構文）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "先に起きたことは Having done",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。接続詞を消して動詞を ドゥーイング、受け身は ダン、否定は ノット を前に。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "接続詞を消して動詞を doing、受け身は done、否定は Not を前に。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「一度もその映画を見たことがなかったので、彼女はとても驚いた」を分詞構文で英語に。 → Never having seen the movie, she was very surprised.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "title": "否定・準否定の表現",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、私が電車に乗るとすぐに雨が降り出した。ノー スーナー を使います。2、彼女は暗くなって初めて家を出た。ノット アンティル を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 電車に乗るとすぐに雨が",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　降り出した。（No sooner）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼女は暗くなって初めて家を出た。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　（not … until）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は2つです。ノー スーナー ハド エス 過去分詞、ザン エス 過去形。それから、ノット アンティル は 〜して初めて、という意味で、強調するときは イット ワズ ノット アンティル 〜 ザット の形にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No sooner had S 過去分詞 … than S 過去形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "not … until 〜 =「〜して初めて」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調は It was not until 〜 that …",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。乗ったのが先、降り出したのが後です。先のほうを過去完了にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 先に起きたことを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "乗った（先）→ 降り出した（後）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "先のほうを過去完了に。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 先に起きたことを見る"
+    },
+    {
+      "narration": "ノー スーナー ハド アイ ゴット オン ザ トレイン ザン イット ビガン トゥー レイン。アズ スーン アズ の文と同じ意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 倒置して作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No sooner had I got on the train than it began to rain.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= As soon as I got on the train, it began to rain.",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 倒置して作る"
+    },
+    {
+      "narration": "2番です。シー ディド ノット リーブ ホーム アンティル イット ゴット ダーク。直訳は、暗くなるまで家を出なかった、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) not … until で書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "She did not leave home until it got dark.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "直訳は「暗くなるまで出なかった」。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) not … until で書く"
+    },
+    {
+      "narration": "強調構文にすると、イット ワズ ノット アンティル イット ゴット ダーク ザット シー レフト ホーム。第13回の強調構文の応用です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 強調構文にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It was not until it got dark that she left home.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：No sooner had I got on … / did not leave home until …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 強調構文にする"
+    },
+    {
+      "narration": "検算です。ノー スーナー の文は アズ スーン アズ の文に戻せます。ノット アンティル の文は、〜して初めて、と訳せるかを確かめます。どちらも戻せれば正しく作れています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No sooner → As soon as",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "not … until →「〜して初めて」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "戻せれば正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ハードリー や スケアスリー を使った ハードリー ハド エス 過去分詞 ホエン も同じ意味になります。それから、ハードリー は ほとんど〜ない という準否定で、まったく〜ない ではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Hardly had S p.p. … when …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "hardly =「ほとんど〜ない」",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ノー スーナー ハド エス 過去分詞 ザン エス 過去形、ノット アンティル は 〜して初めて。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No sooner had S p.p. … than S 過去形、not … until は「〜して初めて」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼はほとんど本を読まない」を hardly を使って英語に。 → He hardly ever reads books.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

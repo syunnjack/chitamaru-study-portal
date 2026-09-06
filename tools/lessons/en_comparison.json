@@ -1,0 +1,215 @@
+{
+  "title": "比較の書きかえ（as 〜 as と最上級）",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、この問題集は見た目ほど難しくない。2、私のクラスで彼より速く走る生徒はいない。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) この問題集は見た目ほど",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　難しくない。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) クラスで彼より速く走る生徒はいない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は2つです。〜ほど…ない は ノット アズ 原級 アズ。〜より…な人はいない は ノー アザー プラス 単数名詞 プラス 比較級 プラス ザン。この形は最上級と言いかえられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜ほど…ない」→ not as 〜 as",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜より…な人はいない」→ No other + 単数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最上級との言いかえがセット",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。〜ほど…ない、なので ノット アズ ディフィカルト アズ。比較級にはしません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 型を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "not as difficult as",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原級 difficult のまま。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 型を選ぶ"
+    },
+    {
+      "narration": "答えは ジス ワークブック イズ ノット アズ ディフィカルト アズ イット ルックス。見た目ほど、は イット ルックス で表します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 比較の相手を置く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This workbook is not as difficult as it looks.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「見た目」は it looks で表す。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 比較の相手を置く"
+    },
+    {
+      "narration": "2番です。主語を ノー アザー スチューデント イン マイ クラス にします。名詞は単数です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 主語を No other にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No other student in my class …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "student は単数。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 主語を No other にする"
+    },
+    {
+      "narration": "比較級で結びます。ノー アザー スチューデント イン マイ クラス ランズ ファスター ザン ヒー ダズ。これは ヒー ランズ ファステスト イン マイ クラス と同じ意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 比較級で結ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No other student in my class runs faster than he does.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：= He runs (the) fastest in my class.",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 比較級で結ぶ"
+    },
+    {
+      "narration": "検算です。ノー アザー の文を最上級に書きかえて、同じ意味になるかを確かめます。彼がクラスで一番速い、になれば正しく作れています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No other … than he does",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "= He runs the fastest.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同じ意味なら正解",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ノー アザー の後ろの名詞は必ず単数です。それから、倍数は アズ の前に置きます。トゥワイス アズ メニー ブックス アズ、のように アズ アズ の外側ではなく前に置くのが要点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "No other + 単数名詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "倍数は as の前（twice as many … as）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。〜ほど…ない は ノット アズ 原級 アズ、〜より…はいない は ノー アザー プラス 単数 プラス 比較級 プラス ザン。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜ほど…ない」は not as 原級 as、「〜より…はいない」は No other + 単数 + 比較級 + than。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「東京は日本で最も人口が多い」を英語に。 → Tokyo has the largest population in Japan.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

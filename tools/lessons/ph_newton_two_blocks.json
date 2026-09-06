@@ -1,0 +1,220 @@
+{
+  "title": "運動方程式（2物体と糸の張力）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。なめらかな水平面上で、質量3.0キログラムの物体エーと、質量2.0キログラムの物体ビーを糸でつなぎます。エーを10ニュートンの力で水平に引きます。加速度エーと、糸の張力ティーを求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "なめらかな水平面上、A（3.0 kg）と",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "B（2.0 kg）を糸でつなぐ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A を 10 N で水平に引く。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "加速度 a と張力 T を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は2手順です。まず2物体をまとめて1つの物体と見て加速度を出します。糸の張力は内力なので消えます。次に片方だけを切り出して、その物体の運動方程式から張力を出します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全体で a を出す（内力の張力は消える）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1物体だけ切り出して T を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ma = F の向きをそろえる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず全体で考えます。3.0たす2.0の5.0キログラムに10ニュートン。2物体は糸でつながっているので同じ加速度です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：全体で運動方程式",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3.0 + 2.0) a = 10",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2物体は同じ加速度で動く。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：全体で運動方程式"
+    },
+    {
+      "narration": "エー は 10割る5.0で、2.0メートル毎秒毎秒です。向きは引いた向きです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：加速度を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = 10 / 5.0 = 2.0 m/s²",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "向きは引く向き。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：加速度を求める"
+    },
+    {
+      "narration": "次にビーだけを切り出します。ビーにはたらく水平方向の力は糸の張力だけなので、2.0かける2.0イコール ティー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：Bだけを切り出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2.0 × 2.0 = T",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Bにはたらく水平方向の力は張力だけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：Bだけを切り出す"
+    },
+    {
+      "narration": "ティー は4.0ニュートンです。答えは、加速度2.0メートル毎秒毎秒、張力4.0ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：張力を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 4.0 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：a = 2.0 m/s²、T = 4.0 N",
+          "active": true
+        }
+      ],
+      "caption": "手順4：張力を求める"
+    },
+    {
+      "narration": "検算です。エーだけを切り出して確かめます。10ひく4.0は6.0ニュートン。これを3.0キログラムで割ると2.0メートル毎秒毎秒。全体で出した加速度と一致するので、正しいと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A について 10 − T = 3.0a",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "10 − 4.0 = 6.0 → a = 2.0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全体の答えと一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。張力は必ず後ろの物体の質量比で決まります。ティー は エフ かける エム2 割る エム1たすエム2 です。それから、引く向きを逆にすると張力の値も変わります。前後を入れかえたら計算し直します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = F m₂/(m₁+m₂)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "引く向きを変えると T も変わる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。全体で加速度、1物体を切り出して張力。内力は全体の式に出てこない。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全体で加速度、1物体を切り出して張力。内力は全体の式に出てこない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ2物体をBの側から10 Nで引いたときの張力を求めよ。 → T = 10 × 3.0/5.0 = 6.0 N",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

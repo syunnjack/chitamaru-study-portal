@@ -1,0 +1,215 @@
+{
+  "title": "地震（初期微動継続時間で震源距離）",
+  "subtitle": "地学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ある観測点で、ピー波が到達してから16秒後にエス波が到達しました。ピー波の速さを毎秒8.0キロメートル、エス波の速さを毎秒4.0キロメートルとして、震源距離を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "初期微動継続時間（P波とS波の到達時間差）が 16 s。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P波 8.0 km/s、S波 4.0 km/s。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "震源距離を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。ピー波もエス波も同じ震源距離を進みますが、速さが違うので到達時間に差が出ます。その差が初期微動継続時間です。だから距離割るエス波の速さ、引く、距離割るピー波の速さ、イコール時間差。この式1本を距離について解けば終わりです。公式を覚えるより、式を作れる方が確実です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同じ距離を2つの速さで進む → 時間差ができる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d/v_S − d/v_P = t（初期微動継続時間）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d = t ÷ (1/v_S − 1/v_P)",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず到達時間です。ピー波はディー割る8.0、エス波はディー割る4.0。距離はどちらも同じディーです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：2つの到達時間を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "t_P = d/8.0、t_S = d/4.0",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "距離は同じd。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：2つの到達時間を書く"
+    },
+    {
+      "narration": "この差が16秒なので、ディー割る4.0ひくディー割る8.0イコール16です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：差をとる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d/4.0 − d/8.0 = 16",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "初期微動継続時間。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：差をとる"
+    },
+    {
+      "narration": "カッコの中は、4分の1ひく8分の1で8分の1。つまりディー割る8.0が16です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：係数をまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d(1/4.0 − 1/8.0) = d × 1/8.0 = 16",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1/4 − 1/8 = 1/8。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：係数をまとめる"
+    },
+    {
+      "narration": "したがって震源距離は、16かける8.0で128キロメートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：距離を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d = 16 × 8.0 = 128 km",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "掛けるだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：距離を出す"
+    },
+    {
+      "narration": "検算です。128キロメートルなら、ピー波の到達は128割る8.0で16秒、エス波は128割る4.0で32秒。差はちょうど16秒で、初期微動継続時間と一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "t_P = 128/8.0 = 16 s",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "t_S = 128/4.0 = 32 s",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "差は 16 s で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、この計算から大森公式が出ます。震源距離はおよそ初期微動継続時間の8倍。速さが8と4の場合ちょうど8倍になるので、公式の意味が分かります。ふたつ目、マグニチュードは地震そのものの規模、震度は場所ごとの揺れの強さです。1つの地震にマグニチュードは1つ、震度は場所ごとにいくつもあります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "大森公式：震源距離 ≒ 初期微動継続時間 × 約8",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "マグニチュードは地震の規模、震度は場所の揺れ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。震源距離は、ディー割るエス波の速さ ひく ディー割るピー波の速さ イコール 時間差、この1本から出す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "震源距離は d/v_S − d/v_P = t の1本から出す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：初期微動継続時間が10秒、P波6.0 km/s、S波3.0 km/sのときの震源距離を求めよ。 → d/3 − d/6 = 10 より d = 60 km",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

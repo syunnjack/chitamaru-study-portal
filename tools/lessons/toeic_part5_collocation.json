@@ -1,0 +1,220 @@
+{
+  "title": "Part5 語彙とコロケーション（相性で覚える）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part5の問題です。ウィー ウッド ライク トゥー、空所、アン オーダー フォー 200 ユニッツ オブ ザ ニュー キーボード。選択肢は、エー プレイス、ビー メイク、シー テイク、ディー ドゥー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "We would like to ------- an order for",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "200 units of the new keyboard.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) place  (B) make",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(C) take  (D) do",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。語彙問題は意味の近さではなく、決まった組み合わせで決まります。動詞と名詞をセットで覚えるのが要領です。注文は プレイス アン オーダー です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "語彙問題は「相性（コロケーション）」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞＋名詞をセットで暗記",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "place an order / make a reservation",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "空所の相手は アン オーダー、注文です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：相手の名詞を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "an order",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「注文」を〜する。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：相手の名詞を確認"
+    },
+    {
+      "narration": "注文する、は プレイス アン オーダー です。メイク アン オーダー は自然な組み合わせではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：決まった組み合わせを思い出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "place an order = 注文する",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "make an order は一般的でない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：決まった組み合わせを思い出す"
+    },
+    {
+      "narration": "テイク アン オーダー は、店側が注文を受ける、という意味になり、立場が逆です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：ほかを消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "take an order は「注文を受ける」",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "立場が逆になる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：ほかを消す"
+    },
+    {
+      "narration": "答えはエー、プレイス。ウィー ウッド ライク トゥー プレイス アン オーダー フォー 200 ユニッツ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) place",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "We would like to place an order …",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。注文する側か受ける側かを確認します。ウィー ウッド ライク トゥー とあるので、注文する側です。プレイス アン オーダー が正しく、テイク アン オーダー では意味が反転します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "注文する側 → place",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "受ける側 → take",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "立場で確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。頻出の組み合わせを挙げます。メイク ア リザベーション、予約する。アテンド ア ミーティング、会議に出席する。ミート ア デッドライン、締め切りに間に合わせる。それから、サブミット と レジスター は前置詞のとり方が狙われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "make a reservation / attend a meeting / meet a deadline",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "submit A to B / register for A",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。語彙問題は意味ではなく相性。プレイス アン オーダー のように動詞と名詞をセットで覚える。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "語彙問題は意味ではなく相性。place an order のように動詞＋名詞をセットで覚える。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：I would like to ( make / do ) a reservation for two nights. を選べ。 → make a reservation",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>放射性同位体と年代測定｜地学基礎 第12回</title>
+<meta name="description" content="半減期の問題は (1/2)^n で回数を数えるだけ。減少分を残存量に直す型。共通テストの地学基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">地学基礎</a> ／ 第12回 放射性同位体と年代測定（回数を数える）</div>
+
+<main class="wrap">
+  <h1>第12回　放射性同位体と年代測定（半分になる回数を数える）</h1>
+  <div class="formula">半減期が7000万年の放射性同位体について、岩石中に残っている量が最初の8分の1になっていた。この岩石ができてからの年数を求めよ。</div>
+  <p>半減期は割り算ではなく「何回半分になったか」を数える問題です。</p>
+
+  <video controls preload="metadata" src="../../../videos/eb-radiometric-dating.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/eb-radiometric-dating.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>残る割合を (1/2)^n の形にする。</strong>1/2、1/4、1/8、1/16 は順に n = 1, 2, 3, 4。</li>
+      <li><strong>n を読み取る。</strong>「何回半分になったか」だけを数えます。</li>
+      <li><strong>年数 = 半減期 × n。</strong>掛け算1回で終わり。減った側の割合と混同しないこと。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>割合を指数にする</strong><div class="formula">1/8 = (1/2)^3</div><p>半分が3回。</p></li>
+    <li><strong>回数を読む</strong><div class="formula">n = 3（半減期が3回過ぎた）</div><p>回数を数えるだけ。</p></li>
+    <li><strong>年数を計算する</strong><div class="formula">7000万年 × 3 = 2億1000万年</div><p>掛けるだけ。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">約 2.1 × 10^8 年（2億1000万年）</div><p>桁も確認。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>7000万年で1/2、1億4000万年で1/4、2億1000万年で1/8。条件と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>「8分の7が減った」なら残りは8分の1。減少分は必ず残存量に直してから指数にします。</li>
+      <li>半減期の長さで使い分けます。炭素14は数万年以内、ウランやカリウムは数億年以上の岩石に使います。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>残る割合 = (1/2)^n。年数は半減期 × n。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>半減期5000年の同位体が最初の1/4になった。経過年数を求めよ。
+        <details><summary>答え</summary><p>(1/2)^2 より n = 2、5000 × 2 = 10000年</p></details>
+      </li>
+      <li>最初の量の15/16が失われたとき、半減期は何回過ぎたか。
+        <details><summary>答え</summary><p>残りは1/16 = (1/2)^4 なので4回</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="eb-geologic-time.html">← 第11回 地質年代と示準化石（重なりをとる）</a>　｜　<a href="eb-sedimentary-rock.html">第13回 堆積岩の分類（材料で3つ） →</a>　｜　<a href="../index.html">地学基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

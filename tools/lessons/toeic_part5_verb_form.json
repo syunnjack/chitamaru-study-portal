@@ -1,0 +1,220 @@
+{
+  "title": "Part5 動詞の形（時のヒントを先に探す）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part5の問題です。ミズ イトウ、空所、イン ザ オオサカ ブランチ、シンス シー ジョインド ザ カンパニー イン 2019。選択肢は、エー ワークス、ビー ワークト、シー ハズ ワークト、ディー ウィル ワーク。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Ms. Ito ------- in the Osaka branch",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "since she joined the company in 2019.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) works  (B) worked",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(C) has worked  (D) will work",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。選択肢が同じ動詞の変化形なら、時のヒントを探します。シンス や フォー があれば現在完了。ラスト や アゴー があれば過去。ネクスト があれば未来です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞の形は「時のヒント」で決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "since / for → 現在完了",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "last / ago → 過去、next → 未来",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "選択肢はすべて ワーク の変化形です。したがって形を決める問題です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：問題の種類を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "works / worked / has worked / will work",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "同じ動詞の変化形 → 形の問題",
+          "active": true
+        }
+      ],
+      "caption": "手順1：問題の種類を決める"
+    },
+    {
+      "narration": "シンス シー ジョインド、2019年から今まで、という継続を表しています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：時のヒントを探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "since she joined … in 2019",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「2019年から今まで」",
+          "active": true
+        }
+      ],
+      "caption": "手順2：時のヒントを探す"
+    },
+    {
+      "narration": "過去のある時点から今まで続いているので、現在完了の ハズ ワークト を選びます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：継続なら現在完了",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "has worked",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "現在完了は「過去から今」。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：継続なら現在完了"
+    },
+    {
+      "narration": "答えはシー、ハズ ワークト。シンス の後ろは過去形のままでかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(C) has worked",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "since 節は過去形でよい。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。ワークト を入れると、今も働いているかどうかが分からなくなり、シンス と合いません。ウィル ワーク は未来なので、2019年からという情報と矛盾します。ワークス は現在の習慣で、シンス と一緒には使えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "worked → since と合わない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "will work → 2019年と矛盾",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "works → 継続を表せない",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。空所の後ろに目的語がないときは受動態を疑います。それから、主語が長いときは、修飾語を外して本当の主語を見つけてから、単数か複数かを判断します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的語がなければ受動態を疑う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "長い主語は修飾語を外して判断",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。選択肢が同じ動詞なら時のヒントを探す。シンス や フォー なら現在完了。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢が同じ動詞なら時のヒントを探す。since / for なら現在完了。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The factory ( opened / has opened ) three years ago. を選べ。 → opened（ago は過去形）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

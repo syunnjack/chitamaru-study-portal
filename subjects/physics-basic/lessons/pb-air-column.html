@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>気柱の共鳴｜物理基礎 第18回</title>
+<meta name="description" content="開管は λ = 2L、閉管は λ = 4L。端の条件から波長を決めて v = fλ に入れる型を解説。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第18回 気柱の共鳴（開管と閉管）</div>
+
+<main class="wrap">
+  <h1>第18回　気柱の共鳴（開管と閉管の違い）</h1>
+  <div class="formula">音の速さを340 m/sとする。長さ0.50 mの開管が基本振動で共鳴するときの振動数を求めよ。また同じ長さの閉管（片側が閉じた管）が基本振動で共鳴するときの振動数を求めよ。</div>
+  <p>覚えるのは波長との関係2つだけ。あとは波の基本式に入れます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-air-column.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-air-column.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>端の条件を図で確認。</strong>閉じた端は節、開いた端は腹。ここから波長が決まります。</li>
+      <li><strong>基本振動の関係。</strong>開管は λ = 2L、閉管は λ = 4L。閉管の方が波長が長い＝音が低くなります。</li>
+      <li><strong>v = fλ で最後に変換。</strong>音速は管の長さや振動数では変わりません（気温で決まる）。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>開管の波長</strong><div class="formula">λ = 2L = 2 × 0.50 = 1.0 m</div><p>両端が腹。</p></li>
+    <li><strong>開管の振動数</strong><div class="formula">f = v/λ = 340/1.0 = 340 Hz</div><p>v = fλ を f について解く。</p></li>
+    <li><strong>閉管の波長と振動数</strong><div class="formula">λ = 4L = 2.0 m、f = 340/2.0 = 170 Hz</div><p>閉じた端は節。</p></li>
+    <li><strong>答えをまとめる</strong><div class="formula">開管 340 Hz、閉管 170 Hz（ちょうど半分）</div><p>閉管は1オクターブ低い。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>閉管の波長は2倍なので振動数は半分。340 ÷ 2 = 170 Hz と整合します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>管を短くすると波長が短くなり、振動数が上がります。笛の音程が変わるのはこの効果です。</li>
+      <li>音速は気温で決まります（V = 331.5 + 0.6t）。気温が上がると同じ管でも音が高くなります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>開管は λ = 2L、閉管は λ = 4L。あとは v = fλ。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>長さ0.25 mの閉管の基本振動の振動数を求めよ（v = 340 m/s）。
+        <details><summary>答え</summary><p>λ = 1.0 m、f = 340 Hz</p></details>
+      </li>
+      <li>長さ1.0 mの開管の2倍振動の振動数を求めよ（v = 340 m/s）。
+        <details><summary>答え</summary><p>λ = 1.0 m、f = 340 Hz</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-series-parallel.html">← 第17回 直列と並列の合成抵抗（まとめる順番）</a>　｜　<a href="pb-transmission.html">第19回 送電と変圧（損失は電流の2乗） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

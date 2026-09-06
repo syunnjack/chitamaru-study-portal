@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>摩擦力｜物理基礎 第4回</title>
+<meta name="description" content="摩擦は「最大摩擦力と比べて判定 → 動いたら動摩擦に切り替え」の型で解きます。共通テストの物理基礎対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">物理基礎</a> ／ 第4回 摩擦力（静止と動摩擦の切り替え）</div>
+
+<main class="wrap">
+  <h1>第4回　摩擦力（静止と動摩擦の切り替え）</h1>
+  <div class="formula">質量5.0 kgの物体が水平な床の上にある。静止摩擦係数0.40、動摩擦係数0.20、g = 9.8 m/s²とする。水平に15 Nの力を加えたとき物体は動くか。動く場合、その加速度を求めよ。</div>
+  <p>摩擦の失点はほぼ全部、静止摩擦と動摩擦の取り違えです。判定を先に置きます。</p>
+
+  <video controls preload="metadata" src="../../../videos/pb-friction.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/pb-friction.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>判定が先。</strong>最大摩擦力 f_max = μN を出し、加えた力 F と比べます。F ≤ f_max なら静止、F > f_max なら動きます。</li>
+      <li><strong>静止しているときの摩擦力は μN ではない。</strong>加えた力とつり合う値（F と同じ大きさ）です。μN はあくまで上限です。</li>
+      <li><strong>動き出したら動摩擦 μ'N に切り替える。</strong>動摩擦は速さによらず一定です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>垂直抗力を出す</strong><div class="formula">N = mg = 5.0 × 9.8 = 49 N</div><p>水平面なので N = mg。</p></li>
+    <li><strong>最大摩擦力と比べる</strong><div class="formula">f_max = 0.40 × 49 = 19.6 N > 15 N</div><p>加えた力の方が小さい。</p></li>
+    <li><strong>動くかどうか答える</strong><div class="formula">15 N < 19.6 N なので物体は動かない（静止）</div><p>このときの摩擦力は15 N。</p></li>
+    <li><strong>動かすにはいくら必要か</strong><div class="formula">F > 19.6 N。例えば25 N なら a = (25 − 0.20×49)/5.0 = 3.0 m/s²</div><p>動いたら動摩擦に切替。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>静止時の上限19.6 N が動摩擦9.8 N より大きい、という順序を確認します。逆になったら係数の取り違えです。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>静止摩擦力は「μN」ではなく、加えた力とつり合う大きさです。μN は動き出す直前の上限値だけを表します。</li>
+      <li>斜め上向きに引くと N = mg − F sinθ になり、摩擦も小さくなります。Nを先に求める習慣をつけます。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>摩擦は「判定 → 切り替え」。f_max = μN と比べ、動いたら μ'N。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>質量2.0 kg、静止摩擦係数0.50の物体に水平に8.0 Nを加えたとき動くか（g = 9.8）。
+        <details><summary>答え</summary><p>f_max = 9.8 N > 8.0 N なので動かない</p></details>
+      </li>
+      <li>質量4.0 kgの物体が動摩擦係数0.25の床を滑るときの減速の加速度を求めよ（g = 9.8）。
+        <details><summary>答え</summary><p>a = −0.25×9.8 = −2.5 m/s²</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="pb-newton-two-bodies.html">← 第3回 2物体の運動方程式（全体→片方）</a>　｜　<a href="pb-energy-conservation.html">第5回 力学的エネルギー保存（高さと速さの交換） →</a>　｜　<a href="../index.html">物理基礎の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
