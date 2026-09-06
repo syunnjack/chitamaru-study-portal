@@ -3955,6 +3955,396 @@
       ],
       "hook": "露点がわかれば、湿度は割り算1回で出ます。",
       "point": "露点の飽和水蒸気量＝含有量。湿度は割る、出る水は引く。"
+    },
+    {
+      "slug": "kc-timezone",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-timezone.html",
+      "title": "【公立入試・社会 第1回】時差は経度差÷15／飛行機の到着時刻の出し方",
+      "thumb": [
+        "時差の計算",
+        "経度差÷15",
+        "東が進む"
+      ],
+      "hook": "時差で迷うのは「向き」だけです。式は1本しかありません。",
+      "point": "時差＝経度差÷15。東が進んでいる。飛行機は＋飛行時間−時差。"
+    },
+    {
+      "slug": "kc-climate-graph",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-climate-graph.html",
+      "title": "【公立入試・社会 第2回】雨温図は3ステップで判定／気候から農業まで",
+      "thumb": [
+        "雨温図の判定",
+        "最寒月→年較差",
+        "→降水の季節"
+      ],
+      "hook": "雨温図は当てものではありません。見る順番が決まっています。",
+      "point": "最寒月の気温→年較差→降水の季節。夏乾燥なら地中海性。"
+    },
+    {
+      "slug": "kc-topomap",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-topomap.html",
+      "title": "【公立入試・社会 第3回】地形図は計算問題／縮尺と等高線を数字にする",
+      "thumb": [
+        "地形図の読み取り",
+        "4cm→1km",
+        "主曲線10m"
+      ],
+      "hook": "地形図は計算問題です。かけて割るだけで点になります。",
+      "point": "実際の距離＝地図上×分母。2.5万は主曲線10 m、間隔がせまいほど急。"
+    },
+    {
+      "slug": "kc-stats-read",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-stats-read.html",
+      "title": "【公立入試・社会 第4回】割合が下がっても額は増える／資料問題の落とし穴",
+      "thumb": [
+        "統計資料の読み取り",
+        "実数＝全体×割合",
+        "割合≠実数"
+      ],
+      "hook": "「割合が下がった＝減った」は、資料問題でいちばん多いワナです。",
+      "point": "実数＝全体×割合。割合が下がっても全体が増えれば実数は増える。"
+    },
+    {
+      "slug": "kc-order-ancient",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-order-ancient.html",
+      "title": "【公立入試・社会 第5回】並べかえは流れで解く／公地公民から荘園へ",
+      "thumb": [
+        "古代〜中世の並べかえ",
+        "645→743→794",
+        "→1086"
+      ],
+      "hook": "並べかえは、年号を4つ覚えるより流れを1本持つ方が速いです。",
+      "point": "公地公民→私有の容認→荘園→院政。年号を書き添えて確認する。"
+    },
+    {
+      "slug": "kc-meiji-tax",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-meiji-tax.html",
+      "title": "【公立入試・社会 第6回】史料は「変化」を1つ探す／地租改正の目的の書き方",
+      "thumb": [
+        "史料と近代の改革",
+        "地価の3％",
+        "財政の安定"
+      ],
+      "hook": "史料は全部読まなくていい。変わった点を1つ探すだけです。",
+      "point": "地租改正＝地価の3％を現金納入。目的は財政の安定、のち2.5％へ。"
+    },
+    {
+      "slug": "kc-modern-chain",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-modern-chain.html",
+      "title": "【公立入試・社会 第7回】因果は経済から書く／世界恐慌から戦争への1本線",
+      "thumb": [
+        "年表と因果",
+        "恐慌→輸出減",
+        "→大陸へ"
+      ],
+      "hook": "因果の記述は、経済から書き出すと決めるだけで安定します。",
+      "point": "恐慌→輸出減→行きづまり→資源と市場を大陸に求める。"
+    },
+    {
+      "slug": "kc-three-powers",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-three-powers.html",
+      "title": "【公立入試・社会 第8回】三権分立は矢印で覚える／不信任決議のあと何が起きる？",
+      "thumb": [
+        "三権分立",
+        "不信任→10日",
+        "解散か総辞職"
+      ],
+      "hook": "三権分立の図は、矢印を「止める手段」に言い換えると覚えられます。",
+      "point": "不信任決議→10日以内に解散か総辞職。違憲審査・弾劾裁判・国民審査。"
+    },
+    {
+      "slug": "kc-price-market",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-price-market.html",
+      "title": "【公立入試・社会 第9回】均衡価格は表で見つかる／不景気の金融政策の向き",
+      "thumb": [
+        "需要と供給",
+        "均衡価格200円",
+        "国債を買う"
+      ],
+      "hook": "均衡価格は、グラフを描かなくても表の1行で見つかります。",
+      "point": "数が一致する行が均衡価格。不景気は国債を買って通貨量を増やす。"
+    },
+    {
+      "slug": "kc-election-gap",
+      "playlist": "koritsu-social",
+      "page": "subjects/koritsu-social/lessons/kc-election-gap.html",
+      "title": "【公立入試・社会 第10回】一票の格差は割り算1回／重いのはどちらの選挙区？",
+      "thumb": [
+        "一票の格差",
+        "45万÷18万",
+        "2.5倍"
+      ],
+      "hook": "一票の格差で間違えるのは、計算ではなく「向き」です。",
+      "point": "1人あたり＝有権者÷定数。有権者が少ない選挙区の一票が重い。"
+    },
+    {
+      "slug": "kj-shijigo",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-shijigo.html",
+      "title": "【公立入試・国語 第1回】指示語は代入して確かめる／語尾は「ということ」",
+      "thumb": [
+        "指示語の答え方",
+        "直前を探す",
+        "代入して確認"
+      ],
+      "hook": "指示語は、代入して読み直せば正解かどうか自分で判定できます。",
+      "point": "直前を探す→代入して音読→「〜ということ」で結ぶ。"
+    },
+    {
+      "slug": "kj-setsuzokugo",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-setsuzokugo.html",
+      "title": "【公立入試・国語 第2回】接続語は語感で選ばない／関係を記号にする",
+      "thumb": [
+        "接続語の補充",
+        "逆接・結論・補足",
+        "記号にする"
+      ],
+      "hook": "接続語を語感で選んでいる人は、ここで点を落としています。",
+      "point": "前後を言いかえて関係を記号化。逆接の直後に主張が来る。"
+    },
+    {
+      "slug": "kj-riyu",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-riyu.html",
+      "title": "【公立入試・国語 第3回】理由説明は作業／合図を探して「から」で結ぶ",
+      "thumb": [
+        "理由説明",
+        "合図を探す",
+        "文末は「から」"
+      ],
+      "hook": "記述問題は、書き出す前に手順を決めれば作業になります。",
+      "point": "理由の合図を探す→比較は両方書く→文末は「〜から」。"
+    },
+    {
+      "slug": "kj-youshi",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-youshi.html",
+      "title": "【公立入試・国語 第4回】要旨は対比と最終文／具体例を主張と間違えない",
+      "thumb": [
+        "要旨のとらえ方",
+        "対比と最終文",
+        "例は外す"
+      ],
+      "hook": "要旨問題は、消していけば残ります。",
+      "point": "対比と最終文を見る。具体例と言いすぎの選択肢を消す。"
+    },
+    {
+      "slug": "kj-shinjou",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-shinjou.html",
+      "title": "【公立入試・国語 第5回】心情は描写に置きかえられている／戻し方の手順",
+      "thumb": [
+        "小説の心情",
+        "描写を拾う",
+        "心情語に戻す"
+      ],
+      "hook": "心情が書いていないのではなく、置きかえて書いてあるだけです。",
+      "point": "行動・体の変化・情景を拾い、共通点を心情語に戻す。"
+    },
+    {
+      "slug": "kj-goi",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-goi.html",
+      "title": "【公立入試・国語 第6回】知らない熟語は漢字に分解／誤用しやすい語は対で覚える",
+      "thumb": [
+        "語句と慣用句",
+        "漢字に分解",
+        "誤用に注意"
+      ],
+      "hook": "知らない熟語でも、漢字に分ければ意味は見えてきます。",
+      "point": "漢字1字ずつに分解。誤用語は正しい意味と誤解を対で覚える。"
+    },
+    {
+      "slug": "kj-kanji",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-kanji.html",
+      "title": "【公立入試・国語 第7回】保証・保障・補償の使い分け／1字の意味で決める",
+      "thumb": [
+        "漢字の書き取り",
+        "証・障・償",
+        "1字で決める"
+      ],
+      "hook": "ホショウの書き分けは、1字の意味を言えれば迷いません。",
+      "point": "意味の中心の1字で決める。証＝あかし、障＝守る、償＝つぐなう。"
+    },
+    {
+      "slug": "kj-kobun",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-kobun.html",
+      "title": "【公立入試・国語 第8回】古文は主語を補って読む／をかしは「おかしい」ではない",
+      "thumb": [
+        "古文の読み方",
+        "語中のハ行",
+        "主語を補う"
+      ],
+      "hook": "古文が読めないのは単語ではなく、主語が省略されているからです。",
+      "point": "語中のハ行→わいうえお。をかし＝趣がある。主語を補って読む。"
+    },
+    {
+      "slug": "kj-kanbun",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-kanbun.html",
+      "title": "【公立入試・国語 第9回】漢文は順序の規則だけ／返り点と再読文字",
+      "thumb": [
+        "漢文の返り点",
+        "上から下へ",
+        "返り点は後回し"
+      ],
+      "hook": "漢文は意味を考える前に、読む順番の規則で解けます。",
+      "point": "上から下へ、返り点は後回し。再読文字は2回読む。"
+    },
+    {
+      "slug": "kj-sakubun",
+      "playlist": "koritsu-japanese",
+      "page": "subjects/koritsu-japanese/lessons/kj-sakubun.html",
+      "title": "【公立入試・国語 第10回】作文は5文の型で書く／条件落ちを防ぐ確認法",
+      "thumb": [
+        "条件作文",
+        "5文の型",
+        "下限＋10字"
+      ],
+      "hook": "作文で差がつくのは発想力ではありません。型と条件確認です。",
+      "point": "宣言→理由→経験2文→まとめ。条件を指で追って確認する。"
+    },
+    {
+      "slug": "ke-word-order",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-word-order.html",
+      "title": "【公立入試・英語 第1回】語順は口で覚える／did のあとは必ず原形",
+      "thumb": [
+        "語順と疑問文",
+        "誰が→どうする",
+        "→何を→どこへ"
+      ],
+      "hook": "英作文の失点はほとんど語順です。順番を声に出して覚えます。",
+      "point": "誰が→どうする→何を→どこへ→いつ。did/doesのあとは原形。"
+    },
+    {
+      "slug": "ke-tense-perfect",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-tense-perfect.html",
+      "title": "【公立入試・英語 第2回】for と since の使い分け／時の語で時制が決まる",
+      "thumb": [
+        "現在完了",
+        "for＝期間",
+        "since＝時点"
+      ],
+      "hook": "現在完了か過去形かは、文中の時の語だけで決まります。",
+      "point": "have/has＋過去分詞。for＝期間、since＝時点、経験はhave been to。"
+    },
+    {
+      "slug": "ke-dialogue-fill",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-dialogue-fill.html",
+      "title": "【公立入試・英語 第3回】対話文は直前の1文だけ見る／定型応答4組",
+      "thumb": [
+        "対話文の応答",
+        "直前の1文",
+        "定型で返す"
+      ],
+      "hook": "対話文の空所は、全体を読まなくても直前の1文で決まります。",
+      "point": "依頼→Sure、謝罪→That's all right、勧め→Yes, please、提案→That sounds good。"
+    },
+    {
+      "slug": "ke-infinitive",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-infinitive.html",
+      "title": "【公立入試・英語 第4回】to と ing は動詞で決まる／位置で意味が変わる",
+      "thumb": [
+        "不定詞と動名詞",
+        "want to",
+        "enjoy ~ing"
+      ],
+      "hook": "to か ing かは、直前の動詞を見た瞬間に決まります。",
+      "point": "want to / enjoy ~ing。名詞の後ろは「〜するための」、文末は「〜するために」。"
+    },
+    {
+      "slug": "ke-comparison",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-comparison.html",
+      "title": "【公立入試・英語 第5回】比較は3つの型だけ／as と as の間は原級",
+      "thumb": [
+        "比較の3つの型",
+        "than / the ~ in",
+        "as ~ as"
+      ],
+      "hook": "比較は3つの型に振り分けるだけの問題です。",
+      "point": "比較級＋than／the＋最上級＋in／as＋原級＋as。長い語はmore・most。"
+    },
+    {
+      "slug": "ke-passive",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-passive.html",
+      "title": "【公立入試・英語 第6回】受動態は3手順／is・are・was・were のどれか",
+      "thumb": [
+        "受動態",
+        "be＋過去分詞",
+        "is/are/was/were"
+      ],
+      "hook": "受動態のミスは、ほぼ全部be動詞の形です。",
+      "point": "目的語を主語に→be動詞を主語と時に合わせる→過去分詞。"
+    },
+    {
+      "slug": "ke-relative",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-relative.html",
+      "title": "【公立入試・英語 第7回】長文は名詞のかたまりで切る／関係代名詞と分詞の見分け",
+      "thumb": [
+        "関係代名詞と分詞",
+        "名詞の後ろ",
+        "かたまりで切る"
+      ],
+      "hook": "長文が読めない原因は単語ではなく、名詞のかたまりです。",
+      "point": "主語＋動詞なら関係代名詞、動詞から始まれば分詞。主語のかたまりを囲む。"
+    },
+    {
+      "slug": "ke-conjunction",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-conjunction.html",
+      "title": "【公立入試・英語 第8回】ifの中にwillは入れない／間接疑問は語順が戻る",
+      "thumb": [
+        "接続詞と間接疑問",
+        "ifの中は現在形",
+        "疑問詞＋主語＋動詞"
+      ],
+      "hook": "if の中に will を入れる。この1点でよく落としています。",
+      "point": "when/ifの中は現在形。間接疑問は疑問詞＋主語＋動詞。"
+    },
+    {
+      "slug": "ke-reading",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-reading.html",
+      "title": "【公立入試・英語 第9回】長文は全部訳さない／根拠の1文を示せるかで決める",
+      "thumb": [
+        "長文の設問処理",
+        "設問を先に読む",
+        "根拠の1文"
+      ],
+      "hook": "長文を全部訳している人は、時間が足りなくなります。",
+      "point": "設問を先に読み、周辺だけ精読。根拠の1文がない選択肢は選ばない。"
+    },
+    {
+      "slug": "ke-writing",
+      "playlist": "koritsu-english",
+      "page": "subjects/koritsu-english/lessons/ke-writing.html",
+      "title": "【公立入試・英語 第10回】英作文は2文で満点／難しいことを書かない",
+      "thumb": [
+        "条件英作文",
+        "結論→because",
+        "見直し4点"
+      ],
+      "hook": "英作文で満点を取るのは、難しいことを書かない人です。",
+      "point": "結論→becauseで理由の2文型。見直しは主語・動詞・s・時制。"
     }
   ]
 }

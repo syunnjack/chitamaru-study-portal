@@ -4750,9 +4750,489 @@ CO₂が減れば青、増えれば黄色。対照実験は条件を1つだけ�
 
 ## 再生リスト：愛知県公立入試 社会｜資料と因果で解く
 
+### 【公立入試・社会 第1回】時差は経度差÷15／飛行機の到着時刻の出し方
+
+- ファイル：`videos/kc-timezone.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-timezone.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-timezone.html
+
+```
+時差で迷うのは「向き」だけです。式は1本しかありません。
+時差＝経度差÷15。東が進んでいる。飛行機は＋飛行時間−時差。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-timezone.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第2回】雨温図は3ステップで判定／気候から農業まで
+
+- ファイル：`videos/kc-climate-graph.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-climate-graph.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-climate-graph.html
+
+```
+雨温図は当てものではありません。見る順番が決まっています。
+最寒月の気温→年較差→降水の季節。夏乾燥なら地中海性。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-climate-graph.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第3回】地形図は計算問題／縮尺と等高線を数字にする
+
+- ファイル：`videos/kc-topomap.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-topomap.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-topomap.html
+
+```
+地形図は計算問題です。かけて割るだけで点になります。
+実際の距離＝地図上×分母。2.5万は主曲線10 m、間隔がせまいほど急。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-topomap.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第4回】割合が下がっても額は増える／資料問題の落とし穴
+
+- ファイル：`videos/kc-stats-read.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-stats-read.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-stats-read.html
+
+```
+「割合が下がった＝減った」は、資料問題でいちばん多いワナです。
+実数＝全体×割合。割合が下がっても全体が増えれば実数は増える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-stats-read.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第5回】並べかえは流れで解く／公地公民から荘園へ
+
+- ファイル：`videos/kc-order-ancient.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-order-ancient.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-order-ancient.html
+
+```
+並べかえは、年号を4つ覚えるより流れを1本持つ方が速いです。
+公地公民→私有の容認→荘園→院政。年号を書き添えて確認する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-order-ancient.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第6回】史料は「変化」を1つ探す／地租改正の目的の書き方
+
+- ファイル：`videos/kc-meiji-tax.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-meiji-tax.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-meiji-tax.html
+
+```
+史料は全部読まなくていい。変わった点を1つ探すだけです。
+地租改正＝地価の3％を現金納入。目的は財政の安定、のち2.5％へ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-meiji-tax.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第7回】因果は経済から書く／世界恐慌から戦争への1本線
+
+- ファイル：`videos/kc-modern-chain.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-modern-chain.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-modern-chain.html
+
+```
+因果の記述は、経済から書き出すと決めるだけで安定します。
+恐慌→輸出減→行きづまり→資源と市場を大陸に求める。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-modern-chain.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第8回】三権分立は矢印で覚える／不信任決議のあと何が起きる？
+
+- ファイル：`videos/kc-three-powers.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-three-powers.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-three-powers.html
+
+```
+三権分立の図は、矢印を「止める手段」に言い換えると覚えられます。
+不信任決議→10日以内に解散か総辞職。違憲審査・弾劾裁判・国民審査。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-three-powers.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第9回】均衡価格は表で見つかる／不景気の金融政策の向き
+
+- ファイル：`videos/kc-price-market.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-price-market.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-price-market.html
+
+```
+均衡価格は、グラフを描かなくても表の1行で見つかります。
+数が一致する行が均衡価格。不景気は国債を買って通貨量を増やす。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-price-market.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
+### 【公立入試・社会 第10回】一票の格差は割り算1回／重いのはどちらの選挙区？
+
+- ファイル：`videos/kc-election-gap.mp4`
+- サムネイル：`assets/youtube/thumbs/kc-election-gap.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-election-gap.html
+
+```
+一票の格差で間違えるのは、計算ではなく「向き」です。
+1人あたり＝有権者÷定数。有権者が少ない選挙区の一票が重い。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-social/lessons/kc-election-gap.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領
+```
+
 ## 再生リスト：愛知県公立入試 国語｜本文の根拠で解く
 
+### 【公立入試・国語 第1回】指示語は代入して確かめる／語尾は「ということ」
+
+- ファイル：`videos/kj-shijigo.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-shijigo.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-shijigo.html
+
+```
+指示語は、代入して読み直せば正解かどうか自分で判定できます。
+直前を探す→代入して音読→「〜ということ」で結ぶ。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-shijigo.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第2回】接続語は語感で選ばない／関係を記号にする
+
+- ファイル：`videos/kj-setsuzokugo.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-setsuzokugo.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-setsuzokugo.html
+
+```
+接続語を語感で選んでいる人は、ここで点を落としています。
+前後を言いかえて関係を記号化。逆接の直後に主張が来る。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-setsuzokugo.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第3回】理由説明は作業／合図を探して「から」で結ぶ
+
+- ファイル：`videos/kj-riyu.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-riyu.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-riyu.html
+
+```
+記述問題は、書き出す前に手順を決めれば作業になります。
+理由の合図を探す→比較は両方書く→文末は「〜から」。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-riyu.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第4回】要旨は対比と最終文／具体例を主張と間違えない
+
+- ファイル：`videos/kj-youshi.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-youshi.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-youshi.html
+
+```
+要旨問題は、消していけば残ります。
+対比と最終文を見る。具体例と言いすぎの選択肢を消す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-youshi.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第5回】心情は描写に置きかえられている／戻し方の手順
+
+- ファイル：`videos/kj-shinjou.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-shinjou.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-shinjou.html
+
+```
+心情が書いていないのではなく、置きかえて書いてあるだけです。
+行動・体の変化・情景を拾い、共通点を心情語に戻す。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-shinjou.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第6回】知らない熟語は漢字に分解／誤用しやすい語は対で覚える
+
+- ファイル：`videos/kj-goi.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-goi.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-goi.html
+
+```
+知らない熟語でも、漢字に分ければ意味は見えてきます。
+漢字1字ずつに分解。誤用語は正しい意味と誤解を対で覚える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-goi.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第7回】保証・保障・補償の使い分け／1字の意味で決める
+
+- ファイル：`videos/kj-kanji.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-kanji.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kanji.html
+
+```
+ホショウの書き分けは、1字の意味を言えれば迷いません。
+意味の中心の1字で決める。証＝あかし、障＝守る、償＝つぐなう。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kanji.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第8回】古文は主語を補って読む／をかしは「おかしい」ではない
+
+- ファイル：`videos/kj-kobun.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-kobun.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kobun.html
+
+```
+古文が読めないのは単語ではなく、主語が省略されているからです。
+語中のハ行→わいうえお。をかし＝趣がある。主語を補って読む。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kobun.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第9回】漢文は順序の規則だけ／返り点と再読文字
+
+- ファイル：`videos/kj-kanbun.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-kanbun.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kanbun.html
+
+```
+漢文は意味を考える前に、読む順番の規則で解けます。
+上から下へ、返り点は後回し。再読文字は2回読む。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-kanbun.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
+### 【公立入試・国語 第10回】作文は5文の型で書く／条件落ちを防ぐ確認法
+
+- ファイル：`videos/kj-sakubun.mp4`
+- サムネイル：`assets/youtube/thumbs/kj-sakubun.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-sakubun.html
+
+```
+作文で差がつくのは発想力ではありません。型と条件確認です。
+宣言→理由→経験2文→まとめ。条件を指で追って確認する。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-japanese/lessons/kj-sakubun.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領
+```
+
 ## 再生リスト：愛知県公立入試 英語｜英作文と長文の型
+
+### 【公立入試・英語 第1回】語順は口で覚える／did のあとは必ず原形
+
+- ファイル：`videos/ke-word-order.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-word-order.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-word-order.html
+
+```
+英作文の失点はほとんど語順です。順番を声に出して覚えます。
+誰が→どうする→何を→どこへ→いつ。did/doesのあとは原形。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-word-order.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第2回】for と since の使い分け／時の語で時制が決まる
+
+- ファイル：`videos/ke-tense-perfect.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-tense-perfect.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-tense-perfect.html
+
+```
+現在完了か過去形かは、文中の時の語だけで決まります。
+have/has＋過去分詞。for＝期間、since＝時点、経験はhave been to。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-tense-perfect.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第3回】対話文は直前の1文だけ見る／定型応答4組
+
+- ファイル：`videos/ke-dialogue-fill.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-dialogue-fill.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-dialogue-fill.html
+
+```
+対話文の空所は、全体を読まなくても直前の1文で決まります。
+依頼→Sure、謝罪→That's all right、勧め→Yes, please、提案→That sounds good。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-dialogue-fill.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第4回】to と ing は動詞で決まる／位置で意味が変わる
+
+- ファイル：`videos/ke-infinitive.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-infinitive.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-infinitive.html
+
+```
+to か ing かは、直前の動詞を見た瞬間に決まります。
+want to / enjoy ~ing。名詞の後ろは「〜するための」、文末は「〜するために」。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-infinitive.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第5回】比較は3つの型だけ／as と as の間は原級
+
+- ファイル：`videos/ke-comparison.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-comparison.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-comparison.html
+
+```
+比較は3つの型に振り分けるだけの問題です。
+比較級＋than／the＋最上級＋in／as＋原級＋as。長い語はmore・most。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-comparison.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第6回】受動態は3手順／is・are・was・were のどれか
+
+- ファイル：`videos/ke-passive.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-passive.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-passive.html
+
+```
+受動態のミスは、ほぼ全部be動詞の形です。
+目的語を主語に→be動詞を主語と時に合わせる→過去分詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-passive.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第7回】長文は名詞のかたまりで切る／関係代名詞と分詞の見分け
+
+- ファイル：`videos/ke-relative.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-relative.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-relative.html
+
+```
+長文が読めない原因は単語ではなく、名詞のかたまりです。
+主語＋動詞なら関係代名詞、動詞から始まれば分詞。主語のかたまりを囲む。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-relative.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第8回】ifの中にwillは入れない／間接疑問は語順が戻る
+
+- ファイル：`videos/ke-conjunction.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-conjunction.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-conjunction.html
+
+```
+if の中に will を入れる。この1点でよく落としています。
+when/ifの中は現在形。間接疑問は疑問詞＋主語＋動詞。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-conjunction.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第9回】長文は全部訳さない／根拠の1文を示せるかで決める
+
+- ファイル：`videos/ke-reading.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-reading.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-reading.html
+
+```
+長文を全部訳している人は、時間が足りなくなります。
+設問を先に読み、周辺だけ精読。根拠の1文がない選択肢は選ばない。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-reading.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
+
+### 【公立入試・英語 第10回】英作文は2文で満点／難しいことを書かない
+
+- ファイル：`videos/ke-writing.mp4`
+- サムネイル：`assets/youtube/thumbs/ke-writing.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-writing.html
+
+```
+英作文で満点を取るのは、難しいことを書かない人です。
+結論→becauseで理由の2文型。見直しは主語・動詞・s・時制。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-english/lessons/ke-writing.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領
+```
 
 ## 再生リスト：私立難関（東海・滝・南山女子）数学｜差がつく型
 

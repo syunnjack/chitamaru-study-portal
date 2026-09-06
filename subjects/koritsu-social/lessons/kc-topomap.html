@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>地形図の読み取り｜公立入試 社会 第3回</title>
+<meta name="description" content="縮尺の計算、主曲線の間隔、等高線の間隔と傾斜の関係を数字で処理する型。愛知県公立高校入試の社会対策。">
+<link rel="stylesheet" href="../../../assets/style.css">
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">公立入試 社会</a> ／ 第3回 地形図の読み取り（縮尺と等高線）</div>
+
+<main class="wrap">
+  <h1>第3回　地形図の読み取り（縮尺と等高線を数字にする）</h1>
+  <div class="formula">2万5千分の1の地形図について答えよ。(1) 地図上で 4 cm の長さは実際には何 km か。(2) この地図で等高線（主曲線）は何 m ごとに引かれているか。(3) 地図上の 2 cm 離れた2地点の標高差が 20 m のとき、傾斜が急なのはこの斜面か、同じ標高差で 6 cm 離れた斜面か。</div>
+  <p>地形図は「かける・割る」の作業です。感覚で答えなくて大丈夫です。</p>
+
+  <video controls preload="metadata" src="../../../videos/kc-topomap.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/kc-topomap.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <ol class="steps">
+      <li><strong>実際の距離 = 地図上の長さ × 分母。</strong>cm で計算し、100000 で割って km にします。</li>
+      <li><strong>主曲線は 2.5万→10 m、5万→20 m。</strong>この2つだけ覚えます。</li>
+      <li><strong>間隔がせまい＝急。</strong>同じ標高差なら水平距離が短い方が急斜面です。</li>
+    </ol>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>実際の距離を出す</strong><div class="formula">4 × 25000 = 100000 cm</div><p>分母をかける。</p></li>
+    <li><strong>単位を直す</strong><div class="formula">100000 cm = 1000 m = 1 km</div><p>100000で割ればkm。</p></li>
+    <li><strong>主曲線を答える</strong><div class="formula">2万5千分の1 → 10 m ごと</div><p>覚える数字。</p></li>
+    <li><strong>傾斜を比べる</strong><div class="formula">2 cm（実際 500 m）で 20 m ＞ 6 cm（1500 m）で 20 m</div><p>距離が短い方が急。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>傾きは 20/500 = 1/25 と 20/1500 = 1/75。前者が大きく、2 cm の斜面が急という判定と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>等高線が低い方へ張り出していれば尾根、高い方へくいこんでいれば谷。谷には川が流れます。</li>
+      <li>面積の比は縮尺の2乗になります。長さの比と混同しないことです。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>実際の距離＝地図上×分母。2.5万は主曲線10 m。間隔がせまい＝急。</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5万分の1の地形図で地図上 3 cm は実際に何 km か。
+        <details><summary>答え</summary><p>1.5 km</p></details>
+      </li>
+      <li>5万分の1の地形図の主曲線の間隔を答えよ。
+        <details><summary>答え</summary><p>20 m ごと</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="kc-climate-graph.html">← 第2回 雨温図の判定（見る順番を固定）</a>　｜　<a href="kc-stats-read.html">第4回 統計資料の読み取り（割合と実数） →</a>　｜　<a href="../index.html">公立入試 社会の一覧に戻る</a></p>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>
