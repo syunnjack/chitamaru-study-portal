@@ -89,6 +89,48 @@
       "name": "政治・経済｜仕組みで解く共通テスト",
       "badge": "政治経済",
       "hashtags": "#政治経済 #公共 #共通テスト #受験は要領"
+    },
+    {
+      "id": "koritsu-science",
+      "name": "愛知県公立入試 理科｜出る型だけ",
+      "badge": "公立理科",
+      "hashtags": "#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領"
+    },
+    {
+      "id": "koritsu-social",
+      "name": "愛知県公立入試 社会｜資料と因果で解く",
+      "badge": "公立社会",
+      "hashtags": "#高校受験 #愛知県公立高校入試 #中学社会 #受験は要領"
+    },
+    {
+      "id": "koritsu-japanese",
+      "name": "愛知県公立入試 国語｜本文の根拠で解く",
+      "badge": "公立国語",
+      "hashtags": "#高校受験 #愛知県公立高校入試 #中学国語 #受験は要領"
+    },
+    {
+      "id": "koritsu-english",
+      "name": "愛知県公立入試 英語｜英作文と長文の型",
+      "badge": "公立英語",
+      "hashtags": "#高校受験 #愛知県公立高校入試 #中学英語 #受験は要領"
+    },
+    {
+      "id": "shiritsu-math",
+      "name": "私立難関（東海・滝・南山女子）数学｜差がつく型",
+      "badge": "私立数学",
+      "hashtags": "#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領"
+    },
+    {
+      "id": "shiritsu-japanese",
+      "name": "私立難関（東海・滝・南山女子）国語｜記述の型",
+      "badge": "私立国語",
+      "hashtags": "#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領"
+    },
+    {
+      "id": "shiritsu-english",
+      "name": "私立難関（東海・滝・南山女子）英語｜長文と英作文",
+      "badge": "私立英語",
+      "hashtags": "#高校受験 #東海高校 #滝高校 #南山女子 #受験は要領"
     }
   ],
   "videos": [
@@ -3783,6 +3825,136 @@
       ],
       "hook": "オゾン層破壊と温暖化は、原因も場所も違う別の問題です。",
       "point": "フロン→成層圏→紫外線増、CO2→対流圏→気温・海面上昇。"
+    },
+    {
+      "slug": "ks-density-float",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-density-float.html",
+      "title": "【公立入試・理科 第1回】密度は単位が式／水の1.0と比べるだけ",
+      "thumb": [
+        "密度と浮き沈み",
+        "54÷20＝2.7",
+        "1.0と比べる"
+      ],
+      "hook": "密度の公式は、単位を見れば思い出せます。",
+      "point": "密度＝質量÷体積。1.0より大きければ沈み、小さければ浮く。"
+    },
+    {
+      "slug": "ks-ohm-circuit",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-ohm-circuit.html",
+      "title": "【公立入試・理科 第2回】並列は枝ごとに電流をたす／V=RIの1本で足りる",
+      "thumb": [
+        "オームの法則",
+        "直列と並列",
+        "0.50 A"
+      ],
+      "hook": "並列の合成抵抗の公式、覚えなくて大丈夫です。",
+      "point": "直列は抵抗をたす。並列は枝ごとに電流を出してたす。"
+    },
+    {
+      "slug": "ks-motion-tape",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-motion-tape.html",
+      "title": "【公立入試・理科 第3回】記録タイマーは「1本の時間」から／平均は合計÷合計",
+      "thumb": [
+        "記録タイマー",
+        "6÷60＝0.1秒",
+        "48 cm/s"
+      ],
+      "hook": "テープの問題は、1本の時間を出した瞬間に終わります。",
+      "point": "1本の時間＝打点数÷60。速さ＝長さ÷時間。平均は合計÷合計。"
+    },
+    {
+      "slug": "ks-work-pulley",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-work-pulley.html",
+      "title": "【公立入試・理科 第4回】動滑車で楽になっても仕事は同じ／仕事の原理",
+      "thumb": [
+        "仕事と動滑車",
+        "16 J は同じ",
+        "仕事の原理"
+      ],
+      "hook": "動滑車で力が半分になっても、仕事は1ジュールも減りません。",
+      "point": "仕事＝力×距離。力半分なら距離2倍。仕事率＝仕事÷時間。"
+    },
+    {
+      "slug": "ks-copper-oxide",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-copper-oxide.html",
+      "title": "【公立入試・理科 第5回】増えた質量は酸素／銅4：酸素1：酸化銅5",
+      "thumb": [
+        "化学変化の質量比",
+        "4：1：5",
+        "増加＝酸素"
+      ],
+      "hook": "質量が増えたら、増えた分は酸素です。",
+      "point": "銅4：酸素1：酸化銅5。増加分＝酸素、その4倍が反応した銅。"
+    },
+    {
+      "slug": "ks-neutralization",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-neutralization.html",
+      "title": "【公立入試・理科 第6回】BTBが緑＝比を作る合図／中和は比例で終わる",
+      "thumb": [
+        "中和と体積の比",
+        "5：4",
+        "緑で比を作る"
+      ],
+      "hook": "BTBが緑になった点は、比を作れという合図です。",
+      "point": "緑＝ちょうど中和。比を作って比例、色は必要量との大小で判定。"
+    },
+    {
+      "slug": "ks-electrolysis-ion",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-electrolysis-ion.html",
+      "title": "【公立入試・理科 第7回】陽イオンは陰極へ／塩化銅の電気分解で色がうすくなる理由",
+      "thumb": [
+        "電気分解とイオン",
+        "陽イオン→陰極",
+        "青色がうすくなる"
+      ],
+      "hook": "極の名前は覚えなくていい。引き合う向きだけで決まります。",
+      "point": "陽イオンは陰極で金属に、陰イオンは陽極で気体に。青色は銅イオンの色。"
+    },
+    {
+      "slug": "ks-photosynthesis-test",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-photosynthesis-test.html",
+      "title": "【公立入試・理科 第8回】BTBの色で光合成と呼吸を見分ける／対照実験の型",
+      "thumb": [
+        "光合成の対照実験",
+        "青・黄・変化なし",
+        "条件は1つ"
+      ],
+      "hook": "実験問題は「変えた条件」を探すだけで解けます。",
+      "point": "CO₂が減れば青、増えれば黄色。対照実験は条件を1つだけ変える。"
+    },
+    {
+      "slug": "ks-mendel-ratio",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-mendel-ratio.html",
+      "title": "【公立入試・理科 第9回】3：1は表から作る／丸600個の中身はAA 200・Aa 400",
+      "thumb": [
+        "遺伝の規則性",
+        "3 ： 1",
+        "表を書く"
+      ],
+      "hook": "3：1 を覚えるより、2×2 の表を書く方が速いです。",
+      "point": "親から1つずつ。Aa×Aaは表で1:2:1、形は3:1。"
+    },
+    {
+      "slug": "ks-humidity-dew",
+      "playlist": "koritsu-science",
+      "page": "subjects/koritsu-science/lessons/ks-humidity-dew.html",
+      "title": "【公立入試・理科 第10回】露点＝含有量／湿度は割り算、出る水は引き算",
+      "thumb": [
+        "湿度と露点",
+        "9.4÷17.3",
+        "54 %"
+      ],
+      "hook": "露点がわかれば、湿度は割り算1回で出ます。",
+      "point": "露点の飽和水蒸気量＝含有量。湿度は割る、出る水は引く。"
     }
   ]
 }

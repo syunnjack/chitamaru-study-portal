@@ -4586,3 +4586,177 @@ SiO₂少：黒・粘りけ小・平たい・玄武岩／多：白・粘りけ�
 #政治経済 #公共 #共通テスト #受験は要領
 ```
 
+## 再生リスト：愛知県公立入試 理科｜出る型だけ
+
+### 【公立入試・理科 第1回】密度は単位が式／水の1.0と比べるだけ
+
+- ファイル：`videos/ks-density-float.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-density-float.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-density-float.html
+
+```
+密度の公式は、単位を見れば思い出せます。
+密度＝質量÷体積。1.0より大きければ沈み、小さければ浮く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-density-float.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第2回】並列は枝ごとに電流をたす／V=RIの1本で足りる
+
+- ファイル：`videos/ks-ohm-circuit.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-ohm-circuit.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-ohm-circuit.html
+
+```
+並列の合成抵抗の公式、覚えなくて大丈夫です。
+直列は抵抗をたす。並列は枝ごとに電流を出してたす。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-ohm-circuit.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第3回】記録タイマーは「1本の時間」から／平均は合計÷合計
+
+- ファイル：`videos/ks-motion-tape.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-motion-tape.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-motion-tape.html
+
+```
+テープの問題は、1本の時間を出した瞬間に終わります。
+1本の時間＝打点数÷60。速さ＝長さ÷時間。平均は合計÷合計。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-motion-tape.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第4回】動滑車で楽になっても仕事は同じ／仕事の原理
+
+- ファイル：`videos/ks-work-pulley.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-work-pulley.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-work-pulley.html
+
+```
+動滑車で力が半分になっても、仕事は1ジュールも減りません。
+仕事＝力×距離。力半分なら距離2倍。仕事率＝仕事÷時間。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-work-pulley.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第5回】増えた質量は酸素／銅4：酸素1：酸化銅5
+
+- ファイル：`videos/ks-copper-oxide.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-copper-oxide.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-copper-oxide.html
+
+```
+質量が増えたら、増えた分は酸素です。
+銅4：酸素1：酸化銅5。増加分＝酸素、その4倍が反応した銅。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-copper-oxide.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第6回】BTBが緑＝比を作る合図／中和は比例で終わる
+
+- ファイル：`videos/ks-neutralization.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-neutralization.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-neutralization.html
+
+```
+BTBが緑になった点は、比を作れという合図です。
+緑＝ちょうど中和。比を作って比例、色は必要量との大小で判定。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-neutralization.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第7回】陽イオンは陰極へ／塩化銅の電気分解で色がうすくなる理由
+
+- ファイル：`videos/ks-electrolysis-ion.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-electrolysis-ion.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-electrolysis-ion.html
+
+```
+極の名前は覚えなくていい。引き合う向きだけで決まります。
+陽イオンは陰極で金属に、陰イオンは陽極で気体に。青色は銅イオンの色。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-electrolysis-ion.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第8回】BTBの色で光合成と呼吸を見分ける／対照実験の型
+
+- ファイル：`videos/ks-photosynthesis-test.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-photosynthesis-test.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-photosynthesis-test.html
+
+```
+実験問題は「変えた条件」を探すだけで解けます。
+CO₂が減れば青、増えれば黄色。対照実験は条件を1つだけ変える。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-photosynthesis-test.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第9回】3：1は表から作る／丸600個の中身はAA 200・Aa 400
+
+- ファイル：`videos/ks-mendel-ratio.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-mendel-ratio.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-mendel-ratio.html
+
+```
+3：1 を覚えるより、2×2 の表を書く方が速いです。
+親から1つずつ。Aa×Aaは表で1:2:1、形は3:1。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-mendel-ratio.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+### 【公立入試・理科 第10回】露点＝含有量／湿度は割り算、出る水は引き算
+
+- ファイル：`videos/ks-humidity-dew.mp4`
+- サムネイル：`assets/youtube/thumbs/ks-humidity-dew.png`
+- 解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-humidity-dew.html
+
+```
+露点がわかれば、湿度は割り算1回で出ます。
+露点の飽和水蒸気量＝含有量。湿度は割る、出る水は引く。
+
+解説ページ：https://syunnjack.github.io/chitamaru-study-portal/subjects/koritsu-science/lessons/ks-humidity-dew.html
+チャンネル登録すると、新しい解説動画がすべて無料で見られます。
+
+#高校受験 #愛知県公立高校入試 #中学理科 #受験は要領
+```
+
+## 再生リスト：愛知県公立入試 社会｜資料と因果で解く
+
+## 再生リスト：愛知県公立入試 国語｜本文の根拠で解く
+
+## 再生リスト：愛知県公立入試 英語｜英作文と長文の型
+
+## 再生リスト：私立難関（東海・滝・南山女子）数学｜差がつく型
+
+## 再生リスト：私立難関（東海・滝・南山女子）国語｜記述の型
+
+## 再生リスト：私立難関（東海・滝・南山女子）英語｜長文と英作文
+
