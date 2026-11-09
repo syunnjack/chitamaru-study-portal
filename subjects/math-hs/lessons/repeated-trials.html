@@ -6,6 +6,16 @@
 <title>反復試行の確率（さいころ5回で3の倍数が2回）｜高校数学 第57回</title>
 <meta name="description" content="反復試行は nCk × p^k × (1−p)^(n−k) だけ。nCk を掛ける理由、「少なくとも」との読み分けまで音声ナレーション付き解説動画で説明します。">
 <link rel="stylesheet" href="../../../assets/style.css">
+<!-- generated SEO metadata -->
+<link rel="canonical" href="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/repeated-trials.html">
+<meta property="og:title" content="反復試行の確率（さいころ5回で3の倍数が2回）｜高校数学 第57回">
+<meta property="og:description" content="反復試行は nCk × p^k × (1−p)^(n−k) だけ。nCk を掛ける理由、「少なくとも」との読み分けまで音声ナレーション付き解説動画で説明します。">
+<meta property="og:url" content="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/repeated-trials.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"第57回 反復試行は「何回分の並べ方 × 確率のかけ算」","description":"反復試行は nCk × p^k × (1−p)^(n−k) だけ。nCk を掛ける理由、「少なくとも」との読み分けまで音声ナレーション付き解説動画で説明します。","url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/repeated-trials.html","inLanguage":"ja","isPartOf":{"@type":"WebSite","@id":"https://gyosei-yosou.jp/study-portal/","name":"知多丸式 学習ポータル","url":"https://gyosei-yosou.jp/study-portal/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"知多丸式 学習ポータル","item":"https://gyosei-yosou.jp/study-portal/"},{"@type":"ListItem","position":2,"name":"高校数学","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/"},{"@type":"ListItem","position":3,"name":"第57回 反復試行は「何回分の並べ方 × 確率のかけ算」","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/repeated-trials.html"}]},{"@type":"LearningResource","name":"第57回 反復試行は「何回分の並べ方 × 確率のかけ算」","description":"反復試行は nCk × p^k × (1−p)^(n−k) だけ。nCk を掛ける理由、「少なくとも」との読み分けまで音声ナレーション付き解説動画で説明します。","learningResourceType":"解説レッスン","inLanguage":"ja","isAccessibleForFree":true,"url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/repeated-trials.html","isPartOf":{"@id":"https://gyosei-yosou.jp/study-portal/"}}]}</script>
+<!-- /generated SEO metadata -->
 </head>
 <body>
 <header class="site">
@@ -82,6 +92,26 @@
   </div>
 
   <p style="margin-top:32px"><a href="standardization.html">← 第56回 標準化と偏差値</a>　｜　<a href="circular-permutation.html">第58回 円順列 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+
+
+
+<section class="video-transcript" aria-labelledby="video-transcript-heading">
+<h2 id="video-transcript-heading">動画の音声ナレーション</h2>
+<details>
+<summary>解説の全文を読む</summary>
+<ol>
+<li>こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。1個のさいころを5回投げるとき、3の倍数の目がちょうど2回出る確率を求めなさい。何回目に出るかを全部考える必要はありません。</li>
+<li>型はこれです。まず1回あたりの成功確率 ピー を出す。次に、エヌ回中 ケー回 成功する確率は、エヌシーケー かける ピーの ケー乗 かける、1 ひく ピー の エヌ ひく ケー 乗。エヌシーケー は、どの回で成功するかの選び方です。</li>
+<li>手順1。さいころの目で3の倍数は 3 と 6 の2通り。だから ピー は 6分の2 で 3分の1 です。</li>
+<li>手順2。5回 のうち どの2回 で出るかは、5シー2 で 10通り です。</li>
+<li>手順3。成功が2回 なので 3分の1 の2乗、失敗が3回 なので 3分の2 の3乗。9分の1 かける 27分の8 で、243分の8 です。指数の合計が 5 になっているか、必ず確認してください。</li>
+<li>手順4。10 をかけて、243分の80。これが答えです。</li>
+<li>検算です。確率が 1 を超えていないか、まず見ます。243分の80 は およそ 0.33 で問題ありません。次に、ちょうど 0回、1回、2回、3回、4回、5回 の確率を全部足すと 1 になるはずです。0回 は 243分の32、1回 は 243分の80、2回 も 243分の80。合計は必ず 1 になります。もう1つ。期待値は 5 かける 3分の1 で 約1.7回 なので、2回 の確率が大きめになるのも自然です。</li>
+<li>差がつく2行。1つめ。ちょうど、ではなく、少なくとも1回、と聞かれたら余事象です。1 ひく、0回の確率。今回なら 1 ひく 243分の32 で 243分の211 になります。ちょうど、と、少なくとも、を読み分けてください。2つめ。エヌシーケー を掛け忘れるのが最大のミスです。確率のかけ算だけだと、3の倍数が最初の2回に出る場合しか数えていません。順番が違うものも同じ確率で存在する、と意識してください。</li>
+<li>おつかれさまでした。在庫に入れる1行は、これです。エヌ回中 ケー回 は、エヌシーケー かける ピーの ケー乗 かける、1 ひく ピー の残り乗。明日、何も見ずに、コインを4回投げて表が3回出る確率を求めてみてください。答えは 4分の1 です。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。</li>
+</ol>
+</details>
+</section>
 </main>
 
 <footer class="site">
