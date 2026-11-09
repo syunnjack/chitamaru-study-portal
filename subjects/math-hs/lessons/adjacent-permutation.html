@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>6人でAとBが隣り合う並び方（順列）｜高校数学 第18回</title>
+<meta name="description" content="「隣り合う」はひとかたまりにして、中の並びをかけるのが型。6人でAとBが隣り合う並び方 5! × 2! = 240 通りを、音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+<!-- generated SEO metadata -->
+<link rel="canonical" href="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/adjacent-permutation.html">
+<meta property="og:title" content="6人でAとBが隣り合う並び方（順列）｜高校数学 第18回">
+<meta property="og:description" content="「隣り合う」はひとかたまりにして、中の並びをかけるのが型。6人でAとBが隣り合う並び方 5! × 2! = 240 通りを、音声ナレーション付き解説動画で説明します。">
+<meta property="og:url" content="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/adjacent-permutation.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"第18回 「隣り合う」はひとかたまりにして縛る","description":"「隣り合う」はひとかたまりにして、中の並びをかけるのが型。6人でAとBが隣り合う並び方 5! × 2! = 240 通りを、音声ナレーション付き解説動画で説明します。","url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/adjacent-permutation.html","inLanguage":"ja","isPartOf":{"@type":"WebSite","@id":"https://gyosei-yosou.jp/study-portal/","name":"知多丸式 学習ポータル","url":"https://gyosei-yosou.jp/study-portal/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"知多丸式 学習ポータル","item":"https://gyosei-yosou.jp/study-portal/"},{"@type":"ListItem","position":2,"name":"高校数学","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/"},{"@type":"ListItem","position":3,"name":"第18回 「隣り合う」はひとかたまりにして縛る","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/adjacent-permutation.html"}]},{"@type":"LearningResource","name":"第18回 「隣り合う」はひとかたまりにして縛る","description":"「隣り合う」はひとかたまりにして、中の並びをかけるのが型。6人でAとBが隣り合う並び方 5! × 2! = 240 通りを、音声ナレーション付き解説動画で説明します。","learningResourceType":"解説レッスン","inLanguage":"ja","isAccessibleForFree":true,"url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/adjacent-permutation.html","isPartOf":{"@id":"https://gyosei-yosou.jp/study-portal/"}}]}</script>
+<!-- /generated SEO metadata -->
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第18回 隣り合う順列</div>
+
+<main class="wrap">
+  <h1>第18回　「隣り合う」はひとかたまりにして縛る</h1>
+  <div class="formula">6人が1列に並ぶとき、A と B が隣り合う並び方は何通りか。</div>
+  <p>順列は条件の言葉ごとに、やることが決まっています（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/adjacent-permutation.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/adjacent-permutation.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>（かたまりを含めた並べ方）×（かたまりの中の並べ方）</strong></p>
+    <p>中の並びを忘れて2倍を落とすのが、この型の最頻出ミスです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>かたまりを含めて並べる</strong><div class="formula">[AB] と 残り4人 → 5個を並べる → 5! = 120</div></li>
+    <li><strong>かたまりの中</strong><div class="formula">AB か BA → 2! = 2</div></li>
+    <li><strong>かけ算</strong><div class="formula">120 × 2 = <strong>240 通り</strong></div></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>全体は 6! = 720 通り。240 / 720 = 1/3。席の組は 6C2 = 15 組でそのうち隣どうしは 5 組なので 5/15 = 1/3 と一致します。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>隣り合わない</strong>は引き算：720 − 240 = 480 通り。</li>
+      <li><strong>3人が隣り合う</strong>なら 4! × 3! = 24 × 6 = 144 通り（かたまりの中が 3! になるだけ）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>隣り合う = かたまり × 中の並び</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>5人が1列に並び、A と B が隣り合う並び方
+        <details><summary>答え</summary><p>4! × 2! = 24 × 2 = 48 通り</p></details>
+      </li>
+      <li>5人が1列に並び、A と B が隣り合わない並び方
+        <details><summary>答え</summary><p>5! − 48 = 120 − 48 = 72 通り</p></details>
+      </li>
+      <li>男子3人・女子2人が1列に並び、女子2人が隣り合う並び方
+        <details><summary>答え</summary><p>4! × 2! = 48 通り</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="trig-identity.html">← 第17回 三角比の相互関係</a>　｜　<a href="linear-diophantine.html">第19回 整数解（不定方程式）→</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+
+
+
+<section class="video-transcript" aria-labelledby="video-transcript-heading">
+<h2 id="video-transcript-heading">動画の音声ナレーション</h2>
+<details>
+<summary>解説の全文を読む</summary>
+<ol>
+<li>こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題は、こちら。6人が1列に並ぶとき、AとBが隣り合う並び方は何通りか。順列の問題は、条件の言葉ごとに、やることが決まっています。</li>
+<li>型はこれです。隣り合う、と来たら、その2人をひとかたまりにして、かたまりの中の並びを最後にかける。この2段構えだけです。かたまりの中を忘れるのが、いちばん多いミスです。</li>
+<li>手順1。AとBをひとかたまり、AB という1人分として見ます。すると、かたまり1つと、残りの4人。合わせて5個のものを並べることになります。5個の並べ方は、5の階乗で、5かける4かける3かける2かける1、120通りです。</li>
+<li>手順2。かたまりの中を見ます。中身は、AB の順か、BA の順か。2通りです。</li>
+<li>手順3。かけ算します。120 かける 2 は、240。これが答えです。6人が並んで、AとBが隣り合う並び方は、240通り。</li>
+<li>検算です。全体は、6人の並べ方で 6の階乗、720通り。そのうち、AとBが隣り合うのが 240通りなら、割合はちょうど3分の1です。6か所のうち隣り合う席の組は5組、全部の席の組は 6C2 で15組。5割る15は3分の1。ぴったり合いました。</li>
+<li>反対の条件も1行で出せます。隣り合わない並び方は、全体から隣り合う場合を引くだけ。720 ひく 240 で 480通り。ここでも余事象、つまり引き算が効きます。ちなみに「かたまり」の考え方は、3人が隣り合う場合も同じで、かたまりの中が 3の階乗で6通りになるだけです。</li>
+<li>おつかれさまでした。在庫に入れる1行は、これです。隣り合うは、かたまりにして中の並びをかける。明日、何も見ずに、5人でAとBが隣り合う並び方をやってみてください。答えは、4の階乗 かける 2 で、48通りです。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。</li>
+</ol>
+</details>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

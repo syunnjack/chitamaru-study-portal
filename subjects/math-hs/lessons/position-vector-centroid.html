@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>内分点と重心の座標｜高校数学C 第37回</title>
+<meta name="description" content="A(1,1)、B(7,4)、C(4,7) の内分点と重心。内分は比をたすきにかけ、重心は3点の平均。音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+<!-- generated SEO metadata -->
+<link rel="canonical" href="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/position-vector-centroid.html">
+<meta property="og:title" content="内分点と重心の座標｜高校数学C 第37回">
+<meta property="og:description" content="A(1,1)、B(7,4)、C(4,7) の内分点と重心。内分は比をたすきにかけ、重心は3点の平均。音声ナレーション付き解説動画で説明します。">
+<meta property="og:url" content="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/position-vector-centroid.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"第37回 内分点は「比をたすきにかけて足す」、重心は3つの平均","description":"A(1,1)、B(7,4)、C(4,7) の内分点と重心。内分は比をたすきにかけ、重心は3点の平均。音声ナレーション付き解説動画で説明します。","url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/position-vector-centroid.html","inLanguage":"ja","isPartOf":{"@type":"WebSite","@id":"https://gyosei-yosou.jp/study-portal/","name":"知多丸式 学習ポータル","url":"https://gyosei-yosou.jp/study-portal/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"知多丸式 学習ポータル","item":"https://gyosei-yosou.jp/study-portal/"},{"@type":"ListItem","position":2,"name":"高校数学","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/"},{"@type":"ListItem","position":3,"name":"第37回 内分点は「比をたすきにかけて足す」、重心は3つの平均","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/position-vector-centroid.html"}]},{"@type":"LearningResource","name":"第37回 内分点は「比をたすきにかけて足す」、重心は3つの平均","description":"A(1,1)、B(7,4)、C(4,7) の内分点と重心。内分は比をたすきにかけ、重心は3点の平均。音声ナレーション付き解説動画で説明します。","learningResourceType":"解説レッスン","inLanguage":"ja","isAccessibleForFree":true,"url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/position-vector-centroid.html","isPartOf":{"@id":"https://gyosei-yosou.jp/study-portal/"}}]}</script>
+<!-- /generated SEO metadata -->
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第37回 位置ベクトルと重心</div>
+
+<main class="wrap">
+  <h1>第37回　内分点は「比をたすきにかけて足す」、重心は3つの平均</h1>
+  <div class="formula">A(1, 1)、B(7, 4)、C(4, 7) のとき、辺 BC を 2 : 1 に内分する点 D と、△ABC の重心 G の座標を求めよ。</div>
+  <p>座標でも位置ベクトルでも、使う式はまったく同じです。比の数字が向かい側にかかる、ここだけ覚えます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/position-vector-centroid.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/position-vector-centroid.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>m : n の内分点 = (nA + mB)/(m + n)、重心 G = (A + B + C)/3</strong></p>
+    <div class="formula">位置ベクトルなら g = (a + b + c)/3</div>
+    <p>比の数字がたすきにかかります。2 : 1 なら遠い側に 2 の重みです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>内分点 D を出す</strong><div class="formula">D = (1·B + 2·C)/3</div><div class="formula">x：(7 + 8)/3 = 5、y：(4 + 14)/3 = 6 → <strong>D(5, 6)</strong></div></li>
+    <li><strong>重心 G を出す</strong><div class="formula">G = ((1 + 7 + 4)/3, (1 + 4 + 7)/3) = <strong>G(4, 4)</strong></div><p>重心は足して3で割るだけです。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>重心は中線を 2 : 1 に内分する点でもあります。BC の中点 M(11/2, 11/2) として A + (2/3)(M − A) = (4, 4) で一致。2通りで出せます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li><strong>外分は n を負にするだけ</strong>。BC を 2 : 1 に外分する点は (−B + 2C)/1 = (1, 10)。</li>
+      <li>図形の証明では<strong>位置ベクトルのまま</strong> g = (a + b + c)/3 を使うと計算が短くなります。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>内分 = (nA + mB)/(m + n)、重心 = (A + B + C)/3</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>A(0, 0)、B(6, 0)、C(3, 6) の重心
+        <details><summary>答え</summary><p>((0 + 6 + 3)/3, (0 + 0 + 6)/3) = (3, 2)</p></details>
+      </li>
+      <li>B(6, 0)、C(3, 6) について BC を 1 : 2 に内分する点
+        <details><summary>答え</summary><p>(2B + C)/3 = ((12 + 3)/3, (0 + 6)/3) = (5, 2)</p></details>
+      </li>
+      <li>A(2, 3)、B(8, 5) を 3 : 1 に内分する点
+        <details><summary>答え</summary><p>(A + 3B)/4 = ((2 + 24)/4, (3 + 15)/4) = (13/2, 9/2)</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="infinite-geometric-series.html">← 第36回 無限等比級数</a>　｜　<a href="space-vector-angle.html">第38回 空間ベクトルのなす角 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+
+
+
+<section class="video-transcript" aria-labelledby="video-transcript-heading">
+<h2 id="video-transcript-heading">動画の音声ナレーション</h2>
+<details>
+<summary>解説の全文を読む</summary>
+<ol>
+<li>こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題は、エー かっこ 1、1、ビー かっこ 7、4、シー かっこ 4、7 のとき、辺 ビーシー を 2 たい 1 に内分する点 ディー と、三角形 エービーシー の重心 ジー の座標を求めなさい。座標でもベクトルでも、使う式は同じです。</li>
+<li>型はこれです。エムたいエヌ の内分点は、エヌ かける 前 たす エム かける 後ろ を、エム たす エヌ で割る。比の数字が、たすきにかかるところが要点です。重心は、3つの頂点の平均、つまり 足して 3 で割るだけです。</li>
+<li>手順1。内分点 ディー を出します。ビーシー を 2 たい 1 なので、1 かける ビー たす 2 かける シー を 3 で割ります。エックス は、7 たす 8 わる 3 で 5。ワイ は、4 たす 14 わる 3 で 6。よって ディー は かっこ 5、6 です。</li>
+<li>手順2。重心 ジー を出します。エックス は、1 たす 7 たす 4 で 12、3 で割って 4。ワイ は、1 たす 4 たす 7 で 12、3 で割って 4。よって ジー は かっこ 4、4 です。</li>
+<li>検算です。重心は、中線を 2 たい 1 に内分する点でもあります。ビーシー の中点 エム は かっこ 5.5、5.5。エー から エム へ、3分の2 だけ進むと、1 たす 3 で 4、1 たす 3 で 4。かっこ 4、4 に一致しました。2通りで出せるので、必ず検算できます。</li>
+<li>差がつく2行。1つめ。外分点は、内分の式で エヌ を マイナス にするだけです。2 たい 1 の外分なら、マイナス1 かける ビー たす 2 かける シー を 1 で割ります。2つめ。重心の位置ベクトルは、3分の1 かける かっこ エーベクトル たす ビーベクトル たす シーベクトル。図形の証明では、この形のまま使うと計算が短くなります。</li>
+<li>おつかれさまでした。在庫に入れる1行は、これです。内分は、比をたすきにかけて足して、比の和で割る。重心は3つの平均。明日、何も見ずに、エー かっこ 0、0、ビー かっこ 6、0、シー かっこ 3、6 の重心をやってみてください。答えは かっこ 3、2 です。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。</li>
+</ol>
+</details>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

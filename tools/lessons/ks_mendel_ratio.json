@@ -1,0 +1,215 @@
+{
+  "title": "遺伝の規則性（3：1 の出どころを書く）",
+  "subtitle": "公立入試 理科 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。丸い種子をつくる純系のエンドウ、エーエーと、しわのある種子をつくる純系、小文字エーエーをかけ合わせました。1、子の遺伝子の組み合わせと種子の形。2、子を自家受粉させたときの孫の形の比。3、孫の種子が800個できたとき、しわの種子はおよそ何個か求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "純系の丸（AA）× 純系のしわ（aa）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 子の遺伝子と形 (2) 子を自家受粉させた孫の比",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) 孫が 800 個のとき、しわは約何個か",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。遺伝子は親から1つずつ受け取ります。だから純系の丸としわの子は、全部エーエー、大文字と小文字のペアになり、形は丸です。次にその子どうしをかけ合わせると、表を書けばエーエー、エーエー、エーエー、小文字エーエーの4通り。大文字が1つでもあれば丸なので、丸としわは3対1になります。表を書く、これが確実な型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "親から1つずつ受け取る → 子は Aa（すべて丸）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Aa × Aa → AA : Aa : aa = 1 : 2 : 1",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "形は 丸 : しわ = 3 : 1（A があれば丸）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず1です。親からそれぞれ大文字エーと小文字エーを受け取るので、子はすべてエーエーになります。大文字があるので形は丸、しわは出てきません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：子を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AA × aa → 子はすべて Aa（丸）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1つずつ受け取る。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：子を決める"
+    },
+    {
+      "narration": "次に2です。エーエー同士のかけ合わせを表で書くと、大文字大文字、大文字小文字、小文字大文字、小文字小文字の4通りになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：孫の遺伝子を表で出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Aa × Aa → AA, Aa, Aa, aa",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2×2の表。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：孫の遺伝子を表で出す"
+    },
+    {
+      "narration": "大文字が1つでもあれば丸なので、丸が3、しわが1。孫の形の比は3対1です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：形の比に直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "丸（AA, Aa, Aa）: しわ（aa）= 3 : 1",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "A があれば丸。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：形の比に直す"
+    },
+    {
+      "narration": "3です。しわは全体の4分の1なので、800かける4分の1で、およそ200個です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：個数を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "800 × 1/4 = 200 個",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "全体の 1/4。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：個数を出す"
+    },
+    {
+      "narration": "検算です。丸は4分の3なので800かける4分の3で600個。しわ200個と合わせて800個になり、全体と一致します。比の分母、ここでは4で割れているかを確かめる、これが遺伝の検算です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "丸：800 × 3/4 = 600 個",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "しわ：200 個",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "合計 800 個で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、丸い種子の中身です。丸600個のうち、大文字大文字は200個、大文字小文字は400個。見た目が同じでも中身は3分の1と3分の2に分かれます。ふたつ目、しわの種子は必ず純系です。小文字小文字しかないので、しわ同士をかけ合わせるとしわしか出ません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "丸 600 個の内訳は AA 200 個・Aa 400 個",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "しわは必ず aa。しわ同士からは丸は出ない",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。遺伝子は親から1つずつ。エーエーかけエーエーは表を書いて3対1。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "親から1つずつ。Aa × Aa は表を書いて 3：1。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：Aa × aa の子の形の比を求めよ。 → 丸 : しわ = 1 : 1",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

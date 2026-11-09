@@ -1,0 +1,220 @@
+{
+  "title": "和文英訳：時制とつなぎの処理",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語に直してください。1、彼が駅に着いたときには、電車はすでに出発していた。2、私は3年前からこの町に住んでいます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 彼が駅に着いたときには、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　電車はすでに出発していた。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 私は3年前からこの町に",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　住んでいます。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。2つの出来事の前後関係があるときは完了形を使います。過去のある時点より前のことは ハド ダン。過去から今まで続いていることは ハブ ダン です。日本語の、から、は フォー か シンス に振り分けます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時間の前後があれば完了形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去より前 → had done",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜前から今も」→ have done / for 〜",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。時間順に並べると、電車の出発が先、彼の到着が後です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 時間順に並べる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電車が出発 → 彼が到着",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "出発が先。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 時間順に並べる"
+    },
+    {
+      "narration": "ホエン ヒー アライブド アット ザ ステーション、ザ トレイン ハド オールレディ レフト。基準の過去より前なので過去完了です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 過去完了にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When he arrived at the station, the train had already left.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "基準は arrived（過去）。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 過去完了にする"
+    },
+    {
+      "narration": "2番です。3年前から今も住んでいるので、期間を表す フォー スリー イヤーズ を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 期間か起点かを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "3年前から今も → 期間3年",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "for three years。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 期間か起点かを見る"
+    },
+    {
+      "narration": "アイ ハブ リブド イン ジス タウン フォー スリー イヤーズ。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 現在完了にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I have lived in this town for three years.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：上の2文",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 現在完了にする"
+    },
+    {
+      "narration": "検算です。時間の線を引いて、動作の位置を確認します。1番は、出発、到着、今、の順。2番は、3年前から今まで線が伸びています。線が今に届いていれば現在完了です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時間の線を引く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "今に届く → 現在完了",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去の点より前 → 過去完了",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。シンス の後ろには起点が来ます。シンス 2020 や シンス アイ ワズ ア チャイルド です。それから、進行の継続を強調するときは ハブ ビーン ドゥーイング を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "for＋期間／since＋起点",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "継続の強調は have been doing",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。過去より前は ハド ダン、今まで続くなら ハブ ダン。フォー は期間、シンス は起点。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去より前は had done、今まで続くなら have done。for は期間、since は起点。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「私が家に帰ったとき、母はすでに夕食を作り終えていた」を英語に。 → When I got home, my mother had already finished cooking dinner.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

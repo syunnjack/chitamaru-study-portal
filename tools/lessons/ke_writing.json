@@ -1,0 +1,215 @@
+{
+  "title": "条件英作文（2文の型で満点を取る）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次のテーマについて、英語2文以上で書きます。テーマは、あなたが友達にすすめたい本や映画について、理由も入れて書きなさい。語数の指定はありませんが、各文は5語以上とします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "テーマ：友達にすすめたい本や映画とその理由",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "条件：英語2文以上、各文5語以上",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "難しい表現ではなく、確実に書ける形で書く。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。英作文は2文で完成させます。1文目で結論、アイウォントトゥーレコメンドプラス作品名。2文目で理由、ビコーズを使って書く。大事なのは、日本語で思いついた難しい内容を英語にしようとしないこと。自分が確実に書ける英語の形に、内容を合わせます。減点されない英語を書くことが満点への道です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1文目：I want to recommend ~ .（結論）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2文目：It is ~ because ... / I like it because ...（理由）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "難しい内容を書かない。確実に書ける形だけ使う",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1文目です。アイウォントトゥーレコメンドアブッククォールドザロングロード。すすめたいものを最初に言い切ります。作品名は自分で決めてかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：1文目を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I want to recommend a book called \"The Long Road.\"",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "結論を先に。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：1文目を書く"
+    },
+    {
+      "narration": "2文目は理由です。アイライクイットビコーズザメインキャラクターネバーギブスアップ。ビコーズのあとは主語と動詞、これで理由の形になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：2文目を書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I like it because the main character never gives up.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "because＋主語＋動詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：2文目を書く"
+    },
+    {
+      "narration": "余裕があれば3文目を足します。イフユーリードイット、ユーウィルフィールブレイバー。イフの中は現在形、これは第8回の型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：3文目で補強する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If you read it, you will feel braver.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "余裕があれば1文追加。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：3文目で補強する"
+    },
+    {
+      "narration": "最後の見直しは4点だけです。主語と動詞があるか、三人称単数のエスがついているか、時制がそろっているか、冠詞と複数形が正しいか。この4点で減点はほぼ防げます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：見直しを固定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "① 主語と動詞 ② 三単現のs ③ 時制 ④ 冠詞・複数形",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "4点だけ見る。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：見直しを固定する"
+    },
+    {
+      "narration": "検算です。書いた各文に、主語と動詞が1つずつあるかを指で確認します。日本語では主語を省くので、英語で主語が抜けることが最も多い減点です。次に動詞の形。三人称単数のエス、過去形、これだけで英作文の点は安定します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "各文に主語と動詞があるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "三単現のsと時制",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "この2点で減点をほぼ防げる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、使い回せる型を3つ持つことです。アイシンクザット、ワンリーズンイズザット、フォーイグザンプル。この3つがあれば、どんなテーマでも2文以上書けます。ふたつ目、綴りが不安な語は避けることです。ビューティフルが不安ならナイスやグッドで書く。減点されない語を選ぶのも実力です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "使い回せる型を3つ持つ（I think that / One reason is that / For example）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "綴りが不安な語は避けて確実な語で書く",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。英作文は2文。結論、そしてビコーズで理由。見直しは主語、動詞、三単現のエス、時制。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英作文は2文。結論→because で理由。見直しは主語・動詞・s・時制。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「私は音楽が好きです。なぜならそれは私を元気にするからです」を英語にせよ。 → I like music because it makes me happy.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

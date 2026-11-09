@@ -1,0 +1,220 @@
+{
+  "title": "Part5 関係詞と代名詞（空所の後ろを数える）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part5の問題です。エンプロイーズ、空所、アイディー カーズ ハブ エクスパイアド、マスト ビジット ザ セキュリティ オフィス ジス ウィーク。選択肢は、エー フー、ビー フーズ、シー ウィッチ、ディー フーム。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Employees ------- ID cards have expired",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "must visit the security office",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "this week.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) who (B) whose (C) which (D) whom",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。空所の後ろを見ます。名詞がすぐ続いて、その名詞が主語になっているなら フーズ。動詞がすぐ続くなら主格。主語と動詞が続いて目的語が足りないなら目的格です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所の後ろを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞＋動詞 → whose",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞だけ → 主格、名詞＋動詞＋不足 → 目的格",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "空所の直後は アイディー カーズ ハブ エクスパイアド。名詞と動詞が続いています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：空所の直後を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ID cards have expired",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "名詞＋動詞が続いている。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：空所の直後を確認"
+    },
+    {
+      "narration": "アイディー カード は従業員の持ち物です。所有の関係があります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：所有関係を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "従業員の ID カード",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「持ち物」の関係。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：所有関係を確認"
+    },
+    {
+      "narration": "したがって フーズ を選びます。エンプロイーズ フーズ アイディー カーズ ハブ エクスパイアド。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：whose を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Employees whose ID cards have expired …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "whose + 名詞 + 動詞",
+          "active": true
+        }
+      ],
+      "caption": "手順3：whose を選ぶ"
+    },
+    {
+      "narration": "答えはビー、フーズ。もし フー なら、直後に動詞が来る形になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) whose",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "who なら直後が動詞になる。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを確認"
+    },
+    {
+      "narration": "検算です。関係詞の節から先行詞を戻して2文にします。エンプロイーズ マスト ビジット ザ セキュリティ オフィス。ゼア アイディー カーズ ハブ エクスパイアド。ゼア に当たるのが フーズ です。2文に戻せれば正解です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2文に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Their ID cards have expired.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "their = whose",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。人が先行詞でも、所有なら フーズ を使います。それから、前置詞の直後に来る関係代名詞は フーム で、フー は使えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "人の所有も whose",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "前置詞の直後は whom",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。空所の直後が名詞プラス動詞なら フーズ、動詞だけなら主格。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所の直後が「名詞＋動詞」なら whose、動詞だけなら主格。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The vendor ( who / whose ) invoice arrived late will be contacted. を選べ。 → whose（invoice が続く）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

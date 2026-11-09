@@ -1,0 +1,215 @@
+{
+  "title": "密度と浮き沈み（1 g/cm³ と比べるだけ）",
+  "subtitle": "公立入試 理科 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。物体Aは質量54グラム、体積20立方センチメートル。物体Bは質量32グラム、体積40立方センチメートルです。それぞれの密度を求め、水に入れたときに浮くか沈むかを答えてください。水の密度は1.0グラム毎立方センチメートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "物体A：質量 54 g、体積 20 cm3",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "物体B：質量 32 g、体積 40 cm3",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度を求め、水に入れたとき浮くか沈むかを答えよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。密度は質量わる体積。単位がグラム毎立方センチメートルなので、単位の形がそのまま式になっています。あとは水の1.0と比べるだけ。1.0より大きければ沈み、小さければ浮きます。公式を思い出すのではなく、単位を見て割り算する、これが理科の計算の型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度 = 質量 ÷ 体積（単位は g/cm3）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "水の 1.0 より大きい → 沈む／小さい → 浮く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単位がそのまま式になっている",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず物体Aです。54わる20で、2.7グラム毎立方センチメートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：Aの密度を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "54 ÷ 20 = 2.7 g/cm3",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "割り算1回。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：Aの密度を出す"
+    },
+    {
+      "narration": "2.7は水の1.0より大きいので、Aは沈みます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：Aの浮き沈みを判定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2.7 > 1.0 → 沈む",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "水と比べるだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：Aの浮き沈みを判定する"
+    },
+    {
+      "narration": "次に物体Bです。32わる40で、0.8グラム毎立方センチメートルになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：Bの密度を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "32 ÷ 40 = 0.8 g/cm3",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1より小さい。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：Bの密度を出す"
+    },
+    {
+      "narration": "0.8は1.0より小さいので、Bは浮きます。Bの方が体積が大きいのに質量は小さい、つまりすき間の多い物体だとわかります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：Bの浮き沈みを判定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.8 < 1.0 → 浮く",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "質量ではなく密度で決まる。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：Bの浮き沈みを判定する"
+    },
+    {
+      "narration": "検算です。同じ体積でくらべてみます。20立方センチメートルあたりで、Aは54グラム、Bは16グラム。水は20グラムです。だからAは水より重く沈み、Bは水より軽く浮く。数字の大小が判定と合っています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "体積 20 cm3 あたりで比べる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A 54 g／水 20 g／B 16 g",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "重い順に A → 水 → B で判定と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、密度は物質を見分ける手がかりになります。2.7という値はアルミニウムに近く、金属の種類を答えさせる問題が出ます。ふたつ目、体積のはかり方です。メスシリンダーに水を入れて物体を沈め、増えた分が体積。目線は水面と同じ高さで、へこんだ面の底を読みます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度は物質を見分ける手がかり（2.7 ならアルミニウムに近い）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "体積はメスシリンダーの増えた分。目線は水面と同じ高さ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。密度は質量わる体積。1.0より大きければ沈み、小さければ浮く。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度 = 質量 ÷ 体積。1.0 より大きければ沈む、小さければ浮く。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：質量 45 g、体積 50 cm³ の物体は水に浮くか沈むか。 → 0.9 g/cm³ なので浮く",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

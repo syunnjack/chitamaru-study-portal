@@ -114,6 +114,18 @@ h3 { font-size: 17px; margin: 28px 0 10px; }
 .panel.accent { border-left: 4px solid var(--accent); }
 .panel.note { background: #fffdf7; border-left: 4px solid var(--warn); }
 
+.cta {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 22px;
+  border-radius: 999px;
+}
+
+.cta:hover { background: #0f5349; }
+
 .steps { counter-reset: step; list-style: none; padding: 0; margin: 0; }
 
 .steps > li {

@@ -1,0 +1,215 @@
+{
+  "title": "pHと電離度（濃さと強さは別物）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。0.010モル毎リットルの塩酸のpHを求めてください。また、0.10モル毎リットルの酢酸水溶液で、電離度が0.010のときのpHを求め、どちらの水溶液の方が酸性が強いかも答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.010 mol/L の塩酸の pH を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.10 mol/L の酢酸（電離度 0.010）の pH を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "どちらの方が酸性が強いか。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。pHは水素イオンの濃度だけで決まります。水素イオン濃度は、酸の濃度に電離度と価数をかけたもの。塩酸のような強酸は電離度がほぼ1なので、濃度がそのまま水素イオン濃度になります。酢酸のような弱酸は電離度が小さいので、濃くても水素イオンは少ない。最後に、10のマイナスエヌ乗の形にすればpHはエヌです。濃さと強さは別だ、という一点がこの回のテーマです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "[H⁺] = 濃度 × 電離度 × 価数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強酸の電離度は1（ほぼ全部電離）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "[H⁺] = 1.0×10⁻ⁿ のとき pH = n",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず塩酸です。強酸で1価なので、電離度は1。水素イオン濃度は0.010、つまり1.0かける10のマイナス2乗モル毎リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：塩酸の[H⁺]",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強酸・1価なので [H⁺] = 0.010 = 1.0×10⁻² mol/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "電離度は1。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：塩酸の[H⁺]"
+    },
+    {
+      "narration": "10のマイナス2乗なので、pHは2です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：塩酸のpH",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "pH = 2",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "指数の符号がそのままpH。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：塩酸のpH"
+    },
+    {
+      "narration": "次に酢酸です。濃度0.10に電離度0.010をかけて、1.0かける10のマイナス3乗モル毎リットル。電離度をかけ忘れると、pHを1と答えてしまいます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：酢酸の[H⁺]",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "[H⁺] = 0.10 × 0.010 = 1.0×10⁻³ mol/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "電離度をかけ忘れない。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：酢酸の[H⁺]"
+    },
+    {
+      "narration": "酢酸のpHは3です。pHが小さい方が酸性が強いので、濃度が10分の1しかない塩酸の方が酸性は強いことになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：比べる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酢酸は pH = 3。pHが小さい塩酸の方が酸性が強い",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "濃い酢酸より薄い塩酸が強い。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：比べる"
+    },
+    {
+      "narration": "検算です。水素イオンの数で比べます。塩酸は1リットルあたり0.010モル、酢酸は0.0010モル。塩酸の方が10倍多い。pHの差が1あることと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "[H⁺]：塩酸 1.0×10⁻² / 酢酸 1.0×10⁻³",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "10倍の差 = pHの差1",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "塩酸の方が酸性が強い",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、強酸と濃い酸は別です。強い弱いは電離度、濃い薄いは濃度の話で、薄い塩酸より濃い酢酸の方が酸性が弱いことも起こります。ふたつ目、硫酸のような2価の酸は価数をかけます。0.010モル毎リットルの硫酸なら水素イオン濃度は0.020で、pHは2より小さくなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「強い」は電離度、「濃い」は濃度（別の話）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2価の酸は価数をかける（H₂SO₄）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。水素イオン濃度は、濃度かける電離度かける価数。ピーエイチは10のべきの指数。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "[H⁺] = 濃度 × 電離度 × 価数。pHは10のべきの指数。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：0.0010 mol/Lの塩酸のpHを求めよ。 → [H⁺] = 1.0×10⁻³ なので pH = 3",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

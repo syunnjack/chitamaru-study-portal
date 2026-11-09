@@ -1,0 +1,215 @@
+{
+  "title": "対話文の応答（前の1文だけ見て決める）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の対話の空所に入る最も適切な文を選びます。1、エー、クッジューテルミーハウトゥーゲットトゥーザステーション。2、エー、アイムソーリーアイムレイト。3、エー、ウッジューライクサムシングトゥードリンク。それぞれビーの応答を選んでください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) A: Could you tell me how to get to the station?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) A: I'm sorry I'm late.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) A: Would you like something to drink?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。対話文の空所は、直前の1文だけを見れば決まります。全体を読む必要はありません。依頼されたらシュアやオブコース。謝られたらザッツオールライトやドントワーリー。ウッジューライクで勧められたらイエスプリーズかノーサンキュー。この対応表を持っているかどうかだけの問題です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "応答は「直前の1文」だけで決まる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "依頼 → Sure. / Of course.／謝罪 → That's all right.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Would you like ~? → Yes, please. / No, thank you.",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。クッジューテルミーは依頼です。だから承諾のシュアに続けて道順を説明しているアが正解。イは経験の話で、道案内になっていません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 機能を判定する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Could you tell me ~? ＝ 依頼（道案内）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "→ Sure ＋ 道順。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 機能を判定する"
+    },
+    {
+      "narration": "2です。遅れたことを謝られています。ザッツトゥーバッドは相手の不運に同情する表現なので不適切。気にしないでという意味のザッツオールライトのイが正解です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 謝罪への応答",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I'm sorry ~ → That's all right.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "→ イ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 謝罪への応答"
+    },
+    {
+      "narration": "3です。飲み物を勧められています。ウッジューライク、名詞の形にはイエスプリーズかノーサンキュー。イはウッジューライクトゥーの形への答えなので、ここでは不適切です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) 勧めへの応答",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Would you like ~? → Yes, please.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "→ ア。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) 勧めへの応答"
+    },
+    {
+      "narration": "まとめます。依頼にはシュア、謝罪にはザッツオールライト、勧めにはイエスプリーズ、シャルウィーやレッツの提案にはザットサウンズグッド。この4組で対話文の空所はほぼ足ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：対応表を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "依頼→Sure／謝罪→That's all right／勧め→Yes, please／提案→That sounds good",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "覚える4組。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：対応表を確認する"
+    },
+    {
+      "narration": "検算です。選んだ答えを入れて、2人分の会話として声に出して読みます。エー、駅への行き方を教えてください。ビー、いいですよ、まっすぐ行って2つ目の角を左です。会話として自然に流れれば正解です。話がずれる感じがあれば、機能を取りちがえています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "入れて2人分を音読する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "会話として自然につながるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ずれるなら機能の判定を見直す",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、電話表現です。メイアイスピークトゥーマイク、ディスイズトム、ホールドオン、シーズナットヒアライトナウ。電話の場面は毎年出るので、まとまりで覚えます。ふたつ目、聞き返し表現です。パードン、クッジューセイザットアゲイン、ホワットドゥーユーミーン。会話の流れが切れる位置に入るので、直前が長い説明なら聞き返しが答えになることがあります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電話表現：May I speak to ~? / This is ~. / Hold on, please.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "聞き返し：Pardon? / Could you say that again?",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。対話文は直前の1文だけを見る。依頼にはシュア、謝罪にはザッツオールライト。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "対話文は直前の1文だけ見る。依頼→Sure、謝罪→That's all right。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：A: Shall we go to the library? への自然な応答を1つ書け。 → That sounds good. / Yes, let's.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

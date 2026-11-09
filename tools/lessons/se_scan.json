@@ -1,0 +1,215 @@
+{
+  "title": "長文の設問処理（設問を先に読む）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の設問に答えるために、本文のどこを探すべきかを考えます。設問は、ホワイ ディド ザ ライター ストップ テイキング ザ バス。筆者はなぜバスに乗るのをやめたのか。本文はこうです。アイ ユーストゥ テイク ザ バス トゥ スクール。ラスト エイプリル ハウエバー ザ バス カンパニー チェンジド ザ タイムテーブル アンド ザ ニュー バス アライブド テン ミニッツ レイト フォー マイ ファースト クラス。シンス ゼン アイ ハブ ウォークト トゥ スクール。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問：Why did the writer stop taking the bus?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文：the bus company changed the timetable ...",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the new bus arrived ten minutes late for my first class",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。長文は全部訳しません。まず設問を読み、探す語を決めます。この設問なら、バスとストップ。次に、ホワイと聞かれているので、理由を示す語の近くを探します。ビコーズ、ソー、ハウエバー、シンス。そしてハウエバーの直後に理由が書かれています。最後に、答えは設問の形に合わせて書く。これが型です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問を先に読み、探す語（キーワード）を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Why → because / so / however の近くを見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文の語を答案でそのまま使わず、設問の形に合わせる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず探す語です。設問にあるバスとストップ。バスをやめた理由が書かれている場所を探します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：探す語を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "キーワードは bus と stop（やめた理由）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "設問から。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：探す語を決める"
+    },
+    {
+      "narration": "ハウエバーがあります。逆接は状況の変化を示すので、その後ろに理由があります。バス会社が時刻表を変えた、と書かれています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：合図を見つける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "however の後ろに変化が書かれている",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "逆接＝変化。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：合図を見つける"
+    },
+    {
+      "narration": "因果は3段です。時刻表が変わった、そのため1時間目に10分遅れるようになった、だから歩くようになった。真ん中が答えの核です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：因果をつなぐ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "timetable changed → bus arrived late → walked instead",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3段の因果。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：因果をつなぐ"
+    },
+    {
+      "narration": "答案です。ビコーズ ザ ニュー バス メイド ヒム レイト フォー ヒズ ファースト クラス。ホワイで聞かれたのでビコーズで始めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答案を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Because the new bus made him late for his first class.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "設問の形で。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答案を作る"
+    },
+    {
+      "narration": "検算です。作った答案を設問にあてて読み返します。ホワイ ディド ザ ライター ストップ テイキング ザ バス。ビコーズ ザ ニュー バス メイド ヒム レイト。設問と答えの形が合っています。時間、場所、人物を聞かれたのに理由で答える、この形式ミスがいちばん多い失点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問と答案の形が対応しているか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Why → Because、When → 時、Who → 人",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "形式ミスが最多の失点",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、本文の語をそのまま写すと減点されることがあります。設問の主語に合わせて代名詞や時制を直す必要があるからです。ふたつ目、選択肢問題では言いかえを探します。本文のチェンジド ザ タイムテーブルが、選択肢ではニュー スケジュールになる。同じ語を探すのではなく、同じ内容を探します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文の丸写しは減点。代名詞と時制を設問に合わせる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢は言いかえられている。同じ語ではなく同じ内容を探す",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。設問を先に読み、探す語を決める。理由はビコーズ、ソー、ハウエバーの近く。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設問を先に読み、探す語を決める。理由は because/so/however の近く。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：Where で聞かれたときの答え方を答えよ。 → 場所を答える（In 〜 / At 〜）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

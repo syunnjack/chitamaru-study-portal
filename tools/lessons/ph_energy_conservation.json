@@ -1,0 +1,220 @@
+{
+  "title": "力学的エネルギー保存（なめらかな曲面）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。なめらかな曲面上、高さ0.80メートルの点から、質量0.50キログラムの小球を静かに離します。最下点での速さを求めてください。重力加速度は9.8メートル毎秒毎秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "なめらかな曲面の高さ 0.80 m の点から",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量 0.50 kg の小球を静かに離す。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最下点での速さ v を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "（g = 9.8 m/s²）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。摩擦がなければ、位置エネルギーと運動エネルギーの和が保存します。式を立てると質量が両辺から消えて、速さは ルート 2ジーエイチ になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "摩擦がなければ 力学的エネルギー保存",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mgh = mv²/2",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量は消える → v = √(2gh)",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "曲面はなめらかなので、力学的エネルギー保存が使えます。途中の形がどうであっても関係ありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：保存則が使えるか確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "なめらか → 力学的エネルギー保存",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "経路の形は関係ない。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：保存則が使えるか確認"
+    },
+    {
+      "narration": "最下点を基準にとります。初めの位置エネルギー エムジーエイチ が、最下点の運動エネルギーに変わります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：式を立てる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mgh = mv²/2",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "最下点を基準にとる。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：式を立てる"
+    },
+    {
+      "narration": "両辺の質量を消すと、ブイ イコール ルート 2ジーエイチ。2かける9.8かける0.8で、ルート15.68です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：質量を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v = √(2gh) = √(2 × 9.8 × 0.80)",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= √15.68",
+          "active": true
+        }
+      ],
+      "caption": "手順3：質量を消す"
+    },
+    {
+      "narration": "計算するとおよそ4.0メートル毎秒です。質量は答えに現れません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "v ≒ 4.0 m/s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "質量0.50 kgは答えに影響しない。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを出す"
+    },
+    {
+      "narration": "検算です。単位を確認します。ジー かける エイチ は、メートル毎秒毎秒 かける メートル で、メートルの2乗 毎秒の2乗。その平方根はメートル毎秒。速さの単位になっているので、式の形が正しいと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "gh の単位は m²/s²",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "√ をとると m/s",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "次元が合えば式は正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。摩擦があるときは、失われたエネルギーが摩擦力かける距離になります。それから、なめらかであれば、途中の経路がどんな形でも最下点の速さは同じです。高さの差だけで決まります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "摩擦あり：mgh − f·d = mv²/2",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "経路によらず高さの差で決まる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。なめらかなら エムジーエイチ イコール エムブイ2乗 割る2、質量は消えて ブイ イコール ルート2ジーエイチ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "なめらかなら mgh = mv²/2、質量は消えて v = √(2gh)。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：高さ1.8 mから静かに離したときの最下点の速さを求めよ。 → v = √(2 × 9.8 × 1.8) ≒ 5.9 m/s",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

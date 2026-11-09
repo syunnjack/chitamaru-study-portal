@@ -1,0 +1,215 @@
+{
+  "title": "指示語と代名詞（直前の名詞のかたまりを入れる）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。下線部ジスが指す内容を日本語で答えます。本文です。メニー スチューデンツ ライト ダウン エブリ ワード ザ ティーチャー セイズ。ゼイ フィール セイフ ビコーズ ゼア ノートブックス ルック フル。バット ジス オフン ストップス ゼム フロム シンキング ホワイル ゼイ リッスン。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文：Many students write down every word the teacher says.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "They feel safe because their notebooks look full.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "But this often stops them from thinking while they listen.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。ジス、ザット、イットは原則として直前を指します。指す範囲は2種類。名詞のかたまりか、文全体の内容か。決め手は代入です。候補を入れて英文の意味が通るかを確かめます。この本文では、先生の言うことを全部書き写すという行為が答えになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "this / that / it は直前を探す（原則、前にある）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指す範囲は「名詞のかたまり」か「文全体の内容」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "代入して英文が成り立つかを確認する",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "候補は2つです。1つ目、先生の言うことを全部書き写すこと。2つ目、ノートが埋まって安心すること。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：候補を挙げる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "① 全部書き写すこと ② ノートが埋まって安心すること",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "2つある。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：候補を挙げる"
+    },
+    {
+      "narration": "述語を見ます。ジス ストップス ゼム フロム シンキング ホワイル ゼイ リッスン。聞きながら考えることを妨げる、と書かれています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：述語との相性を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "this stops them from thinking while they listen",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "聞きながら考える妨げ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：述語との相性を見る"
+    },
+    {
+      "narration": "代入します。全部書き写す行為なら、手を動かすのに集中して考えられない。自然につながります。安心することは、考えを妨げる直接の原因になりにくい。よって1つ目です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：代入して決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "書き写す行為 → 手が動いて考えられない（自然）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "①に決まる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：代入して決める"
+    },
+    {
+      "narration": "解答例です。先生の話す言葉をすべて書き写すこと。指示語の答えは、こと、で結ぶのが基本です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：日本語で答える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "解答例：先生の話す言葉をすべて書き写すこと。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「〜こと」で結ぶ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：日本語で答える"
+    },
+    {
+      "narration": "検算です。答えを本文の指示語の位置に入れて、日本語で読んでみます。しかし、先生の話す言葉をすべて書き写すことは、聞きながら考えることをしばしば妨げる。自然に通ります。通らなければ範囲の取りちがえです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "答えを指示語の位置に代入して読む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語として自然に通るか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "通らなければ範囲を見直す",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、ザ フォロイングやアズ フォローズがあるときは、例外的に後ろを指します。この2つだけ覚えておけば大丈夫です。ふたつ目、複数形のゼイやゼムは、直前の複数名詞を探すこと。単数と複数の一致は、指す語を決める強い手がかりになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the following / as follows は後ろを指す（例外）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "they/them は直前の複数名詞。数の一致が手がかり",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。指示語は直前。範囲は名詞のかたまりか文の内容。代入して確認する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指示語は直前。範囲は名詞のかたまりか文内容。代入で確認する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：指示語の答えの文末を答えよ。 → 「〜こと」",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "title": "相似の面積比は「辺の比の2乗」",
+  "subtitle": "高校受験数学 ／ 相似と面積比 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "figure": {
+    "points": {"A": [0, 6], "B": [-4, 0], "C": [4, 0], "D": [-2.667, 2], "E": [2.667, 2]},
+    "polygons": [["A", "B", "C"]],
+    "segments": [["D", "E"]],
+    "lengths": [
+      {"between": ["A", "D"], "text": "2", "dx": -30, "dy": -4},
+      {"between": ["D", "B"], "text": "1", "dx": -30, "dy": -4}
+    ],
+    "labels": [
+      {"at": "A", "text": "A", "dx": -12, "dy": -40},
+      {"at": "B", "text": "B", "dx": -34, "dy": 4},
+      {"at": "C", "text": "C", "dx": 12, "dy": 4},
+      {"at": "D", "text": "D", "dx": -34, "dy": -14},
+      {"at": "E", "text": "E", "dx": 14, "dy": -14}
+    ]
+  },
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日は高校受験数学です。三角形ABCがあり、辺AB上に点D、辺AC上に点Eをとります。DEはBCと平行で、ADとDBの比は 2対1。このとき、三角形ADEと、四角形DBCEの面積の比を求めよ。図を見ながら進めましょう。",
+      "lines": [
+        {"style": "head", "text": "今日の問題", "active": true},
+        {"style": "formula", "text": "DE ∥ BC , AD : DB = 2 : 1", "active": true},
+        {"style": "formula", "text": "△ADE : 四角形DBCE = ?", "active": true},
+        {"style": "note", "text": "所要時間の目安：4分（慣れたら30秒）"}
+      ],
+      "caption": "今日の問題：DE∥BC、AD:DB = 2:1 のときの面積比"
+    },
+    {
+      "narration": "型はこれです。相似な図形では、辺の比が m対n なら、面積の比は mの2乗対nの2乗。長さの比を2乗する、これだけです。そして、四角形のような「引き算でできる部分」は、大きい三角形から小さい三角形を引いて求める。この2行が今日の主役です。",
+      "lines": [
+        {"style": "head", "text": "解法の型", "active": true},
+        {"style": "formula", "text": "辺の比 m : n → 面積の比 m² : n²", "active": true},
+        {"style": "formula", "text": "四角形 = 大きい△ − 小さい△", "active": true},
+        {"style": "note", "text": "平行線があれば相似。まず相似な2つを見つける。", "active": true}
+      ],
+      "caption": "型：面積比は辺の比の2乗／四角形は引き算"
+    },
+    {
+      "narration": "手順1。相似を見つけます。DEとBCが平行なので、同位角が等しく、角Aは共通。よって三角形ADEと三角形ABCは相似です。平行線を見たら相似、と反応してください。",
+      "lines": [
+        {"style": "head", "text": "手順1：相似を見つける", "active": true},
+        {"style": "formula", "text": "△ADE ∽ △ABC", "active": true},
+        {"style": "note", "text": "DE∥BC → 同位角が等しい ＋ ∠A は共通（2角相等）", "active": true}
+      ],
+      "caption": "手順1：DE∥BC だから △ADE ∽ △ABC"
+    },
+    {
+      "narration": "手順2。辺の比を出します。ADとDBの比が 2対1 なので、AB全体は 2 たす 1 で 3。したがって、ADとABの比は 2対3 です。ここを 2対1 のまま使ってしまうのが、最大のミスです。必ず「全体」に直してください。",
+      "lines": [
+        {"style": "head", "text": "手順2：全体に直す", "active": true},
+        {"style": "formula", "text": "AD : DB = 2 : 1 → AD : AB = 2 : 3", "active": true},
+        {"style": "note", "text": "相似比は「部分：部分」ではなく「対応する辺：対応する辺」。", "active": true}
+      ],
+      "caption": "手順2：AD : AB = 2 : 3（2:1 のまま使わない）"
+    },
+    {
+      "narration": "手順3。面積比にします。辺の比が 2対3 なので、面積の比は 2の2乗対3の2乗、つまり 4対9。三角形ADEを4とすると、三角形ABCは9です。",
+      "lines": [
+        {"style": "head", "text": "手順3：2乗する", "active": true},
+        {"style": "formula", "text": "△ADE : △ABC = 2² : 3² = 4 : 9", "active": true},
+        {"style": "note", "text": "△ADE = 4、△ABC = 9 とおいて次へ。", "active": true}
+      ],
+      "caption": "手順3：△ADE : △ABC = 4 : 9"
+    },
+    {
+      "narration": "手順4。四角形は引き算です。四角形DBCEは、三角形ABC から 三角形ADE を引いたもの。9 ひく 4 で 5。よって、三角形ADEと四角形DBCEの面積の比は、4対5 です。",
+      "lines": [
+        {"style": "head", "text": "手順4：引き算で四角形", "active": true},
+        {"style": "formula", "text": "四角形DBCE = 9 − 4 = 5", "active": true},
+        {"style": "formula", "text": "△ADE : 四角形DBCE = 4 : 5", "active": true}
+      ],
+      "caption": "答え：△ADE : 四角形DBCE = 4 : 5"
+    },
+    {
+      "narration": "検算をしましょう。BCを 3、高さを 3 とすると、三角形ABCの面積は 4 点 5。DEは 3 の 3分の2 で 2、三角形ADEの高さは 3 の 3分の2 で 2 なので、面積は 2。四角形は 4 点 5 ひく 2 で 2 点 5。2 対 2 点 5 は、4 対 5。一致しました。",
+      "lines": [
+        {"style": "head", "text": "検算：具体的な数で確かめる", "active": true},
+        {"style": "formula", "text": "△ABC = ½×3×3 = 4.5 , △ADE = ½×2×2 = 2", "active": true},
+        {"style": "formula", "text": "2 : (4.5 − 2) = 2 : 2.5 = 4 : 5 ○", "active": true}
+      ],
+      "caption": "検算：具体的な長さを入れても 4 : 5"
+    },
+    {
+      "narration": "おつかれさまでした。在庫に入れる1行は、これです。平行線を見たら相似、面積比は辺の比の2乗、四角形は引き算。明日、何も見ずに、ADとDBの比が 1対2 のときをやってみてください。答えは、1 対 8 です。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {"style": "head", "text": "在庫に入れる1行", "active": true},
+        {"style": "formula", "text": "平行 → 相似 → 比を2乗 → 四角形は引き算", "active": true},
+        {"style": "note", "text": "類題：AD : DB = 1 : 2 → △ADE : 四角形DBCE = 1 : 8", "active": true}
+      ],
+      "caption": "在庫に入れる1行：平行→相似→2乗→引き算"
+    }
+  ]
+}

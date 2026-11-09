@@ -1,0 +1,220 @@
+{
+  "title": "名詞の後ろのかたまり（関係代名詞と分詞）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を1文にする、または適する形を入れます。1、アイハブアフレンド。ヒーリブズインオオサカ。2、ジスイズザブック。アイボートイットイエスタデイ。3、ルックアットザボーイ、ラン、インザパーク。4、ザラングウィッジ、スピーク、インザットカントリーイズフレンチ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) I have a friend. He lives in Osaka.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) This is the book. I bought it yesterday.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) Look at the boy ( run ) in the park.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(4) The language ( speak ) in that country is French.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。英語は名詞の後ろから説明を足します。だから長文で名詞が出てきたら、その後ろがどこまで説明かを見ます。後ろに主語と動詞がそろっていれば関係代名詞。人ならフー、物ならウィッチ。後ろが動詞1語から始まるなら分詞で、アイエヌジーならしている、過去分詞ならされる。この見分けだけで長文の主語をつかめます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英語は名詞のうしろから説明を足す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが「主語＋動詞」なら関係代名詞（who / which / that）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが動詞1語から始まるなら分詞（〜ing＝している／過去分詞＝される）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。友達を説明していて、その人が住んでいるという主語のはたらきなので主格。アイハブアフレンドフーリブズインオオサカ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 人＋主格",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I have a friend who lives in Osaka.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "who＋動詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 人＋主格"
+    },
+    {
+      "narration": "2です。本を説明していて、それを買ったという目的語のはたらき。ウィッチまたはザットを使い、もとのイットは消します。ジスイズザブックウィッチアイボートイエスタデイ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 物＋目的格",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This is the book which I bought yesterday.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "it は消す。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 物＋目的格"
+    },
+    {
+      "narration": "3です。少年が走っているので現在分詞ラニング。ルックアットザボーイラニングインザパーク。ザボーイフーイズラニングと同じ意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) 現在分詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Look at the boy running in the park.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "している。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) 現在分詞"
+    },
+    {
+      "narration": "4です。言語は話されるので過去分詞スポークン。ザラングウィッジスポークンインザットカントリーイズフレンチ。この文の主語はザラングウィッジスポークンインザットカントリーまで全部です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(4) 過去分詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The language spoken in that country is French.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "される。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(4) 過去分詞"
+    },
+    {
+      "narration": "検算です。長い主語の文では、主語のかたまりを指で囲んで、その直後の動詞を確認します。4ならザラングウィッジからカントリーまでが主語で、動詞はイズ。かたまりの終わりと動詞の位置が分かれば、長文の1文はほぼ読めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語のかたまりを指で囲む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "その直後の動詞を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "かたまりの終わりが分かれば読める",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、目的格の関係代名詞は省略できます。ジスイズザブックアイボートイエスタデイ。名詞のあとに主語と動詞が続いていたら、関係代名詞が省略されていると考えます。ふたつ目、前置詞句も名詞を後ろから説明します。ザボーイウィズザレッドキャップ、ザマンインザブルージャケット。この形も主語が長くなる原因です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的格の関係代名詞は省略できる（名詞＋主語＋動詞）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "前置詞句も名詞を後ろから修飾（the boy with the red cap）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。名詞の後ろから説明が来る。主語と動詞なら関係代名詞、動詞から始まれば分詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞の後ろから説明が来る。主語＋動詞なら関係代名詞、動詞から始まれば分詞。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「これは私の父が作ったいすです」を英語にせよ。 → This is the chair which my father made.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "title": "気体の体積と密度（molで橋渡しする）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。標準状態で5.6リットルの窒素の質量を求めてください。またこの気体の標準状態での密度を、グラム毎リットルで求めてください。窒素の原子量は14とします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "標準状態で 5.6 L の窒素 N₂（N = 14）。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "標準状態での密度を g/L で求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。気体の体積と質量は、モルで橋渡しします。体積を22.4で割ればモル、モルにモル質量をかければ質量です。密度は1リットルあたりの質量なので、標準状態ならモル質量を22.4で割るだけ。この最後の式を覚えておくと、密度の問題が一発で終わります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "体積 → mol：÷ 22.4 L/mol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mol → 質量：× モル質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "密度 = モル質量 ÷ 22.4（標準状態の気体）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まずモルに直します。5.6を22.4で割って0.25モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：molに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "5.6 ÷ 22.4 = 0.25 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "体積÷22.4。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：molに直す"
+    },
+    {
+      "narration": "窒素は2原子分子なので、モル質量は14かける2で28グラム毎モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：モル質量を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "N₂ = 14 × 2 = 28 g/mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原子2個で1分子。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：モル質量を出す"
+    },
+    {
+      "narration": "質量は0.25かける28で7.0グラムです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：質量を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.25 × 28 = 7.0 g",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "mol×モル質量。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：質量を出す"
+    },
+    {
+      "narration": "密度はモル質量を22.4で割って、およそ1.3グラム毎リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：密度を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "28 ÷ 22.4 = 1.25 ≒ 1.3 g/L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "モル質量÷22.4。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：密度を出す"
+    },
+    {
+      "narration": "検算です。密度と体積から質量を出し直します。1.25グラム毎リットルかける5.6リットルで7.0グラム。さきほどの質量と一致します。空気の平均のモル質量が29なので、窒素の密度が空気とほぼ同じという感覚にも合っています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1.25 g/L × 5.6 L = 7.0 g",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量の答えと一致",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空気(29)とほぼ同じ密度で妥当",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、気体の密度の大小はモル質量の大小と同じです。だから二酸化炭素は空気より重く、水素やヘリウムは軽い、と計算せずに判断できます。ふたつ目、窒素や酸素を原子1個で計算するミスが最多です。気体の単体はほとんど2原子分子だと覚えておきます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "気体の密度の大小 = モル質量の大小",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "N₂・O₂・H₂ は2原子分子（原子量の2倍）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。気体は体積を22.4で割ってモル。標準状態の密度は、モル質量割る22.4。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "気体は体積÷22.4でmol。標準状態の密度 = モル質量÷22.4。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：標準状態で2.24 Lのメタン CH₄ の質量を求めよ（C = 12、H = 1.0）。 → 0.10 mol × 16 = 1.6 g",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

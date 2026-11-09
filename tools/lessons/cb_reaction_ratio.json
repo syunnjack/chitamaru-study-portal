@@ -1,0 +1,215 @@
+{
+  "title": "化学反応式の量的関係（mol比で読む）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。プロパン0.20モルを完全燃焼させました。必要な酸素の物質量と、生じる二酸化炭素の標準状態での体積を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "プロパン 0.20 mol を完全燃焼させる。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "必要な O₂ の mol と、生じる CO₂ の体積（標準状態）を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。化学反応式の係数は、モルの比を表します。質量の比ではありません。だから手順は3つ。与えられた量をモルに直す、係数の比で相手のモルを出す、最後に聞かれた単位に戻す。この順番を崩さなければ、量的関係の問題はすべて同じ形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "係数の比 = molの比（質量の比ではない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "与えられた量をまずmolに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mol比で相手のmolを出し、最後に単位を戻す",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず反応式です。プロパン1に対して酸素が5、二酸化炭素が3、水が4。炭素、水素、酸素の数が両辺で合っていることを確認します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：反応式を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "C・H・Oの数が両辺で一致。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：反応式を確認する"
+    },
+    {
+      "narration": "酸素の物質量は、プロパンの5倍なので、0.20かける5で1.0モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：酸素のmolを出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 5 = 1.0 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "係数比 1 : 5。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：酸素のmolを出す"
+    },
+    {
+      "narration": "二酸化炭素は3倍なので、0.20かける3で0.60モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：二酸化炭素のmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 3 = 0.60 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "係数比 1 : 3。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：二酸化炭素のmol"
+    },
+    {
+      "narration": "体積に戻すと、0.60かける22.4で、およそ13リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：体積に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.60 × 22.4 = 13.44 ≒ 13 L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "標準状態は22.4 L/mol。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：体積に戻す"
+    },
+    {
+      "narration": "検算です。酸素の原子の数で確かめます。酸素分子1.0モルには酸素原子が2.0モル。生成物側は、二酸化炭素0.60モルに1.2モル、水0.80モルに0.80モル。合わせて2.0モルで一致します。原子の数で検算するのがいちばん確実です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "O原子：左 = 1.0 × 2 = 2.0 mol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "右 = 0.60×2 + 0.80×1 = 2.0 mol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、係数の比を質量の比だと勘違いすると全滅します。必ずモルに直してから比を使います。ふたつ目、どちらかが足りない問題では、少ない方が反応を止めます。両方のモルを係数で割って、小さい方が限界だと判断します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "係数比はmol比（質量比ではない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "不足がある問題は「mol ÷ 係数」が小さい方が限界",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。係数比はモル比。モルに直して、比で出して、単位を戻す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "係数比=mol比。molに直す→比で出す→単位を戻す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：メタン CH₄ 0.50 molの完全燃焼に必要な酸素のmolを求めよ（CH₄ + 2O₂ → CO₂ + 2H₂O）。 → 0.50 × 2 = 1.0 mol",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

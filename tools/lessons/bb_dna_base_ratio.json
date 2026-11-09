@@ -1,0 +1,236 @@
+{
+  "title": "DNAの構造と塩基の割合（AとTは必ず等しい）",
+  "subtitle": "生物基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ある生物の2本鎖ディーエヌエーで、アデニンが全塩基の28パーセントを占めていました。グアニンの割合を求めてください。また片方の鎖でアデニンが32パーセントのとき、もう一方の鎖のチミンの割合も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2本鎖DNAでアデニンが全塩基の28 %。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "グアニンの割合を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "片方の鎖でA = 32 % のとき、相補鎖のTの割合を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。2本鎖のディーエヌエーでは、アデニンとチミン、グアニンとシトシンが必ず対になるので、割合も等しくなります。全部を足すと100パーセント。この2つの条件だけで割合の問題は全部解けます。片方の鎖だけを見る問題では、その鎖のアデニンが相手の鎖のチミンになる、という対応で読み替えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2本鎖なら A = T、G = C（相補性）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A + T + G + C = 100 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "片方の鎖のAは、相補鎖のTと等しい",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まずアデニンが28パーセントなので、対になるチミンも28パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：A = T を使う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A = 28 % なので T = 28 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "対になる塩基。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：A = T を使う"
+    },
+    {
+      "narration": "全体が100パーセントなので、グアニンとシトシンの合計は100ひく56で44パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：残りをG・Cで分ける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "100 − (28 + 28) = 44 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "GとCの合計。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：残りをG・Cで分ける"
+    },
+    {
+      "narration": "グアニンとシトシンも等しいので、44を2で割って、グアニンは22パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：Gを出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "G = C = 44 ÷ 2 = 22 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "GとCも等しい。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：Gを出す"
+    },
+    {
+      "narration": "次に1本鎖です。片方の鎖のアデニンは、相手の鎖ではチミンと対になっているので、相補鎖のチミンも32パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：1本鎖の対応",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ある鎖のA 32 % → 相補鎖のT 32 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "鎖をまたぐと入れ替わる。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：1本鎖の対応"
+    },
+    {
+      "narration": "答えは、グアニンが22パーセント、相補鎖のチミンが32パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順5：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "G = 22 %、相補鎖のT = 32 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "全体と1本鎖を区別する。",
+          "active": true
+        }
+      ],
+      "caption": "手順5：答えをまとめる"
+    },
+    {
+      "narration": "検算です。全体の割合を足します。アデニン28、チミン28、グアニン22、シトシン22。合計100パーセントで、条件を満たしています。またアデニンとチミンの和が56、グアニンとシトシンの和が44。等しくないのは問題ないので、これで正しいです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "28 + 28 + 22 + 22 = 100 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A = T、G = C を満たす",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "整合",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、1本鎖だけを見るとアデニンとチミンは等しくなりません。等しいのは2本鎖全体を見たときだけです。ここが最も出題される落とし穴です。ふたつ目、アデニンとチミンの割合が高い生物ほど、熱に弱い傾向があります。グアニンとシトシンの対の方が結合が強いためです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1本鎖では A = T にならない（2本鎖全体のみ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "G-C の対は結合が強く熱に強い",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。2本鎖ならアデニン イコール チミン、グアニン イコール シトシン。合計100パーセント。1本鎖では成り立たない。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2本鎖ならA=T、G=C。合計100 %。1本鎖では成り立たない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：2本鎖DNAでGが20 %のとき、Aの割合を求めよ。 → G = C = 20なので A = T = 30 %",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

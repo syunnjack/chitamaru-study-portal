@@ -1,0 +1,215 @@
+{
+  "title": "整序英作文（動詞から組む）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の語を並べかえて英文を完成させます。1、イズ、イット、フォー、トゥ、インポータント、アス、リード、そして メニー カインズ オブ ブックス。2、ユー、ノウ、ドゥ、ホエア、リブズ、シー、クエスチョンマーク。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) ( is / it / for / to / important / us / read ) many kinds of books.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) ( you / know / do / where / lives / she ) ?",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞から組み立てる。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。整序は端から並べるのではなく、動詞を見つけて主語を決めるところから始めます。イットとトゥとフォーミアがあれば、形式主語の構文を疑う。イット イズ 形容詞 フォー 誰々 トゥ 動詞。そして疑問文の中に疑問詞が入る間接疑問では、語順が疑問詞たす主語たす動詞に戻ります。この2つが整序で最も問われる形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "まず動詞を見つけ、主語を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "it を見たら形式主語 It is ... for ... to ... を疑う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "疑問文の中の疑問詞節は「疑問詞＋主語＋動詞」の語順",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。イット、イズ、フォー、トゥ、インポータント。この組み合わせは形式主語の構文しかありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 構文を見抜く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "it, is, for, to, important → 形式主語構文",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "決まり形。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 構文を見抜く"
+    },
+    {
+      "narration": "並べます。イット イズ インポータント フォー アス トゥ リード メニー カインズ オブ ブックス。いろいろな種類の本を読むことは私たちにとって大切だ、という意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 並べる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It is important for us to read many kinds of books.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「〜することは大切」。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 並べる"
+    },
+    {
+      "narration": "2です。まず外側。ドゥ ユー ノウ。ここが疑問文の形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 主節を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Do you know ... ＝主節の疑問文",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "外側が疑問文。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 主節を作る"
+    },
+    {
+      "narration": "内側は間接疑問なので、ホエア シー リブズ。ホエア ダズ シー リブではありません。全体でドゥ ユー ノウ ホエア シー リブズ。彼女がどこに住んでいるか知っていますか、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 間接疑問を入れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Do you know where she lives?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "疑問詞＋主語＋動詞。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 間接疑問を入れる"
+    },
+    {
+      "narration": "検算です。完成した英文を声に出して読み、主語と動詞が1組ずつそろっているかを確認します。それから、余った語がないかを見ます。整序は語を1つ残すと必ず不正解になるので、指で数えて全部使ったかを確かめます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語と動詞がそろっているか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "余った語がないか（指で数える）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "声に出して不自然でないか",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、整序で頻出の形は決まっています。形式主語、間接疑問、ソー 形容詞 ザット、トゥー 形容詞 トゥ、ノット オンリー。この5つを口で言えるようにしておけば、多くが即答になります。ふたつ目、余分な語を入れるダミーが混ざっている問題もあります。全部使うと指示がない場合は、使わない語がある前提で組みます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "頻出5形：形式主語・間接疑問・so...that・too...to・not only",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「すべて使う」指示がなければダミー語を疑う",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。整序は動詞から組む。イット、フォー、トゥは形式主語。間接疑問は疑問詞たす主語たす動詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "整序は動詞から。it+for+to は形式主語。間接疑問は疑問詞＋主語＋動詞。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼が何を言ったか知っていますか」を英語にせよ。 → Do you know what he said?",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

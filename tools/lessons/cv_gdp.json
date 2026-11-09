@@ -1,0 +1,215 @@
+{
+  "title": "名目GDPと実質GDP（物価の影響を割り落とす）",
+  "subtitle": "政治・経済 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。ある国の名目GDPが1年間で500兆円から540兆円に増え、GDPデフレーターが100から108になりました。実質GDPを求め、実質経済成長率を答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名目GDP：500兆円 → 540兆円。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "GDPデフレーター：100 → 108。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実質GDPと実質経済成長率を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。実質GDPは、名目GDPをデフレーターで割って100をかけるだけです。物価が上がった分を割り落とす操作だと理解しておけば、公式を忘れません。今回はデフレーターが8パーセント上がっているので、名目が8パーセント増えていても実質は増えていない、という結果が予想できます。計算で確かめます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実質GDP = 名目GDP ÷ GDPデフレーター × 100",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "成長率 = （今年 − 前年）÷ 前年 × 100",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "物価が上がった分を割り落とすのが「実質」",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず前年です。デフレーターが100なので、500を100で割って100をかけ、実質GDPは500兆円。名目と同じです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：前年の実質GDP",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "500 ÷ 100 × 100 = 500兆円",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "基準年は同じ。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：前年の実質GDP"
+    },
+    {
+      "narration": "次に今年です。540を108で割って100をかけると、ちょうど500兆円。物価上昇分を割り落とすと、実質は500兆円のままです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：今年の実質GDP",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "540 ÷ 108 × 100 = 500兆円",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "割り落とす。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：今年の実質GDP"
+    },
+    {
+      "narration": "実質経済成長率は、500から500を引いて500で割るので0パーセント。実質的には成長していません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：実質成長率",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(500 − 500) ÷ 500 × 100 = 0 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "増えていない。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：実質成長率"
+    },
+    {
+      "narration": "答えは、実質GDPは前年も今年も500兆円、実質経済成長率は0パーセントです。名目では8パーセント増えて見えますが、物価が8パーセント上がっただけでした。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実質GDPは前年・今年ともに500兆円、実質成長率0 %",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "名目は8 %増。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。名目の伸びと物価の伸びを比べます。名目は500から540で8パーセント増、デフレーターも100から108で8パーセント増。伸び率が等しいので実質は変わらない。計算結果と一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名目の伸び：8 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "物価の伸び：8 %",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "等しいので実質は変化なし",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、GDPは国内で生産された付加価値の合計で、中古品の売買や株価の上昇は含まれません。何が含まれるかが正誤問題で問われます。ふたつ目、GDPには家事労働や環境の悪化が反映されないため、豊かさの指標としては限界があります。批判の観点も押さえます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "GDPは付加価値の合計（中古品売買や株価は含まない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "家事労働・環境悪化は反映されない",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。実質ジーディーピーは名目をデフレーターで割って100をかける。物価分を割り落とす。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実質GDP＝名目÷デフレーター×100。物価分を割り落とす。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：名目GDP 600兆円、GDPデフレーター120のとき実質GDPを求めよ。 → 600 ÷ 120 × 100 = 500兆円",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

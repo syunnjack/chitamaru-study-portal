@@ -1,0 +1,220 @@
+{
+  "title": "和文英訳：主語を立てる",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語に直してください。1、この本を読めば、その理由が分かります。2、昨日の会議では、新しい規則について話し合われました。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) この本を読めば、その理由が",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　分かります。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 昨日の会議では、新しい規則に",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　ついて話し合われました。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。日本語は主語を省く言語なので、英訳の第一手は主語を立てることです。主語の候補は、一般の人を表す ユー、書き手を含む ウィー、物や状況を表す イット、そして文中の名詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語は主語が消える言語",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "まず主語を立ててから並べる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語候補は you / we / it / 名詞",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。読めば分かる、の主語は一般の人なので ユー を立てます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 主語を立てる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「読めば分かる」→ 主語は you",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "一般の人を表す you。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 主語を立てる"
+    },
+    {
+      "narration": "イフ ユー リード ジス ブック、ユー ウィル アンダースタンド ザ リーズン。条件節は現在形、主節は ウィル です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If you read this book, you will understand the reason.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "条件節は現在形、主節は will。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 文を作る"
+    },
+    {
+      "narration": "2番です。話し合われた、は行為者が示されていないので受動態にします。新しい規則を主語にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 主語を探す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「話し合われた」→ 行為者が不明 → 受動態",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "the new rules を主語に。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 主語を探す"
+    },
+    {
+      "narration": "ザ ニュー ルールズ ワー ディスカスト アット イエスタデイズ ミーティング。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The new rules were discussed at yesterday's meeting.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：上の2文",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。作った英文をもう一度日本語に戻します。この本を読めば理由が分かるでしょう。新しい規則は昨日の会議で話し合われた。もとの日本語と同じ意味なら合格です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英文を日本語に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "もとの意味と一致するか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語と時制を最後に確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。日本語の、では、や、は、は主語ではないことが多いです。会議では、は場所なので アット を使います。それから、ディスカス は他動詞なので、アバウト を付けません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜では」は場所（at / in）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "discuss は他動詞（discuss about は誤り）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。和文英訳の第一手は主語を立てること。一般論は ユー、行為者不明は受動態。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "和文英訳の第一手は主語を立てること。一般論は you、行為者不明は受動態。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「この道を行けば駅に着きます」を英語に。 → If you take this road, you will get to the station.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

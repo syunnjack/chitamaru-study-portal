@@ -1,0 +1,215 @@
+{
+  "title": "和文英訳（日本語を英語の形に直してから訳す）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語にします。1、この本を読めば、彼がなぜ有名なのかがわかるでしょう。2、昨日から雨が降り続いている。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) この本を読めば、彼がなぜ有名なのかがわかるでしょう。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 昨日から雨が降り続いている。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語を英語の形に直してから訳す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。和文英訳は3段階。まず主語を補います。日本語は主語を省略しますが、英語には必ず必要です。次に構文を決める。読めばならイフ、なぜ有名なのかは間接疑問、降り続いているは現在完了進行形。最後に、書けない単語は易しい語に言いかえます。有名がフェイマスで書けなければ、ウェル ノウンでもかまいません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "① 日本語の主語を補う（英語には主語が必要）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "② 使う構文を先に決める（if / 間接疑問 / 現在完了進行形）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "③ 難しい語は易しい語に言いかえる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。読めば、の主語はユー。条件はイフ ユー リード ジス ブック。日本語にない主語を自分で補います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 主語と構文",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語 you、条件 if you read this book",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "省略主語は you。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 主語と構文"
+    },
+    {
+      "narration": "なぜ有名なのかは間接疑問です。ホワイ ヒー イズ フェイマス。ホワイ イズ ヒーではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 間接疑問を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "why he is famous（疑問詞＋主語＋動詞）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "語順注意。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 間接疑問を作る"
+    },
+    {
+      "narration": "完成です。イフ ユー リード ジス ブック、ユー ウィル アンダースタンド ホワイ ヒー イズ フェイマス。でしょう、はウィルで表します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(1) 完成させる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If you read this book, you will understand why he is famous.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "will で「でしょう」。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(1) 完成させる"
+    },
+    {
+      "narration": "2です。昨日から今まで続いているので現在完了進行形。イット ハズ ビーン レイニング シンス イエスタデイ。シンスのあとは時の一点、フォーのあとは期間です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 継続を表す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It has been raining since yesterday.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "現在完了進行形＋since。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 継続を表す"
+    },
+    {
+      "narration": "検算です。書いた英文を日本語に訳し戻します。イフ ユー リード ジス ブック ユー ウィル アンダースタンド ホワイ ヒー イズ フェイマス。この本を読めば、彼がなぜ有名なのかがわかるでしょう。元の日本語と一致します。訳し戻して意味が変わるなら、構文の選択が違います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英文を日本語に訳し戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "元の日本語と一致するか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ずれたら構文の選択を見直す",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、シンスとフォーの区別です。シンスのあとは時の一点、イエスタデイやラスト ウィーク。フォーのあとは期間、スリー デイズやア ロング タイム。ここは必ず問われます。ふたつ目、無生物主語です。この本は彼が有名な理由を教えてくれる、というようにジス ブックを主語にする書き方もできます。書ける形で書き切ることが優先です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "since は時の一点、for は期間",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "無生物主語（This book will tell you ...）も使える",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。和文英訳は主語を補い、構文を決め、易しい語で書き切る。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "和文英訳は主語を補い、構文を決め、易しい語で書き切る。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「私は3年間ここに住んでいます」を英語にせよ。 → I have lived here for three years.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

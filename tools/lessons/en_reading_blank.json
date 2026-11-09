@@ -1,0 +1,225 @@
+{
+  "title": "長文：空所補充（論理関係で決める）",
+  "subtitle": "高校英語 ／ 上級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。空所補充です。集団で働くと、負担を分け合えるので時間を節約できる。空所、全員が合意しなければならないので、決定に時間がかかることもある。選択肢は、エー フォー イグザンプル、ビー オン ジ アザー ハンド、シー アズ ア リザルト。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Working in a group can save time",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "because members share the load.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(　), it also takes longer to make",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "decisions, since everyone must agree.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) For example (B) On the other hand (C) As a result",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。空所の前後の内容を、プラスかマイナスかで判定します。プラスからマイナスへ変わるなら逆接。同じ向きなら追加や結果です。訳さずに符号だけで決められます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所の前後をプラス・マイナスで判定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "＋ → −なら逆接",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "＋ → ＋なら追加・結果",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "前半は、時間を節約できる。プラスの内容です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：前を判定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "save time → プラス",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "利点を述べている。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：前を判定"
+    },
+    {
+      "narration": "後半は、決定に時間がかかる。マイナスの内容です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：後を判定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "takes longer to make decisions → マイナス",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "欠点を述べている。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：後を判定"
+    },
+    {
+      "narration": "プラスからマイナスへ変わっています。したがって逆接のつなぎ語が入ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：符号の変化を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "プラス → マイナス",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "したがって逆接。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：符号の変化を見る"
+    },
+    {
+      "narration": "答えはビー、オン ジ アザー ハンド。フォー イグザンプル は例示、アズ ア リザルト は結果なので合いません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) On the other hand",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "For example は例示、As a result は結果。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。日本語のつなぎ語を入れて読み直します。一方で、決定には時間がかかる。自然です。たとえば、や、その結果、を入れると意味がつながらないので、逆接が正しいと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「一方で」で自然につながる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「たとえば」「その結果」では壊れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "符号の判定と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。イン アディション、モアオーバー、ファーザーモア は追加で同じグループです。それから、ネバーザレス と ナンスザレス は、逆接の中でも、それでもなお、という強い譲歩を表します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "追加：in addition / moreover / furthermore",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強い逆接：nevertheless / nonetheless",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。空所補充は前後をプラス、マイナスで判定し、符号が変われば逆接。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所補充は前後をプラス・マイナスで判定し、符号が変われば逆接。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The new system is cheaper. (　), it is easier to use.（However / Moreover）を選べ。 → Moreover（プラス→プラスの追加）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

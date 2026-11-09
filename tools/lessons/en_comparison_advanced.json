@@ -1,0 +1,220 @@
+{
+  "title": "比較の応用（the 比較級と差の表現）",
+  "subtitle": "高校英語 ／ 中級レベル ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、練習すればするほど、上達は速くなる。2、この2冊のうち、こちらのほうが読みやすい。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 練習すればするほど、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　上達は速くなる。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) この2冊のうち、こちらのほうが",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　読みやすい。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は2つです。〜すればするほど、は ザ 比較級 カンマ ザ 比較級。それから、2つのうちで、の場合は最上級ではなく ザ プラス 比較級 プラス オブ ザ トゥー を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The 比較級 …, the 比較級 …",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2者間の「〜な方」→ the + 比較級 + of the two",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "強調は much / far / by far",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。練習の量なので マッチ の比較級 モア を先頭に出します。ザ モア ユー プラクティス。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 比較級を前に出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The more you practice, …",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "much → more を先頭へ。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 比較級を前に出す"
+    },
+    {
+      "narration": "後半も同じ形です。ザ ファスター ユー インプルーブ。副詞 ファスト の比較級を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 後半も同じ形にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The more you practice, the faster you improve.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「速く」は副詞 fast の比較級。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 後半も同じ形にする"
+    },
+    {
+      "narration": "2番です。2つのうちなので、最上級ではなく ザ プラス 比較級 プラス オブ ザ トゥー を使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 2者間の比較を選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the + 比較級 + of the two",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "× the easiest of the two",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 2者間の比較を選ぶ"
+    },
+    {
+      "narration": "ジス イズ ジ イージアー オブ ザ トゥー ブックス トゥー リード。これが答えです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 文を作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This is the easier of the two books to read.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：The more you practice, the faster you improve. / the easier of the two",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 文を作る"
+    },
+    {
+      "narration": "検算です。ザ 比較級 の文は、接続詞を使った文に戻せます。アズ ユー プラクティス モア、ユー インプルーブ ファスター。戻せれば形が正しいと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "As you practice more,",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "you improve faster.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "戻せれば正しい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。比較級を強めるのは マッチ や ファー で、ベリー は使えません。それから、ノー モア ザン は ただ〜だけ、ノット モア ザン は 多くても、という意味です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "very は比較級を強められない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "no more than = only",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。〜すればするほど は ザ 比較級 カンマ ザ 比較級。2者間は ザ プラス 比較級 プラス オブ ザ トゥー。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜すればするほど」は The 比較級 …, the 比較級 …。2者間は the + 比較級 + of the two。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「暗くなるほど、寒くなった」を英語に。 → The darker it got, the colder it became.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

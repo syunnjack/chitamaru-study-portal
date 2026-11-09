@@ -1,0 +1,220 @@
+{
+  "title": "不定詞と動名詞（動詞ごとに形が決まっている）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の空所に適する形を入れます。1、アイウォント、ゴウ、トゥーアメリカサムデイ。2、シーエンジョイド、リード、ザブックラストナイト。3、イットビガン、レイン、インジアフタヌーン。4、ドゥーユーハブエニシング、イート。5、ヒーウェントトゥーザパーク、プレイ、サッカー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) I want ( go ) to America someday.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) She enjoyed ( read ) the book last night.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) It began ( rain ) in the afternoon.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(4) Do you have anything ( eat )?  (5) He went to the park ( play ) soccer.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。トゥー不定詞をとる動詞と、アイエヌジー形をとる動詞は決まっています。ウォント、ホウプ、ディサイド、ニードはトゥー。エンジョイ、フィニッシュ、ストップはアイエヌジー。どちらでもよいのがビギンやライク。そして名詞の後ろに置かれたトゥー不定詞は、するためのという修飾、文の最後に置かれたら、するためにという目的です。位置で意味が決まります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "to + 動詞の原形：want, hope, decide, need の後ろ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞 + ing：enjoy, finish, stop の後ろ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "名詞の後ろの to 不定詞は「〜するための」、文末は「〜するために」",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1と2です。ウォントはトゥーをとるのでトゥーゴウ。エンジョイはアイエヌジーをとるのでリーディング。動詞を見た瞬間に形が決まります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1)(2) 2グループで決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "want to go ／ enjoyed reading",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動詞で決まる。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1)(2) 2グループで決める"
+    },
+    {
+      "narration": "3です。ビギンはどちらもとれるので、ビガントゥーレインでもビガンレイニングでも正解。ライクやスタートも同じです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(3) どちらも可の動詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "began to rain ／ began raining（どちらも正しい）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "begin, like, start。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(3) どちらも可の動詞"
+    },
+    {
+      "narration": "4です。エニシングという名詞の後ろなので、食べるための何か。エニシングトゥーイートです。この位置のトゥーは形容詞のはたらきをします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(4) 名詞を修飾する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "anything to eat＝食べるための何か",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "名詞の後ろ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(4) 名詞を修飾する"
+    },
+    {
+      "narration": "5です。文の最後に置かれているので、するために。トゥープレイサッカー。公園へ行った目的を表しています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(5) 目的を表す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "went to the park to play soccer＝サッカーをするために",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "文末の to。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(5) 目的を表す"
+    },
+    {
+      "narration": "検算です。それぞれの文を日本語に戻します。アメリカへ行きたい。本を読んで楽しんだ。雨が降り始めた。何か食べるもの。サッカーをするために公園へ行った。日本語にしたときに、するため、するためにという訳が自然に出れば、不定詞の役割を正しくとらえています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語に戻して訳を確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「〜するための」「〜するために」が自然か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "動詞のグループを再確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、ストップの意味の違いです。ヒーストップトスモーキングは、たばこをやめた。ヒーストップトトゥースモークは、たばこを吸うために立ち止まった。アイエヌジーとトゥーで意味が変わる代表例です。ふたつ目、イットイズプラス形容詞プラストゥーの形です。イットイズインポータントトゥーリードエブリデイ。イットは形式的な主語で、本当の主語は後ろの不定詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "stop ~ing＝やめる／stop to ~＝〜するために立ち止まる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "It is ~ to ...：It は形式主語、本当の主語は to 不定詞",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ウォントトゥー、エンジョイアイエヌジー。名詞の後ろはするための、文末はするために。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "want to / enjoy ~ing。名詞の後ろは「〜するための」、文末は「〜するために」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「彼は宿題をし終えました」を finish を使って英語にせよ。 → He finished doing his homework.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

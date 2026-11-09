@@ -1,0 +1,220 @@
+{
+  "title": "Part6 つなぎ語（前後の関係を1語で決める）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part6の問題です。オフィスは月曜日、建物のメンテナンスで閉まります。空所、その日に予定されていた配達はすべて火曜日に移されます。選択肢は、ハウエバー、ゼアフォー、ネバーザレス、アザワイズ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "The office will be closed on Monday",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "for building maintenance.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "-------, all deliveries for that day",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "will be moved to Tuesday.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。つなぎ語の問題は、前の文と後ろの文の関係だけで決まります。前後を日本語で短く要約して、だから、しかし、さらに、のどれかを決めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "つなぎ語は前後の「関係」で決まる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "順接（だから）／逆接（しかし）／追加",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空所の前後だけを日本語で要約する",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "前の文は、月曜日は閉まる、という内容です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：前の文を要約",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "月曜は閉館",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原因・理由になる内容。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：前の文を要約"
+    },
+    {
+      "narration": "後ろの文は、配達は火曜に移す、という内容です。これは前の文の結果です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：後ろの文を要約",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "配達は火曜に移動",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "結果になる内容。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：後ろの文を要約"
+    },
+    {
+      "narration": "原因と結果の関係なので、順接です。日本語なら、だから、でつながります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：関係を決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "原因 → 結果 = 順接",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「だから」でつながる。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：関係を決める"
+    },
+    {
+      "narration": "答えはビー、ゼアフォー。ハウエバー と ネバーザレス は逆接なので合いません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) Therefore",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "However / Nevertheless は逆接。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。空所に日本語を入れて読み直します。月曜は閉館です。だから、配達は火曜に移します。自然につながります。しかし、を入れると意味が壊れるので、逆接が誤りだと分かります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「だから」で自然につながる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「しかし」では壊れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "日本語で確認する",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。アザワイズ は、そうしないと、という条件の意味です。それから、イン アディション は追加、ミーンホワイル は同時進行、フォー イグザンプル は例示です。グループで覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "otherwise =「そうしないと」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "in addition / meanwhile / for example",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。つなぎ語は前後の関係だけで決まる。順接か逆接かを日本語で確認する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "つなぎ語は前後の関係だけで決まる。順接か逆接かを日本語で確認する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：The samples arrived late. -------, we finished the test on time.（However / Therefore） → However（逆接）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

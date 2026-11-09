@@ -1,0 +1,215 @@
+{
+  "title": "過不足のある反応（足りない側で決まる）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。マグネシウム0.30モルに、塩酸に含まれる塩化水素0.40モルを加えて反応させました。発生する水素の物質量と、標準状態での体積を求めてください。また、反応せずに残る物質とその物質量も答えてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg 0.30 mol と HCl 0.40 mol を反応させる。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg + 2HCl → MgCl₂ + H₂",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "発生する H₂ の物質量と標準状態の体積、残る物質を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。両方の量が与えられている問題は、必ず過不足の判定から始めます。それぞれの物質量を反応式の係数で割って、小さい方が先に無くなる、つまり反応を決める側です。生成物の量は、この足りない側だけを使って計算します。多い側は残るので、使った分を引いて残量を出します。両方で計算して大きい方を答えてしまうのが典型的な失点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "係数で割って「どちらが先に無くなるか」を判定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "生成物は足りない側（限定する側）だけで計算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "残る量は、多い側から使った分を引く",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず判定です。マグネシウムは0.30を係数1で割って0.30、塩化水素は0.40を係数2で割って0.20。小さいのは塩化水素なので、塩化水素が先に無くなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：係数で割る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg：0.30/1 = 0.30、HCl：0.40/2 = 0.20",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "小さいのはHCl側。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：係数で割る"
+    },
+    {
+      "narration": "水素の量は塩化水素で決まります。塩化水素2モルから水素が1モルできるので、0.40の半分の0.20モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：水素の物質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "HCl 2 mol → H₂ 1 mol なので H₂ = 0.40 × 1/2 = 0.20 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "足りない側で計算。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：水素の物質量"
+    },
+    {
+      "narration": "標準状態の体積は、0.20モルかける1モルあたり22.4リットルで、およそ4.5リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：体積に直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 22.4 = 4.48 ≒ 4.5 L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "標準状態は22.4 L/mol。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：体積に直す"
+    },
+    {
+      "narration": "使われたマグネシウムは0.20モルなので、0.30から引いて0.10モルが残ります。答えは、水素が0.20モルでおよそ4.5リットル、マグネシウムが0.10モル残る、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：残る物質",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "使ったMg = 0.20 mol → 残り 0.30 − 0.20 = 0.10 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Mgが0.10 mol残る。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：残る物質"
+    },
+    {
+      "narration": "検算です。もしマグネシウムを全部反応させるなら、塩化水素が0.60モル必要です。実際にあるのは0.40モルなので足りません。塩化水素が反応を決める側だという判定と一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mg 0.30 mol を全部使うには HCl 0.60 mol 必要",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "実際は0.40 molしかない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "HClが不足＝判定と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、比べるのは物質量そのものではありません。必ず係数で割ってから比べます。0.40は0.30より大きいのに、塩化水素が足りない側になるのがその理由です。ふたつ目、塩酸の濃度と体積で与えられることも多いです。まず物質量に直してから同じ手順に入ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比べるのは「mol ÷ 係数」（molそのものではない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "濃度×体積でまずmolに直してから判定する",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。過不足は、モルを係数で割って判定。生成物は足りない側だけで計算する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過不足は mol ÷ 係数 で判定。生成物は足りない側だけで計算。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：H₂ 0.30 molとO₂ 0.10 molから生じる水の物質量を求めよ（2H₂ + O₂ → 2H₂O）。 → H₂:0.15、O₂:0.10 → O₂不足、H₂O = 0.20 mol",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

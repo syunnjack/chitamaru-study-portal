@@ -1,0 +1,215 @@
+{
+  "title": "対称式（和と積だけで値を出す）",
+  "subtitle": "私立難関 数学 ／ 差がつく型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。エックスたすワイが5、エックスかけるワイが3のとき、次の値を求めます。1、エックスの2乗たすワイの2乗。2、エックスの3乗たすワイの3乗。3、エックスひくワイの2乗です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x + y = 5, xy = 3 のとき",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) x² + y²  (2) x³ + y³",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) (x − y)²",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。この手の問題でエックスとワイを実際に求めてはいけません。和と積だけで表す公式に当てはめます。エックスの2乗たすワイの2乗は、和の2乗ひく2かけるエックスワイ。エックスの3乗たすワイの3乗は、和の3乗ひく3エックスワイかける和。この2本と、エックスひくワイの2乗は和の2乗ひく4エックスワイ。この3本を暗記していれば、代入するだけです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x, y を求めない。和と積だけで表す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x² + y² = (x+y)² − 2xy",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x³ + y³ = (x+y)³ − 3xy(x+y)",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。エックスの2乗たすワイの2乗は、和の2乗ひく2エックスワイ。25ひく6で19です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 2乗の和",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x² + y² = (x+y)² − 2xy = 25 − 6 = 19",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "和の2乗から2xyを引く。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 2乗の和"
+    },
+    {
+      "narration": "2です。エックスの3乗たすワイの3乗は、和の3乗ひく3エックスワイかける和。和の3乗を展開すると3エックス2乗ワイと3エックスワイ2乗が余るので、それを引く形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 3乗の和の公式",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x³ + y³ = (x+y)³ − 3xy(x+y)",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "展開から導ける。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 3乗の和の公式"
+    },
+    {
+      "narration": "代入します。5の3乗は125、3かける3かける5は45。125ひく45で80です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 代入する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "= 125 − 3·3·5 = 125 − 45 = 80",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え80。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 代入する"
+    },
+    {
+      "narration": "3です。エックスひくワイの2乗は、和の2乗ひく4エックスワイ。25ひく12で13です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(3) 差の2乗",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(x−y)² = (x+y)² − 4xy = 25 − 12 = 13",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "4xyを引く。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(3) 差の2乗"
+    },
+    {
+      "narration": "検算です。エックスとワイは2次方程式ティーの2乗ひく5ティーたす3イコール0の2つの解です。解の公式で5プラスマイナスルート13、割る2。この2数を足すと5、かけると3。さらに差はルート13なので、差の2乗は13。3番の答えと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x, y は t² − 5t + 3 = 0 の2解",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "差 = √13 → (x−y)² = 13 と一致",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "和と積から逆に確認できる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、エックスひくワイそのものの値を聞かれたときは符号に注意します。2乗が13なのでプラスマイナスルート13、どちらか一方に決まる条件がなければ両方書きます。ふたつ目、エックス分の1たすワイ分の1は、和割る積です。この問題なら3分の5。分数の対称式もこの形で処理できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x − y は ±√13（条件がなければ両方）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1/x + 1/y = (x+y)/xy = 5/3",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。2乗の和は和の2乗ひく2エックスワイ、3乗の和は和の3乗ひく3エックスワイかける和、差の2乗は和の2乗ひく4エックスワイ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "x²+y²=(x+y)²−2xy、x³+y³=(x+y)³−3xy(x+y)、(x−y)²=(x+y)²−4xy。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：x + y = 4, xy = 1 のとき x² + y² を求めよ。 → 14",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

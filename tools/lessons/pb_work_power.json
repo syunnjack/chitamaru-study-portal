@@ -1,0 +1,215 @@
+{
+  "title": "仕事と仕事率（角度と時間で決まる）",
+  "subtitle": "物理基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。水平面上の荷物を、水平から60度上向きに40ニュートンの力で引いて、5.0メートル移動させました。この力がした仕事を求めてください。また、同じ仕事を4.0秒で行ったときの仕事率も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "水平から 60° 上向きに 40 N の力で引く。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "水平に 5.0 m 移動させたときの仕事 W を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同じ仕事を 4.0 s で行ったときの仕事率 P を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。仕事は、力かける距離ではなく、移動の向きの成分かける距離です。だから ダブリュー イコール エフ エックス コサイン シータ。仕事率は、仕事を時間で割るだけで、単位はワット、つまり毎秒ジュールです。移動の向きと垂直な力は、いくら大きくても仕事はゼロ。ここを押さえると、垂直抗力や重力の仕事の問題が一瞬で片づきます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仕事 W = Fx cosθ（移動方向の成分だけ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仕事率 P = W / t（単位はW＝J/s）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "移動と垂直な力の仕事は0",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず移動の向きの成分です。40かけるコサイン60度で20ニュートン。上向きの成分は移動と垂直なので、仕事には効きません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：移動方向の成分を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "F cos60° = 40 × 0.50 = 20 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "上向き成分は仕事をしない。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：移動方向の成分を出す"
+    },
+    {
+      "narration": "仕事は、20ニュートンかける5.0メートルで100ジュールです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：仕事を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "W = 20 × 5.0 = 100 J",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "W = Fx cosθ の形。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：仕事を出す"
+    },
+    {
+      "narration": "仕事率は、100ジュールを4.0秒で割って25ワットです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：仕事率を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P = W/t = 100/4.0 = 25 W",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "1 W = 1 J/s。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：仕事率を出す"
+    },
+    {
+      "narration": "答えは、仕事が100ジュール、仕事率が25ワットです。単位を取り違えないように、仕事はジュール、仕事率はワットと覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "W = 100 J、P = 25 W",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "仕事はJ、仕事率はW。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。もし力を真横に引いていたら、仕事は40かける5.0で200ジュール。60度に傾けたのでコサイン60度、つまり半分になり100ジュール。角度をつけるほど仕事が小さくなるという傾向どおりです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "真横に引けば 40 × 5.0 = 200 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "cos60° = 1/2 なので半分の 100 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "角度が大きいほど仕事は小さい",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、仕事はマイナスにもなります。摩擦力や、投げ上げた物体に働く重力は、移動と逆向きなのでコサインが180度、仕事は負になります。ふたつ目、仕事率は「同じ仕事をどれだけ速くしたか」です。仕事が同じなら、時間が半分になれば仕事率は2倍。力が強いことではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "移動と逆向きの力は負の仕事（摩擦・減速時の重力）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P = W/t：同じ仕事でも時間が半分なら2倍",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。仕事は ダブリュー イコール エフ エックス コサイン シータ、仕事率は ピー イコール ダブリュー 割る ティー。垂直な力の仕事はゼロ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仕事は W = Fx cosθ、仕事率は P = W/t。垂直な力の仕事は0。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：水平に30 Nで引いて4.0 m動かしたときの仕事を求めよ。 → W = 30×4.0 = 120 J",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

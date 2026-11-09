@@ -1,0 +1,215 @@
+{
+  "title": "仮定法過去と仮定法過去完了",
+  "subtitle": "高校英語 ／ 基本問題 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の2文を英語にしてください。1、もし今もっと時間があれば、その大会に参加するのに。2、もし昨日、傘を持っていたら、濡れなかっただろう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 今もっと時間があれば、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "　その大会に参加するのに。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 昨日 傘があれば濡れなかっただろう。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型は、時をひとつ前にずらすことです。現在の仮定なら イフ の中は過去形、主節は ウッド プラス 原形。過去の仮定なら イフ の中は ハド プラス 過去分詞、主節は ウッド ハブ プラス 過去分詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時をひとつ前にずらす",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在の仮定：過去形 … would + 原形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去の仮定：had + p.p. … would have + p.p.",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1番です。ナウ があるので現在の仮定です。事実は、今、時間がない、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) いつの話か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "now → 現在の仮定",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "事実は「今、時間がない」。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) いつの話か"
+    },
+    {
+      "narration": "型に入れます。イフ アイ ハド モア タイム ナウ、アイ ウッド テイク パート イン ザ コンテスト。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 型に入れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If I had more time now, I would take part in the contest.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "If の中は過去形 had、主節は would + 原形。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 型に入れる"
+    },
+    {
+      "narration": "2番です。イエスタデイ があるので過去の仮定です。事実は、昨日、傘がなかった、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) いつの話か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "yesterday → 過去の仮定",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "事実は「昨日、傘がなかった」。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) いつの話か"
+    },
+    {
+      "narration": "型に入れます。イフ アイ ハド ハド アン アンブレラ イエスタデイ、アイ ウッド ノット ハブ ゴット ウェット。ハド が2つ並ぶのは、過去完了の形だからです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(2) 型に入れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If I had had an umbrella yesterday, I would not have got wet.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：had had と would not have got の組み合わせ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(2) 型に入れる"
+    },
+    {
+      "narration": "検算です。仮定法は必ず事実の逆になります。1番の事実は、今は時間がないから参加しない。2番の事実は、昨日は傘がなくて濡れた。この2文が言えれば、時のずらし方が正しいと確認できます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仮定法は事実の逆",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 今は参加しない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 昨日は濡れた",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。仮定法の ビー動詞は主語が何であっても ワー を使うのが原則です。イフ アイ ワー ユー のように使います。それから、条件を表す イフ でも、単なる未来の条件なら現在形を使い、仮定法にはしません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仮定法の be は were",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単なる条件は現在形（If it rains …）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。現在の仮定は 過去形 と ウッド プラス 原形、過去の仮定は ハド プラス 過去分詞 と ウッド ハブ プラス 過去分詞。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在の仮定は「過去形 … would + 原形」、過去の仮定は「had + p.p. … would have + p.p.」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「もし彼が医者なら、私を助けられるのに」を英語に。 → If he were a doctor, he could help me.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

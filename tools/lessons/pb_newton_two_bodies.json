@@ -1,0 +1,215 @@
+{
+  "title": "2物体の運動方程式（全体で加速度、1つで張力）",
+  "subtitle": "物理基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。なめらかな水平面の上で、質量3.0キログラムの物体Aと、質量2.0キログラムの物体Bを軽い糸でつなぎ、Aを水平に10ニュートンの力で引きます。加速度と糸の張力を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "なめらかな水平面上で A(3.0 kg) と B(2.0 kg) を糸でつなぐ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A を水平に 10 N で引く（B は A の後ろ）。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "加速度 a と糸の張力 T を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。2物体をつないだ問題は、順番が決まっています。まず全体をひとつの物体と見て、エフ イコール 質量の合計かける エー で加速度を出します。次に、張力を知りたいときだけ、片方の物体に注目して運動方程式を書きます。張力は内側の力なので、全体で見ると打ち消えて出てきません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "加速度は「全体」で出す：F = (m₁ + m₂)a",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "張力は「片方だけ」で出す：T = m₂a",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "内力（張力）は全体では消える",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず全体です。外から加わる力は10ニュートン、全体の質量は5.0キログラムなので、10イコール5.0かけるエー。加速度は毎秒毎秒2.0メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：全体で加速度を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "10 = (3.0 + 2.0)a より a = 2.0 m/s²",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "内力の張力は消える。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：全体で加速度を出す"
+    },
+    {
+      "narration": "次に張力です。後ろの物体Bに注目します。Bを水平に引いているのは糸だけなので、運動方程式はティー イコール Bの質量かける加速度になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：Bだけに注目する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "B に働く水平の力は T のみ：T = m_B a",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "Bを引いているのは糸だけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：Bだけに注目する"
+    },
+    {
+      "narration": "代入すると、2.0かける2.0で、張力は4.0ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：張力を計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 2.0 × 2.0 = 4.0 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "小さい方の質量で計算すると速い。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：張力を計算する"
+    },
+    {
+      "narration": "答えは、加速度が毎秒毎秒2.0メートル、張力が4.0ニュートンです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "a = 2.0 m/s²、T = 4.0 N",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "加速度→張力の順は固定。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。今度はAに注目して確かめます。Aには前向きに10ニュートン、後ろ向きに張力ティーが働くので、10ひくティー イコール 3.0かける2.0。ティーは4.0ニュートン。Bで出した答えと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A の式：10 − T = 3.0 × 2.0",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T = 10 − 6.0 = 4.0 N",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "B で出した値と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、張力は引く力の10ニュートンではありません。後ろの物体を動かすのに必要な分だけになります。ふたつ目、質量の比が張力を決めます。後ろが軽いほど張力は小さくなり、極端に軽ければ糸はほとんど張りません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "張力 ≠ 引く力（T = 4.0 N < 10 N）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "T は後ろの物体の質量比で決まる",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。2物体は、全体で加速度、片方で張力。この順番だけです。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2物体は「全体で加速度、片方で張力」。この順番だけ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：なめらかな面で1.0 kgと4.0 kgを糸でつなぎ、1.0 kg側を15 Nで引くときの加速度と張力を求めよ。 → a = 3.0 m/s²、T = 4.0×3.0 = 12 N",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

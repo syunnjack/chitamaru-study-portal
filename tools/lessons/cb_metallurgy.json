@@ -1,0 +1,215 @@
+{
+  "title": "金属の製錬と電池の利用（還元で取り出す）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。酸化鉄3、160グラムを一酸化炭素で完全に還元したとき、得られる鉄の質量を求めてください。また、この反応で一酸化炭素がはたらいている役割も答えてください。鉄の原子量は56、酸素の原子量は16です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Fe₂O₃ 160 g を CO で完全に還元する。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Fe₂O₃ + 3CO → 2Fe + 3CO₂",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "得られる鉄の質量と、COの役割を答えよ（Fe = 56、O = 16）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。金属の製錬とは、鉱石の中の酸化物から酸素を取ること、つまり還元です。計算は今までと同じで、質量をモルに直し、係数比で相手のモルを出し、最後に質量に戻します。酸化鉄3が1モルあれば鉄は2モル。そして酸素を奪う側は自分が酸化されるので還元剤です。用語の向きを間違えないように、酸素を渡す側が酸化剤、奪う側が還元剤と確認します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "製錬＝酸化物から酸素を取る（還元）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "molに直して係数比で計算（Fe₂O₃ 1 mol → Fe 2 mol）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸素を奪う側が還元剤",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず酸化鉄3の式量です。56かける2たす16かける3で160。だから160グラムはちょうど1.0モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：式量とmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Fe₂O₃ = 160 なので 160/160 = 1.0 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ちょうど1 mol。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：式量とmol"
+    },
+    {
+      "narration": "反応式の係数から、酸化鉄3が1モルなら鉄は2モルできます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：係数比で鉄のmol",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Fe₂O₃ 1 mol → Fe 2 mol なので 2.0 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "係数比はmol比。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：係数比で鉄のmol"
+    },
+    {
+      "narration": "質量は、2.0モルかける原子量56で112グラムです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：質量に直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2.0 × 56 = 112 g",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "molに原子量をかける。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：質量に直す"
+    },
+    {
+      "narration": "一酸化炭素は酸化鉄から酸素を奪っているので還元剤です。自分自身は酸化されて二酸化炭素になります。答えは、鉄が112グラム、一酸化炭素は還元剤、です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：COの役割",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "酸素を奪う側なので還元剤（CO自身は酸化されてCO₂になる）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "自分は酸化される。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：COの役割"
+    },
+    {
+      "narration": "検算です。質量の差で確かめます。160グラムの酸化鉄3から112グラムの鉄が得られたので、失われたのは48グラム。これは酸素3モル分、16かける3の48グラムと一致します。質量保存の法則が成り立っています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "160 − 112 = 48 g が失われた酸素",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "O 3 mol = 16 × 3 = 48 g",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "質量保存と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、金属の取り出しにくさはイオン化傾向と対応します。金や銀はそのまま産出し、鉄や銅は還元で得られ、アルミニウムやナトリウムは溶融塩電解が必要です。ふたつ目、電池と電気分解は向きが逆です。電池は化学変化から電気を取り出し、電気分解は電気を使って化学変化を起こします。燃料電池は、水素と酸素から水ができる反応で電気を取り出す装置で、生成物が水だけという点が問われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "イオン化傾向が大きい金属は溶融塩電解が必要（Al・Na）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電池は化学→電気、電気分解は電気→化学（燃料電池の生成物は水）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。製錬は還元。モルから係数比、そして質量。酸素を奪う側が還元剤。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "製錬は還元。mol→係数比→質量。酸素を奪う側が還元剤。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：酸化銅(II) CuO 80 gを水素で完全に還元したときに得られる銅の質量を求めよ（Cu = 64、O = 16）。 → CuO = 80 → 1.0 mol → Cu 64 g",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

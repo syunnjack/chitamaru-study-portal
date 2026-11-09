@@ -1,0 +1,220 @@
+{
+  "title": "放射性崩壊と半減期（回数で数える）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。半減期8.0日の放射性核種があります。24日後に残っている原子核の割合を求めてください。また、はじめの16分の1になるのは何日後か求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半減期 8.0 日の放射性核種。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "24 日後に残る割合を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "また 1/16 になるのは",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "何日後か求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。半減期の問題は、指数関数の式を書く前に、半減期の何回分かを数えます。24日は8.0日の3回分。残る割合は、2分の1の3乗です。逆に、割合から日数を聞かれたら、16分の1は2分の1の4乗だから4回分、と読み替えます。式より回数です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "まず「半減期の何回分か」を数える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "残る割合 = (1/2)ⁿ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "逆問題は 1/2ⁿ から n を読む",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず回数を数えます。24日割る8.0日で、3回分です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：回数を数える",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n = 24 / 8.0 = 3 回",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "まず回数。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：回数を数える"
+    },
+    {
+      "narration": "残る割合は、2分の1の3乗で8分の1。パーセントにすると12.5パーセントです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：残る割合",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1/2)³ = 1/8 = 0.125",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "12.5 %。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：残る割合"
+    },
+    {
+      "narration": "次に逆の問題です。16分の1は2分の1の4乗なので、4回分と読めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：逆問題の指数",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1/16 = (1/2)⁴ → n = 4",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "指数を読むだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：逆問題の指数"
+    },
+    {
+      "narration": "回数に半減期をかけて、8.0かける4で32日後です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：日数に戻す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "8.0 × 4 = 32 日後",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "回数×半減期。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：日数に戻す"
+    },
+    {
+      "narration": "検算です。8日で2分の1、16日で4分の1、24日で8分の1、32日で16分の1。順番に半分にしていくと、答えと一致します。表にして数えると、指数の計算ミスが消えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "8日:1/2　16日:1/4",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "24日:1/8　32日:1/16",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "表で数えて確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。まず、半減期は原子核ごとに決まった値で、温度や圧力を変えても変わりません。それから、崩壊するのは確率的な現象なので、半減期の2倍待ってもゼロにはなりません。何回半分にしてもゼロにならない、というのがこの型の本質です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半減期は温度や圧力で変わらない",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半分を繰り返してもゼロにはならない",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。半減期は式より回数。エヌ イコール 時間 割る 半減期、残る割合は 2分の1 の エヌ乗。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半減期は式より回数。n = 時間 ÷ 半減期、残る割合は (1/2)ⁿ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：半減期5.0日の核種が20日後に残る割合を求めよ。 → n = 4 なので (1/2)⁴ = 1/16",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

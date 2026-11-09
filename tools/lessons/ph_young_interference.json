@@ -1,0 +1,220 @@
+{
+  "title": "ヤングの実験（明線の間隔）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。間隔0.20ミリメートルの2つのスリットに、波長6.0かける10のマイナス7乗メートルの光を当て、1.5メートル離れたスクリーンに干渉じまを作ります。隣り合う明線の間隔を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "スリット間隔 0.20 mm、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "波長 6.0 × 10⁻⁷ m、",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "スクリーンまで 1.5 m。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "明線の間隔 Δx を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。ヤングの実験は デルタ エックス イコール エル ラムダ 割る ディー の1本で終わります。ただし失点の原因はほぼ単位です。ミリメートルやナノメートルをすべてメートルに直してから代入します。答えはミリメートルに戻すと、実験の感覚に合います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Δx = Lλ / d の1本",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "単位はすべて m に直してから代入",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "答えは mm で示すと現実的",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず単位をそろえます。0.20ミリメートルは、2.0かける10のマイナス4乗メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：単位をそろえる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d = 0.20 mm = 2.0 × 10⁻⁴ m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "λ = 6.0 × 10⁻⁷ m はそのまま。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：単位をそろえる"
+    },
+    {
+      "narration": "式に代入します。デルタ エックス イコール 1.5 かける 6.0かける10のマイナス7乗、割る 2.0かける10のマイナス4乗です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：式に代入する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Δx = 1.5 × 6.0 × 10⁻⁷ / (2.0 × 10⁻⁴)",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "分子から先に計算。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：式に代入する"
+    },
+    {
+      "narration": "分子は9.0かける10のマイナス7乗。これを2.0かける10のマイナス4乗で割ると、4.5かける10のマイナス3乗メートルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "= 9.0 × 10⁻⁷ / (2.0 × 10⁻⁴) = 4.5 × 10⁻³ m",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "指数は引き算。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：計算する"
+    },
+    {
+      "narration": "答えは4.5かける10のマイナス3乗メートル、つまり4.5ミリメートルです。目で見える幅なので妥当です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Δx = 4.5 × 10⁻³ m = 4.5 mm",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "数mmなら妥当。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。デルタ エックス は 波長に比例し、スリット間隔に反比例します。もし波長を半分の3.0かける10のマイナス7乗にすれば、間隔も半分の2.25ミリメートルになるはずです。比例関係で確かめると、桁のミスがすぐ見つかります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Δx ∝ λ、Δx ∝ 1/d",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "λ 半分 → Δx 半分（2.25 mm）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比例で桁を確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。まず、スリット間隔を広げると明線の間隔は狭くなります。広げるほど広がる、と勘違いしやすいところです。それから、水中で同じ実験をすると波長が1割る エヌ になるので、明線の間隔も狭くなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "d を広げると Δx は狭くなる（反比例）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "水中では λ が 1/n 倍 → Δx も 1/n 倍",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ヤングの実験は デルタ エックス イコール エル ラムダ 割る ディー。代入前にすべてメートルに直す。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ヤングは Δx = Lλ/d。代入前にすべて m に直す。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ装置で波長4.5 × 10⁻⁷ mの光に変えたときの明線の間隔を求めよ。 → Δx = 1.5 × 4.5 × 10⁻⁷ / 2.0 × 10⁻⁴ = 3.4 × 10⁻³ m",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

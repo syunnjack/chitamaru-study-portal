@@ -3,128 +3,371 @@
   "subtitle": "高校受験数学 ／ 円と軌跡 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
   "figure": {
     "points": {
-      "A": [-2, 0],
-      "O": [0, 0],
-      "B": [2, 0],
-      "C": [6, 0],
-      "M": [3, 0],
-      "P": [0, 2],
-      "Q": [3, 1]
+      "A": [
+        -3,
+        0
+      ],
+      "O": [
+        0,
+        0
+      ],
+      "B": [
+        3,
+        0
+      ],
+      "C": [
+        9,
+        0
+      ],
+      "M": [
+        4.5,
+        0
+      ],
+      "P": [
+        0,
+        3
+      ],
+      "Q": [
+        4.5,
+        1.5
+      ]
     },
     "circles": [
-      {"center": "O", "through": "A"},
-      {"center": "M", "through": "Q"}
+      {
+        "center": "O",
+        "through": "A"
+      },
+      {
+        "center": "M",
+        "through": "Q"
+      }
     ],
-    "segments": [["A", "C"], ["P", "C"], ["B", "P"], ["B", "Q"]],
+    "segments": [
+      [
+        "A",
+        "C"
+      ],
+      [
+        "P",
+        "C"
+      ],
+      [
+        "B",
+        "P"
+      ],
+      [
+        "B",
+        "Q"
+      ]
+    ],
     "lengths": [
-      {"between": ["A", "B"], "text": "4", "dx": 0, "dy": -34},
-      {"between": ["B", "C"], "text": "4", "dx": 0, "dy": 48}
+      {
+        "between": [
+          "A",
+          "B"
+        ],
+        "text": "6",
+        "dx": 0,
+        "dy": -34
+      },
+      {
+        "between": [
+          "B",
+          "C"
+        ],
+        "text": "6",
+        "dx": 0,
+        "dy": 48
+      }
     ],
     "labels": [
-      {"at": "A", "text": "A", "dx": -34, "dy": -10},
-      {"at": "O", "text": "O", "dx": -12, "dy": 8},
-      {"at": "B", "text": "B", "dx": -30, "dy": 6},
-      {"at": "C", "text": "C", "dx": 10, "dy": -6},
-      {"at": "P", "text": "P", "dx": -12, "dy": -42},
-      {"at": "Q", "text": "Q", "dx": 8, "dy": -34},
-      {"at": "M", "text": "M", "dx": -6, "dy": 10}
+      {
+        "at": "A",
+        "text": "A",
+        "dx": -34,
+        "dy": -10
+      },
+      {
+        "at": "O",
+        "text": "O",
+        "dx": -12,
+        "dy": 8
+      },
+      {
+        "at": "B",
+        "text": "B",
+        "dx": -30,
+        "dy": 6
+      },
+      {
+        "at": "C",
+        "text": "C",
+        "dx": 10,
+        "dy": -6
+      },
+      {
+        "at": "P",
+        "text": "P",
+        "dx": -12,
+        "dy": -42
+      },
+      {
+        "at": "Q",
+        "text": "Q",
+        "dx": 8,
+        "dy": -34
+      },
+      {
+        "at": "M",
+        "text": "M",
+        "dx": -6,
+        "dy": 10
+      }
     ]
   },
   "scenes": [
     {
-      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題。点シーは、直径エービーの延長線上に、エービー イコール ビーシー となるようにとった点です。点ピーは円オーの周上を動く点。ピーシーの中点をキューとします。1、点キューが動いてできる線の長さを求めなさい。2、三角形ビーピーキューの面積が最大となるときの面積を求めなさい。エービーは4センチとします。",
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題。点シーは、直径エービーの延長線上に、エービー イコール ビーシー となるようにとった点です。点ピーは円オーの周上を動く点。ピーシーの中点をキューとします。1、点キューが動いてできる線の長さを求めなさい。2、三角形ビーピーキューの面積が最大となるときの面積を求めなさい。エービーは6センチとします。",
       "lines": [
-        {"style": "head", "text": "今日の問題", "active": true},
-        {"style": "formula", "text": "AB = BC = 4（C は AB の延長上）", "active": true},
-        {"style": "formula", "text": "Q は PC の中点、P は円Oの周上を動く", "active": true},
-        {"style": "note", "text": "(1) Q の動いてできる線の長さ　(2) △BPQ の最大", "active": true}
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "AB = BC = 6（C は AB の延長上）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q は PC の中点、P は円Oの周上を動く",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "(1) Q の動いてできる線の長さ　(2) △BPQ の最大",
+          "active": true
+        }
       ],
       "caption": "今日の問題：Q は PC の中点。線の長さと △BPQ の最大"
     },
     {
       "narration": "型はこれです。動く点の中点は、もとの図形を、固定点を中心に 2分の1 に縮めた形になる。ですから、ピーが円をまわるなら、キューも円をまわります。半径が 2分の1、これだけです。もう一つの型。中点を含む三角形の面積は、中点でないほうの大きい三角形を作って、その半分にする。",
       "lines": [
-        {"style": "head", "text": "解法の型（2つ）", "active": true},
-        {"style": "formula", "text": "中点の軌跡 → 半径が 1/2 の円", "active": true},
-        {"style": "formula", "text": "中点で切る → 面積は 1/2", "active": true},
-        {"style": "note", "text": "「動く点は座標でおく」が最短。C を原点にせず O を原点に。", "active": true}
+        {
+          "style": "head",
+          "text": "解法の型（2つ）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中点の軌跡 → 半径が 1/2 の円",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中点で切る → 面積は 1/2",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「動く点は座標でおく」が最短。C を原点にせず O を原点に。",
+          "active": true
+        }
       ],
       "caption": "型：中点の軌跡は半径1/2の円／中点で面積は半分"
     },
     {
-      "narration": "手順1。座標をおきます。円オーの中心を原点にして、エー は マイナス2 ゼロ、ビー は 2 ゼロ。ビーシー も 4 ですから、シー は 6 ゼロ。円の半径は 2 です。",
+      "narration": "手順1。座標をおきます。円オーの中心を原点にして、エー は マイナス3 ゼロ、ビー は 3 ゼロ。ビーシー も 6 ですから、シー は 9 ゼロ。円の半径は 3 です。",
       "lines": [
-        {"style": "head", "text": "手順1：座標をおく", "active": true},
-        {"style": "formula", "text": "A(−2, 0)、B(2, 0)、C(6, 0)", "active": true},
-        {"style": "formula", "text": "円O：中心 (0, 0)、半径 2", "active": true}
+        {
+          "style": "head",
+          "text": "手順1：座標をおく",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "A(−3, 0)、B(3, 0)、C(9, 0)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "円O：中心 (0, 0)、半径 3",
+          "active": true
+        }
       ],
-      "caption": "手順1：A(−2,0)、B(2,0)、C(6,0)、半径2"
+      "caption": "手順1：A(−3,0)、B(3,0)、C(9,0)、半径3"
     },
     {
-      "narration": "手順2。ピー を エックス、ワイ とおくと、キュー は ピーシー の中点ですから、エックス 足す 6 を 2で割った値 と、ワイ を 2で割った値。ここで、原点オー と シー の中点、つまり 3 ゼロ を エム とおくと、キュー から エム までの距離は、いつも 1 になります。",
+      "narration": "手順2。ピー を エックス、ワイ とおくと、キュー は ピーシー の中点ですから、エックス 足す 9 を 2で割った値 と、ワイ を 2で割った値。ここで、原点オー と シー の中点、つまり 4.5 ゼロ を エム とおくと、キュー から エム までの距離は、いつも 1.5 になります。",
       "lines": [
-        {"style": "head", "text": "手順2：Q を式で書く", "active": true},
-        {"style": "formula", "text": "P(x, y) のとき Q( (x+6)/2 , y/2 )", "active": true},
-        {"style": "formula", "text": "M(3, 0)（OC の中点）とすると MQ = (1/2)OP = 1", "active": true},
-        {"style": "note", "text": "OP = 2（半径）はいつも一定 → MQ も一定。", "active": true}
+        {
+          "style": "head",
+          "text": "手順2：Q を式で書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P(x, y) のとき Q( (x+9)/2 , y/2 )",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "M(4.5, 0)（OC の中点）とすると MQ = (1/2)OP = 1.5",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "OP = 3（半径）はいつも一定 → MQ も一定。",
+          "active": true
+        }
       ],
-      "caption": "手順2：MQ = (1/2)OP = 1（M は OC の中点）"
+      "caption": "手順2：MQ = (1/2)OP = 1.5（M は OC の中点）"
     },
     {
-      "narration": "つまり、キュー は、エム 3 ゼロ を中心とする 半径 1 の円をまわります。ですから、キューが動いてできる線の長さは、円周の長さで、2 かける パイ かける 1、すなわち 2パイ センチメートル。これが1番の答えです。",
+      "narration": "つまり、キュー は、エム 4.5 ゼロ を中心とする 半径 1.5 の円をまわります。ですから、キューが動いてできる線の長さは、円周の長さで、2 かける パイ かける 1.5、すなわち 3パイ センチメートル。これが1番の答えです。",
       "lines": [
-        {"style": "head", "text": "(1) の答え", "active": true},
-        {"style": "formula", "text": "Q の軌跡：中心 M(3, 0)、半径 1 の円", "active": true},
-        {"style": "formula", "text": "長さ = 2π × 1 = 2π (cm)", "active": true}
+        {
+          "style": "head",
+          "text": "(1) の答え",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q の軌跡：中心 M(4.5, 0)、半径 1.5 の円",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "長さ = 2π × 1.5 = 3π (cm)",
+          "active": true
+        }
       ],
-      "caption": "(1) の答え：2π cm（半径1の円周）"
+      "caption": "(1) の答え：3π cm（半径1.5の円周）"
     },
     {
       "narration": "2番です。三角形ビーピーキュー を、じっと見ます。キュー は ピーシー の中点ですから、三角形ビーピーシー を キュー で2つに分けたうちの半分です。ですから、まず 三角形ビーピーシー の面積を考えます。",
       "lines": [
-        {"style": "head", "text": "(2) 手順1：大きい三角形に直す", "active": true},
-        {"style": "formula", "text": "Q は PC の中点 → PQ = QC", "active": true},
-        {"style": "formula", "text": "△BPQ = (1/2)△BPC", "active": true},
-        {"style": "note", "text": "底辺が半分、高さは共通。だから面積も半分。", "active": true}
+        {
+          "style": "head",
+          "text": "(2) 手順1：大きい三角形に直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q は PC の中点 → PQ = QC",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△BPQ = (1/2)△BPC",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "底辺が半分、高さは共通。だから面積も半分。",
+          "active": true
+        }
       ],
       "caption": "(2) 手順1：△BPQ = (1/2)△BPC"
     },
     {
-      "narration": "三角形ビーピーシー の底辺を ビーシー とすると、ビーシー は 4 で固定。高さは、ピー から 直線エービーシー までの距離です。ピー は半径2の円の上ですから、この距離は 最大で 2。ピー が円のいちばん上、または いちばん下にきたときです。",
+      "narration": "三角形ビーピーシー の底辺を ビーシー とすると、ビーシー は 6 で固定。高さは、ピー から 直線エービーシー までの距離です。ピー は半径3の円の上ですから、この距離は 最大で 3。ピー が円のいちばん上、または いちばん下にきたときです。",
       "lines": [
-        {"style": "head", "text": "(2) 手順2：底辺と高さを分ける", "active": true},
-        {"style": "formula", "text": "底辺 BC = 4（固定）", "active": true},
-        {"style": "formula", "text": "高さ = P と直線ABの距離 ≦ 2（半径）", "active": true},
-        {"style": "note", "text": "動く量は高さだけ。最大は P が円の上端（下端）。", "active": true}
+        {
+          "style": "head",
+          "text": "(2) 手順2：底辺と高さを分ける",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "底辺 BC = 6（固定）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "高さ = P と直線ABの距離 ≦ 3（半径）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動く量は高さだけ。最大は P が円の上端（下端）。",
+          "active": true
+        }
       ],
-      "caption": "(2) 手順2：BC=4 固定、高さは最大2"
+      "caption": "(2) 手順2：BC=6 固定、高さは最大3"
     },
     {
-      "narration": "ですから、三角形ビーピーシー の最大は、2分の1 かける 4 かける 2 で 4。三角形ビーピーキュー は その半分ですから、答えは 2 平方センチメートル。",
+      "narration": "ですから、三角形ビーピーシー の最大は、2分の1 かける 6 かける 3 で 9。三角形ビーピーキュー は その半分ですから、答えは 2分の9、つまり 4.5 平方センチメートル。",
       "lines": [
-        {"style": "head", "text": "(2) の答え", "active": true},
-        {"style": "formula", "text": "△BPC の最大 = (1/2) × 4 × 2 = 4", "active": true},
-        {"style": "formula", "text": "△BPQ = (1/2) × 4 = 2 (cm²)", "active": true}
+        {
+          "style": "head",
+          "text": "(2) の答え",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△BPC の最大 = (1/2) × 6 × 3 = 9",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△BPQ = (1/2) × 9 = 9/2 (cm²)",
+          "active": true
+        }
       ],
-      "caption": "(2) の答え：2 cm²"
+      "caption": "(2) の答え：9/2 cm²"
     },
     {
-      "narration": "検算です。ピー を 0 2 にとると、キュー は 3 1。三角形ビーピーキュー の頂点は、ビー 2 0、ピー 0 2、キュー 3 1。座標で面積を出すと、ちょうど 2 になります。図でも、ビーピー と ビーキュー にはさまれた細い三角形で、大きさの感じも合っています。",
+      "narration": "検算です。ピー を 0 3 にとると、キュー は 4.5 1.5。三角形ビーピーキュー の頂点は、ビー 3 0、ピー 0 3、キュー 4.5 1.5。座標で面積を出すと、ちょうど 2分の9 になります。図でも、ビーピー と ビーキュー にはさまれた細い三角形で、大きさの感じも合っています。",
       "lines": [
-        {"style": "head", "text": "検算：座標で確かめる", "active": true},
-        {"style": "formula", "text": "P(0, 2) のとき Q(3, 1)", "active": true},
-        {"style": "formula", "text": "△BPQ = (1/2)|(−2)(1) − (2)(1)| = 2　○", "active": true},
-        {"style": "note", "text": "B(2,0) を原点に移して P→(−2,2)、Q→(1,1) で計算。", "active": true}
+        {
+          "style": "head",
+          "text": "検算：座標で確かめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "P(0, 3) のとき Q(4.5, 1.5)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "△BPQ = (1/2)|(−3)(1.5) − (3)(1.5)| = 9/2　○",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "B(3,0) を原点に移して P→(−3,3)、Q→(1.5,1.5) で計算。",
+          "active": true
+        }
       ],
-      "caption": "検算：P(0,2)、Q(3,1) で △BPQ = 2"
+      "caption": "検算：P(0,3)、Q(4.5,1.5) で △BPQ = 9/2"
     },
     {
       "narration": "在庫に入れる1行です。中点が動く問題は、固定点から見て 2分の1 に縮む。面積の最大は、固定される底辺と、動く高さに分ける。この2つだけで、入試の軌跡と最大の問題はほとんど処理できます。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
       "lines": [
-        {"style": "head", "text": "在庫に入れる1行", "active": true},
-        {"style": "formula", "text": "中点の軌跡 → 半径 1/2 の円", "active": true},
-        {"style": "formula", "text": "面積の最大 → 固定の底辺 × 動く高さ", "active": true},
-        {"style": "note", "text": "類題：PAの中点Rの軌跡は？（中心 (−1,0)、半径1の円 → 長さ 2π）", "active": true}
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "中点の軌跡 → 半径 1/2 の円",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "面積の最大 → 固定の底辺 × 動く高さ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：PAの中点Rの軌跡は？（中心 (−1.5,0)、半径1.5の円 → 長さ 3π）",
+          "active": true
+        }
       ],
       "caption": "在庫に入れる1行：中点は1/2に縮む／最大は底辺と高さに分ける"
     }

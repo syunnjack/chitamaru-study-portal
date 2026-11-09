@@ -1,0 +1,215 @@
+{
+  "title": "図表つき長文（数値を先に押さえる）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。表を読んで問いに答えます。ある中学校の3年生100人に1日の学習時間を聞いた結果です。30分未満が12人、30分から1時間が25人、1時間から2時間が38人、2時間以上が25人。問いは、ウィッチ イズ トゥルー、どれが正しいか。選択肢は、ア、モア ザン ハーフ オブ ザ スチューデンツ スタディ フォー レス ザン ワン アワー。イ、ザ ラージェスト グループ スタディズ フォー ワン トゥ トゥー アワーズ。ウ、ノー ワン スタディズ フォー モア ザン トゥー アワーズ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "30分未満 12人／30分〜1時間 25人",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1時間〜2時間 38人／2時間以上 25人",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Which is true?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。図表問題は、選択肢を読む前に表の数値を押さえます。最大はどこか、最小はどこか、合計はいくつか。次に選択肢の数量表現を見ます。モア ザン ハーフは半分より多い、ザ ラージェストは最大、ノー ワンは誰もいない。これらは必ず計算で確認します。印象で選ぶと必ず外します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "先に表の数値を押さえる（最大・最小・合計）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選択肢の数量表現に注目：more than half / the largest / no one",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "計算して確かめる。印象で選ばない",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず数値です。合計は100人。最大は1時間から2時間の38人。最小は30分未満の12人です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：数値を整理する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "12 + 25 + 38 + 25 = 100、最大は 38（1〜2時間）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "合計と最大。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：数値を整理する"
+    },
+    {
+      "narration": "アを見ます。1時間未満は12たす25で37人。半分の50より少ないので、モア ザン ハーフは誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：アを検証する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1時間未満は 12 + 25 = 37 人 → 半分より少ない → 誤り",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "計算する。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：アを検証する"
+    },
+    {
+      "narration": "ウを見ます。2時間以上が25人います。ノー ワン、誰もいないは明らかに誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：ウを検証する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2時間以上が 25 人いる → 誤り",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "no one に反する。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：ウを検証する"
+    },
+    {
+      "narration": "イを見ます。38人が最大なので、最も多いグループは1時間から2時間。これが正しい。答えはイです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：イを確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "38 人が最大 → 正しい。答えはイ",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "最大の確認。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：イを確認する"
+    },
+    {
+      "narration": "検算です。合計が表の総数と一致するかを確かめます。12たす25たす38たす25は100。100人と一致します。合計が合わないときは読み取りミスなので、必ず足して確認します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "各項目の合計が総数と一致するか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "12+25+38+25 = 100",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "合わなければ読み取りミス",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、区間の境界です。30分から1時間という区分に、ちょうど1時間の人が入るのかどうか。表の書き方を確認しないと、1人分ずれます。ふたつ目、数量表現をまとめて覚えることです。トゥワイス アズ メニー アズは何々の2倍、ワン サードは3分の1、ザ セカンド ラージェストは2番目に多い。これらは図表問題で必ず出ます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "区間の境界（ちょうど1時間はどちらか）を確認する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "twice as many as / one third / the second largest を覚える",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。図表は数値を先に押さえる。数量表現は必ず計算で確認する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "図表は数値を先に押さえる。数量表現は計算で確認する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「〜の2倍の数の」を表す英語表現を答えよ。 → twice as many as ...",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "title": "仮定法と重要構文（形で覚える）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の文を英語にします。1、もし時間があれば、その映画を見るのに。2、彼はとても疲れていたので、すぐに眠ってしまった。3、この問題は難しすぎて私には解けない。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) もし時間があれば、その映画を見るのに。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 彼はとても疲れていたので、すぐに眠ってしまった。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) この問題は難しすぎて私には解けない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。この3つは形で覚えるものです。仮定法過去は、イフ たす 主語 たす 過去形、カンマ、主語 たす ウッド たす 原形。現在の事実に反することを言うので過去形を使います。ソー 形容詞 ザットは、とても何々なので。トゥー 形容詞 トゥは、何々すぎて できない。この3つの形を口で言えるようにしておけば、書けます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "仮定法過去：If + 主語 + 過去形, 主語 + would + 原形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "so ... that ...（とても〜なので）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "too ... to ...（〜すぎて…できない）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。イフ アイ ハッド タイム、アイ ウッド ウォッチ ザ ムービー。今は時間がないという事実に反する話なので、過去形ハッドとウッドを使います。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 仮定法で書く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If I had time, I would watch the movie.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "had と would。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 仮定法で書く"
+    },
+    {
+      "narration": "仮定法でビー動詞を使うときは、主語がアイでもウェアを使うのが原則です。イフ アイ ウェア ユー、もし私があなたなら。決まり文句として覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) be動詞の注意",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If I were you, I would ...（were を使う）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "were が原則。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) be動詞の注意"
+    },
+    {
+      "narration": "2です。ヒー ワズ ソー タイアード ザット ヒー フェル アスリープ アット ワンス。ソーのうしろは形容詞、ザットのうしろは結果の文です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) so ... that",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "He was so tired that he fell asleep at once.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "形をそのまま。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) so ... that"
+    },
+    {
+      "narration": "3です。ジス クエスチョン イズ トゥー ディフィカルト フォー ミー トゥ ソルブ。できない、という意味ですがノットは使いません。ここが最大の注意点です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(3) too ... to",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This question is too difficult for me to solve.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "not を使わない。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(3) too ... to"
+    },
+    {
+      "narration": "検算です。トゥー 形容詞 トゥの文は、ソー 形容詞 ザット カントに書きかえられます。ジス クエスチョン イズ ソー ディフィカルト ザット アイ キャント ソルブ イット。両方書けるかで理解を確認します。書きかえたときにイットが必要になる、ここもよく問われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "too ... to は so ... that ... can't に書きかえられる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "書きかえると目的語 it が必要になる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "両方書けるかで確認",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、アイ ウィッシュです。アイ ウィッシュ アイ クッド フライ。何々できればいいのに、という願望も仮定法で、過去形を使います。ふたつ目、イナフ トゥです。ヒー イズ オールド イナフ トゥ ドライブ。十分に何々なので できる、という肯定の形。トゥー トゥの反対として覚えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "I wish + 過去形（〜できればいいのに）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "enough to（十分〜なので…できる）は too ... to の反対",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。イフたす過去形、ウッドたす原形。ソー ザットとトゥー トゥ。トゥー トゥにノットは使わない。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "If＋過去形, would＋原形。so...that、too...to（notは使わない）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「もしお金があれば、車を買うのに」を英語にせよ。 → If I had money, I would buy a car.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

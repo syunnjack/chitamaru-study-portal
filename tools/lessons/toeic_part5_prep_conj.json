@@ -1,0 +1,220 @@
+{
+  "title": "Part5 前置詞と接続詞（後ろの形で決める）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part5の問題です。空所、ザ ヘビー レイン ラスト ナイト、オール モーニング デリバリーズ アライブド オン スケジュール。選択肢は、エー オールゾウ、ビー ディスパイト、シー ビコーズ、ディー ハウエバー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "------- the heavy rain last night,",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "all morning deliveries arrived",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "on schedule.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(A) Although (B) Despite (C) Because (D) However",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。空所の後ろが名詞だけなら前置詞。主語と動詞が続くなら接続詞。ハウエバー のような副詞は、2つの文をつなぐことはできません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが名詞 → 前置詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが 主語＋動詞 → 接続詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "副詞（however）は文をつなげない",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "空所の後ろは ザ ヘビー レイン ラスト ナイト。名詞のかたまりです。主語と動詞ではありません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：後ろの形を見る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the heavy rain last night → 名詞のかたまり",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "主語＋動詞ではない。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：後ろの形を見る"
+    },
+    {
+      "narration": "オールゾウ と ビコーズ は接続詞なので、後ろに主語と動詞が必要です。ここでは使えません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：接続詞を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Although / Because は接続詞 → 不可",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "後ろに文が必要。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：接続詞を消す"
+    },
+    {
+      "narration": "ハウエバー は副詞なので、名詞を伴って文の要素になることはできません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：副詞を消す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "However は副詞 → つなげない",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "コンマだけでは文をつなげない。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：副詞を消す"
+    },
+    {
+      "narration": "答えはビー、ディスパイト。大雨にもかかわらず、配達は時間どおりに届いた、という意味になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(B) Despite",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「〜にもかかわらず」＋名詞",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを選ぶ"
+    },
+    {
+      "narration": "検算です。もし後ろが イット レインド ヘビリー のように主語と動詞なら、答えは オールゾウ になります。後ろの形を変えると答えも変わる、という関係を確認しておけば、この型は忘れません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが名詞 → Despite",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが S+V → Although",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "形と答えが対応する",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ビコーズ オブ と デュー トゥー は前置詞のはたらきをします。それから、デュアリング は前置詞で、ホワイル は接続詞です。この2組は必ず狙われます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "because of / due to は前置詞",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "during（前置詞）と while（接続詞）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。後ろが名詞なら前置詞、主語プラス動詞なら接続詞。ハウエバー は文をつなげない。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "後ろが名詞なら前置詞、主語＋動詞なら接続詞。however は文をつなげない。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：( During / While ) the presentation, please turn off your phones. を選べ。 → During（後ろが名詞）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

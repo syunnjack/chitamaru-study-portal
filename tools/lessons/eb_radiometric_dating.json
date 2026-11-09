@@ -1,0 +1,215 @@
+{
+  "title": "放射性同位体と年代測定（半分になる回数を数える）",
+  "subtitle": "地学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。半減期が7000万年の放射性同位体について、岩石の中に残っている量が最初の8分の1になっていました。この岩石ができてからの年数を求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "半減期は 7000 万年。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "残っている量が最初の 1/8 になっている。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "岩石ができてからの年数を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。半減期の問題は、割り算ではなく回数を数える問題です。残っている割合は、2分の1のえぬ乗。えぬは半減期が何回過ぎたかという回数です。だから8分の1なら、2分の1の3乗なのでえぬは3。あとは半減期に3をかけるだけで終わります。指数で考えると迷いません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "残る割合 = (1/2)^n（n は経過した半減期の回数）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1/8 = (1/2)^3 → n = 3",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "年数 = 半減期 × n",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず残っている割合を指数の形にします。8分の1は、2分の1の3乗です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：割合を指数にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1/8 = (1/2)^3",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "半分が3回。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：割合を指数にする"
+    },
+    {
+      "narration": "つまり半減期が3回過ぎたことになります。えぬは3です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：回数を読む",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n = 3（半減期が3回過ぎた）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "回数を数えるだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：回数を読む"
+    },
+    {
+      "narration": "年数は、7000万年かける3で、2億1000万年です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：年数を計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "7000万年 × 3 = 2億1000万年",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "掛けるだけ。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：年数を計算する"
+    },
+    {
+      "narration": "答えは2億1000万年、指数で書けば2.1かける10の8乗年です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "約 2.1 × 10^8 年（2億1000万年）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "桁も確認。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。順に追います。最初が1として、7000万年後に2分の1、1億4000万年後に4分の1、2億1000万年後に8分の1。問題の条件と一致します。表を3行書くだけで確かめられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "7000万年 → 1/2",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1億4000万年 → 1/4",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "2億1000万年 → 1/8で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、減った割合とまちがえないことです。8分の7が減ったと書かれていても、残っているのは8分の1なので、えぬは3のままです。読み替えを1行はさみます。ふたつ目、測定に使う同位体は年代で使い分けます。数万年以内の遺物なら炭素14、数億年以上の岩石ならウランやカリウムの同位体です。半減期の長さで選びます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「減った割合」は残りに直してから指数にする",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "炭素14は数万年、ウラン・カリウムは数億年以上",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。残る割合は2分の1のえぬ乗。年数は半減期かけるえぬ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "残る割合 = (1/2)^n。年数は半減期 × n。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：半減期5000年の同位体が最初の1/4になった。経過年数を求めよ。 → (1/2)^2 より n = 2、5000 × 2 = 10000年",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

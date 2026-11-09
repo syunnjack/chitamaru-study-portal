@@ -1,0 +1,220 @@
+{
+  "title": "ドップラー効果（音源が近づく場合）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。振動数800ヘルツの音を出す音源が、静止している観測者に向かって毎秒20メートルで近づいています。観測される音の振動数を求めてください。音速は毎秒340メートルとします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "振動数 800 Hz の音源が",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "静止した観測者に 20 m/s で近づく。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "観測される振動数を求めよ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "（音速 340 m/s）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。ドップラー効果は、分子に観測者、分母に音源、と場所を固定して1本の式で書きます。符号で迷わないために、観測者へ向かう向きを正、と自分のルールを決めておきます。そして最後に、近づいているなら高くなるはず、という常識で必ず検算します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f' = f × (V − v観) / (V − v源)",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "符号は「観測者へ向かう向きを正」に固定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最後に「高くなったか」で検算",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず式に値を入れます。観測者は静止しているので分子は340のまま、音源が近づくので分母は340引く20です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：値を式に入れる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f' = 800 × (340 − 0) / (340 − 20)",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "観測者は静止なので分子はV。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：値を式に入れる"
+    },
+    {
+      "narration": "分母は340引く20で320です。近づくと分母が小さくなり、振動数は大きくなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：分母を計算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "340 − 20 = 320",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "近づくと分母が小さくなる。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：分母を計算"
+    },
+    {
+      "narration": "800かける340割る320を計算します。800割る320は2.5なので、2.5かける340で850ヘルツです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：約分して求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f' = 800 × 340 / 320 = 850 Hz",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "800 / 320 = 2.5 を先に。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：約分して求める"
+    },
+    {
+      "narration": "答えは850ヘルツで、もとの800ヘルツより50ヘルツ高く聞こえます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えをまとめる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "f' = 850 Hz（もとより高い）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "50 Hz 高くなった。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えをまとめる"
+    },
+    {
+      "narration": "検算です。近づいているので、答えはもとの800ヘルツより高くならなければおかしいです。850ヘルツで高くなっているのでオーケーです。もし分母と分子を逆にしていれば、およそ753ヘルツと低くなるので、その場で気づけます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "近づく → 高くなるはず",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "850 > 800 なのでOK",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "逆なら 753 Hz と低くなる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。まず、音源が動いても音速は変わりません。変わるのは波長で、前方では詰まり後方では伸びます。それから、音源が動いている場合と、風が吹いている場合はまったく別扱いです。風のときは音速そのものに風速を足し引きします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "音源が動いても音速 V は不変（λ が変わる）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "風のときは V に風速を足し引きする",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ドップラー効果は、エフプライム イコール エフ かける、ブイ引く観測者速度、割る、ブイ引く音源速度。最後に高いか低いかで検算する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ドップラーは f' = f(V − v観)/(V − v源)。最後に「高い／低い」で検算する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ音源が観測者から20 m/sで遠ざかるとき、観測される振動数を求めよ。 → f' = 800 × 340 / 360 ≒ 756 Hz",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

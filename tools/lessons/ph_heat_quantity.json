@@ -1,0 +1,220 @@
+{
+  "title": "熱量の計算（比熱と電力）",
+  "subtitle": "高校物理 ／ 力学・熱・電磁気の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。20度の水200グラムを、60度まで温めます。必要な熱量と、500ワットの電熱器で熱がすべて水に伝わる場合の時間を求めてください。水の比熱は、1グラム1ケルビンあたり4.2ジュールとします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "20℃ の水 200 g を 60℃ にする。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "必要な熱量 Q と、500 W の電熱器で",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "かかる時間 t を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "（比熱 4.2 J/(g·K)）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。必要な熱量は 質量かける比熱かける温度変化。電熱器が与えるエネルギーは 電力かける時間。この2つを等号で結べば時間が出ます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q = mcΔT",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "電力の仕事は W = Pt",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Pt = mcΔT で時間が出る",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "温度変化は60ひく20で40。差なので、ケルビンでもセ氏でも同じ値です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：温度変化を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ΔT = 60 − 20 = 40 K",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "差なので単位はKでもよい。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：温度変化を出す"
+    },
+    {
+      "narration": "熱量は 200かける4.2かける40で、33600ジュール。およそ3.4かける10の4乗ジュールです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：熱量を計算する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q = 200 × 4.2 × 40 = 33600 J",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "= 3.4 × 10⁴ J",
+          "active": true
+        }
+      ],
+      "caption": "手順2：熱量を計算する"
+    },
+    {
+      "narration": "電熱器は毎秒500ジュールを与えます。したがって500かける ティー イコール 33600 です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：時間の式を立てる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "500 × t = 33600",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "500 W = 500 J/s",
+          "active": true
+        }
+      ],
+      "caption": "手順3：時間の式を立てる"
+    },
+    {
+      "narration": "ティー は67.2、およそ67秒です。答えは、熱量がおよそ3.4かける10の4乗ジュール、時間がおよそ67秒です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：時間を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "t = 67.2 ≒ 67 s",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "答え：Q ≒ 3.4 × 10⁴ J、t ≒ 67 s",
+          "active": true
+        }
+      ],
+      "caption": "手順4：時間を求める"
+    },
+    {
+      "narration": "検算です。逆向きに確かめます。500ワットで67秒なら、33500ジュール。これを 200かける4.2 の840で割ると、およそ40ケルビン。求めた温度変化と一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "500 × 67 ≒ 33500 J",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "33500 / (200 × 4.2) ≒ 40 K",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ΔT と一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。比熱の単位が1キログラムあたりで与えられたときは、質量をキログラムにそろえます。それから、効率が100パーセントでない場合は、効率をかけた分だけが水に伝わります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比熱の単位で質量の単位をそろえる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "効率 η なら ηPt = mcΔT",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。キュー イコール エムシー デルタティー、電熱器は ピーティー イコール エムシーデルタティー。単位をそろえてから代入する。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q = mcΔT、電熱器は Pt = mcΔT。単位をそろえてから代入する。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ水200 gを20℃から100℃にするのに必要な熱量を求めよ。 → Q = 200 × 4.2 × 80 = 6.7 × 10⁴ J",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

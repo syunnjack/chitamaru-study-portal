@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>階差数列の一般項（2, 5, 10, 17, 26）｜高校数学 第67回</title>
+<meta name="description" content="階差数列は a₁ に階差の和を足すだけ。上端が n−1 になる理由、n = 1 の確認の書き方まで音声ナレーション付き解説動画で説明します。">
+<link rel="stylesheet" href="../../../assets/style.css">
+<!-- generated SEO metadata -->
+<link rel="canonical" href="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/difference-sequence.html">
+<meta property="og:title" content="階差数列の一般項（2, 5, 10, 17, 26）｜高校数学 第67回">
+<meta property="og:description" content="階差数列は a₁ に階差の和を足すだけ。上端が n−1 になる理由、n = 1 の確認の書き方まで音声ナレーション付き解説動画で説明します。">
+<meta property="og:url" content="https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/difference-sequence.html">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","name":"第67回 階差数列は「a₁ に階差の和を足す」","description":"階差数列は a₁ に階差の和を足すだけ。上端が n−1 になる理由、n = 1 の確認の書き方まで音声ナレーション付き解説動画で説明します。","url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/difference-sequence.html","inLanguage":"ja","isPartOf":{"@type":"WebSite","@id":"https://gyosei-yosou.jp/study-portal/","name":"知多丸式 学習ポータル","url":"https://gyosei-yosou.jp/study-portal/"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"知多丸式 学習ポータル","item":"https://gyosei-yosou.jp/study-portal/"},{"@type":"ListItem","position":2,"name":"高校数学","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/"},{"@type":"ListItem","position":3,"name":"第67回 階差数列は「a₁ に階差の和を足す」","item":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/difference-sequence.html"}]},{"@type":"LearningResource","name":"第67回 階差数列は「a₁ に階差の和を足す」","description":"階差数列は a₁ に階差の和を足すだけ。上端が n−1 になる理由、n = 1 の確認の書き方まで音声ナレーション付き解説動画で説明します。","learningResourceType":"解説レッスン","inLanguage":"ja","isAccessibleForFree":true,"url":"https://gyosei-yosou.jp/study-portal/subjects/math-hs/lessons/difference-sequence.html","isPartOf":{"@id":"https://gyosei-yosou.jp/study-portal/"}}]}</script>
+<!-- /generated SEO metadata -->
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="../../../index.html">知多丸式 挫折から学んだ効率的学習のすゝめ<small>要領で学ぶ、科目別学習ポータル</small></a>
+    <nav class="site">
+      <a href="../../../method.html">和田式メソッド</a>
+      <a href="../../../youtube.html">YouTube</a>
+      <a href="../../math-hs/index.html">高校数学</a>
+      <a href="../../../koritsu.html">高校入試</a>
+      <a href="../../math-jhs/index.html">中学数学</a>
+      <a href="../../english-hs/index.html">高校英語</a>
+      <a href="../../physics-hs/index.html">高校物理</a>
+      <a href="../../toeic/index.html">TOEIC</a>
+      <a href="../../../kyotsu.html">共通テスト</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap breadcrumb"><a href="../../../index.html">トップ</a> ／ <a href="../index.html">高校数学</a> ／ 第67回 階差数列</div>
+
+<main class="wrap">
+  <h1>第67回　階差数列は「a₁ に階差の和を足す」</h1>
+  <div class="formula">数列 2, 5, 10, 17, 26, … の一般項を求めよ。</div>
+  <p>等差でも等比でもない数列は、まず差を見ます（動画・音声解説つき）。</p>
+
+  <video controls preload="metadata" src="../../../videos/difference-sequence.mp4?v=2">
+    お使いのブラウザは動画再生に対応していません。<a href="../../../videos/difference-sequence.mp4?v=2">動画ファイルを直接開く</a>
+  </video>
+
+  <h2>解法の型</h2>
+  <div class="panel accent">
+    <p><strong>aₙ = a₁ + Σ(k = 1 から n − 1) bₖ　（n ≧ 2、bₖ は階差）</strong></p>
+    <p>上端が n − 1 になる理由：a₁ から aₙ に行くまでに階差を (n − 1) 回足すからです。</p>
+  </div>
+
+  <h2>解答手順</h2>
+  <ol class="steps">
+    <li><strong>階差を書く</strong><div class="formula">3, 5, 7, 9, … → bₖ = 2k + 1</div><p>階差が等差数列になっていれば、この型です。</p></li>
+    <li><strong>公式に入れる</strong><div class="formula">aₙ = 2 + Σ(k = 1 から n - 1)(2k + 1)</div><p>上端は n − 1。ここを n にするのが最大のミスです。</p></li>
+    <li><strong>Σ を計算</strong><div class="formula">= 2 + 2 × (n-1)n/2 + (n - 1) = 2 + n² - n + n - 1</div><p>項数が n − 1 個なので、定数1の和は (n − 1) です。</p></li>
+    <li><strong>整理して確認</strong><div class="formula">aₙ = n² + 1（n = 1 のとき 2 で成立）</div><p>n = 1 の確認を書くのが答案の作法です。</p></li>
+  </ol>
+  <div class="panel note">
+    <p><strong>検算：</strong>n = 1 から順に代入すると 2, 5, 10, 17, 26 で元の数列と完全に一致します。<strong>元の数列に戻す</strong>だけで確認できます。</p>
+  </div>
+
+  <h2>差がつく2行</h2>
+  <div class="panel">
+    <ol>
+      <li>上端が n − 1 になるのは、<strong>a₁ から aₙ まで階差を (n − 1) 回足す</strong>から。理由が分かれば暗記より確実です。</li>
+      <li><strong>n = 1 の確認</strong>を書かないと減点。公式は n ≧ 2 でしか使えません（成り立たない問題では場合分け）。</li>
+    </ol>
+  </div>
+
+  <h2>覚えるべきこと（在庫に入れる1行）</h2>
+  <div class="panel accent">
+    <p><strong>aₙ = a₁ + Σ(k=1 から n-1) bₖ（上端は n - 1）</strong></p>
+  </div>
+
+  <h2>類題（翌日、何も見ずに）</h2>
+  <div class="panel">
+    <ol>
+      <li>1, 3, 7, 13, 21, … の一般項
+        <details><summary>答え</summary><p>階差 2, 4, 6, 8 = 2k なので aₙ = 1 + (n−1)n = n² − n + 1</p></details>
+      </li>
+      <li>2, 5, 10, 17, 26, … の第10項
+        <details><summary>答え</summary><p>n² + 1 に n = 10 を入れて 101</p></details>
+      </li>
+      <li>3, 4, 7, 16, 43, … の一般項
+        <details><summary>答え</summary><p>階差 1, 3, 9, 27 = 3^(k−1) なので aₙ = 3 + (3^(n−1) − 1)/2</p></details>
+      </li>
+    </ol>
+  </div>
+
+  <p style="margin-top:32px"><a href="sigma-calc.html">← 第66回 Σ の計算</a>　｜　<a href="induction.html">第68回 数学的帰納法 →</a>　｜　<a href="../index.html">高校数学の一覧に戻る</a></p>
+
+
+
+<section class="video-transcript" aria-labelledby="video-transcript-heading">
+<h2 id="video-transcript-heading">動画の音声ナレーション</h2>
+<details>
+<summary>解説の全文を読む</summary>
+<ol>
+<li>こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。数列、2、5、10、17、26 と続く数列の一般項を求めなさい。等差でも等比でもありません。差を見てください。</li>
+<li>型はこれです。まず隣どうしの差を書く。次に、エー エヌ イコール、エー1 たす、シグマ ケー イコール 1 から エヌ ひく1 までの ビー ケー。上端が エヌ ひく1 になるのがポイントです。そして最後に、エヌ イコール 1 でも成り立つかを確認します。</li>
+<li>手順1。差を書きます。5 ひく2 で 3、10 ひく5 で 5、17 ひく10 で 7。3、5、7、9 という等差数列です。だから ビー ケー は 2ケー たす1 です。</li>
+<li>手順2。エー エヌ は、2 たす、シグマ ケー イコール1 から エヌ ひく1 までの、2ケー たす1。上端を エヌ にしないよう注意してください。</li>
+<li>手順3。シグマ を計算します。2 かける、エヌ ひく1 かける エヌ わる2 で エヌの2乗 ひく エヌ。定数の 1 は エヌ ひく1 個 あるので エヌ ひく1。</li>
+<li>手順4。整理すると エーエヌ イコール エヌの2乗 たす1。エヌ イコール1 を入れると 2 で、初項と一致します。だから すべての エヌ で成り立ちます。</li>
+<li>検算です。エヌ イコール 1 から 順に入れます。1 たす1 で 2、4 たす1 で 5、9 たす1 で 10、16 たす1 で 17、25 たす1 で 26。全部一致しました。階差数列の問題は、このように 元の数列に戻して確認できるので、答えを間違えたまま提出する理由がありません。</li>
+<li>差がつく2行。1つめ。上端が エヌ ひく1 になる理由を理解しておいてください。エー1 から エーエヌ まで進むのに、階差を エヌ ひく1 回 足すからです。理由が分かっていれば、機械的な暗記より確実です。2つめ。エヌ イコール 1 の確認を書き忘れると減点されます。公式は エヌ が 2 以上 でしか使えないので、初項でも成り立つことを示す必要があります。まれに成り立たない問題もあり、その場合は場合分けして答えます。</li>
+<li>おつかれさまでした。在庫に入れる1行は、これです。エーエヌ は、エー1 たす 階差の和、上端は エヌ ひく1。明日、何も見ずに、1、3、7、13、21 の一般項を求めてみてください。答えは、エヌの2乗 ひく エヌ たす1 です。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。</li>
+</ol>
+</details>
+</section>
+</main>
+
+<footer class="site">
+  <div class="wrap">知多丸式 挫折から学んだ効率的学習のすゝめ</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,225 @@
+{
+  "title": "Part7 目的を問う設問（最初の2文を読む）",
+  "subtitle": "TOEIC ／ Part別・型で解く ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。Part7の問題です。掲示を読みます。社員食堂は、厨房設備の交換のため、7月8日から12日まで短縮営業します。ランチは午前11時半から午後1時までのみの提供です。設問は、この掲示の目的は何か。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Notice: The employee cafeteria will",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "operate on a shortened schedule",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "from July 8 to July 12 while the",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "kitchen equipment is replaced.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Q: What is the purpose of the notice?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。目的を問う設問の根拠は、ほぼ最初の2文にあります。そして正解は本文の言いかえです。時刻や日付などの細部は、別の設問で使う情報なので、目的の答えにはなりません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的の設問は最初の2文にある",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文の言いかえを選ぶ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "細部（時刻・日付）は別の設問用",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "設問は目的を問うものです。したがって冒頭を読みます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：設問タイプを確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "purpose = 目的",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "冒頭を読む合図。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：設問タイプを確認"
+    },
+    {
+      "narration": "冒頭に、7月8日から12日まで短縮営業する、と書かれています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：冒頭の情報を取る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "shortened schedule from July 8 to July 12",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "短縮営業の告知。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：冒頭の情報を取る"
+    },
+    {
+      "narration": "これを言いかえると、一時的な営業時間の変更を知らせる、になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：言いかえに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "→ 一時的な営業時間の変更を知らせる",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "temporary change in hours",
+          "active": true
+        }
+      ],
+      "caption": "手順3：言いかえに直す"
+    },
+    {
+      "narration": "答えは、社員食堂の営業時間が一時的に変わることを知らせるため、です。設備交換は理由にあたる付随情報です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：答えを決める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "To announce a temporary change in cafeteria hours",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "「設備交換の理由」は付随情報。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：答えを決める"
+    },
+    {
+      "narration": "検算です。選んだ答えが、掲示の全体をカバーしているかを見ます。営業時間の変更という答えは、短縮営業とランチ時間の両方を説明できます。設備交換だけを答えにすると、後半のランチ時間の情報が浮いてしまいます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "答えが全体をカバーするか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "設備交換だけでは狭い",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "浮く情報があれば選び直す",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。本文の語をそのまま使った選択肢は、ひっかけであることが多いです。それから、ノット問題は、選択肢を1つずつ本文と照合して消す作業になります。時間がかかるので後回しにします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "本文と同語の選択肢は要注意",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "NOT問題は消去法で後回し",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。目的の設問は冒頭2文プラス言いかえ。細部は別の設問の根拠。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "目的の設問は冒頭2文＋言いかえ。細部は別の設問の根拠。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：同じ掲示で「ランチは何時まで提供されるか」と問われたときの答えを答えよ。 → 午後1時まで（1:00 P.M.）",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

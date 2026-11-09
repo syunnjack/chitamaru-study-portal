@@ -1,0 +1,220 @@
+{
+  "title": "屈折の法則と全反射（臨界角）",
+  "subtitle": "高校物理 ／ 波・電気・原子の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。屈折率1.5のガラスに、空気中から45度で光を入射させます。ガラス中の屈折角を求めてください。また、ガラスから空気へ出るときの臨界角も求めてください。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "屈折率 1.5 のガラスに",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "空気中から 45° で入射。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "ガラス中の屈折角を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "また空気へ出る臨界角を求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。屈折は エヌ1 サイン シータ1 イコール エヌ2 サイン シータ2 の1本だけ。答えが出たら、屈折率が大きい側では角度が小さくなる、という向きで確認します。全反射は、密から疎へ進むときだけ起こり、サイン 臨界角 イコール エヌ2 割る エヌ1 で求めます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "n₁ sinθ₁ = n₂ sinθ₂ の1本",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「密な媒質ほど角が小さい」で向きを確認",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全反射は sinθc = n₂ / n₁（密→疎のみ）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まず屈折の式を立てます。1.0かける サイン45度 イコール 1.5かける サイン シータ2 です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：屈折の式を立てる",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "1.0 × sin45° = 1.5 × sinθ₂",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "空気は n = 1.0。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：屈折の式を立てる"
+    },
+    {
+      "narration": "サイン45度は0.71なので、サイン シータ2 は0.71割る1.5で およそ0.47。角度にすると およそ28度です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：屈折角を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "sinθ₂ = 0.71 / 1.5 ≒ 0.47 → θ₂ ≒ 28°",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ガラス中では角が小さい。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：屈折角を求める"
+    },
+    {
+      "narration": "次に臨界角です。ガラスから空気へ、つまり密から疎へ進むので、サイン 臨界角 イコール 1.0割る1.5で およそ0.67です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：臨界角の式",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "sinθc = n₂ / n₁ = 1.0 / 1.5 ≒ 0.67",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "ガラス→空気なので密→疎。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：臨界角の式"
+    },
+    {
+      "narration": "サインが0.67になる角度は およそ42度です。ガラス側の入射角が42度より大きいと、光は外へ出ずに全反射します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：臨界角を求める",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "θc ≒ 42°",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "42°より大きい入射角では全反射。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：臨界角を求める"
+    },
+    {
+      "narration": "検算です。ガラスは空気より密なので、ガラス中の角度28度は入射角45度より小さくなっているはずです。実際に小さくなっているので、割り算の向きは正しいです。もし逆にしていれば、サインが1を超えて計算できなくなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "28° < 45°（密な側は角が小さい）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "逆にすると sin > 1 で計算不能",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "向きで確認する",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。まず、屈折しても振動数は変わらず、波長と速さが1割る エヌ になります。色が変わらない理由がこれです。それから、全反射は密から疎へ進むときにしか起こりません。空気からガラスへ入るときに臨界角を考えるのは、よくある誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "屈折で f は不変、λ と v は 1/n 倍",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "全反射は密→疎のときだけ",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。屈折は エヌ1 サイン シータ1 イコール エヌ2 サイン シータ2、全反射は サイン 臨界角 イコール エヌ2 割る エヌ1 で、密から疎のときだけ。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "屈折は n₁sinθ₁ = n₂sinθ₂、全反射は sinθc = n₂/n₁（密→疎のみ）。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：屈折率1.5のガラス中での光の速さを求めよ（真空中は3.0 × 10⁸ m/s）。 → v = 3.0 × 10⁸ / 1.5 = 2.0 × 10⁸ m/s",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "title": "要約と内容一致（段落ごとに1行で要約）",
+  "subtitle": "私立難関 英語 ／ 長文と英作文 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の3段落の英文について、内容一致問題を解く手順を示します。1、リーディング ファスト イズ ユースフル バット イット ハズ ア コスト。2、ホエン ウィ リード ファスト ウィ リメンバー ザ ストーリー バット フォーゲット ザ ワーズ ザ ライター チョーズ。3、スロー リーディング イズ ノット ジ オポジット オブ ファスト リーディング。イット イズ ア ディファレント トゥール フォー ア ディファレント パーパス。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "① Reading fast is useful, but it has a cost.",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "② When we read fast, we remember the story but forget the words ...",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "③ Slow reading is ... a different tool for a different purpose.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。長文を読みながら、段落ごとに1行の日本語メモを取ります。1段落目、速読は役立つが代償がある。2段落目、話は覚えるが言葉づかいは忘れる。3段落目、遅読は反対物ではなく別の道具。この3行があれば内容一致は解けます。判断基準は2つ。本文に書いてあるか、そして言いすぎていないか。オールウェイズ、ネバー、オンリー、オールが入る選択肢は、たいてい言いすぎです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "段落ごとに1行で日本語メモを取る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "内容一致は「本文にある」かつ「言いすぎていない」もの",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "always / never / only / all が入る選択肢は要注意",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "段落メモです。1、速読は有用だが代償がある。2、話は残るが言葉づかいは残らない。3、遅読は別の目的の別の道具。この3行で全体が押さえられます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：段落メモを作る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "①速読は有用だが代償あり ②話は残るが言葉は残らない ③遅読は別の道具",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "3行。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：段落メモを作る"
+    },
+    {
+      "narration": "選択肢の判定です。ファスト リーディング イズ オールウェイズ バッド。1段落目は有用だと認めているので、オールウェイズは言いすぎ。誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：言いすぎを切る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「Fast reading is always bad.」→ always が言いすぎ（①に but がある）",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "本文は否定していない。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：言いすぎを切る"
+    },
+    {
+      "narration": "スロー リーディング イズ ジ オポジット オブ ファスト リーディング。3段落目がノットで明確に否定しています。本文と逆なので誤りです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：対立の誤りを切る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「Slow reading is the opposite of fast reading.」→ ③が not で否定",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "本文と逆。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：対立の誤りを切る"
+    },
+    {
+      "narration": "正解の形はこうです。ファスト アンド スロー リーディング ハブ ディファレント パーパスィズ。3段落目の言いかえになっています。正解は必ず言いかえられています。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：正解の形を知る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "「Fast and slow reading have different purposes.」→ ③と一致",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "言いかえ。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：正解の形を知る"
+    },
+    {
+      "narration": "検算です。選んだ選択肢について、根拠が本文の何段落目にあるかを指させるか確認します。指させない選択肢は、自分の推測です。内容一致で外すのは、たいていこの推測によるものです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "選んだ根拠が何段落目にあるか指させるか",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "指させなければ推測",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "推測で選ぶと外れる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、正解は必ず言いかえられているということ。本文と同じ単語が並んでいる選択肢は、かえって誤りのことが多いです。ふたつ目、段落の1文目に注目することです。英語の段落は、最初の1文に主題が来る構成が圧倒的に多い。時間がないときは各段落の1文目だけを読む、これでも要旨は取れます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "正解は言いかえられている。同じ単語が並ぶ選択肢は疑う",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英語の段落は1文目に主題が来る。時間がなければ1文目だけ読む",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。段落ごとに1行メモ。内容一致は本文にあり、かつ言いすぎていないもの。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "段落ごとに1行メモ。内容一致は「本文にある」かつ「言いすぎない」。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：内容一致で要注意の語を4つ答えよ。 → always / never / only / all",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

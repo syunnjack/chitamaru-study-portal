@@ -1,0 +1,215 @@
+{
+  "title": "物質量molの基本（3方向の変換）",
+  "subtitle": "化学基礎 ／ 共通テストの型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。二酸化炭素8.8グラムについて、物質量、分子の数、標準状態での体積を求めてください。原子量は炭素が12、酸素が16、アボガドロ定数は6.0かける10の23乗毎モルとします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "CO₂ 8.8 g（C = 12、O = 16）。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "物質量と分子の数を求めよ。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "標準状態での体積も求めよ。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。モルは中継点です。質量から個数、質量から体積へ直接いこうとするから混乱します。まず質量をモル質量で割ってモルにする。そこからアボガドロ定数をかければ個数、22.4リットルをかければ標準状態の体積です。必ずモルを経由する、これだけ守ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "molは中継点：質量 ⇄ mol ⇄ 個数・体積",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "mol = 質量 ÷ モル質量",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "個数 = mol × 6.0 × 10²³、体積 = mol × 22.4 L（標準状態）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "まずモル質量です。炭素12と酸素16が2個で、44グラム毎モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：モル質量を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "CO₂ = 12 + 16 × 2 = 44 g/mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "式量に g/mol をつける。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：モル質量を出す"
+    },
+    {
+      "narration": "次にモルに直します。8.8を44で割って0.20モルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：molに直す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "8.8 ÷ 44 = 0.20 mol",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "質量÷モル質量。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：molに直す"
+    },
+    {
+      "narration": "分子の数は、0.20かける6.0かける10の23乗で、1.2かける10の23乗個です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：分子の数を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 6.0 × 10²³ = 1.2 × 10²³ 個",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "molにアボガドロ定数。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：分子の数を出す"
+    },
+    {
+      "narration": "標準状態での体積は、0.20かける22.4で、およそ4.5リットルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：体積を出す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 × 22.4 = 4.48 ≒ 4.5 L",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "標準状態は22.4 L/mol。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：体積を出す"
+    },
+    {
+      "narration": "検算です。0.20モルは1モルの5分の1です。1モルなら44グラム、22.4リットル、6.0かける10の23乗個。すべて5分の1にすると、8.8グラム、4.48リットル、1.2かける10の23乗個。3つとも答えと一致します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "0.20 mol は 1 mol の 1/5",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "44 g、22.4 L、6.0×10²³ を 1/5 に",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "8.8 g、4.48 L、1.2×10²³ で一致",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、22.4リットルが使えるのは気体だけ、しかも標準状態のときだけです。液体や固体に使うと即失点します。ふたつ目、気体の体積は種類によらずモル数だけで決まります。だから同じ体積の気体は同じモル数、というアボガドロの法則がそのまま使えます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "22.4 L/mol は「気体」「標準状態」限定",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同体積の気体は同molになる（アボガドロの法則）",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。モルは中継点。質量をモル質量で割ってモル、そこからアボガドロ定数か22.4リットルをかける。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "molは中継点。質量÷モル質量→mol→×6.0×10²³ か ×22.4 L。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：水H₂O 3.6 gの物質量を求めよ（H = 1.0、O = 16）。 → 18 g/mol より 0.20 mol",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

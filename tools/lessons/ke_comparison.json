@@ -1,0 +1,220 @@
+{
+  "title": "比較（3つの型に当てはめる）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語にします。1、この本はあの本より役に立ちます。2、富士山は日本でいちばん高い山です。3、私の自転車は兄の自転車ほど新しくありません。4、数学は私にとって英語と同じくらい大切です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) この本はあの本より役に立ちます。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) 富士山は日本でいちばん高い山です。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) 私の自転車は兄の自転車ほど新しくありません。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(4) 数学は私にとって英語と同じくらい大切です。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。比較は3つだけ。より〜だは比較級プラスザン。いちばん〜だはザ、最上級、そしてインまたはオブ。同じくらいはアズ、原級、アズ。この3つに当てはめるだけです。そして語が長いときはイーアールやイーエスティーではなく、モアとモウストをつけます。ユースフルはモアユースフル、モウストユースフルです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比較級 + than／the + 最上級 + in / of",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "同じくらい：as + 原級 + as／〜ほど〜ない：not as + 原級 + as",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "長い語は more / most をつける（useful → more useful）",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。ユースフルは長い語なのでモアユースフル。ジスブックイズモアユースフルザンザットワン。同じ名詞のくり返しはワンで置きかえます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 比較級",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "This book is more useful than that one.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "useful は more。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 比較級"
+    },
+    {
+      "narration": "2です。ハイエストの前にザ、範囲は場所なのでインジャパン。マウントフジイズザハイエストマウンテンインジャパン。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 最上級",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Mt. Fuji is the highest mountain in Japan.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "the と in。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 最上級"
+    },
+    {
+      "narration": "3です。ほど新しくないなので、ナットアズニューアズ。アズにはさむ語は原級のニューのままです。マイバイクイズナットアズニューアズマイブラザーズ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) not as ~ as",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My bike is not as new as my brother's.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原級のまま。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) not as ~ as"
+    },
+    {
+      "narration": "4です。同じくらい大切なのでアズインポータントアズ。マスイズアズインポータントアズイングリッシュフォーミー。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(4) as ~ as",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Math is as important as English for me.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "原級。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(4) as ~ as"
+    },
+    {
+      "narration": "検算です。3つの型のどれを使ったかを声に出して言います。1は比較級プラスザン、2はザプラス最上級プラスイン、3と4はアズプラス原級プラスアズ。そしてアズとアズの間に比較級を入れていないかを確認します。ここがいちばん多いミスです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "使った型を言えるか（than / the ~ in / as ~ as）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "as と as の間は原級か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "the の付け忘れがないか",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、書きかえです。ヒーイズザテレストインヒズクラスは、ノーワンインヒズクラスイズテレザンヒーと言いかえられます。最上級と比較級の書きかえは頻出です。ふたつ目、倍数表現です。トゥワイスアズビッグアズ、2倍の大きさ。数字プラスタイムズアズプラス原級プラスアズの形で表します。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "最上級 ⇔ 比較級の書きかえ（No one is taller than he.）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "倍数は twice as big as / three times as long as",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。比較級プラスザン、ザプラス最上級プラスイン、アズプラス原級プラスアズ。長い語はモアとモウスト。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "比較級＋than／the＋最上級＋in／as＋原級＋as。長い語はmore・most。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「この問題はあの問題より難しい」を英語にせよ。 → This question is more difficult than that one.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

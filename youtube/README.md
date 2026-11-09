@@ -4,7 +4,13 @@
 サブタイトル：**難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！**
 
 `videos/` の mp4 をそのままアップロードできます（1280×720 / H.264 + AAC / 日本語ナレーション ja-JP-NanamiNeural）。
-以下は各動画のタイトル・説明文のひな形です。共通の説明文（下部）を各動画の末尾に貼り付けてください。
+
+- チャンネル作成・ブランディング・再生リスト・伸ばし方：`youtube/channel-setup.md`
+- 全動画のタイトル／概要欄／タグ（コピペ用・自動生成）：`youtube/metadata.md`
+- 情報の元データ：`youtube/videos.json`（ここを直して `python3 tools/make_youtube_assets.py` を実行すると、サムネイル・metadata.md・`youtube.html` が作り直されます）
+- チャンネルアート：`assets/youtube/banner.png` ／ アイコン：`assets/youtube/icon.png` ／ サムネイル：`assets/youtube/thumbs/`
+
+以下は各動画のタイトル・説明文のひな形です（詳細版は `youtube/metadata.md`）。共通の説明文（下部）を各動画の末尾に貼り付けてください。
 
 ## 共通の説明文（各動画の末尾に貼る）
 
@@ -23,19 +29,21 @@
 
 | # | ファイル | タイトル |
 |---|---|---|
-| 1 | `videos/quadratic-vertex.mp4` | 【高校数学I】放物線の頂点は平方完成だけ／y = x² + 8x + 5 |
-| 2 | `videos/quadratic-formula.mp4` | 【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 5x + 3 = 0 |
-| 3 | `videos/discriminant-count.mp4` | 【高校数学I】実数解の個数は解かずに判別式だけ／x² − 6x + 10 = 0 |
-| 4 | `videos/sine-rule.mp4` | 【高校数学I】正弦定理で辺を出す／A = 45°, C = 75°, BC = 2 |
-| 5 | `videos/triangle-inequality.mp4` | 【高校数学I】三角形の成立条件は場合分け不要／3辺が 2, x+3, 3 |
+| 1 | `videos/quadratic-vertex.mp4` | 【高校数学I】放物線の頂点は平方完成だけ／y = x² + 12x + 20 |
+| 2 | `videos/quadratic-formula.mp4` | 【高校数学I】2次方程式は10秒で因数分解を見切る／x² − 7x + 5 = 0 |
+| 3 | `videos/discriminant-count.mp4` | 【高校数学I】実数解の個数は解かずに判別式だけ／x² − 4x + 9 = 0 |
+| 4 | `videos/sine-rule.mp4` | 【高校数学I】正弦定理で辺を出す／A = 30°, C = 105°, BC = 4 |
+| 5 | `videos/triangle-inequality.mp4` | 【高校数学I】三角形の成立条件は場合分け不要／3辺が 5, x+2, 8 |
 | 6 | `videos/assumed-mean.mp4` | 【高校数学I】仮平均法でズレだけ足す平均の出し方 |
-| 7 | `videos/combinations.mp4` | 【高校数学A】組合せは2つの道具で一瞬／₁₀₀C₉₈ と ₂₁C₁₅ + ₂₁C₁₆ |
+| 7 | `videos/combinations.mp4` | 【高校数学A】組合せは2つの道具で一瞬／₈₀C₇₇ と ₁₅C₉ + ₁₅C₁₀ |
 | 8 | `videos/completing-square.mp4` | 【高校数学I】x²の係数が1でない平方完成は3拍子／y = 2x² − 12x + 5 |
 | 9 | `videos/domain-max-min.mp4` | 【高校数学I】定義域つき最大・最小は3点だけ調べる／0 ≦ x ≦ 3 |
 | 10 | `videos/graph-translation.mp4` | 【高校数学I】平行移動は「符号が逆」だけ覚える／検算は頂点 |
 | 11 | `videos/cosine-rule.mp4` | 【高校数学I】余弦定理か正弦定理かの見分け方／b=3, c=5, A=60° |
 | 12 | `videos/triangle-area.mp4` | 【高校数学I】高さが無くても面積は出る／S = ½bc sin A |
-| 13 | `videos/gcd-lcm.mp4` | 【高校数学A】公約数・公倍数は素因数分解の指数で決まる／24 と 36 |
+| 13 | `videos/gcd-lcm.mp4` | 【高校数学A】公約数・公倍数は素因数分解の指数で決まる／40 と 60 |
+| 14 | `videos/quadratic-inequality.mp4` | 【高校数学I・2次不等式】x² − 5x + 6 > 0／「＞0は外側、＜0は内側」だけ |
+| 15 | `videos/variance-sd.mp4` | 【高校数学I・データの分析】分散は「2乗の平均 − 平均の2乗」／2,4,6,8,10 の標準偏差 |
 
 ### 高校受験数学（別シリーズ・再生リストを分ける）
 
@@ -43,18 +51,19 @@
 
 | # | ファイル | タイトル |
 |---|---|---|
-| 1 | `videos/telescoping-fourth-power.mp4` | 【高校入試】50項が1行で消える／1(0²+1²)+3(1²+2²)+…+99(49²+50²)=○⁴ |
+| 1 | `videos/telescoping-product-sum.mp4` | 【高校入試】20項が1行で消える／1×2 + 2×3 + … + 20×21 |
 | 2 | `videos/pythagoras-altitude.mp4` | 【高校入試】斜辺への垂線は「面積2通り」で一発／AB=6, BC=8 |
-| 3 | `videos/squares-heptagon.mp4` | 【高校入試・図形の証明】正方形2つの七角形の面積／44 + 18√3 cm² |
-| 4 | `videos/circle-chords.mp4` | 【高校入試・円】直交する2弦と網目部分の面積／25π/4 + 5/2 |
+| 3 | `videos/squares-heptagon.mp4` | 【高校入試・図形の証明】正方形2つの七角形の面積／74 + 30√3 cm² |
+| 4 | `videos/circle-chords.mp4` | 【高校入試・円】直交する2弦と網目部分の面積／65π/8 + 2 |
 | 5 | `videos/factor-x4.mp4` | 【高校入試・因数分解】1 + x² + x⁴ は平方の差にする／3問まとめ |
-| 6 | `videos/locus-midpoint.mp4` | 【高校入試・軌跡】中点が動いてできる線は半径1/2の円／2π cm と 2 cm² |
+| 6 | `videos/locus-midpoint.mp4` | 【高校入試・軌跡】中点が動いてできる線は半径1/2の円／3π cm と 9/2 cm² |
+| 7 | `videos/similar-area-ratio.mp4` | 【高校入試・相似】面積比は辺の比の2乗／△ADE : 四角形DBCE = 4 : 5 |
 
 ### 説明文の書き方（1本目の例）
 
 ```
 「頂点を求めよ」と言われたら、平方完成。これ以外の方法を探さないことが要領です。
-y = x² + 8x + 5 を、係数の半分→2乗を引く、の手順で y = (x + 4)² − 11 に直し、頂点 (−4, −11) を読み取ります。
+y = x² + 12x + 20 を、係数の半分→2乗を引く、の手順で y = (x + 6)² − 16 に直し、頂点 (−6, −16) を読み取ります。
 検算は、頂点の x を元の式に代入するだけ（10秒）。
 
 00:00 今日の問題

@@ -1,0 +1,215 @@
+{
+  "title": "語順と疑問文（英語は「誰が どうする 何を」）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の日本語を英語にします。1、私の兄は毎朝、犬を公園へ連れて行きます。2、あなたはいつその本を読んだのですか。3、彼女は何冊の本を持っているのですか。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) 私の兄は毎朝、犬を公園へ連れて行きます。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) あなたはいつその本を読んだのですか。",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) 彼女は何冊の本を持っているのですか。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。英語の語順は、誰が、どうする、何を、どこへ、いつ。日本語と違って動詞が先に来ます。疑問文は、疑問詞、ドゥまたはダズまたはディド、主語、動詞の原形。この順を口で言えるようにしておけば、並べかえ問題は全部解けます。数をたずねるときはハウメニーのあとに複数形の名詞です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "英語は「誰が → どうする → 何を → どこへ → いつ」の順",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "疑問文は「疑問詞 + do/does/did + 主語 + 動詞の原形」",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "How many + 名詞の複数形 で数をたずねる",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。まず誰が、どうする、何を。マイブラザー、テイクス、ヒズドッグ。三人称単数なのでテイクスとエスがつきます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 主語と動詞を置く",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My brother takes his dog",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "誰が・どうする・何を。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 主語と動詞を置く"
+    },
+    {
+      "narration": "そのあとに場所、最後に時。トゥーザパーク、エブリモーニング。場所より時が後ろ、これが英語の順番です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(1) 場所→時の順に足す",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "My brother takes his dog to the park every morning.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "どこへ→いつ。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(1) 場所→時の順に足す"
+    },
+    {
+      "narration": "2です。いつ、なので疑問詞はホウェン。過去なのでディド、そのあと主語ユー、動詞は原形リード。ホウェンディドユーリードザブック。ディドを使ったら動詞は必ず原形です。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(2) 疑問詞＋did",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "When did you read the book?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "動詞は原形。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(2) 疑問詞＋did"
+    },
+    {
+      "narration": "3です。何冊なのでハウメニーブックス、名詞は複数形。そのあとダズシーハブ。ハウメニーブックスダズシーハブ。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(3) How many＋複数形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "How many books does she have?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "名詞は複数形。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(3) How many＋複数形"
+    },
+    {
+      "narration": "検算です。書いた英文を、主語、動詞、それ以外に指で区切ります。1はマイブラザーが主語、テイクスが動詞、残りが目的語と場所と時。2と3は疑問詞のあとに助動詞があり、そのあとの動詞が原形になっている。この2点を確認すれば、語順の失点はなくなります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "主語・動詞・その他に区切る",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "did/does のあとの動詞は原形か",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "場所→時の順になっているか",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、頻度を表す語の位置です。オールウェイズ、アズアリー、ネバーは一般動詞の前、ビー動詞の後ろ。ヒーアルウェイズゲッツアップアーリー、ヒーイズオールウェイズビジー。ふたつ目、間接疑問です。文の中に疑問文が入ると語順が戻ります。アイドンノウ、ホウェアヒーリブズ。疑問詞のあとが主語、動詞の順になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "頻度の副詞は一般動詞の前、be動詞の後ろ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "間接疑問は「疑問詞＋主語＋動詞」に戻る",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。誰が、どうする、何を、どこへ、いつ。ディドやダズのあとは動詞の原形。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "誰が→どうする→何を→どこへ→いつ。did/does のあとは原形。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「あなたはどこでその写真を撮ったのですか」を英語にせよ。 → Where did you take the picture?",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}

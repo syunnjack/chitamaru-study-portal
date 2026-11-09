@@ -1,0 +1,215 @@
+{
+  "title": "時制と現在完了（for と since の使い分け）",
+  "subtitle": "公立入試 英語 ／ 愛知県の型 ｜ 知多丸の落ちこぼれ救済チャンネル ｜ 難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう！",
+  "scenes": [
+    {
+      "narration": "こんにちは。知多丸の落ちこぼれ救済チャンネルです。難関大学に合格して、錯覚資産を手に入れて、一流企業に入社しよう。今日の問題です。次の空所に適する語を入れます。1、アイ、かっこ、インナゴヤ、フォーテンイヤーズ。今も住んでいるという意味です。2、シー、かっこ、かっこ、ハーホームワーク、イェット。まだ終えていないという意味です。3、ハブユーエバー、かっこ、トゥーキョウト。イエス、アイ、かっこ、ゼアトゥワイス。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "今日の問題",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(1) I (   ) in Nagoya for ten years.（今も住んでいる）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(2) She (   ) (   ) her homework yet.（まだ終えていない）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "(3) Have you ever (   ) to Kyoto? — Yes, I (   ) there twice.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "所要時間の目安：4分",
+          "active": true
+        }
+      ],
+      "caption": "今日の問題"
+    },
+    {
+      "narration": "型はこうです。現在完了はハブまたはハズ、プラス過去分詞。過去のことが今につながっているときに使います。フォーのあとは期間、テンイヤーズやスリーデイズ。シンスのあとは始まった時点、2015やラストイヤー。そして経験を表す、行ったことがある、はハブビーントゥー。ハブゴーントゥーだと行ってしまって今いないという意味になります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "解法の型",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在完了 = have/has + 過去分詞（過去と今がつながっている）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "for + 期間（ten years）／since + 始まった時点（2015）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "経験の「〜へ行ったことがある」は have been to",
+          "active": true
+        }
+      ],
+      "caption": "解法の型"
+    },
+    {
+      "narration": "1です。フォーテンイヤーズで期間があり、今も住んでいる。過去から今までの継続なので、ハブリブドが入ります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順1：(1) 継続を判断する",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "for ten years かつ今も住んでいる → have lived",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "現在完了。",
+          "active": true
+        }
+      ],
+      "caption": "手順1：(1) 継続を判断する"
+    },
+    {
+      "narration": "2です。イェットが否定文でまだという意味を作ります。三人称単数なのでハズナットフィニッシュト、短縮すればハズントフィニッシュトです。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順2：(2) 完了・yet に注目",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "yet（まだ）＋ 否定 → has not finished",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "hasn't finished。",
+          "active": true
+        }
+      ],
+      "caption": "手順2：(2) 完了・yet に注目"
+    },
+    {
+      "narration": "3の前半です。エバーがあるので経験。行ったことがあるはビーントゥーなので、ハブユーエバービーントゥーキョウトになります。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順3：(3) 経験の疑問文",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Have you ever been to Kyoto?",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "been to。",
+          "active": true
+        }
+      ],
+      "caption": "手順3：(3) 経験の疑問文"
+    },
+    {
+      "narration": "後半です。トゥワイス、2回という語も経験の合図。アイハブビーンゼアトゥワイス。ゼアの前にトゥーは付けません。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "手順4：(3) 答えの形",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "Yes, I have been there twice.",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "twice も経験の合図。",
+          "active": true
+        }
+      ],
+      "caption": "手順4：(3) 答えの形"
+    },
+    {
+      "narration": "検算です。現在完了か過去形かは、時を表す語で確認します。イエスタデイ、ラストイヤー、アゴがあれば過去形しか使えません。フォー、シンス、エバー、イェット、ジャスト、オールレディがあれば現在完了。時の語と時制がそろっているかを最後に見ます。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "検算",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "yesterday / last year / ago → 過去形のみ",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "for / since / ever / yet / just → 現在完了",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "時の語と時制をそろえる",
+          "active": true
+        }
+      ],
+      "caption": "検算"
+    },
+    {
+      "narration": "差がつく2行です。ひとつ目、現在完了進行形です。アイハブビーンスタディングイングリッシュフォートゥーアワーズ。ずっと続けている動作を強調します。ふたつ目、過去形と現在完了は同じ文で混ぜないことです。アイハブビジテッドキョウトラストイヤーは誤り。ラストイヤーがあるなら、アイビジテッドキョウトラストイヤーと過去形にします。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "差がつく2行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "現在完了進行形：have been ~ing（動作の継続）",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "過去を表す語があるときに現在完了は使えない",
+          "active": true
+        }
+      ],
+      "caption": "差がつく2行"
+    },
+    {
+      "narration": "在庫に入れる1行です。ハブまたはハズ、プラス過去分詞。フォーは期間、シンスは時点。行ったことがあるはハブビーントゥー。チャンネル登録をして、次の動画でも一緒に、要領よく積み上げていきましょう。",
+      "lines": [
+        {
+          "style": "head",
+          "text": "在庫に入れる1行",
+          "active": true
+        },
+        {
+          "style": "formula",
+          "text": "have/has＋過去分詞。for＝期間、since＝時点。行ったことがある＝have been to。",
+          "active": true
+        },
+        {
+          "style": "note",
+          "text": "類題：「私は2020年からこの学校で学んでいます」を英語にせよ。 → I have studied at this school since 2020.",
+          "active": true
+        }
+      ],
+      "caption": "在庫に入れる1行"
+    }
+  ]
+}
